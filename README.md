@@ -1,8 +1,6 @@
 ---
 description: >-
-  Sonoran CMS manages your community's website, documents, whitelisting, in-game
-  permissions, and more! Learn more about how Sonoran CMS can be your
-  community's single point of management.
+  This is a test PR to see how this works
 ---
 
 # Sonoran CMS
@@ -39,9 +37,9 @@ Sonoran CMS is a state-of-the-art, cross-platform, all-in-one community manageme
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-### How do I access Sonoran CMS?
+### Some Random Change
 
-* [Website](https://sonorancms.com/)
+* [Website](https://test.com/)
 * [iOS App Store](https://apps.apple.com/us/app/sonoran-cms/id1576259945)
 * [Google Play Store](https://play.google.com/store/apps/details?id=com.sonorancms\&hl=en\_US\&gl=US)
 * [Windows Desktop](https://github.com/Sonoran-Software/SonoranCMS\_Windows/releases/latest/download/Sonoran-CMS.exe)
