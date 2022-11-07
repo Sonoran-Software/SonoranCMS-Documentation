@@ -10,6 +10,23 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.16 (Beta) 11/7/2022
+
+{% tabs %}
+{% tab title="New" %}
+[Community Discovery](../tutorials/getting-started/community-discovery.md)
+
+* [Bump System](../tutorials/getting-started/community-discovery.md#community-discovery-bump-system)
+  * Allows your community to be bumped to the top of the Community Discovery list.
+    * &#x20;Every **20 hours**!
+    * Bumping will automatically advertise your community to the thousands of users in the Sonoran Software Systems LLC's Official Discord!
+* Tags Categorization
+  * Categorization your community with up to **5** predefined tags!
+    * Select up to **3** tags with Sonoran CMS Free - Plus
+    * Select up to **5** tags with Sonoran CMS Pro / Sonoran One
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.15 (Beta) 11/3/2022
 
 {% tabs %}

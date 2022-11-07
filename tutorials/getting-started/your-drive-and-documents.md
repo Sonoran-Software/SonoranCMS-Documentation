@@ -6,7 +6,7 @@ description: >-
 
 # Your Drive & Documents
 
-![Sonoran CMS - Document Drive Management](<../../.gitbook/assets/CMS feature promo - template (1).png>)
+![Sonoran CMS - Document Drive Management](<../../.gitbook/assets/CMS feature promo - template.png>)
 
 With your drive, you're able to create files and folders for your community. These files are completely customizable, and have a similar style editor to the Microsoft Office suite
 
@@ -116,7 +116,7 @@ This will inherit the parent folder's general access settings, this will simply 
 
 You can also change the sensitivity of the document. With sensitive mode enabled, viewers will not be able to download or print the document. A watermark will also be added.
 
-![Sonoran CMS - Sensitive Document Toggle](<../../.gitbook/assets/image (17).png>)
+![Sonoran CMS - Sensitive Document Toggle](<../../.gitbook/assets/image (15).png>)
 
 ### Saving
 

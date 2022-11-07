@@ -4,7 +4,7 @@ description: This guide covers managing Calendar Events in Sonoran CMS.
 
 # Community Events
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Sonoran CMS - Community Events</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Sonoran CMS - Community Events</p></figcaption></figure>
 
 Community Events allow you to organize and plan events for your community to further engage with your members. Events allow you to plan the start & end time, title, description and an optional header image for each. Events also allow your members to RSVP to track who's attending your event.
 

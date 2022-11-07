@@ -18,11 +18,11 @@ On the Sonoran Account website, select Account > Advanced > Delete Account
 
 This will send an email confirmation to the address on file.
 
-![Sonoran Account - Delete Account](<../../.gitbook/assets/image (13).png>)
+![Sonoran Account - Delete Account](<../../.gitbook/assets/image (7).png>)
 
 ### 3. Verify your Email
 
 Check your email for an account removal request and click the "Remove Account" button.\
 Having trouble seeing it? Be sure to check your spam/junk folder.
 
-![Sonoran Account - Removal Email](<../../.gitbook/assets/image (16).png>)
+![Sonoran Account - Removal Email](<../../.gitbook/assets/image (14).png>)

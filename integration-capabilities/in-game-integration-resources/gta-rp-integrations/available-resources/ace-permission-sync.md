@@ -69,7 +69,7 @@ For communities on the **Plus** plan or higher, permissions can be synced instan
 
 Simply add your FiveM server's public IP address and port under Admin > Advanced > API Integration > Servers.
 
-![](<../../../../.gitbook/assets/image (10).png>)
+![](<../../../../.gitbook/assets/image (13).png>)
 
 ### Manual Sync
 
@@ -83,7 +83,7 @@ Individual players can run the `/refreshpermissions`command in-game to force a p
 
 ### 1. Open Department Configuration Page
 
-![](<../../../../.gitbook/assets/image (7).png>)
+![](<../../../../.gitbook/assets/image (4).png>)
 
 ### 2. Select the Rank
 
@@ -91,7 +91,7 @@ Individual players can run the `/refreshpermissions`command in-game to force a p
 
 ### 3. Copy Rank ID
 
-![](<../../../../.gitbook/assets/image (9).png>)
+![](<../../../../.gitbook/assets/image (10).png>)
 
 ## Example Configuration
 
