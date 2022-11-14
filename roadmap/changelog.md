@@ -53,6 +53,10 @@ description: View the latest changes to Sonoran CMS!
 * User Interface
   * Equal sizing has been applied to all community discovery cards
   * Each community has been moved to a dedicated modal upon click to provide additional information prior to the community
+
+Application User Interface
+
+* Various aspects of the Sonoran CMS has seen UI improvements
 {% endtab %}
 {% endtabs %}
 
