@@ -10,6 +10,52 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.17 (Beta) 11/14/2022
+
+{% tabs %}
+{% tab title="Fixed" %}
+[Community Drive](../tutorials/getting-started/your-drive-and-documents.md)
+
+* Editing Files
+  * An issue which would cause files to not be edited within the member editing page but would still allow edits through the public-sided edit file page.
+
+[Discord Webhook Logging](../integration-capabilities/discord-webhooks.md)
+
+* Editor
+  * An issue which would cause the webhook input editor to not load fully or at all.
+* Webhooks Executing
+  * An issue which would causing the Calendar Creation webhook to not execute at all.
+
+[Community Discovery](../tutorials/getting-started/community-discovery.md)
+
+* Bump System
+  * An issue which would cause the Discord advertisement webhook message to include various programmatic types within the message such as '\[object Object]' & 'undefined'.
+
+[Community Member Profile](../tutorials/customization/community-profile-fields.md)
+
+* Forms
+  * An issue which would cause individuals to be unable to submit forms directly onto another user's profile to attach it to their profile.
+
+[Rosters](../tutorials/getting-started/creating-custom-rosters.md)
+
+* Column Types
+  * Community Identifier row columns would not populate with a user's primary identifier properly unless the conditions which very specific.
+
+[Custom Stage Form Actions](../tutorials/getting-started/creating-custom-form-stages.md)
+
+* Status Modifier
+  * An issue which would cause the stage action to change community status to not execute properly unless the individual was active within the community from the start.
+{% endtab %}
+
+{% tab title="Changed" %}
+[Community Discovery](../tutorials/getting-started/community-discovery.md)
+
+* User Interface
+  * Equal sizing has been applied to all community discovery cards
+  * Each community has been moved to a dedicated modal upon click to provide additional information prior to the community
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.16 (Beta) 11/7/2022
 
 {% tabs %}
