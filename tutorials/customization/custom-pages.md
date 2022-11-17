@@ -31,6 +31,8 @@ To start editing a page, either add a new page or edit an existing page in the p
 | Text         | The text section includes a rich editor for including blocks of text. In this editor, you are able to set font sizes, bold, italic, underline, strike-through, and more! |
 | Image        | Image sections allow you to insert one image into your page, just paste a link to the image in the text box.                                                             |
 | Video        | The video section can be used to insert YouTube links into your custom page, just paste a regular YouTube link (or a shortened one) into the text box.                   |
+| Button       | Button sections allow you to put individual buttons on your page that can be directed to an external page, custom form, or custom page.                                  |
+| Button Group | Button Group sections allow you to have a group of buttons together on your page that can be directed to an external page, custom form, or custom page.                  |
 
 ### Section Sizes & Align
 
@@ -45,6 +47,12 @@ If you wish to add custom HTML to your page, you can click the right most button
 ![](https://i.imgur.com/wYu5hUB.png)
 
 In the HTML editor, you are able to write or insert your own HTML code that wouldn't be possible using the default editor.
+
+### Buttons
+
+If you wish to add buttons to your page, you can add a button or button group section to your page. Each button has several settings that define how the button looks like and acts. Each button can be direct users to external websites, custom forms and custom pages.
+
+<figure><img src="https://i.imgur.com/lHUP8yZ.png" alt=""><figcaption><p>Sonoran CMS - Custom Page Editor - Demoing Buttons</p></figcaption></figure>
 
 ## Toolbar
 

@@ -36,4 +36,4 @@ If enabled you can bump your community's discoverability every twenty (**20**) h
 
 Bumping your community will also send a predefined community advertisement in the [#advertise-here](https://ptb.discord.com/channels/611781170895781888/682365995503190028) channel in the Sonoran Software System LLC's Official Discord server.
 
-<figure><img src="https://i.imgur.com/oLxwlxv.png" alt=""><figcaption><p>Sonoran CMS - Discord Official Community Advertisement</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/I4drla4.png" alt=""><figcaption><p>Sonoran CMS - Discord Official Community Advertisement</p></figcaption></figure>

@@ -15,15 +15,16 @@ The admin customization info section allows you to customize your community's im
 
 ![Sonoran CMS - Community Customization](../../.gitbook/assets/brave\_MyKxMxKOiZ.png)
 
-| Field                    | Description                                                                                                                 |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| Image                    | <p>A link to your community's logo.</p><p>This will be displayed on your community card, community dashboard, and more!</p> |
-| Community Name           | <p>This is your community's name.</p><p>This will be displayed on your community card and community dashboard.</p>          |
-| Community Subtitle       | This is the text displayed below your community name on your community card.                                                |
-| Community Description    | This is the text displayed on your community dashboard.                                                                     |
-| Website                  | This is a link to your community website, to be displayed on the community dashboard.                                       |
-| Discord                  | This is a link to your community discord, to be displayed on the community dashboard.                                       |
-| Name & Identifier Format | This is the format that your community users will be displayed as, for example on their profile.                            |
+| Field                    | Description                                                                                                                        |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Image                    | <p>A link to your community's logo.</p><p>This will be displayed on your community card, community dashboard, and more!</p>        |
+| Banner Image             | A link to your community's banner image. This will be displayed primarily through Community Discovery advertisement notifications. |
+| Community Name           | <p>This is your community's name.</p><p>This will be displayed on your community card and community dashboard.</p>                 |
+| Community Subtitle       | This is the text displayed below your community name on your community card.                                                       |
+| Community Description    | This is the text displayed on your community dashboard.                                                                            |
+| Website                  | This is a link to your community website, to be displayed on the community dashboard.                                              |
+| Discord                  | This is a link to your community discord, to be displayed on the community dashboard.                                              |
+| Name & Identifier Format | This is the format that your community users will be displayed as, for example on their profile.                                   |
 
 ### Toolbar
 
