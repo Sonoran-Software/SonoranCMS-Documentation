@@ -10,6 +10,41 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.18 (Beta) 11/17/2022
+
+{% tabs %}
+{% tab title="New" %}
+[Community Customization](../tutorials/customization/community-branding-and-settings.md)
+
+* Cosmetic
+  * You can now add a community "banner" image, currently this banner image only displays with the notification message sent with bumping your community for discovery.
+
+[Community Discovery](../tutorials/getting-started/community-discovery.md)
+
+* Bumping
+  * Bumping your community will now include your community's banner image upon bump. If no banner image is set it won't include any image.
+
+[Custom Pages](../tutorials/customization/custom-pages.md)
+
+* Page Elements
+  * Two new page elements have been added, `Button` and `Button Group`. Both these elements can be added to any custom page. Each button's functionality and style can be configured to fit your needs. Buttons can target to a external website, custom form and custom page.
+{% endtab %}
+
+{% tab title="Fixed" %}
+[Community Discovery](../tutorials/getting-started/community-discovery.md)
+
+* Clicking community cards to open up the community modal would not be possible unless you click the image or text on the card. The whole card should be clickable.
+* Clicking a community card would display a modal with additional community information and options to join, this would not include the image.
+{% endtab %}
+
+{% tab title="Changed" %}
+[Department Manager](../tutorials/departments/)
+
+* Performance
+  * Several improvements have been implemented to decrease any issues with performance regarding permission management of departments.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.17 (Beta) 11/14/2022
 
 {% tabs %}
