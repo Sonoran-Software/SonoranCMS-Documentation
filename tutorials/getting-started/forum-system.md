@@ -6,7 +6,7 @@ description: >-
 
 # Forum System
 
-<figure><img src="https://i.imgur.com/rzmgkzl.png" alt=""><figcaption><p>Sonoran CMS - Custom Page - Forum Sections</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/rectangle.png" alt=""><figcaption><p>Sonoran CMS - Community Forums</p></figcaption></figure>
 
 The Sonoran CMS Forum System is a custom page element allowing you to create and organize your forum(s) to fit the needs of your community. Easily add Forum Categories to any custom page, create or use existing categories across multiple pages. Each category has the ability to manage permissions to **Create a Topic**, **Remove Topics**, and **Remove Topic Replies**.
 

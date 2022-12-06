@@ -21,13 +21,17 @@ Manage your community's documents, spreadsheets, and presentations natively in t
 
 ![Sonoran CMS - Documents](../.gitbook/assets/cms-promo2.png)
 
-## 🌐 [Custom Community Pages](../tutorials/customization/custom-pages.md)
+## 🌐 [Custom Community Pages](../tutorials/customization/custom-pages.md) and [Forums](../tutorials/getting-started/forum-system.md)
 
 Create your own [community website](../tutorials/customization/custom-pages.md), all [on your own domain](../tutorials/customization/custom-domain.md)!
 
 Create custom pages with community information, multi-media, announcements, and more!
 
+Sonoran CMS even allows you to add [community forums](../tutorials/getting-started/forum-system.md) for posts, discussions, and more!
+
 ![Sonoran CMS - Custom Pages](../.gitbook/assets/pg-builder2.png)
+
+<figure><img src="../.gitbook/assets/rectangle.png" alt=""><figcaption><p>Sonoran CMS - Community Forums</p></figcaption></figure>
 
 ## ✍️ [Custom Applications and Forms](../tutorials/getting-started/creating-custom-forms.md)
 
