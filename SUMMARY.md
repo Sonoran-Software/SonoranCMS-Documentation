@@ -29,6 +29,7 @@
   * [Viewing a Community Profile](tutorials/getting-started/viewing-a-community-profile.md)
   * [Your Drive & Documents](tutorials/getting-started/your-drive-and-documents.md)
   * [Community Discovery](tutorials/getting-started/community-discovery.md)
+  * [Forum System](tutorials/getting-started/forum-system.md)
 * [Customization](tutorials/customization/README.md)
   * [Community Branding and Settings](tutorials/customization/community-branding-and-settings.md)
   * [Custom Domain / Vanity URL](tutorials/customization/custom-domain.md)

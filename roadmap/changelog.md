@@ -10,6 +10,38 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.19 (Beta) 12/6/2022
+
+{% tabs %}
+{% tab title="New" %}
+[Forum System](../tutorials/getting-started/forum-system.md)
+
+A new Forum System has been implemented; allows communities to create categories that can be used across multiple or individual custom pages in the form of a custom page section. Each category can have topics created within them, each topic can be removed and replied to. Permissions to create and manage topics/replies is handled by the forum category.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Form Stage Actions
+
+* Using both the "Modify Submitter's Community Status" and "Change Submitter's Department/Rank" stage actions on the same stage would cause data to be overwritten when each of them would execute.
+
+Drive
+
+* Permissions viewing drive files would cause the data returned to be inconsistent with the data that should be returned.
+
+Community Creation with Templates
+
+* Creating a community from a template that's data would cause the community to be over limits would cause none of the template to apply.
+
+Rosters
+
+* Viewing a roster would cause none of the roster data rows to populate.
+
+Accounts Viewer
+
+* When viewing all of the user accounts in the community and changing the status filter to **BANNED** would not populate the user accounts table with the correct users.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.18 (Beta) 11/17/2022
 
 {% tabs %}
