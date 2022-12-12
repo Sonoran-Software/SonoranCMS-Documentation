@@ -10,6 +10,46 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.20 (Beta) 12/12/2022
+
+{% tabs %}
+{% tab title="New" %}
+[Forum System](../tutorials/getting-started/forum-system.md)
+
+Several new changes have been added to the forum system;
+
+* [Dedicated Forum Category Page](../tutorials/getting-started/forum-system.md#dedicated-forum-category-page)
+* [Topic Pinning & Locking](../tutorials/getting-started/forum-system.md#topic-actions-pin-and-lock)
+* Improved UI
+  * Forum Category Topics Table
+  * Usernames within the Forum System will show with community name and identifier format as well as their primary rank if assigned
+  * Several other UI improvements
+* Topic Reply Editing
+  * You can now edit your own topic replies
+{% endtab %}
+
+{% tab title="Fixed" %}
+Discord Webhooks
+
+* Webhook settings would not save depending on various authentication variables
+
+Department Editor
+
+* Department Default Permissions would cause the editor to be unusable and causing data to not be saved if certain conditions were met
+
+Custom Forms
+
+* Saving a edited submitted form would not complete and would just cause the client to hang without any notification or error
+{% endtab %}
+
+{% tab title="Changed" %}
+[Forum System](../tutorials/getting-started/forum-system.md)
+
+**Delete Topics** permission section for forum category's has been moved to **Manage Topics** allowing that same permission section to handle topic deletion, pinning and locking.\
+**Delete Topics -> Manage Topics**
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.19 (Beta) 12/6/2022
 
 {% tabs %}
