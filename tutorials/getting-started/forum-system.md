@@ -32,4 +32,18 @@ To view forum topics navigate to a Custom Page that has a Forum element added. O
 
 To create a forum topic simply click the green plus button located on the Forum Topics table, this will display a topic creation dialog. Fill in the appropriate information for the topic you're wanting to create. Once the topic information suffices your needs simply click the green outline **CREATE TOPIC** button to create the topic. Once it's created it'll automatically navigate you to the topic. This will allow you to edit and reply to the topic.
 
-<figure><img src="https://i.imgur.com/GpYGWU4.png" alt=""><figcaption><p>Sonoran CMS - Forum System - Viewing a Topic</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/GgLHzUt.png" alt=""><figcaption><p>Sonoran CMS - Forum System - Viewing a Topic</p></figcaption></figure>
+
+### Topic Actions: Pin & Lock
+
+To improve the organization of your forum, you can pin and lock topics. Pinning a topic will move it to the top of the forum category, and locking a topic will prevent any new replies from being added. You can access these options by right-clicking on a topic from the list view, or by using the buttons next to the edit and remove options while viewing a specific topic. These features will help keep your forum organized and on-topic.
+
+### Dedicated Forum Category Page
+
+To get a complete view of all the topics in a specific forum category, you can navigate to its dedicated page. This page can be shared with other members through a link, so they can easily access it as well. You can access the dedicated page without having to use a custom page element, so it's quick and easy to view all the topics in a particular category.
+
+<figure><img src="https://i.imgur.com/hBLJW46.png" alt=""><figcaption><p>Sonoran CMS - Dedicated Forum Category Page</p></figcaption></figure>
+
+To view the dedicated page for a particular forum category, first locate the custom page forum element that contains that category. Then, click on the category's name at the top-left corner of the topics table. This will take you to the dedicated page for that category, where you can see all of the topics it contains.
+
+<figure><img src="https://i.imgur.com/UyJ8CsQ.png" alt=""><figcaption><p>Sonoran CMS - Custom Page Forum Element - Expanding Forum Category into Full Category Page View</p></figcaption></figure>
