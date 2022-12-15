@@ -16,6 +16,8 @@ This whitelist resource utilizes Sonoran CMS's to enforce player connections.
 
 ![Sonoran CMS - Whitelist](../../../../.gitbook/assets/CMS-WL.png)
 
+{% embed url="https://www.youtube.com/watch?v=4PAtKYQokXE" %}
+
 ### Installation
 
 ### 1. Download the Resource

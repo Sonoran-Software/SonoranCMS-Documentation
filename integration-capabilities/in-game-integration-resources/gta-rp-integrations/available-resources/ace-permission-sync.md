@@ -18,6 +18,8 @@ This resource manages player's in-game permissions right from the CMS!
 
 ![Sonoran CMS - ACE Permission Sync](../../../../.gitbook/assets/CMS-Ace-Sync.png)
 
+{% embed url="https://www.youtube.com/watch?v=4PAtKYQokXE" %}
+
 ### Installation
 
 ### 1. Download the Core Resource

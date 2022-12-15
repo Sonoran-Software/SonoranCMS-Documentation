@@ -18,6 +18,8 @@ Looking for VPS, web, or dedicated hosting? Check out our official [server hosti
 
 This resource is a whitelist system that utilizes Sonoran CMS's game whitelist system by checking against that whitelist upon each player connection.
 
+{% embed url="https://www.youtube.com/watch?v=4PAtKYQokXE" %}
+
 ## Installation
 
 ### 1. Download the Resource
