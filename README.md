@@ -1,8 +1,8 @@
 ---
 description: >-
-  Sonoran CMS manages your community's website, documents, whitelisting, in-game
-  permissions, and more! Learn more about how Sonoran CMS can be your
-  community's single point of management.
+  Sonoran CMS manages your community's website, forums, document drive,
+  whitelisting, in-game permissions, and more! Learn more about how Sonoran CMS
+  can be your community's single point of management.
 ---
 
 # Sonoran CMS
