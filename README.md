@@ -32,6 +32,8 @@ Sonoran CMS is a state-of-the-art, cross-platform, all-in-one community manageme
 * [Create a Custom Community Website](tutorials/customization/custom-pages.md)
   * Use your [own domain](tutorials/customization/custom-domain.md)!
   * Add text, images, videos, and more!
+* [Create Custom Community Forums](tutorials/getting-started/forum-system.md)
+  * Add forum subjects, topics, replies, and more!
 
 ### Why choose Sonoran CMS?
 
