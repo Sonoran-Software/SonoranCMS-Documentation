@@ -10,6 +10,40 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.21 (Beta) 12/21/2022
+
+{% tabs %}
+{% tab title="New" %}
+[Forum System](../tutorials/getting-started/forum-system.md)
+
+Several new changes have been added to the forum system;
+
+* [Sub-Categories](../tutorials/getting-started/forum-system.md#creating-forum-sub-categories)
+* [Topic Attachments](../tutorials/getting-started/forum-system.md#topic-creation-forum-topic-attachments)
+* [Private Topics](../tutorials/getting-started/forum-system.md#creating-private-topics)
+* Discord Webhooks
+  * A new section has been added to the Discord Logging Webhook editor, Forums. This allows webhooks to be executed on Topic Creation & Reply Creation.
+
+Migration System
+
+A new database and system migration system has been implemented to ease any updates to the entire system or the database, this will allow usage of the platform when updates are in progress. If a community has not yet been migrated from an update the community will be unusable until the community has completed it's migration.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Community Creation
+
+* Creating a community would be unreliable and not create the community
+
+Discord Webhook Logging Editor
+
+* Fixed the reliability of Discord Webhook logging data to be consistent to what the data standard is
+
+Community Toolbar
+
+* Header links with the community toolbar would only show on the "Dashboard" page
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.20 (Beta) 12/12/2022
 
 {% tabs %}
