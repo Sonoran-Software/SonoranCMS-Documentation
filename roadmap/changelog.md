@@ -10,6 +10,39 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.22 (Beta) 1/3/2023
+
+{% tabs %}
+{% tab title="Fixed" %}
+[Discord Webhooks](../integration-capabilities/discord-webhooks.md)
+
+* Webhook preference would appear to not be "saved" when switching pages, data was not updated locally upon backend change.
+
+Rosters
+
+* When adding a roster row the previous chosen sort power would be brought to the next row you create.
+* Unable to view rosters after attempting to navigate from side smaller UI.
+
+Forums
+
+* Creating a public forum topic would cause errors.
+
+Permission Evaluation
+
+* Permission evaluation would not be completely considered upon specific page loads (Admin, Form Management, etc.)
+
+Stage Actions
+
+* Email stage actions would show the button included in the email as "{button}"
+{% endtab %}
+
+{% tab title="Changed" %}
+Forms
+
+* When submitting a form under another individual's profile it will warn you regarding the form being submitted by the submitter and not the profile it's being submitted under.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.21 (Beta) 12/21/2022
 
 {% tabs %}
