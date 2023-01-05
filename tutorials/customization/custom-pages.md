@@ -67,3 +67,15 @@ To setup links to community pages, go to `Admin` -> `Customization` -> `Toolbar 
 ## Custom Domain
 
 Sonoran CMS allows you to display your community website [on your own domain](custom-domain.md)!
+
+## Sorting Pages
+
+__[_Introduced in v0.5.23_](../../roadmap/changelog.md#v0.5.23-beta-expected-release-1-9-2023)__
+
+Sonoran CMS allows you to organize the order in which pages appear wherever they're listed, the main area pages are seen in an order would be the side navigation menu.
+
+<figure><img src="https://i.imgur.com/G7yaOLA.png" alt=""><figcaption><p>Sonoran CMS - Page Editor - Sorting Pages</p></figcaption></figure>
+
+To sort pages simply press the yellow bordered "Sort Pages" button on top of the pages table. This will enable "Sort Mode" and will allow you to adjust their order by pressing the up and down buttons. Once the preferred order is met you can save by clicking the "Save Sorted Pages" button.
+
+<figure><img src="https://i.imgur.com/johutOf.png" alt=""><figcaption><p>Sonoran CMS - Page Editor - Sort Pages Button</p></figcaption></figure>

@@ -10,6 +10,42 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.23 (Beta) Expected Release 1/9/2023
+
+{% tabs %}
+{% tab title="New" %}
+[Discord Webhooks](../integration-capabilities/discord-webhooks.md)
+
+* A new webhook option was added for when submitted forms get their stage changed, a new webhook option is added solely for this event.
+
+[Page Re-ordering](../tutorials/customization/custom-pages.md#sorting-pages)
+
+* The ability to sort the position of the pages in which they appear in lists.
+
+[Form Re-ordering](../tutorials/getting-started/creating-custom-forms.md#sorting-forms)
+
+* The ability to sort the position of the forms in which they appear in Available Forms.
+
+[Conditional Custom Form Sections](../tutorials/getting-started/creating-custom-forms.md#conditional-sections)
+
+* Dynamically show sections within your custom forms based upon conditions set that require to be met with the specified field.
+
+[Member Customization](../tutorials/customization/community-branding-and-settings.md#community-name-customization)
+
+* Allow members to customize their community name's, this setting is community wide.
+{% endtab %}
+
+{% tab title="Fixed" %}
+User Management
+
+* Users would not be able to unban any individual within their community's ban list.
+
+Rosters
+
+* Patrol log hours would miscalculate based on the forms that were submitted on-behalf of the account, on-behalf of another account, and regular submissions.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.22 (Beta) 1/3/2023
 
 {% tabs %}

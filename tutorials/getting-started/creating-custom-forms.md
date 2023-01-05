@@ -51,3 +51,27 @@ These special input types allows input values to be automatically generated from
 <figure><img src="https://i.imgur.com/fttyOpn.png" alt=""><figcaption><p>Sonoran CMS - Custom Form Editor - Auto Member &#x26; Member Selector Inputs</p></figcaption></figure>
 
 <figure><img src="https://i.imgur.com/MXcCFBl.png" alt=""><figcaption><p>Sonoran CMS - Custom Form - Member Selector &#x26; Auto Member Input</p></figcaption></figure>
+
+## Sorting Forms
+
+__[_Introduced in v0.5.23_](../../roadmap/changelog.md#v0.5.23-beta-expected-release-1-9-2023)__
+
+Sonoran CMS allows you to organize the order in which forms appear wherever they're listed, the main area forms are seen in a specific order would be when displaying the allowed forms in "Available Forms", this will allow you to organize the order of your forms for the best experience for your members.
+
+<figure><img src="https://i.imgur.com/B1YZGi2.png" alt=""><figcaption><p>Sonoran CMS - Forms Editor - Sort Mode</p></figcaption></figure>
+
+To enable "Sort Mode" you can click the blue outlined "Sort" button next to the rest of the action buttons. You must not be editing or creating a custom form, it won't allow you to sort during that action. Press the up and down buttons to order the forms in the order you wish, once it's to the ideal order you can click the "Save" button to save.
+
+## Conditional Sections
+
+__[_Introduced in v0.5.23_](../../roadmap/changelog.md#v0.5.23-beta-expected-release-1-9-2023)__
+
+<figure><img src="https://i.imgur.com/XEnjqza.png" alt=""><figcaption><p>Sonoran CMS - Forms Editor - Conditional</p></figcaption></figure>
+
+Conditional sections allow you to make an individual section visible based on conditions.
+
+To enable a section to be "Conditional" simply switch the Conditional switch to "on" state. Once you do that a "Dependency" selector will appear, this will provide you with all eligible fields that can be used for conditional checks. Select the field that you want to be checked for the appearance of this section. Once you've chosen a field it'll provide you with an input, provide all value(s) that you wish to be checked upon on the field.
+
+{% hint style="info" %}
+If the field that will be checked is a **checkbox** it will simply check if it's "checked", there won't be any reason to provide a value.
+{% endhint %}
