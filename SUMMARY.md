@@ -52,7 +52,11 @@
 ## Integration Capabilities
 
 * [Sonoran CAD Sync](integration-capabilities/sonoran-cad-sync.md)
-* [Discord Role Sync](integration-capabilities/discord-role-sync.md)
+* [Discord Role Sync](integration-capabilities/discord-role-sync/README.md)
+  * [Getting Started](integration-capabilities/discord-role-sync/getting-started.md)
+  * [Commands Reference](integration-capabilities/discord-role-sync/commands-reference.md)
+  * [Features](integration-capabilities/discord-role-sync/features/README.md)
+    * [Permissions Synchronization](integration-capabilities/discord-role-sync/features/permissions-synchronization.md)
 * [Discord Rich Presence](integration-capabilities/discord-rich-presence.md)
 * [Discord Webhooks](integration-capabilities/discord-webhooks.md)
 * [In-Game Integration Resources](integration-capabilities/in-game-integration-resources/README.md)

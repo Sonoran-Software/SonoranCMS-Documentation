@@ -459,7 +459,7 @@ Account Viewer
 
 {% tabs %}
 {% tab title="New" %}
-[Discord Role Sync](../integration-capabilities/discord-role-sync.md)
+[Discord Role Sync](../integration-capabilities/discord-role-sync/)
 
 * A system was introduced to handle Discord Role Sync upon the release of the Sonoran Bot's newest update
 * This will allow bi-directional syncing
