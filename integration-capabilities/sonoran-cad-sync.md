@@ -81,6 +81,8 @@ This will trigger an action to kick the same user from your Sonoran CAD communit
 
 ### API ID Sync
 
+_Releasing in v0.5.24_
+
 This will sync all member's API IDs to the same user from your Sonoran CAD community, if they have a Discord account linked to their account it will sync that ID as well.
 
 {% hint style="info" %}
@@ -88,5 +90,7 @@ API ID Sync to CAD will overwrite any API IDs that are set by the user in Sonora
 {% endhint %}
 
 ### Auto Join CAD
+
+_Releasing in v0.5.24_
 
 This will have all new members that join your community automatically join your Sonoran CAD community under the same user ID.
