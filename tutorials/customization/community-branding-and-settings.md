@@ -51,8 +51,6 @@ Click the "Change Community ID" button and enter your new community ID.
 
 ### Community Name Customization
 
-__[_Introduced in v0.5.23_](../../roadmap/changelog.md#v0.5.23-beta-expected-release-1-9-2023)__
-
 Sonoran CMS allows you to set whether your member's can customize their community name or not, within the Customization editor there's a misc. setting to allow and disallow members customizing their community name.
 
 <figure><img src="https://i.imgur.com/A8iJpqx.png" alt=""><figcaption><p>Sonoran CMS - Community Customization - Misc Settings</p></figcaption></figure>
@@ -60,3 +58,10 @@ Sonoran CMS allows you to set whether your member's can customize their communit
 Members can customize their community names, if enabled, in their profile. And by clicking the blue outlined "Change Name" or clicking their name will then prompt to modify the community name.&#x20;
 
 <figure><img src="https://i.imgur.com/UVuI76M.png" alt=""><figcaption><p>Sonoran CMS - Changing Community Name</p></figcaption></figure>
+
+### Member On Join Settings
+
+Sonoran CMS allows you to customize whether a user's community status is active or pending when they initially join. If you select for users to join as "ACTIVE" then you'll have the option to choose a rank in which they'll automatically be granted upon join.
+
+<figure><img src="https://i.imgur.com/DXKsJcv.png" alt=""><figcaption><p>Sonoran CMS - Member On Join Settings</p></figcaption></figure>
+

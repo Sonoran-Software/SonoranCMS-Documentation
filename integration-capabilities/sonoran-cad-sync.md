@@ -45,19 +45,17 @@ Click the _Enable Sync_ check box and enter your Sonoran CAD community's ID & AP
 Your Community ID and API Key are located in Sonoran CAD's Admin Panel > Advanced > In-Game Integration > Web API.\
 Enter these into your Sonoran CMS as shown below.
 
-![Sonoran CMS - Sonoran CAD Integration Credential Inputs](https://i.imgur.com/aHMqVNm.png)
+![Sonoran CMS - Sonoran CAD Integration Credential Inputs](https://i.imgur.com/62SdMok.png)
 
-### 2. Enable Kick & Ban Sync
+### 2. Configure Sync Settings
 
-Kick & Ban Sync will trigger an action to kick the same user from your Sonoran CAD community if they're kicked from your Sonoran CMS community. This also applies to bans.
-
-Checking the "Kick from CAD" and "Ban from CAD" will enable this feature.
+Check the sync options that best fit your community's needs, explanation of each sync feature can be found [below](sonoran-cad-sync.md#feature-overview).
 
 ### 3. Save Sync Settings
 
 Click the green _Save_ button above your Sonoran CAD credentials, this will enable and save your credentials.
 
-![Sonoran CMS - Sonoran CAD Integration Saving Credentials](https://i.imgur.com/SKHOCRH.png)
+![Sonoran CMS - Sonoran CAD Integration Saving Credentials](https://i.imgur.com/F6IXyAm.png)
 
 ### 4. Map CAD Permissions to Ranks
 
@@ -74,3 +72,21 @@ Permission syncs from Sonoran CMS will set the user's permissions explicitly to 
 On the Rank Selector tree on the left-hand side, on the bottom, click the _Save_ button. This will save all permission mappings and trigger a mass sync of all permissions.
 
 ![Sonoran CMS - Sonoran CAD Integration Rank Selector](https://i.imgur.com/o3Fc6NY.png)
+
+## Feature Overview
+
+### Kick & Ban Sync
+
+This will trigger an action to kick the same user from your Sonoran CAD community if they're kicked from your Sonoran CMS community. This also applies to bans.
+
+### API ID Sync
+
+This will sync all member's API IDs to the same user from your Sonoran CAD community, if they have a Discord account linked to their account it will sync that ID as well.
+
+{% hint style="info" %}
+API ID Sync to CAD will overwrite any API IDs that are set by the user in Sonoran CAD upon each sync. All API IDs that are sent to the CAD from CMS will replace what is currently there.
+{% endhint %}
+
+### Auto Join CAD
+
+This will have all new members that join your community automatically join your Sonoran CAD community under the same user ID.

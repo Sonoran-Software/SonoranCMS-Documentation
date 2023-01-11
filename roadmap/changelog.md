@@ -10,6 +10,37 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.24 (Beta) 1/11/2023
+
+{% tabs %}
+{% tab title="New" %}
+[Sonoran CAD Integration](../integration-capabilities/sonoran-cad-sync.md#feature-overview)
+
+* **API ID Sync**
+
+Sync member's API IDs to the same user from your Sonoran CAD community, if they have a Discord account linked to their account it will sync that ID as well.
+
+* **Auto Join CAD**
+
+All new members that join your community automatically join your Sonoran CAD community under the same user ID.
+
+[Member Join Customization](../tutorials/customization/community-branding-and-settings.md#member-on-join-settings)
+
+Through the newly added "Member On Join Settings" you can customize whether members join with "ACTIVE" status, if "ACTIVE" is selected you can customize a rank which they'll be automatically granted.
+{% endtab %}
+
+{% tab title="Fixed" %}
+[Custom Forms](../tutorials/getting-started/creating-custom-forms.md)
+
+* Forms submitted would not be able to be replied to by the author of the form
+* Forms would not be able to be submitted at all
+
+Department Permissions
+
+* Secondary rank permissions would not be evaluated correctly with roster related permission checks
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.23 (Beta) 1/9/2023
 
 {% tabs %}

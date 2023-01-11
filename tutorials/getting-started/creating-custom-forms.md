@@ -54,8 +54,6 @@ These special input types allows input values to be automatically generated from
 
 ## Sorting Forms
 
-__[_Introduced in v0.5.23_](../../roadmap/changelog.md#v0.5.23-beta-expected-release-1-9-2023)__
-
 Sonoran CMS allows you to organize the order in which forms appear wherever they're listed, the main area forms are seen in a specific order would be when displaying the allowed forms in "Available Forms", this will allow you to organize the order of your forms for the best experience for your members.
 
 <figure><img src="https://i.imgur.com/B1YZGi2.png" alt=""><figcaption><p>Sonoran CMS - Forms Editor - Sort Mode</p></figcaption></figure>
@@ -63,8 +61,6 @@ Sonoran CMS allows you to organize the order in which forms appear wherever they
 To enable "Sort Mode" you can click the blue outlined "Sort" button next to the rest of the action buttons. You must not be editing or creating a custom form, it won't allow you to sort during that action. Press the up and down buttons to order the forms in the order you wish, once it's to the ideal order you can click the "Save" button to save.
 
 ## Conditional Sections
-
-__[_Introduced in v0.5.23_](../../roadmap/changelog.md#v0.5.23-beta-expected-release-1-9-2023)__
 
 <figure><img src="https://i.imgur.com/XEnjqza.png" alt=""><figcaption><p>Sonoran CMS - Forms Editor - Conditional</p></figcaption></figure>
 

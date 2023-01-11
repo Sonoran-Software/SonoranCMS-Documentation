@@ -70,8 +70,6 @@ Sonoran CMS allows you to display your community website [on your own domain](cu
 
 ## Sorting Pages
 
-__[_Introduced in v0.5.23_](../../roadmap/changelog.md#v0.5.23-beta-expected-release-1-9-2023)__
-
 Sonoran CMS allows you to organize the order in which pages appear wherever they're listed, the main area pages are seen in an order would be the side navigation menu.
 
 <figure><img src="https://i.imgur.com/G7yaOLA.png" alt=""><figcaption><p>Sonoran CMS - Page Editor - Sorting Pages</p></figcaption></figure>
