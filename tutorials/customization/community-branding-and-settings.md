@@ -61,8 +61,6 @@ Members can customize their community names, if enabled, in their profile. And b
 
 ### Member On Join Settings
 
-_Releasing in v0.5.24_
-
 Sonoran CMS allows you to customize whether a user's community status is active or pending when they initially join. If you select for users to join as "ACTIVE" then you'll have the option to choose a rank in which they'll automatically be granted upon join.
 
 <figure><img src="https://i.imgur.com/DXKsJcv.png" alt=""><figcaption><p>Sonoran CMS - Member On Join Settings</p></figcaption></figure>
