@@ -33,6 +33,14 @@ Sonoran CMS even allows you to add [community forums](../tutorials/getting-start
 
 <figure><img src="../.gitbook/assets/rectangle.png" alt=""><figcaption><p>Sonoran CMS - Community Forums</p></figcaption></figure>
 
+## 💬 [Discord Role Management](../integration-capabilities/discord-role-sync/)
+
+Control your member's access to _everything_, just by [changing a Discord role](../integration-capabilities/discord-role-sync/)!
+
+Or, manage Discord roles right through the CMS!
+
+<figure><img src="../.gitbook/assets/crossrolesync-v6.png" alt=""><figcaption></figcaption></figure>
+
 ## ✍️ [Custom Applications and Forms](../tutorials/getting-started/creating-custom-forms.md)
 
 [Create fully customizable member applications](../tutorials/getting-started/creating-custom-forms.md), forms for tracking, and more!

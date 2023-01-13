@@ -28,7 +28,7 @@ Sonoran Servers customers are eligible to receive 30-100% off their CMS subscrip
 
 ## Five PD - Free Installation
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (2).png>)
 
 We've partnered up with GTA Police Mods to be the official hosting provider of FivePD. Sonoran Servers customers are also eligible to receive free FivePD installation with the purchase of a Windows Server Product.‌
 

@@ -29,7 +29,7 @@ Once enabled in the CMS, users who do not yet have their Discord account linked 
 
 ### 2. Sync Mode
 
-The bot utilized an interactive menu.
+The bot utilizes an interactive menu.
 
 * In order to set up the bot for the first time, use the command `/setsyncmode` and set which mode you want to use.
 * If enabling CAD role management, ensure the CMS is not already [**managing your CAD permissions from the web panel**](../../sonoran-cad-sync.md).&#x20;

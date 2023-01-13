@@ -32,10 +32,6 @@ You must have the "Manage Server" permission to add bots; plus any permissions t
 
 You will then be presented with the results of the setup.
 
-{% hint style="warning" %}
-The setup feature is still in early beta and will have additional information, as well as a way to correct issues quickly, before the official launch.
-{% endhint %}
-
 <figure><img src="../../.gitbook/assets/Screenshot_1.png" alt=""><figcaption></figcaption></figure>
 
 ### **3. Invite to Additional Servers**
