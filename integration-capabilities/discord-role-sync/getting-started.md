@@ -8,17 +8,13 @@ description: Get started with Sonoran's CMS, CAD, and Discord role sync!
 
 ## Setup
 
-{% hint style="danger" %}
-These instructions are for the **new Discord bot currently in closed BETA**. You will be unable to invite the bot at this time.
-{% endhint %}
-
 {% hint style="warning" %}
 Setting up the bot requires you to have the "Manage Server" permissions on the Discord server for security reasons. You must also have access to your server's [API Key information](../../developer-api-documentation/api-integration/getting-started/retrieving-your-credentials.md).
 {% endhint %}
 
 ### 1. Invite the Bot to Your Server
 
-Invite the bot to your Discord server (URL in closed beta).
+[Invite the bot to your Discord server](https://discord.com/api/oauth2/authorize?client\_id=1060274480930361424\&permissions=805306368\&scope=bot%20applications.commands).
 
 You must have the "Manage Server" permission to add bots; plus any permissions the bot requires to function.
 
