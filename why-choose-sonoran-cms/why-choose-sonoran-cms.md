@@ -63,6 +63,12 @@ Sonoran CMS is your single point of management for your community!
 
 ![Sonoran CMS - FiveM Ace Permissions](../.gitbook/assets/CMS-Ace-Sync.png)
 
+## 🖥️ [Sonoran CAD Account Management](../integration-capabilities/sonoran-cad-sync.md)
+
+Automatically add users to your Sonoran CAD community when you accept their application or manually grant a role!
+
+<figure><img src="../.gitbook/assets/BigSquare.png" alt=""><figcaption><p>Sonoran CMS - CAD Auto-Join</p></figcaption></figure>
+
 ## 🖥️ [Sonoran CAD Permission Sync](../integration-capabilities/sonoran-cad-sync.md)
 
 Remove all the hassle of managing your community's [Sonoran CAD](https://info.sonorancad.com/why-choose-sonoran-cad/about) permissions. Sonoran CMS is now your single point of management!
