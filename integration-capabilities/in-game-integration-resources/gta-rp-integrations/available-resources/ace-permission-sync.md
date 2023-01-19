@@ -5,7 +5,7 @@ description: Manage in-game player permissions right from the CMS!
 # Ace Permission Sync
 
 {% hint style="warning" %}
-This resource utilizes API endpoints that require the **standard** version of Sonoran CMS or higher. For more information, view our [pricing ](../../../../pricing/pricing-faq/)page.\
+This resource utilizes API endpoints that require the **standard** version of Sonoran CMS or higher. For more information, view our [pricing ](broken-reference)page.\
 \
 You must have the **Plus** version of Sonoran CMS or higher to utilize the push event functionality for live in-game syncing.
 {% endhint %}
