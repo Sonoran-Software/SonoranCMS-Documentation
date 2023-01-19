@@ -18,12 +18,47 @@ Click [<mark style="color:blue;">here</mark>](https://github.com/Sonoran-Softwar
 
 ### 2. Install the Resource
 
-Follow the [standard resource installation guide](../gta-rp-resource-installation/) for the whitelist resource.
+Follow the [standard resource installation guide](../gta-rp-resource-installation/) for the core resource.
 
-## Configuration
+### 3. Configure and Rename
 
-| Config Option | Description                                                                   |
-| ------------- | ----------------------------------------------------------------------------- |
-| APIKey        | API Key found in the API Integration section of the Administrative Panel      |
-| CommID        | Community ID found in the API Integration section of the Administrative Panel |
+Open `sonorancms_core\config.CHANGEME.json`, update the values, then save it as `config.json`. Default configuration is below:
 
+#### Configuration Details
+
+| Config Option   | Description                                                                                                                                         |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| APIKey          | API Key found in the API Integration section of the Administrative Panel                                                                            |
+| CommID          | Community ID found in the API Integration section of the Administrative Panel                                                                       |
+| allowAutoUpdate | When enabled, the resource will update itself. When disabled, it will simply show an update notification every 2 hours.                             |
+| debug\_mode     | <p>When set to <code>true</code>, useful debugging information it outputted to the console.<br>Keep disabled in production due to console spam.</p> |
+
+### 4. Server Config
+
+Add the following to your `server.cfg`
+
+{% hint style="danger" %}
+It is very important that the `sonorancms_updatehelper` resource is not started manually. Doing so may cause a server crash if updates are available due to a race condition.
+{% endhint %}
+
+```javascript
+ensure sonorancms_core
+
+# permissions for SonoranCMS auto-updater (REQUIRED)
+add_ace resource.sonorancms_core command allow
+add_ace resource.sonorancms_updatehelper command allow
+```
+
+## Updates
+
+Sonoran CMS's core will automatically update with the latest features, fixes, and changes!
+
+## Troubleshooting
+
+### Server Crashes
+
+1\. Check to make sure `sonorancms_updatehelper`  is not being started in your server.cfg.
+
+{% hint style="danger" %}
+It is very important that the `sonorancms_updatehelper` resource is not started manually. Doing so may cause a server crash if updates are available due to a race condition.
+{% endhint %}
