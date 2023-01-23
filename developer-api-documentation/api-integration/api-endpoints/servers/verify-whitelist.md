@@ -42,11 +42,9 @@ BYPASSED WHITELIST - {{Sonoran CMS Account Username}}
 {% endswagger-response %}
 
 {% swagger-response status="400: Bad Request" description="The following text responses may be sent in response:" %}
-```json
-{
-    "status": 400,
-    "message": "VALID BAD REQUEST REASON"
-}
+```javascript
+INVALID REQUEST TYPE
+INVALID COMMUNITY ID
 ```
 {% endswagger-response %}
 
@@ -57,7 +55,7 @@ NOT ALLOWED ON WHITELIST
 {% endswagger-response %}
 {% endswagger %}
 
-```json
+```
 {
     "id": "YOUR_COMMUNITY_ID",
     "key": "YOUR_API_KEY",

@@ -36,12 +36,6 @@ This feature also requires the **plus** version of Sonoran CAD or higher. For mo
 Sonoran CAD Sync settings can only be seen and modified by the community owner.
 {% endhint %}
 
-### 1. Add New CAD Integration
-
-Click the _Add CAD_ button or expand an existing setup
-
-<figure><img src="https://i.imgur.com/gvmu3xB.png" alt=""><figcaption><p>Sonoran CMS - CAD Integration Setup List Area</p></figcaption></figure>
-
 ### 1. Enter Credentials
 
 Click the _Enable Sync_ check box and enter your Sonoran CAD community's ID & API Key.
@@ -51,7 +45,7 @@ Click the _Enable Sync_ check box and enter your Sonoran CAD community's ID & AP
 Your Community ID and API Key are located in Sonoran CAD's Admin Panel > Advanced > In-Game Integration > Web API.\
 Enter these into your Sonoran CMS as shown below.
 
-![Sonoran CMS - Sonoran CAD Integration Credential Inputs](https://i.imgur.com/HHP3Eq0.png)
+![Sonoran CMS - Sonoran CAD Integration Credential Inputs](https://i.imgur.com/62SdMok.png)
 
 ### 2. Configure Sync Settings
 
@@ -61,7 +55,7 @@ Check the sync options that best fit your community's needs, explanation of each
 
 Click the green _Save_ button above your Sonoran CAD credentials, this will enable and save your credentials.
 
-![Sonoran CMS - Sonoran CAD Integration Saving Credentials](https://i.imgur.com/AdZptnh.png)
+![Sonoran CMS - Sonoran CAD Integration Saving Credentials](https://i.imgur.com/F6IXyAm.png)
 
 ### 4. Map CAD Permissions to Ranks
 
@@ -81,14 +75,6 @@ On the Rank Selector tree on the left-hand side, on the bottom, click the _Save_
 
 ## Feature Overview
 
-### Multi-Setup Sync
-
-Sync multiple Sonoran CAD communities with your single Sonoran CMS community. This will sync all of the below features with each community you have setup.
-
-{% hint style="info" %}
-Multiple CAD Sync setups requires a **PLUS** subscription or higher, **PRO** or higher allows unlimited community setups.
-{% endhint %}
-
 ### Kick & Ban Sync
 
 This will trigger an action to kick the same user from your Sonoran CAD community if they're kicked from your Sonoran CMS community. This also applies to bans.
@@ -104,17 +90,3 @@ API ID Sync to CAD will overwrite any API IDs that are set by the user in Sonora
 ### Auto Join CAD
 
 This will have all new members that join your community automatically join your Sonoran CAD community under the same user ID.
-
-## Manual Syncing
-
-### Full Community
-
-Community Owner's can trigger a full community sync of CAD permissions through the **FULL SYNC** button located at the bottom of the CAD Rank Permission Selector.
-
-<figure><img src="https://i.imgur.com/JRICaLa.png" alt=""><figcaption><p>Sonoran CMS - CAD Permission Configuration Full Sync</p></figcaption></figure>
-
-### Individual Account
-
-Individual member's can trigger a sync of their account with the community linked CAD in their _Account Settings_ dialog.
-
-<figure><img src="https://i.imgur.com/mSf5VqT.png" alt=""><figcaption></figcaption></figure>
