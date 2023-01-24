@@ -83,3 +83,5 @@ To sort pages simply press the yellow bordered "Sort Pages" button on top of the
 Pages can now be privatized and require permissions to view, now when editing a page you can change whether or not the page is private. This will then provide permissions for the page within the Department Editor.
 
 _Only Private Pages will show in the Department Editor_.
+
+<figure><img src="https://i.imgur.com/PCBWljQ.png" alt=""><figcaption></figcaption></figure>

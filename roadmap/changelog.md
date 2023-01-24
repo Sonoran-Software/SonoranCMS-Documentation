@@ -24,6 +24,10 @@ Sync your single Sonoran CMS community to multiple Sonoran CAD communities!
 
 Navigation items on the sidebar can now be dynamically shown based upon permissions. Documentation explains how each navigation item is permission evaluated.
 
+[Privatized Pages](../tutorials/customization/custom-pages.md#privatized-pages)
+
+Pages can now be privatized and require permissions to view, this view type can be changed in the page editor.
+
 [Available Forms UI](https://cdn.discordapp.com/attachments/859199158568615986/1065772905251737610/8tf7hUj.png)
 
 The _Available Forms_ area is now in a grid UI.
