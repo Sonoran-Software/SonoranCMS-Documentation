@@ -8,6 +8,10 @@ description: >-
 
 Several of the navigation items have individual permissions to show and hide the buttons locatd on the sidebar but some of the items also have permission checks based on permissions for that specific context. Below we've outlined which permissions affect each navigation item.
 
+{% hint style="warning" %}
+Revoking permissions to view a navigation item will now block them from viewing the page associated with the item, for example the dashboard will not block them from viewing the page if they do not see the "Dashboard" button.
+{% endhint %}
+
 ### Clock In/Out
 
 This section of the navigation sidebar is based upon the **CMS Permissions** > **Clock In & Out** permission.
