@@ -10,7 +10,39 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.25 (Beta) Unreleased (Planned 1/23/2023)
+### v0.5.26 (Beta) 1/26/2023
+
+{% tabs %}
+{% tab title="New" %}
+[Dashboard](../tutorials/customization/custom-pages.md#default-dashboard-page)
+
+The community Dashboard / Landing page has been completely reworked, this now allows for the full customization of the Custom Page Editor. Set any existing custom page as your community's dashboard page.
+
+[Custom Page Editor](../tutorials/customization/custom-pages.md#page-editing)
+
+* New Page Section Type
+  * Information Block
+    * This allows for multiple blocks of information to be added to your page, each block allows for two customizable text options. This also allows you to dynamically populate the block with "Total Community Members" or "Total Department Members".
+* UI Improvements
+  * Several aspects of the Custom Page Editor UI was reworked and improved.
+* Page Reordering
+  * Page reordering is now handled through drag and drops actions instead of direction buttons.
+* Page Section Reordering
+  * Page section reordering is now handled through drag and drops actions instead of direction buttons.
+* Default / Landing Page Toggle
+  * Set a Custom Page as the community's Dashboard / Landing Page.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Network
+
+* Handling for WS communication was changed to fix edge-cases with random disconnects.
+{% endtab %}
+{% endtabs %}
+
+
+
+### v0.5.25 (Beta) 1/24/2023
 
 {% tabs %}
 {% tab title="New" %}
