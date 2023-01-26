@@ -37,6 +37,10 @@ The community Dashboard / Landing page has been completely reworked, this now al
 Network
 
 * Handling for WS communication was changed to fix edge-cases with random disconnects.
+
+Admin Routes
+
+* Accounts table within the Administrative Panel would populate despite having permission to view any admin pages.
 {% endtab %}
 {% endtabs %}
 
