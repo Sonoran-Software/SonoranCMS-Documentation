@@ -6,7 +6,7 @@ description: >-
 
 # Your Drive & Documents
 
-![Sonoran CMS - Document Drive Management](<../../.gitbook/assets/CMS feature promo - template (1).png>)
+![Sonoran CMS - Document Drive Management](<../../.gitbook/assets/CMS feature promo - template.png>)
 
 With your drive, you're able to create files and folders for your community. These files are completely customizable, and have a similar style editor to the Microsoft Office suite
 

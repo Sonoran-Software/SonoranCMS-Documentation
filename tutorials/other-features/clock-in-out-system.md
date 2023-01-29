@@ -18,6 +18,10 @@ While having a [custom form](../getting-started/creating-custom-forms.md) with t
 
 ### Using the Clock In/Out Feature
 
+{% hint style="info" %}
+The CMS Permission **Clock In & Out** must be granted in order for this to be used. The UI will not show if the permissions is not granted.
+{% endhint %}
+
 Using the Clock In/Out feature is easy as clicking the "Clock In" button, doing this will clock you in, giving you the option to clock out after the 60s or cancel the clock in entirely.
 
 ![Sonoran CMS - Clock In View](../../.gitbook/assets/brave\_jHkbbGtWx8.png)
