@@ -10,6 +10,81 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.26 (Beta) 1/26/2023
+
+{% tabs %}
+{% tab title="New" %}
+[Dashboard](../tutorials/customization/custom-pages.md#default-dashboard-page)
+
+The community Dashboard / Landing page has been completely reworked, this now allows for the full customization of the Custom Page Editor. Set any existing custom page as your community's dashboard page.
+
+[Custom Page Editor](../tutorials/customization/custom-pages.md#page-editing)
+
+* New Page Section Type
+  * Information Block
+    * This allows for multiple blocks of information to be added to your page, each block allows for two customizable text options. This also allows you to dynamically populate the block with "Total Community Members" or "Total Department Members".
+* UI Improvements
+  * Several aspects of the Custom Page Editor UI was reworked and improved.
+* Page Reordering
+  * Page reordering is now handled through drag and drops actions instead of direction buttons.
+* Page Section Reordering
+  * Page section reordering is now handled through drag and drops actions instead of direction buttons.
+* Default / Landing Page Toggle
+  * Set a Custom Page as the community's Dashboard / Landing Page.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Network
+
+* Handling for WS communication was changed to fix edge-cases with random disconnects.
+
+Admin Routes
+
+* Accounts table within the Administrative Panel would populate despite having permission to view any admin pages.
+{% endtab %}
+{% endtabs %}
+
+
+
+### v0.5.25 (Beta) 1/24/2023
+
+{% tabs %}
+{% tab title="New" %}
+[Sonoran CAD Integration](../integration-capabilities/sonoran-cad-sync.md#feature-overview)
+
+* **Multi-Setup Sync**
+
+Sync your single Sonoran CMS community to multiple Sonoran CAD communities!
+
+[Navigation Button Visibility](../tutorials/customization/navigation-sidebar.md)
+
+Navigation items on the sidebar can now be dynamically shown based upon permissions. Documentation explains how each navigation item is permission evaluated.
+
+[Privatized Pages](../tutorials/customization/custom-pages.md#privatized-pages)
+
+Pages can now be privatized and require permissions to view, this view type can be changed in the page editor.
+
+[Available Forms UI](https://cdn.discordapp.com/attachments/859199158568615986/1065772905251737610/8tf7hUj.png)
+
+The _Available Forms_ area is now in a grid UI.
+{% endtab %}
+
+{% tab title="Fixed" %}
+[Whitelist API](../developer-api-documentation/api-integration/api-endpoints/servers/verify-whitelist.md)
+
+Reponses have been fixed to be consistent and adjusted to provide reliablity to the in-game resource(s).
+{% endtab %}
+
+{% tab title="Changed" %}
+[Sonoran CAD Integration](../integration-capabilities/sonoran-cad-sync.md#feature-overview)
+
+* Individual Manual Sync
+  * CAD Sync button located in the Account Settings dialog
+
+Member's can now manually sync their Sonoran CMS account with the linked Sonoran CAD community, this will now sync all aspects of the account besides just permissions.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.24 (Beta) 1/12/2023
 
 {% tabs %}

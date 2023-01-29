@@ -7,7 +7,7 @@
 
 * [🖥️ Sonoran Servers](other-products/server-hosting.md)
 * [⌨️ Sonoran CAD](other-products/sonoran-cad.md)
-* [📡 Sonoran Radio](other-products/sonoran-radio.md)
+* [Sonoran Radio](other-products/sonoran-radio.md)
 
 ## Why choose Sonoran CMS?
 
@@ -31,6 +31,7 @@
   * [Community Discovery](tutorials/getting-started/community-discovery.md)
   * [Forum System](tutorials/getting-started/forum-system.md)
 * [Customization](tutorials/customization/README.md)
+  * [Navigation Sidebar](tutorials/customization/navigation-sidebar.md)
   * [Community Branding and Settings](tutorials/customization/community-branding-and-settings.md)
   * [Custom Domain / Vanity URL](tutorials/customization/custom-domain.md)
   * [Custom Pages](tutorials/customization/custom-pages.md)
