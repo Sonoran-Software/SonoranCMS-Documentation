@@ -58,7 +58,7 @@ Toggle the `Enabled` button to enable the webhook. Press the `Save` button.
 
 ### 7. Role Mention
 
-To get a role mention from the webhook edit the `Webhook Content` box and format the mention as `<@ID>` with `ID` being the Discord Role ID.
+To tag and mention a role in the webhook edit the `Webhook Content` box and format the mention as `<@ID>` with `ID` being the Discord Role ID.
 
 You can copy a Discord Role ID in your Discord server's `Settings` > `Roles` > Right-Click on the role > `Copy ID`
 
