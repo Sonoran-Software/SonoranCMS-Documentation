@@ -53,7 +53,7 @@ Press the "Save Changes" button to save your new webhook in Discord.
 In the Sonoran CMS Administrator Panel, select “Advanced > Discord Integration”\
 Paste your Webhook URL in the desired webhook configuration box.\
 Toggle the enable radio to enable the webhook. Press the “Save” button.\
-To get a role mention from the webhook you edit the "Webhook Content" box and enter the role id for the Discord Role you want it to mention.\
+To get a role mention from the webhook you edit the "Webhook Content" box and enter the role id for the Discord Role you want it to mention.
 
 {% hint style="warning" %}
 Make sure to use this format <@&roleidhere> replacing "roleidhere" with the ID of the Discord Role.\
