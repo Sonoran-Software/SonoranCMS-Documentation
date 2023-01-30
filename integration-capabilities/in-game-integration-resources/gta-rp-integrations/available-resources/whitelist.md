@@ -20,15 +20,19 @@ This whitelist resource utilizes Sonoran CMS's to enforce player connections.
 
 ### Installation
 
-### 1. Download the Resource
+### 1. Download the Core Resource
+
+This resource requires the [CMS core](core.md) for push event handling and API key configuration.
+
+### 2. Download the Resource
 
 Click [<mark style="color:blue;">here</mark>](https://github.com/Sonoran-Software/sonoran\_whitelist) to download the whitelist resource.
 
-### 2. Install the Resource
+### 3. Install the Resource
 
 Follow the [standard resource installation guide](../gta-rp-resource-installation/) for the whitelist resource.
 
-### 3. Setup Whitelist Permissions
+### 4. Setup Whitelist Permissions
 
 Navigate to the Department Manager within the Administrative Panel.
 
@@ -50,7 +54,7 @@ If a user is granted both **Block Whitelist** and **Allow Whitelist** through va
 
 ![Sonoran CMS - Department Manger Server Permissions](https://i.imgur.com/yBjp7ZA.png)
 
-### 4. Add your API ID
+### 5. Add your API ID
 
 Ensure all players have added their [API ID](../../../../developer-api-documentation/api-integration/getting-started/api-id-system.md) to the CMS!
 
