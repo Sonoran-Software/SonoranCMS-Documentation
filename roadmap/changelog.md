@@ -10,7 +10,7 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.27 (Beta) (Unreleased) 2/2/2023
+### v0.5.27 (Beta) 2/2/2023
 
 {% tabs %}
 {% tab title="New" %}
@@ -23,7 +23,7 @@ The custom login page has been completely revamped, the old login page has been 
 * Deprecated login page may still be seen as there's some actions that require a login page to direct to.
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Fixed" %}
 [Discord Webhooks](../integration-capabilities/discord-webhooks.md)
 
 * Account Updated webhook would not show the correct ranks/departments the account is associated with.
