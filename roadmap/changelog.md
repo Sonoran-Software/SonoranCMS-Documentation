@@ -10,6 +10,29 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.27 (Beta) (Unreleased) 2/2/2023
+
+{% tabs %}
+{% tab title="New" %}
+[Custom Login Page](../tutorials/customization/custom-domain.md#custom-login-page)
+
+The custom login page has been completely revamped, the old login page has been deprecated and have been moved to the top toolbar & community dashboards.
+
+* When using a Custom Domain it'll automatically load the community's dashboard page.
+* If you're not signed in or not apart of the community you'll be put in a "Preview" mode for the community while you view their dashboard and custom pages.
+* Deprecated login page may still be seen as there's some actions that require a login page to direct to.
+{% endtab %}
+
+{% tab title="Second Tab" %}
+[Discord Webhooks](../integration-capabilities/discord-webhooks.md)
+
+* Account Updated webhook would not show the correct ranks/departments the account is associated with.
+* Event webhooks would include raw HTML within the event description.
+* Tutorial button on Discord Webhook page now directs you to the guide.
+* Event webhooks would not include any specified content and would always be content-less with the embed.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.26 (Beta) 1/26/2023
 
 {% tabs %}
