@@ -9,8 +9,7 @@ description: Get started with Sonoran's CMS, CAD, and Discord role sync!
 ## Setup
 
 {% hint style="warning" %}
-This system utilizes API endpoints that require the **Standard** version of Sonoran CMS or higher. For more information, view our [pricing ](../../../../pricing/pricing-faq/)page.\
-\
+This system utilizes API endpoints that require the **Standard** version of Sonoran CMS or higher. For more information, view our [pricing ](../../pricing/pricing-faq/)page.
 {% endhint %}
 
 {% hint style="warning" %}

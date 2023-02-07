@@ -7,7 +7,7 @@ description: >-
 
 # 🏆 Why Choose Sonoran CMS?
 
-![Sonoran CMS - 14 Day Trial](<../.gitbook/assets/Trial - B.png>)
+<figure><img src="../.gitbook/assets/CMS Main Promo.png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:orange;"></mark>[<mark style="color:orange;">Get Sonoran CMS Pro free for 14 days!</mark>](../pricing/pricing-faq/#free-trial-sonoran-cms-pro)<mark style="color:orange;"></mark>
 

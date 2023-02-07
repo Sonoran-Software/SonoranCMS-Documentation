@@ -11,7 +11,7 @@ description: >-
 Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](other-products/server-hosting.md)!
 {% endhint %}
 
-![Sonoran CMS - 14 Day Free Trial](<.gitbook/assets/Trial - B.png>)
+<figure><img src=".gitbook/assets/CMS Main Promo (1).png" alt=""><figcaption></figcaption></figure>
 
 ### What is Sonoran CMS?
 
