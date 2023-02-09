@@ -10,6 +10,39 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.28 (Beta) 2/9/2023
+
+{% tabs %}
+{% tab title="New" %}
+[Forum System](../tutorials/getting-started/forum-system.md)
+
+The user interface for the Forum System has been completely revamped, improving the individual topic viewing and forum categories pages.
+
+* Quote Replying
+  * There's now an option under a topic or a topic reply will have an option to quote the content of that, this will add the content to your reply editor to allow you to easily quote an individual's post.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Community Discovery
+
+* "Load More" button located on the Community Discovery page would not load additional communities
+
+Community Profile
+
+* When viewing a profile that's now your own the name of the profile would display "ERROR"
+
+Rosters
+
+* Saving a roster row without changing the user's status would cause their status to remove and go back to unset/errored
+* Websocket Disconnections
+  * Permissions checks when gathering all rows would cause a WS disconnection due to a failure in the check
+
+Account Viewer Table
+
+* Sorting accounts by the table column labels would not sort properly, they would be randomly sorted and not with the correct sort applied
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.27 (Beta) 2/2/2023
 
 {% tabs %}
