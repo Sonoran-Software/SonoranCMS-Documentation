@@ -10,19 +10,7 @@ Remove all the hassle of managing your community's Sonoran CAD permissions. Sono
 
 Sonoran CMS allows you to easily manage your community's Sonoran CAD permissions based on their Sonoran CMS rank automatically!
 
-Sonoran CAD permissions can be managed via the CMS web panel, or with the Discord bot.
-
-## Option A: Discord Bot
-
-<figure><img src="../.gitbook/assets/crossrolesync-v6.png" alt=""><figcaption></figcaption></figure>
-
-Learn more about Sonoran Bot managing both CMS and CAD roles!
-
-{% content-ref url="discord-role-sync/" %}
-[discord-role-sync](discord-role-sync/)
-{% endcontent-ref %}
-
-## Option B: Web Panel Sync
+## Web Panel Sync
 
 ![Sonoran CMS x Sonoran CAD - Permission Sync](../.gitbook/assets/CMS-CAD-Sync.png)
 
