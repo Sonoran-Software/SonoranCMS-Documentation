@@ -32,7 +32,9 @@ You must have the "Manage Server" permission to add bots; plus any permissions t
 
 You will then be presented with the results of the setup.
 
-<figure><img src="../../.gitbook/assets/Screenshot_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Note: When setting up the bot, it will automatically be set to CMS sync mode if you opted to link your CMS community.
 
 ### **3. Invite to Additional Servers**
 

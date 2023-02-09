@@ -27,16 +27,9 @@ Once enabled in the CMS, users who do not yet have their Discord account linked 
 
 <figure><img src="../../../.gitbook/assets/Screen Shot 2023-01-08 at 12.04.00 PM.png" alt=""><figcaption><p>Sonoran CMS - Link Your Discord Account</p></figcaption></figure>
 
-### 2. Sync Mode
 
-The bot utilizes an interactive menu.
 
-* In order to set up the bot for the first time, use the command `/setsyncmode` and set which mode you want to use.
-* If enabling CAD role management, ensure the CMS is not already [**managing your CAD permissions from the web panel**](../../sonoran-cad-sync.md).&#x20;
-
-<figure><img src="../../../.gitbook/assets/Screenshot_3.png" alt=""><figcaption><p>Select the mode you wish to use. The currently enabled mode will be a green button.</p></figcaption></figure>
-
-### 3. Role Mapping
+### 2. Role Mapping
 
 The command `/rolemap` can now be used.
 
