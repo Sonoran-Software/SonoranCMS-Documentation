@@ -31,7 +31,7 @@ Sonoran CMS even allows you to add [community forums](../tutorials/getting-start
 
 ![Sonoran CMS - Custom Pages](../.gitbook/assets/pg-builder2.png)
 
-<figure><img src="../.gitbook/assets/rectangle.png" alt=""><figcaption><p>Sonoran CMS - Community Forums</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/cms.forums.png" alt=""><figcaption></figcaption></figure>
 
 ## 💬 [Discord Role Management](../integration-capabilities/discord-role-sync/)
 
