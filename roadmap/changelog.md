@@ -23,7 +23,7 @@ Custom Form Templates now have limit settings, these settings will allow you to 
 * Submission Cooldown
 * Limit Within Last X Days
 
-****[**Department Rank Cosmetic Customization**](../tutorials/departments/)****
+****[**Department Rank Cosmetic Customization**](../tutorials/getting-started/creating-departments.md#4.-customize-rank-cosmetic-styling)****
 
 Department ranks now have cosmetic styling, this cosmetic addition is only shown when viewing Forum Topic's but will be expanded upon as UI is needed. This customization allows you to change the background color and icon associated with it.
 
