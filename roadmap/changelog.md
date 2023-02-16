@@ -10,6 +10,46 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.29 (Beta) Unreleased | Scheduled for 2/16/2023
+
+{% tabs %}
+{% tab title="New" %}
+****[**Form Submission Limits**](../tutorials/getting-started/creating-custom-forms.md#limiting-form-submissions)****
+
+Custom Form Templates now have limit settings, these settings will allow you to customize how your forms are being submitted. This allows for submissions to be limited to a certain amount per user, within the last X days, and even with a cooldown between submissions.
+
+* Limit Total Submissions from each User
+  * Ignore submissions that are set to a stage with the type of "Archived"
+* Submission Cooldown
+* Limit Within Last X Days
+
+****[**Department Rank Cosmetic Customization**](../tutorials/departments/)****
+
+Department ranks now have cosmetic styling, this cosmetic addition is only shown when viewing Forum Topic's but will be expanded upon as UI is needed. This customization allows you to change the background color and icon associated with it.
+
+**Additional Form Management Filters**
+
+Several new form management filters have been added to better find submissions within your community. Now you're able to use the following filters when managing forms:
+
+* Community Member
+* Form Type
+  * Was already implemented prior but was improved/fixed as well
+* Custom Form
+  * Search for submissions that were all created from the same custom form template
+    * Additionally you can specify whether you want to filter the custom form submissions by their current stage as well
+{% endtab %}
+
+{% tab title="Fixed" %}
+Custom Page Editor
+
+* When enabling sorting for page sections you'll only be displayed with a maximum of 5 sections even if you have more.
+
+Account Info
+
+* Saving an edited account would fail and not provide an error.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.28 (Beta) 2/9/2023
 
 {% tabs %}

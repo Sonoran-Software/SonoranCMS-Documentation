@@ -71,3 +71,25 @@ To enable a section to be "Conditional" simply switch the Conditional switch to 
 {% hint style="info" %}
 If the field that will be checked is a **checkbox** it will simply check if it's "checked", there won't be any reason to provide a value.
 {% endhint %}
+
+## Limiting Form Submissions
+
+Newly introduced limit settings allow you to limit the amount of submissions users in your community are able to complete. With these various settings you're able to lock it down within the last X days, ignore archived submissions and even add a cooldown in-between form submissions.
+
+<figure><img src="https://i.imgur.com/0hDX7Js.png" alt=""><figcaption><p>Sonoran CMS - Custom Form Editor - Limit Settings</p></figcaption></figure>
+
+**# of Allowed Submissions**\
+****This number is the total amount of submitted versions of this form that are allowed for each community member. _Setting this to_ `-1` _will not limit form submissions at all._\
+__\
+__**Limit Submissions Within Last X Days**\
+****This number is the amount of days prior that submissions will be searched for, for limiting. For example, if this is set to `3` then it will only check for submissions 3 days prior from now. _Setting this to_ `-1` _will check all-time submitted versions of this form and not within the last X days._\
+\
+**Submission Cooldown**\
+This number is the amount of days between submissions of this form. For example, if this is set to `3` then the member will have to wait three days between submitting versions of this form.\
+\
+**Ignore Archived Submissions**\
+If checked this will not check for any submissions that are currently set to a stage that is the type of "Archived". So if a form is "Archived" it will not be searched for.
+
+<figure><img src="https://i.imgur.com/SYeDZiM.png" alt=""><figcaption><p>Sonoran CMS - Available Forms - Block Example</p></figcaption></figure>
+
+Forms that are blocked from being submitted at the current time will be shown this blocked view till the block is lifted based on the settings set for limiting. The member will not be able to submit any version of the form till they no longer meet any requirements to be blocked due to the settings.

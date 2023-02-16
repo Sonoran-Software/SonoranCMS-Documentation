@@ -44,7 +44,17 @@ This will create a new section where you'll need to specify both of the followin
 2. Power (Example: 75) _Look above at the blue informational hint for **Power** explanation._
 3. "P" & "S" Buttons (This will specify if a rank can be assigned to someone as a primary or secondary rank only.
 
-### 4. Assign Permissions
+### 4. Customize Rank Cosmetic Styling
+
+<figure><img src="https://i.imgur.com/RE73BNW.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Rank Cosmetic Customization</p></figcaption></figure>
+
+Ranks are able to be customized to the styling that best fits your community, customize the color and icon associated with each rank. You can specify common color names or custom hex colors.
+
+{% hint style="info" %}
+The rank icon can be an image if you specify `img:` at the start of the image URL, for example: `img:https://i.imgur.com/RE73BNW.png`
+{% endhint %}
+
+### 5. Assign Permissions
 
 This is where you'll need to assign permissions for the system under "CMS Permissions"
 
@@ -54,6 +64,6 @@ This is where you'll need to assign permissions for the system under "CMS Permis
 * **"Server Permissions"** are based on the API Integration servers made in Administrative Panel > Advanced > API Integration.
 * **"Profile Fields Permissions"** are based on the Profile Fields created in the Administrative Panel > Customization > Profile Fields Editor.
 
-### 5. Add Department
+### 6. Add Department
 
 Once you've created your department and ranks to your liking with the specific permissions that you would like you will need to hit the green "Add" button located above the Department Information. This will save and add the department to the system.
