@@ -8,21 +8,35 @@ description: >-
 
 ## Navigate to the Custom Form Editor
 
-{% hint style="info" %}
-Ensure that you've created at least one stage group outlined following both [Creating Custom Form Stages](creating-custom-form-stages.md) and [Creating Custom Form Stage Groups](creating-custom-form-stage-groups.md) guides.
-{% endhint %}
+#### Administrative Panel > Customization > Community Forms
 
-#### Administrative Panel > Customization > Custom Form Editor
+Within the Form Editor panel you'll be able to create custom forms designed to your liking. Although this is very similar to the [Sonoran CAD Custom Records editor](https://info.sonorancad.com/tutorials/customization/creating-custom-record-and-report-types) there are some CMS specific features that have been added. For example, there are a few custom field types and premade sections that will further the functionality of your CMS.
 
-Within this "Custom Form Editor" panel you'll be able to create custom forms designed to your liking. Although this is very similar to the [Sonoran CAD Custom Records editor](https://info.sonorancad.com/tutorials/customization/creating-custom-record-and-report-types) there are some CMS specific features that have been added. For example, there are a few custom field types and premade sections that will further the functionality of your CMS.
-
-![Administrative Panel Custom Form Editor - Create Fully Customizable Forms](../../.gitbook/assets/msedge\_xojS0pu11l.png)
+![Administrative Panel Custom Form Editor - Create Fully Customizable Forms](https://i.imgur.com/xAn3bi8.png)
 
 {% hint style="info" %}
 Whenever you create new custom forms you will need to explicitly give ranks permissions to the new custom forms to be used by other individuals. This can be done in the [Department Manager](creating-departments.md).
 
 If a user has permissions for a specific form they'll be able to see those forms in the "Available Forms" panel which is accessible on the left side bar. If a user has the permission to approve or deny a specific form they'll be able to see those forms in the "Form Management" panel which is accessible on the left side bar.
 {% endhint %}
+
+## Form Stages
+
+Form Stages allow you to control the process (or stages) of your form. Each for is required to have at least one stage before it can be used.
+
+<figure><img src="https://i.imgur.com/wnHfcIu.png" alt=""><figcaption><p>Form Stages Editor - Edit the flow of your forms!</p></figcaption></figure>
+
+To begin, you can either create a new stage or add an existing stage to a form. If there are no other stages, this will be the stage that is first assigned when a person submits this form (the default stage).
+
+After pressing "Create New Stage" (or pressing "Edit" on an existing stage), you're shown an editor to modify the look and actions of that stage.
+
+<figure><img src="https://i.imgur.com/rRDn9UI.png" alt=""><figcaption><p>Stage Editor - Edit a single stage</p></figcaption></figure>
+
+{% hint style="warning" %}
+Stages are not unique between forms, so if two forms use the same stage then editing that stage will affect both forms
+{% endhint %}
+
+## Sections & Fields
 
 ### Premade Sections
 
@@ -48,7 +62,7 @@ This special input type allows form submitters to select **MULTIPLE** users from
 
 These special input types allows input values to be automatically generated from a "Member Selector" input or from the form submitters account. When using these input in Custom Form creation ensure to select an option from the "Field/Source to Reference".
 
-<figure><img src="https://i.imgur.com/fttyOpn.png" alt=""><figcaption><p>Sonoran CMS - Custom Form Editor - Auto Member &#x26; Member Selector Inputs</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/RfAs5QE.png" alt=""><figcaption><p>Sonoran CMS - Custom Form Editor - Auto Member &#x26; Member Selector Inputs</p></figcaption></figure>
 
 <figure><img src="https://i.imgur.com/MXcCFBl.png" alt=""><figcaption><p>Sonoran CMS - Custom Form - Member Selector &#x26; Auto Member Input</p></figcaption></figure>
 
@@ -56,13 +70,11 @@ These special input types allows input values to be automatically generated from
 
 Sonoran CMS allows you to organize the order in which forms appear wherever they're listed, the main area forms are seen in a specific order would be when displaying the allowed forms in "Available Forms", this will allow you to organize the order of your forms for the best experience for your members.
 
-<figure><img src="https://i.imgur.com/B1YZGi2.png" alt=""><figcaption><p>Sonoran CMS - Forms Editor - Sort Mode</p></figcaption></figure>
-
-To enable "Sort Mode" you can click the blue outlined "Sort" button next to the rest of the action buttons. You must not be editing or creating a custom form, it won't allow you to sort during that action. Press the up and down buttons to order the forms in the order you wish, once it's to the ideal order you can click the "Save" button to save.
+To change the sort of your community's forms, you can change the "Sort Order" value for each form in its editor. Smaller values (including negative numbers) indicate that it should be sorted first. For example, if `Form 2` has a sort order of 0, and `Form 1` a sort order of 13, Form 2 would appear first.
 
 ## Conditional Sections
 
-<figure><img src="https://i.imgur.com/XEnjqza.png" alt=""><figcaption><p>Sonoran CMS - Forms Editor - Conditional</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/3JNopIB.png" alt=""><figcaption><p>Sonoran CMS - Forms Editor - Conditional</p></figcaption></figure>
 
 Conditional sections allow you to make an individual section visible based on conditions.
 
@@ -76,7 +88,7 @@ If the field that will be checked is a **checkbox** it will simply check if it's
 
 Newly introduced limit settings allow you to limit the amount of submissions users in your community are able to complete. With these various settings you're able to lock it down within the last X days, ignore archived submissions and even add a cooldown in-between form submissions.
 
-<figure><img src="https://i.imgur.com/0hDX7Js.png" alt=""><figcaption><p>Sonoran CMS - Custom Form Editor - Limit Settings</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/oDlN1jD.png" alt=""><figcaption><p>Sonoran CMS - Custom Form Editor - Limit Settings</p></figcaption></figure>
 
 **# of Allowed Submissions**\
 ****This number is the total amount of submitted versions of this form that are allowed for each community member. _Setting this to_ `-1` _will not limit form submissions at all._\

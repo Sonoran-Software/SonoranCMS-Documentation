@@ -22,8 +22,6 @@
   * [View Your Limits](tutorials/getting-started/view-your-limits.md)
   * [Creating Departments](tutorials/getting-started/creating-departments.md)
   * [Modify Users Permissions & Information](tutorials/getting-started/modify-users-permissions-and-information.md)
-  * [Creating Custom Form Stages](tutorials/getting-started/creating-custom-form-stages.md)
-  * [Creating Custom Form Stage Groups](tutorials/getting-started/creating-custom-form-stage-groups.md)
   * [Creating Custom Forms](tutorials/getting-started/creating-custom-forms.md)
   * [Creating Custom Rosters](tutorials/getting-started/creating-custom-rosters.md)
   * [Viewing a Community Profile](tutorials/getting-started/viewing-a-community-profile.md)

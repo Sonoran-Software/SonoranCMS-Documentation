@@ -457,7 +457,7 @@ Accounts Viewer
 * Column Types
   * Community Identifier row columns would not populate with a user's primary identifier properly unless the conditions which very specific.
 
-[Custom Stage Form Actions](../tutorials/getting-started/creating-custom-form-stages.md)
+[Custom Stage Form Actions](broken-reference)
 
 * Status Modifier
   * An issue which would cause the stage action to change community status to not execute properly unless the individual was active within the community from the start.
@@ -548,7 +548,7 @@ Community Profile
   * A new "General Access" option has been added, "Anyone with this link".
   * This will allow anyone to view and/or edit the file through the link given from the "Copy Link" button on the Share Settings dialog.
 
-[Custom Form Stages](../tutorials/getting-started/creating-custom-form-stages.md)
+[Custom Form Stages](broken-reference)
 
 * Custom Action: Modify Submitter's Community Status
   * This new action will do any of the following upon a form changing to a stage with this action:
