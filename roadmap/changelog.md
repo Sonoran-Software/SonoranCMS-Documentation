@@ -10,27 +10,27 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.30 (Beta) 2/23/2023
+### v0.5.30 (Beta) Unreleased (Planned 2/23/2023)
 
 {% tabs %}
 {% tab title="New" %}
-[Automatic Rosters](../tutorials/getting-started/creating-custom-rosters.md#department-automatic)
+****[**Automatic Rosters**](../tutorials/getting-started/creating-custom-rosters.md#department-automatic)****
 
-Rosters have been reworked to add additional functionality and purpose. All existing rosters have been moved to the type of "Custom", this type is considered all rosters that will allow you to add and remove rows as you please. With this change the previous _Department_ and _Sub-Department_ type have been deprecated.\
+Rosters have been reworked to add additional functionality and purpose. All existing rosters have been moved to the type of "Custom", this type is considered for all rosters that will allow you to add and remove rows as you please. With this change the previous _Department_ and _Sub-Department_ type have been deprecated.\
 \
-A new roster type, Department, was added to replace the previous _Department_ roster. This new roster type is considered automatic meaning rows will be dynamically created based on all members that hold a rank within the specified department. Members will be sorted in the order which their rank within the department is shown, as well as alphabetically.
+A new roster type, Department, was added to replace the previous _Department_ roster type. This new roster type is considered automatic meaning rows will be dynamically created based on all members that hold a rank within the specified department. Members will be sorted in the order which their rank within the department is shown, as well as alphabetically.
 {% endtab %}
 
 {% tab title="Fixed" %}
-Form Management
+**Form Management**
 
 Filtering forms to show only **Deleted Forms** would show no forms despite fetching all deleted forms.
 
-[Custom Forms](../tutorials/getting-started/creating-custom-forms.md)
+****[**Custom Forms**](../tutorials/getting-started/creating-custom-forms.md)****
 
 An internal ID was not setting correctly upon save which would make the form no longer editable or usable.
 
-Menu Items
+**Menu Items**
 
 Menu items would not correctly evaluate permissions.
 {% endtab %}
