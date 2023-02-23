@@ -23,7 +23,7 @@
   * [Creating Departments](tutorials/getting-started/creating-departments.md)
   * [Modify Users Permissions & Information](tutorials/getting-started/modify-users-permissions-and-information.md)
   * [Creating Custom Forms](tutorials/getting-started/creating-custom-forms.md)
-  * [Creating Custom Rosters](tutorials/getting-started/creating-custom-rosters.md)
+  * [Creating Rosters](tutorials/getting-started/creating-custom-rosters.md)
   * [Viewing a Community Profile](tutorials/getting-started/viewing-a-community-profile.md)
   * [Your Drive & Documents](tutorials/getting-started/your-drive-and-documents.md)
   * [Community Discovery](tutorials/getting-started/community-discovery.md)
