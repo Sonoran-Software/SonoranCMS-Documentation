@@ -14,7 +14,7 @@ description: View the latest changes to Sonoran CMS!
 
 {% tabs %}
 {% tab title="New" %}
-[Automatic Rosters](../tutorials/getting-started/creating-custom-rosters.md#department-automatic)
+****[**Automatic Rosters**](../tutorials/getting-started/creating-custom-rosters.md#department-automatic)****
 
 Rosters have been reworked to add additional functionality and purpose. All existing rosters have been moved to the type of "Custom", this type is considered for all rosters that will allow you to add and remove rows as you please. With this change the previous _Department_ and _Sub-Department_ type have been deprecated.\
 \
@@ -22,15 +22,15 @@ A new roster type, Department, was added to replace the previous _Department_ ro
 {% endtab %}
 
 {% tab title="Fixed" %}
-Form Management
+**Form Management**
 
 Filtering forms to show only **Deleted Forms** would show no forms despite fetching all deleted forms.
 
-[Custom Forms](../tutorials/getting-started/creating-custom-forms.md)
+****[**Custom Forms**](../tutorials/getting-started/creating-custom-forms.md)****
 
 An internal ID was not setting correctly upon save which would make the form no longer editable or usable.
 
-Menu Items
+**Menu Items**
 
 Menu items would not correctly evaluate permissions.
 {% endtab %}

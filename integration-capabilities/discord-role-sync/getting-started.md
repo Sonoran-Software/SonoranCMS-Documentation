@@ -38,7 +38,13 @@ Note: When setting up the bot, it will automatically be set to CMS sync mode if 
 
 ### **3. Invite to Additional Servers**
 
-Multi-server support is currently unavailable in the closed beta.
+If your community uses multiple discord servers, you can link them all to the same community to utilize the permissions sync easily using the `/guildlink` command, as shown below.![](<../../.gitbook/assets/image (8).png>)
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+Fill out the information (using either your CAD or CMS information), and you will receive a confirmation. At this point, you can use the other commands just like on the primary server.
+
+![](<../../.gitbook/assets/image (2).png>)
 
 ## Command Reference
 

@@ -6,7 +6,7 @@ description: >-
 
 # ⌨️ Sonoran CAD
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (2).png>)
 
 ![Sonoran CAD - Gaming Dispatch Software](../.gitbook/assets/layout\_3\_11.gif)
 
