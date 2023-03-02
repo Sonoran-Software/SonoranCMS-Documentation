@@ -10,7 +10,45 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.30 (Beta) Unreleased (Planned 2/23/2023)
+### v0.5.31 (Beta) Scheduled Release 3/2/2023
+
+{% tabs %}
+{% tab title="New" %}
+****[**Custom Page Paths**](../tutorials/customization/custom-pages.md#custom-page-paths)****
+
+Custom pages can now have a custom path slug to further customize your pages. These path slugs will replace the number ID that is given by default for all custom pages. These paths support custom domains, example: `lspd/sop` would append to a custom domain such as `cms.sonoranrp.com/lspd/sop`.
+
+****[**Custom Form Folders**](../tutorials/getting-started/creating-custom-forms.md#custom-form-folders)****
+
+Custom Forms can now be organized within folders, folders are simply for organizational purposes and serve no additional purposes.
+
+**Home Page**
+
+Our home page has been reworked to provide a more user-friendly and informational landing page.
+
+**API Endpoints**
+
+****[**Kick Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/kick-account.md)****
+
+****[**Ban Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/ban-account.md)****
+
+**API Integration**
+
+Copy buttons have been added to the `Community ID` and `API Key` fields.
+
+**Discord Webhooks**
+
+Custom Form webhooks have been updated to hyperlink the forms share link to the embed's URL.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Rosters**
+
+Automatic Department Roster's have been reworked to improve reliability and performance regarding row generation and response.
+{% endtab %}
+{% endtabs %}
+
+### v0.5.30 (Beta) 2/23/2023
 
 {% tabs %}
 {% tab title="New" %}

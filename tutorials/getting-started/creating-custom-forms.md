@@ -105,3 +105,11 @@ If checked this will not check for any submissions that are currently set to a s
 <figure><img src="https://i.imgur.com/SYeDZiM.png" alt=""><figcaption><p>Sonoran CMS - Available Forms - Block Example</p></figcaption></figure>
 
 Forms that are blocked from being submitted at the current time will be shown this blocked view till the block is lifted based on the settings set for limiting. The member will not be able to submit any version of the form till they no longer meet any requirements to be blocked due to the settings.
+
+## Custom Form Folders
+
+Forms can now be organized within folders, these folders are purely for organizational purposes and doesn't serve any other function.
+
+<figure><img src="https://i.imgur.com/Iyxb7Zd.png" alt=""><figcaption><p>Sonoran CMS - Form Editor - Folders</p></figcaption></figure>
+
+To create a folder simply press the green plus button and select folder, this will prompt you to provide a name for the folder to then be created. Once the folder is created you can drag and drop forms into folders to easily organize them.
