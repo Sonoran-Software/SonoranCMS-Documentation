@@ -32,7 +32,7 @@ Forum topic attachments now support opening in a image viewer instead of downloa
 
 **Account Editing**
 
-Account editing UI has been slightly reworked to adapt to the new Expiring Ranks.
+Account editing UI has been slightly reworked to adapt to the new Expiring Ranks. Users will no longer need to select a department prior to assigning a rank.
 {% endtab %}
 
 {% tab title="Fixed" %}
@@ -48,6 +48,10 @@ Account editing UI has been slightly reworked to adapt to the new Expiring Ranks
 * Automatic Department Rosters would unreliably get backend generated rows
 * Rows be able to be initially edited without proper permission
   * Request to edit the row would not process through without valid permissions
+
+**Discord Webhooks**
+
+* Forms submitted directly onto a profile would not send a logging webhook
 {% endtab %}
 {% endtabs %}
 
