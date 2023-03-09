@@ -6,7 +6,7 @@ description: >-
 
 # Creating Custom Forms
 
-## Navigate to the Custom Form Editor
+Navigate to the Custom Form Editor
 
 #### Administrative Panel > Customization > Community Forms
 
@@ -39,6 +39,10 @@ Stages are not unique between forms, so if two forms use the same stage then edi
 ### Action Explanation: Change Submitter's Department/Rank
 
 This action will allow you to set the submitters primary or secondary ranks. Additionally this allow you to set the ranks to also expire after a certain amount of time after they've been granted the rank by the action.
+
+{% hint style="info" %}
+Checks for rank expirations are done upon each fetch of the account and not **currently** periodically checked.
+{% endhint %}
 
 _Primary Changes_\
 This will change the submitter's Primary rank (and department but that's behind the scenes). To apply an expiration to the rank simply press the blue "Expiration Settings" button located under the rank selector once a rank is selected.

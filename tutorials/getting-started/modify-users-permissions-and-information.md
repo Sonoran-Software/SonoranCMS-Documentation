@@ -52,3 +52,7 @@ This will open up a dialog where you can decide whether you want the rank to exp
 Once you're happy with the expiration settings, just click the green "Set Expiration" button.
 
 <figure><img src="https://i.imgur.com/N5bYqeH.png" alt=""><figcaption><p>Rank Expiration Settings</p></figcaption></figure>
+
+{% hint style="info" %}
+Checks for rank expirations are done upon each fetch of the account and not **currently** periodically checked.
+{% endhint %}
