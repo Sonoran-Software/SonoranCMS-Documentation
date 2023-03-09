@@ -10,6 +10,47 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.32 (Beta) Scheduled 3/9/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Expiring Ranks**
+
+Ranks can now be applied to [individuals manually](../tutorials/getting-started/modify-users-permissions-and-information.md#granting-expiring-ranks) or through [stage actions](../tutorials/getting-started/creating-custom-forms.md#action-explanation-change-submitters-department-rank) to set a rank to expire, the rank will automatically be removed upon the next check (every fetch for the account) if found expired. Ranks can be set to expire after X amount of hours/days or by a exact time/day that you set.
+
+**Account Avatars**
+
+Customizable account avatars have now been implemented, all areas within the Sonoran CMS should now support the customizable avatar. You can now set your avatar [here](https://account.sonoransoftware.com/).
+
+****[**Discord Webhooks**](../integration-capabilities/discord-webhooks.md)****
+
+A new webhook event has been added, **Member Join**. This webhook will fire when a member joins your Sonoran CMS community.
+
+**Forum Topic's**
+
+Forum topic attachments now support opening in a image viewer instead of downloading the image. Zoom, pan, etc.
+
+**Account Editing**
+
+Account editing UI has been slightly reworked to adapt to the new Expiring Ranks.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Available Forms**
+
+* Share link would appear on non-submitted forms
+* Form ID "#" would appear on non-submitted forms
+* Able to view all and any forms regardless of permission
+* State would not update with newly edited/created forms
+
+**Rosters**
+
+* Automatic Department Rosters would unreliably get backend generated rows
+* Rows be able to be initially edited without proper permission
+  * Request to edit the row would not process through without valid permissions
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.31 (Beta) 3/2/2023
 
 {% tabs %}

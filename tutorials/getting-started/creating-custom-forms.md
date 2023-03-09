@@ -36,6 +36,18 @@ After pressing "Create New Stage" (or pressing "Edit" on an existing stage), you
 Stages are not unique between forms, so if two forms use the same stage then editing that stage will affect both forms
 {% endhint %}
 
+### Action Explanation: Change Submitter's Department/Rank
+
+This action will allow you to set the submitters primary or secondary ranks. Additionally this allow you to set the ranks to also expire after a certain amount of time after they've been granted the rank by the action.
+
+_Primary Changes_\
+This will change the submitter's Primary rank (and department but that's behind the scenes). To apply an expiration to the rank simply press the blue "Expiration Settings" button located under the rank selector once a rank is selected.
+
+_Secondary Changes_\
+This will change the submitter's Secondary rank(s) (and department(s) but that's behind the scenes). To apply an expiration to the rank(s) simply press the dropdown button located on the rank button, this will provide you with the option to access it's Expiration Settings.
+
+<figure><img src="https://i.imgur.com/f0pOLph.png" alt=""><figcaption><p>Change Submitter's Department/Rank Stage Action</p></figcaption></figure>
+
 ## Sections & Fields
 
 ### Premade Sections
