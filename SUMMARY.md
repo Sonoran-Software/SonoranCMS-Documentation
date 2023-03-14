@@ -119,6 +119,7 @@
 ## Pricing
 
 * [Pricing FAQ](pricing/pricing-faq/README.md)
+  * [Expert Installation](pricing/pricing-faq/expert-installation.md)
   * [Accessing the Payment Center](pricing/pricing-faq/accessing-the-payment-center.md)
   * [Create and Manage a Subscription](pricing/pricing-faq/create-and-manage-a-subscription.md)
   * [Request Discord Role](pricing/pricing-faq/request-discord-role.md)
