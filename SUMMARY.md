@@ -99,7 +99,7 @@
       * [Ban Account](developer-api-documentation/api-integration/api-endpoints/general/ban-account.md)
     * [Servers](developer-api-documentation/api-integration/api-endpoints/servers/README.md)
       * [Get Game Servers](developer-api-documentation/api-integration/api-endpoints/servers/get-game-servers.md)
-      * [Set Game Servers](developer-api-documentation/api-integration/api-endpoints/servers/get-game-servers-1.md)
+      * [Set Game Servers](developer-api-documentation/api-integration/api-endpoints/servers/set-game-servers.md)
       * [Verify Whitelist](developer-api-documentation/api-integration/api-endpoints/servers/verify-whitelist.md)
       * [Full Whitelist](developer-api-documentation/api-integration/api-endpoints/servers/full-whitelist.md)
 * [🌎 Translation Support](developer-api-documentation/translation-support.md)
