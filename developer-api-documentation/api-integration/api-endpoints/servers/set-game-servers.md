@@ -66,6 +66,7 @@ INVALID COMMUNITY ID
     "type": "SET_GAME_SERVERS",
     "data": [
         {
+            "id": 1, // Optional - only supply if needing to update a server
             "name": "Server 1",
             "description": "This is server 1",
             "ip": "",
