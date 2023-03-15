@@ -9,7 +9,7 @@ API endpoint requires the **Standard** version of Sonoran CMS or higher.\
 For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
 {% endhint %}
 
-{% swagger method="post" path="general/get_game_servers" baseUrl="https://api.sonorancms.com" summary="Get Game Servers" %}
+{% swagger method="post" path="/servers/get_game_servers" baseUrl="https://api.sonorancms.com" summary="Get Game Servers" %}
 {% swagger-description %}
 Get Sonoran CMS community server configurations.
 {% endswagger-description %}
