@@ -10,6 +10,67 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.33 (Beta) Scheduled 3/16/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Mobile UI**\
+****_Side Menu & Hamburger Menu while Signed into a Community_\
+The hamburger menu when shown on mobile has been reworked to introduce the existing menu that listed all community area such as Administrative Panel, Form Management, etc. The main side menu will now longer show on mobile view and will be included in the hamburger menu.
+
+_Forum Topic Page_\
+__When viewing a forum topic on a smaller screen the replies and user information will no longer become disoriented and unviewable.
+
+**Forum Topics**
+
+Replies on forum topics now allow you to include attachments with the reply similar to creating a topic.
+
+**Form Stages**
+
+Form stages have now two labels. The _Stage Label_ should be seen as a public name for the label, this will be shown in Available Forms, Form Management, and when referenced in stage actions (when they execute). The _Internal Label_ should be seen as a _nickname_ for the stage, this will be shown in any area it's referenced in the Administrative Panel area.
+
+**Community Profile**
+
+_Community Bio_\
+A community bio option has been added to the community profile page. Members can now set a customizable bio for themselves directly in their profile.
+
+_Name Changing_
+
+Individuals viewing another member's profile and having permission to edit them within the Account Viewer will be able to change the member's name directly in the profile.
+
+_Account Avatar_
+
+Individuals viewing their own community profile will be able to change their account avatar by simply clicking on their avatar in the profile page.
+
+_Global Account Actions_\
+Several account action buttons have been added to the community profile page, these will only show when viewing your own profile. This is in place due to the change with how the top-right dropdown menu is handled and the options that are now displayed there.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Account / Top Account Dropdown**
+
+The non-community account page is now no longer accessible by the top dropdown when viewing a community. This will now direct you to your Community Profile which also provides the same global account action buttons that are in the non-community account page. The dropdown item _Account_ was renamed to _Profile_ to adapt to this change.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Department Editor**
+
+After adding a calendar category and going to the department editor it would not show up until a refresh or a relog into the community.
+
+**Account Viewer**
+
+When editing an account and removing the primary rank it would not remove the primary department shown in the account viewer table.
+
+**Stage Actions**
+
+After creating a stage with a _Change Submitter's Department/Rank_ action, the action would not provide all department ranks after editing it upon creation.
+
+**Integration - Whitelist**
+
+Several bugs have been pushed to address issues related to the whitelist system.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.32 (Beta) 3/9/2023
 
 {% tabs %}

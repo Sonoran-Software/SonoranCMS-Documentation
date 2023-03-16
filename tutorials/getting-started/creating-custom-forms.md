@@ -30,6 +30,10 @@ To begin, you can either create a new stage or add an existing stage to a form. 
 
 After pressing "Create New Stage" (or pressing "Edit" on an existing stage), you're shown an editor to modify the look and actions of that stage.
 
+{% hint style="info" %}
+**Stage Label** is shown when referenced in stage actions (upon execution), Form Management and Available Forms. **Internal Label** is shown when referenced anywhere in the Administrative Panel.
+{% endhint %}
+
 <figure><img src="https://i.imgur.com/rRDn9UI.png" alt=""><figcaption><p>Stage Editor - Edit a single stage</p></figcaption></figure>
 
 {% hint style="warning" %}

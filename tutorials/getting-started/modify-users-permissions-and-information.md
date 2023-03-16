@@ -39,6 +39,8 @@ Instead of left-clicking a user's row you can right-click which will prompt you 
 
 ![User's Community Profile - Redirected from the "View Member Profile" prompt from above](../../.gitbook/assets/msedge\_7eIuVoIkTc.png)
 
+If you have permission to edit the individuals information in the Account Viewer you can edit the member's name in their Community Profile by clicking their name or the blue pencil shown to the right of it. The pencil will only show if you have permission.
+
 ### Granting Expiring Ranks
 
 All ranks can be set to expire after a certain amount of time or at a specific time, below will explain how to set a rank to expire.
