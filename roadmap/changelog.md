@@ -68,6 +68,10 @@ After creating a stage with a _Change Submitter's Department/Rank_ action, the a
 **Integration - Whitelist**
 
 Several bugs have been pushed to address issues related to the whitelist system.
+
+**Custom Form Editor**
+
+Premade form sections were removed during the rework of the Custom Forms & Stages. They've been reimplemented with no additional sections added, just the Patrol Start/End.
 {% endtab %}
 {% endtabs %}
 
