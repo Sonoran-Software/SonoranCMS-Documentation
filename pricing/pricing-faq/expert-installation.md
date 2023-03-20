@@ -20,7 +20,7 @@ Expert installation is a one-time payment of $34.99 and covers a single install 
 
 #### For free: <a href="#for-free" id="for-free"></a>
 
-Expert installation is offered to [Sonoran Servers customers for free](https://app.gitbook.com/o/-M7AnMftAZpL5ZULbraX/s/-M4pGN81fb4R6zFhodcu/pricing/faq/bundle-discount-sonoran-servers)!
+Expert installation is offered to [Sonoran Servers customers for free](https://info.sonorancad.com/pricing/faq/bundle-discount-sonoran-servers)!
 
 #### At checkout: <a href="#at-checkout" id="at-checkout"></a>
 
