@@ -45,3 +45,9 @@ In the CMS billing portal, select `New Subscription` > `Expert Installation`
 #### Can I redeem another product installation at a later date? <a href="#can-i-redeem-another-product-installation-at-a-later-date" id="can-i-redeem-another-product-installation-at-a-later-date"></a>
 
 Yes! Your purchase is valid for an installation of one CAD, CMS, and Radio configuration. You could have the agent install and configure CAD plugins and install CMS plugins at a later date.
+
+### The support agent has installed my plugins, what's next?
+
+{% content-ref url="../../integration-capabilities/in-game-integration-resources/gta-rp-integrations/free-plugin-installation-next-steps.md" %}
+[free-plugin-installation-next-steps.md](../../integration-capabilities/in-game-integration-resources/gta-rp-integrations/free-plugin-installation-next-steps.md)
+{% endcontent-ref %}

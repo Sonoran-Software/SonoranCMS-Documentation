@@ -32,7 +32,7 @@ You must have the "Manage Server" permission to add bots; plus any permissions t
 
 You will then be presented with the results of the setup.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 Note: When setting up the bot, it will automatically be set to CMS sync mode if you opted to link your CMS community.
 
@@ -44,7 +44,7 @@ If your community uses multiple discord servers, you can link them all to the sa
 
 Fill out the information (using either your CAD or CMS information), and you will receive a confirmation. At this point, you can use the other commands just like on the primary server.
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (3).png>)
 
 ## Command Reference
 

@@ -67,6 +67,7 @@
       * [Whitelist](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/whitelist.md)
       * [Ace Permission Sync](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/ace-permission-sync.md)
       * [Clock In](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/clock-in.md)
+    * [Free Plugin Installation - Next Steps](integration-capabilities/in-game-integration-resources/gta-rp-integrations/free-plugin-installation-next-steps.md)
   * [Minecraft Integrations](integration-capabilities/in-game-integration-resources/minecraft-integrations/README.md)
     * [Minecraft Resource Installation](integration-capabilities/in-game-integration-resources/minecraft-integrations/minecraft-resource-installation.md)
     * [Available Resources](integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/README.md)
@@ -120,6 +121,7 @@
 
 * [Pricing FAQ](pricing/pricing-faq/README.md)
   * [Expert Installation](pricing/pricing-faq/expert-installation.md)
+  * [Free Plugin Installation and Discount - Sonoran Servers](pricing/pricing-faq/free-plugin-installation-and-discount-sonoran-servers.md)
   * [Accessing the Payment Center](pricing/pricing-faq/accessing-the-payment-center.md)
   * [Create and Manage a Subscription](pricing/pricing-faq/create-and-manage-a-subscription.md)
   * [Request Discord Role](pricing/pricing-faq/request-discord-role.md)
