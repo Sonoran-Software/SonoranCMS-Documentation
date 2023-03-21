@@ -12,7 +12,7 @@ description: >-
 
 Our support agents are available 7 days/week to help install and configure all of your Sonoran CAD, CMS, and Radio plugins on your Windows server!
 
-Expert installation is a one-time payment of $34.99 and covers THREE (3) installation credits.\
+Expert installation is a one-time payment of $34.99 and covers THREE (3) non-transferable installation credits.\
 These credits can be used for:
 
 * Sonoran CAD - Framework and Plugin Installation
