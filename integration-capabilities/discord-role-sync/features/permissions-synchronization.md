@@ -4,6 +4,8 @@ description: Sync your Discord roles with SonoranCMS permissions!
 
 # Permissions Synchronization
 
+{% embed url="https://www.youtube.com/watch?v=mlH4TlybT_4" %}
+
 ## Getting Started
 
 {% hint style="warning" %}

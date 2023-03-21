@@ -23,7 +23,7 @@ If you haven't already, [purchase any server plan with Windows as the operating 
 
 ### 2. Contact Support
 
-Reach out on our [customer support site](https://support.sonoransoftware.com) and a team member will help install and configure your Sonoran CAD integration plugins for free!
+Reach out on our [customer support site](https://support.sonoransoftware.com) and a team member will help install and configure your Sonoran CMS integration for free!
 
 ### The support agent has installed my plugins, what's next?
 

@@ -6,6 +6,10 @@ description: Get started with Sonoran's CMS, CAD, and Discord role sync!
 
 <figure><img src="../../.gitbook/assets/crossrolesync-v6.png" alt=""><figcaption><p>Sonoran CMS - Discord Sync</p></figcaption></figure>
 
+{% embed url="https://www.youtube.com/watch?v=mlH4TlybT_4" %}
+Sonoran Bot x Sonoran CMS - Setup
+{% endembed %}
+
 ## Setup
 
 {% hint style="warning" %}
