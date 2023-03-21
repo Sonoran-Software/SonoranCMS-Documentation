@@ -6,9 +6,7 @@ description: >-
 
 # Expert Installation
 
-{% hint style="danger" %}
-This service is in testing and has not yet been released!
-{% endhint %}
+<figure><img src="../../.gitbook/assets/install2.png" alt=""><figcaption></figcaption></figure>
 
 ### What is expert installation? <a href="#what-is-expert-installation" id="what-is-expert-installation"></a>
 
