@@ -18,6 +18,6 @@ Accessing a Community Profile via the Administrative Panel is easy as viewing th
 
 ## Accessing a Community Profile via a Roster
 
-Accessing a Community Profile via the Administrative Panel is easy as viewing a roster. Once you're on a roster you can right-click any table row which will provide you with two options, "Edit Roster Data" and "View Member Profile". Select "View Member Profile", which will direct you to the user's community profile.
+Accessing a Community Profile via the Administrative Panel is easy as viewing a roster. Once you're on a roster you can click any table row which will provide you with two options, "Edit Roster Data" and "View Profile". Select "View Profile", which will direct you to the user's community profile.
 
 ![Sonoran CMS Roster View](../../.gitbook/assets/brave\_u4vnTEMMeO.png)

@@ -55,7 +55,16 @@ Array of request objects
     "lastLogin": "2022-02-22 22:43:46.000 -0800",
     "activeApiIds": [
         "235947056630333440"
-    ]
+    ],
+    "profileFields": {
+        "data": [
+            {
+                "id": "d9d1288e-3892-40d6-acc5-be2c3d294bd4",
+                "value": ["some", "strings", "for", "array"]
+            },
+            ...
+        ]
+    }
 }
 ```
 {% endswagger-response %}

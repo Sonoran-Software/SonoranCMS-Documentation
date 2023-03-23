@@ -10,7 +10,54 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.33 (Beta) Scheduled 3/17/2023
+### v0.5.34 (Beta) Scheduled 3/23/2023
+
+{% tabs %}
+{% tab title="New" %}
+****[**Archive Community Member**](../tutorials/administrative/archive-community-member.md)****
+
+Community member's can now be archived, this is _kick_ from the community but sets the member in a archived state where their profile and information is still accessible. This should allow communities to better organize member's that have left and will allow you to easily see their information by viewing their profile even after they're gone.
+
+* When an account is archived it will display a banner on their profile showing they're archived.
+  * Additionally if they're banned it will also display a banner.
+* When an account is archived it will display a small banner on their brief profile information when viewing a Forum Topic.
+
+**Custom Profile Fields**
+
+__[_Text Array Profile Field Type_](../tutorials/customization/community-profile-fields.md#text-array-profile-field-editing)__\
+__A new profile field type has been added; Text Array. This new field type allows you to store several entries of information on one specific field.
+
+**API Endpoints**
+
+****[**Get Profile Fields Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/get-departments-1.md)****
+
+****[**Edit Account Profile Fields Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/ban-account-1.md)****
+{% endtab %}
+
+{% tab title="Changed" %}
+**Roster**
+
+When viewing a roster and clicking on a row it will now not immediately edit the row, it will now give you the option to edit the row or to view their community profile.
+
+**Community Profile**
+
+Several UI elements of the Community Profile have been changed to improve the overall UI/UX.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Community Profile**
+
+Clicking on a user profile's name text will warn about not being able to edit it.
+
+**Mobile UI**
+
+_Hamburger Menu_
+
+The hamburger menu would keep state from a previous community and not refresh upon loading a new community.
+{% endtab %}
+{% endtabs %}
+
+### v0.5.33 (Beta) 3/17/2023
 
 {% tabs %}
 {% tab title="New" %}
