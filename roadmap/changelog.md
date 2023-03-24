@@ -10,7 +10,7 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.34 (Beta) Scheduled 3/23/2023
+### v0.5.34 (Beta) 3/24/2023
 
 {% tabs %}
 {% tab title="New" %}
@@ -54,6 +54,14 @@ Clicking on a user profile's name text will warn about not being able to edit it
 _Hamburger Menu_
 
 The hamburger menu would keep state from a previous community and not refresh upon loading a new community.
+
+**Custom Page Editor**
+
+The default page button would be clickable even if the page is already set to default.
+
+**Custom Form Editor**
+
+Adding new fields could randomly be placed in a different section than the intended one.
 {% endtab %}
 {% endtabs %}
 
