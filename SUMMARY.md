@@ -107,7 +107,7 @@
       * [Verify Whitelist](developer-api-documentation/api-integration/api-endpoints/servers/verify-whitelist.md)
       * [Full Whitelist](developer-api-documentation/api-integration/api-endpoints/servers/full-whitelist.md)
     * [Events](developer-api-documentation/api-integration/api-endpoints/events/README.md)
-      * [RSVP](developer-api-documentation/api-integration/api-endpoints/events/kick-account.md)
+      * [RSVP](developer-api-documentation/api-integration/api-endpoints/events/rsvp.md)
 * [🌎 Translation Support](developer-api-documentation/translation-support.md)
 
 ## Roadmap
