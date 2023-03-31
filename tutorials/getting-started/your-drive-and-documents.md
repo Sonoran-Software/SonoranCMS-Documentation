@@ -183,3 +183,15 @@ Sonoran CMS Drive allows files to be publicly viewable and editable with a simpl
 <figure><img src="https://i.imgur.com/pg9rokQ.png" alt=""><figcaption><p>Sonoran CMS - File Share Settings for Anyone with this link</p></figcaption></figure>
 
 If a user of your community accesses the public generated link they will be automatically redirected to view the file in your community's Drive.
+
+## Drive Downloads
+
+There are several file types that the Sonoran CMS Drive accepts but only handles them as _downloadable_ content that isn't for viewable use. The following file types are currently supported for _downloadable content_:
+
+* GTA Archive | .rpf
+* Audio | .wav, .mp3
+* ZIP | .zip
+
+<figure><img src="https://i.imgur.com/Qj42DMV.png" alt=""><figcaption></figcaption></figure>
+
+When one of these file types are uploaded they'll be given different options to interact with, as shown in the image you're able to download, remove or modify the share settings. Additionally you're able to copy a direct download link to share among peers. If someone is able to see the file in their Drive they're able to download it.

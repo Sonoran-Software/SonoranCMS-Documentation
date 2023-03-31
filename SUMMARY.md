@@ -28,6 +28,7 @@
   * [Your Drive & Documents](tutorials/getting-started/your-drive-and-documents.md)
   * [Community Discovery](tutorials/getting-started/community-discovery.md)
   * [Forum System](tutorials/getting-started/forum-system.md)
+  * [Gallery System](tutorials/getting-started/gallery-system.md)
 * [Customization](tutorials/customization/README.md)
   * [Navigation Sidebar](tutorials/customization/navigation-sidebar.md)
   * [Community Branding and Settings](tutorials/customization/community-branding-and-settings.md)

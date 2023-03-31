@@ -20,9 +20,13 @@ To access the Community Calendar navigate to the left side-bar and select "Commu
 
 To create an event click the "Create Event" dropdown in the top-left of the calendar and select the Calendar Category that you're wanting to create an event for.
 
-<figure><img src="https://i.imgur.com/eLJ9oHd.png" alt=""><figcaption><p>Sonoran CMS - Community Calendar - Create an Event Modal</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/nSeX5Ey.png" alt=""><figcaption><p>Sonoran CMS - Community Calendar - Create an Event Modal</p></figcaption></figure>
 
 Once you've got the create an event dialog  you can now input all of the event information that you'd like to associate with this event, once the event is created it can be edited if any information is no longer correct.
+
+#### Regarding RSVP Limit
+
+Setting the RSVP Limit from anything but -1 will restrict the total RSVP spots available, setting it to -1 will allow for an unlimited spots for RSVP.
 
 Once you're satisfied with the information inputted for the event you can publish event, this will now add the event to the calendar to be accessed by your community.
 

@@ -10,6 +10,34 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.35 (Beta) Unreleased | Scheduled 3/31/2023
+
+{% tabs %}
+{% tab title="New" %}
+****[**Calendar** RSVP Limits](../tutorials/calendars/community-events.md#regarding-rsvp-limit)
+
+Calendar events can now be RSVP limited, you can now set how many members can RSVP to an individual event.
+
+**API Endpoints**
+
+****[**Event RSVP**](../developer-api-documentation/api-integration/api-endpoints/events/rsvp.md)****
+
+****[**Drive** Downloads](../tutorials/getting-started/your-drive-and-documents.md#drive-downloads)
+
+Additional file types can now be uploaded and downloaded directly from the Sonoran CMS Drive. Any **.rpf**, **.wav**, **.mp3**, and **.zip** are accepted. They aren't "viewable" but are able to be downloaded easily. Additionally there's now a download URL that can be copied for the _downloadable_ file types as described above.
+
+****[**Community Gallery**](../tutorials/getting-started/gallery-system.md)****
+
+A new **Custom Page Element** has been added for additional customization and content. We've added the first of many elements apart of the new Gallery system. This system is designed heavily after the Forum system, as far as handling. Each element requires it to be associated to a _Gallery category_, with further customization and elements coming in later updates. This new element will show your images in a larger slide show with also listing all the gallery posts associated to the category. These gallery categories can be restricted as far as who can upload.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Member Join**
+
+All new users that joined communities would have their community name set to "NOT SET" upon initial join, this however has been changed to set their community name as their Sonoran account username.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.34 (Beta) 3/24/2023
 
 {% tabs %}
