@@ -22,7 +22,7 @@ Follow the [standard resource installation guide](../gta-rp-resource-installatio
 
 ### 3. Configure and Rename
 
-Open `sonorancms_core\config.CHANGEME.json`, update the values, then save it as `config.json`. Default configuration is below:
+Open `sonorancms\config.CHANGEME.json`, update the values, then save it as `config.json`. Default configuration is below:
 
 #### Configuration Details
 
@@ -42,10 +42,10 @@ It is very important that the `sonorancms_updatehelper` resource is not started 
 {% endhint %}
 
 ```javascript
-ensure sonorancms_core
+ensure sonorancms
 
 # permissions for SonoranCMS auto-updater (REQUIRED)
-add_ace resource.sonorancms_core command allow
+add_ace resource.sonorancms command allow
 add_ace resource.sonorancms_updatehelper command allow
 ```
 
