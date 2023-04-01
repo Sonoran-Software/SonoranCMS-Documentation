@@ -9,8 +9,7 @@ description: Get started with Sonoran's CMS, CAD, and Discord role sync!
 ## Setup
 
 {% hint style="warning" %}
-This system utilizes API endpoints that require the **Standard** version of Sonoran CMS or higher. For more information, view our [pricing ](../../../../pricing/pricing-faq/)page.\
-\
+This system utilizes API endpoints that require the **Standard** version of Sonoran CMS or higher. For more information, view our [pricing ](../../pricing/pricing-faq/)page.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -19,7 +18,7 @@ Setting up the bot requires you to have the "Manage Server" permissions on the D
 
 ### 1. Invite the Bot to Your Server
 
-[Invite the bot to your Discord server](https://discord.com/api/oauth2/authorize?client\_id=1060274480930361424\&permissions=805306368\&scope=bot%20applications.commands).
+[Invite the bot to your Discord server.](https://discord.com/api/oauth2/authorize?client\_id=1060274480930361424\&permissions=9395241984\&scope=bot%20applications.commands)
 
 You must have the "Manage Server" permission to add bots; plus any permissions the bot requires to function.
 
@@ -33,11 +32,19 @@ You must have the "Manage Server" permission to add bots; plus any permissions t
 
 You will then be presented with the results of the setup.
 
-<figure><img src="../../.gitbook/assets/Screenshot_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Note: When setting up the bot, it will automatically be set to CMS sync mode if you opted to link your CMS community.
 
 ### **3. Invite to Additional Servers**
 
-Multi-server support is currently unavailable in the closed beta.
+If your community uses multiple discord servers, you can link them all to the same community to utilize the permissions sync easily using the `/guildlink` command, as shown below.![](<../../.gitbook/assets/image (8).png>)
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+Fill out the information (using either your CAD or CMS information), and you will receive a confirmation. At this point, you can use the other commands just like on the primary server.
+
+![](<../../.gitbook/assets/image (2).png>)
 
 ## Command Reference
 

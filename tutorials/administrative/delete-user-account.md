@@ -10,7 +10,7 @@ description: Looking to remove your Sonoran Software account?
 
 You can access your Sonoran Software account by going to [account.sonoransoftware.com](https://account.sonoransoftware.com), or by selecting "Modify" in the side menu's account modal.
 
-![Sonoran CMS - Modify Account](<../../.gitbook/assets/image (8).png>)
+![Sonoran CMS - Modify Account](<../../.gitbook/assets/image (8) (1).png>)
 
 ### 2. Send an Account Removal Email
 

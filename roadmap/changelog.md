@@ -10,6 +10,170 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.31 (Beta) 3/2/2023
+
+{% tabs %}
+{% tab title="New" %}
+****[**Custom Page Paths**](../tutorials/customization/custom-pages.md#custom-page-paths)****
+
+Custom pages can now have a custom path slug to further customize your pages. These path slugs will replace the number ID that is given by default for all custom pages. These paths support custom domains, example: `lspd/sop` would append to a custom domain such as `cms.sonoranrp.com/lspd/sop`.
+
+****[**Custom Form Folders**](../tutorials/getting-started/creating-custom-forms.md#custom-form-folders)****
+
+Custom Forms can now be organized within folders, folders are simply for organizational purposes and serve no additional purposes.
+
+**Home Page**
+
+Our home page has been reworked to provide a more user-friendly and informational landing page.
+
+**API Endpoints**
+
+****[**Kick Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/kick-account.md)****
+
+****[**Ban Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/ban-account.md)****
+
+**API Integration**
+
+Copy buttons have been added to the `Community ID` and `API Key` fields.
+
+**Discord Webhooks**
+
+Custom Form webhooks have been updated to hyperlink the forms share link to the embed's URL.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Rosters**
+
+Automatic Department Roster's have been reworked to improve reliability and performance regarding row generation and response.
+{% endtab %}
+{% endtabs %}
+
+### v0.5.30 (Beta) 2/23/2023
+
+{% tabs %}
+{% tab title="New" %}
+****[**Automatic Rosters**](../tutorials/getting-started/creating-custom-rosters.md#department-automatic)****
+
+Rosters have been reworked to add additional functionality and purpose. All existing rosters have been moved to the type of "Custom", this type is considered for all rosters that will allow you to add and remove rows as you please. With this change the previous _Department_ and _Sub-Department_ type have been deprecated.\
+\
+A new roster type, Department, was added to replace the previous _Department_ roster type. This new roster type is considered automatic meaning rows will be dynamically created based on all members that hold a rank within the specified department. Members will be sorted in the order which their rank within the department is shown, as well as alphabetically.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Form Management**
+
+Filtering forms to show only **Deleted Forms** would show no forms despite fetching all deleted forms.
+
+****[**Custom Forms**](../tutorials/getting-started/creating-custom-forms.md)****
+
+An internal ID was not setting correctly upon save which would make the form no longer editable or usable.
+
+**Menu Items**
+
+Menu items would not correctly evaluate permissions.
+{% endtab %}
+{% endtabs %}
+
+### v0.5.29 (Beta) 2/17/2023
+
+{% tabs %}
+{% tab title="New" %}
+****[**Form Submission Limits**](../tutorials/getting-started/creating-custom-forms.md#limiting-form-submissions)****
+
+Custom Form Templates now have limit settings, these settings will allow you to customize how your forms are being submitted. This allows for submissions to be limited to a certain amount per user, within the last X days, and even with a cooldown between submissions.
+
+* Limit Total Submissions from each User
+  * Ignore submissions that are set to a stage with the type of "Archived"
+* Submission Cooldown
+* Limit Within Last X Days
+
+****[**Department Rank Cosmetic Customization**](../tutorials/getting-started/creating-departments.md#4.-customize-rank-cosmetic-styling)****
+
+Department ranks now have cosmetic styling, this cosmetic addition is only shown when viewing Forum Topic's but will be expanded upon as UI is needed. This customization allows you to change the background color and icon associated with it.
+
+**Custom Form & Stage Editors**
+
+Custom Form, Custom Stage and Custom Stage Group editor's have all been centralized into one page and one editor. Create stages directly within forms without the hassle of creating groups to then go back and fourth within editors.
+
+**Additional Form Management Filters**
+
+Several new form management filters have been added to better find submissions within your community. Now you're able to use the following filters when managing forms:
+
+* Community Member
+* Form Type
+  * Was already implemented prior but was improved/fixed as well
+* Custom Form
+  * Search for submissions that were all created from the same custom form template
+    * Additionally you can specify whether you want to filter the custom form submissions by their current stage as well
+{% endtab %}
+
+{% tab title="Fixed" %}
+Custom Page Editor
+
+* When enabling sorting for page sections you'll only be displayed with a maximum of 5 sections even if you have more.
+
+Account Info
+
+* Saving an edited account would fail and not provide an error.
+{% endtab %}
+{% endtabs %}
+
+### v0.5.28 (Beta) 2/9/2023
+
+{% tabs %}
+{% tab title="New" %}
+[Forum System](../tutorials/getting-started/forum-system.md)
+
+The user interface for the Forum System has been completely revamped, improving the individual topic viewing and forum categories pages.
+
+* Quote Replying
+  * There's now an option under a topic or a topic reply will have an option to quote the content of that, this will add the content to your reply editor to allow you to easily quote an individual's post.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Community Discovery
+
+* "Load More" button located on the Community Discovery page would not load additional communities
+
+Community Profile
+
+* When viewing a profile that's now your own the name of the profile would display "ERROR"
+
+Rosters
+
+* Saving a roster row without changing the user's status would cause their status to remove and go back to unset/errored
+* Websocket Disconnections
+  * Permissions checks when gathering all rows would cause a WS disconnection due to a failure in the check
+
+Account Viewer Table
+
+* Sorting accounts by the table column labels would not sort properly, they would be randomly sorted and not with the correct sort applied
+{% endtab %}
+{% endtabs %}
+
+### v0.5.27 (Beta) 2/2/2023
+
+{% tabs %}
+{% tab title="New" %}
+[Custom Login Page](../tutorials/customization/custom-domain.md#custom-login-page)
+
+The custom login page has been completely revamped, the old login page has been deprecated and have been moved to the top toolbar & community dashboards.
+
+* When using a Custom Domain it'll automatically load the community's dashboard page.
+* If you're not signed in or not apart of the community you'll be put in a "Preview" mode for the community while you view their dashboard and custom pages.
+* Deprecated login page may still be seen as there's some actions that require a login page to direct to.
+{% endtab %}
+
+{% tab title="Fixed" %}
+[Discord Webhooks](../integration-capabilities/discord-webhooks.md)
+
+* Account Updated webhook would not show the correct ranks/departments the account is associated with.
+* Event webhooks would include raw HTML within the event description.
+* Tutorial button on Discord Webhook page now directs you to the guide.
+* Event webhooks would not include any specified content and would always be content-less with the embed.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.26 (Beta) 1/26/2023
 
 {% tabs %}
@@ -357,7 +521,7 @@ Accounts Viewer
 * Column Types
   * Community Identifier row columns would not populate with a user's primary identifier properly unless the conditions which very specific.
 
-[Custom Stage Form Actions](../tutorials/getting-started/creating-custom-form-stages.md)
+[Custom Stage Form Actions](broken-reference)
 
 * Status Modifier
   * An issue which would cause the stage action to change community status to not execute properly unless the individual was active within the community from the start.
@@ -448,7 +612,7 @@ Community Profile
   * A new "General Access" option has been added, "Anyone with this link".
   * This will allow anyone to view and/or edit the file through the link given from the "Copy Link" button on the Share Settings dialog.
 
-[Custom Form Stages](../tutorials/getting-started/creating-custom-form-stages.md)
+[Custom Form Stages](broken-reference)
 
 * Custom Action: Modify Submitter's Community Status
   * This new action will do any of the following upon a form changing to a stage with this action:

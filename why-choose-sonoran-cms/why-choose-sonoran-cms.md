@@ -7,7 +7,7 @@ description: >-
 
 # 🏆 Why Choose Sonoran CMS?
 
-![Sonoran CMS - 14 Day Trial](<../.gitbook/assets/Trial - B.png>)
+<figure><img src="../.gitbook/assets/CMS Main Promo.png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:orange;"></mark>[<mark style="color:orange;">Get Sonoran CMS Pro free for 14 days!</mark>](../pricing/pricing-faq/#free-trial-sonoran-cms-pro)<mark style="color:orange;"></mark>
 
@@ -31,7 +31,7 @@ Sonoran CMS even allows you to add [community forums](../tutorials/getting-start
 
 ![Sonoran CMS - Custom Pages](../.gitbook/assets/pg-builder2.png)
 
-<figure><img src="../.gitbook/assets/rectangle.png" alt=""><figcaption><p>Sonoran CMS - Community Forums</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/cms.forums.png" alt=""><figcaption></figcaption></figure>
 
 ## 💬 [Discord Role Management](../integration-capabilities/discord-role-sync/)
 

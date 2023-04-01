@@ -35,6 +35,12 @@ To start editing a page, either add a new page or edit an existing page in the p
 | Button Group      | Button Group sections allow you to have a group of buttons together on your page that can be directed to an external page, custom form, or custom page.                                                                           |
 | Information Block | Information Block sections allow you to add multiple blocks to provide information for, these can be configured to grab "Total Community Members", "Total Department Members" or "Custom". "Custom" allows for customizable text. |
 
+### Basic Information (Title & Path)
+
+Through these inputs you can change the page's title, path slug, and privacy setting.
+
+<figure><img src="https://i.imgur.com/bCFS0pP.png" alt=""><figcaption></figcaption></figure>
+
 ### Section Sizes & Align
 
 Using the slider and three align buttons, you are able to control the size and align of each section
@@ -104,3 +110,9 @@ Sonoran CMS allows you to easily customize the landing page/dashboard for your c
 To set a Custom Page as your Dashboard / Landing Page, navigate to the Custom Page Editor. Create a new page or choose between an existing page, once you have the page in mind press the grey home button, this will set it as the landing page.
 
 <figure><img src="https://i.imgur.com/duGdGKi.png" alt=""><figcaption></figcaption></figure>
+
+## Custom Page Paths
+
+Custom Pages can now have a custom path to the page, this path will append to the Sonoran CMS url. If you're using a custom domain it'll detect that and provide the proper URL.
+
+<figure><img src="https://i.imgur.com/bCFS0pP.png" alt=""><figcaption></figcaption></figure>

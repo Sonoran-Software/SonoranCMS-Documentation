@@ -33,7 +33,7 @@ Your community's vanity URL can be found in your **Administrative Panel** > **Ad
 
 The custom login page allows your community members to register, sign-in, and access your CMS all on your own domain!
 
-![Sonoran CMS Custom Domain Login Page Example](../../.gitbook/assets/brave\_PxqqUiYQ1f.png)
+![Sonoran CMS Custom Domain Login Page Example](https://i.imgur.com/0uGuRyU.png)
 
 ## Custom Domain
 

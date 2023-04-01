@@ -58,10 +58,32 @@ Toggle the `Enabled` button to enable the webhook. Press the `Save` button.
 
 ### 7. Role Mention
 
-To tag and mention a role in the webhook edit the `Webhook Content` box and format the mention as `<@ID>` with `ID` being the Discord Role ID.
+{% hint style="info" %}
+Copying IDs in Discord requires Developer mode to be enabled.
+
+\
+Go to `User Settings` > `Advanced` > `enable Developer Mode`
+{% endhint %}
+
+To tag and mention a role in the webhook edit the `Webhook Content` box and format the mention as `<@&ID>` with `ID` being the Discord Role ID.
 
 You can copy a Discord Role ID in your Discord server's `Settings` > `Roles` > Right-Click on the role > `Copy ID`
 
-Example: `<@1234567890>`
+Example: `<@&1234567890>`
 
 <figure><img src="../.gitbook/assets/Screen Shot 2023-01-29 at 3.08.10 PM.png" alt=""><figcaption><p>Discord Role ID Copy</p></figcaption></figure>
+
+### 8. User Mention
+
+{% hint style="info" %}
+Copying IDs in Discord requires Developer mode to be enabled.
+
+\
+Go to `User Settings` > `Advanced` > `enable Developer Mode`
+{% endhint %}
+
+To tag and mention a user in the webhook edit the `Webhook Content` box and format the mention as `<@ID>` with `ID` being the Discord User ID.
+
+You can copy a Discord User ID in your Discord. Right-Click on the user > `Copy ID`
+
+Example: `<@1234567890>`
