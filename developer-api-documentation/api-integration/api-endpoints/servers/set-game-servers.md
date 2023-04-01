@@ -1,17 +1,17 @@
 ---
-description: This endpoint allows you to retrieve your community's server configurations.
+description: This endpoint allows you to set your community's server configurations.
 ---
 
-# Get Game Servers
+# Set Game Servers
 
 {% hint style="warning" %}
-API endpoint requires the **Standard** version of Sonoran CMS or higher.\
+API endpoint requires the **Plus** version of Sonoran CMS or higher.\
 For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
 {% endhint %}
 
-{% swagger method="post" path="/servers/get_game_servers" baseUrl="https://api.sonorancms.com" summary="Get Game Servers" %}
+{% swagger method="post" path="/servers/set_game_servers" baseUrl="https://api.sonorancms.com" summary="Set Game Servers" %}
 {% swagger-description %}
-Get Sonoran CMS community server configurations.
+Set Sonoran CMS community server configurations.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="id" type="string" %}
@@ -35,13 +35,16 @@ SERVERS
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
-```javascript
+```json
 {
-    "servers": [
+    "success": true,
+    "data": [
         {
             "id": 1,
             "name": "Server 1",
-            "description": "Default server description"
+            "description": "Default server description",
+            "ip": "0.0.0.0"
+            "port": "00000"
         }
     ]
 }
@@ -56,11 +59,19 @@ INVALID COMMUNITY ID
 {% endswagger-response %}
 {% endswagger %}
 
-```
+```json
 {
     "id": "YOUR_COMMUNITY_ID",
     "key": "YOUR_API_KEY",
-    "type": "GET_GAME_SERVERS",
-    "data": []
+    "type": "SET_GAME_SERVERS",
+    "data": [
+        {
+            "id": 1, // Optional - only supply if needing to update a server
+            "name": "Server 1",
+            "description": "This is server 1",
+            "ip": "",
+            "port": ""
+        }
+    ]
 }
 ```

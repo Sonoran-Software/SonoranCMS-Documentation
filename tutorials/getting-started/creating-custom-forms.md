@@ -6,7 +6,7 @@ description: >-
 
 # Creating Custom Forms
 
-## Navigate to the Custom Form Editor
+Navigate to the Custom Form Editor
 
 #### Administrative Panel > Customization > Community Forms
 
@@ -30,11 +30,31 @@ To begin, you can either create a new stage or add an existing stage to a form. 
 
 After pressing "Create New Stage" (or pressing "Edit" on an existing stage), you're shown an editor to modify the look and actions of that stage.
 
+{% hint style="info" %}
+**Stage Label** is shown when referenced in stage actions (upon execution), Form Management and Available Forms. **Internal Label** is shown when referenced anywhere in the Administrative Panel.
+{% endhint %}
+
 <figure><img src="https://i.imgur.com/rRDn9UI.png" alt=""><figcaption><p>Stage Editor - Edit a single stage</p></figcaption></figure>
 
 {% hint style="warning" %}
 Stages are not unique between forms, so if two forms use the same stage then editing that stage will affect both forms
 {% endhint %}
+
+### Action Explanation: Change Submitter's Department/Rank
+
+This action will allow you to set the submitters primary or secondary ranks. Additionally this allow you to set the ranks to also expire after a certain amount of time after they've been granted the rank by the action.
+
+{% hint style="info" %}
+Checks for rank expirations are done upon each fetch of the account and not **currently** periodically checked.
+{% endhint %}
+
+_Primary Changes_\
+This will change the submitter's Primary rank (and department but that's behind the scenes). To apply an expiration to the rank simply press the blue "Expiration Settings" button located under the rank selector once a rank is selected.
+
+_Secondary Changes_\
+This will change the submitter's Secondary rank(s) (and department(s) but that's behind the scenes). To apply an expiration to the rank(s) simply press the dropdown button located on the rank button, this will provide you with the option to access it's Expiration Settings.
+
+<figure><img src="https://i.imgur.com/f0pOLph.png" alt=""><figcaption><p>Change Submitter's Department/Rank Stage Action</p></figcaption></figure>
 
 ## Sections & Fields
 

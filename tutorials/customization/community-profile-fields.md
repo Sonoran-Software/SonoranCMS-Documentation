@@ -62,3 +62,15 @@ While viewing a profile you can hover over them to determine if you have edit pe
 <figure><img src="https://i.imgur.com/RAJWdsV.png" alt=""><figcaption><p>Sonoran CMS - Member Profile - Editing Profile Field</p></figcaption></figure>
 
 Once you've clicked a field it will give you a pop-up to begin editing the field's value. Depending on what field type it is it will display the relevant field input type. Once you're satisfied with the fields new value you can click the green **Save** button to save it on the profile.
+
+#### Text Array Profile Field Editing
+
+The `text array` profile field allows for multiple strings of text to be added to an individual profile field, this is useful to store notes, Steam IDs, IPs, etc.
+
+To edit, click the "Expand" expansion located under the Profile Field Label. This will display all entries of the array. Click in the middle of the entries or if you have none, you can press the "Click Me" button. Once you're satisfied with the field's new value(s) you can click the green **Save** button to save it on the profile.
+
+{% hint style="info" %}
+**TIP:** You can organize the order in which the entries are sorted by dragging and dropping them in the order of your preference.
+{% endhint %}
+
+<figure><img src="https://i.imgur.com/8QkrQkn.png" alt=""><figcaption><p>Editing a Text Array Profile Field within Profile</p></figcaption></figure>

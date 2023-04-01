@@ -10,6 +10,199 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.35 (Beta) Unreleased | Scheduled 3/31/2023
+
+{% tabs %}
+{% tab title="New" %}
+****[**Calendar** RSVP Limits](../tutorials/calendars/community-events.md#regarding-rsvp-limit)
+
+Calendar events can now be RSVP limited, you can now set how many members can RSVP to an individual event.
+
+**API Endpoints**
+
+****[**Event RSVP**](../developer-api-documentation/api-integration/api-endpoints/events/rsvp.md)****
+
+****[**Drive** Downloads](../tutorials/getting-started/your-drive-and-documents.md#drive-downloads)
+
+Additional file types can now be uploaded and downloaded directly from the Sonoran CMS Drive. Any **.rpf**, **.wav**, **.mp3**, and **.zip** are accepted. They aren't "viewable" but are able to be downloaded easily. Additionally there's now a download URL that can be copied for the _downloadable_ file types as described above.
+
+****[**Community Gallery**](../tutorials/getting-started/gallery-system.md)****
+
+A new **Custom Page Element** has been added for additional customization and content. We've added the first of many elements apart of the new Gallery system. This system is designed heavily after the Forum system, as far as handling. Each element requires it to be associated to a _Gallery category_, with further customization and elements coming in later updates. This new element will show your images in a larger slide show with also listing all the gallery posts associated to the category. These gallery categories can be restricted as far as who can upload.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Member Join**
+
+All new users that joined communities would have their community name set to "NOT SET" upon initial join, this however has been changed to set their community name as their Sonoran account username.
+{% endtab %}
+{% endtabs %}
+
+### v0.5.34 (Beta) 3/24/2023
+
+{% tabs %}
+{% tab title="New" %}
+****[**Archive Community Member**](../tutorials/administrative/archive-community-member.md)****
+
+Community member's can now be archived, this is _kick_ from the community but sets the member in a archived state where their profile and information is still accessible. This should allow communities to better organize member's that have left and will allow you to easily see their information by viewing their profile even after they're gone.
+
+* When an account is archived it will display a banner on their profile showing they're archived.
+  * Additionally if they're banned it will also display a banner.
+* When an account is archived it will display a small banner on their brief profile information when viewing a Forum Topic.
+
+**Custom Profile Fields**
+
+__[_Text Array Profile Field Type_](../tutorials/customization/community-profile-fields.md#text-array-profile-field-editing)__\
+__A new profile field type has been added; Text Array. This new field type allows you to store several entries of information on one specific field.
+
+**API Endpoints**
+
+****[**Get Profile Fields Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/get-departments-1.md)****
+
+****[**Edit Account Profile Fields Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/ban-account-1.md)****
+{% endtab %}
+
+{% tab title="Changed" %}
+**Roster**
+
+When viewing a roster and clicking on a row it will now not immediately edit the row, it will now give you the option to edit the row or to view their community profile.
+
+**Community Profile**
+
+Several UI elements of the Community Profile have been changed to improve the overall UI/UX.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Community Profile**
+
+Clicking on a user profile's name text will warn about not being able to edit it.
+
+**Mobile UI**
+
+_Hamburger Menu_
+
+The hamburger menu would keep state from a previous community and not refresh upon loading a new community.
+
+**Custom Page Editor**
+
+The default page button would be clickable even if the page is already set to default.
+
+**Custom Form Editor**
+
+Adding new fields could randomly be placed in a different section than the intended one.
+{% endtab %}
+{% endtabs %}
+
+### v0.5.33 (Beta) 3/17/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Mobile UI**\
+****_Side Menu & Hamburger Menu while Signed into a Community_\
+The hamburger menu when shown on mobile has been reworked to introduce the existing menu that listed all community area such as Administrative Panel, Form Management, etc. The main side menu will now longer show on mobile view and will be included in the hamburger menu.
+
+_Forum Topic Page_\
+__When viewing a forum topic on a smaller screen the replies and user information will no longer become disoriented and unviewable.
+
+**Forum Topics**
+
+Replies on forum topics now allow you to include attachments with the reply similar to creating a topic.
+
+**Form Stages**
+
+Form stages have now two labels. The _Stage Label_ should be seen as a public name for the label, this will be shown in Available Forms, Form Management, and when referenced in stage actions (when they execute). The _Internal Label_ should be seen as a _nickname_ for the stage, this will be shown in any area it's referenced in the Administrative Panel area.
+
+**Community Profile**
+
+_Community Bio_\
+A community bio option has been added to the community profile page. Members can now set a customizable bio for themselves directly in their profile.
+
+_Name Changing_
+
+Individuals viewing another member's profile and having permission to edit them within the Account Viewer will be able to change the member's name directly in the profile.
+
+_Account Avatar_
+
+Individuals viewing their own community profile will be able to change their account avatar by simply clicking on their avatar in the profile page.
+
+_Global Account Actions_\
+Several account action buttons have been added to the community profile page, these will only show when viewing your own profile. This is in place due to the change with how the top-right dropdown menu is handled and the options that are now displayed there.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Account / Top Account Dropdown**
+
+The non-community account page is now no longer accessible by the top dropdown when viewing a community. This will now direct you to your Community Profile which also provides the same global account action buttons that are in the non-community account page. The dropdown item _Account_ was renamed to _Profile_ to adapt to this change.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Department Editor**
+
+After adding a calendar category and going to the department editor it would not show up until a refresh or a relog into the community.
+
+**Account Viewer**
+
+When editing an account and removing the primary rank it would not remove the primary department shown in the account viewer table.
+
+**Stage Actions**
+
+After creating a stage with a _Change Submitter's Department/Rank_ action, the action would not provide all department ranks after editing it upon creation.
+
+**Integration - Whitelist**
+
+Several bugs have been pushed to address issues related to the whitelist system.
+
+**Custom Form Editor**
+
+Premade form sections were removed during the rework of the Custom Forms & Stages. They've been reimplemented with no additional sections added, just the Patrol Start/End.
+{% endtab %}
+{% endtabs %}
+
+### v0.5.32 (Beta) 3/9/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Expiring Ranks**
+
+Ranks can now be applied to [individuals manually](../tutorials/getting-started/modify-users-permissions-and-information.md#granting-expiring-ranks) or through [stage actions](../tutorials/getting-started/creating-custom-forms.md#action-explanation-change-submitters-department-rank) to set a rank to expire, the rank will automatically be removed upon the next check (every fetch for the account) if found expired. Ranks can be set to expire after X amount of hours/days or by a exact time/day that you set.
+
+**Account Avatars**
+
+Customizable account avatars have now been implemented, all areas within the Sonoran CMS should now support the customizable avatar. You can now set your avatar [here](https://account.sonoransoftware.com/).
+
+****[**Discord Webhooks**](../integration-capabilities/discord-webhooks.md)****
+
+A new webhook event has been added, **Member Join**. This webhook will fire when a member joins your Sonoran CMS community.
+
+**Forum Topic's**
+
+Forum topic attachments now support opening in a image viewer instead of downloading the image. Zoom, pan, etc.
+
+**Account Editing**
+
+Account editing UI has been slightly reworked to adapt to the new Expiring Ranks. Users will no longer need to select a department prior to assigning a rank.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Available Forms**
+
+* Share link would appear on non-submitted forms
+* Form ID "#" would appear on non-submitted forms
+* Able to view all and any forms regardless of permission
+* State would not update with newly edited/created forms
+
+**Rosters**
+
+* Automatic Department Rosters would unreliably get backend generated rows
+* Rows be able to be initially edited without proper permission
+  * Request to edit the row would not process through without valid permissions
+
+**Discord Webhooks**
+
+* Forms submitted directly onto a profile would not send a logging webhook
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.31 (Beta) 3/2/2023
 
 {% tabs %}

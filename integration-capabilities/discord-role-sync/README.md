@@ -8,6 +8,8 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/crossrolesync-v6.png" alt=""><figcaption><p>Sonoran Bot - Discord Role Sync</p></figcaption></figure>
 
+{% embed url="https://www.youtube.com/watch?v=mlH4TlybT_4" %}
+
 Learn more about getting started with the Discord Bot:
 
 {% content-ref url="getting-started.md" %}

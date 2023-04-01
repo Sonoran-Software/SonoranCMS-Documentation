@@ -34,6 +34,8 @@ To start editing a page, either add a new page or edit an existing page in the p
 | Button            | Button sections allow you to put individual buttons on your page that can be directed to an external page, custom form, or custom page.                                                                                           |
 | Button Group      | Button Group sections allow you to have a group of buttons together on your page that can be directed to an external page, custom form, or custom page.                                                                           |
 | Information Block | Information Block sections allow you to add multiple blocks to provide information for, these can be configured to grab "Total Community Members", "Total Department Members" or "Custom". "Custom" allows for customizable text. |
+| Forum             | Forum Category sections allow you to have a section to display all associated posts to the selected forum category.                                                                                                               |
+| Gallery           | Gallery sections are the first element for the gallery system, this allows you to show all posts in the gallery category.                                                                                                         |
 
 ### Basic Information (Title & Path)
 

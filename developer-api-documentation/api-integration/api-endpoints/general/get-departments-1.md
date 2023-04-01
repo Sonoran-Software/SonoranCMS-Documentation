@@ -1,11 +1,19 @@
-# Set Account Ranks
+---
+description: Provides all profile fields associated and configured by the community.
+---
+
+# Get Profile Fields
+
+{% hint style="danger" %}
+**NOT IN PRODUCTION**
+{% endhint %}
 
 {% hint style="warning" %}
 API endpoint requires the **Standard** version of Sonoran CMS or higher.\
 For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
 {% endhint %}
 
-{% swagger method="post" path="/general/set_account_ranks" baseUrl="https://api.sonorancms.com" summary="Set Account Ranks" %}
+{% swagger method="post" path="/general/get_profile_fields" baseUrl="https://api.sonorancms.com" summary="Get Profile Fields" %}
 {% swagger-description %}
 Get a Sonoran CMS community account's ranks by account ID, API ID, or username.
 {% endswagger-description %}
@@ -27,12 +35,16 @@ Array of request objects
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
-```javascript
-[
-    "4298c76d-a1ee-46dc-b33c-8daf2e2280dd", // UUID of Rank
+<pre class="language-javascript"><code class="lang-javascript">[
+    {
+<strong>        "id": "d9d1288e-3892-40d6-acc5-be2c3d294bd4",
+</strong>        "type": "text array",
+        "label": "Steam IDs",
+        "options": null
+    },
     ...
 ]
-```
+</code></pre>
 {% endswagger-response %}
 
 {% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
@@ -49,18 +61,6 @@ NO ACCOUNT FOUND UNDER GIVEN PARAMETERS IN THIS COMMUNITY
 {
     "id": "YOUR_COMMUNITY_ID",
     "key": "YOUR_API_KEY",
-    "type": "SET_ACCOUNT_RANKS",
-    "data": [
-        {
-            "accountId": "ACCOUNT_UUID",
-            "set": {"primary": "PRIMARY_RANK_UUID", "secondary": ["SECONDARY_RANK_UUID"]}, // "set", "primary", and "secondary" are all optional
-            "add": ["SECONDARY_RANK_UUID"], // Optional
-            "remove": ["SECONDARY_RANK_UUID"] // Optional
-        }
-    ]
+    "type": "GET_PROFILE_FIELDS"
 }
 ```
-
-### Notes
-
-`set` `add` and `remove` can all be used together. `add` and `remove` only affect secondary ranks, to set the primary rank use `set.primary` (use `null` to unset). `remove` takes precedence over `add` (i.e. if both add and remove have the same rank, it is ultimately removed).

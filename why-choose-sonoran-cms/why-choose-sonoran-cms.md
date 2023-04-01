@@ -81,7 +81,7 @@ Sonoran CMS allows you to easily manage your community's Sonoran CAD permissions
 
 Sonoran CMS makes organizing [community events](../tutorials/calendars/community-events.md) easy! Manage member RSVPs, event information, Discord webhooks, and more! You can even create [custom calendar categories](../tutorials/calendars/community-calendar-categories.md)!
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Sonoran CMS - Community Events</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/community-events.png" alt=""><figcaption><p>Sonoran CMS - Calendar Features</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Sonoran CMS - Calendar Categories</p></figcaption></figure>
 

@@ -4,10 +4,6 @@ description: Provides all departments and their ranks (and their associated IDs)
 
 # Get Departments
 
-{% hint style="danger" %}
-**NOT IN PRODUCTION**
-{% endhint %}
-
 {% hint style="warning" %}
 API endpoint requires the **Standard** version of Sonoran CMS or higher.\
 For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.

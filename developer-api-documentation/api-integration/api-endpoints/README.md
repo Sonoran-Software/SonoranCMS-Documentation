@@ -41,7 +41,13 @@ View all server endpoints for game server whitelist, server management, etc.
 [servers](servers/)
 {% endcontent-ref %}
 
+### Server Endpoints
 
+View all event endpoints for calendar events!
+
+{% content-ref url="events/" %}
+[events](events/)
+{% endcontent-ref %}
 
 ## API Code Examples
 
