@@ -117,6 +117,7 @@
 
 ## Other
 
+* [AI QA](other/ai-qa.md)
 * [Contact Us](https://support.sonoransoftware.com/)
 * [Policy](other/policy/README.md)
   * [Terms of Service](other/policy/terms-of-service.md)

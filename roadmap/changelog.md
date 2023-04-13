@@ -10,23 +10,23 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.35 (Beta) Unreleased | Scheduled 3/31/2023
+### v0.5.35 (Beta) 4/7/2023
 
 {% tabs %}
 {% tab title="New" %}
-****[**Calendar** RSVP Limits](../tutorials/calendars/community-events.md#regarding-rsvp-limit)
+[**Calendar** RSVP Limits](../tutorials/calendars/community-events.md#regarding-rsvp-limit)
 
 Calendar events can now be RSVP limited, you can now set how many members can RSVP to an individual event.
 
 **API Endpoints**
 
-****[**Event RSVP**](../developer-api-documentation/api-integration/api-endpoints/events/rsvp.md)****
+[**Event RSVP**](../developer-api-documentation/api-integration/api-endpoints/events/rsvp.md)
 
-****[**Drive** Downloads](../tutorials/getting-started/your-drive-and-documents.md#drive-downloads)
+[**Drive** Downloads](../tutorials/getting-started/your-drive-and-documents.md#drive-downloads)
 
-Additional file types can now be uploaded and downloaded directly from the Sonoran CMS Drive. Any **.rpf**, **.wav**, **.mp3**, and **.zip** are accepted. They aren't "viewable" but are able to be downloaded easily. Additionally there's now a download URL that can be copied for the _downloadable_ file types as described above.
+Additional file types can now be uploaded and downloaded directly from the Sonoran CMS Drive. Any **.rpf**, **.wav**, **.mp3**, **.zip**, and **.pdf** are accepted. They aren't "viewable" but are able to be downloaded easily. Additionally there's now a download URL that can be copied for the _downloadable_ file types as described above.
 
-****[**Community Gallery**](../tutorials/getting-started/gallery-system.md)****
+[**Community Gallery**](../tutorials/getting-started/gallery-system.md)
 
 A new **Custom Page Element** has been added for additional customization and content. We've added the first of many elements apart of the new Gallery system. This system is designed heavily after the Forum system, as far as handling. Each element requires it to be associated to a _Gallery category_, with further customization and elements coming in later updates. This new element will show your images in a larger slide show with also listing all the gallery posts associated to the category. These gallery categories can be restricted as far as who can upload.
 {% endtab %}
@@ -35,6 +35,14 @@ A new **Custom Page Element** has been added for additional customization and co
 **Member Join**
 
 All new users that joined communities would have their community name set to "NOT SET" upon initial join, this however has been changed to set their community name as their Sonoran account username.
+
+**Community Profile**
+
+The community profile now shows all ranks that the user has associated.
+
+**Several UI Improvements**
+
+Mobile UI/UX has been improved in several areas to better adapt to smaller screens.
 {% endtab %}
 {% endtabs %}
 
@@ -42,7 +50,7 @@ All new users that joined communities would have their community name set to "NO
 
 {% tabs %}
 {% tab title="New" %}
-****[**Archive Community Member**](../tutorials/administrative/archive-community-member.md)****
+[**Archive Community Member**](../tutorials/administrative/archive-community-member.md)
 
 Community member's can now be archived, this is _kick_ from the community but sets the member in a archived state where their profile and information is still accessible. This should allow communities to better organize member's that have left and will allow you to easily see their information by viewing their profile even after they're gone.
 
@@ -52,14 +60,14 @@ Community member's can now be archived, this is _kick_ from the community but se
 
 **Custom Profile Fields**
 
-__[_Text Array Profile Field Type_](../tutorials/customization/community-profile-fields.md#text-array-profile-field-editing)__\
-__A new profile field type has been added; Text Array. This new field type allows you to store several entries of information on one specific field.
+[_Text Array Profile Field Type_](../tutorials/customization/community-profile-fields.md#text-array-profile-field-editing)\
+A new profile field type has been added; Text Array. This new field type allows you to store several entries of information on one specific field.
 
 **API Endpoints**
 
-****[**Get Profile Fields Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/get-departments-1.md)****
+[**Get Profile Fields Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/get-departments-1.md)
 
-****[**Edit Account Profile Fields Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/ban-account-1.md)****
+[**Edit Account Profile Fields Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/ban-account-1.md)
 {% endtab %}
 
 {% tab title="Changed" %}
@@ -98,11 +106,11 @@ Adding new fields could randomly be placed in a different section than the inten
 {% tabs %}
 {% tab title="New" %}
 **Mobile UI**\
-****_Side Menu & Hamburger Menu while Signed into a Community_\
+_Side Menu & Hamburger Menu while Signed into a Community_\
 The hamburger menu when shown on mobile has been reworked to introduce the existing menu that listed all community area such as Administrative Panel, Form Management, etc. The main side menu will now longer show on mobile view and will be included in the hamburger menu.
 
 _Forum Topic Page_\
-__When viewing a forum topic on a smaller screen the replies and user information will no longer become disoriented and unviewable.
+When viewing a forum topic on a smaller screen the replies and user information will no longer become disoriented and unviewable.
 
 **Forum Topics**
 
@@ -170,7 +178,7 @@ Ranks can now be applied to [individuals manually](../tutorials/getting-started/
 
 Customizable account avatars have now been implemented, all areas within the Sonoran CMS should now support the customizable avatar. You can now set your avatar [here](https://account.sonoransoftware.com/).
 
-****[**Discord Webhooks**](../integration-capabilities/discord-webhooks.md)****
+[**Discord Webhooks**](../integration-capabilities/discord-webhooks.md)
 
 A new webhook event has been added, **Member Join**. This webhook will fire when a member joins your Sonoran CMS community.
 
@@ -207,11 +215,11 @@ Account editing UI has been slightly reworked to adapt to the new Expiring Ranks
 
 {% tabs %}
 {% tab title="New" %}
-****[**Custom Page Paths**](../tutorials/customization/custom-pages.md#custom-page-paths)****
+[**Custom Page Paths**](../tutorials/customization/custom-pages.md#custom-page-paths)
 
 Custom pages can now have a custom path slug to further customize your pages. These path slugs will replace the number ID that is given by default for all custom pages. These paths support custom domains, example: `lspd/sop` would append to a custom domain such as `cms.sonoranrp.com/lspd/sop`.
 
-****[**Custom Form Folders**](../tutorials/getting-started/creating-custom-forms.md#custom-form-folders)****
+[**Custom Form Folders**](../tutorials/getting-started/creating-custom-forms.md#custom-form-folders)
 
 Custom Forms can now be organized within folders, folders are simply for organizational purposes and serve no additional purposes.
 
@@ -221,9 +229,9 @@ Our home page has been reworked to provide a more user-friendly and informationa
 
 **API Endpoints**
 
-****[**Kick Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/kick-account.md)****
+[**Kick Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/kick-account.md)
 
-****[**Ban Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/ban-account.md)****
+[**Ban Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/ban-account.md)
 
 **API Integration**
 
@@ -245,7 +253,7 @@ Automatic Department Roster's have been reworked to improve reliability and perf
 
 {% tabs %}
 {% tab title="New" %}
-****[**Automatic Rosters**](../tutorials/getting-started/creating-custom-rosters.md#department-automatic)****
+[**Automatic Rosters**](../tutorials/getting-started/creating-custom-rosters.md#department-automatic)
 
 Rosters have been reworked to add additional functionality and purpose. All existing rosters have been moved to the type of "Custom", this type is considered for all rosters that will allow you to add and remove rows as you please. With this change the previous _Department_ and _Sub-Department_ type have been deprecated.\
 \
@@ -257,7 +265,7 @@ A new roster type, Department, was added to replace the previous _Department_ ro
 
 Filtering forms to show only **Deleted Forms** would show no forms despite fetching all deleted forms.
 
-****[**Custom Forms**](../tutorials/getting-started/creating-custom-forms.md)****
+[**Custom Forms**](../tutorials/getting-started/creating-custom-forms.md)
 
 An internal ID was not setting correctly upon save which would make the form no longer editable or usable.
 
@@ -271,7 +279,7 @@ Menu items would not correctly evaluate permissions.
 
 {% tabs %}
 {% tab title="New" %}
-****[**Form Submission Limits**](../tutorials/getting-started/creating-custom-forms.md#limiting-form-submissions)****
+[**Form Submission Limits**](../tutorials/getting-started/creating-custom-forms.md#limiting-form-submissions)
 
 Custom Form Templates now have limit settings, these settings will allow you to customize how your forms are being submitted. This allows for submissions to be limited to a certain amount per user, within the last X days, and even with a cooldown between submissions.
 
@@ -280,7 +288,7 @@ Custom Form Templates now have limit settings, these settings will allow you to 
 * Submission Cooldown
 * Limit Within Last X Days
 
-****[**Department Rank Cosmetic Customization**](../tutorials/getting-started/creating-departments.md#4.-customize-rank-cosmetic-styling)****
+[**Department Rank Cosmetic Customization**](../tutorials/getting-started/creating-departments.md#4.-customize-rank-cosmetic-styling)
 
 Department ranks now have cosmetic styling, this cosmetic addition is only shown when viewing Forum Topic's but will be expanded upon as UI is needed. This customization allows you to change the background color and icon associated with it.
 

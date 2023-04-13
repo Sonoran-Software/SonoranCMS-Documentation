@@ -6,7 +6,7 @@ description: >-
 
 # Your Drive & Documents
 
-![Sonoran CMS - Document Drive Management](<../../.gitbook/assets/CMS feature promo - template.png>)
+![Sonoran CMS - Document Drive Management](<../../.gitbook/assets/CMS feature promo - template (1).png>)
 
 With your drive, you're able to create files and folders for your community. These files are completely customizable, and have a similar style editor to the Microsoft Office suite
 
@@ -111,7 +111,7 @@ _Inherit Parent Folder General Access_
 This will inherit the parent folder's general access settings, this will simply inherit whatever option from above the folder is set to.
 
 {% hint style="info" %}
-**Inherit Parent Folder General Access** General Access **** Share Type cannot be set for any Drive item that is in the root (Home).
+**Inherit Parent Folder General Access** General Access Share Type cannot be set for any Drive item that is in the root (Home).
 {% endhint %}
 
 ### Sensitive Documents
@@ -147,6 +147,10 @@ From there, you'll be able to select a file with the following type:
 * `.docx` Document
 * `.xlsx` Spreadsheet
 * `.pptx` Presentation
+* `.pdf` PDF
+* `.mp3` Audio
+* `.wav` Audio
+* `.rpf` GTA Archive
 
 <figure><img src="https://i.imgur.com/BCEiVpM.png" alt=""><figcaption><p>Sonoran CMS - Drive - File Uploader</p></figcaption></figure>
 
@@ -163,6 +167,10 @@ From there you'll be able to select a ZIP file, keep in mind that the following 
 * `.docx` Document
 * `.xlsx` Spreadsheet
 * `.pptx` Presentation
+* `.pdf` PDF
+* `.mp3` Audio
+* `.wav` Audio
+* `.rpf` GTA Archive
 
 <figure><img src="https://i.imgur.com/L8gUSEA.png" alt=""><figcaption><p>Sonoran CMS - Drive - ZIP Upload Alerts</p></figcaption></figure>
 
@@ -191,6 +199,7 @@ There are several file types that the Sonoran CMS Drive accepts but only handles
 * GTA Archive | .rpf
 * Audio | .wav, .mp3
 * ZIP | .zip
+* PDF | .pdf
 
 <figure><img src="https://i.imgur.com/Qj42DMV.png" alt=""><figcaption></figcaption></figure>
 
