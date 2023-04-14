@@ -14,12 +14,6 @@ Sonoran CMS allows you to easily manage your community's Sonoran CAD permissions
 
 ![Sonoran CMS x Sonoran CAD - Permission Sync](../.gitbook/assets/CMS-CAD-Sync.png)
 
-{% hint style="warning" %}
-This features requires the **standard** version of Sonoran CMS or higher. For more information, view our [pricing ](broken-reference)page.\
-\
-This feature also requires the **plus** version of Sonoran CAD or higher. For more information, view Sonoran CAD's [pricing](https://info.sonorancad.com/pricing/faq) page.
-{% endhint %}
-
 {% hint style="info" %}
 Sonoran CAD Sync settings can only be seen and modified by the community owner.
 {% endhint %}

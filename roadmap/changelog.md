@@ -10,6 +10,51 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.36 (Beta) Unreleased
+
+{% tabs %}
+{% tab title="New" %}
+[**Toolbar**](../tutorials/customization/community-branding-and-settings.md#toolbar)\
+The existing side-menu that was positioned to the left of the Community pages was removed and migrated to the top toolbar. Now all navigation goes through the top navigation bar, allowing full customization for how your navigation is designed and organized.
+
+* **Clock In/Out** is now located between the Admin cog (if enabled & viewable) and the Notification Center icon located on the right side of the toolbar.
+* All existing communities have been migrated with side-menu options being recreated for each community to allow for an easier transition into the new navigation system.
+  * Drive, Available Forms, Form Management, etc. are now toolbar options for all existing communities from this update. Feel free to update your toolbar to remove these options if not desired.
+* **Community Settings** to edit your API IDs, refresh CAD Sync, etc. has been moved to the top-right dropdown menu where you can navigate to Community Discovery, My Communities, etc.
+
+[**CAD Sync**](../integration-capabilities/sonoran-cad-sync.md)\
+CAD Sync has now been made available to all Free communities using Sonoran CMS, regardless of Sonoran CAD community premium status. Use the full capabilities of CAD Sync without needing a premium subscription.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Accounts Viewer**\
+While viewing accounts through the Administrative Panel the accounts will now load more efficiently through the use of server-side pagination.
+
+**Accounts Editing**\
+The UI for editing accounts has been improved for a better UI/UX.
+
+**Community Side Menu**\
+Has been completely removed in favor for the toolbar navigation system.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Discord Webhooks**\
+Forum Topic Creation - Not sending with properly formatted webhook embed description.
+
+**Managing Permissions**\
+Editing a user's secondary ranks, either to add, remove, or edit would cause errors to throw invalidating any request to save.
+
+**Gallery**\
+Gallery permissions were not evaluated for the gallery uploading capabilities.
+
+**Available Forms**\
+Forms with the type of New Member Application were not showing for new members of communities.
+
+**Form Management**\
+Specific Form's would not all show in the Form Management filtering selector.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.35 (Beta) 4/7/2023
 
 {% tabs %}
