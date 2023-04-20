@@ -69,6 +69,7 @@
       * [Whitelist](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/whitelist.md)
       * [Ace Permission Sync](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/ace-permission-sync.md)
       * [Clock In](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/clock-in.md)
+      * [Job Sync](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/job-sync.md)
     * [Free Plugin Installation - Next Steps](integration-capabilities/in-game-integration-resources/gta-rp-integrations/free-plugin-installation-next-steps.md)
   * [Minecraft Integrations](integration-capabilities/in-game-integration-resources/minecraft-integrations/README.md)
     * [Minecraft Resource Installation](integration-capabilities/in-game-integration-resources/minecraft-integrations/minecraft-resource-installation.md)

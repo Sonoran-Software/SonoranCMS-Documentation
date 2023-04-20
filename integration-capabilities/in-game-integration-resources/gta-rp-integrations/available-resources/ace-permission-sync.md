@@ -39,7 +39,7 @@ Follow the [standard resource installation guide](../gta-rp-resource-installatio
 Add the following to your `server.cfg` (if you don't permissions won't be able to be granted)
 
 ```
-add_ace resource.cms_ace_perms command allow
+add_ace resource.sonorancms_ace_perms command allow
 ```
 
 ### 5. Add your API ID
@@ -53,7 +53,6 @@ Ensure all players have added their [API ID](../../../../developer-api-documenta
 | primary\_identifier | <p>Default: <code>license2</code><br>Controls which type of API ID is used by the script.<br><br>Options: <code>fivem</code>, <code>discord</code>, <code>steam</code>, <code>license2</code>, <code>license</code></p> |
 | offline\_cache      | <p>Default: <code>true</code><br>Whether the server should cache permissions in case of CMS backend failure.</p>                                                                                                        |
 | rank\_mapping       | A table of rank UUIDs that equal different Ace Permission groups.                                                                                                                                                       |
-| apiUrl              | Default: `https://api.sonorancms.com` Change to `https://cmsapi.dev.sonoransoftware.com` if using the development environment of Sonoran CMS                                                                            |
 
 ## Functionality
 
@@ -116,9 +115,6 @@ Config.rank_mapping = {
 
 Config.offline_cache = true -- If set to true role permissions will be cached on the server in-case CMS goes down, the
 -- cache will be updated everytime the player rejoins, the rank refresh command is run, or has a rank change in CMS
-
-Config.apiUrl = "https://api.sonorancms.com"
-d
 ```
 
 ### permissions.cfg/server.cfg

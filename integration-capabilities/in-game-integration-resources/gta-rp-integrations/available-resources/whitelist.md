@@ -58,15 +58,7 @@ If a user is granted both **Block Whitelist** and **Allow Whitelist** through va
 
 Ensure all players have added their [API ID](../../../../developer-api-documentation/api-integration/getting-started/api-id-system.md) to the CMS!
 
-## Configuration
-
-| Config Option | Description                                                                                                                                                               |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| apiKey        | API Key found in the API Integration section of the Administrative Panel                                                                                                  |
-| communityId   | Community ID found in the API Integration section of the Administrative Panel                                                                                             |
-| serverId      | Server ID for specific server for this configuration according to the servers in the API Integration section of the Administrative Panel                                  |
-| apiIdType     | <p>The identifier type your community uses in the CMS to enter their API IDs.<br>Valid values are: <code>license</code>, <code>steam</code>, or <code>discord.</code></p> |
-| apiUrl        | Default: `https://api.sonorancms.com` Change to `https://cmsapi.dev.sonoransoftware.com` if using development environment of Sonoran CMS                                  |
+Configuration
 
 ## Reliability Notice
 
