@@ -13,10 +13,6 @@ Sonoran Bot x Sonoran CMS - Setup
 ## Setup
 
 {% hint style="warning" %}
-This system utilizes API endpoints that require the **Standard** version of Sonoran CMS or higher. For more information, view our [pricing ](../../pricing/pricing-faq/)page.
-{% endhint %}
-
-{% hint style="warning" %}
 Setting up the bot requires you to have the "Manage Server" permissions on the Discord server for security reasons. You must also have access to your server's [API Key information](../../developer-api-documentation/api-integration/getting-started/retrieving-your-credentials.md).
 {% endhint %}
 

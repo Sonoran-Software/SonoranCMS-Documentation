@@ -29,6 +29,10 @@ The entire Custom Page Editor UI has been reworked to become more of a _website 
 [**Direct Form Submission Links**](../tutorials/getting-started/creating-custom-forms.md#sharing-direct-submission-access)
 
 You can now share a direct link to a Custom Form to be submitted from, this should help with recruitment as it will take them straight to filling out the form. This URL can be found in the Custom Forms area prior to selecting a form to edit.
+
+[**Discord Sync**](../integration-capabilities/discord-role-sync/)
+
+Discord Sync has now been made available to all Free communities using Sonoran CMS, regardless of Sonoran CMS community premium status.
 {% endtab %}
 
 {% tab title="Fixed" %}
