@@ -46,7 +46,7 @@ This will create a new section where you'll need to specify both of the followin
 
 ### 4. Customize Rank Cosmetic Styling
 
-<figure><img src="https://i.imgur.com/RE73BNW.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Rank Cosmetic Customization</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/etO5NPo.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Rank Cosmetic Customization</p></figcaption></figure>
 
 Ranks are able to be customized to the styling that best fits your community, customize the color and icon associated with each rank. You can specify common color names or custom hex colors.
 

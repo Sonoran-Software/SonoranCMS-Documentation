@@ -24,7 +24,7 @@ All pages are public, you can copy the URL after going to a page and share it wi
 
 To start editing a page, either add a new page or edit an existing page in the page editing admin menu.
 
-![Sonoran CMS - Page Editor](https://i.imgur.com/vMYKYE1.png)
+![Sonoran CMS - Page Editor](https://i.imgur.com/8zCHL0J.png)
 
 | Section Type      | Description                                                                                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -41,7 +41,7 @@ To start editing a page, either add a new page or edit an existing page in the p
 
 Through these inputs you can change the page's title, path slug, and privacy setting.
 
-<figure><img src="https://i.imgur.com/bCFS0pP.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/TX51zXs.png" alt=""><figcaption></figcaption></figure>
 
 ### Section Sizes & Align
 
@@ -91,7 +91,7 @@ To sort pages simply press the yellow bordered "Sort Pages" button on top of the
 
 Sonoran CMS allows you to easily organize the order in which your page sections are listed.
 
-To sort page sections simply press the yellow "Sort Sections" button to the right of the blue "Add Section" button. This will enable "Sort Mode" and will allow you to adjust their order by dragging and dropping the rows in the table. Once the preferred order is met you can disable Sort Mode by clicking the "Disable Sort Mode" button.
+To sort page sections simply drag and drop the sections in the Custom Page Editor.
 
 <figure><img src="https://i.imgur.com/PNtTeJ6.png" alt=""><figcaption></figcaption></figure>
 
@@ -101,7 +101,7 @@ Pages can now be privatized and require permissions to view, now when editing a 
 
 _Only Private Pages will show in the Department Editor_.
 
-<figure><img src="https://i.imgur.com/PCBWljQ.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/vcApnNf.png" alt=""><figcaption></figcaption></figure>
 
 ## Default / Dashboard Page
 
@@ -117,4 +117,4 @@ To set a Custom Page as your Dashboard / Landing Page, navigate to the Custom Pa
 
 Custom Pages can now have a custom path to the page, this path will append to the Sonoran CMS url. If you're using a custom domain it'll detect that and provide the proper URL.
 
-<figure><img src="https://i.imgur.com/bCFS0pP.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/Akl09Bf.png" alt=""><figcaption></figcaption></figure>

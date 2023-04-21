@@ -111,10 +111,10 @@ Newly introduced limit settings allow you to limit the amount of submissions use
 <figure><img src="https://i.imgur.com/oDlN1jD.png" alt=""><figcaption><p>Sonoran CMS - Custom Form Editor - Limit Settings</p></figcaption></figure>
 
 **# of Allowed Submissions**\
-****This number is the total amount of submitted versions of this form that are allowed for each community member. _Setting this to_ `-1` _will not limit form submissions at all._\
-__\
-__**Limit Submissions Within Last X Days**\
-****This number is the amount of days prior that submissions will be searched for, for limiting. For example, if this is set to `3` then it will only check for submissions 3 days prior from now. _Setting this to_ `-1` _will check all-time submitted versions of this form and not within the last X days._\
+This number is the total amount of submitted versions of this form that are allowed for each community member. _Setting this to_ `-1` _will not limit form submissions at all._\
+\
+**Limit Submissions Within Last X Days**\
+This number is the amount of days prior that submissions will be searched for, for limiting. For example, if this is set to `3` then it will only check for submissions 3 days prior from now. _Setting this to_ `-1` _will check all-time submitted versions of this form and not within the last X days._\
 \
 **Submission Cooldown**\
 This number is the amount of days between submissions of this form. For example, if this is set to `3` then the member will have to wait three days between submitting versions of this form.\
@@ -133,3 +133,9 @@ Forms can now be organized within folders, these folders are purely for organiza
 <figure><img src="https://i.imgur.com/Iyxb7Zd.png" alt=""><figcaption><p>Sonoran CMS - Form Editor - Folders</p></figcaption></figure>
 
 To create a folder simply press the green plus button and select folder, this will prompt you to provide a name for the folder to then be created. Once the folder is created you can drag and drop forms into folders to easily organize them.
+
+## Sharing Direct Submission Access
+
+You can directly share a Custom Form via URL to be directly submitted on, if the URL is viewed it'll automatically navigate and provide the form to be submitted. You can get the direct submission access URL by viewing it in Available Forms and grabbing your browsers URL while viewing it or you can navigate to the Custom Form Editor. And before you select a form to edit just hit the green share button to the left of the delete button.
+
+<figure><img src="https://i.imgur.com/RdYB5n4.png" alt=""><figcaption></figcaption></figure>

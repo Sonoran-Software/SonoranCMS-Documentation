@@ -10,6 +10,34 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.37 (Beta) 4/21/2023 (Unreleased)
+
+{% tabs %}
+{% tab title="New" %}
+[**Department Editor**](../tutorials/getting-started/creating-departments.md#4.-customize-rank-cosmetic-styling)
+
+The customization workflow for Department Rank's has been improved, you can now directly upload an image or choose from thousands of icons for your rank cosmetic icon.
+
+[**Community Transfers**](../tutorials/administrative/delete-community.md#how-to-transferring-a-community)
+
+Community Owner's can now transfer their community to anyone that's currently active within the community, the owner must complete a confirmation before the transfer is complete.
+
+[**Custom Page Editor - UI**](../tutorials/customization/custom-pages.md)
+
+The entire Custom Page Editor UI has been reworked to become more of a _website editor_ than a custom form editor. This new UI allows for easy sorting of sections by dragging and dropping and an overall better user experience. This new UI is one of many improvements we plan on bringing to Custom Pages.
+
+[**Direct Form Submission Links**](../tutorials/getting-started/creating-custom-forms.md#sharing-direct-submission-access)
+
+You can now share a direct link to a Custom Form to be submitted from, this should help with recruitment as it will take them straight to filling out the form. This URL can be found in the Custom Forms area prior to selecting a form to edit.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Form Management**
+
+The top header would be oddly positioned and would have text be misaligned.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.36 (Beta) 4/17/2023
 
 {% tabs %}

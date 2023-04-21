@@ -44,7 +44,7 @@
   * [Admin Managing Forms](tutorials/forms/admin-managing-forms.md)
 * [Administrative](tutorials/administrative/README.md)
   * [Archive Community Member](tutorials/administrative/archive-community-member.md)
-  * [Delete Community](tutorials/administrative/delete-community.md)
+  * [Delete & Transfer Community](tutorials/administrative/delete-community.md)
   * [Delete User Account](tutorials/administrative/delete-user-account.md)
 * [Other Features](tutorials/other-features/README.md)
   * [Community Template System](tutorials/other-features/community-template-system.md)
