@@ -10,6 +10,36 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.38 (Beta) Unreleased
+
+{% tabs %}
+{% tab title="New" %}
+[**Custom Page Editor**](../tutorials/customization/custom-pages.md)
+
+The Custom Page Editor has been thoroughly reworked to allow for more styling specifically to sections and elements within sections. With this rework we've revamped the structures of pages and all existing pages have been migrated over to the new page system. Pages are now constructed of individual sections which house elements. All existing pages were updated to move all pre-existing sections into one section and converted to elements. Now customize the padding, margin, alignment, etc. of sections, we've also included background color and images to sections and elements!
+
+[**Discovery Page UI**](../tutorials/getting-started/community-discovery.md)
+
+The Community Discovery Page UI has been reworked to better advertise and showcase the communities that use Sonoran CMS!
+{% endtab %}
+
+{% tab title="Changed" %}
+**Account Dropdown**
+
+Items within the Account dropdown have been reordered to categorize where needed.
+
+**Community Image (Top Left in Toolbar)**
+
+Clicking the top left community image will now redirect to the Dashboard instead of leaving the community and navigating to _My Communities_.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Custom Forms**
+
+Forms could not be submitted from _Available Forms_ or directly linked, this issue was resolved on web shortly after v0.5.37 release.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.37 (Beta) 4/21/2023
 
 {% tabs %}

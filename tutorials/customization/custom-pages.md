@@ -24,9 +24,9 @@ All pages are public, you can copy the URL after going to a page and share it wi
 
 To start editing a page, either add a new page or edit an existing page in the page editing admin menu.
 
-![Sonoran CMS - Page Editor](https://i.imgur.com/8zCHL0J.png)
+![Sonoran CMS - Page Editor](https://i.imgur.com/jBzvpdb.png)
 
-| Section Type      | Description                                                                                                                                                                                                                       |
+| Element Type      | Description                                                                                                                                                                                                                       |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Text              | The text section includes a rich editor for including blocks of text. In this editor, you are able to set font sizes, bold, italic, underline, strike-through, and more!                                                          |
 | Image             | Image sections allow you to insert one image into your page, just paste a link to the image in the text box.                                                                                                                      |
@@ -37,17 +37,37 @@ To start editing a page, either add a new page or edit an existing page in the p
 | Forum             | Forum Category sections allow you to have a section to display all associated posts to the selected forum category.                                                                                                               |
 | Gallery           | Gallery sections are the first element for the gallery system, this allows you to show all posts in the gallery category.                                                                                                         |
 
-### Basic Information (Title & Path)
+### Basic Information
 
-Through these inputs you can change the page's title, path slug, and privacy setting.
+Through these inputs you can change the page's title, path slug, and privacy setting. As well you're able to add new sections and change the preview size of the editor to visualize different size settings.
 
-<figure><img src="https://i.imgur.com/TX51zXs.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/haUmofp.png" alt=""><figcaption></figcaption></figure>
 
-### Section Sizes & Align
+### Section-Specific Styling
 
-Using the slider and three align buttons, you are able to control the size and align of each section
+With recent updates to the Custom Page Editor you're now able to customize the margin, padding, gutter, alignment and background styling of sections.
 
-![](https://i.imgur.com/YDfvPFs.png)
+**Padding:** Padding refers to the space between an element's content and its border. It can be used to increase the visual space around a section, or to create separation between sections on a page. In your page editor, you can change padding options for different areas, such as top, bottom, left and right.
+
+**Margin:** Margin refers to the space outside an section. It can be used to create space between sections on a page or to push elements away from the edges of the page.  In your page editor, you can change margin options for different areas, such as top, bottom, left and right.
+
+**Horizontal alignment:** Horizontal alignment refers to the positioning of a section horizontally within the page. It can be used to center a section or align it to the left or right side of its container. In the page editor, we offer horizontal alignment options such as "start", "center", "end", "around", "between", and "evenly" to allow users to adjust the horizontal alignment of their section.
+
+**Vertical alignment:** Vertical alignment refers to the positioning of an section vertically within the page. It can be used to align an element to the top, middle, or bottom of its container. In the page editor, we offer vertical alignment options such as "top", "middle", or "bottom" to allow users to adjust the vertical alignment of their section.
+
+**Gutters:** Gutters refer to the space between elements in a section. They can be used to create visual separation between elements or to adjust the overall layout of a page.
+
+It's important to note that the use of padding, margin, and alignment can greatly affect the design and layout of a page, so it's important to use them thoughtfully and consistently throughout your design. I hope this explanation helps your users better understand these concepts.
+
+<figure><img src="https://i.imgur.com/SRvpllh.png" alt=""><figcaption></figcaption></figure>
+
+### Element Sizes, Alignment and Background
+
+Using the three align buttons, different size settings and background options you are able to control the styling of said element.
+
+These three size options; Desktop, Tablet, and Mobile are all different widths your element can have while being under those specific screen size conditions. You can preview how the size changes depending on settings by exiting the element edit modal and switch between the preview size selector above in blue.
+
+![](https://i.imgur.com/uYxRT9w.png)
 
 ### Custom HTML
 
@@ -93,15 +113,13 @@ Sonoran CMS allows you to easily organize the order in which your page sections 
 
 To sort page sections simply drag and drop the sections in the Custom Page Editor.
 
-<figure><img src="https://i.imgur.com/PNtTeJ6.png" alt=""><figcaption></figcaption></figure>
-
 ## Privatized Pages
 
 Pages can now be privatized and require permissions to view, now when editing a page you can change whether or not the page is private. This will then provide permissions for the page within the Department Editor.
 
 _Only Private Pages will show in the Department Editor_.
 
-<figure><img src="https://i.imgur.com/vcApnNf.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/y4ShsVR.png" alt=""><figcaption></figcaption></figure>
 
 ## Default / Dashboard Page
 

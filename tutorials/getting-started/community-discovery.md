@@ -6,7 +6,7 @@ description: >-
 
 # Community Discovery
 
-<figure><img src="https://i.imgur.com/ZQvOIIf.png" alt=""><figcaption><p>Sonoran CMS - Community Discover</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/TZ7bzkP.png" alt="" width="563"><figcaption><p>Sonoran CMS - Community Discover</p></figcaption></figure>
 
 Discovering and joining new communities is made simple with Sonoran CMS, when joining a community through the discovery portal you'll be greeted with the community's new member application, this will allow you to be streamlined into community's application process!
 
