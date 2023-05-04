@@ -7,7 +7,7 @@ description: >-
 # Modify Users Permissions & Information
 
 {% hint style="warning" %}
-Make sure that you've viewed the [**Creating Departments**](creating-departments.md) **** guide and have created at least one department prior to modifying user permissions.
+Make sure that you've viewed the [**Creating Departments**](creating-departments.md) guide and have created at least one department prior to modifying user permissions.
 {% endhint %}
 
 ## Navigate to the Accounts Panel

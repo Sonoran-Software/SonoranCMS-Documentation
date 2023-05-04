@@ -2,13 +2,13 @@
 description: Create your own community website!
 ---
 
-# Custom Pages
+# Website Builder
 
 ![Sonoran CMS - Custom Pages](../../.gitbook/assets/pg-builder2.png)
 
-To add custom pages to your community, navigate to `Administration Panel -> Customization -> Custom Pages`
+To add website pages to your community, navigate to `Administration Panel -> Customization -> Website Builder`
 
-![Sonoran CMS - Page Editor](https://i.imgur.com/Pk7CAfo.png)
+![Sonoran CMS - Page Editor](https://i.imgur.com/kjTcIQ1.png)
 
 ## View Your Page
 
@@ -81,7 +81,9 @@ In the HTML editor, you are able to write or insert your own HTML code that woul
 
 If you wish to add buttons to your page, you can add a button or button group section to your page. Each button has several settings that define how the button looks like and acts. Each button can be direct users to external websites, custom forms and custom pages.
 
-<figure><img src="https://i.imgur.com/hfwTgmB.png" alt=""><figcaption><p>Sonoran CMS - Custom Page Editor - Demoing Buttons</p></figcaption></figure>
+Button elements can have individual styles and button group elements can have all group styles.
+
+<figure><img src="https://i.imgur.com/FpHiIEu.png" alt=""><figcaption><p>Sonoran CMS - Custom Page Editor - Demoing Buttons</p></figcaption></figure>
 
 ## Toolbar
 

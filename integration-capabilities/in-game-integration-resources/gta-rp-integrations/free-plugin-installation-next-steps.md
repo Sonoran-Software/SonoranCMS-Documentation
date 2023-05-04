@@ -6,7 +6,7 @@ description: >-
 
 # Free Plugin Installation - Next Steps
 
-![Sonoran Servers - Bundle Program](../../../.gitbook/assets/banner\_update-1.png)
+![Sonoran Servers - Bundle Program](<../../../.gitbook/assets/banner\_update-1 (1).png>)
 
 If you haven't already, [check out our page for more information on this promotion](../../../pricing/pricing-faq/free-plugin-installation-and-discount-sonoran-servers.md).
 
@@ -14,7 +14,7 @@ If you haven't already, [check out our page for more information on this promoti
 
 Every CMS addon resource installed will have a separate folder. These are located in the `\resources\[sonorancms]` directory.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Sonoran CMS - Resource Folder</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Sonoran CMS - Resource Folder</p></figcaption></figure>
 
 ## 2. View and Change Configuration Files
 

@@ -7,9 +7,9 @@ description: >-
 
 # 🏆 Why Choose Sonoran CMS?
 
-<figure><img src="../.gitbook/assets/CMS Main Promo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CMS Main Promo (1).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:orange;"></mark>[<mark style="color:orange;">Get Sonoran CMS Pro free for 14 days!</mark>](../pricing/pricing-faq/#free-trial-sonoran-cms-pro)<mark style="color:orange;"></mark>
+[<mark style="color:orange;">Get Sonoran CMS Pro free for 14 days!</mark>](../pricing/pricing-faq/#free-trial-sonoran-cms-pro)
 
 ## 📂 [CMS Document Drive](../tutorials/getting-started/your-drive-and-documents.md)
 
@@ -21,9 +21,9 @@ Manage your community's documents, spreadsheets, and presentations natively in t
 
 ![Sonoran CMS - Documents](../.gitbook/assets/cms-promo2.png)
 
-## 🌐 [Custom Community Pages](../tutorials/customization/custom-pages.md) and [Forums](../tutorials/getting-started/forum-system.md)
+## 🌐 [Custom Community Pages](../tutorials/customization/website-builder.md) and [Forums](../tutorials/getting-started/forum-system.md)
 
-Create your own [community website](../tutorials/customization/custom-pages.md), all [on your own domain](../tutorials/customization/custom-domain.md)!
+Create your own [community website](../tutorials/customization/website-builder.md), all [on your own domain](../tutorials/customization/custom-domain.md)!
 
 Create custom pages with community information, multi-media, announcements, and more!
 

@@ -33,7 +33,7 @@
   * [Navigation Permissions](tutorials/customization/navigation-sidebar.md)
   * [Community Branding and Settings](tutorials/customization/community-branding-and-settings.md)
   * [Custom Domain / Vanity URL](tutorials/customization/custom-domain.md)
-  * [Custom Pages](tutorials/customization/custom-pages.md)
+  * [Website Builder](tutorials/customization/website-builder.md)
   * [Community Profile Fields](tutorials/customization/community-profile-fields.md)
 * [Calendars](tutorials/calendars/README.md)
   * [Community Calendar Categories](tutorials/calendars/community-calendar-categories.md)

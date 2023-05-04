@@ -10,11 +10,42 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.39 (Beta) 5/4/2023
+
+{% tabs %}
+{% tab title="New" %}
+[**Website Builder**](../tutorials/customization/website-builder.md)
+
+The existing Custom Page Editor has been rebranded to the Website Builder.
+
+Background image and color is now able to be applied to the entire page as well as the existing section and element background options.
+
+Side left toolbox was added to larger screen sizes to easily drag and drop elements onto the page, as well modify page background options.
+
+Button elements have been expanded to include further customization such as text color, image icon, and several edge stylings.
+
+Content elements can now modify the color and font of the content in the WYSIWYG editor.
+
+**Discord Clock In/Out**
+
+You can now clock in/out directly through Discord with the addition of the following commands:
+
+* `/clockincms`
+* `/clockoutcms`
+{% endtab %}
+
+{% tab title="Changed" %}
+**Icon / Image Selector**
+
+All areas where an icon would be expected to be supplied it has been reworked to allow for icon & image with the icon selector allowing to be searched within the field.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.38 (Beta) 4/28/2023
 
 {% tabs %}
 {% tab title="New" %}
-[**Custom Page Editor**](../tutorials/customization/custom-pages.md)
+[**Custom Page Editor**](../tutorials/customization/website-builder.md)
 
 The Custom Page Editor has been thoroughly reworked to allow for more styling specifically to sections and elements within sections. With this rework we've revamped the structures of pages and all existing pages have been migrated over to the new page system. Pages are now constructed of individual sections which house elements. All existing pages were updated to move all pre-existing sections into one section and converted to elements. Now customize the padding, margin, alignment, etc. of sections, we've also included background color and images to sections and elements!
 
@@ -52,7 +83,7 @@ The customization workflow for Department Rank's has been improved, you can now 
 
 Community Owner's can now transfer their community to anyone that's currently active within the community, the owner must complete a confirmation before the transfer is complete.
 
-[**Custom Page Editor - UI**](../tutorials/customization/custom-pages.md)
+[**Custom Page Editor - UI**](../tutorials/customization/website-builder.md)
 
 The entire Custom Page Editor UI has been reworked to become more of a _website editor_ than a custom form editor. This new UI allows for easy sorting of sections by dragging and dropping and an overall better user experience. This new UI is one of many improvements we plan on bringing to Custom Pages.
 
@@ -322,7 +353,7 @@ Account editing UI has been slightly reworked to adapt to the new Expiring Ranks
 
 {% tabs %}
 {% tab title="New" %}
-[**Custom Page Paths**](../tutorials/customization/custom-pages.md#custom-page-paths)
+[**Custom Page Paths**](../tutorials/customization/website-builder.md#custom-page-paths)
 
 Custom pages can now have a custom path slug to further customize your pages. These path slugs will replace the number ID that is given by default for all custom pages. These paths support custom domains, example: `lspd/sop` would append to a custom domain such as `cms.sonoranrp.com/lspd/sop`.
 
@@ -486,11 +517,11 @@ The custom login page has been completely revamped, the old login page has been 
 
 {% tabs %}
 {% tab title="New" %}
-[Dashboard](../tutorials/customization/custom-pages.md#default-dashboard-page)
+[Dashboard](../tutorials/customization/website-builder.md#default-dashboard-page)
 
 The community Dashboard / Landing page has been completely reworked, this now allows for the full customization of the Custom Page Editor. Set any existing custom page as your community's dashboard page.
 
-[Custom Page Editor](../tutorials/customization/custom-pages.md#page-editing)
+[Custom Page Editor](../tutorials/customization/website-builder.md#page-editing)
 
 * New Page Section Type
   * Information Block
@@ -532,7 +563,7 @@ Sync your single Sonoran CMS community to multiple Sonoran CAD communities!
 
 Navigation items on the sidebar can now be dynamically shown based upon permissions. Documentation explains how each navigation item is permission evaluated.
 
-[Privatized Pages](../tutorials/customization/custom-pages.md#privatized-pages)
+[Privatized Pages](../tutorials/customization/website-builder.md#privatized-pages)
 
 Pages can now be privatized and require permissions to view, this view type can be changed in the page editor.
 
@@ -596,7 +627,7 @@ Department Permissions
 
 * A new webhook option was added for when submitted forms get their stage changed, a new webhook option is added solely for this event.
 
-[Page Re-ordering](../tutorials/customization/custom-pages.md#sorting-pages)
+[Page Re-ordering](../tutorials/customization/website-builder.md#sorting-pages)
 
 * The ability to sort the position of the pages in which they appear in lists.
 
@@ -777,7 +808,7 @@ Accounts Viewer
 * Bumping
   * Bumping your community will now include your community's banner image upon bump. If no banner image is set it won't include any image.
 
-[Custom Pages](../tutorials/customization/custom-pages.md)
+[Custom Pages](../tutorials/customization/website-builder.md)
 
 * Page Elements
   * Two new page elements have been added, `Button` and `Button Group`. Both these elements can be added to any custom page. Each button's functionality and style can be configured to fit your needs. Buttons can target to a external website, custom form and custom page.
@@ -1160,7 +1191,7 @@ Community Templates
 
 * Communities are auto-joined when visiting their custom domain (and successfully logging in)
 
-[Custom Pages](../tutorials/customization/custom-pages.md)
+[Custom Pages](../tutorials/customization/website-builder.md)
 
 * Custom pages can now be setup as direct links from toolbar items
 
@@ -1304,7 +1335,7 @@ Desktop & Mobile Apps
 
 {% tabs %}
 {% tab title="New" %}
-[Community Pages](../tutorials/customization/custom-pages.md)
+[Community Pages](../tutorials/customization/website-builder.md)
 
 * Custom pages now have their own URLs
 * Links to custom pages are public (anyone can access the URLs)
@@ -1331,7 +1362,7 @@ Communities
 
 {% tabs %}
 {% tab title="New" %}
-[Community Pages](../tutorials/customization/custom-pages.md)
+[Community Pages](../tutorials/customization/website-builder.md)
 
 * Communities now have the ability to create multiple custom pages for their community
   * Free: 2
@@ -1352,7 +1383,7 @@ Communities
 
 {% tabs %}
 {% tab title="New" %}
-[Community Pages](../tutorials/customization/custom-pages.md)
+[Community Pages](../tutorials/customization/website-builder.md)
 
 * Grants all communities a single page they can edit with content sections, videos, and images. This page can be accessed on the Dashboard of a community
   * Much more is pending with community pages, stay tuned!

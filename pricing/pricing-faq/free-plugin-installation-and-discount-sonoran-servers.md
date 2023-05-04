@@ -9,9 +9,9 @@ description: >-
 
 ## CAD: 30%-100% off Discount
 
-![30% off Sonoran Software Subscriptions with Sonoran Servers](../../.gitbook/assets/banner\_update-1.png)
+![30% off Sonoran Software Subscriptions with Sonoran Servers](<../../.gitbook/assets/banner\_update-1 (1).png>)
 
-![Sonoran One - Free with a Dedicated Server](<../../.gitbook/assets/Bannerprojectsenoranone (1).png>)
+![Sonoran One - Free with a Dedicated Server](../../.gitbook/assets/Bannerprojectsenoranone.png)
 
 [Learn more about this offer!](https://info.sonoranservers.com/pricing/promotions-and-discounts/30-off-software)
 

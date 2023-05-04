@@ -11,7 +11,7 @@ description: >-
 Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](other-products/server-hosting.md)!
 {% endhint %}
 
-<figure><img src=".gitbook/assets/CMS Main Promo (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/CMS Main Promo.png" alt=""><figcaption></figcaption></figure>
 
 ### What is Sonoran CMS?
 
@@ -29,7 +29,7 @@ Sonoran CMS is a state-of-the-art, cross-platform, all-in-one community manageme
   * Automatically grant in-game permissions based on a player's CMS rank!
 * [Manage Sonoran CAD Permissions from the CMS](integration-capabilities/sonoran-cad-sync.md)
   * Automatically manage Sonoran CAD permissions based on a player's CMS rank!
-* [Create a Custom Community Website](tutorials/customization/custom-pages.md)
+* [Create a Custom Community Website](tutorials/customization/website-builder.md)
   * Use your [own domain](tutorials/customization/custom-domain.md)!
   * Add text, images, videos, and more!
 * [Create Custom Community Forums](tutorials/getting-started/forum-system.md)
