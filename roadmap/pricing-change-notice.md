@@ -21,7 +21,8 @@ We're making Sonoran CMS more accessible than ever before, for **FREE**!
 The free plan will now have access to&#x20;
 
 * Unlimited Website Pages
-* In-Game Integration
+* In-Game Integration Plugins
+* API Access
 * Discord Role Sync
 * TeamSpeak 3 Sync
 * Sonoran CAD Sync
@@ -62,7 +63,8 @@ This means your community now gains access to:
 
 * Unlimited User Accounts
 * Unlimited Website Pages
-* In-Game Integration
+* In-Game Integration Plugins
+* API Access
 * Discord Role Sync
 * TeamSpeak 3 Sync
 * Sonoran CAD Sync
@@ -82,7 +84,8 @@ Your plan will be automatically downgraded to the NEW free version. Our support 
 This means your community now gains access to:
 
 * Unlimited Website Pages
-* In-Game Integration
+* In-Game Integration Plugins
+* API Access
 * Discord Role Sync
 * TeamSpeak 3 Sync
 * Sonoran CAD Sync
