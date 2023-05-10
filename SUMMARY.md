@@ -114,6 +114,7 @@
 
 ## Roadmap
 
+* [Pricing Change Notice](roadmap/pricing-change-notice.md)
 * [📋 Changelog](roadmap/changelog.md)
 
 ## Other
