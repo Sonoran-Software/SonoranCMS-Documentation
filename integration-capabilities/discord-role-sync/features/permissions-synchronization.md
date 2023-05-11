@@ -45,7 +45,11 @@ Select a department, rank you wish to modify, and the role you wish to apply to 
 
 The "Set Department-wide Role" button will automatically assign the Department (in this example, Community Leadership) to anyone with the role you select.
 
+<div align="center">
+
 <figure><img src="../../../.gitbook/assets/Screenshot_7.png" alt=""><figcaption><p>Click "Select Roles"</p></figcaption></figure>
+
+</div>
 
 <figure><img src="../../../.gitbook/assets/Screenshot_12.png" alt=""><figcaption><p>Use the left and right arrows to page if you have more than 25 roles.</p></figcaption></figure>
 

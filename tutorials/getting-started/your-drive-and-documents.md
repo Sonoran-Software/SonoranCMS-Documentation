@@ -24,7 +24,11 @@ To view a document, simply click it in either grid or list view. This will show 
 
 To quick manage Drive items you can right click the item, it'll provide a menu of actions that can be performed on that item.
 
+<div align="left">
+
 <figure><img src="https://i.imgur.com/Fg5MtWt.png" alt=""><figcaption><p>Sonoran CMS - Drive - Quick Manage (Right Click)</p></figcaption></figure>
+
+</div>
 
 ### Folders
 
@@ -40,7 +44,11 @@ Folders can have permissions associated with them to mass organize files with pe
 
 You can change the view mode between grid and list by using the toggle button on the Drive's toolbar
 
-![Change View](https://i.imgur.com/HHHUJsx.png)
+<div align="left">
+
+<img src="https://i.imgur.com/HHHUJsx.png" alt="Change View">
+
+</div>
 
 ![Drive List View](https://i.imgur.com/mnoLjLa.png)
 
@@ -48,7 +56,11 @@ You can change the view mode between grid and list by using the toggle button on
 
 You're able to create multiple document types, from presentations to excel sheets to word files!
 
-![Create File Dialog](https://i.imgur.com/GhvgwCh.png)
+<div align="left">
+
+<img src="https://i.imgur.com/GhvgwCh.png" alt="Create File Dialog">
+
+</div>
 
 ### Document Actions
 
@@ -118,13 +130,21 @@ This will inherit the parent folder's general access settings, this will simply 
 
 You can also change the sensitivity of the document. With sensitive mode enabled, viewers will not be able to download, print, or copy the document. A watermark will also be added.
 
-![Sonoran CMS - Sensitive Document Toggle](<../../.gitbook/assets/image (15).png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/image (15).png" alt="Sonoran CMS - Sensitive Document Toggle">
+
+</div>
 
 ### Saving
 
 Due to limitations with the editor, it's not able to save automatically. To save, you can press the floppy-disk icon on the top left or press `CTRL+S`
 
-![](https://i.imgur.com/ZLlc5og.png)
+<div align="left">
+
+<img src="https://i.imgur.com/ZLlc5og.png" alt="">
+
+</div>
 
 A warning will be shown if you try to leave the page with unsaved changes
 
