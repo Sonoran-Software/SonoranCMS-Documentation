@@ -29,7 +29,7 @@ Create custom pages with community information, multi-media, announcements, and 
 
 Sonoran CMS even allows you to add [community forums](../tutorials/getting-started/forum-system.md) for posts, discussions, and more!
 
-![Sonoran CMS - Custom Pages](../.gitbook/assets/pg-builder2.png)
+![Sonoran CMS - Custom Pages](../.gitbook/assets/CMS\_WebBuilder.png)
 
 <figure><img src="../.gitbook/assets/cms.forums.png" alt=""><figcaption></figcaption></figure>
 

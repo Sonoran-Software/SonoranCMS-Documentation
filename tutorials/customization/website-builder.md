@@ -4,7 +4,7 @@ description: Create your own community website!
 
 # Website Builder
 
-![Sonoran CMS - Custom Pages](../../.gitbook/assets/pg-builder2.png)
+![Sonoran CMS - Custom Pages](../../.gitbook/assets/CMS\_WebBuilder.png)
 
 To add website pages to your community, navigate to `Administration Panel -> Customization -> Website Builder`
 
