@@ -10,6 +10,32 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.40 (Beta) 5/12/2023
+
+{% tabs %}
+{% tab title="New" %}
+[**Custom Forms**](../tutorials/getting-started/creating-custom-forms.md)
+
+Custom Forms now have new element type, uploader. This accepts images and PDFs but is configurable per element. Easily have your users upload images or PDFs to be viewable directly within the submission.
+
+[**Profile Fields**](../tutorials/customization/community-profile-fields.md)
+
+Two new profile field types have been added, Discord and TeamSpeak. These two types are apart of the new _verified_ profile types. These will be automatically grabbed from the account without any user interaction or input.
+
+[**Toolbar Editing**](../tutorials/customization/website-builder.md#toolbar)
+
+The toolbar editor has been moved from Customization to the Website Builder.
+
+Additionally the toolbar now supports background color, individual font and text-color customization, and easy drag and drop support. You can now rearrange your toolbar including the community image easily to how you desire.&#x20;
+{% endtab %}
+
+{% tab title="Changed" %}
+**Custom Page Backgrounds**
+
+Custom page backgrounds now extend to the entire body of the page instead of the custom page container.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.39 (Beta) 5/4/2023
 
 {% tabs %}

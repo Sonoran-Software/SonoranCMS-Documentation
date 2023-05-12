@@ -26,16 +26,6 @@ The admin customization info section allows you to customize your community's im
 | Discord                  | This is a link to your community discord, to be displayed on the community dashboard.                                              |
 | Name & Identifier Format | This is the format that your community users will be displayed as, for example on their profile.                                   |
 
-### Toolbar
-
-Sonoran CMS allows you to customize the top toolbar with buttons to link your users to whatever your community needs.
-
-![Sonoran CMS - Toolbar Customization](https://i.imgur.com/OdWBHmg.png)
-
-To customize your community's toolbar head over to the **Administrative Panel** > **Customization** > **Customization**. Scroll down to the **Toolbar Customization** and expand the section. From there you can add buttons and dropdowns with various options. Each button and drop down option has a label and link associated with it, with these set they will be displayed to all community users. Make sure you click **SAVE** before exiting this area of the **Administrative Panel**.
-
-![Sonoran CMS - Toolbar Customization Editor](https://i.imgur.com/Hsul7ah.png)
-
 {% hint style="info" %}
 **Admin Icon** will display a cog icon next to a user's Notification Center icon in the top right of the toolbar.
 {% endhint %}

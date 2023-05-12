@@ -87,13 +87,11 @@ Button elements can have individual styles and button group elements can have al
 
 ## Toolbar
 
-Custom pages can be setup as links from toolbar items
+Sonoran CMS allows you to customize the top toolbar with buttons to link your users to whatever your community needs.
 
-![Example Community Toolbar](https://i.imgur.com/qWYv4a3.png)
+![Sonoran CMS - Toolbar Customization](https://i.imgur.com/3WBtzqK.png)
 
-To setup links to community pages, go to `Admin` -> `Customization` -> `Toolbar Customization`. Create the button you'd like to see, check "Community Page Link," and select the page you want
-
-![](https://i.imgur.com/PvWg8ED.png)
+To customize your community's toolbar head over to the **Administrative Panel** > **Customization** > **Website Builder**. From there you can add buttons, dropdowns and community image with various options. Each button and drop down option has a label and link associated with it, with these set they will be displayed to all community users. Header Design will let you customize the group alignment, background color and admin cog setting. Make sure you click **Save** before leaving this page.
 
 ## Custom Domain
 
