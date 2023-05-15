@@ -10,7 +10,7 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.40 (Beta) 5/12/2023
+### v0.5.40 (Beta) 5/15/2023
 
 {% tabs %}
 {% tab title="New" %}
@@ -27,6 +27,10 @@ Two new profile field types have been added, Discord and TeamSpeak. These two ty
 The toolbar editor has been moved from Customization to the Website Builder.
 
 Additionally the toolbar now supports background color, individual font and text-color customization, and easy drag and drop support. You can now rearrange your toolbar including the community image easily to how you desire.&#x20;
+
+[**TeamSpeak 3 Sync**](../integration-capabilities/teamspeak-3-role-sync/)
+
+You can now sync your Sonoran CMS ranks directly to your TeamSpeak 3 server's groups! This will automatically add/remove TS server groups from individuals that are configured to be set with their associated ranks.
 {% endtab %}
 
 {% tab title="Changed" %}
