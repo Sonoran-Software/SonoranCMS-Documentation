@@ -67,10 +67,6 @@ On the Rank Selector tree on the left-hand side, on the bottom, click the _Save_
 
 Sync multiple Sonoran CAD communities with your single Sonoran CMS community. This will sync all of the below features with each community you have setup.
 
-{% hint style="info" %}
-Multiple CAD Sync setups requires a **PLUS** subscription or higher, **PRO** or higher allows unlimited community setups.
-{% endhint %}
-
 ### Kick & Ban Sync
 
 This will trigger an action to kick the same user from your Sonoran CAD community if they're kicked from your Sonoran CMS community. This also applies to bans.

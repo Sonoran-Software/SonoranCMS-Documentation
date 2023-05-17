@@ -10,6 +10,36 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.41 (Beta) 5/17/2023
+
+{% tabs %}
+{% tab title="New" %}
+[**Pricing & Subscriptions**](pricing-change-notice.md)
+
+We're making Sonoran CMS more accessible than ever before, with all functionality for **FREE**!
+
+View our [notice](pricing-change-notice.md) for more information.
+
+[**Website Builder**](../tutorials/customization/website-builder.md)
+
+Background images now have different handling to better allow more customization on how they view, you can now change how the image shows across the background.
+{% endtab %}
+
+{% tab title="Changed" %}
+[**Website Builder**](../tutorials/customization/website-builder.md)
+
+Side toolbar is now scrollable
+
+Page slug input no longer shows the preview and is replaced with a copy button
+
+Grid lines in the previewer are no longer there
+
+**Account Management**
+
+When editing an individual account there will no longer be an option to change between active & pending, setting an individual to no ranks will place them in pending and setting them with any ranks will place them in active.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.40 (Beta) 5/15/2023
 
 {% tabs %}

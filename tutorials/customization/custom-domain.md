@@ -37,6 +37,10 @@ The custom login page allows your community members to register, sign-in, and ac
 
 ## Custom Domain
 
+{% hint style="warning" %}
+Custom Domain requires a **Pro** subscription.
+{% endhint %}
+
 ### 1. Add a CNAME Record for your Domain
 
 {% hint style="warning" %}

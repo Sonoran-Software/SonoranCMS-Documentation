@@ -7,7 +7,7 @@ description: >-
 
 # 🏆 Why Choose Sonoran CMS?
 
-<figure><img src="../.gitbook/assets/Docs_Orange (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Docs_Orange (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 📂 [CMS Document Drive](../tutorials/getting-started/your-drive-and-documents.md)
 

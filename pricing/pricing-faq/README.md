@@ -4,14 +4,6 @@ description: 'See below for commonly asked questions and answers:'
 
 # Pricing FAQ
 
-## Free Trial - Sonoran CMS Pro
-
-<figure><img src="../../.gitbook/assets/CMS Main Promo.png" alt=""><figcaption></figcaption></figure>
-
-Sonoran CMS Pro comes with a free 14 day trial! Simply select Pro at checkout to automatically apply a free 14 days!
-
-_Trial is limited to one per community._
-
 ## Accessing the Payment Center
 
 {% content-ref url="accessing-the-payment-center.md" %}

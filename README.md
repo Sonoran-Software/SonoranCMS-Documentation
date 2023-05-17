@@ -13,7 +13,7 @@ Looking for VPS, web, or dedicated hosting? Check out our official [server hosti
 
 {% endhint %}
 
-<figure><img src=".gitbook/assets/Docs_Orange (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Docs_Orange (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### What is Sonoran CMS?
 

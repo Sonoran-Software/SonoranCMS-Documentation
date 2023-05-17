@@ -6,11 +6,6 @@ description: >-
 
 # Discord Webhooks
 
-{% hint style="info" %}
-The free version of Sonoran CMS is limited to three (3) Discord webhooks.\
-For more information, see our [pricing](../pricing/pricing-faq/) or view how to check your community [limits](../tutorials/getting-started/view-your-limits.md).
-{% endhint %}
-
 {% hint style="warning" %}
 Currently, Discord webhooks can only be created using the Desktop version of Discord.
 {% endhint %}

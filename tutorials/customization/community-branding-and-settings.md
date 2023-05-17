@@ -4,11 +4,6 @@ description: Customize your community's settings, branding, information, and mor
 
 # Community Branding and Settings
 
-{% hint style="warning" %}
-Community customization requires the **standard** version of Sonoran CMS or higher.\
-For more information, see our [pricing](../../pricing/pricing-faq/) or view how to check your community [limits](../getting-started/view-your-limits.md).
-{% endhint %}
-
 ### Community Information
 
 The admin customization info section allows you to customize your community's image, name, and more!
@@ -33,7 +28,7 @@ The admin customization info section allows you to customize your community's im
 ### Community ID
 
 {% hint style="warning" %}
-Custom community IDs require the **starter** version of Sonoran CMS or higher.\
+Custom community IDs require the **Standard** version of Sonoran CMS or higher.\
 For more information, see our [pricing](https://sonorancms.com/#/pricing) or view how to check your community [limits](../getting-started/view-your-limits.md).
 {% endhint %}
 
