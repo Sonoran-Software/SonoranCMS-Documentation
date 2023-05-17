@@ -7,9 +7,7 @@ description: >-
 
 # 🏆 Why Choose Sonoran CMS?
 
-<figure><img src="../.gitbook/assets/CMSNewftfinal.png" alt=""><figcaption></figcaption></figure>
-
-[<mark style="color:orange;">Get Sonoran CMS Pro free for 14 days!</mark>](../pricing/pricing-faq/#free-trial-sonoran-cms-pro)
+<figure><img src="../.gitbook/assets/Docs_Orange (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 📂 [CMS Document Drive](../tutorials/getting-started/your-drive-and-documents.md)
 

@@ -6,15 +6,11 @@ description: >-
 
 # Pricing Change Notice
 
-{% hint style="warning" %}
-**This change is not yet in effect, and the date is not yet set.**
-
-Stay tuned for more information in an upcoming announcement.
-{% endhint %}
+<figure><img src="../.gitbook/assets/DiscordBannerSize.png" alt=""><figcaption></figcaption></figure>
 
 ## What's Changing?
 
-We're making Sonoran CMS more accessible than ever before, for **FREE**!
+We're making Sonoran CMS more accessible than ever before, with all functionality for **FREE**!
 
 ### Free Plan
 
