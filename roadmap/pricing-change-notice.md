@@ -53,7 +53,7 @@ We're simplifying our paid options to two: Standard and Pro.
 
 ### Plus Subscribers
 
-Your plan will be automatically downgraded to the NEW Standard plan. Our support team can also pro-rate your account credit for the **reduced price** going forward.
+Your plan will be automatically downgraded to the NEW Standard plan. Your account has **automatically received pro-rated credit** for the difference.
 
 This means your community now gains access to:
 
@@ -75,7 +75,7 @@ If you had a custom domain on the Plus plan, you will still have access to it fo
 
 ### Starter Subscribers
 
-Your plan will be automatically downgraded to the NEW free version. Our support team can also pro-rate your account credit for the **reduced price** going forward.
+Your plan will be automatically downgraded to the NEW free version. Your payment method has **already been refunded a pro-rated amount** for your remaining time.
 
 This means your community now gains access to:
 
