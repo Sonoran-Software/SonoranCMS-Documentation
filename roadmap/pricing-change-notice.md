@@ -1,7 +1,7 @@
 ---
 description: >-
-  We're making ALL Sonoran CMS functionality FREE! Learn more about our upcoming
-  pricing change.
+  We're making ALL Sonoran CMS functionality FREE! Learn more about our pricing
+  change.
 ---
 
 # Pricing Change Notice

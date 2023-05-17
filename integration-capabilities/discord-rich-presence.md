@@ -4,6 +4,10 @@ description: Our desktop app allows you to advertise your community right in Dis
 
 # Discord Rich Presence
 
+{% hint style="danger" %}
+**ATTENTION**: This feature is currently no longer within Sonoran CMS and will be reintroduced in a future update.
+{% endhint %}
+
 {% hint style="info" %}
 Rich presence is included with all versions of Sonoran CMS, but customization requires the **Standard** plan or higher, and the **Pro** plan for complete customization with the icon.\
 For more information, see our [pricing](../pricing/pricing-faq/) or view how to check your community [limits](../tutorials/getting-started/view-your-limits.md).
