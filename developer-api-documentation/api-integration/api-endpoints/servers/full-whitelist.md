@@ -6,11 +6,6 @@ description: >-
 
 # Full Whitelist
 
-{% hint style="warning" %}
-API endpoint requires the **Plus** version of Sonoran CMS or higher.\
-For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
-{% endhint %}
-
 {% swagger method="post" path="/servers/full_whitelist" baseUrl="https://api.sonorancms.com" summary="Full Whitelist" %}
 {% swagger-description %}
 Gets the full list for everyone whitelisted for the specified server.

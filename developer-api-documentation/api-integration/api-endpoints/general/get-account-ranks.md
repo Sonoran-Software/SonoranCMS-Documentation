@@ -4,11 +4,6 @@ description: This endpoint allows you to get a community account ranks.
 
 # Get Account Ranks
 
-{% hint style="warning" %}
-API endpoint requires the **Standard** version of Sonoran CMS or higher.\
-For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
-{% endhint %}
-
 {% swagger method="post" path="/general/get_account_ranks" baseUrl="https://api.sonorancms.com" summary="Get Account Ranks" %}
 {% swagger-description %}
 Get a Sonoran CMS community account's ranks by account ID, API ID, or username.

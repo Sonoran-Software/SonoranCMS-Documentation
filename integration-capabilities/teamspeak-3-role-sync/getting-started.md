@@ -17,9 +17,9 @@ Once you put all the TeamSpeak information into the inputs, click the **Save Int
 
 <figure><img src="https://i.imgur.com/UOSLFV1.png" alt=""><figcaption></figcaption></figure>
 
-### Creating a Server Query Login
+## Creating a Server Query Login
 
-#### The User Method
+### The User Method
 
 This method is the easiest for creating a server query login, but the permissions of the login are tied to the user creating it. In the event that the person who created the login loses their permissions, role syncing will not be possible
 
@@ -35,7 +35,7 @@ This method is the easiest for creating a server query login, but the permission
 
 <figure><img src="https://i.imgur.com/BbcDNFl.png" alt=""><figcaption></figcaption></figure>
 
-#### The serveradmin Method (Self-Hosted Only)
+### The serveradmin Method (Self-Hosted Only)
 
 This method only works if you self-host the TeamSpeak server, but it doesn't have the permission issues like the user method.
 

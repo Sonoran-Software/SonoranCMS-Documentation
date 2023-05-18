@@ -4,15 +4,6 @@ description: This endpoint allows you to toggle RSVP with an event from a commun
 
 # RSVP
 
-{% hint style="danger" %}
-**THIS IS NOT IN PRODUCTION YET!**
-{% endhint %}
-
-{% hint style="warning" %}
-API endpoint requires the **Plus** version of Sonoran CMS or higher.\
-For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
-{% endhint %}
-
 {% swagger method="post" path="/events/rsvp" baseUrl="https://api.sonorancms.com" summary="RSVP" %}
 {% swagger-description %}
 RSVP a community account found by API ID or account ID for an event.

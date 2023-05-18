@@ -4,11 +4,6 @@ description: This endpoint allows you to check a community API ID.
 
 # Check Com API ID
 
-{% hint style="warning" %}
-API endpoint requires the **Standard** version of Sonoran CMS or higher.\
-For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
-{% endhint %}
-
 {% swagger method="post" path="/general/check_com_apiid" baseUrl="https://api.sonorancms.com" summary="Check Com APIID" %}
 {% swagger-description %}
 Check if a API ID is attached to any community account
@@ -61,3 +56,4 @@ API ID NOT LINKED TO AN ACCOUNT IN THIS COMMUNITY
     ]
 }
 ```
+

@@ -4,15 +4,6 @@ description: Provides all profile fields associated and configured by the commun
 
 # Get Profile Fields
 
-{% hint style="danger" %}
-**NOT IN PRODUCTION**
-{% endhint %}
-
-{% hint style="warning" %}
-API endpoint requires the **Standard** version of Sonoran CMS or higher.\
-For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
-{% endhint %}
-
 {% swagger method="post" path="/general/get_profile_fields" baseUrl="https://api.sonorancms.com" summary="Get Profile Fields" %}
 {% swagger-description %}
 Get a Sonoran CMS community account's ranks by account ID, API ID, or username.

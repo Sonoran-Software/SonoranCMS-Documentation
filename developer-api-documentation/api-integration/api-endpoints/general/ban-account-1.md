@@ -6,15 +6,6 @@ description: >-
 
 # Edit Account Profile Fields
 
-{% hint style="danger" %}
-**NOT IN PRODUCTION**
-{% endhint %}
-
-{% hint style="warning" %}
-API endpoint requires the **Standard** version of Sonoran CMS or higher.\
-For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
-{% endhint %}
-
 {% swagger method="post" path="/general/edit_acc_profile_fields" baseUrl="https://api.sonorancms.com" summary="Edit Account Profile Fields" %}
 {% swagger-description %}
 Edit profile fields on a community account found by API ID or account ID.

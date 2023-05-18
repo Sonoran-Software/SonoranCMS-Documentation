@@ -4,11 +4,6 @@ description: Provides all departments and their ranks (and their associated IDs)
 
 # Get Departments
 
-{% hint style="warning" %}
-API endpoint requires the **Standard** version of Sonoran CMS or higher.\
-For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
-{% endhint %}
-
 {% swagger method="post" path="/general/get_departments" baseUrl="https://api.sonorancms.com" summary="Get Departments" %}
 {% swagger-description %}
 Get a Sonoran CMS community account's ranks by account ID, API ID, or username.

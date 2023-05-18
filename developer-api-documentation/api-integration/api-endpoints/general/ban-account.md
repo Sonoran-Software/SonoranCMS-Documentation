@@ -4,11 +4,6 @@ description: This endpoint allows you to ban an account from your community.
 
 # Ban Account
 
-{% hint style="warning" %}
-API endpoint requires the **Standard** version of Sonoran CMS or higher.\
-For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
-{% endhint %}
-
 {% swagger method="post" path="/general/ban_account" baseUrl="https://api.sonorancms.com" summary="Ban Account" %}
 {% swagger-description %}
 Clock in/out a community account found by API ID or account ID.
@@ -70,3 +65,4 @@ API ID NOT LINKED TO AN ACCOUNT IN THIS COMMUNITY
     ]
 }
 ```
+

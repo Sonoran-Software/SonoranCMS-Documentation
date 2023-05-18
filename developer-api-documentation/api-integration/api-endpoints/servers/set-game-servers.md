@@ -4,11 +4,6 @@ description: This endpoint allows you to set your community's server configurati
 
 # Set Game Servers
 
-{% hint style="warning" %}
-API endpoint requires the **Plus** version of Sonoran CMS or higher.\
-For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
-{% endhint %}
-
 {% swagger method="post" path="/servers/set_game_servers" baseUrl="https://api.sonorancms.com" summary="Set Game Servers" %}
 {% swagger-description %}
 Set Sonoran CMS community server configurations.

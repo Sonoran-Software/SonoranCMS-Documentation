@@ -4,12 +4,6 @@ description: This guide covers the installation process for a general integratio
 
 # Roblox Resource Installation
 
-
-
-{% hint style="warning" %}
-All Sonoran CMS integration resources require the **standard** version of Sonoran CMS or higher. For more information, see our [pricing ](broken-reference)page.
-{% endhint %}
-
 ## Installing a Resource
 
 ### 1. Download the Script

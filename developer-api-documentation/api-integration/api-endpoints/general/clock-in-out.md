@@ -4,11 +4,6 @@ description: This endpoint allows you to clock in/out a community account.
 
 # Clock In Out
 
-{% hint style="warning" %}
-API endpoint requires the **Plus** version of Sonoran CMS or higher.\
-For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
-{% endhint %}
-
 {% swagger method="post" path="/general/clock_in_out" baseUrl="https://api.sonorancms.com" summary="Clock In Out" %}
 {% swagger-description %}
 Clock in/out a community account found by API ID or account ID.

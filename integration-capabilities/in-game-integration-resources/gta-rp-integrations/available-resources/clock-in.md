@@ -4,10 +4,6 @@ description: A in-game way to utilize Sonoran CMS's clock in/out system.
 
 # Clock In
 
-{% hint style="warning" %}
-This resource utilizes API endpoints that require the **plus** version of Sonoran CMS or higher. For more information, view our [pricing ](broken-reference)page.
-{% endhint %}
-
 {% hint style="success" %}
 Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](../../../../other-products/server-hosting.md)!
 {% endhint %}

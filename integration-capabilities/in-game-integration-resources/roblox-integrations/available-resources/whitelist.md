@@ -8,10 +8,6 @@ description: A whitelist system that utilizes Sonoran CMS's game whitelist syste
 All players of your server must have their [API ID](../../../../developer-api-documentation/api-integration/getting-started/api-id-system.md) setup and must be given a rank that has whitelist permissions for the specified server.
 {% endhint %}
 
-{% hint style="warning" %}
-This resource utilizes API endpoints that require the **plus** version of Sonoran CMS or higher. For more information, view our [pricing ](broken-reference)page.
-{% endhint %}
-
 {% hint style="success" %}
 Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](../../../../other-products/server-hosting.md)!
 {% endhint %}

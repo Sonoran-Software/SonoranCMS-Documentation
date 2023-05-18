@@ -4,11 +4,6 @@ description: This endpoint allows you to verify the whitelist of a community acc
 
 # Verify Whitelist
 
-{% hint style="warning" %}
-API endpoint requires the **Plus** version of Sonoran CMS or higher.\
-For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
-{% endhint %}
-
 {% swagger method="post" path="/servers/verify_whitelist" baseUrl="https://api.sonorancms.com" summary="Verify Whitelist" %}
 {% swagger-description %}
 Verifies the whitelist of a community account found given the accId or API ID.

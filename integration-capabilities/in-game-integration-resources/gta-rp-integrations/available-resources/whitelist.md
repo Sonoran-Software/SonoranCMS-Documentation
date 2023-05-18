@@ -4,10 +4,6 @@ description: A whitelist system that utilizes Sonoran CMS's game whitelist syste
 
 # Whitelist
 
-{% hint style="warning" %}
-This resource utilizes API endpoints that require the **plus** version of Sonoran CMS or higher. For more information, view our [pricing ](broken-reference)page.
-{% endhint %}
-
 {% hint style="success" %}
 Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](../../../../other-products/server-hosting.md)!
 {% endhint %}

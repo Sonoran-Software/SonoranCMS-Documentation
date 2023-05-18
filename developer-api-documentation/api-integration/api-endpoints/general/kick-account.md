@@ -4,11 +4,6 @@ description: This endpoint allows you to kick an account from your community.
 
 # Kick Account
 
-{% hint style="warning" %}
-API endpoint requires the **Standard** version of Sonoran CMS or higher.\
-For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
-{% endhint %}
-
 {% swagger method="post" path="/general/kick_account" baseUrl="https://api.sonorancms.com" summary="Kick Account" %}
 {% swagger-description %}
 Clock in/out a community account found by API ID or account ID.

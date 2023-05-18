@@ -6,11 +6,6 @@ description: >-
 
 # API Endpoints
 
-{% hint style="info" %}
-API endpoints are not enabled with the free version of Sonoran CMS.\
-For more information, see our [pricing](../../../pricing/pricing-faq/) or view how to check your community [limits](../../../tutorials/getting-started/view-your-limits.md).
-{% endhint %}
-
 {% hint style="success" %}
 Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](https://info.sonorancad.com/other-products/server-hosting)!
 {% endhint %}

@@ -4,11 +4,6 @@ description: This endpoint allows you to retrieve your community's server config
 
 # Get Game Servers
 
-{% hint style="warning" %}
-API endpoint requires the **Standard** version of Sonoran CMS or higher.\
-For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
-{% endhint %}
-
 {% swagger method="post" path="/servers/get_game_servers" baseUrl="https://api.sonorancms.com" summary="Get Game Servers" %}
 {% swagger-description %}
 Get Sonoran CMS community server configurations.
