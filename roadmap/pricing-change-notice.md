@@ -12,6 +12,10 @@ description: >-
 
 We're making Sonoran CMS more accessible than ever before, with all functionality for **FREE**!
 
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
 ### Free Plan
 
 The free plan will now have access to&#x20;
