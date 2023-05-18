@@ -119,6 +119,7 @@
 ## Roadmap
 
 * [Pricing Change Notice](roadmap/pricing-change-notice.md)
+* [Design Contest](roadmap/design-contest.md)
 * [📋 Changelog](roadmap/changelog.md)
 
 ## Other
