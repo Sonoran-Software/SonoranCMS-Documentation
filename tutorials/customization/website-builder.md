@@ -97,16 +97,6 @@ To customize your community's toolbar head over to the **Administrative Panel** 
 
 Sonoran CMS allows you to display your community website [on your own domain](custom-domain.md)!
 
-## Sorting Pages
-
-Sonoran CMS allows you to organize the order in which pages appear wherever they're listed, the main area pages are seen in an order would be the side navigation menu.
-
-<figure><img src="https://i.imgur.com/vho2hmO.png" alt=""><figcaption><p>Sonoran CMS - Page Editor - Sorting Pages</p></figcaption></figure>
-
-To sort pages simply press the yellow bordered "Sort Pages" button on top of the pages table. This will enable "Sort Mode" and will allow you to adjust their order by dragging and dropping the rows. Once the preferred order is met you can save by clicking the "Save Sorted Pages" button.
-
-<figure><img src="https://i.imgur.com/1thMMu3.png" alt=""><figcaption><p>Sonoran CMS - Page Editor - Sort Pages Button</p></figcaption></figure>
-
 ## Sorting Page Sections
 
 Sonoran CMS allows you to easily organize the order in which your page sections are listed.
