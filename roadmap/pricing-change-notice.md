@@ -4,7 +4,7 @@ description: >-
   change.
 ---
 
-# Pricing Change Notice
+# 💳 Pricing Change Notice
 
 <figure><img src="../.gitbook/assets/DiscordBannerSize.png" alt=""><figcaption></figcaption></figure>
 

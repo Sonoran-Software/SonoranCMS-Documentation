@@ -4,9 +4,9 @@ description: >-
   cards!
 ---
 
-# Design Contest
+# 🎨 Design Contest
 
-<figure><img src="../.gitbook/assets/Builder Challenge - square.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/New Project (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Enter to Win!
 
