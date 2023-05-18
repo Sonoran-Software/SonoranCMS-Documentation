@@ -7,7 +7,9 @@ description: >-
 
 # 📱 Download the App
 
-![Sonoran CMS - 14 Day Trial](<.gitbook/assets/Trial - B.png>)
+
+
+<figure><img src=".gitbook/assets/Docs_Orange (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 | Website           | [View](https://sonorancms.com)                                                                                       |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------- |
