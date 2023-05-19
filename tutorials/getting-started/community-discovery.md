@@ -22,7 +22,7 @@ Once enabled your community will be shown to the thousands of users that use Son
 
 <figure><img src="https://i.imgur.com/vWk4zUS.png" alt=""><figcaption><p>Sonoran CMS - Community Discovery Configuration</p></figcaption></figure>
 
-You can also set predefined tags that better categories your community for community discovery. Tags are limited to a total of **3** but with a **Pro (and Sonoran One)** subscription you can select **5** tags.
+You can also set predefined tags that better categories your community for community discovery.&#x20;
 
 {% hint style="info" %}
 Ensure you save your Community Discovery settings by clicking the green "Save" button located above the "Community Discovery" inputs.

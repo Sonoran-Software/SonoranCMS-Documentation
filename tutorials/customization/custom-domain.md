@@ -11,7 +11,7 @@ Only the **Community Owner** will have access to change and view Custom Domain s
 {% endhint %}
 
 {% hint style="warning" %}
-Custom login pages require the **standard** version or higher.\
+Custom domains require the **pro** version.\
 For more information, see our [pricing](../../pricing/pricing-faq/) or view how to check your community [limits](../getting-started/view-your-limits.md).
 {% endhint %}
 
