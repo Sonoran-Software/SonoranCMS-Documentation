@@ -14,14 +14,7 @@ By default, only server administrators (those with Administrator in the guild) c
 
 ## Role Sync
 
-| Command      | Mode    | Description                                        |
-| ------------ | ------- | -------------------------------------------------- |
-| `/guildlink` | CAD/CMS | Links a guild to an existing CAD or CMS community. |
-| `/rolemap`   | CAD/CMS | Opens role mapping settings                        |
-| `/settings`  |         | Allows adjustment of various settings in the bot.  |
-| `/setup`     |         | Sets up the bot with your CAD/CMS community.       |
-| `/syncme`    | CAD/CMS | Forces a sync with CAD/CMS for yourself.           |
-| `/syncroles` | CAD/CMS | Forces a CAD/CMS sync for the entire guild.        |
+<table><thead><tr><th width="156">Command</th><th width="125">Mode</th><th>Description</th></tr></thead><tbody><tr><td><code>/guildlink</code></td><td>CAD/CMS</td><td>Links a guild to an existing CAD or CMS community.</td></tr><tr><td><code>/rolemap</code></td><td>CAD/CMS</td><td>Opens role mapping settings</td></tr><tr><td><code>/settings</code></td><td></td><td>Allows adjustment of various settings in the bot.</td></tr><tr><td><code>/setup</code></td><td></td><td>Sets up the bot with your CAD/CMS community.</td></tr><tr><td><code>/syncme</code></td><td>CAD/CMS</td><td>Forces a sync with CAD/CMS for yourself.</td></tr><tr><td><code>/syncroles</code></td><td>CAD/CMS</td><td>Forces a CAD/CMS sync for the entire guild.</td></tr></tbody></table>
 
 ## Features
 

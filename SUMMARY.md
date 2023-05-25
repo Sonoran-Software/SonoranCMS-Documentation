@@ -20,7 +20,7 @@
   * [Registering Your Community](tutorials/getting-started/registering-your-community.md)
   * [Inviting Users to Your CMS](tutorials/getting-started/inviting-users-to-your-cms.md)
   * [View Your Limits](tutorials/getting-started/view-your-limits.md)
-  * [Creating Departments](tutorials/getting-started/creating-departments.md)
+  * [Creating Ranks & Departments](tutorials/getting-started/creating-departments.md)
   * [Modify Users Permissions & Information](tutorials/getting-started/modify-users-permissions-and-information.md)
   * [Creating Custom Forms](tutorials/getting-started/creating-custom-forms.md)
   * [Creating Rosters](tutorials/getting-started/creating-custom-rosters.md)
