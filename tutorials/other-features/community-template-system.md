@@ -4,6 +4,10 @@ description: This guide covers the Community Template System in Sonoran CMS.
 
 # Community Template System
 
+{% hint style="danger" %}
+**THIS FEATURE IS NO LONGER AVAILABLE IN SONORAN CMS AT THIS TIME, IT MAY BE REINTRODUCED AT A LATER DATE.**
+{% endhint %}
+
 ### What is the Community Template System?
 
 When creating a community or even customizing a community, you might not want to start from scratch; with the Community Template System, you'll be able to import an entire community template into your community.

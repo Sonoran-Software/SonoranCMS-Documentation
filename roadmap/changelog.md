@@ -10,6 +10,46 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.42 (Beta) 5/25/2023 (Unreleased)
+
+{% tabs %}
+{% tab title="New" %}
+[**Community Template**](../tutorials/other-features/community-template-system.md)
+
+The Community Template feature has been removed for the time being, we've reworked the default template to be fully customized to easily see the full capabilities of the system and an easier customization transition. Newly created communities will now come with departments, rosters, pages, etc. fully customized to be used out of the box or customized further to fit your needs.
+
+[**Forms Editor**](../tutorials/getting-started/creating-custom-forms.md)
+
+The Forms Editor has been reworked to take after the ease of use and customization the Website Builder brings. The entire UI has been reworked and now includes the majority of customization capabilities of the Website Builder for forms.
+
+[**Department Manager -> Rank Manager**](../tutorials/departments/)
+
+The Department Manager has been reworked and renamed to Rank Manager. This rework has provided an easier and smoother experience when editing and managing ranks. From creating a department to managing rank permissions, the whole experience has been simplified and improved.&#x20;
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Community Discovery**
+
+* Fixed an issue where the images would appear very small compared to the actual size that should have been shown.
+
+**Custom Forms**
+
+* Member selectors would not have any options to select from despite having members that should be populated.
+
+**Ranks**
+
+* Inherited permissions from the parent department would not be accounted for.
+
+**Desktop Application**
+
+* Top toolbar would overlap with the top window bar.
+
+**Website Builder**
+
+* New page elements wouldn't be able to dragged and dropped into an empty area, they would only appear if dropped onto an existing section.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.41 (Beta) 5/17/2023
 
 {% tabs %}
