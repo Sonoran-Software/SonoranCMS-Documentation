@@ -45,13 +45,13 @@ Or, manage Discord roles right through the CMS!
 
 Whether it's your own patrol log system with automatic hour calculations, an extensive new member application, or a custom community form, Sonoran CMS allows you to customize it all.
 
-![Sonoran CMS - Custom Forms](../.gitbook/assets/cms-ft-forms.png)
+![Sonoran CMS - Custom Forms](<../.gitbook/assets/CMS\_WebBuilder (1).png>)
 
 ## ✅ [In-Game Whitelisting](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/whitelist.md)
 
 Sonoran CMS is your single point of management for in-game whitelisting! Automatically whitelist players based on CMS rank for [FiveM](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/whitelist.md), [Minecraft](../integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](../integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
 
-![Sonoran CMS - Whitelist Management](../.gitbook/assets/CMS-WL.png)
+![Sonoran CMS - Whitelist Management](../.gitbook/assets/CMSRankManage.png)
 
 ## 🚫 [GTA RP ACE Permissions Management](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/ace-permission-sync.md)
 
