@@ -60,14 +60,6 @@ These three size options; Desktop, Tablet, and Mobile are all different widths y
 
 ![](https://i.imgur.com/uYxRT9w.png)
 
-### Custom HTML
-
-If you wish to add custom HTML to your page, you can click the right most button of the rich text editor
-
-![](https://i.imgur.com/nwW3469.png)
-
-In the HTML editor, you are able to write or insert your own HTML code that wouldn't be possible using the default editor.
-
 ### Buttons
 
 If you wish to add buttons to your page, you can add a button or button group section to your page. Each button has several settings that define how the button looks like and acts. Each button can be direct users to external websites, custom forms and custom pages.
@@ -117,3 +109,20 @@ To set a Custom Page as your Dashboard / Landing Page, navigate to the Custom Pa
 Custom Pages can now have a custom path to the page, this path will append to the Sonoran CMS url. If you're using a custom domain it'll detect that and provide the proper URL.
 
 <figure><img src="https://i.imgur.com/Akl09Bf.png" alt=""><figcaption></figcaption></figure>
+
+## HTML Elements Limits
+
+HTML elements get sanitized before they're saved, displayed or manipulated. There's several HTML tags that are stripped and now allowed, below is the list of allowed HTML tags:
+
+```
+[
+  "address", "article", "aside", "footer", "header", "h1", "h2", "h3", "h4",
+  "h5", "h6", "hgroup", "main", "nav", "section", "blockquote", "dd", "div",
+  "dl", "dt", "figcaption", "figure", "hr", "li", "main", "ol", "p", "pre",
+  "ul", "a", "abbr", "b", "bdi", "bdo", "br", "cite", "code", "data", "dfn",
+  "em", "i", "kbd", "mark", "q", "rb", "rp", "rt", "rtc", "ruby", "s", "samp",
+  "small", "span", "strong", "sub", "sup", "time", "u", "var", "wbr", "caption",
+  "col", "colgroup", "table", "tbody", "td", "tfoot", "th", "thead", "tr", "iframe",
+  "img"
+]
+```
