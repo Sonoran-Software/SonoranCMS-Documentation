@@ -22,11 +22,11 @@ By allowing users to duplicate an entire department or a single rank, it will ma
 
 ### Permission Copy & Paste System
 
-While modifying or even creating ranks, you'll want to share permissions across them; you can easily copy and paste permissions across ranks by right-clicking the header permission (ex. "CMS Permissions," "Roster Permissions," etc.) if you want to copy and paste specific roster, form or calendar permissions you can right-click the label of the roster, form, calendar, etc.
+While modifying or even creating ranks, you'll want to share permissions across them; you can easily copy and paste permissions across ranks by right-clicking the header permission (ex. "System," "Navigation," etc.). You can also copy an all permissions from a department and/or a rank.
 
-![Sonoran CMS's Copy & Paste System - Copying All Applicatin Permissions](../../.gitbook/assets/6i7d144e.png)
+![](https://i.imgur.com/jV2PCzf.png)
 
-![Sonoran CMS's Copy & Paste System - Copying "Los Santos Police Department Roster" Permissions](../../.gitbook/assets/554agfd2.png)
+![](https://i.imgur.com/NnI5Vrd.png)
 
 ### Permission Explanations
 
