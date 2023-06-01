@@ -10,6 +10,74 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.43 (Beta) Pending-Release
+
+{% tabs %}
+{% tab title="New" %}
+[**Website Builder** - **New Elements**](../tutorials/customization/website-builder.md)
+
+_Static Image Carousel_
+
+Similar to the gallery element however members cannot upload or remove images through the UI, this element is set for the page.
+
+_Card_
+
+The card element can display various information and can be customized to your exact liking!
+
+_Circular Progress (Info Block Style)_
+
+Circular progress has been added as a style type for the **Info Block** element type, this provides a circular progress bar that can be customized to a specific value or based on total community or department members.
+
+_HTML Embed_
+
+HTML Embed allows more in-depth customization to your website pages, easily embed popular embeds from other sites such as TrackyServer!
+
+[**Rank Manager**](../tutorials/departments/)
+
+The ability to copy and paste permissions between ranks/departments has been re-implemented from being removed in the last update.
+
+[**Toolbar**](../tutorials/customization/website-builder.md#toolbar)
+
+_Drive Document_
+
+A new destination type has been added to the toolbar item options, you can now select a specific file in your CMS Drive to directly link to without the need of grabbing the physical URL to the file!
+{% endtab %}
+
+{% tab title="Changed" %}
+[**Website Builder**](../tutorials/customization/website-builder.md)
+
+* Editing an element's sizing will change the current preview size shown within the editor.
+* Removed excess spacing on the sides while viewing on a mobile sized screen.
+* Pop-up editing of elements have been reworked and improved for a better user experience.
+
+[**Forms Editor**](../tutorials/getting-started/creating-custom-forms.md)
+
+* Utility Toolbar has been reworked and improved for a better user experience.
+
+**Footer**
+
+* Footer was updated to have more spacing and less cramming
+
+**Pricing**
+
+* The Sonoran CAD button now has the correct hyperlink destination
+
+[**Direct Form URLs**](../tutorials/forms/)
+
+When linking an individual a direct apply link to a form it would it just take them to the Available Forms and not display anything. Now it'll notify they must be signed in and will easily direct them to login and take them back to the same page once signed in.
+
+[**Forums**](../tutorials/getting-started/forum-system.md)
+
+Forums no longer require individuals to be signed in to just view a category and forums element.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Gallery**
+
+* Gallery elements would not show/load properly if the individual is not signed in, the sign in requirement is now removed.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.42 (Beta) 5/25/2023
 
 {% tabs %}
