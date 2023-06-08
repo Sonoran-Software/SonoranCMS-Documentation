@@ -20,7 +20,7 @@ Head to your Community Customization, locate the Administrative Panel > Customiz
 
 Once enabled your community will be shown to the thousands of users that use Sonoran CMS through the Community Discovery portal. You can also set a "New Member Application" form to be automatically shown when a user joins your community through the discovery portal.
 
-<figure><img src="https://i.imgur.com/vWk4zUS.png" alt=""><figcaption><p>Sonoran CMS - Community Discovery Configuration</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/G3xubTw.png" alt=""><figcaption><p>Sonoran CMS - Community Discovery Configuration</p></figcaption></figure>
 
 You can also set predefined tags that better categories your community for community discovery.&#x20;
 

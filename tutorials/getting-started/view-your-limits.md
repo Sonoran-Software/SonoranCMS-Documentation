@@ -10,4 +10,4 @@ description: >-
 
 In the admin page, select "Advanced" > "Limits" to view your community limitations.
 
-![](../../.gitbook/assets/msedge\_ZVI8JWViL4.png)
+![](https://i.imgur.com/epxB8oK.png)
