@@ -10,7 +10,7 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.43 (Beta) Pending-Release
+### v0.5.43 (Beta) 6/1/2023
 
 {% tabs %}
 {% tab title="New" %}
