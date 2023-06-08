@@ -10,6 +10,42 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.44 (Beta) 6/8/2023
+
+{% tabs %}
+{% tab title="New" %}
+[**Community Customization**](../tutorials/customization/)
+
+The entire Community Customization UI has been completely reworked from the ground up, focused on an improved UI/UX.
+
+**Administrative Panel Navigation**
+
+Administrative panel navigation has been completely reworked from the ground up similar to Community Customization. This new navigation allows for more screen real estate, improved UX, and overall and easier navigation experience.
+
+**Limits**
+
+The limits page has been completely reworked to clearly layout what limits apply to your community and overall a refresh to the existing UI.
+
+**Integrations**
+
+A new Integrations Portal has been introduced, this portal houses all integrations that Sonoran CMS offers. From official integrations to community driven integrations this is the one place to manage it all. With more comprehensive integrations planned in the very near future.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Community Profile**
+
+* Unable to view user profiles if you're not logged in or apart of the community
+
+**Website Pages**
+
+* Privatized pages would not actually handle like they're privatized, essentially would behave as a public page
+
+**Rosters**
+
+* Some communities may have seen JSON data within their roster rows
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.43 (Beta) 6/1/2023
 
 {% tabs %}
