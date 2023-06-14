@@ -27,3 +27,8 @@ Extract the resource to your server resources folder in the folder named [sonora
 ### 3. Add resource to server.cfg
 
 Add `ensure sonorancms` to your server.cfg and restart your server!
+
+{% hint style="danger" %}
+It is very important that the sonorancms_updatehelper resource is not started manually. Doing so may cause a server crash if updates are available due to a race condition.
+DO NOT start the whole [sonorancms] folder as that will also start the sonorancms_updatehelper which might cause crashing if it is started manually. Example of not what to do ensure [sonorancms]
+{% endhint %}
