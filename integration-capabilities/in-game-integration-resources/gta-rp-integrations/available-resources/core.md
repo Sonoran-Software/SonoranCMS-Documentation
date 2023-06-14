@@ -20,6 +20,8 @@ Click [<mark style="color:blue;">here</mark>](https://github.com/Sonoran-Softwar
 
 Follow the [standard resource installation guide](../gta-rp-resource-installation/) for the core resource.
 
+Extracting the folder [sonorancms] into the resources folder.
+
 ### 3. Configure and Rename
 
 Open `sonorancms\config.CHANGEME.json`, update the values, then save it as `config.json`. Default configuration is below:

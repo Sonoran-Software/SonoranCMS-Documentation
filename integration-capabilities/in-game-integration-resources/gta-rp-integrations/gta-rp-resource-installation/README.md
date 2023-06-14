@@ -6,7 +6,7 @@ description: This guide covers the installation process for a general integratio
 
 ## Installing a Resource
 
-This uses the whitelist resource.
+This uses the whitelist resource as an example.
 
 ### 1. Download
 
@@ -16,14 +16,14 @@ Download the resource from its repository. These are found under its resource pa
 
 ### 2. Extract
 
-Extract the resource to your server resources folder.
+{% hint style="warning" %}
+All plugins for FiveM require the [Core](../available-resources/core.md) to start.
+{% endhint %}
 
-![](../../../../.gitbook/assets/7zFM\_6rRKKnAFQW.png)
+Extract the resource to your server resources folder in the folder named [sonorancms] that comes with the download of Core so it sits alongside sonorancms & sonorancms_updatehelper.
 
-### 3. Configure
+![](../../../../.gitbook/assets/%5Bsonorancms%5D%20folder.png)
 
-![](../../../../.gitbook/assets/Code\_ZRWiB199BX.png)
+### 3. Add resource to server.cfg
 
-### 4. Add resource to server.cfg
-
-Add `ensure sonoran_whitelist` to your server.cfg and restart your server!
+Add `ensure sonorancms` to your server.cfg and restart your server!
