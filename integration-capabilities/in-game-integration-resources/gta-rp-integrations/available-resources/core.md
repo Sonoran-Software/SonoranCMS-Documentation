@@ -24,7 +24,9 @@ Extracting the folder [sonorancms] into the resources folder.
 
 ### 3. Configure and Rename
 
-Open `sonorancms\config.CHANGEME.json`, update the values, then save it as `config.json`. Default configuration is below:
+Open `sonorancms\config.CHANGEME.json`, update the values, then save it as `config.json`.
+
+Default configuration is below:
 
 #### Configuration Details
 
@@ -40,7 +42,8 @@ Open `sonorancms\config.CHANGEME.json`, update the values, then save it as `conf
 Add the following to your `server.cfg`
 
 {% hint style="danger" %}
-It is very important that the `sonorancms_updatehelper` resource is not started manually. Doing so may cause a server crash if updates are available due to a race condition.
+It is very important that the sonorancms_updatehelper resource is not started manually. Doing so may cause a server crash if updates are available due to a race condition.
+DO NOT start the whole [sonorancms] folder as that will also start the sonorancms_updatehelper which might cause crashing if it is started manually. Example of not what to do ensure [sonorancms]
 {% endhint %}
 
 ```javascript
