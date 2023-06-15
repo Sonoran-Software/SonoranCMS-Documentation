@@ -1,5 +1,5 @@
 ---
-description: A in-game way to utilize Sonoran CMS's clock in/out system.
+description: A in-game way to utilize Sonoran CMS's roster & rank system to sync your in-game jobs and ranks.
 ---
 
 # Job Sync
@@ -8,7 +8,7 @@ description: A in-game way to utilize Sonoran CMS's clock in/out system.
 Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](../../../../other-products/server-hosting.md)!
 {% endhint %}
 
-This resource is a in-game way of automatically clocking in/out of Sonoran CMS's system.
+This resource is a in-game way of automatically syncing jobs and ranks to match roster information in the Sonoran CMS system/community.
 
 ## Installation
 
@@ -22,7 +22,9 @@ Click [<mark style="color:blue;">here</mark>](https://github.com/Sonoran-Softwar
 
 ### 3. Install the Resource
 
-Follow the [standard resource installation guide](../gta-rp-resource-installation/) for the clock in resource.
+Follow the [standard resource installation guide](../gta-rp-resource-installation/) which uses the whitelist resource as an example.
+
+Placing it inside the [sonorancms] alongside sonorancms & sonorancms_updatehelper.
 
 ### 4. Add your API ID
 

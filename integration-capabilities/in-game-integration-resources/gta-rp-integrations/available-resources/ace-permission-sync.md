@@ -26,7 +26,9 @@ Click [<mark style="color:blue;">here</mark>](https://github.com/Sonoran-Softwar
 
 ### 3. Install the Resource
 
-Follow the [standard resource installation guide](../gta-rp-resource-installation/) for the whitelist resource.
+Follow the [standard resource installation guide](../gta-rp-resource-installation/) which uses the whitelist resource as an example.
+
+Placing it inside the [sonorancms] alongside sonorancms & sonorancms_updatehelper.
 
 ### 4. Grant Resource Permissions
 
