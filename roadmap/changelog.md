@@ -14,6 +14,55 @@ description: View the latest changes to Sonoran CMS!
 
 {% tabs %}
 {% tab title="New" %}
+**QB Core Management Panel**
+
+The initial release of our official QB Core management panel for GTARP is here!
+
+Initial functionality includes:
+
+* Players
+  * View and Kick
+* Player Vehicles
+  * Repair, Delete and Despawn
+* Player Bank Accounts
+  * View, Add Money, Remove Money
+
+More functionality is planned for weekly releases! The CMS QB Core management panel will soon be your single management point for your QB server!
+
+[**Community Creation**](../tutorials/getting-started/registering-your-community.md)
+
+The Community Creation UI has been completely reworked, now walking new users through a guided process to upload and customize logos, descriptions, and more.
+
+**Form Manager Consolidation**
+
+The form manager and available forms sections have been combined into a single panel. This requires less overall navigation and also includes a tab for admins to quickly access the forms editor.
+
+**Admin Navigation Bar**
+
+The admin side navigation bar's toggle button is now condensed into a vertical button with dynamic opacity when collapsed to reduce screen footprint. Additionally, users can now click and drag the toggle button vertically up or down the screen.
+
+**Integrations**
+
+A new Integrations Portal has been introduced, this portal houses all integrations that Sonoran CMS offers. From official integrations to community driven integrations this is the one place to manage it all. With more comprehensive integrations planned in the very near future.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Default Template**
+
+The default website template for new communities has been reworked. This includes improved and condensed navigation, breaks feature elements into dedicated pages, and more.
+
+**Toolbar Spacing**
+
+Increased spacing between toolbar items for more clear separation.
+{% endtab %}
+{% endtabs %}
+
+
+
+### v0.5.44 (Beta) 6/8/2023
+
+{% tabs %}
+{% tab title="New" %}
 [**Community Customization**](../tutorials/customization/)
 
 The entire Community Customization UI has been completely reworked from the ground up, focused on an improved UI/UX.
