@@ -75,7 +75,6 @@ New functionality includes:
 
 * Dragging/reordering handling for toolbar items has been improved/fixed.
   * Previously unable to drag one to the very most right, it would only allow on very last item.
-  * &#x20;
 {% endtab %}
 {% endtabs %}
 
