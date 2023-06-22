@@ -10,6 +10,75 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.46 (Beta) 6/2?/2023 (Not Released)
+
+{% tabs %}
+{% tab title="New" %}
+[**QB Core Management Panel**](../integration-capabilities/qbcore-game-panel/)
+
+The first update to our official QB Core management panel for GTARP!
+
+New functionality includes:
+
+* Permissions
+  * Ranks can now be granted permissions to access/use various features of the panel.
+* Players
+  * Kick
+* Vehicles
+  * Repair
+  * Despawn
+  * Remove
+* Bank Accounts
+  * Edit Account Amount
+{% endtab %}
+
+{% tab title="Changed" %}
+**Admin Panel**
+
+* Dragging the admin navigation show/hide button up and above the toolbar will no longer be possible, it will restrict just below the toolbar.
+
+**Toolbar**
+
+* Direct URL destination buttons will now open links in a new tab instead of taking over the current CMS tab.
+
+**Form Management**
+
+* The old route `forms/mgmt` is now deprecated and now transfers you to the main forms hub, button destinations for Form Management now have additional handling to direct to the manage tab.
+
+**Custom Pages / Website Builder**
+
+* Custom page slugs are no longer case sensitive.
+* Buttons will now open links in a new tab instead of taking over the current CMS tab.
+* Saving a custom page will no longer kick you back to the page selector.
+* Improved border UI to differentiate the screen size.
+* Many improvements to various components for the website builder.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Drive**
+
+* Long document names would overflow the UI card, they should be truncated now.
+
+**Community Profile**
+
+* Attempting to _Sync CAD_ through the Settings dialog within the community profile would error out and not complete.
+
+**Rosters**
+
+* Editing a roster row that contains a date field would not allow you to select dates via the date picker.
+
+**Admin Panel**
+
+* **Mobile:** Touching the admin navigation show/hide button would not always work due to conflicting events getting fired, it should be draggable without issue.
+
+**Toolbar**
+
+* Dragging/reordering handling for toolbar items has been improved/fixed.
+  * Previously unable to drag one to the very most right, it would only allow on very last item.
+  * &#x20;
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.45 (Beta) 6/19/2023
 
 {% tabs %}
