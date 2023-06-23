@@ -10,7 +10,7 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.46 (Beta) 6/2?/2023 (Not Released)
+### v0.5.46 (Beta) 6/23/2023 (Not Released)
 
 {% tabs %}
 {% tab title="New" %}
@@ -27,9 +27,8 @@ New functionality includes:
 * Vehicles
   * Repair
   * Despawn
-  * Remove
-* Bank Accounts
-  * Edit Account Amount
+* Money
+  * Edit Account Balances (Wallet, Bank, Crypto, etc)
 {% endtab %}
 
 {% tab title="Changed" %}
