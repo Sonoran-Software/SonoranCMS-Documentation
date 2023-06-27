@@ -12,6 +12,6 @@ The integration of the QBCore game panel into SonoranCMS brings a seamless and e
 
 ## Get Started Today!
 
-{% content-ref url="getting-started.md" %}
-[getting-started.md](getting-started.md)
+{% content-ref url="installation.md" %}
+[installation.md](installation.md)
 {% endcontent-ref %}

@@ -1,3 +1,7 @@
+---
+description: Once configured, using the QB Core game panel is easy!
+---
+
 # Using The Game Panel
 
 ## Dashboard
