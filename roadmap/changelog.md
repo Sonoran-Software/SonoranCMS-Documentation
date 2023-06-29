@@ -10,6 +10,79 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.47 (Beta) 6/30/2023 (Unreleased)
+
+{% tabs %}
+{% tab title="New" %}
+**Calendar Consolidation**
+
+All aspects of the calendar system has been consolidated to the main calendar view, editing and adding event categories can now be edited and managed within there. You can now easily manage permissions specifically for the calendars you're editing. The event creation UI has also been improved for a better UI/UX.
+
+**QB Core Game Panel**
+
+* Warn Player
+* Characters
+  * Display Character Info
+  * Adjust Money
+{% endtab %}
+
+{% tab title="Changed" %}
+**Rank Manager**
+
+Rank Manager UI has been improved for a more seamless and interactive experience, rank data now auto-saves as you edit.
+
+**Community Member Name Change**
+
+Now enabled by default for new communities.
+
+**Website Builder**
+
+* Many aspects of the website builder has been improved.
+* Pages within page overview are in alphabetical order.
+* Mobile UI has been improved.
+
+**Toolbar Editor**
+
+General UI/UX improvements have been made.
+
+**Connection Interruption Banner**
+
+Connection banner will now take longer to appear to allow for reconnections and brief connection drops.
+
+**Admin Accounts**
+
+Rank labels no longer overflow the UI.
+
+**Forums**
+
+Category labels will no longer overflow the UI, they'll now ellipsis.
+
+Rank titles within forum posts will no longer overflow the UI, they now ellipsis.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Available Forms**
+
+* Form titles with a very large amount of characters will no longer overflow UI and will now ellipsis.
+
+**Forms Editor**
+
+* Form titles with a very large amount of characters will no longer overflow UI and will now ellipsis.
+
+**Website Builder**
+
+* HTML & Image component editor will now have the proper inputs for editing.
+
+**Admin Panel Navigation**
+
+* Navigation button will now not show above popup/dialogs.
+
+**Toolbar Editor**
+
+* Adding a dropdown toolbar item will now properly add the item instead of removing all other items.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.46 (Beta) 6/23/2023
 
 {% tabs %}
