@@ -4,14 +4,25 @@ description: Invite your community members to join your community, and grant the
 
 # Inviting Users to Your CMS
 
+{% embed url="https://www.youtube.com/watch?v=krRPJyoEib8" %}
+
 ## Manually Join with a Community ID
 
-Users can [create an account](registering-your-account.md), and enter in your community ID in the "Join Community" popup.\
-Users can search using your community ID and can press the "Join" button to add your community.\
+Users can [create an account](registering-your-account.md), and click the blue "Join" button on the main page. There they can enter your community ID in the "Join a Community" popup, and click search. Once the search has finished, they can then click "Login" to join your community.\
 \
 From there, users can select your community card in the "My Communities" section to log into your CMS.
 
-![The join community modal allows users to search for a community ID.](../../.gitbook/assets/msedge\_7MA0KZXZbu.png)
+<figure><img src="../../.gitbook/assets/CMS_AltJoinCommLogin.png" alt=""><figcaption><p>The join community model allows users to search for a community ID.</p></figcaption></figure>
+
+## Join Community with a URL
+
+All communities are given a free vanity URL which can be used to access the community directly. To join a community using this URL, users can simply navigate to that page where they will be prompted to either login and/or join the community.
+
+Communities with a Pro subscription also have the ability to set their own custom domain which users can use to join. You can set your custom domain or find your vanity URL in your Administration Panel under Advanced > Custom Domain.&#x20;
+
+Alternatively, if they know the community ID, users can join a community by navigating to \<communityid>.sonorancms.com as this is the format used by the vanity URL.
+
+<figure><img src="../../.gitbook/assets/CustomDomain_VanityURL.png" alt=""><figcaption><p>The "Custom Domain" panel allows community owners to easily find their vanity URL or to set a custom domain.</p></figcaption></figure>
 
 {% hint style="info" %}
 Forgot your community ID?
