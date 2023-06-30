@@ -20,7 +20,7 @@ To access the Community Calendar navigate to the left side-bar and select "Commu
 
 To create an event click the "Create Event" dropdown in the top-left of the calendar and select the Calendar Category that you're wanting to create an event for.
 
-<figure><img src="https://i.imgur.com/nSeX5Ey.png" alt=""><figcaption><p>Sonoran CMS - Community Calendar - Create an Event Modal</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/xgf4inr.png" alt=""><figcaption><p>Sonoran CMS - Community Calendar - Create an Event Modal</p></figcaption></figure>
 
 Once you've got the create an event dialog  you can now input all of the event information that you'd like to associate with this event, once the event is created it can be edited if any information is no longer correct.
 
@@ -44,7 +44,7 @@ To share an event to your community members you can simply click the "Share Even
 
 To edit an event simply navigate to the event and click the yellow pencil paper button located on the bottom row. This will open up a dialog to edit details of the event.
 
-<figure><img src="https://i.imgur.com/ttxD4oT.png" alt=""><figcaption><p>Sonoran CMS - Community Calendar - Edit Event Dialog</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/OUxurR4.png" alt=""><figcaption><p>Sonoran CMS - Community Calendar - Edit Event Dialog</p></figcaption></figure>
 
 Once you're satisfied with all of the event details you can click the green "Save Event" button and it will be saved.&#x20;
 

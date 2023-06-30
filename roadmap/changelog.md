@@ -10,15 +10,15 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.47 (Beta) 6/30/2023 (Unreleased)
+### v0.5.47 (Beta) 6/30/2023
 
 {% tabs %}
 {% tab title="New" %}
-**Calendar Consolidation**
+[**Calendar Consolidation**](../tutorials/calendars/)
 
 All aspects of the calendar system has been consolidated to the main calendar view, editing and adding event categories can now be edited and managed within there. You can now easily manage permissions specifically for the calendars you're editing. The event creation UI has also been improved for a better UI/UX.
 
-**QB Core Game Panel**
+[**QB Core Game Panel**](../integration-capabilities/qbcore-game-panel/)
 
 * Warn Player
 * Characters
