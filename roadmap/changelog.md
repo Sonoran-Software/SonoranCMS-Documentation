@@ -10,6 +10,45 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.49 (Beta) Unreleased
+
+{% tabs %}
+{% tab title="New" %}
+[**QBCore Game Panel**](../integration-capabilities/qbcore-game-panel/)
+
+* Characters
+  * View online & offline characters
+  * Edit online & offline characters
+* Vehicles
+  * View online & offline vehicles
+  * Edit online & offline vehicles
+* Permission Enforcement
+  * Pages within the game panel are now permission enforced therefore you must have permission to view pages.
+{% endtab %}
+
+{% tab title="Changed" %}
+[**Discord Integration** - **Webhooks**](../integration-capabilities/discord-webhooks.md)
+
+Discord Webhook Notification editor UI has been completely reworked for a better UI/UX, editing should now auto-save instead of requiring a manual save.
+
+[**API Integration**](../developer-api-documentation/api-integration/)
+
+Servers editor for API Integration has been completely reworked for a clearer and better UI/UX.
+{% endtab %}
+
+{% tab title="Fixed" %}
+[**Rank Editor**](../tutorials/departments/managing-rank-permissions.md)
+
+* Auto-save has been optimized to not trigger when no changes have been made.
+* Duplicating rank wouldn't trigger a auto-save.
+* Delete a rank wouldn't give a clear indicator whether it's been processed or not.
+
+[**Website Builder**](../tutorials/customization/website-builder.md)
+
+* Changing a `image` component will not properly change the image instead of applying it as a background to the existing placeholder image.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.48 (Beta) 7/6/2023
 
 {% tabs %}
