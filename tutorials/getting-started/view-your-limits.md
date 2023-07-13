@@ -6,6 +6,8 @@ description: >-
 
 # View Your Limits
 
+{% embed url="https://www.youtube.com/watch?v=z1edj18uWyI" %}
+
 ### Administration Panel > Advanced > Limits
 
 In the admin page, select "Advanced" > "Limits" to view your community limitations.

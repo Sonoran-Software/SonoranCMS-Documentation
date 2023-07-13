@@ -6,6 +6,8 @@ description: >-
 
 # Viewing a Community Profile
 
+{% embed url="https://www.youtube.com/watch?v=RMmez4o3hp0" %}
+
 ![Sonoran CMS - Community Profile](https://i.imgur.com/wXLmV2I.png)
 
 There are two ways to view a community profile, both options are listed below. One of which is accessing a profile through a roster or through the administrative panel.

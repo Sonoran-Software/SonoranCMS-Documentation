@@ -6,6 +6,8 @@ description: >-
 
 # Creating Ranks & Departments
 
+{% embed url="https://www.youtube.com/watch?v=QBcJdXYmMjU" %}
+
 ## Accessing the Rank Manager
 
 #### Administrative Panel > Community > Ranks

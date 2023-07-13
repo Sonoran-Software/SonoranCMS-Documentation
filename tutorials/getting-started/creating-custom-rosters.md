@@ -6,6 +6,8 @@ description: >-
 
 # Creating Rosters
 
+{% embed url="https://www.youtube.com/watch?v=OnbKulyiTU4" %}
+
 ## Accessing the Roster Manager
 
 #### Administrative Panel > Customization > Roster Manager
