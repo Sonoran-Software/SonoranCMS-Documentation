@@ -1,6 +1,6 @@
 ---
-description: Looking to get started with forms with Sonoran CMS? See our guides below!
+description: Create and manage custom forms for your community!
 ---
 
-# Forms
+# Forms and Applications
 
