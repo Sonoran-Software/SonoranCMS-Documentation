@@ -27,7 +27,7 @@ Create custom pages with community information, multi-media, announcements, and 
 
 Sonoran CMS even allows you to add [community forums](../tutorials/community-website/forum-system.md) for posts, discussions, and more!
 
-![Sonoran CMS - Custom Pages](../.gitbook/assets/CMS\_WebBuilder.png)
+![Sonoran CMS - Custom Pages](../.gitbook/assets/web-updated.png)
 
 <figure><img src="../.gitbook/assets/cms.forums.png" alt=""><figcaption></figcaption></figure>
 
@@ -51,7 +51,7 @@ Whether it's your own patrol log system with automatic hour calculations, an ext
 
 Sonoran CMS is your single point of management for in-game whitelisting! Automatically whitelist players based on CMS rank for [FiveM](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/whitelist.md), [Minecraft](../integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](../integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
 
-![Sonoran CMS - Whitelist Management](../.gitbook/assets/CMSRankManage.png)
+![Sonoran CMS - Whitelist Management](../.gitbook/assets/CMS\_Whitelist.png)
 
 ## 🚫 [GTA RP ACE Permissions Management](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/ace-permission-sync.md)
 
@@ -59,7 +59,7 @@ Sonoran CMS allows you to manage all GTARP user permissions with [Ace Permission
 
 Sonoran CMS is your single point of management for your community!
 
-![Sonoran CMS - FiveM Ace Permissions](../.gitbook/assets/CMS-Ace-Sync.png)
+![Sonoran CMS - FiveM Ace Permissions](../.gitbook/assets/permissions.png)
 
 ## 🖥️ [Sonoran CAD Account Management](../integration-capabilities/sonoran-cad-sync.md)
 
