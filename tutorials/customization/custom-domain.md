@@ -12,7 +12,7 @@ Only the **Community Owner** will have access to change and view Custom Domain s
 
 {% hint style="warning" %}
 Custom domains require the **pro** version.\
-For more information, see our [pricing](../../pricing/pricing-faq/) or view how to check your community [limits](../getting-started/view-your-limits.md).
+For more information, see our [pricing](../../pricing/pricing-faq/) or view how to check your community [limits](../administrative/view-your-limits.md).
 {% endhint %}
 
 {% hint style="success" %}

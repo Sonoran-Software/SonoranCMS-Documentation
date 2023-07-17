@@ -9,8 +9,6 @@ description: >-
 
 {% hint style="success" %}
 Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](other-products/server-hosting.md)!
-
-
 {% endhint %}
 
 <figure><img src=".gitbook/assets/Docs_Orange (1) (1).png" alt=""><figcaption></figcaption></figure>
@@ -19,10 +17,10 @@ Looking for VPS, web, or dedicated hosting? Check out our official [server hosti
 
 Sonoran CMS is a state-of-the-art, cross-platform, all-in-one community management system for gaming communities.
 
-* [Full Document Suite](tutorials/getting-started/your-drive-and-documents.md)
+* [Full Document Suite](tutorials/your-drive-and-documents.md)
   * Create and share documents, spreadsheets, and presentations!
   * Manage document permissions based on community rank/role!
-* [Create Custom Applications](tutorials/getting-started/creating-custom-forms.md)
+* [Create Custom Applications](tutorials/forms/creating-custom-forms.md)
   * Get notified with Discord webhooks when someone fills out a custom application!
   * Create workflows to auto-grant ranks, permissions, whitelisting, and more!
 * [Manage In-Game Whitelisting from the CMS](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/whitelist.md)
@@ -31,10 +29,10 @@ Sonoran CMS is a state-of-the-art, cross-platform, all-in-one community manageme
   * Automatically grant in-game permissions based on a player's CMS rank!
 * [Manage Sonoran CAD Permissions from the CMS](integration-capabilities/sonoran-cad-sync.md)
   * Automatically manage Sonoran CAD permissions based on a player's CMS rank!
-* [Create a Custom Community Website](tutorials/customization/website-builder.md)
+* [Create a Custom Community Website](tutorials/community-website/website-builder.md)
   * Use your [own domain](tutorials/customization/custom-domain.md)!
   * Add text, images, videos, and more!
-* [Create Custom Community Forums](tutorials/getting-started/forum-system.md)
+* [Create Custom Community Forums](tutorials/community-website/forum-system.md)
   * Add forum subjects, topics, replies, and more!
 
 ### Why choose Sonoran CMS?

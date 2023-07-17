@@ -1,6 +1,6 @@
 ---
 description: >-
-  Customize the navigation items your members see on their sidebar through
+  Customize the navigation items your members see on their toolbar through
   permissions!
 ---
 

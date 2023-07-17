@@ -15,7 +15,7 @@ Within the Form Editor panel you'll be able to create custom forms designed to y
 ![Administrative Panel Custom Form Editor - Create Fully Customizable Forms](https://i.imgur.com/CeSaZ6m.png)
 
 {% hint style="info" %}
-Whenever you create new custom forms you will need to explicitly give ranks permissions to the new custom forms to be used by other individuals. This can be done in the [Department Manager](creating-departments.md).
+Whenever you create new custom forms you will need to explicitly give ranks permissions to the new custom forms to be used by other individuals. This can be done in the [Department Manager](../user-management/creating-departments.md).
 
 If a user has permissions for a specific form they'll be able to see those forms in the "Available Forms" panel which is accessible on the left side bar. If a user has the permission to approve or deny a specific form they'll be able to see those forms in the "Form Management" panel which is accessible on the left side bar.
 {% endhint %}

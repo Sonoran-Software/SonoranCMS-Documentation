@@ -9,23 +9,23 @@ description: >-
 
 <figure><img src="../.gitbook/assets/Docs_Orange (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-## 📂 [CMS Document Drive](../tutorials/getting-started/your-drive-and-documents.md)
+## 📂 [CMS Document Drive](../tutorials/your-drive-and-documents.md)
 
 Manage your community's documents, spreadsheets, and presentations natively in the CMS!
 
-[Create and live edit documents](../tutorials/getting-started/your-drive-and-documents.md) to share with members based on rank. Sonoran CMS allows you to watermark documents as sensitive, organize files with folders, and more!
+[Create and live edit documents](../tutorials/your-drive-and-documents.md) to share with members based on rank. Sonoran CMS allows you to watermark documents as sensitive, organize files with folders, and more!
 
 ![Sonoran CMS - Document Drive](../.gitbook/assets/docspromo2.png)
 
 ![Sonoran CMS - Documents](../.gitbook/assets/cms-promo2.png)
 
-## 🌐 [Custom Community Pages](../tutorials/customization/website-builder.md) and [Forums](../tutorials/getting-started/forum-system.md)
+## 🌐 [Website Builder](../tutorials/community-website/website-builder.md) and [Forums](../tutorials/community-website/forum-system.md)
 
-Create your own [community website](../tutorials/customization/website-builder.md), all [on your own domain](../tutorials/customization/custom-domain.md)!
+Create your own [community website](../tutorials/community-website/website-builder.md), all [on your own domain](../tutorials/customization/custom-domain.md)!
 
 Create custom pages with community information, multi-media, announcements, and more!
 
-Sonoran CMS even allows you to add [community forums](../tutorials/getting-started/forum-system.md) for posts, discussions, and more!
+Sonoran CMS even allows you to add [community forums](../tutorials/community-website/forum-system.md) for posts, discussions, and more!
 
 ![Sonoran CMS - Custom Pages](../.gitbook/assets/CMS\_WebBuilder.png)
 
@@ -39,9 +39,9 @@ Or, manage Discord roles right through the CMS!
 
 <figure><img src="../.gitbook/assets/crossrolesync-v6.png" alt=""><figcaption></figcaption></figure>
 
-## ✍️ [Custom Applications and Forms](../tutorials/getting-started/creating-custom-forms.md)
+## ✍️ [Custom Applications and Forms](../tutorials/forms/creating-custom-forms.md)
 
-[Create fully customizable member applications](../tutorials/getting-started/creating-custom-forms.md), forms for tracking, and more!
+[Create fully customizable member applications](../tutorials/forms/creating-custom-forms.md), forms for tracking, and more!
 
 Whether it's your own patrol log system with automatic hour calculations, an extensive new member application, or a custom community form, Sonoran CMS allows you to customize it all.
 
@@ -75,13 +75,11 @@ Sonoran CMS allows you to easily manage your community's Sonoran CAD permissions
 
 ![Sonoran CMS x Sonoran CAD - Permissions Sync](../.gitbook/assets/CMS-CAD-Sync.png)
 
-## [📅](https://emojipedia.org/calendar/) [Event Management](../tutorials/calendars/community-events.md)
+## [📅](https://emojipedia.org/calendar/) [Event Management](../tutorials/community-events.md)
 
-Sonoran CMS makes organizing [community events](../tutorials/calendars/community-events.md) easy! Manage member RSVPs, event information, Discord webhooks, and more! You can even create [custom calendar categories](../tutorials/calendars/community-calendar-categories.md)!
+Sonoran CMS makes organizing [community events](../tutorials/community-events.md) easy! Manage member RSVPs, event information, Discord webhooks, and more!
 
 <figure><img src="../.gitbook/assets/community-events.png" alt=""><figcaption><p>Sonoran CMS - Calendar Features</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Sonoran CMS - Calendar Categories</p></figcaption></figure>
 
 ## 📱 [Downloadable Apps](../download-the-app.md)
 

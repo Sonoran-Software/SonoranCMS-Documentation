@@ -8,7 +8,7 @@ description: View some basic troubleshooting steps when installing Sonoran CMS r
 
 ### 1. Ensure your community is on a paid version.
 
-Your community's subscription may have expired and failed to renew. Do a quick check on your [community limits](../../../../tutorials/getting-started/view-your-limits.md) to make sure your community version includes the resource you are trying to install.
+Your community's subscription may have expired and failed to renew. Do a quick check on your [community limits](../../../../tutorials/administrative/view-your-limits.md) to make sure your community version includes the resource you are trying to install.
 
 {% hint style="info" %}
 Each resource install guide lists the required subscription version at the top.

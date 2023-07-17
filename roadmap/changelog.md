@@ -37,13 +37,13 @@ Servers editor for API Integration has been completely reworked for a clearer an
 {% endtab %}
 
 {% tab title="Fixed" %}
-[**Rank Editor**](../tutorials/departments/managing-rank-permissions.md)
+[**Rank Editor**](broken-reference)
 
 * Auto-save has been optimized to not trigger when no changes have been made.
 * Duplicating rank wouldn't trigger a auto-save.
 * Delete a rank wouldn't give a clear indicator whether it's been processed or not.
 
-[**Website Builder**](../tutorials/customization/website-builder.md)
+[**Website Builder**](../tutorials/community-website/website-builder.md)
 
 * Changing a `image` component will not properly change the image instead of applying it as a background to the existing placeholder image.
 {% endtab %}
@@ -84,7 +84,7 @@ Several aspects of the UI have been improved upon for a clearer UI/UX.
 
 {% tabs %}
 {% tab title="New" %}
-[**Calendar Consolidation**](../tutorials/calendars/)
+[**Calendar Consolidation**](broken-reference)
 
 All aspects of the calendar system has been consolidated to the main calendar view, editing and adding event categories can now be edited and managed within there. You can now easily manage permissions specifically for the calendars you're editing. The event creation UI has also been improved for a better UI/UX.
 
@@ -309,7 +309,7 @@ A new Integrations Portal has been introduced, this portal houses all integratio
 
 {% tabs %}
 {% tab title="New" %}
-[**Website Builder** - **New Elements**](../tutorials/customization/website-builder.md)
+[**Website Builder** - **New Elements**](../tutorials/community-website/website-builder.md)
 
 _Static Image Carousel_
 
@@ -327,11 +327,11 @@ _HTML Embed_
 
 HTML Embed allows more in-depth customization to your website pages, easily embed popular embeds from other sites such as TrackyServer!
 
-[**Rank Manager**](../tutorials/departments/)
+[**Rank Manager**](broken-reference)
 
 The ability to copy and paste permissions between ranks/departments has been re-implemented from being removed in the last update.
 
-[**Toolbar**](../tutorials/customization/website-builder.md#toolbar)
+[**Toolbar**](../tutorials/community-website/website-builder.md#toolbar)
 
 _Drive Document_
 
@@ -339,13 +339,13 @@ A new destination type has been added to the toolbar item options, you can now s
 {% endtab %}
 
 {% tab title="Changed" %}
-[**Website Builder**](../tutorials/customization/website-builder.md)
+[**Website Builder**](../tutorials/community-website/website-builder.md)
 
 * Editing an element's sizing will change the current preview size shown within the editor.
 * Removed excess spacing on the sides while viewing on a mobile sized screen.
 * Pop-up editing of elements have been reworked and improved for a better user experience.
 
-[**Forms Editor**](../tutorials/getting-started/creating-custom-forms.md)
+[**Forms Editor**](../tutorials/forms/creating-custom-forms.md)
 
 * Utility Toolbar has been reworked and improved for a better user experience.
 
@@ -361,7 +361,7 @@ A new destination type has been added to the toolbar item options, you can now s
 
 When linking an individual a direct apply link to a form it would it just take them to the Available Forms and not display anything. Now it'll notify they must be signed in and will easily direct them to login and take them back to the same page once signed in.
 
-[**Forums**](../tutorials/getting-started/forum-system.md)
+[**Forums**](../tutorials/community-website/forum-system.md)
 
 Forums no longer require individuals to be signed in to just view a category and forums element.
 {% endtab %}
@@ -377,15 +377,15 @@ Forums no longer require individuals to be signed in to just view a category and
 
 {% tabs %}
 {% tab title="New" %}
-[**Community Template**](../tutorials/other-features/community-template-system.md)
+[**Community Template**](broken-reference)
 
 The Community Template feature has been removed for the time being, we've reworked the default template to be fully customized to easily see the full capabilities of the system and an easier customization transition. Newly created communities will now come with departments, rosters, pages, etc. fully customized to be used out of the box or customized further to fit your needs.
 
-[**Forms Editor**](../tutorials/getting-started/creating-custom-forms.md)
+[**Forms Editor**](../tutorials/forms/creating-custom-forms.md)
 
 The Forms Editor has been reworked to take after the ease of use and customization the Website Builder brings. The entire UI has been reworked and now includes the majority of customization capabilities of the Website Builder for forms.
 
-[**Department Manager -> Rank Manager**](../tutorials/departments/)
+[**Department Manager -> Rank Manager**](broken-reference)
 
 The Department Manager has been reworked and renamed to Rank Manager. This rework has provided an easier and smoother experience when editing and managing ranks. From creating a department to managing rank permissions, the whole experience has been simplified and improved.&#x20;
 {% endtab %}
@@ -417,19 +417,19 @@ The Department Manager has been reworked and renamed to Rank Manager. This rewor
 
 {% tabs %}
 {% tab title="New" %}
-[**Pricing & Subscriptions**](pricing-change-notice.md)
+[**Pricing & Subscriptions**](broken-reference)
 
 We're making Sonoran CMS more accessible than ever before, with all functionality for **FREE**!
 
-View our [notice](pricing-change-notice.md) for more information.
+View our [notice](broken-reference) for more information.
 
-[**Website Builder**](../tutorials/customization/website-builder.md)
+[**Website Builder**](../tutorials/community-website/website-builder.md)
 
 Background images now have different handling to better allow more customization on how they view, you can now change how the image shows across the background.
 {% endtab %}
 
 {% tab title="Changed" %}
-[**Website Builder**](../tutorials/customization/website-builder.md)
+[**Website Builder**](../tutorials/community-website/website-builder.md)
 
 Side toolbar is now scrollable
 
@@ -447,7 +447,7 @@ When editing an individual account there will no longer be an option to change b
 
 {% tabs %}
 {% tab title="New" %}
-[**Custom Forms**](../tutorials/getting-started/creating-custom-forms.md)
+[**Custom Forms**](../tutorials/forms/creating-custom-forms.md)
 
 Custom Forms now have new element type, uploader. This accepts images and PDFs but is configurable per element. Easily have your users upload images or PDFs to be viewable directly within the submission.
 
@@ -455,7 +455,7 @@ Custom Forms now have new element type, uploader. This accepts images and PDFs b
 
 Two new profile field types have been added, Discord and TeamSpeak. These two types are apart of the new _verified_ profile types. These will be automatically grabbed from the account without any user interaction or input.
 
-[**Toolbar Editing**](../tutorials/customization/website-builder.md#toolbar)
+[**Toolbar Editing**](../tutorials/community-website/website-builder.md#toolbar)
 
 The toolbar editor has been moved from Customization to the Website Builder.
 
@@ -477,7 +477,7 @@ Custom page backgrounds now extend to the entire body of the page instead of the
 
 {% tabs %}
 {% tab title="New" %}
-[**Website Builder**](../tutorials/customization/website-builder.md)
+[**Website Builder**](../tutorials/community-website/website-builder.md)
 
 The existing Custom Page Editor has been rebranded to the Website Builder.
 
@@ -508,11 +508,11 @@ All areas where an icon would be expected to be supplied it has been reworked to
 
 {% tabs %}
 {% tab title="New" %}
-[**Custom Page Editor**](../tutorials/customization/website-builder.md)
+[**Custom Page Editor**](../tutorials/community-website/website-builder.md)
 
 The Custom Page Editor has been thoroughly reworked to allow for more styling specifically to sections and elements within sections. With this rework we've revamped the structures of pages and all existing pages have been migrated over to the new page system. Pages are now constructed of individual sections which house elements. All existing pages were updated to move all pre-existing sections into one section and converted to elements. Now customize the padding, margin, alignment, etc. of sections, we've also included background color and images to sections and elements!
 
-[**Discovery Page UI**](../tutorials/getting-started/community-discovery.md)
+[**Discovery Page UI**](../tutorials/customization/community-discovery.md)
 
 The Community Discovery Page UI has been reworked to better advertise and showcase the communities that use Sonoran CMS!
 {% endtab %}
@@ -538,7 +538,7 @@ Forms could not be submitted from _Available Forms_ or directly linked, this iss
 
 {% tabs %}
 {% tab title="New" %}
-[**Department Editor**](../tutorials/getting-started/creating-departments.md#4.-customize-rank-cosmetic-styling)
+[**Department Editor**](../tutorials/user-management/creating-departments.md#4.-customize-rank-cosmetic-styling)
 
 The customization workflow for Department Rank's has been improved, you can now directly upload an image or choose from thousands of icons for your rank cosmetic icon.
 
@@ -546,11 +546,11 @@ The customization workflow for Department Rank's has been improved, you can now 
 
 Community Owner's can now transfer their community to anyone that's currently active within the community, the owner must complete a confirmation before the transfer is complete.
 
-[**Custom Page Editor - UI**](../tutorials/customization/website-builder.md)
+[**Custom Page Editor - UI**](../tutorials/community-website/website-builder.md)
 
 The entire Custom Page Editor UI has been reworked to become more of a _website editor_ than a custom form editor. This new UI allows for easy sorting of sections by dragging and dropping and an overall better user experience. This new UI is one of many improvements we plan on bringing to Custom Pages.
 
-[**Direct Form Submission Links**](../tutorials/getting-started/creating-custom-forms.md#sharing-direct-submission-access)
+[**Direct Form Submission Links**](../tutorials/forms/creating-custom-forms.md#sharing-direct-submission-access)
 
 You can now share a direct link to a Custom Form to be submitted from, this should help with recruitment as it will take them straight to filling out the form. This URL can be found in the Custom Forms area prior to selecting a form to edit.
 
@@ -615,7 +615,7 @@ Specific Form's would not all show in the Form Management filtering selector.
 
 {% tabs %}
 {% tab title="New" %}
-[**Calendar** RSVP Limits](../tutorials/calendars/community-events.md#regarding-rsvp-limit)
+[**Calendar** RSVP Limits](../tutorials/community-events.md#regarding-rsvp-limit)
 
 Calendar events can now be RSVP limited, you can now set how many members can RSVP to an individual event.
 
@@ -623,11 +623,11 @@ Calendar events can now be RSVP limited, you can now set how many members can RS
 
 [**Event RSVP**](../developer-api-documentation/api-integration/api-endpoints/events/rsvp.md)
 
-[**Drive** Downloads](../tutorials/getting-started/your-drive-and-documents.md#drive-downloads)
+[**Drive** Downloads](../tutorials/your-drive-and-documents.md#drive-downloads)
 
 Additional file types can now be uploaded and downloaded directly from the Sonoran CMS Drive. Any **.rpf**, **.wav**, **.mp3**, **.zip**, and **.pdf** are accepted. They aren't "viewable" but are able to be downloaded easily. Additionally there's now a download URL that can be copied for the _downloadable_ file types as described above.
 
-[**Community Gallery**](../tutorials/getting-started/gallery-system.md)
+[**Community Gallery**](../tutorials/community-website/gallery-system.md)
 
 A new **Custom Page Element** has been added for additional customization and content. We've added the first of many elements apart of the new Gallery system. This system is designed heavily after the Forum system, as far as handling. Each element requires it to be associated to a _Gallery category_, with further customization and elements coming in later updates. This new element will show your images in a larger slide show with also listing all the gallery posts associated to the category. These gallery categories can be restricted as far as who can upload.
 {% endtab %}
@@ -773,7 +773,7 @@ Premade form sections were removed during the rework of the Custom Forms & Stage
 {% tab title="New" %}
 **Expiring Ranks**
 
-Ranks can now be applied to [individuals manually](../tutorials/getting-started/modify-users-permissions-and-information.md#granting-expiring-ranks) or through [stage actions](../tutorials/getting-started/creating-custom-forms.md#action-explanation-change-submitters-department-rank) to set a rank to expire, the rank will automatically be removed upon the next check (every fetch for the account) if found expired. Ranks can be set to expire after X amount of hours/days or by a exact time/day that you set.
+Ranks can now be applied to [individuals manually](../tutorials/user-management/modify-users-permissions-and-information.md#granting-expiring-ranks) or through [stage actions](../tutorials/forms/creating-custom-forms.md#action-explanation-change-submitters-department-rank) to set a rank to expire, the rank will automatically be removed upon the next check (every fetch for the account) if found expired. Ranks can be set to expire after X amount of hours/days or by a exact time/day that you set.
 
 **Account Avatars**
 
@@ -816,11 +816,11 @@ Account editing UI has been slightly reworked to adapt to the new Expiring Ranks
 
 {% tabs %}
 {% tab title="New" %}
-[**Custom Page Paths**](../tutorials/customization/website-builder.md#custom-page-paths)
+[**Custom Page Paths**](../tutorials/community-website/website-builder.md#custom-page-paths)
 
 Custom pages can now have a custom path slug to further customize your pages. These path slugs will replace the number ID that is given by default for all custom pages. These paths support custom domains, example: `lspd/sop` would append to a custom domain such as `cms.sonoranrp.com/lspd/sop`.
 
-[**Custom Form Folders**](../tutorials/getting-started/creating-custom-forms.md#custom-form-folders)
+[**Custom Form Folders**](../tutorials/forms/creating-custom-forms.md#custom-form-folders)
 
 Custom Forms can now be organized within folders, folders are simply for organizational purposes and serve no additional purposes.
 
@@ -854,7 +854,7 @@ Automatic Department Roster's have been reworked to improve reliability and perf
 
 {% tabs %}
 {% tab title="New" %}
-[**Automatic Rosters**](../tutorials/getting-started/creating-custom-rosters.md#department-automatic)
+[**Automatic Rosters**](../tutorials/user-management/creating-custom-rosters.md#department-automatic)
 
 Rosters have been reworked to add additional functionality and purpose. All existing rosters have been moved to the type of "Custom", this type is considered for all rosters that will allow you to add and remove rows as you please. With this change the previous _Department_ and _Sub-Department_ type have been deprecated.\
 \
@@ -866,7 +866,7 @@ A new roster type, Department, was added to replace the previous _Department_ ro
 
 Filtering forms to show only **Deleted Forms** would show no forms despite fetching all deleted forms.
 
-[**Custom Forms**](../tutorials/getting-started/creating-custom-forms.md)
+[**Custom Forms**](../tutorials/forms/creating-custom-forms.md)
 
 An internal ID was not setting correctly upon save which would make the form no longer editable or usable.
 
@@ -880,7 +880,7 @@ Menu items would not correctly evaluate permissions.
 
 {% tabs %}
 {% tab title="New" %}
-[**Form Submission Limits**](../tutorials/getting-started/creating-custom-forms.md#limiting-form-submissions)
+[**Form Submission Limits**](../tutorials/forms/creating-custom-forms.md#limiting-form-submissions)
 
 Custom Form Templates now have limit settings, these settings will allow you to customize how your forms are being submitted. This allows for submissions to be limited to a certain amount per user, within the last X days, and even with a cooldown between submissions.
 
@@ -889,7 +889,7 @@ Custom Form Templates now have limit settings, these settings will allow you to 
 * Submission Cooldown
 * Limit Within Last X Days
 
-[**Department Rank Cosmetic Customization**](../tutorials/getting-started/creating-departments.md#4.-customize-rank-cosmetic-styling)
+[**Department Rank Cosmetic Customization**](../tutorials/user-management/creating-departments.md#4.-customize-rank-cosmetic-styling)
 
 Department ranks now have cosmetic styling, this cosmetic addition is only shown when viewing Forum Topic's but will be expanded upon as UI is needed. This customization allows you to change the background color and icon associated with it.
 
@@ -924,7 +924,7 @@ Account Info
 
 {% tabs %}
 {% tab title="New" %}
-[Forum System](../tutorials/getting-started/forum-system.md)
+[Forum System](../tutorials/community-website/forum-system.md)
 
 The user interface for the Forum System has been completely revamped, improving the individual topic viewing and forum categories pages.
 
@@ -980,11 +980,11 @@ The custom login page has been completely revamped, the old login page has been 
 
 {% tabs %}
 {% tab title="New" %}
-[Dashboard](../tutorials/customization/website-builder.md#default-dashboard-page)
+[Dashboard](../tutorials/community-website/website-builder.md#default-dashboard-page)
 
 The community Dashboard / Landing page has been completely reworked, this now allows for the full customization of the Custom Page Editor. Set any existing custom page as your community's dashboard page.
 
-[Custom Page Editor](../tutorials/customization/website-builder.md#page-editing)
+[Custom Page Editor](../tutorials/community-website/website-builder.md#page-editing)
 
 * New Page Section Type
   * Information Block
@@ -1022,11 +1022,11 @@ Admin Routes
 
 Sync your single Sonoran CMS community to multiple Sonoran CAD communities!
 
-[Navigation Button Visibility](../tutorials/customization/navigation-sidebar.md)
+[Navigation Button Visibility](../tutorials/community-website/navigation-sidebar.md)
 
 Navigation items on the sidebar can now be dynamically shown based upon permissions. Documentation explains how each navigation item is permission evaluated.
 
-[Privatized Pages](../tutorials/customization/website-builder.md#privatized-pages)
+[Privatized Pages](../tutorials/community-website/website-builder.md#privatized-pages)
 
 Pages can now be privatized and require permissions to view, this view type can be changed in the page editor.
 
@@ -1071,7 +1071,7 @@ Through the newly added "Member On Join Settings" you can customize whether memb
 {% endtab %}
 
 {% tab title="Fixed" %}
-[Custom Forms](../tutorials/getting-started/creating-custom-forms.md)
+[Custom Forms](../tutorials/forms/creating-custom-forms.md)
 
 * Forms submitted would not be able to be replied to by the author of the form
 * Forms would not be able to be submitted at all
@@ -1090,15 +1090,15 @@ Department Permissions
 
 * A new webhook option was added for when submitted forms get their stage changed, a new webhook option is added solely for this event.
 
-[Page Re-ordering](../tutorials/customization/website-builder.md#sorting-pages)
+[Page Re-ordering](../tutorials/community-website/website-builder.md#sorting-pages)
 
 * The ability to sort the position of the pages in which they appear in lists.
 
-[Form Re-ordering](../tutorials/getting-started/creating-custom-forms.md#sorting-forms)
+[Form Re-ordering](../tutorials/forms/creating-custom-forms.md#sorting-forms)
 
 * The ability to sort the position of the forms in which they appear in Available Forms.
 
-[Conditional Custom Form Sections](../tutorials/getting-started/creating-custom-forms.md#conditional-sections)
+[Conditional Custom Form Sections](../tutorials/forms/creating-custom-forms.md#conditional-sections)
 
 * Dynamically show sections within your custom forms based upon conditions set that require to be met with the specified field.
 
@@ -1155,13 +1155,13 @@ Forms
 
 {% tabs %}
 {% tab title="New" %}
-[Forum System](../tutorials/getting-started/forum-system.md)
+[Forum System](../tutorials/community-website/forum-system.md)
 
 Several new changes have been added to the forum system;
 
-* [Sub-Categories](../tutorials/getting-started/forum-system.md#creating-forum-sub-categories)
-* [Topic Attachments](../tutorials/getting-started/forum-system.md#topic-creation-forum-topic-attachments)
-* [Private Topics](../tutorials/getting-started/forum-system.md#creating-private-topics)
+* [Sub-Categories](../tutorials/community-website/forum-system.md#creating-forum-sub-categories)
+* [Topic Attachments](../tutorials/community-website/forum-system.md#topic-creation-forum-topic-attachments)
+* [Private Topics](../tutorials/community-website/forum-system.md#creating-private-topics)
 * Discord Webhooks
   * A new section has been added to the Discord Logging Webhook editor, Forums. This allows webhooks to be executed on Topic Creation & Reply Creation.
 
@@ -1189,12 +1189,12 @@ Community Toolbar
 
 {% tabs %}
 {% tab title="New" %}
-[Forum System](../tutorials/getting-started/forum-system.md)
+[Forum System](../tutorials/community-website/forum-system.md)
 
 Several new changes have been added to the forum system;
 
-* [Dedicated Forum Category Page](../tutorials/getting-started/forum-system.md#dedicated-forum-category-page)
-* [Topic Pinning & Locking](../tutorials/getting-started/forum-system.md#topic-actions-pin-and-lock)
+* [Dedicated Forum Category Page](../tutorials/community-website/forum-system.md#dedicated-forum-category-page)
+* [Topic Pinning & Locking](../tutorials/community-website/forum-system.md#topic-actions-pin-and-lock)
 * Improved UI
   * Forum Category Topics Table
   * Usernames within the Forum System will show with community name and identifier format as well as their primary rank if assigned
@@ -1218,7 +1218,7 @@ Custom Forms
 {% endtab %}
 
 {% tab title="Changed" %}
-[Forum System](../tutorials/getting-started/forum-system.md)
+[Forum System](../tutorials/community-website/forum-system.md)
 
 **Delete Topics** permission section for forum category's has been moved to **Manage Topics** allowing that same permission section to handle topic deletion, pinning and locking.\
 **Delete Topics -> Manage Topics**
@@ -1229,7 +1229,7 @@ Custom Forms
 
 {% tabs %}
 {% tab title="New" %}
-[Forum System](../tutorials/getting-started/forum-system.md)
+[Forum System](../tutorials/community-website/forum-system.md)
 
 A new Forum System has been implemented; allows communities to create categories that can be used across multiple or individual custom pages in the form of a custom page section. Each category can have topics created within them, each topic can be removed and replied to. Permissions to create and manage topics/replies is handled by the forum category.
 {% endtab %}
@@ -1266,26 +1266,26 @@ Accounts Viewer
 * Cosmetic
   * You can now add a community "banner" image, currently this banner image only displays with the notification message sent with bumping your community for discovery.
 
-[Community Discovery](../tutorials/getting-started/community-discovery.md)
+[Community Discovery](../tutorials/customization/community-discovery.md)
 
 * Bumping
   * Bumping your community will now include your community's banner image upon bump. If no banner image is set it won't include any image.
 
-[Custom Pages](../tutorials/customization/website-builder.md)
+[Custom Pages](../tutorials/community-website/website-builder.md)
 
 * Page Elements
   * Two new page elements have been added, `Button` and `Button Group`. Both these elements can be added to any custom page. Each button's functionality and style can be configured to fit your needs. Buttons can target to a external website, custom form and custom page.
 {% endtab %}
 
 {% tab title="Fixed" %}
-[Community Discovery](../tutorials/getting-started/community-discovery.md)
+[Community Discovery](../tutorials/customization/community-discovery.md)
 
 * Clicking community cards to open up the community modal would not be possible unless you click the image or text on the card. The whole card should be clickable.
 * Clicking a community card would display a modal with additional community information and options to join, this would not include the image.
 {% endtab %}
 
 {% tab title="Changed" %}
-[Department Manager](../tutorials/departments/)
+[Department Manager](broken-reference)
 
 * Performance
   * Several improvements have been implemented to decrease any issues with performance regarding permission management of departments.
@@ -1296,7 +1296,7 @@ Accounts Viewer
 
 {% tabs %}
 {% tab title="Fixed" %}
-[Community Drive](../tutorials/getting-started/your-drive-and-documents.md)
+[Community Drive](../tutorials/your-drive-and-documents.md)
 
 * Editing Files
   * An issue which would cause files to not be edited within the member editing page but would still allow edits through the public-sided edit file page.
@@ -1308,7 +1308,7 @@ Accounts Viewer
 * Webhooks Executing
   * An issue which would causing the Calendar Creation webhook to not execute at all.
 
-[Community Discovery](../tutorials/getting-started/community-discovery.md)
+[Community Discovery](../tutorials/customization/community-discovery.md)
 
 * Bump System
   * An issue which would cause the Discord advertisement webhook message to include various programmatic types within the message such as '\[object Object]' & 'undefined'.
@@ -1318,7 +1318,7 @@ Accounts Viewer
 * Forms
   * An issue which would cause individuals to be unable to submit forms directly onto another user's profile to attach it to their profile.
 
-[Rosters](../tutorials/getting-started/creating-custom-rosters.md)
+[Rosters](../tutorials/user-management/creating-custom-rosters.md)
 
 * Column Types
   * Community Identifier row columns would not populate with a user's primary identifier properly unless the conditions which very specific.
@@ -1330,7 +1330,7 @@ Accounts Viewer
 {% endtab %}
 
 {% tab title="Changed" %}
-[Community Discovery](../tutorials/getting-started/community-discovery.md)
+[Community Discovery](../tutorials/customization/community-discovery.md)
 
 * User Interface
   * Equal sizing has been applied to all community discovery cards
@@ -1346,9 +1346,9 @@ Application User Interface
 
 {% tabs %}
 {% tab title="New" %}
-[Community Discovery](../tutorials/getting-started/community-discovery.md)
+[Community Discovery](../tutorials/customization/community-discovery.md)
 
-* [Bump System](../tutorials/getting-started/community-discovery.md#community-discovery-bump-system)
+* [Bump System](../tutorials/customization/community-discovery.md#community-discovery-bump-system)
   * Allows your community to be bumped to the top of the Community Discovery list.
     * &#x20;Every **20 hours**!
     * Bumping will automatically advertise your community to the thousands of users in the Sonoran Software Systems LLC's Official Discord!
@@ -1363,11 +1363,11 @@ Application User Interface
 
 {% tabs %}
 {% tab title="New" %}
-[Community Discovery](../tutorials/getting-started/community-discovery.md)
+[Community Discovery](../tutorials/customization/community-discovery.md)
 
 The Community Discovery Portal brings more members to communities by streamlining the joining process for your community. Joining a community through the discovery portal will automatically prompt them with the community's new member application. Advertise your community to the thousands of users using Sonoran CMS!
 
-[Default Department Permissions](../tutorials/departments/managing-rank-permissions.md#default-department-permissions)
+[Default Department Permissions](broken-reference)
 
 Default Department Permissions applies the same set of permissions to all ranks within the department to easily manage permissions.
 
@@ -1407,9 +1407,9 @@ Community Profile
 
 {% tabs %}
 {% tab title="New" %}
-[Drive](../tutorials/getting-started/your-drive-and-documents.md#folders)
+[Drive](../tutorials/your-drive-and-documents.md#folders)
 
-* [Publicly Accessible Files](../tutorials/getting-started/your-drive-and-documents.md#publicly-accessible-files)
+* [Publicly Accessible Files](../tutorials/your-drive-and-documents.md#publicly-accessible-files)
   * Files can now be accessible by anyone on the internet by a share link.
   * A new "General Access" option has been added, "Anyone with this link".
   * This will allow anyone to view and/or edit the file through the link given from the "Copy Link" button on the Share Settings dialog.
@@ -1443,9 +1443,9 @@ Toolbar
 
 {% tabs %}
 {% tab title="New" %}
-[Drive Enhancements](../tutorials/getting-started/your-drive-and-documents.md#folders)
+[Drive Enhancements](../tutorials/your-drive-and-documents.md#folders)
 
-* [Share Settings Overhaul](../tutorials/getting-started/your-drive-and-documents.md#share-settings)
+* [Share Settings Overhaul](../tutorials/your-drive-and-documents.md#share-settings)
   * The Share Settings for each drive item has been overhauled, this shows all ranks that have access and some general share types.
   * There's now a "Ranks with Access Permissions", this will allow all listed ranks to have either edit or view access. This will grant them access regardless of what General Access is set to. This also has a "Inherit Parent Folder Access Permissions" option, this will only show for non-root items and this will inherit the parent folder's access permissions to determine with the drive items existing access permissions.
   * There's now several General Access types:
@@ -1492,7 +1492,7 @@ Drive Uploading
 
 {% tabs %}
 {% tab title="New" %}
-[Drive Folder Permissions Expansion](../tutorials/getting-started/your-drive-and-documents.md#folders)
+[Drive Folder Permissions Expansion](../tutorials/your-drive-and-documents.md#folders)
 
 * Folders can now have their own Share Type & Permissions associated with them.
   * Right click a folder to manage.
@@ -1590,12 +1590,12 @@ WS Stability
 {% tab title="New" %}
 Drive
 
-* [File Uploading](../tutorials/getting-started/your-drive-and-documents.md#uploading-batch-files-zip) now supports **ZIP**s, this means you can bulk import files from popular file hosting services such as Google Drive.
+* [File Uploading](../tutorials/your-drive-and-documents.md#uploading-batch-files-zip) now supports **ZIP**s, this means you can bulk import files from popular file hosting services such as Google Drive.
 * Easily migrate all your files and directories directly into Sonoran CMS Drive with one ZIP.
 
 Community Templates
 
-* [Template Management](../tutorials/other-features/community-template-system.md#template-management)
+* [Template Management](broken-reference)
   * This allows you to create templates from your community setup and share it with other communities to benefit from.
   * All submitted templates will go through a review process with the Sonoran CMS Development Team.
 {% endtab %}
@@ -1654,7 +1654,7 @@ Community Templates
 
 * Communities are auto-joined when visiting their custom domain (and successfully logging in)
 
-[Custom Pages](../tutorials/customization/website-builder.md)
+[Custom Pages](../tutorials/community-website/website-builder.md)
 
 * Custom pages can now be setup as direct links from toolbar items
 
@@ -1663,7 +1663,7 @@ Subscriptions
 * Pro subscriptions now come with a 14 day free trial! All other subscriptions currently do not have trials
   * Only one trial per person, and one trial per community
 
-[Community Templates](../tutorials/other-features/community-template-system.md)
+[Community Templates](broken-reference)
 
 * Community templates can now be applied to existing communities! If you wish to apply a template, look under Customization in the Administration Panel
 {% endtab %}
@@ -1688,7 +1688,7 @@ Menu
 * Map Sonoran CAD permissions to your department ranks to sync permissions directly with Sonoran CAD.&#x20;
 * Enable Kick and Ban sync to immediately kick and/or ban a user from your Sonoran CAD community when kicked or banned from your Sonoran CMS.
 
-[Community Templates](../tutorials/other-features/community-template-system.md)
+[Community Templates](broken-reference)
 
 * Community Templates are now accessible through Community Customization, you can replace your community with an available template or add onto your existing community by adding bits and pieces from an available template.
 {% endtab %}
@@ -1720,7 +1720,7 @@ Rosters
 
 {% tabs %}
 {% tab title="New" %}
-[Drive & Documents](../tutorials/getting-started/your-drive-and-documents.md)
+[Drive & Documents](../tutorials/your-drive-and-documents.md)
 
 * Creating folders and moving files into folders is now possible
   * Permissions for folders coming soon
@@ -1742,7 +1742,7 @@ Communities
 
 {% tabs %}
 {% tab title="New" %}
-[Drive & Documents](../tutorials/getting-started/your-drive-and-documents.md)
+[Drive & Documents](../tutorials/your-drive-and-documents.md)
 
 * Permissions have been expanded for the Sonoran CMS Drive, you'll now be able to set VIEW and EDIT permissions to individual documents by editing the document. This requires the "Modify All Documents (Drive)" permission.
 * You can now upload documents directly to the Sonoran CMS Drive.
@@ -1751,7 +1751,7 @@ Communities
 
 * A German translation has been added, thank you to [Linztric801](https://github.com/Linztric801) for that.
 
-[Community Templates](../tutorials/other-features/community-template-system.md)
+[Community Templates](broken-reference)
 
 * A new template was added for community creation. Applying templates to created community's will be re-implemented in a future update.
 {% endtab %}
@@ -1779,7 +1779,7 @@ Joining & Leaving Communities
 
 {% tabs %}
 {% tab title="New" %}
-[Drive & Documents](../tutorials/getting-started/your-drive-and-documents.md)
+[Drive & Documents](../tutorials/your-drive-and-documents.md)
 
 * Communities can now create and manage documents within their community directly in Sonoran CMS.
   * Initial permissions have been introduced to manage and/or view all documents.
@@ -1798,7 +1798,7 @@ Desktop & Mobile Apps
 
 {% tabs %}
 {% tab title="New" %}
-[Community Pages](../tutorials/customization/website-builder.md)
+[Community Pages](../tutorials/community-website/website-builder.md)
 
 * Custom pages now have their own URLs
 * Links to custom pages are public (anyone can access the URLs)
@@ -1825,7 +1825,7 @@ Communities
 
 {% tabs %}
 {% tab title="New" %}
-[Community Pages](../tutorials/customization/website-builder.md)
+[Community Pages](../tutorials/community-website/website-builder.md)
 
 * Communities now have the ability to create multiple custom pages for their community
   * Free: 2
@@ -1846,7 +1846,7 @@ Communities
 
 {% tabs %}
 {% tab title="New" %}
-[Community Pages](../tutorials/customization/website-builder.md)
+[Community Pages](../tutorials/community-website/website-builder.md)
 
 * Grants all communities a single page they can edit with content sections, videos, and images. This page can be accessed on the Dashboard of a community
   * Much more is pending with community pages, stay tuned!
@@ -2152,16 +2152,16 @@ Dashboard - Community Profile View\
 {% tab title="New" %}
 Community Templates System\
 \- The Community Templates System will allow users to create new communities from templates instead of a blank community, they will also have the option to create a blank community if they choose.\
-\- This system allows existing communities to import templates into their community as well, this is outlined in [Community Template System](../tutorials/other-features/community-template-system.md).\
+\- This system allows existing communities to import templates into their community as well, this is outlined in [Community Template System](broken-reference).\
 \
 Custom Form Editor - Move Fields\
 \- Added a feature that allows users to move fields within a section in the Custom Form Editor.\
 \
 Department Manager - Duplicating Departments & Ranks\
-\- Added a feature that allows users to duplicate entire departments and ranks for easier department managing, this is outlined in [Managing Rank Permissions](../tutorials/departments/managing-rank-permissions.md#duplicating-ranks-and-departments).\
+\- Added a feature that allows users to duplicate entire departments and ranks for easier department managing, this is outlined in [Managing Rank Permissions](broken-reference).\
 \
 Department Manager - Permission Copy & Paste\
-\- Added a feature that allows users to copy and paste permissions across different ranks, this is outlined in [Managing Rank Permissions](../tutorials/departments/managing-rank-permissions.md#permission-copy-and-paste-system).
+\- Added a feature that allows users to copy and paste permissions across different ranks, this is outlined in [Managing Rank Permissions](broken-reference).
 {% endtab %}
 
 {% tab title="Changed" %}

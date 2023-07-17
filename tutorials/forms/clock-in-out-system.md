@@ -6,13 +6,13 @@ description: This guide covers the Clock In/Out System in Sonoran CMS.
 
 ### What is the Timeclock?
 
-Sonoran CMS offers a Clock In/Out system available for all users of Sonoran CMS. The goal of this system is to assist with time-clocking with the "Patrol Log" type[ custom forms](../getting-started/creating-custom-forms.md).
+Sonoran CMS offers a Clock In/Out system available for all users of Sonoran CMS. The goal of this system is to assist with time-clocking with the "Patrol Log" type[ custom forms](creating-custom-forms.md).
 
 {% hint style="warning" %}
-Straight out of the box there's no way to utilize the clock in/out times that you've completed and are simply for reference unless a [custom form](../getting-started/creating-custom-forms.md) specifically with the "Patrol Log" type is created.
+Straight out of the box there's no way to utilize the clock in/out times that you've completed and are simply for reference unless a [custom form](creating-custom-forms.md) specifically with the "Patrol Log" type is created.
 {% endhint %}
 
-While having a [custom form](../getting-started/creating-custom-forms.md) with the form type of "Patrol Log" you can utilize the "Patrol Start/End" column type which will allow you to import clock in/out times straight into the form.
+While having a [custom form](creating-custom-forms.md) with the form type of "Patrol Log" you can utilize the "Patrol Start/End" column type which will allow you to import clock in/out times straight into the form.
 
 ![Sonoran CMS - Clock In/Out Component](../../.gitbook/assets/brave\_2ju594JYEL.png)
 

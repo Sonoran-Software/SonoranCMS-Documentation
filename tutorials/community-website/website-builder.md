@@ -78,7 +78,7 @@ To customize your community's toolbar head over to the **Administrative Panel** 
 
 ## Custom Domain
 
-Sonoran CMS allows you to display your community website [on your own domain](custom-domain.md)!
+Sonoran CMS allows you to display your community website [on your own domain](../customization/custom-domain.md)!
 
 ## Sorting Page Sections
 
