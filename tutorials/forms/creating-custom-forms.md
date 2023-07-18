@@ -6,6 +6,8 @@ description: >-
 
 # Creating Custom Forms
 
+{% embed url="https://www.youtube.com/watch?v=HEJtdmqK4qk" %}
+
 Navigate to the Custom Form Editor
 
 #### Administrative Panel > Customization > Community Forms

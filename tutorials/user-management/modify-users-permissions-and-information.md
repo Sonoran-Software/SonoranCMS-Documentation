@@ -4,7 +4,9 @@ description: >-
   the guide below!
 ---
 
-# Modify Users Permissions & Information
+# Setting User Ranks
+
+{% embed url="https://www.youtube.com/watch?v=4qpw5IUnL0I" %}
 
 {% hint style="warning" %}
 Make sure that you've viewed the [**Creating Departments**](creating-departments.md) guide and have created at least one department prior to modifying user permissions.
