@@ -31,7 +31,7 @@ Your community's vanity URL can be found in your `Administrative Panel` > `Advan
 
 The vanity URL will take users to the home page created in the website builder.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Custom Domain
 
@@ -45,7 +45,7 @@ This can be a root domain `sonoranroleplay.com` or a subdomain `cms.sonoranrolep
 
 <div align="center" data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -56,7 +56,7 @@ This can be a root domain `sonoranroleplay.com` or a subdomain `cms.sonoranrolep
 Or, you may purchase a new domain name with [Sonoran Servers](https://sonoranservers.com/cart.php?a=add\&domain=register).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt="" width="375"><figcaption></figcaption></figure>
 
 In your domain's DNS records, add a `CNAME` type record with:
 
@@ -81,7 +81,7 @@ You can try running `ipconfig /flushdns` in a Windows CMD window and restarting 
 
 Press `Set Custom Domain` in the CMS to save.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Your new domain name will be shown below your vanity URL.
 
