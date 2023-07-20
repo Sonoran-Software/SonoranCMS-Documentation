@@ -16,11 +16,11 @@ You can toggle a grade as boss and reorder them via drag-and-drop.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt="" width="126"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt="" width="126"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt="" width="279"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24).png" alt="" width="279"><figcaption></figcaption></figure>
 
 </div>
 
@@ -30,4 +30,4 @@ You can create a new gang type by selecting `New Gang` at the end of the gang li
 
 Expand it to edit the gang information and add grades.
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="256"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26).png" alt="" width="256"><figcaption></figcaption></figure>

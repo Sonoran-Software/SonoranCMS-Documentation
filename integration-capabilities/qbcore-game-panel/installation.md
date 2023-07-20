@@ -37,6 +37,6 @@ Once here, you can select which server you would like to view using the server d
 
 View the next guide below to start using the QB Core game panel.
 
-{% content-ref url="using-the-game-panel/" %}
-[using-the-game-panel](using-the-game-panel/)
+{% content-ref url="using-the-game-panel.md" %}
+[using-the-game-panel.md](using-the-game-panel.md)
 {% endcontent-ref %}

@@ -18,11 +18,11 @@ You can adjust the grade name, pay, toggle it as boss, and reorder via drag-and-
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt="" width="127"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25).png" alt="" width="127"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="282"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19).png" alt="" width="282"><figcaption></figcaption></figure>
 
 </div>
 
@@ -32,4 +32,4 @@ You can create a new job type by selecting `New Job` at the end of the job list.
 
 Expand it to edit the job information and add grades.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21).png" alt="" width="375"><figcaption></figcaption></figure>

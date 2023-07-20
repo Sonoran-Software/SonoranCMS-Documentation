@@ -34,4 +34,4 @@ CMS allows you to grant shield access to other administrators.
 
 In the [rank manager](../tutorials/user-management/creating-departments.md), their role will need the `Modify Sonoran Shield` permission under the `System` tab.
 
-<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>

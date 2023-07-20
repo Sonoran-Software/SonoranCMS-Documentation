@@ -62,7 +62,7 @@
 * [Discord Webhooks](integration-capabilities/discord-webhooks.md)
 * [QBCore Game Panel](integration-capabilities/qbcore-game-panel/README.md)
   * [Installation](integration-capabilities/qbcore-game-panel/installation.md)
-  * [Using The Game Panel](integration-capabilities/qbcore-game-panel/using-the-game-panel/README.md)
+  * [Using The Game Panel](integration-capabilities/qbcore-game-panel/using-the-game-panel.md)
     * [Dashboard](integration-capabilities/qbcore-game-panel/using-the-game-panel/dashboard.md)
     * [Players](integration-capabilities/qbcore-game-panel/using-the-game-panel/players.md)
     * [Characters](integration-capabilities/qbcore-game-panel/using-the-game-panel/characters.md)

@@ -15,3 +15,9 @@ Sonoran CMS offers a complete management panel for your QB Core framework server
 {% content-ref url="installation.md" %}
 [installation.md](installation.md)
 {% endcontent-ref %}
+
+## Using the QB Panel
+
+{% content-ref url="using-the-game-panel.md" %}
+[using-the-game-panel.md](using-the-game-panel.md)
+{% endcontent-ref %}

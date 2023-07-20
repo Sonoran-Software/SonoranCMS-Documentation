@@ -8,7 +8,7 @@ description: Easily manage in-game characters with the CMS QB Core management pa
 
 ## 1. Manage a Character
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure>
 
 The characters tab allows you to view and edit:
 
