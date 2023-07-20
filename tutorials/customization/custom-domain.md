@@ -6,6 +6,8 @@ description: >-
 
 # Custom Domain / Vanity URL
 
+
+
 {% hint style="warning" %}
 Only the **Community Owner** will have access to change and view Custom Domain settings.
 {% endhint %}
@@ -21,19 +23,15 @@ Looking for VPS, web, or dedicated hosting? Check out our official [server hosti
 
 ## Vanity URL's
 
-Each community gets a **FREE** vanity URL, vanity URL's allow all communities to get access to the custom login page system. When visiting your community's vanity URL you will be greeted with a custom login page as shown below with the community's image.
+Each community gets a **FREE** vanity URL, vanity URL's allow all communities to get access to the community homepage without a login.
 
-Your community's vanity URL can be found in your **Administrative Panel** > **Advanced** > **Custom Domain**.
+Your community's vanity URL can be found in your `Administrative Panel` > `Advanced` > `Custom Domain`.
 
-{% hint style="info" %}
-**Note:** Vanity URL's are based on your community ID, if you change your community ID your vanity URL will also change.
-{% endhint %}
+<figure><img src="../../.gitbook/assets/image (16).png" alt="" width="375"><figcaption></figcaption></figure>
 
-## Custom Login Page
+The vanity URL will take users to the home page created in the website builder.
 
-The custom login page allows your community members to register, sign-in, and access your CMS all on your own domain!
-
-![Sonoran CMS Custom Domain Login Page Example](https://i.imgur.com/0uGuRyU.png)
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Custom Domain
 
@@ -41,14 +39,29 @@ The custom login page allows your community members to register, sign-in, and ac
 Custom Domain requires a **Pro** subscription.
 {% endhint %}
 
-### 1. Add a CNAME Record for your Domain
+### 1. Enter your Domain Name
+
+This can be a root domain `sonoranroleplay.com` or a subdomain `cms.sonoranroleplay.com`
+
+<div align="center" data-full-width="false">
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+### 2. Add a CNAME Record for your Domain
 
 {% hint style="warning" %}
 **If you are unsure how to add a DNS record, you will need to contact your domain registrar.**\
 Or, you may purchase a new domain name with [Sonoran Servers](https://sonoranservers.com/cart.php?a=add\&domain=register).
 {% endhint %}
 
-In your domain's DNS records, add a `CNAME` type record with the `name` set to any desired subdomain and the `content` set to `login.sonorancms.com`.
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+In your domain's DNS records, add a `CNAME` type record with:
+
+* `name` set to the subdomain or `@` for the root domain
+* `content` set to `login.sonorancms.com`.
 
 The example record below sets `cms.sonoranroleplay.com` as the custom login page URL.
 
@@ -58,21 +71,21 @@ The example record below sets `cms.sonoranroleplay.com` as the custom login page
 **Cloudflare Users:** Be sure to have the **DNS record proxy DISABLED** - and set to `DNS Only`.
 {% endhint %}
 
-### 2. Set the Domain Name in Sonoran CMS
-
-In the Sonoran CMS Administrative Panel > Advanced > Custom Domain, set the custom domain URL.\
-This should not contain any `https://` or other extensions.
-
-Don't forget to press save!\
-Users can now visit this custom domain to view the CMS with a custom login page.
-
-![Sonoran CMS - Custom Domain URL](../../.gitbook/assets/brave\_hWyhBJOQAb.png)
+#### 3. Save the Custom Domain
 
 {% hint style="warning" %}
 When updating or changing an existing DNS record, it may take some time for the change to propagate (based on your TTL).\
 \
 You can try running `ipconfig /flushdns` in a Windows CMD window and restarting your browser. Otherwise, you can test with other browsers/devices/users while you wait.
 {% endhint %}
+
+Press `Set Custom Domain` in the CMS to save.
+
+<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
+
+Your new domain name will be shown below your vanity URL.
+
+<figure><img src="../../.gitbook/assets/image (18).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Troubleshooting
 

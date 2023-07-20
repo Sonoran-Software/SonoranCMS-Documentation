@@ -1,5 +1,7 @@
 ---
-description: A in-game way to utilize Sonoran CMS's roster & rank system to sync your in-game jobs and ranks.
+description: >-
+  A in-game way to utilize Sonoran CMS's roster & rank system to sync your
+  in-game jobs and ranks.
 ---
 
 # Job Sync
@@ -24,7 +26,7 @@ Click [<mark style="color:blue;">here</mark>](https://github.com/Sonoran-Softwar
 
 Follow the [standard resource installation guide](../gta-rp-resource-installation/) which uses the whitelist resource as an example.
 
-Placing it inside the [sonorancms] alongside sonorancms & sonorancms_updatehelper.
+Placing it inside the \[sonorancms] alongside sonorancms & sonorancms\_updatehelper.
 
 ### 4. Add your API ID
 
@@ -45,7 +47,7 @@ Ensure all players have added their [API ID](../../../../developer-api-documenta
 
 ### 2. Select the Rank
 
-![](<../../../../.gitbook/assets/image (18).png>)
+![](<../../../../.gitbook/assets/image (18) (1).png>)
 
 ### 3. Copy Rank ID
 

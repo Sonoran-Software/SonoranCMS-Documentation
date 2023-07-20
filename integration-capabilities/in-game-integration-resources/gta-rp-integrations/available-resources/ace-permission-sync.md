@@ -28,7 +28,7 @@ Click [<mark style="color:blue;">here</mark>](https://github.com/Sonoran-Softwar
 
 Follow the [standard resource installation guide](../gta-rp-resource-installation/) which uses the whitelist resource as an example.
 
-Placing it inside the [sonorancms] alongside sonorancms & sonorancms_updatehelper.
+Placing it inside the \[sonorancms] alongside sonorancms & sonorancms\_updatehelper.
 
 ### 4. Grant Resource Permissions
 
@@ -66,7 +66,7 @@ For communities on the **Plus** plan or higher, permissions can be synced instan
 
 Simply add your FiveM server's public IP address and port under Admin > Advanced > API Integration > Servers.
 
-![](<../../../../.gitbook/assets/image (13).png>)
+![](<../../../../.gitbook/assets/image (13) (1).png>)
 
 ### Manual Sync
 
@@ -84,7 +84,7 @@ Individual players can run the `/refreshpermissions`command in-game to force a p
 
 ### 2. Select the Rank
 
-![](<../../../../.gitbook/assets/image (18).png>)
+![](<../../../../.gitbook/assets/image (18) (1).png>)
 
 ### 3. Copy Rank ID
 
