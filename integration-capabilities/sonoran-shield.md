@@ -4,7 +4,7 @@ description: Manage your Sonoran Server's network protection, right from the CMS
 
 # Sonoran Shield
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Sonoran CMS x Sonoran Servers - Shield</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Sonoran CMS x Sonoran Servers - Shield</p></figcaption></figure>
 
 ## Linking your Sonoran Server
 
@@ -32,6 +32,6 @@ The following linked guides walk you through how to complete each of the above s
 
 CMS allows you to grant shield access to other administrators.
 
-In the rank manager, their role will need the `Modify Sonoran Shield` permission under the `System` tab.
+In the [rank manager](../tutorials/user-management/creating-departments.md), their role will need the `Modify Sonoran Shield` permission under the `System` tab.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

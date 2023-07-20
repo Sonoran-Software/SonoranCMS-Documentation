@@ -14,7 +14,7 @@ If you haven't already, [check out our page for more information on this promoti
 
 Every CMS addon resource installed will have a separate folder. These are located in the `\resources\[sonorancms]` directory.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Sonoran CMS - Resource Folder</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Sonoran CMS - Resource Folder</p></figcaption></figure>
 
 ## 2. View and Change Configuration Files
 

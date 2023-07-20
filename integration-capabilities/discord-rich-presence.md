@@ -47,7 +47,7 @@ Communities on the **Pro** version may customize the rich presence icon:
 
 On [https://discord.com/developers/applications](https://discord.com/developers/applications) create a new application
 
-![Discord Developer - New Application](<../.gitbook/assets/image (5) (1).png>)
+![Discord Developer - New Application](<../.gitbook/assets/image (5).png>)
 
 #### 2. Copy your Client ID
 
