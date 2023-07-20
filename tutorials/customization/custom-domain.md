@@ -81,7 +81,7 @@ You can try running `ipconfig /flushdns` in a Windows CMD window and restarting 
 
 Press `Set Custom Domain` in the CMS to save.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Your new domain name will be shown below your vanity URL.
 

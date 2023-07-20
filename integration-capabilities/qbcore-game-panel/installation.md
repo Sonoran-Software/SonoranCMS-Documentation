@@ -33,7 +33,15 @@ Once here, you can select which server you would like to view using the server d
 
 <figure><img src="https://cdn.upload.systems/uploads/8czZ4HcT.png" alt=""><figcaption></figcaption></figure>
 
-## 4. Using the Game Panel
+## 4. Grant Permissions
+
+By default, only community owners will have access to the QB Core management panel.
+
+In the [Rank Manager](../teamspeak-3-role-sync/adding-ranks.md), you will need to add the associated permissions under the `Server` tab.
+
+<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="278"><figcaption></figcaption></figure>
+
+## 5. Using the Game Panel
 
 View the next guide below to start using the QB Core game panel.
 
