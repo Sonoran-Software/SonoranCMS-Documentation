@@ -63,6 +63,7 @@
 * [QBCore Game Panel](integration-capabilities/qbcore-game-panel/README.md)
   * [Installation](integration-capabilities/qbcore-game-panel/installation.md)
   * [Using The Game Panel](integration-capabilities/qbcore-game-panel/using-the-game-panel.md)
+* [Sonoran Shield](integration-capabilities/sonoran-shield.md)
 * [In-Game Integration Resources](integration-capabilities/in-game-integration-resources/README.md)
   * [GTA RP Integrations](integration-capabilities/in-game-integration-resources/gta-rp-integrations/README.md)
     * [GTA RP Resource Installation](integration-capabilities/in-game-integration-resources/gta-rp-integrations/gta-rp-resource-installation/README.md)
