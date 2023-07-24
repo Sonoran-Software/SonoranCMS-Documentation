@@ -4,7 +4,9 @@ description: >-
   application for your community!
 ---
 
-# Forum System
+# Forums
+
+{% embed url="https://www.youtube.com/watch?v=Mgf2TfLDmU8" %}
 
 <figure><img src="../../.gitbook/assets/cms.forums.png" alt=""><figcaption><p>CMS Fourms Preview</p></figcaption></figure>
 
