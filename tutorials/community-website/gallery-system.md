@@ -6,6 +6,8 @@ description: >-
 
 # Image Gallery
 
+{% embed url="https://www.youtube.com/watch?v=i5B6mktn4wY" %}
+
 The Sonoran CMS Gallery System is a custom page element allowing you to create and organize your gallery(s) to fit the needs of your community. Easily add Gallery Categories to any custom page, create or use existing categories across multiple pages. Each category has the ability to manage permissions to **Upload**, with more coming soon.
 
 ### Creating Gallery Categories & Adding Gallery Elements

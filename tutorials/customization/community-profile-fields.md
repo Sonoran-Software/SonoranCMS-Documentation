@@ -4,11 +4,11 @@ description: >-
   and edit date directly on a profile with view & edit permissions.
 ---
 
-# Community Profile Fields
+# Profile Fields
 
 <figure><img src="https://i.imgur.com/TU0uGGL.png" alt=""><figcaption><p>Sonoran CMS - Profile View - Profile Information / Profile Fields</p></figcaption></figure>
 
-Profile Fields allow communities to put direct information onto member's profiles that can be restricted to certain viewers, editors, etc. with rank permissions. Profile Fields are dynamically on profiles depending on what ranks the profile you're viewing holds.
+Profile Fields allow communities to put direct information onto member's profiles that can be restricted to certain viewers, editors, etc. with rank permissions. Profile Fields are dynamically displayed on profiles depending on what ranks the profile you're viewing holds.
 
 <figure><img src="https://i.imgur.com/PvTcXm8.png" alt=""><figcaption><p>Sonoran CMS - Profile Fields Editor</p></figcaption></figure>
 
@@ -16,7 +16,7 @@ Easily create and edit profile fields to your liking to fit your community's nee
 
 ### Creating Profile Fields
 
-To start creating profile fields go to the Administrative Panel > Customization > Profile Fields Editor.
+To start creating profile fields go to the Administrative Panel > Accounts > Profile Fields Editor.
 
 Once you've located the editor you can start by clicking the green **New** button, this will enable the creation process. From here you'll customize the label, type, and options (if you have chosen the field type of **select**).
 
@@ -34,11 +34,11 @@ All existing profile fields will display on the preview profile on the right, th
 
 Profile Field Permissions are essential to managing your fields for your members, permissions create "settings" for each field that accounts abide by when viewing profiles. Understanding these permissions will allow you to better leverage the use of Profile Fields.
 
-Navigate to the Administrative Panel > Customization > Department Manager.
+Navigate to the Administrative Panel > Community > Ranks.
 
 Select the rank that you'd like to edit and review the permissions below while selecting which permissions you'd like to grant to the rank.
 
-<figure><img src="https://i.imgur.com/LI7jXwZ.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Profile Fields Permissions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_ProfileFieldPerms.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Profile Fields Permissions</p></figcaption></figure>
 
 Below we've outlined each permission and how they work with fields:
 
