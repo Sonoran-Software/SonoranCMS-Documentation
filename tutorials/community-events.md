@@ -2,9 +2,9 @@
 description: This guide covers managing Calendar Events in Sonoran CMS.
 ---
 
-# Community Events
+# Calendar Events
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Sonoran CMS - Community Events</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Sonoran CMS - Community Events</p></figcaption></figure>
 
 {% embed url="https://www.youtube.com/watch?v=kd3u_4zALro" %}
 
@@ -16,11 +16,11 @@ Community Events allow you to organize and plan events for your community to fur
 
 ## Create an Event
 
-To access the Community Calendar navigate to the left side-bar and select "Community Calendar".
+To access the Community Calendar navigate to the top toolbar and select "Calendar".
 
-To create an event click the "Create Event" dropdown in the top-left of the calendar and select the Calendar Category that you're wanting to create an event for.
+To create an event click the "Create Event" button along the top to the right of the month selection. This will open the Event Creation dialog, and from there select the Calendar Category that you're wanting to create an event for.
 
-<figure><img src="https://i.imgur.com/xgf4inr.png" alt=""><figcaption><p>Sonoran CMS - Community Calendar - Create an Event Modal</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CMS_CalendarCreateEvent.png" alt=""><figcaption><p>Sonoran CMS - Community Calendar - Create an Event Modal</p></figcaption></figure>
 
 Once you've got the create an event dialog  you can now input all of the event information that you'd like to associate with this event, once the event is created it can be edited if any information is no longer correct.
 
