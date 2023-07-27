@@ -4,9 +4,11 @@ description: >-
   community's drive!
 ---
 
-# Your Drive & Documents
+# Drive & Documents
 
-![Sonoran CMS - Document Drive Management](<../../.gitbook/assets/CMS feature promo - template (1).png>)
+{% embed url="https://www.youtube.com/watch?v=S7do0P7pJJU" %}
+
+![Sonoran CMS - Document Drive Management](<../.gitbook/assets/CMS feature promo - template (1).png>)
 
 With your drive, you're able to create files and folders for your community. These files are completely customizable, and have a similar style editor to the Microsoft Office suite
 
@@ -132,7 +134,7 @@ You can also change the sensitivity of the document. With sensitive mode enabled
 
 <div align="left">
 
-<img src="../../.gitbook/assets/image (15).png" alt="Sonoran CMS - Sensitive Document Toggle">
+<img src="../.gitbook/assets/image (15).png" alt="Sonoran CMS - Sensitive Document Toggle">
 
 </div>
 
