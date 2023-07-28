@@ -12,5 +12,5 @@ Sonoran Radio is the most immersive communications simulator available to gaming
 
 [**Check out Sonoran Radio for free!**](https://info.sonoranradio.com/en/why-choose-sonoran-radio)
 
-<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 

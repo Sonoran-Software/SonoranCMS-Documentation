@@ -39,7 +39,7 @@ By default, only community owners will have access to the QB Core management pan
 
 In the [Rank Manager](../teamspeak-3-role-sync/adding-ranks.md), you will need to add the associated permissions under the `Server` tab.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="278"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt="" width="278"><figcaption></figcaption></figure>
 
 ## 5. Using the Game Panel
 

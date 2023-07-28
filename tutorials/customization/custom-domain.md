@@ -27,7 +27,7 @@ Each community gets a **FREE** vanity URL, vanity URLs allow all communities to 
 
 Your community's vanity URL can be found in your `Administrative Panel` > `Advanced` > `Custom Domain`.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 The vanity URL will take users to the home page created in the website builder.
 
@@ -56,7 +56,7 @@ This can be a root domain `sonoranroleplay.com` or a subdomain `cms.sonoranrolep
 Or, you may purchase a new domain name with [Sonoran Servers](https://sonoranservers.com/cart.php?a=add\&domain=register).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
 In your domain's DNS records, add a `CNAME` type record with:
 
@@ -83,7 +83,7 @@ If you are using Sonoran Servers, our company's server hosting, for your domain 
 
 Typically the Host Name is left blank or in this case a `@` is used to point the record at the root domain name of "`sonoranroleplay.com`"
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Sonoran Servers - DNS Record </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p>Sonoran Servers - DNS Record </p></figcaption></figure>
 
 #### 3. Save the Custom Domain
 
@@ -99,7 +99,7 @@ Press `Set Custom Domain` in the CMS to save.
 
 Your new domain name will be shown below your vanity URL.
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Troubleshooting
 

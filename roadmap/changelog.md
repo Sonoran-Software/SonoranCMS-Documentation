@@ -10,7 +10,40 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.49 (Beta) Unreleased
+### v0.5.51 (Beta) 7/16/2023
+
+{% tabs %}
+{% tab title="New" %}
+[**QBCore Game Panel**](../integration-capabilities/qbcore-game-panel/)
+
+* Gangs
+  * View and manage QBCore framework gangs
+  * Add and remove what grades each gang has
+* Jobs
+  * View and manage QBCore framework jobs
+  * Add and remove what grades each job has
+
+**Sonoran Shield Integration**
+
+You can now link and manage your Sonoran Shield configurations directly within Sonoran CMS! You can also grant individuals permission to help manage your shield as well!
+{% endtab %}
+
+{% tab title="Changed" %}
+**Custom Domain**
+
+The entire verification process as well as UI have been completely reworked to have a better UI/UX.
+
+**Community Selection**
+
+The community selection menu has been reworked for a better UI/UX.
+{% endtab %}
+{% endtabs %}
+
+### v0.5.50 (Beta) Non-Web Version Release 7/15/2023
+
+There was a hotfix version bump release that was sent to all non-web version platforms to fix a new login issue.
+
+### v0.5.49 (Beta) 7/14/2023
 
 {% tabs %}
 {% tab title="New" %}

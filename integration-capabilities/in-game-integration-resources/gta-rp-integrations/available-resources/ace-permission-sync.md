@@ -84,7 +84,7 @@ Individual players can run the `/refreshpermissions`command in-game to force a p
 
 ### 2. Select the Rank
 
-![](<../../../../.gitbook/assets/image (18) (1).png>)
+![](<../../../../.gitbook/assets/image (18).png>)
 
 ### 3. Copy Rank ID
 

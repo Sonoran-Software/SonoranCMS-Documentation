@@ -47,7 +47,7 @@ Ensure all players have added their [API ID](../../../../developer-api-documenta
 
 ### 2. Select the Rank
 
-![](<../../../../.gitbook/assets/image (18) (1).png>)
+![](<../../../../.gitbook/assets/image (18).png>)
 
 ### 3. Copy Rank ID
 
