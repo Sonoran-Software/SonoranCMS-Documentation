@@ -28,7 +28,7 @@ When assigning someone secondary identifier(s) you must press enter while in the
 
 In order for permissions to be used the user must have a "System Status" of **ACTIVE**. Assigning a user's account "System Status" to pending will revoke all the user's permissions and limit their access to your community's CMS.
 
-![Administrative Accounts Panel - Account Information Dialog](https://i.imgur.com/WF0HrR2.png)
+![Administrative Accounts Panel - Account Information Dialog](../../.gitbook/assets/CMS\_AccInfo.png)
 
 ### Alternate User Accounts Table Actions
 

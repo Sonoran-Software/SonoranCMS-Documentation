@@ -16,13 +16,13 @@ Only the community owner can delete or transfer the community.
 
 Navigate to the Administrative Panel
 
-![Sonoran CMS - Administrative Panel First View](../../.gitbook/assets/brave\_TvQsXT4SFv.png)
+![Sonoran CMS - Administrative Panel First View](../../.gitbook/assets/CMS\_AdminPanel.png)
 
 ### 2. Navigate to the Limits View
 
 Navigate to the top admin bar, expand the Advanced dropdown and select Limits.
 
-![Sonoran CMS - Limits View](../../.gitbook/assets/brave\_sK5mLLLqvL.png)
+![Sonoran CMS - Limits View](../../.gitbook/assets/CMS\_ViewLimitsFull.png)
 
 ### 3. Delete Community
 
@@ -38,7 +38,7 @@ Select the "Delete Community" button located on the Limits View and follow the s
 
 ### 2. Navigate to the Limits View
 
-<figure><img src="https://i.imgur.com/nIOdd8p.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_ViewLimitsFull.png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Transfer Community
 

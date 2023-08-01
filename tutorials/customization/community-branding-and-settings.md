@@ -4,6 +4,8 @@ description: Customize your community's settings, branding, information, and mor
 
 # Community Branding and Settings
 
+{% embed url="https://www.youtube.com/watch?v=Un9AIFXzZqQ" %}
+
 ### Community Information
 
 The admin customization info section allows you to customize your community's image, name, and more! These settings can be found by navigating to Administrative Panel > Community > Customization

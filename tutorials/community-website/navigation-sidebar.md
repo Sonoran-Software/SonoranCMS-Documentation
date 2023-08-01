@@ -6,6 +6,8 @@ description: >-
 
 # Navigation Permissions
 
+{% embed url="https://www.youtube.com/watch?v=sALTFnv6OMQ" %}
+
 Several of the navigation items have individual permissions to show and hide the buttons located on the toolbar but some of the items also have permission checks based on permissions for that specific context. Below we've outlined which permissions affect each navigation item.
 
 {% hint style="warning" %}
