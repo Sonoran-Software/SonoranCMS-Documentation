@@ -69,6 +69,7 @@
     * [Vehicles](integration-capabilities/qbcore-game-panel/using-the-game-panel/vehicles.md)
     * [Jobs](integration-capabilities/qbcore-game-panel/using-the-game-panel/jobs.md)
     * [Gangs](integration-capabilities/qbcore-game-panel/using-the-game-panel/gangs.md)
+    * [Items](integration-capabilities/qbcore-game-panel/using-the-game-panel/items.md)
     * [Resources](integration-capabilities/qbcore-game-panel/using-the-game-panel/resources.md)
     * [Logs](integration-capabilities/qbcore-game-panel/using-the-game-panel/logs.md)
 * [Sonoran Shield](integration-capabilities/sonoran-shield.md)

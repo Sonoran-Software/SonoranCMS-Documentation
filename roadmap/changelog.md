@@ -10,6 +10,39 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.52 (Beta) 8/2/2023
+
+{% tabs %}
+{% tab title="New" %}
+[**QBCore Game Panel**](../integration-capabilities/qbcore-game-panel/)
+
+* Characters
+  * View and manage character inventories directly within the panel
+    * Mimicked UI from popular slot based inventory systems
+* Items
+  * View and manage all in-game items directly within the panel
+    * Directly upload item images from Sonoran CMS to your game server
+* Vehicles
+  * You can now select from all preconfigured garages to set a character's vehicle current garage at instead of having to provide the garage ID
+{% endtab %}
+
+{% tab title="Changed" %}
+**Profile Fields Editor**
+
+Several aspects of the Profile Fields Editor have been reworked in favor for a better UI/UX
+
+**Drive**
+
+Several aspects of the Drive system have been reworked in favor for a better UI/UX, as well as some QOL changes for a smoother transition within pages and actions.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Calendar**
+
+* Clicking the event removal button wouldn't actually do anything and would only fail no matter the conditions
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.51 (Beta) 7/21/2023
 
 {% tabs %}
