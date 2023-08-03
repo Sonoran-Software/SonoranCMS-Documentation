@@ -10,6 +10,52 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.53 (Beta) 8/3/2023
+
+{% tabs %}
+{% tab title="New" %}
+[**QBCore Game Panel**](../integration-capabilities/qbcore-game-panel/)
+
+* Initial Setup
+  * The setup process for the panel has been placed directly into the panel with direct and easy steps to get it running.
+* Inventory
+  * Inventory items now are draggable, you can now drag and drop items within inventories with ease.
+* Inter Panel Links
+  * Any dialog popup that lists data is now linkable, while having the dialog open the URL is modified to include the proper ID which can be directly opened to.
+* Characters
+  * Metadata
+    * You can now view character metadata within the Character dialog
+  * Jobs
+    * You can now view character job data within the Character dialog
+
+[**Integrations**](broken-reference)
+
+* [GTA RP - CMS Core](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core.md)
+  * You can now download the GTA RP CMS Core directly from the Integrations Portal, it will be downloaded with your community credentials already inputted into your config.
+{% endtab %}
+
+{% tab title="Changed" %}
+[**Custom Domain**](../tutorials/customization/custom-domain.md)
+
+* Custom domains now go through a more thorough DNS record check to ensure domains are assigned to the proper communities.
+
+[**Drive**](../tutorials/your-drive-and-documents.md)
+
+* Several aspects of the Drive UI have been improved for a better UI/UX.
+* Several actions on the Drive UI have been reworked to handle auto-saving instead of manual saves.
+
+[**API Integration**](../developer-api-documentation/api-integration/)
+
+* Servers managing has been reworked to handle auto-saving instead of manual saving.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Custom Forms**
+
+* An issue where conditional sections would cause problems when determining form completion
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.52 (Beta) 8/2/2023
 
 {% tabs %}
