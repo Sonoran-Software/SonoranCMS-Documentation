@@ -8,7 +8,7 @@ description: >-
 
 {% embed url="https://www.youtube.com/watch?v=S7do0P7pJJU" %}
 
-![Sonoran CMS - Document Drive Management](<../.gitbook/assets/CMS feature promo - template (1).png>)
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Sonoran CMS - Document Drive Management</p></figcaption></figure>
 
 With your drive, you're able to create files and folders for your community. These files are completely customizable, and have a similar style editor to the Microsoft Office suite
 

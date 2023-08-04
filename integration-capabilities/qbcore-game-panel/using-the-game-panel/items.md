@@ -10,11 +10,7 @@ Click any item row to initiate editing.
 
 You can adjust the item label, weight, description, image, and various other options
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/f547HVl.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../../.gitbook/assets/Items.png" alt=""><figcaption></figcaption></figure>
 
 ## Add a New Item
 

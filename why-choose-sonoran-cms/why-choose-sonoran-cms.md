@@ -15,9 +15,9 @@ Manage your community's documents, spreadsheets, and presentations natively in t
 
 [Create and live edit documents](../tutorials/your-drive-and-documents.md) to share with members based on rank. Sonoran CMS allows you to watermark documents as sensitive, organize files with folders, and more!
 
-![Sonoran CMS - Document Drive](../.gitbook/assets/docspromo2.png)
 
-![Sonoran CMS - Documents](../.gitbook/assets/cms-promo2.png)
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>CMS -  Document Drive</p></figcaption></figure>
 
 ## 🌐 [Website Builder](../tutorials/community-website/website-builder.md) and [Forums](../tutorials/community-website/forum-system.md)
 

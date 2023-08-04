@@ -4,7 +4,7 @@ description: Easily manage in-game characters with the CMS QB Core management pa
 
 # Characters
 
-<figure><img src="../../../.gitbook/assets/characters.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/characters.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. Manage a Character
 
@@ -22,3 +22,9 @@ The characters tab allows you to view and edit:
 * Bank Balance
 * Crypto Balance
 * and more!
+
+## 2. Player Inventories
+
+Select the `Inventory` tab on a character to open a drag-and-drop inventory manager.
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

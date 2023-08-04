@@ -4,36 +4,46 @@ description: Sonoran CMS manages your QB Core server for free!
 
 # Installation
 
+## Video Tutorial
+
+COMING SOON
+
 ## 1. Install the CMS Core Framework
 
-Install and configure the [CMS Core Framework](../in-game-integration-resources/gta-rp-integrations/available-resources/core.md) on your game server.
+The QB Core management panel will help walk you through each step.
 
-## 2. Setting up the Connection
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
-To begin, head over to the **Admin Panel -> Advanced** -> **Integrations -> SonoranCMS API**
+Download the CMS Core. This download will already have the config filled with your Community ID (or UUID) and API Key.
 
-<figure><img src="https://cdn.upload.systems/uploads/2iNGIlhQ.png" alt=""><figcaption></figcaption></figure>
+## 2. Configure the Core
 
-Enter your game server's:
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
-* IP Address
-* Game Port
+Once installed, the `config.lua` will configure your Community ID (or UUID) and your API key. It is recommended to keep all remaining config options with their default values.
 
-then press SAVE
+## 3. Configure your Server
 
-<figure><img src="https://cdn.upload.systems/uploads/26zT2pJp.png" alt=""><figcaption></figcaption></figure>
+In your `server.cfg` file, add the following lines to run the CMS core resource and grant permissions to the auto-updater.
 
-## 3. Access the Game Panel&#x20;
+```
+ensure sonorancms
+# permissions for SonoranCMS auto-updater (REQUIRED)
+add_ace resource.sonorancms command allow
+add_ace resource.sonorancms_updatehelper command allow
+```
 
-To access the game panel, head over to **Admin Panel -> Advanced -> Integrations -> QBCore Game Panel**
+<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="https://cdn.upload.systems/uploads/l0hhxyqd.png" alt=""><figcaption></figcaption></figure>
+## 4. Configure the Panel
 
-Once here, you can select which server you would like to view using the server drop-down:
+Select `Edit Servers` to include the IP address and port used to direct connect to your server.
 
-<figure><img src="https://cdn.upload.systems/uploads/8czZ4HcT.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="347"><figcaption></figcaption></figure>
 
-## 4. Grant Permissions
+<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="276"><figcaption></figcaption></figure>
+
+## 5. Grant Permissions
 
 By default, only community owners will have access to the QB Core management panel.
 
@@ -41,7 +51,7 @@ In the [Rank Manager](../teamspeak-3-role-sync/adding-ranks.md), you will need t
 
 <figure><img src="../../.gitbook/assets/image (11) (1).png" alt="" width="278"><figcaption></figcaption></figure>
 
-## 5. Using the Game Panel
+## 6. Using the Game Panel
 
 View the next guide below to start using the QB Core game panel.
 

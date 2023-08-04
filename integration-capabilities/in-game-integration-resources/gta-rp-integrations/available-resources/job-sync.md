@@ -43,7 +43,7 @@ Ensure all players have added their [API ID](../../../../developer-api-documenta
 
 ### 1. Open Department Configuration Page
 
-![](<../../../../.gitbook/assets/image (4) (1).png>)
+![](<../../../../.gitbook/assets/image (4) (1) (1).png>)
 
 ### 2. Select the Rank
 

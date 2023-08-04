@@ -18,7 +18,7 @@ You can adjust the grade name, pay, toggle it as boss, and reorder via drag-and-
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (25) (1).png" alt="" width="127"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25) (1) (1).png" alt="" width="127"><figcaption></figcaption></figure>
 
  
 
