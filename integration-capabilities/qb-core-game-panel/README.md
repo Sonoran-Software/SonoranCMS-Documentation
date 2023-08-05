@@ -4,11 +4,11 @@ description: >-
   game panel!
 ---
 
-# QBCore Game Panel
+# QB Core Game Panel
 
 Sonoran CMS offers a complete management panel for your QB Core framework server. Easily manage in-game players, characters, vehicles, items, inventories, gangs, jobs, logs, and more!
 
-<figure><img src="../../.gitbook/assets/CMSFlowChart.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Get Started Today!
 
@@ -18,6 +18,6 @@ Sonoran CMS offers a complete management panel for your QB Core framework server
 
 ## Using the QB Panel
 
-{% content-ref url="using-the-game-panel.md" %}
-[using-the-game-panel.md](using-the-game-panel.md)
+{% content-ref url="using-the-game-panel/" %}
+[using-the-game-panel](using-the-game-panel/)
 {% endcontent-ref %}

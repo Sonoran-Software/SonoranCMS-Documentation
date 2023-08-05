@@ -55,6 +55,6 @@ In the [Rank Manager](../teamspeak-3-role-sync/adding-ranks.md), you will need t
 
 View the next guide below to start using the QB Core game panel.
 
-{% content-ref url="using-the-game-panel.md" %}
-[using-the-game-panel.md](using-the-game-panel.md)
+{% content-ref url="using-the-game-panel/" %}
+[using-the-game-panel](using-the-game-panel/)
 {% endcontent-ref %}
