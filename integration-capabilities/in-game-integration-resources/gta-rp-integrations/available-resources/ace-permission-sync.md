@@ -80,7 +80,7 @@ Individual players can run the `/refreshpermissions`command in-game to force a p
 
 ### 1. Open Department Configuration Page
 
-![](<../../../../.gitbook/assets/image (4) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (4) (1) (1) (1).png>)
 
 ### 2. Select the Rank
 
@@ -88,7 +88,7 @@ Individual players can run the `/refreshpermissions`command in-game to force a p
 
 ### 3. Copy Rank ID
 
-![](<../../../../.gitbook/assets/image (10).png>)
+![](<../../../../.gitbook/assets/image (10) (1).png>)
 
 ## Example Configuration
 

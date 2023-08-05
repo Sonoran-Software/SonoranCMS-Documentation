@@ -6,7 +6,7 @@ description: Once configured, you can easily manage your entire QB server!
 
 ## Video Tutorial
 
-COMING SOON
+{% embed url="https://youtu.be/_FLs4M2EOR4" %}
 
 ## Written Guides
 

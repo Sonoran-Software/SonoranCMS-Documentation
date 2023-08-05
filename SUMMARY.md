@@ -131,6 +131,7 @@
 
 ## Other
 
+* [Sonoran CMS](other/sonoran-cms.md)
 * [AI QA](other/ai-qa.md)
 * [Contact Us](https://support.sonoransoftware.com/)
 * [Policy](other/policy/README.md)
