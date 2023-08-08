@@ -4,6 +4,8 @@ description: This guide covers the Clock In/Out System in Sonoran CMS.
 
 # Clock In/Out System
 
+{% embed url="https://www.youtube.com/watch?v=D52DeI0qKOg" %}
+
 ### What is the Timeclock?
 
 Sonoran CMS offers a Clock In/Out system available for all users of Sonoran CMS. The goal of this system is to assist with time-clocking with the "Patrol Log" type[ custom forms](creating-custom-forms.md).

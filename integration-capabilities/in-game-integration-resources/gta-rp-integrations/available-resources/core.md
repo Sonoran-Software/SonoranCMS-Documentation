@@ -20,11 +20,11 @@ Click [<mark style="color:blue;">here</mark>](https://github.com/Sonoran-Softwar
 
 Follow the [standard resource installation guide](../gta-rp-resource-installation/) for the core resource.
 
-Extracting the folder [sonorancms] into the resources folder.
+Extracting the folder \[sonorancms] into the resources folder.
 
 ### 3. Configure and Rename
 
-Open `sonorancms\config.CHANGEME.json`, update the values, then save it as `config.json`.
+Open `sonorancms\config.CHANGEME.lua`, update the values, then save it as `config.lua`.
 
 Default configuration is below:
 
@@ -42,8 +42,7 @@ Default configuration is below:
 Add the following to your `server.cfg`
 
 {% hint style="danger" %}
-It is very important that the sonorancms_updatehelper resource is not started manually. Doing so may cause a server crash if updates are available due to a race condition.
-DO NOT start the whole [sonorancms] folder as that will also start the sonorancms_updatehelper which might cause crashing if it is started manually. Example of not what to do ensure [sonorancms]
+It is very important that the sonorancms\_updatehelper resource is not started manually. Doing so may cause a server crash if updates are available due to a race condition. DO NOT start the whole \[sonorancms] folder as that will also start the sonorancms\_updatehelper which might cause crashing if it is started manually. Example of not what to do ensure \[sonorancms]
 {% endhint %}
 
 ```javascript
@@ -62,7 +61,7 @@ Sonoran CMS's core will automatically update with the latest features, fixes, an
 
 ### Server Crashes
 
-1\. Check to make sure `sonorancms_updatehelper`  is not being started in your server.cfg.
+1\. Check to make sure `sonorancms_updatehelper` is not being started in your server.cfg.
 
 {% hint style="danger" %}
 It is very important that the `sonorancms_updatehelper` resource is not started manually. Doing so may cause a server crash if updates are available due to a race condition.

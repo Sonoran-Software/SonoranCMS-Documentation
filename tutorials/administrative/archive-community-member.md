@@ -4,6 +4,8 @@ description: Looking to archive a member of your community from your Sonoran CMS
 
 # Archive Community Member
 
+{% embed url="https://www.youtube.com/watch?v=3bwsRB1wAwo" %}
+
 {% hint style="warning" %}
 You must have the **Archive User** permission or the Community Owner in order to archive another individual, the same checks are applied as kick and bans.
 {% endhint %}

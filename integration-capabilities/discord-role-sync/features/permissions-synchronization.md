@@ -18,10 +18,10 @@ Users must link their Discord to their Sonoran account. This will also automatic
 
 #### Enable Discord Sync
 
-* In the Administration panel select `Advanced` -> `API Integration`
+* In the Administration panel select `Advanced` -> `Integrations` -> `Discord`
 * Toggle the `Discord Bot Integration` box
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-01-08 at 12.10.12 PM.png" alt=""><figcaption><p>Sonoran CMS - Enable Discord Bot</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CMS_DiscodIntegrationCircle.png" alt=""><figcaption><p>Sonoran CMS - Enable Discord Bot</p></figcaption></figure>
 
 #### Link your Discord Account
 
