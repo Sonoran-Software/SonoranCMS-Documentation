@@ -45,11 +45,11 @@ Press the "Save Changes" button to save your new webhook in Discord.
 
 ### 6. Configure the Sonoran CMS Webhook
 
-In the Sonoran CMS Administrator Panel, select `Advanced` > `Discord Integration`\
+In the Sonoran CMS Administrator Panel, under Advanced select `Integrations`> `Discord`\
 Paste your Webhook URL in the desired webhook configuration box.\
-Toggle the `Enabled` button to enable the webhook. Press the `Save` button.
+When you are done editing, click anywhere outside and it will automatically save any changes.
 
-![](../.gitbook/assets/electron\_pOFYSjfglQ.png)
+![](../.gitbook/assets/CMS\_DiscordIntegrationWebhooks.png)
 
 ### 7. Role Mention
 
