@@ -10,6 +10,30 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.54 (Beta) 8/14/2023
+
+{% tabs %}
+{% tab title="New" %}
+[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+
+* Vehicle management inputs that require a Citizen ID will now provide users with a select input to select a character from rather than a raw Citizen ID
+* Permissions
+  * QBCore Game Panel permissions have been moved from the Servers tab to their own category/section.
+  * _Existing permissions have been migrated to the new permission structure for Game Panel(s)._
+
+**Help/Tutorial Modals**
+
+* 25+ help and tutorial modal's have been implemented throughout the entire platform
+* View documentation and tutorials associated with pages by clicking the red help button located on the bottom-right of pages
+{% endtab %}
+
+{% tab title="Changed" %}
+**Profile Fields**
+
+* Verified profile fields will now visually show which are verified or not with the Sonoran CMS orange checkmark
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.53 (Beta) 8/3/2023
 
 {% tabs %}
