@@ -16,7 +16,7 @@ With your drive, you're able to create files and folders for your community. The
 This feature is currently experimental. It is known that phones and other small devices may not have the best compatibility with editing/viewing files
 {% endhint %}
 
-![Document Editor](https://i.imgur.com/zdVfQRQ.png)
+![Sonoran CMS - Document Editor](https://i.imgur.com/zdVfQRQ.png)
 
 ## Your Drive
 
@@ -26,7 +26,7 @@ To view a document, simply click it in either grid or list view. This will show 
 
 To quick manage Drive items you can right click the item, it'll provide a menu of actions that can be performed on that item.
 
-<div align="left">
+<div align="center">
 
 <figure><img src="https://i.imgur.com/Fg5MtWt.png" alt=""><figcaption><p>Sonoran CMS - Drive - Quick Manage (Right Click)</p></figcaption></figure>
 
@@ -36,7 +36,7 @@ To quick manage Drive items you can right click the item, it'll provide a menu o
 
 Folders help you organize your community's drive! To create folders, just use the green plus button on the top, then drag n drop files into the folders. You can also drag n drop files on the breadcrumbs on the top
 
-![](https://i.imgur.com/XQX9D1D.png)
+<figure><img src="https://i.imgur.com/XQX9D1D.png" alt=""><figcaption><p>Sonoran CMS - Drive File Path</p></figcaption></figure>
 
 To move a file without drag n drop, you can use the blue arrow button on a document and select the folder in the popup
 
@@ -46,21 +46,25 @@ Folders can have permissions associated with them to mass organize files with pe
 
 You can change the view mode between grid and list by using the toggle button on the Drive's toolbar
 
-<div align="left">
+<div align="center">
 
-<img src="https://i.imgur.com/HHHUJsx.png" alt="Change View">
+<img src="https://i.imgur.com/HHHUJsx.png" alt="Sonoran CMS - Change View">
 
 </div>
 
-![Drive List View](https://i.imgur.com/mnoLjLa.png)
+<div align="center">
+
+<img src="https://i.imgur.com/mnoLjLa.png" alt="Sonoran CMS - Drive List View">
+
+</div>
 
 ### Document Types
 
 You're able to create multiple document types, from presentations to excel sheets to word files!
 
-<div align="left">
+<div align="center">
 
-<img src="https://i.imgur.com/GhvgwCh.png" alt="Create File Dialog">
+<img src="https://i.imgur.com/GhvgwCh.png" alt="Sonoran CMS - Create File Dialog">
 
 </div>
 
@@ -74,7 +78,11 @@ If you have access to modify documents, then you'll be able to create/edit/delet
 
 ## Editing a Document
 
-![Word Document Editor](https://i.imgur.com/7L9wLdS.png)
+<div align="center">
+
+<img src="https://i.imgur.com/7L9wLdS.png" alt="Sonoran CMS - Word Document Editor">
+
+</div>
 
 Editing documents is fairly easy! On the editor page, you have the main editor, a section to rename, and a section to change share settings
 
@@ -132,7 +140,7 @@ This will inherit the parent folder's general access settings, this will simply 
 
 You can also change the sensitivity of the document. With sensitive mode enabled, viewers will not be able to download, print, or copy the document. A watermark will also be added.
 
-<div align="left">
+<div align="center">
 
 <img src="../.gitbook/assets/image (15).png" alt="Sonoran CMS - Sensitive Document Toggle">
 
@@ -142,9 +150,9 @@ You can also change the sensitivity of the document. With sensitive mode enabled
 
 Due to limitations with the editor, it's not able to save automatically. To save, you can press the floppy-disk icon on the top left or press `CTRL+S`
 
-<div align="left">
+<div align="center">
 
-<img src="https://i.imgur.com/ZLlc5og.png" alt="">
+<img src="https://i.imgur.com/ZLlc5og.png" alt="Sonoran CMS - Save Icon">
 
 </div>
 
@@ -223,6 +231,6 @@ There are several file types that the Sonoran CMS Drive accepts but only handles
 * ZIP | .zip
 * PDF | .pdf
 
-<figure><img src="https://i.imgur.com/Qj42DMV.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/Qj42DMV.png" alt=""><figcaption><p>Sonoran CMS - Download from Drive</p></figcaption></figure>
 
 When one of these file types are uploaded they'll be given different options to interact with, as shown in the image you're able to download, remove or modify the share settings. Additionally you're able to copy a direct download link to share among peers. If someone is able to see the file in their Drive they're able to download it.

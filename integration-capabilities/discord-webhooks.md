@@ -6,6 +6,8 @@ description: >-
 
 # Discord Webhooks
 
+{% embed url="https://www.youtube.com/watch?v=Y6CFMpj1LT8" %}
+
 {% hint style="warning" %}
 Currently, Discord webhooks can only be created using the Desktop version of Discord.
 {% endhint %}
@@ -14,25 +16,25 @@ Currently, Discord webhooks can only be created using the Desktop version of Dis
 
 Open the "Server Settings" panel in the top right of your Discord server.
 
-![](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.56.54 PM.png>)
+![Discord Server Settings](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.56.54 PM.png>)
 
 ### 2. Open your Discord Integrations
 
 In the server settings panel, select the “Integrations” tab.
 
-![](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.54.04 PM.png>)
+![Discord Server Settings - Integrations](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.54.04 PM.png>)
 
 ### 3. View your Webhooks
 
 On the right, click to view all of your current Discord webhooks.
 
-![](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.54.37 PM.png>)
+![Discord View Webhooks](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.54.37 PM.png>)
 
 ### 4. Create a New Webhook URL
 
 Select the "New Webhook" button.
 
-![](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.54.59 PM.png>)
+![Discord New Webhook](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.54.59 PM.png>)
 
 ### 5. Customize the New Webhook
 
@@ -41,7 +43,7 @@ Here, you can set the Webhook name, channel and icon.
 Press the "Copy Webhook URL" button to copy the webhook's URL.\
 Press the "Save Changes" button to save your new webhook in Discord.
 
-![](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.55.39 PM.png>)
+![Discord Webhook Creation & Settings](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.55.39 PM.png>)
 
 ### 6. Configure the Sonoran CMS Webhook
 
@@ -49,7 +51,7 @@ In the Sonoran CMS Administrator Panel, under Advanced select `Integrations`> `D
 Paste your Webhook URL in the desired webhook configuration box.\
 When you are done editing, click anywhere outside and it will automatically save any changes.
 
-![](../.gitbook/assets/CMS\_DiscordIntegrationWebhooks.png)
+![Sonoran CMS - Discord Webhook Setup](../.gitbook/assets/CMS\_DiscordIntegrationWebhooks.png)
 
 ### 7. Role Mention
 

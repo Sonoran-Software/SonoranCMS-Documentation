@@ -6,9 +6,7 @@ description: Get started with Sonoran's CMS, CAD, and Discord role sync!
 
 <figure><img src="../../.gitbook/assets/crossrolesync-v6.png" alt=""><figcaption><p>Sonoran CMS - Discord Sync</p></figcaption></figure>
 
-{% embed url="https://www.youtube.com/watch?v=mlH4TlybT_4" %}
-Sonoran Bot x Sonoran CMS - Setup
-{% endembed %}
+{% embed url="https://www.youtube.com/watch?v=iZQREhSxC2M" %}
 
 ## Setup
 
@@ -28,23 +26,23 @@ You must have the "Manage Server" permission to add bots; plus any permissions t
 * Enter your [Sonoran CMS ID and API key](../../developer-api-documentation/api-integration/getting-started/#gather-your-credentials).
 * (OPTIONAL) Enter your [Sonoran CAD ID and API key](https://info.sonorancad.com/sonoran-cad/api-integration/getting-started/retrieving-your-credentials).
 
-<figure><img src="../../.gitbook/assets/Screenshot_11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_11.png" alt=""><figcaption><p>Sonoran Discord Bot - Setup </p></figcaption></figure>
 
 You will then be presented with the results of the setup.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Sonoran Discord Bot - Setup Results Message</p></figcaption></figure>
 
 Note: When setting up the bot, it will automatically be set to CMS sync mode if you opted to link your CMS community.
 
 ### **3. Invite to Additional Servers**
 
-If your community uses multiple discord servers, you can link them all to the same community to utilize the permissions sync easily using the `/guildlink` command, as shown below.![](<../../.gitbook/assets/image (8) (1).png>)
+If your community uses multiple discord servers, you can link them all to the same community to utilize the permissions sync easily using the `/guildlink` command, as shown below.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Sonoran Discord Bot - Usage </p></figcaption></figure>
 
 Fill out the information (using either your CAD or CMS information), and you will receive a confirmation. At this point, you can use the other commands just like on the primary server.
 
-![](<../../.gitbook/assets/image (2) (3).png>)
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>Sonoran Discord Bot - Guild Linked Message</p></figcaption></figure>
 
 ## Command Reference
 

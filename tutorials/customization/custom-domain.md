@@ -6,7 +6,7 @@ description: >-
 
 # Custom Domain / Vanity URL
 
-
+{% embed url="https://www.youtube.com/watch?v=JwgKe_CHwp4" %}
 
 {% hint style="warning" %}
 Only the **Community Owner** will have access to change and view Custom Domain settings.
@@ -27,11 +27,11 @@ Each community gets a **FREE** vanity URL, vanity URLs allow all communities to 
 
 Your community's vanity URL can be found in your `Administrative Panel` > `Advanced` > `Custom Domain`.
 
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Sonoran CMS - Vanity URL</p></figcaption></figure>
 
 The vanity URL will take users to the home page created in the website builder.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Homepage</p></figcaption></figure>
 
 ## Custom Domain
 
@@ -45,7 +45,7 @@ This can be a root domain `sonoranroleplay.com` or a subdomain `cms.sonoranrolep
 
 <div align="center" data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Domain</p></figcaption></figure>
 
 </div>
 
@@ -56,7 +56,7 @@ This can be a root domain `sonoranroleplay.com` or a subdomain `cms.sonoranrolep
 Or, you may purchase a new domain name with [Sonoran Servers](https://sonoranservers.com/cart.php?a=add\&domain=register).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_CustomDomainDNSSettings.png" alt=""><figcaption><p>Sonoran CMS - DNS Record Settings</p></figcaption></figure>
 
 In your domain's DNS records, add a `CNAME` type record with:
 
@@ -66,7 +66,7 @@ In your domain's DNS records, add a `CNAME` type record with:
 {% hint style="info" %}
 **Some DNS providers are different!**\
 \
-Check with your DNS provider if using a "root domain" (ie. sonoranroleplay.com instead of cms.sonoranroleplay.com) to see what to add as the `name`. \
+Check with your DNS provider if using a "root domain" (i.e. sonoranroleplay.com instead of cms.sonoranroleplay.com) to see what to add as the `name`. \
 \
 Typically it is `@` or left blank.
 {% endhint %}
@@ -95,11 +95,11 @@ You can try running `ipconfig /flushdns` in a Windows CMD window and restart you
 
 Press `Set Custom Domain` in the CMS to save.
 
-<figure><img src="../../.gitbook/assets/image (11) (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption><p>Sonoran CMS - Set Custom Domain</p></figcaption></figure>
 
 Your new domain name will be shown below your vanity URL.
 
-<figure><img src="../../.gitbook/assets/image (18) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Domain Display</p></figcaption></figure>
 
 ## Troubleshooting
 

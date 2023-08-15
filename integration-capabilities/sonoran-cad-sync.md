@@ -6,6 +6,8 @@ description: >-
 
 # Sonoran CAD Sync
 
+{% embed url="https://www.youtube.com/watch?v=aFA7s60vMZk" %}
+
 Remove all the hassle of managing your community's Sonoran CAD permissions. Sonoran CMS is now your single point of management!
 
 Sonoran CMS allows you to easily manage your community's Sonoran CAD permissions based on their Sonoran CMS rank automatically!

@@ -138,4 +138,4 @@ To create a folder simply press the green plus button and select folder, this wi
 
 You can directly share a Custom Form via URL to be directly submitted on, if the URL is viewed it'll automatically navigate and provide the form to be submitted. You can get the direct submission access URL by viewing it in Available Forms and grabbing your browsers URL while viewing it or you can navigate to the Custom Form Editor. And before you select a form to edit just hit the green share button to the left of the delete button.
 
-<figure><img src="https://i.imgur.com/RdYB5n4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/RdYB5n4.png" alt=""><figcaption><p>Sonoran CMS - Share Forms Button</p></figcaption></figure>

@@ -4,6 +4,8 @@ description: Looking to remove your Sonoran Software account?
 
 # Delete User Account
 
+{% embed url="https://www.youtube.com/watch?v=eck2vPJkr7s" %}
+
 ### 1. Access your Sonoran Software Account
 
 You can access your Sonoran Software account by going to [account.sonoransoftware.com](https://account.sonoransoftware.com), or by selecting "Modify" in the side menu's account modal.

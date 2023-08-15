@@ -26,7 +26,7 @@ Below their account name and to the right of the "Kick" and "Ban" options, there
 
 Additionally you're given the option to choose whether their rank and identifiers get removed or if they stay on the account. If rank(s) are not removed from their account upon archiving it does not mean they still have permission or can do anything additional, it's simply for organization.
 
-<figure><img src="../../.gitbook/assets/CMS_ArchiveUser.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_ArchiveUser.png" alt=""><figcaption><p>Sonoran CMS -  Archive User Confirmation</p></figcaption></figure>
 
 ### How to Unarchive a Member?
 
@@ -40,4 +40,4 @@ Once you've located the archived member, click their row which will provide you 
 
 Choose whether or not if their rank(s) and identifier(s) should be removed and confirm the unarchiving.
 
-<figure><img src="https://i.imgur.com/H3DRpHe.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_UnarchiveConfirmation.png" alt=""><figcaption><p>Sonoran CMS - Unarchive Confirmation</p></figcaption></figure>

@@ -16,7 +16,7 @@ Straight out of the box there's no way to utilize the clock in/out times that yo
 
 While having a [custom form](creating-custom-forms.md) with the form type of "Patrol Log" you can utilize the "Patrol Start/End" column type which will allow you to import clock in/out times straight into the form.
 
-![Sonoran CMS - Clock In/Out Component](../../.gitbook/assets/brave\_2ju594JYEL.png)
+![Sonoran CMS - Clock In/Out Component](../../.gitbook/assets/CMS\_ClockIn.png)
 
 ### Using the Clock In/Out Feature
 
@@ -26,14 +26,26 @@ The CMS Permission **Clock In & Out** must be granted in order for this to be us
 
 Using the Clock In/Out feature is easy as clicking the "Clock In" button, doing this will clock you in, giving you the option to clock out after the 60s or cancel the clock in entirely.
 
-![Sonoran CMS - Clock In View](../../.gitbook/assets/brave\_jHkbbGtWx8.png)
+![Sonoran CMS - Clocked In View](../../.gitbook/assets/CMS\_ClockedIn.png)
 
 Once the "Clock Out" button is available to be used and when you're ready to clock out all you need to do is click the "Clock Out" button. After clocking out it'll show when you clocked out and will give you the option to clock back in if you do choose.
 
-![Sonoran CMS - Clock Out View](../../.gitbook/assets/brave\_NbMCfmOCkp.png)
+![Sonoran CMS - Clocked Out View](../../.gitbook/assets/CMS\_ClockBackIn.png)
+
+### Clock In Notes
+
+You can also add timestamped notes while clocked in to briefly describe what you were doing.
+
+To view or create Clock In Notes, open the Clock In/Out Component and click the "Clocked in Notes" button to open it. Here you can type in a new note you would like to add regarding your current shift.&#x20;
+
+<figure><img src="../../.gitbook/assets/CMS_ClockedInNotesAdd (2).png" alt=""><figcaption><p>Sonoran CMS - Add Clock In Note</p></figcaption></figure>
+
+When you're satisfied with your note, press enter to add it to your shift.
+
+<figure><img src="../../.gitbook/assets/CMS_ClockedInNotesAdded.png" alt=""><figcaption><p>Sonoran CMS - Clock In Note</p></figcaption></figure>
 
 ### Viewing Clock In/Out History
 
-You can view your entire clock in/out history through your community profile located on the left side menu.&#x20;
+You can view your entire Clock In/Out history through your community profile located on the left side menu. You can also download any shift's data as a `.txt` file or view Clock In Notes by clicking the buttons on the right.
 
-![Sonoran CMS - Community Profile](../../.gitbook/assets/brave\_p7w2GCSXGl.png)
+![Sonoran CMS - Community Profile](../../.gitbook/assets/CMS\_ClockInOutHistory.png)

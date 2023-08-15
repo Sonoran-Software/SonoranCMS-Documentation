@@ -8,7 +8,7 @@ description: Customize your community's settings, branding, information, and mor
 
 ### Community Information
 
-The admin customization info section allows you to customize your community's image, name, and more! These settings can be found by navigating to Administrative Panel > Community > Customization
+The admin customization info section allows you to customize your community's image, name, and more! These settings can be found by navigating to `Administrative Panel > Community > Customization`
 
 ![Sonoran CMS - Community Customization](https://i.imgur.com/AVQq90Y.png)
 
@@ -35,7 +35,7 @@ For more information, see our [pricing](https://sonorancms.com/#/pricing) or vie
 {% endhint %}
 
 Looking to change your community ID?\
-Navigate to Administrative Panel > Advanced > Limits\
+Navigate to `Administrative Panel > Advanced > Limits`\
 Click the "Change Community ID" button and enter your new community ID.
 
 ![Sonoran CMS Community Limits - Changing Community ID](https://i.imgur.com/8DLUVwx.png)
@@ -48,7 +48,7 @@ Sonoran CMS allows you to set whether your member's can customize their communit
 
 Members can customize their community names, if enabled, in their profile. And by clicking the blue outlined "Change Name" or clicking their name will then prompt to modify the community name.&#x20;
 
-<figure><img src="https://i.imgur.com/UVuI76M.png" alt=""><figcaption><p>Sonoran CMS - Changing Community Name</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_ChangeCommNameProfile.png" alt=""><figcaption><p>Sonoran CMS - Changing Community Name</p></figcaption></figure>
 
 ### Member On Join Settings
 

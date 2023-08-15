@@ -6,6 +6,8 @@ description: >-
 
 # Community Profile
 
+{% embed url="https://www.youtube.com/watch?v=c7-dARy7xaI" %}
+
 ![Sonoran CMS - Community Profile](https://i.imgur.com/wXLmV2I.png)
 
 {% embed url="https://www.youtube.com/watch?v=RMmez4o3hp0" %}

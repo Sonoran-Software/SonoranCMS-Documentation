@@ -12,4 +12,4 @@ description: >-
 
 In the admin page, select "Advanced" > "Limits" to view your community limitations.
 
-![](https://i.imgur.com/epxB8oK.png)
+![Sonoran CMS - Limits View](https://i.imgur.com/epxB8oK.png)

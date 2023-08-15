@@ -6,11 +6,13 @@ description: >-
 
 # Profile Fields
 
-<figure><img src="https://i.imgur.com/TU0uGGL.png" alt=""><figcaption><p>Sonoran CMS - Profile View - Profile Information / Profile Fields</p></figcaption></figure>
+{% embed url="https://www.youtube.com/watch?v=f7kPZXi1Fdc" %}
+
+<figure><img src="../../.gitbook/assets/CMS_ProfileOverview.png" alt=""><figcaption><p>Sonoran CMS - Profile View - Profile Information / Profile Fields</p></figcaption></figure>
 
 Profile Fields allow communities to put direct information onto member's profiles that can be restricted to certain viewers, editors, etc. with rank permissions. Profile Fields are dynamically displayed on profiles depending on what ranks the profile you're viewing holds.
 
-<figure><img src="https://i.imgur.com/PvTcXm8.png" alt=""><figcaption><p>Sonoran CMS - Profile Fields Editor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_ProfileFieldsEditor.png" alt=""><figcaption><p>Sonoran CMS - Profile Fields Editor</p></figcaption></figure>
 
 Easily create and edit profile fields to your liking to fit your community's needs. Each field can be customized to have a different type and label with more to come in the future.
 
@@ -46,11 +48,11 @@ Below we've outlined each permission and how they work with fields:
 
 ### Editing Profile Fields
 
-<figure><img src="https://i.imgur.com/UqZwgkX.png" alt=""><figcaption><p>Sonoran CMS - Member Profile - Hover on Profile Field</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_ProfileFields_InitiateEditingWide (1).png" alt=""><figcaption><p>Sonoran CMS - Member Profile - Hover on Profile Field</p></figcaption></figure>
 
 While viewing a profile you can hover over them to determine if you have edit permissions or not. Hovering over a field that you can edit will display the tooltip as shown above.
 
-<figure><img src="https://i.imgur.com/RAJWdsV.png" alt=""><figcaption><p>Sonoran CMS - Member Profile - Editing Profile Field</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_EditProfileField_Nickname2.png" alt=""><figcaption><p>Sonoran CMS - Member Profile - Editing Profile Field</p></figcaption></figure>
 
 Once you've clicked a field it will give you a pop-up to begin editing the field's value. Depending on what field type it is it will display the relevant field input type. Once you're satisfied with the fields new value you can click the green **Save** button to save it on the profile.
 
@@ -64,4 +66,4 @@ To edit, click the "Expand" expansion located under the Profile Field Label. Thi
 **TIP:** You can organize the order in which the entries are sorted by dragging and dropping them in the order of your preference.
 {% endhint %}
 
-<figure><img src="https://i.imgur.com/8QkrQkn.png" alt=""><figcaption><p>Editing a Text Array Profile Field within Profile</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_EditProfileField_TextArray.png" alt=""><figcaption><p>Editing a Text Array Profile Field within Profile</p></figcaption></figure>

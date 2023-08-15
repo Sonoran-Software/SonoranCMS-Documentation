@@ -6,6 +6,8 @@ description: >-
 
 # Managing Forms
 
+{% embed url="https://www.youtube.com/watch?v=nyDLlEtGS9w" %}
+
 The "**Admin Delete**" permission granted under the "**Forms**" permission section allows users to delete and manage deleted forms. Once a form is "deleted" it will no longer be recognized in the system as "valid", these "deleted" forms are filtered separately from all other forms.
 
 {% hint style="info" %}
