@@ -10,6 +10,6 @@ description: >-
 
 ### Administration Panel > Advanced > Limits
 
-In the admin page, select "Advanced" > "Limits" to view your community limitations.
+In the admin page, under `Advanced` click `Limits` to view your community limitations.
 
 ![Sonoran CMS - Limits View](https://i.imgur.com/epxB8oK.png)

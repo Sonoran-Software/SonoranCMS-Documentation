@@ -11,11 +11,11 @@ Once in that section, enter the information corresponding to your TeamSpeak serv
 * **Server Port**: The port you use to connect to your TeamSpeak, which is by default 9987. (This will always be different from the Query Port)
 * **ServerQuery Username/Password:** Check the section below for creating a serverquery login
 
-<figure><img src="https://i.imgur.com/g3Bhbnd.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/g3Bhbnd.png" alt=""><figcaption><p>Sonoran CMS - TeamSpeak Integration Settings</p></figcaption></figure>
 
 Once you put all the TeamSpeak information into the inputs, click the **Save Integration Settings** button to save. If something is wrong, it'll display an error at the top of your screen that identifies the issue. If all correct, you should see:
 
-<figure><img src="https://i.imgur.com/UOSLFV1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/UOSLFV1.png" alt=""><figcaption><p>Sonoran CMS - Configuration Successful</p></figcaption></figure>
 
 ## Creating a Server Query Login
 
@@ -25,15 +25,15 @@ This method is the easiest for creating a server query login, but the permission
 
 1. While connected to your TeamSpeak server, go to the **Top Toolbar -> Tools -> ServerQuery Login**
 
-<figure><img src="https://i.imgur.com/1lZcMiC.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/1lZcMiC.png" alt="" width="563"><figcaption><p>TeamSpeak - ServerQuery Login</p></figcaption></figure>
 
 2. Enter any preferred username into the "Name" field of the popup and click **OK**
 
-<figure><img src="https://i.imgur.com/QbX35nM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/QbX35nM.png" alt=""><figcaption><p>TeamSpeak - ServerQuery Name</p></figcaption></figure>
 
 3. In the new popup, the "Name" field is your username is the "Password" is your server query password. Note that you will lose the password if you close the popup without saving it.
 
-<figure><img src="https://i.imgur.com/BbcDNFl.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/BbcDNFl.png" alt=""><figcaption><p>TeamSpeak - ServerQuery Password</p></figcaption></figure>
 
 ### The serveradmin Method (Self-Hosted Only)
 

@@ -4,7 +4,7 @@ description: >-
   join an existing one.
 ---
 
-# Registering Your Account
+# Account Registration
 
 {% hint style="info" %}
 If you already have an account on [sonorancad.com](https://sonorancad.com/) and/or [account.sonoransoftware.com](https://account.sonoransoftware.com) you can simply [login](https://sonorancms.com/#/login) instead of creating an account.
@@ -30,7 +30,7 @@ Account verification emails may not be shown in your primary inbox.
 If you're having trouble finding the email, check your spam, junk, promotions, or all mail folder.
 {% endhint %}
 
-Check your inbox for an email from Sonoran CAD.\
+Check your inbox for an email from Sonoran CMS.\
 \
 Select the "Verify Email" button, and your account will be automatically verified.
 

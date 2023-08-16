@@ -2,7 +2,7 @@
 
 You can enable role syncing with TeamSpeak after setting up the connection by checking the **Enable Role Sync** button on the TeamSpeak 3 Integration Admin Page.
 
-<figure><img src="https://i.imgur.com/Iy8Upi6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/Iy8Upi6.png" alt=""><figcaption><p>Sonoran CMS- TS Role Sync Enabled</p></figcaption></figure>
 
 ## Adding a Rank
 
@@ -10,9 +10,9 @@ Steps for adding a rank that is associated with a group on your TeamSpeak server
 
 1. Click the **Add Mapping** button on the CMS admin panel
 
-<div align="left">
+<div align="center">
 
-<figure><img src="https://i.imgur.com/XWsSy2y.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/XWsSy2y.png" alt=""><figcaption><p>Sonoran CMS - Add Mapping</p></figcaption></figure>
 
 </div>
 
@@ -20,7 +20,7 @@ Steps for adding a rank that is associated with a group on your TeamSpeak server
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/NZRNdnm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/NZRNdnm.png" alt=""><figcaption><p>Sonoran CMS - Rank Selection</p></figcaption></figure>
 
 </div>
 
@@ -31,7 +31,7 @@ Steps for adding a rank that is associated with a group on your TeamSpeak server
 
     <div align="left">
 
-    <figure><img src="https://i.imgur.com/H608nba.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://i.imgur.com/H608nba.png" alt=""><figcaption><p>TeamSpeak - Group IDs</p></figcaption></figure>
 
     </div>
 

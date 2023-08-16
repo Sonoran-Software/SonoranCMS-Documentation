@@ -18,7 +18,7 @@ The Sonoran CMS Forum System is a custom page element allowing you to create and
 
 ### Creating Forum Categories & Adding Forum Elements
 
-To create a Forum Category navigate to the Custom Page Editor located at Administrative Panel > Customization > Custom Page Editor. Once you've located the editor, add a **Forum Section** to your Custom Page.
+To create a Forum Category navigate to the Custom Page Editor located at `Administrative Panel > Customization > Custom Page Editor`. Once you've located the editor, add a **Forum Section** to your Custom Page.
 
 Now that you added a Forum Section you can select from existing Forum Categories or create a new one. If you're looking to create a category, simply click the blue **CREATE** button. This will display a popup with various inputs, fill in the category label and select the permission preferences that apply. Once the category fits the needs that you like click the green outline **SAVE** button.
 
