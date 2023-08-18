@@ -10,6 +10,63 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.55 (Beta) Unreleased
+
+{% tabs %}
+{% tab title="New" %}
+[**Rosters Editor**](../tutorials/user-management/creating-custom-rosters.md)
+
+* UI was completely reworked to be more interactive and user-friendly
+* Community Statuses has been moved to the Roster Editor and rebranded to Roster Statuses
+
+[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+
+* Vehicle management dialogs with user/character information is now hyperlinked to manage the character that the vehicle belongs to
+
+**Toolbar**
+
+* You can now set a button destination to _QBCore Game Panel_
+{% endtab %}
+
+{% tab title="Changed" %}
+**Footer**
+
+* Now forced to the bottom of the screen when there's not enough content on the page
+
+[**Forms**](../tutorials/forms/creating-custom-forms.md)
+
+* You can now reorder forms in and out of folders by simply dragging and dropping to the desired position
+
+**Toolbar**
+
+* Drop downs on mobile will no longer show if there's no options in the dropdown
+
+[**Website Builder - Gallery**](../tutorials/community-website/gallery-system.md)
+
+* New gallery categories will now automatically have one image created with it
+{% endtab %}
+
+{% tab title="Fixed" %}
+[**Drive**](../tutorials/your-drive-and-documents.md)
+
+* Preview images were not getting generated upon saves
+* Manually saving (Ctrl + S) a document, slideshow, etc. would throw an error despite successfully saving
+
+[**Clock In/Out**](../tutorials/forms/clock-in-out-system.md)
+
+* Adding a clock in/out note after clocking in would add the note to the clock in/out previously created
+
+[**Profile - Change Name**](../tutorials/user-management/viewing-a-community-profile.md)
+
+* Despite having the _Allow Members to Customize Name_ users wouldn't be able to change their name
+
+**Calendar**
+
+* RSVPing for an event wouldn't do anything when clicking the button
+* _Irregular_ - Calendar event times would be initially incorrect after creation&#x20;
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.54 (Beta) 8/15/2023
 
 {% tabs %}
