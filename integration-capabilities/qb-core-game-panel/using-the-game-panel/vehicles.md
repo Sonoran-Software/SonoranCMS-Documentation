@@ -25,3 +25,36 @@ Selecting `Add Vehicle` at the top right allows you to create a new vehicle and 
 Select any vehicle to modify it's information, transfer ownership, repair it, or delete it from the server.
 
 <figure><img src="../../../.gitbook/assets/image (23).png" alt="" width="286"><figcaption></figcaption></figure>
+
+## Supported Garage Scripts
+
+Currently, Sonoran CMS supports the following QB Core garage scripts:
+
+* QB (Base) Garages
+* Codesign Garage
+* Quasar Advanced Garages
+
+You can suggest more integrations on our [support portal](https://support.sonoransoftware.com) or if you would like to add the support yourself, simply paste this code snippet in any **SERVER-sided** file in your garage resource.&#x20;
+
+```lua
+local function getAllGarages()
+    local garages = {}
+    for k, v in pairs(Config.Garages) do
+        garages[#garages+1] = {
+            name = k,
+            label = v.label,
+            type = v.type,
+            takeVehicle = v.takeVehicle,
+            putVehicle = v.putVehicle,
+            spawnPoint = v.spawnPoint,
+            showBlip = v.showBlip,
+            blipName = v.blipName,
+            blipNumber = v.blipNumber,
+            blipColor = v.blipColor,
+            vehicle = v.vehicle
+        }
+    end
+    return garages
+end
+exports('getAllGarages', getAllGarages)
+```
