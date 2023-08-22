@@ -4,16 +4,6 @@ description: Easily manage in-game items with the CMS QB Core management panel!
 
 # Items
 
-## Supported Inventory Scripts
-
-Currently, Sonoran CMS supports the following QB Core inventory scripts:
-
-* QB (Base) Inventory
-* Ox Inventory
-* Quasar Inventory
-
-You can suggest more integrations on our [support portal](https://support.sonoransoftware.com).
-
 ## Managing Items
 
 Click any item row to initiate editing.
