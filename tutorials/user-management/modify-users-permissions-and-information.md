@@ -14,7 +14,7 @@ Make sure that you've viewed the [**Creating Departments**](creating-departments
 
 ## Navigate to the Accounts Panel
 
-#### Administrative Panel > Accounts
+To access the "Accounts Panel", head to `Administrative Panel > User Accounts`
 
 Within this "Accounts Panel" is where you'll be able to see every user that has joined your community. From here you can click each row to edit their information and permissions.
 

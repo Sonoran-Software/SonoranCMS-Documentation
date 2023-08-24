@@ -8,13 +8,13 @@ description: Create your own community website entirely within Sonoran CMS!
 
 {% embed url="https://www.youtube.com/watch?v=AFE5MlECQSg" %}
 
-To access the website builder, navigate to `Administration Panel -> Community-> Website Builder`
+To access the website builder, navigate to `Administration Panel > Website Builder`
 
 ## Page Editing
 
 To start editing a page, either add a new page or click on an existing page in the page to open up the page editor.
 
-![Sonoran CMS - Page Editor](../../.gitbook/assets/CMS\_WB\_CustomPage3.png)
+![Sonoran CMS - Page Editor](../../.gitbook/assets/CMS\_WebsiteBuilder2.png)
 
 ## View Your Page
 
@@ -102,7 +102,7 @@ Sonoran CMS allows you to customize the top toolbar with buttons to link your us
 
 ![Sonoran CMS - Toolbar Customization](../../.gitbook/assets/CMS\_WB\_ToolbarCustCrop2.png)
 
-To customize your community's toolbar head over to the **Administrative Panel** > **Community** > **Website Builder**. From there you can add buttons, dropdowns and community image with various options. Each button and drop down option has a label and link associated with it, with these set they will be displayed to all community users. Header Design will let you customize the group alignment, background color and admin cog setting. You can also drag and drop elements to change the display order. Make sure you click **Save** before leaving this page.
+To customize your community's toolbar head over to the `Administrative Panel > Website Builder`. From there you can add buttons, dropdowns and community image with various options. Each button and drop down option has a label and link associated with it, with these set they will be displayed to all community users. Header Design will let you customize the group alignment, background color and admin cog setting. You can also drag and drop elements to change the display order. Make sure you click **Save** before leaving this page.
 
 ## HTML Elements Limits
 

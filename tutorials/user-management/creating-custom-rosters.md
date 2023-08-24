@@ -10,7 +10,7 @@ description: >-
 
 ## Accessing the Roster Editor
 
-To access the "Roster Editor", navigate to `Administrative Panel > Community > Rosters`
+To access the "Roster Editor", navigate to `Administrative Panel > Rosters`
 
 ![Sonoran CMS - Roster Editor Overview](../../.gitbook/assets/CMS\_RosterEditor.png)
 

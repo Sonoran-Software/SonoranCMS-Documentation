@@ -8,7 +8,7 @@ description: Customize your community's settings, branding, information, and mor
 
 ### Community Information
 
-The admin customization info section allows you to customize your community's image, name, and more! These settings can be found by navigating to `Administrative Panel > Community > Customization`
+The admin customization info section allows you to customize your community's image, name, and more! These settings can be found by navigating to `Administrative Panel > Customization`
 
 ![Sonoran CMS - Community Customization](https://i.imgur.com/AVQq90Y.png)
 
@@ -35,7 +35,7 @@ For more information, see our [pricing](https://sonorancms.com/#/pricing) or vie
 {% endhint %}
 
 Looking to change your community ID?\
-Navigate to `Administrative Panel > Advanced > Limits`\
+Navigate to `Administrative Panel > Limits`\
 Click the "Change Community ID" button and enter your new community ID.
 
 ![Sonoran CMS Community Limits - Changing Community ID](https://i.imgur.com/8DLUVwx.png)

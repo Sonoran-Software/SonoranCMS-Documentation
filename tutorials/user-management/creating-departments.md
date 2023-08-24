@@ -4,13 +4,13 @@ description: >-
   to start creating departments. Learn more below
 ---
 
-# Creating Ranks & Departments
+# Creating Ranks
 
 {% embed url="https://www.youtube.com/watch?v=QBcJdXYmMjU" %}
 
 ## Accessing the Rank Manager
 
-#### Administrative Panel > Community > Ranks
+To access the "Rank Manager", head to `Administrative Panel > Ranks`
 
 Within this Ranks panel you'll be able to create departments and ranks  your members, this will be the central panel for deciding permissions based on "ranks", when new, removed, or modified Custom Forms, Calendar Categories, and Rosters will be reflected with available permissions under each rank.
 
@@ -55,10 +55,10 @@ Rank permissions can be assigned using the same method as department permissions
 * **"System"** permissions are for general administration (e.g. kick, ban, clock in & out).
 * **"Navigation"** permissions are for viewing navigation buttons.
 * **"Forms"** permissions are for the custom forms.
-* **"Rosters"** permissions are based on the custom records made in Administrative Panel > Customization > Custom Roster Editor.
-* **"Calendars"** permissions are based on the calendar categories made in Administrative Panel > Customization > Customization.
-* **"Profile Fields"** permissions are based on the Profile Fields created in the Administrative Panel > Customization > Profile Fields Editor.
-* **"Servers"** permissions are based on the API Integration servers made in Administrative Panel > Advanced > API Integration.
+* **"Rosters"** permissions are based on the custom records made in `Administrative Panel > Rosters`.
+* **"Calendars"** permissions are based on the calendar categories.
+* **"Profile Fields"** permissions are based on the Profile Fields created in the `Administrative Panel > Profile Fields`.
+* **"Servers"** permissions are based on the API Integration servers made in `Administrative Panel > Integrations`.
 
 <figure><img src="../../.gitbook/assets/CMS_RankPerms.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Rank Permissions</p></figcaption></figure>
 
