@@ -1,5 +1,7 @@
 # Getting Started
 
+{% embed url="https://www.youtube.com/watch?v=eoI5ah6amf4" %}
+
 ## Setting up the Connection
 
 To begin, head to the **Admin Panel -> Advanced -> TeamSpeak3 Integration**

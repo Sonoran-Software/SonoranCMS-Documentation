@@ -1,5 +1,7 @@
 # Adding Ranks
 
+{% embed url="https://www.youtube.com/watch?v=eoI5ah6amf4" %}
+
 You can enable role syncing with TeamSpeak after setting up the connection by checking the **Enable Role Sync** button on the TeamSpeak 3 Integration Admin Page.
 
 <figure><img src="https://i.imgur.com/Iy8Upi6.png" alt=""><figcaption><p>Sonoran CMS- TS Role Sync Enabled</p></figcaption></figure>

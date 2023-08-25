@@ -1,5 +1,7 @@
 # Adding your TeamSpeak UID
 
+{% embed url="https://www.youtube.com/watch?v=eoI5ah6amf4" %}
+
 ## Finding your TeamSpeak UID
 
 1. Press `CTRL+I` or `CMD+I` while in TeamSpeak to open the Identities popup

@@ -6,7 +6,7 @@ description: >-
 
 # Creating Rosters
 
-{% embed url="https://www.youtube.com/watch?v=OnbKulyiTU4" %}
+{% embed url="https://www.youtube.com/watch?v=ANJj0AM-SLc" %}
 
 ## Accessing the Roster Editor
 
