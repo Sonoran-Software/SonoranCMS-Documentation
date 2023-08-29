@@ -10,6 +10,53 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.56 (Beta) 8/29/2023
+
+{% tabs %}
+{% tab title="New" %}
+[**Discord Webhooks**](../integration-capabilities/discord-webhooks.md)
+
+The input system for webhooks has been completely reworked and streamlined for a easier setup and management. Now you can select channels pulled from all Discord guilds the Sonoran Bot is setup for with your community.
+
+* Auto-save functionality is now smoother and more efficient
+* Setup process is now outlined within the UI
+
+[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+
+Several aspects of the game panel have been improved upon for a better UI/UX.
+
+* More consistent styling throughout pages
+* Viewing a character now shows owned vehicles
+* Viewing characters on the Players page will now show basic information
+  * Cash & Bank Balances&#x20;
+  * Jobs&#x20;
+* Resources page now supports folders&#x20;
+
+**Community Account Unique IDs**
+
+All users within communities are now automatically assigned a unique numerical ID upon join, existing communities automatically assigned IDs. Easily track users within your community with a much easier identifier to track that NEVER changes.
+
+* Unique IDs are shown on the Community Profile, Forums, Account Viewer, Submitted Forms, etc.
+{% endtab %}
+
+{% tab title="Changed" %}
+[**Sonoran CAD Integration**](../integration-capabilities/sonoran-cad-sync.md)
+
+* Overall page has been reworked for a better UI/UX
+* Setup process have been reworked to follow standardized stepper
+
+**Calendar - Categories**
+
+* Mobile UI functionality has been added
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Information Blocks**
+
+* Blocks linked for total members of a department would only count users that have the rank as a secondary, not counting primary users.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.55 (Beta) 8/18/2023
 
 {% tabs %}

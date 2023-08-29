@@ -8,52 +8,25 @@ description: >-
 
 {% embed url="https://www.youtube.com/watch?v=Y6CFMpj1LT8" %}
 
-{% hint style="warning" %}
-Currently, Discord webhooks can only be created using the Desktop version of Discord.
+{% hint style="info" %}
+**Notice:** Managing Discord Webhooks now requires Sonoran Bot as of [v0.5.56](../roadmap/changelog.md#v0.5.56-beta-pending-release)!
 {% endhint %}
 
-### 1. Open your Server Settings
-
-Open the "Server Settings" panel in the top right of your Discord server.
-
-![Discord Server Settings](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.56.54 PM.png>)
-
-### 2. Open your Discord Integrations
-
-In the server settings panel, select the “Integrations” tab.
-
-![Discord Server Settings - Integrations](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.54.04 PM.png>)
-
-### 3. View your Webhooks
-
-On the right, click to view all of your current Discord webhooks.
-
-![Discord View Webhooks](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.54.37 PM.png>)
-
-### 4. Create a New Webhook URL
-
-Select the "New Webhook" button.
-
-![Discord New Webhook](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.54.59 PM.png>)
-
-### 5. Customize the New Webhook
-
-Here, you can set the Webhook name, channel and icon.
-
-Press the "Copy Webhook URL" button to copy the webhook's URL.\
-Press the "Save Changes" button to save your new webhook in Discord.
-
-![Discord Webhook Creation & Settings](<../.gitbook/assets/Screen Shot 2020-08-20 at 10.55.39 PM.png>)
-
-### 6. Configure the Sonoran CMS Webhook
+### 1. Invite & Configure Sonoran Bot
 
 In the Sonoran CMS Administrator Panel, under Advanced select `Integrations`> `Discord`\
-Paste your Webhook URL in the desired webhook configuration box.\
+In order to configure your Sonoran CMS Webhooks you must invite and configure Sonoran Bot. Follow each step in the setup process stepper directly in the Sonoran CMS UI.
+
+<figure><img src="https://i.imgur.com/SVnephg.png" alt=""><figcaption><p>Sonoran CMS - Discord Webhook Setup - Sonoran Bot Setup</p></figcaption></figure>
+
+### 2. Configure the Sonoran CMS Webhook
+
+Select the channel you want your webhook logs to send to for each log type.\
 When you are done editing, click anywhere outside and it will automatically save any changes.
 
-![Sonoran CMS - Discord Webhook Setup](../.gitbook/assets/CMS\_DiscordIntegrationWebhooks.png)
+![Sonoran CMS - Discord Webhook Setup](https://i.imgur.com/XddDRz7.png)
 
-### 7. Role Mention
+### 3. Role Mention
 
 {% hint style="info" %}
 Copying IDs in Discord requires Developer mode to be enabled.
@@ -70,7 +43,7 @@ Example: `<@&1234567890>`
 
 <figure><img src="../.gitbook/assets/Screen Shot 2023-01-29 at 3.08.10 PM.png" alt=""><figcaption><p>Discord Role ID Copy</p></figcaption></figure>
 
-### 8. User Mention
+### 4. User Mention
 
 {% hint style="info" %}
 Copying IDs in Discord requires Developer mode to be enabled.
