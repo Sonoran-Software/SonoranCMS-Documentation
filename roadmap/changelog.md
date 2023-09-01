@@ -10,6 +10,61 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.58 (Beta) Pending Release
+
+{% tabs %}
+{% tab title="New" %}
+**Rosters**
+
+Rosters no longer require a member to be assigned to a row for Custom Rosters, you can now create rosters more than for tracking members!
+
+* Several aspects of the Rosters Editor has been improved upon for a better UI/UX
+
+[**Discord Webhooks**](../integration-capabilities/discord-webhooks.md)
+
+You can now select what roles you want to get mentioned with each Discord Webhook log, just select what ranks (supplied by Sonoran Bot) you want mentioned and they'll be sent along with each log!
+
+* Additionally, Minor UI/UX Improvements
+
+[**TeamSpeak Integration**](../integration-capabilities/teamspeak-3-role-sync/)
+
+You can now select TeamSpeak groups instead of having to manually input UIDs for each one during the role sync setup!
+
+**GTA Integration - Core**
+
+* Project Sloth Inventory Support Added
+{% endtab %}
+
+{% tab title="Changed" %}
+**Forms Editor**
+
+* Several aspects have been improved upon for a better UI/UX
+
+**Calendar**
+
+* RSVP Limit is now straight forward by selecting unlimited or inputting a desired amount
+* Several aspects have been improved upon for a better UI/UX
+
+**Toolbar Editor**
+
+* Drag-and-drop previews are now shown when moving items around your toolbar editor
+
+**User Accounts**
+
+Ranks are no longer separated by _Primary_ and _Secondary_, all ranks are now seen as the same type but are evaluated by power. You no longer need to mark ranks as a specific type and you can now easily assign ranks to users without the confusion of what type each rank is. Additionally this will ease the process with Sonoran Bot setup!
+
+Additionally, account identifiers have been combined into one group instead of separating by Primary & Secondary.
+
+[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+
+* Several aspects have been improved upon for a better UI/UX, specifically with mobile handling
+{% endtab %}
+{% endtabs %}
+
+### v0.5.57 (Beta) Non-Web Version Release 8/29/2023
+
+There was a hotfix version bump release that was sent to Web, MacOS, and Windows platforms to fix a new forms reordering issue.
+
 ### v0.5.56 (Beta) 8/29/2023
 
 {% tabs %}
