@@ -22,13 +22,13 @@ Within this "Accounts Panel" is where you'll be able to see every user that has 
 
 ## Editing Account Information
 
-If you would like to simply edit a user's account information just left-click a user's row on the User Accounts table. Doing so will bring up a dialog that will allow you to modify a user's account information by setting their Primary Rank, Identifier, etc. Setting a user's Primary Rank and/or Additional Rank(s) will assign the individual the permissions and power associated with those rank(s).
+If you would like to simply edit a user's account information just left-click a user's row on the User Accounts table. Doing so will bring up a dialog that will allow you to modify a user's account information by setting their Rank, Identifier, etc. Setting a user's rank(s) will assign the individual the permissions and power associated with those rank(s).
 
-When assigning someone secondary identifier(s) you must press enter while in the input to add the identifier.
+When assigning someone identifier(s) you must press enter while in the input to add the identifier.
 
 In order for permissions to be used the user must have a "System Status" of **ACTIVE**. Assigning a user's account "System Status" to pending will revoke all the user's permissions and limit their access to your community's CMS.
 
-![Administrative Accounts Panel - Account Information Dialog](../../.gitbook/assets/CMS\_AccInfo.png)
+![Administrative Accounts Panel - Account Information Dialog](../../.gitbook/assets/CMS\_EditAccInfo.png)
 
 ### Alternate User Accounts Table Actions
 
