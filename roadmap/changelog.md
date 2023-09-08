@@ -10,6 +10,41 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.59 (Beta) 9/8/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Account Viewer**
+
+_Multi-Account Actions_
+
+Now you can easily manage groups of accounts instead of individually updating them. You can now set ranks, kick or even ban a group of accounts all at once, allows for easier and a more streamlined user management.
+
+_Rank Filtering_
+
+Filtering and searching for the Accounts viewer has been improved, you can now filter by individual ranks and search for users by their _new_ Unique ID.
+
+[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+
+* Job Management is now achievable within Sonoran CMS, you can now edit/change the job and grades for individual accounts.
+* Search vehicle plates via the Vehicles table
+
+[**Discord Bot**](../integration-capabilities/discord-role-sync/)
+
+* Sonoran CMS community names are now able to be synced to your Discord guild(s)
+{% endtab %}
+
+{% tab title="Changed" %}
+**UI Consistency**
+
+Several aspects of the platform have been reworked for a better UI/UX while improving our overall styling consistency
+
+* Calendar UI
+* Website Builder - Modals
+* API Integrations
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.58 (Beta) 9/2/2023
 
 {% tabs %}
