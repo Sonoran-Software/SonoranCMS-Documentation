@@ -30,6 +30,21 @@ In order for permissions to be used the user must have a "System Status" of **AC
 
 ![Administrative Accounts Panel - Account Information Dialog](../../.gitbook/assets/CMS\_EditAccInfo.png)
 
+### Assign Rank to  Multiple Accounts
+
+In the `User Accounts` viewer, you can now tick the checkboxes to select multiple accounts at once. This will allow you to perform actions on multiple accounts at once.
+
+<figure><img src="../../.gitbook/assets/CMS_SelectAccs.png" alt=""><figcaption><p>Sonoran CMS - Multiple Account Selection</p></figcaption></figure>
+
+Once you have selected the desired accounts, click on the new orange `Actions` button above to open a dropdown of every action you can perform. For rank management, you have the following options:
+
+* **Set Ranks** will automatically replace all assigned ranks with whatever rank you specify
+* **Add/Remove Ranks** Allows you to add or remove any ranks to selected accounts
+
+<figure><img src="../../.gitbook/assets/CMS_MultiAccActions.png" alt=""><figcaption><p>Sonoran CMS - Multiple Account Actions</p></figcaption></figure>
+
+You can also perform administrative actions (currently Kick, Ban, and Archive) on multiple users at once through this dropdown.
+
 ### Alternate User Accounts Table Actions
 
 Instead of left-clicking a user's row you can right-click which will prompt you with two actions:
