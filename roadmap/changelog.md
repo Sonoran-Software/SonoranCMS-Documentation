@@ -10,6 +10,72 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.60 (Beta) Not Released
+
+{% tabs %}
+{% tab title="New" %}
+**Accounts - Unique ID**
+
+* You can now easily click to copy unique IDs that are displayed
+
+**Discord Bot**
+
+* CMS Name Sync have been added to the initial setup process
+
+**Website Builder**
+
+* Permissions for private pages are now directly within the Website Builder UI, allowing for easier page management without the need to modify ranks
+
+**Forums**
+
+* Forum Topics and Replies can now have text color & highlight
+{% endtab %}
+
+{% tab title="Changed" %}
+**Community Menu**
+
+* Community creation UI has been improved for better sizing and readability between screen sizes
+* Community cards are now larger and have better handling for content
+
+**Community Settings**
+
+* Several aspects have been improved upon for a better UI/UX
+
+**Website Builder**
+
+* Several aspects have been improved upon for a better UI/UX specifically for mobile
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Discord Webhooks**
+
+* Specific webhooks logs wouldn't send but general/all webhooks would send
+* Account Updated webhook embed now properly shows ranks instead of `[object Object]`
+
+**Discord Integration**
+
+* Upon initial load of the panel you would be greeted with an error if you haven't set the bot up already
+
+**Accounts - Identifiers**
+
+* Some communities wouldn't be able to add idenfitiers to accounts
+
+**Custom Forms**
+
+* Editing the header of a section wouldn't be able to be focused to edit
+
+**TeamSpeak Integration**
+
+* TeamSpeak Server Groups select wouldn't filter dispite being able to type
+
+**Custom Pages**
+
+* Tutorial help icon would show when viewing a page with a gallery component
+{% endtab %}
+{% endtabs %}
+
+
+
 ### v0.5.59 (Beta) 9/8/2023
 
 {% tabs %}
