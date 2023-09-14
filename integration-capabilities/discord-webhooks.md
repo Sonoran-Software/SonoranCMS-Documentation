@@ -21,12 +21,18 @@ In order to configure your Sonoran CMS Webhooks you must invite and configure So
 
 ### 2. Configure the Sonoran CMS Webhook
 
-Select the channel you want your webhook logs to send to for each log type.\
+Select the channel you want your webhook logs to send to for each log type\
 When you are done editing, click anywhere outside and it will automatically save any changes.
 
-![Sonoran CMS - Discord Webhook Setup](https://i.imgur.com/XddDRz7.png)
+![Sonoran CMS - Discord Webhook Setup](../.gitbook/assets/CMS\_DiscordWebhookSettings.png)
 
 ### 3. Role Mention
+
+In the middle drop down menu you can select any roles you would like to be mentioned in the webhook. You can select as many roles as you wish and this will mention these roles at the beginning of the message.
+
+<figure><img src="../.gitbook/assets/CMS_DiscordWebhookRoleMention.png" alt=""><figcaption><p>Sonoran CMS - Discord Webhook Mentions Menu</p></figcaption></figure>
+
+Alternatively, if you would like to integrate the mention into the content message, you can also manually mention roles.
 
 {% hint style="info" %}
 Copying IDs in Discord requires Developer mode to be enabled.
@@ -38,6 +44,8 @@ Go to `User Settings` > `Advanced` > `enable Developer Mode`
 To tag and mention a role in the webhook edit the `Webhook Content` box and format the mention as `<@&ID>` with `ID` being the Discord Role ID.
 
 You can copy a Discord Role ID in your Discord server's `Settings` > `Roles` > Right-Click on the role > `Copy ID`
+
+You can also right-click on any user's role in their profile popup and copy the Role ID from there.
 
 Example: `<@&1234567890>`
 

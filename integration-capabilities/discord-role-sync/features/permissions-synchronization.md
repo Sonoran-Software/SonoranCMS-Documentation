@@ -16,20 +16,9 @@ By default, **only Administrators of the Discord guild can access the commands**
 
 Users must link their Discord to their Sonoran account. This will also automatically add their Discord [API ID](../../../developer-api-documentation/api-integration/getting-started/api-id-system.md).
 
-#### Enable Discord Sync
-
-* In the Administration panel select `Advanced` -> `Integrations` -> `Discord`
-* Toggle the `Discord Bot Integration` box
-
-<figure><img src="../../../.gitbook/assets/CMS_DiscodIntegrationCircle.png" alt=""><figcaption><p>Sonoran CMS - Enable Discord Bot</p></figcaption></figure>
-
-#### Link your Discord Account
-
-Once enabled in the CMS, users who do not yet have their Discord account linked with their Sonoran account will see the following banner:
+Users who do not yet have their Discord account linked with their Sonoran account will see the following banner:
 
 <figure><img src="../../../.gitbook/assets/Screen Shot 2023-01-08 at 12.04.00 PM.png" alt=""><figcaption><p>Sonoran CMS - Link Your Discord Account</p></figcaption></figure>
-
-
 
 ### 2. Role Mapping
 

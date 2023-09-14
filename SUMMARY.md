@@ -26,6 +26,7 @@
   * [Creating Rosters](tutorials/user-management/creating-custom-rosters.md)
 * [Community Website](tutorials/community-website/README.md)
   * [Website Builder](tutorials/community-website/website-builder.md)
+  * [Toolbar Customization](tutorials/community-website/toolbar-customization.md)
   * [Forums](tutorials/community-website/forum-system.md)
   * [Image Gallery](tutorials/community-website/gallery-system.md)
   * [Navigation Permissions](tutorials/community-website/navigation-sidebar.md)

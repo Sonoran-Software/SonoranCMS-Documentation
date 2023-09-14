@@ -32,7 +32,7 @@ To begin, you can either create a new stage or add an existing stage to a form. 
 
 After pressing "Create New Stage" (or pressing "Edit" on an existing stage), you're shown an editor to modify the look and actions of that stage.
 
-If you have integrated your community with our Discord Bot, users can be pinged when a submitted form or application has changed stages.
+If you have integrated your community with our [Discord Bot](../../integration-capabilities/discord-role-sync/getting-started.md), users can be pinged when a submitted form or application has changed stages.
 
 {% hint style="info" %}
 **Stage Label** is shown when referenced in stage actions (upon execution), Form Management and Available Forms. **Internal Label** is shown when referenced anywhere in the Administrative Panel.

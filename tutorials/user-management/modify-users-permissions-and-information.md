@@ -75,3 +75,15 @@ Once you're happy with the expiration settings, just click the green "Set Expira
 {% hint style="info" %}
 Checks for rank expirations are done upon each fetch of the account and not **currently** periodically checked.
 {% endhint %}
+
+## Filtering Users by Rank
+
+In the `User Accounts` page, you can filter users by rank so that only users who hold the rank(s) you've selected will be shown.
+
+To filter by rank, open the dropdown menu to the right of where it says `User Accounts:`. In there you can department sub-menus and click on ranks to filter them. You can select multiple ranks to filter if you would like.&#x20;
+
+To clear filters, you can either click the X in the menu box, or select `No Rank Filter` in the dropdown.
+
+Below that you can alternatively choose to display Pending, Banned, or Archived members.
+
+<figure><img src="../../.gitbook/assets/CMS_RankFilter.png" alt=""><figcaption><p>Sonoran CMS - Filter Users by Rank</p></figcaption></figure>

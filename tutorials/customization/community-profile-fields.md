@@ -12,7 +12,7 @@ description: >-
 
 Profile Fields allow communities to put direct information onto member's profiles that can be restricted to certain viewers, editors, etc. with rank permissions. Profile Fields are dynamically displayed on profiles depending on what ranks the profile you're viewing holds.
 
-<figure><img src="../../.gitbook/assets/CMS_ProfileFieldsEditor.png" alt=""><figcaption><p>Sonoran CMS - Profile Fields Editor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_ProfileFieldsEditor2.png" alt=""><figcaption><p>Sonoran CMS - Profile Fields Editor</p></figcaption></figure>
 
 Easily create and edit profile fields to your liking to fit your community's needs. Each field can be customized to have a different type and label with more to come in the future.
 
