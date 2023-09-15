@@ -6,7 +6,7 @@ description: >-
 
 # Discord Webhooks
 
-{% embed url="https://www.youtube.com/watch?v=Y6CFMpj1LT8" %}
+{% embed url="https://www.youtube.com/watch?v=EsoYW-tROMs" %}
 
 {% hint style="info" %}
 **Notice:** Managing Discord Webhooks now requires Sonoran Bot as of [v0.5.56](../roadmap/changelog.md#v0.5.56-beta-pending-release)!
