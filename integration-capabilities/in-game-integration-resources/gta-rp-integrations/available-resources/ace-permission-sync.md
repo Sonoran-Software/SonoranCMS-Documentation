@@ -64,9 +64,9 @@ Due to restrictions in the way that some resources like vMenu are programmed, yo
 
 For communities on the **Plus** plan or higher, permissions can be synced instantly in-game when ranks are updated.
 
-Simply add your FiveM server's public IP address and port under Admin > Advanced > API Integration > Servers.
+Simply add your FiveM server's public IP address and at `Administrative Panel > Integrations > Sonoran CMS API > Servers`.
 
-![](<../../../../.gitbook/assets/image (13) (1).png>)
+![Sonoran CMS - API Integration Servers Tab](../../../../.gitbook/assets/CMS\_ApiIntegrationServersTab.png)
 
 ### Manual Sync
 
@@ -80,15 +80,15 @@ Individual players can run the `/refreshpermissions`command in-game to force a p
 
 ### 1. Open Department Configuration Page
 
-![](<../../../../.gitbook/assets/image (4) (1) (1) (1).png>)
+![Sonoran CMS - Departments & Ranks](../../../../.gitbook/assets/CMS\_DeptRankOverviewFull.png)
 
-### 2. Select the Rank
+### 2. Open "Rank Settings" Menu
 
-![](<../../../../.gitbook/assets/image (18).png>)
+![Sonoran CMS - Open Rank Settings Menu](../../../../.gitbook/assets/CMS\_RankSettings.png)
 
-### 3. Copy Rank ID
+### 3. Select "Copy Rank ID"
 
-![](<../../../../.gitbook/assets/image (10) (1).png>)
+![Sonoran CMS - Copy Rank ID](../../../../.gitbook/assets/CMS\_CopyRankId.png)
 
 ## Example Configuration
 

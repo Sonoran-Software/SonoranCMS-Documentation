@@ -43,12 +43,12 @@ Ensure all players have added their [API ID](../../../../developer-api-documenta
 
 ### 1. Open Department Configuration Page
 
-![](<../../../../.gitbook/assets/image (4) (1) (1) (1).png>)
+![Sonoran CMS - Departments & Ranks](../../../../.gitbook/assets/CMS\_DeptRankOverviewFull.png)
 
-### 2. Select the Rank
+### 2. Open "Rank Settings" Menu
 
-![](<../../../../.gitbook/assets/image (18).png>)
+![Sonoran CMS - Open Rank Settings Menu](../../../../.gitbook/assets/CMS\_RankSettings.png)
 
-### 3. Copy Rank ID
+### 3. Select "Copy Rank ID"
 
-![](<../../../../.gitbook/assets/image (10) (1).png>)
+![Sonoran CMS - Copy Rank ID](../../../../.gitbook/assets/CMS\_CopyRankId.png)

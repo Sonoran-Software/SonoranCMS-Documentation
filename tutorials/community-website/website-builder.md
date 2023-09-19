@@ -30,7 +30,7 @@ On public pages you can copy the URL after going to a page and share it with any
 
 ### Basic Information
 
-Through these inputs you can change the page's title, path slug, and privacy setting. As well you're able to add new sections and change the preview size of the editor to visualize different size settings.
+Through these inputs you can change the page's title, path slug, and privacy setting. Additionally, you're able to add new sections and change the preview size of the editor to visualize different size settings.
 
 <figure><img src="../../.gitbook/assets/CMS_WB_TopBar.png" alt=""><figcaption><p>Sonoran CMS - Webpage Toolbar</p></figcaption></figure>
 
@@ -70,9 +70,11 @@ Button elements can have individual styles and button group elements can have al
 
 ## Privatized Pages
 
-Pages can now be privatized and require permissions to view, now when editing a page you can change whether or not the page is private. This will then provide permissions for the page within the Department Editor.
+{% hint style="info" %}
+Only Private Pages will have customizable permissions in the Department Editor
+{% endhint %}
 
-_Only Private Pages will show in the Department Editor_.
+Pages can now be privatized and require permissions to view. When editing a page, you can select whether the page is public (and can thus be viewed by anyone in the community) or private. If you set a page as private, it will then provide permissions for the page within the Department Editor.
 
 <figure><img src="../../.gitbook/assets/CMS_WB_PageButtons (1).png" alt=""><figcaption><p>Sonoran CMS - Visibility Button</p></figcaption></figure>
 

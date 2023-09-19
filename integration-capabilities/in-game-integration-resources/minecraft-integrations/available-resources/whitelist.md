@@ -44,15 +44,15 @@ Ensure that you download the one that has `plugin` in the name.
 
 ### 2. Install the Resource
 
-Follow the standard resource installation guide for the whitelist resource, available [here](../minecraft-resource-installation.md).1
+Follow the standard resource installation guide for the whitelist resource, available [here](../minecraft-resource-installation.md).
 
 ### 3. Setup Whitelist Permissions
 
-Navigate to the Department Manager within the Administrative Panel.
+Navigate to the Rank Manager within the Administrative Panel.
 
-Administrative Panel > Customization > Department Manager
+`Administrative Panel > Ranks`
 
-![Sonoran CMS Department Manager](https://i.imgur.com/1x7EHpI.png)
+![Sonoran CMS Departments & Ranks](../../../../.gitbook/assets/CMS\_DeptRankOverviewFull.png)
 
 For users in your Sonoran CMS community to be accepted through the whitelist, they'll need to be granted permission for the whitelist through rank permissions. You will need to grant each rank the permission of **Allow Whitelist** that you want to be allowed through the whitelist. You will want to grant each rank with the permission of **Block Whitelist** if you want them to be blocked from passing through the whitelist.
 
@@ -62,7 +62,7 @@ For users in your Sonoran CMS community to be accepted through the whitelist, th
 If a user is granted both **Block Whitelist** and **Allow Whitelist** through various ranks they will be blocked from the whitelist. Block will always overrule allow.
 {% endhint %}
 
-![Sonoran CMS - Department Manager Server Permissions](https://i.imgur.com/yBjp7ZA.png)
+![Sonoran CMS - Rank Manager Server Permissions](../../../../.gitbook/assets/CMS\_WhitelistPerms.png)
 
 ### 4. Add your API ID
 

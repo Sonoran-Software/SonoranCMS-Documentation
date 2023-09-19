@@ -28,21 +28,21 @@ Click [<mark style="color:blue;">here</mark>](https://github.com/Sonoran-Softwar
 
 Follow the [standard resource installation guide](../gta-rp-resource-installation/) which uses the whitelist resource as an example.
 
-Placing it inside the [sonorancms] alongside sonorancms & sonorancms_updatehelper.
+Placing it inside the \[sonorancms] alongside sonorancms & sonorancms\_updatehelper.
 
 ### 4. Setup Whitelist Permissions
 
-Navigate to the Department Manager within the Administrative Panel.
+Navigate to the Rank Manager within the Administrative Panel.
 
-Administrative Panel > Customization > Department Manager
+`Administrative Panel > Ranks`
 
-![Sonoran CMS Department Manager](https://i.imgur.com/1x7EHpI.png)
+![Sonoran CMS - Departments & Ranks](../../../../.gitbook/assets/CMS\_DeptRankOverviewFull.png)
 
 For users in your Sonoran CMS community to be accepted through the whitelist, they'll need to be granted permission for the whitelist through rank permissions.
 
 Granting each rank the permission of **Allow Whitelist** allows those members through the whitelist.
 
-Granting each rank with the permission of **Block Whitelist** blockeds users from passing through the whitelist.
+Granting each rank with the permission of **Block Whitelist** blocks users from passing through the whitelist.
 
 {% hint style="warning" %}
 **Block Whitelist** will ALWAYS overrule **Allow Whitelist**\
@@ -50,7 +50,7 @@ Granting each rank with the permission of **Block Whitelist** blockeds users fro
 If a user is granted both **Block Whitelist** and **Allow Whitelist** through various ranks they will be blocked from the whitelist. Block will always overrule allow.
 {% endhint %}
 
-![Sonoran CMS - Department Manger Server Permissions](https://i.imgur.com/yBjp7ZA.png)
+![Sonoran CMS - Rank Manger Server Permissions](../../../../.gitbook/assets/CMS\_WhitelistPerms.png)
 
 ### 5. Add your API ID
 

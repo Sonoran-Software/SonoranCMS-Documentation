@@ -8,9 +8,9 @@ description: >-
 
 {% embed url="https://www.youtube.com/watch?v=c7-dARy7xaI" %}
 
-![Sonoran CMS - Community Profile](https://i.imgur.com/wXLmV2I.png)
+![Sonoran CMS - Community Profile](../../.gitbook/assets/CMS\_CommunityProfile.png)
 
-{% embed url="https://www.youtube.com/watch?v=RMmez4o3hp0" %}
+{% embed url="https://www.youtube.com/watch?v=RMmez4o3hp0" fullWidth="true" %}
 
 There are two ways to view a community profile, both options are listed below. One of which is accessing a profile through a roster or through the administrative panel.
 
