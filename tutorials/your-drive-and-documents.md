@@ -16,7 +16,7 @@ With your drive, you're able to create files and folders for your community. The
 This feature is currently experimental. It is known that phones and other small devices may not have the best compatibility with editing/viewing files
 {% endhint %}
 
-![Sonoran CMS - Document Editor](https://i.imgur.com/zdVfQRQ.png)
+![Sonoran CMS - Document Editor](../.gitbook/assets/CMS\_DriveDocEditMore.png)
 
 ## Your Drive
 
@@ -54,7 +54,7 @@ You can change the view mode between grid and list by using the toggle button on
 
 <div align="center">
 
-<img src="https://i.imgur.com/mnoLjLa.png" alt="Sonoran CMS - Drive List View">
+<img src="../.gitbook/assets/CMS_DriveList.png" alt="Sonoran CMS - Drive List View">
 
 </div>
 
@@ -164,9 +164,9 @@ The editor allows multiple people to edit the same document at the same time! No
 
 ## Uploading / Migrating Files
 
-<figure><img src="https://i.imgur.com/ndNb0VX.png" alt=""><figcaption><p>Sonoran CMS - Drive - Upload a Document</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CMS_DriveUploadLocal.png" alt=""><figcaption><p>Sonoran CMS - Drive - Upload a Document</p></figcaption></figure>
 
-Sonoran CMS easily allows you to upload individual files or multiple files via a ZIP. This will allow your community to easily migrate community documents and assets easily over from standard document hosting services such as Google Drive!
+Sonoran CMS easily allows you to upload individual files, multiple files via a ZIP. This will allow your community to easily migrate community documents and assets easily over from standard document hosting services such as Google Drive!
 
 ### Uploading Individual Files
 
@@ -202,7 +202,7 @@ From there you'll be able to select a ZIP file, keep in mind that the following 
 * `.wav` Audio
 * `.rpf` GTA Archive
 
-<figure><img src="https://i.imgur.com/L8gUSEA.png" alt=""><figcaption><p>Sonoran CMS - Drive - ZIP Upload Alerts</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CMS_DriveZipUpload.png" alt=""><figcaption><p>Sonoran CMS - Drive - ZIP Upload Alerts</p></figcaption></figure>
 
 Once you select the file(s) you'd like to upload click the white cloud upload icon to the right of "Upload Document". You will get alerted for all the files that were successfully uploaded from the ZIP and which ones were rejected with reason.
 
@@ -218,7 +218,7 @@ Migrating files from Google Drive to the Sonoran CMS is very easy! All you need 
 
 Sonoran CMS Drive allows files to be publicly viewable and editable with a simple share setting change and sharing the generated share link. When a file's general access is set to "Anyone with this link" it will allow anyone with that generated link access to view or edit the file. This will not require the user to sign in or to be part of your community.
 
-<figure><img src="https://i.imgur.com/pg9rokQ.png" alt=""><figcaption><p>Sonoran CMS - File Share Settings for Anyone with this link</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CMS_DriveShareSettings.png" alt=""><figcaption><p>Sonoran CMS - File Share Settings for Anyone with this link</p></figcaption></figure>
 
 If a user of your community accesses the public generated link they will be automatically redirected to view the file in your community's Drive.
 
@@ -226,10 +226,10 @@ If a user of your community accesses the public generated link they will be auto
 
 There are several file types that the Sonoran CMS Drive accepts but only handles them as _downloadable_ content that isn't for viewable use. The following file types are currently supported for _downloadable content_:
 
-* GTA Archive | .rpf
-* Audio | .wav, .mp3
-* ZIP | .zip
-* PDF | .pdf
+* `.rpf` GTA Archive
+* `.wav, .mp3` Audio
+* `.zip` ZIP
+* `.pdf` PDF
 
 <figure><img src="https://i.imgur.com/Qj42DMV.png" alt=""><figcaption><p>Sonoran CMS - Download from Drive</p></figcaption></figure>
 
