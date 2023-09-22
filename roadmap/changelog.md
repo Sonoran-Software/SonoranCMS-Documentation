@@ -10,6 +10,26 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.61 (Beta) Not Released
+
+{% tabs %}
+{% tab title="New" %}
+**User Accounts**
+
+* _Discord_ and _TeamSpeak_ IDs are now on user accounts and can be easily copied in the Accounts viewer
+* Unique IDs is now able to be copied on forum replies
+
+**Sonoran CMS API Panel**
+
+* Entire API panel has been reworked for a better UI/UX
+
+**Rank Selector**
+
+* UI improvements have been introduced for easier rank recognition
+* Component has been standardized for use within the Account Viewer
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.60 (Beta) 9/16/2023
 
 {% tabs %}
