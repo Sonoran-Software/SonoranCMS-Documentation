@@ -8,7 +8,7 @@ Sonoran CMS allows you to customize the top toolbar with buttons to link your us
 
 ![Sonoran CMS - Toolbar Customization](../../.gitbook/assets/CMS\_WB\_ToolbarCustCrop2.png)
 
-To customize your community's toolbar head over to the `Administrative Panel > Website Builder`. From there you can add buttons, dropdowns and community image with various options.&#x20;
+To customize your community's toolbar head over to the `Administrative Panel` > `Website Builder`. From there you can add buttons, dropdowns and community image with various options.&#x20;
 
 Each button and drop down option has a label and link associated with it, with these set they will be displayed to all community users.&#x20;
 

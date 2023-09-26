@@ -14,7 +14,7 @@ description: >-
 
 ### 1. Invite & Configure Sonoran Bot
 
-In the Sonoran CMS Administrator Panel, under Advanced select `Integrations`> `Discord`\
+In the Sonoran CMS Administrator Panel, under Advanced select `Integrations` > `Discord`\
 In order to configure your Sonoran CMS Webhooks you must invite and configure Sonoran Bot. Follow each step in the setup process stepper directly in the Sonoran CMS UI.
 
 <figure><img src="https://i.imgur.com/SVnephg.png" alt=""><figcaption><p>Sonoran CMS - Discord Webhook Setup - Sonoran Bot Setup</p></figcaption></figure>

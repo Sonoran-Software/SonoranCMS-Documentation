@@ -10,7 +10,7 @@ description: >-
 
 Navigate to the Custom Form Editor
 
-#### Administrative Panel > Customization > Community Forms
+`Administrative Panel` > `Forms`
 
 Within the Form Editor panel you'll be able to create custom forms designed to your liking. Although this is very similar to the Website Builder there are some specific features that have been added. For example, there are a few custom field types and premade sections that will further the functionality of your CMS.
 

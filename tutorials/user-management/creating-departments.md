@@ -10,7 +10,7 @@ description: >-
 
 ## Accessing the Rank Manager
 
-To access the "Rank Manager", head to `Administrative Panel > Ranks`
+To access the "Rank Manager", head to `Administrative Panel` > `Ranks`
 
 Within this Ranks panel you'll be able to create departments and ranks  your members, this will be the central panel for deciding permissions based on "ranks", when new, removed, or modified Custom Forms, Calendar Categories, and Rosters will be reflected with available permissions under each rank.
 
@@ -55,10 +55,10 @@ Rank permissions can be assigned using the same method as department permissions
 * **"System"** permissions are for general administration (e.g. kick, ban, clock in & out).
 * **"Navigation"** permissions are for viewing navigation buttons.
 * **"Forms"** permissions are for the custom forms.
-* **"Rosters"** permissions are based on the custom records made in `Administrative Panel > Rosters`.
+* **"Rosters"** permissions are based on the custom records made in `Administrative Panel` > `Rosters`.
 * **"Calendars"** permissions are based on the calendar categories.
-* **"Profile Fields"** permissions are based on the Profile Fields created in the `Administrative Panel > Profile Fields`.
-* **"Servers"** permissions are based on the API Integration servers made in `Administrative Panel > Integrations`.
+* **"Profile Fields"** permissions are based on the Profile Fields created in the `Administrative Panel` > `Profile Fields`.
+* **"Servers"** permissions are based on the API Integration servers made in `Administrative Panel` > `Integrations`.
 
 <figure><img src="../../.gitbook/assets/CMS_RankPerms.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Rank Permissions</p></figcaption></figure>
 

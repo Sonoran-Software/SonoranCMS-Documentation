@@ -18,7 +18,7 @@ From there, users can select your community card in the "My Communities" section
 
 All communities are given a free vanity URL which can be used to access the community directly. To join a community using this URL, users can simply navigate to that page where they will be prompted to either login and/or join the community.
 
-Communities with a Pro subscription also have the ability to set their own custom domain which users can use to join. You can set your custom domain or find your vanity URL by going to `Administration Panel > Custom Domain`.&#x20;
+Communities with a Pro subscription also have the ability to set their own custom domain which users can use to join. You can set your custom domain or find your vanity URL by going to `Administration Panel` > `Custom Domain`.&#x20;
 
 Alternatively, if they know the community ID, users can join a community by navigating to `<communityid>.sonorancms.com` as this is the format used by the vanity URL.
 
@@ -27,5 +27,5 @@ Alternatively, if they know the community ID, users can join a community by navi
 {% hint style="info" %}
 Forgot your community ID?
 
-You can find this by going to `Administration Panel  > Limits`
+You can find this by going to `Administration Panel` > `Limits`
 {% endhint %}

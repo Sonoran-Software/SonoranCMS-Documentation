@@ -10,15 +10,15 @@ description: >-
 
 ### 1. Navigate to Account Profile
 
-Navigate to your account profile, top left drop-down > Profile
+Select `Community Profile` in the dropdown below your username.
 
-![Sonoran CMS - Top Left Drop-Down](../../../.gitbook/assets/opera\_N3Yt0wreoT.png)
+![Sonoran CMS - Top Left Drop-Down](../../../.gitbook/assets/CMS\_CommProfileSelect.png)
 
 ### 2. Open API ID Settings
 
-Click API ID Settings under profile view
+Click `Settings` under profile view
 
-![Sonoran CMS - Profile View](../../../.gitbook/assets/opera\_LePu3yvhFw.png)
+![Sonoran CMS - Profile View](../../../.gitbook/assets/CMS\_ProfileSettings.png)
 
 ### 3. Enter API ID Details
 

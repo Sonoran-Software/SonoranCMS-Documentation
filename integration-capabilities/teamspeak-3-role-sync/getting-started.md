@@ -4,7 +4,7 @@
 
 ## Setting up the Connection
 
-To begin, head to `Admin Panel > Integrations > TeamSpeak`
+To begin, head to `Administrative Panel` > `Integrations` > `TeamSpeak`
 
 Once in that section, enter the information corresponding to your TeamSpeak server:
 

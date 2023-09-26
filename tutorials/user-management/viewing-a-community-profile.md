@@ -18,7 +18,7 @@ There are two ways to view a community profile, both options are listed below. O
 
 Accessing a Community Profile via the Administrative Panel is easy as viewing the Accounts panel on the Administrative Panel. Once you're on that panel you can right-click any table row which will provide you with two options, "Edit Account Information" and "View Member Profile". Select "View Member Profile", which will direct you to the user's community profile.
 
-![Sonoran CMS Administrative Panel - Accounts Panel](../../.gitbook/assets/brave\_k7Oehc1C0N.png)
+![Sonoran CMS Administrative Panel - Accounts Panel](../../.gitbook/assets/CMS\_UserAccsListRC.png)
 
 ## Accessing a Community Profile via a Roster
 

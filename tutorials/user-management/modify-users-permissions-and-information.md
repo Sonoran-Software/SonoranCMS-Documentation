@@ -14,11 +14,11 @@ Make sure that you've viewed the [**Creating Departments**](creating-departments
 
 ## Navigate to the Accounts Panel
 
-To access the "Accounts Panel", head to `Administrative Panel > User Accounts`
+To access the "Accounts Panel", head to `Administrative Panel` > `User Accounts`
 
 Within this "Accounts Panel" is where you'll be able to see every user that has joined your community. From here you can click each row to edit their information and permissions.
 
-![Administrative Accounts Panel - Utilize this panel to edit and view all users information.](../../.gitbook/assets/msedge\_iIoo3yCmvV.png)
+![Sonoran CMS - Administrative Accounts Panel - Utilize this panel to edit and view all users information.](../../.gitbook/assets/CMS\_UserAccsList.png)
 
 ## Editing Account Information
 
@@ -28,7 +28,7 @@ When assigning someone identifier(s) you must press enter while in the input to 
 
 In order for permissions to be used the user must have a "System Status" of **ACTIVE**. Assigning a user's account "System Status" to pending will revoke all the user's permissions and limit their access to your community's CMS.
 
-![Administrative Accounts Panel - Account Information Dialog](../../.gitbook/assets/CMS\_EditAccInfo.png)
+![Administrative Accounts Panel - Account Information Dialog](../../.gitbook/assets/CMS\_EditAccInfo2.png)
 
 ### Assign Rank to  Multiple Accounts
 
@@ -52,9 +52,9 @@ Instead of left-clicking a user's row you can right-click which will prompt you 
 * **"Edit Account Information"** which will pop up with the above dialog
 * **"View Member Profile"** will redirect you to the user's community profile which will provide more information.
 
-![Administrative Accounts Panel - Account Information Right Click Prompt](../../.gitbook/assets/msedge\_X25Y1aIa1a.png)
+![Sonoran CMS - Administrative Accounts Panel - Account Information Right Click Prompt](../../.gitbook/assets/CMS\_UserAccsListRC.png)
 
-![User's Community Profile - Redirected from the "View Member Profile" prompt from above](../../.gitbook/assets/msedge\_7eIuVoIkTc.png)
+![Sonoran CMS - User's Community Profile - Redirected from the "View Member Profile" prompt from above](../../.gitbook/assets/CMS\_UserProfile.png)
 
 If you have permission to edit the individuals information in the Account Viewer you can edit the member's name in their Community Profile by clicking their name or the blue pencil shown to the right of it. The pencil will only show if you have permission.
 
@@ -70,7 +70,7 @@ This will open up a dialog where you can decide whether you want the rank to exp
 
 Once you're happy with the expiration settings, just click the green "Set Expiration" button.
 
-<figure><img src="https://i.imgur.com/N5bYqeH.png" alt=""><figcaption><p>Rank Expiration Settings</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/N5bYqeH.png" alt=""><figcaption><p>Sonoran CMS - Rank Expiration Settings</p></figcaption></figure>
 
 {% hint style="info" %}
 Checks for rank expirations are done upon each fetch of the account and not **currently** periodically checked.

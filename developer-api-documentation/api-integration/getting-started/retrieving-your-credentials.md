@@ -6,8 +6,9 @@ description: All API calls must be authenticated with a community ID and API key
 
 ### Retrieving Your Credentials
 
-In the Administrative Panel, select Advanced > API Integration
+Navigate to `Administrative Panel` > `API Integration` > `Sonoran CMS API`
 
-Your community ID and API key will be listed as shown:
+You can click any box displayed to copy the corresponding information to your clipboard
 
-![](../../../.gitbook/assets/opera\_Iwp8FIFlQ1.png)
+![Sonoran CMS - API Integration](../../../.gitbook/assets/CMS\_ApiIntegrationApiTab2.png)
+

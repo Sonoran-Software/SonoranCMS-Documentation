@@ -18,7 +18,7 @@ Easily create and edit profile fields to your liking to fit your community's nee
 
 ### Creating Profile Fields
 
-To start creating profile fields go to the `Administrative Panel > Profile Fields`.
+To start creating profile fields go to the `Administrative Panel` > `Profile Fields`.
 
 Once you've located the editor you can start by clicking the green **New** button, this will enable the creation process. From here you'll customize the label, type, and options (if you have chosen the field type of **select**).
 
@@ -36,7 +36,7 @@ All existing profile fields will display on the preview profile on the right, th
 
 Profile Field Permissions are essential to managing your fields for your members, permissions create "settings" for each field that accounts abide by when viewing profiles. Understanding these permissions will allow you to better leverage the use of Profile Fields.
 
-Navigate to the `Administrative Panel > Ranks`.
+Navigate to the `Administrative Panel` > `Ranks`.
 
 Select the rank that you'd like to edit[ ](#user-content-fn-1)[^1]and review the permissions below while selecting which permissions you'd like to grant to the rank.
 
