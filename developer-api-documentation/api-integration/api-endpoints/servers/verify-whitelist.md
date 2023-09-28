@@ -18,11 +18,7 @@ API Key
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="type" type="string" %}
-GET_GAME
-
-___
-
-SERVERS
+GET\_GAME_\__SERVERS
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="data" type="array" %}

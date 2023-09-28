@@ -18,11 +18,7 @@ API Key
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" required="true" name="type" type="string" %}
-CLOCK_IN
-
-___
-
-OUT
+CLOCK\_IN_\__OUT
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" required="true" name="data" type="array" %}

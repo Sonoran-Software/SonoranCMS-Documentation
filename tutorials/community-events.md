@@ -10,7 +10,7 @@ description: This guide covers managing Calendar Events in Sonoran CMS.
 
 Community Events allow you to organize and plan events for your community to further engage with your members. Events allow you to plan the start & end time, title, description and an optional header image for each. Events also allow your members to RSVP to track who's attending your event.
 
-<figure><img src="https://i.imgur.com/Y8S3zlf.png" alt=""><figcaption><p>Sonoran CMS - Community Calendar - Event View</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CMS_CalendarOverview2.png" alt=""><figcaption><p>Sonoran CMS - Community Calendar - Event View</p></figcaption></figure>
 
 ## Create an Event
 
@@ -21,6 +21,8 @@ To create an event click the "Create Event" button along the top to the right of
 <figure><img src="../.gitbook/assets/CMS_CalendarCreateEvent.png" alt=""><figcaption><p>Sonoran CMS - Community Calendar - Create an Event Modal</p></figcaption></figure>
 
 Once you've got the create an event dialog  you can now input all of the event information that you'd like to associate with this event, once the event is created it can be edited if any information is no longer correct.
+
+<figure><img src="../.gitbook/assets/CMS_CalendarEvent.png" alt=""><figcaption><p>Sonoran CMS - Created Calendar Event</p></figcaption></figure>
 
 #### Regarding RSVP Limit
 
@@ -49,3 +51,9 @@ Once you're satisfied with all of the event details you can click the green "Sav
 ## Removing Events
 
 To remove an event simply navigate to the event and click the red trash can button located on the bottom row. Once you click it, it will be removed from the community calendar.
+
+## Discord Integration
+
+If you have linked you community to our [Discord Bot](https://info.sonoranbot.com/en/tutorials/getting-started), creating an event in CMS will automatically create an event within your community's Discord channel making it easy to coordinate community events across multiple platforms!
+
+<figure><img src="../.gitbook/assets/CMS_CalendarEventDiscord.png" alt=""><figcaption><p>Sonoran CMS - Calendar Events Discord Integration</p></figcaption></figure>

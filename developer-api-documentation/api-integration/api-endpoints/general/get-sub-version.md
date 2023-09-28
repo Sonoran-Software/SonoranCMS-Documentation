@@ -23,11 +23,7 @@ API Key
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" required="true" name="type" type="string" %}
-GET_SUB
-
-___
-
-VERSION
+GET\_SUB_\__VERSION
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" required="true" name="data" type="array" %}

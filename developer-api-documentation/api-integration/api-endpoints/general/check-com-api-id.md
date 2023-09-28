@@ -18,11 +18,7 @@ API Key
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" required="true" name="type" type="string" %}
-CHECK_COM
-
-___
-
-APIID
+CHECK\_COM_\__APIID
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" required="true" name="data" type="array" %}
