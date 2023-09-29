@@ -10,6 +10,49 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.62 (Beta) Not Released
+
+{% tabs %}
+{% tab title="New" %}
+**Profile Fields**
+
+* Permission management is now reworked and easier with direct permission management within the Profile Fields editor
+
+**Website Builder**
+
+* Drag and drop previews for when creating unique and custom web pages
+{% endtab %}
+
+{% tab title="Changed" %}
+**Mobile Improvements**
+
+* API Panel now allows scrolling instead of swapping tabs
+* Community Settings tabs are now on top for easier recognition
+* _Discord Webhooks_ are now much easier to navigate and use from a smaller device
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Community Menu**
+
+* If a community didn't have a description it would show the card as blank when hovering over it
+
+**Rosters**
+
+* Patrol logs columns should now accurately show proper hours for Custom rosters
+* Identifier columns are now able to be utilized with the new identifier system, now select an identifier to show for that row
+* Switching between rosters from direct toolbar buttons is now possible without the need of refreshing
+* Selecting a source form for patrol log hour columns will now properly display the label of the form
+
+**Form Management**
+
+* If you delete a form template you can now delete a submitted version of that form template
+
+**Website Builder**
+
+* Video elements are now able to be edited to show a different YouTube video
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.61 (Beta) 9/25/2023
 
 {% tabs %}
