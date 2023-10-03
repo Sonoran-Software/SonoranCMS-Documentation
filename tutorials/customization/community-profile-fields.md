@@ -29,22 +29,30 @@ Once you're satisfied with the customizations you made to the field you can clic
 Now that you've created a field you'll want to move onto the next section detailing the permissions associated with fields.
 
 {% hint style="info" %}
-All existing profile fields will display on the preview profile on the right, this is how they'll appear in the member profile view.
+All existing profile fields will display on the preview profile, this is how they'll appear in the member profile view.
 {% endhint %}
 
 ### Managing Profile Field Permissions
 
 Profile Field Permissions are essential to managing your fields for your members, permissions create "settings" for each field that accounts abide by when viewing profiles. Understanding these permissions will allow you to better leverage the use of Profile Fields.
 
-Navigate to the `Administrative Panel` > `Ranks`.
-
-Select the rank that you'd like to edit[ ](#user-content-fn-1)[^1]and review the permissions below while selecting which permissions you'd like to grant to the rank.
-
-<figure><img src="../../.gitbook/assets/CMS_ProfileFieldPerms.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Profile Fields Permissions</p></figcaption></figure>
-
 Below we've outlined each permission and how they work with fields:
 
-<table><thead><tr><th width="240">Permission</th><th width="509">Explanation</th></tr></thead><tbody><tr><td>Attaches to Profile</td><td>Granting this permission will attach this profile field to all member's profiles that hold this rank. This will allow anyone who views your profile to see it unless either of the next two permissions are applied.</td></tr><tr><td>Hides Field from Profile Owner</td><td>Granting this permission will hide the field from the member's profile that hold's this rank.</td></tr><tr><td>Require Mod Power to View on Profile</td><td>Granting this permission will require a member to have the "View Field on Other Profiles - Mod Power" in order to view the field on a profile.</td></tr><tr><td>Require Admin Power to View on Profile</td><td>Granting this permission will require a member to have the "View Field on Other Profiles - Admin Power" in order to view the field on a profile.</td></tr><tr><td>View Field on Other Profiles - Mod Power</td><td>Granting this permission will allow a member to view this field on a profile with "Mod Power" in mind. See above permissions for association.</td></tr><tr><td>View Field on Other Profiles - Admin Power</td><td>Granting this permission will allow a member to view this field on a profile with "Admin Power" in mind. See above permissions for association.</td></tr><tr><td>Allow Profile Owner to Edit</td><td>Granting this permission will allow the member that holds this rank to edit this field on their profile. If the "Hides Field from Profile Owner" permission is granted it will ignore this permission as it won't be visible.</td></tr><tr><td>Edit Field on Other Profiles</td><td>Granting this permission will allow the member that holds this rank to edit this field on any member profiles that their able to view.</td></tr></tbody></table>
+<table><thead><tr><th width="240">Permission</th><th width="509">Explanation</th></tr></thead><tbody><tr><td>Restrict Visibility</td><td>Only users with specified ranks are allowed to view this field.</td></tr><tr><td>Allow Editing</td><td>Users with specified ranks can edit this field.</td></tr><tr><td>Allow Others to Edit</td><td>Users with specified ranks are allowed to modify this field on another's profile.</td></tr></tbody></table>
+
+In the Profile Fields editor, you can select the specific ranks that you want to apply this permission to. Click on the profile field you would like to edit, then click on `Edit Permissions` at the bottom of the box.&#x20;
+
+This will open a box where you can select which permission you would like to modify, and within it you can select which ranks you would like to grant this permission to. In the following example, the ranks "Chief of Police", "Commander", and "Sergeant" are given permission to edit this field on their profiles.
+
+<figure><img src="../../.gitbook/assets/CMS_ProfileFieldEditPerms.png" alt=""><figcaption><p>Sonoran CMS - Profile Fields - Edit Permissions</p></figcaption></figure>
+
+You can also control these permissions from the Rank editor. To do this, navigate to `Administrative Panel` > `Ranks`.
+
+Select the rank that you'd like to edit and review the permissions below while selecting which permissions you'd like to grant to the rank.
+
+<figure><img src="../../.gitbook/assets/CMS_ProfileFieldPerms2.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Profile Fields Permissions</p></figcaption></figure>
+
+These permissions integrate with the permission settings in the Profile Fields editor, toggling a permission in the rank editor will automatically check the rank's box inside the Profile Fields permission editor.&#x20;
 
 ### Editing Profile Fields
 
@@ -67,5 +75,3 @@ To edit, click the "Expand" expansion located under the Profile Field Label. Thi
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/CMS_EditProfileField_TextArray.png" alt=""><figcaption><p>Editing a Text Array Profile Field within Profile</p></figcaption></figure>
-
-[^1]: 
