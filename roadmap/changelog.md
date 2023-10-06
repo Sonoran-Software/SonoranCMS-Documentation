@@ -10,6 +10,44 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.63 (Beta) Unreleased
+
+{% tabs %}
+{% tab title="New" %}
+[**Sonoran Bot Integration**](../integration-capabilities/discord-role-sync/)
+
+Name Sync now takes in account the name format set within Community Customization!
+
+**vMenu** **Game Panel**
+
+Now introducing the _vMenu_ Game Panel, similar to the QBCore Game Panel we've implemented a user-friendly way to manage your _vMenu_ server(s). Manage whitelisting and ace permissions directly within your Sonoran CMS community without the need to mess with config files.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Rosters & Forms Editor**
+
+Several aspects of both UI's have been improved for a better UI/UX, specifically with varying sizes.
+
+**Website Builder**
+
+Several aspects of the website builder have been improved upon and corrected for any inconsistencies and irregularities with sizing. As well, improvements to newly created elements with default data.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Website Builder**
+
+* Page permission selector would show blank/missing in some cases
+
+**Profile Fields**
+
+* Select type profile fields wouldn't be able to be selected
+
+**Community Events**
+
+* Public shared event links would unreliably load with varying conditions
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.62 (Beta) 10/2/2023
 
 {% tabs %}
