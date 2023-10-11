@@ -49,7 +49,7 @@ This can be a root domain `sonoranroleplay.com` or a subdomain `cms.sonoranrolep
 
 </div>
 
-### 2. Add a CNAME Record for your Domain
+### 2. Configure DNS Records for your Domain
 
 {% hint style="warning" %}
 **If you are unsure how to add a DNS record, you will need to contact your domain registrar.**\
@@ -60,8 +60,8 @@ Or, you may purchase a new domain name with [Sonoran Servers](https://sonoranser
 
 In your domain's DNS records, add a `CNAME` type record with:
 
-* `name` set to the subdomain or `@` for the root domain
-* `content` set to `login.sonorancms.com`.
+* `Name` set to the subdomain or `@` for the root domain
+* `Content` set to `login.sonorancms.com`.
 
 {% hint style="info" %}
 **Some DNS providers are different!**\
@@ -70,6 +70,11 @@ Check with your DNS provider if using a "root domain" (i.e. sonoranroleplay.com 
 \
 Typically it is `@` or left blank.
 {% endhint %}
+
+You will also need to add a `TXT` type record with:
+
+* `Name` set to `sonorancms_verify_domain`
+* `Content` set to your community's UUID, which is displayed in the Custom Domain prompt.
 
 The example record below sets `cms.sonoranroleplay.com` as the custom login page URL.
 
@@ -85,7 +90,7 @@ Typically the Host Name is left blank or in this case a `@` is used to point the
 
 <figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption><p>Sonoran Servers - DNS Record </p></figcaption></figure>
 
-#### 3. Save the Custom Domain
+### 3. Save the Custom Domain
 
 {% hint style="warning" %}
 When updating or changing an existing DNS record, it may take some time for the change to propagate (based on your TTL).\
