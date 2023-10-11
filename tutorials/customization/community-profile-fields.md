@@ -38,7 +38,7 @@ Profile Field Permissions are essential to managing your fields for your members
 
 Below we've outlined each permission and how they work with fields:
 
-<table><thead><tr><th width="240">Permission</th><th width="509">Explanation</th></tr></thead><tbody><tr><td>Restrict Visibility</td><td>Only users with specified ranks are allowed to view this field.</td></tr><tr><td>Allow Editing</td><td>Users with specified ranks can edit this field.</td></tr><tr><td>Allow Others to Edit</td><td>Users with specified ranks are allowed to modify this field on another's profile.</td></tr></tbody></table>
+<table><thead><tr><th width="240">Permission</th><th width="509">Explanation</th></tr></thead><tbody><tr><td>Restrict Visibility</td><td>Only users with specified ranks are allowed to view this field.</td></tr><tr><td>Allow Editing</td><td>Users are allowed to edit this field on their profile.</td></tr><tr><td>Allow Others to Edit</td><td>Users with specified ranks are allowed to modify this field on another's profile.</td></tr></tbody></table>
 
 In the Profile Fields editor, you can select the specific ranks that you want to apply this permission to. Click on the profile field you would like to edit, then click on `Edit Permissions` at the bottom of the box.&#x20;
 

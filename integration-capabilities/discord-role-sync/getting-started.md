@@ -22,11 +22,12 @@ You must have the "Manage Server" permission to add bots; plus any permissions t
 
 ### 2. Run the Setup command
 
-* After inviting the bot, run the `/setup` command.
+* After inviting the bot, run the `/settings` command.
+* Select a logging channel from the dropdown.
 * Enter your [Sonoran CMS ID and API key](../../developer-api-documentation/api-integration/getting-started/#gather-your-credentials).
 * (OPTIONAL) Enter your [Sonoran CAD ID and API key](https://info.sonorancad.com/sonoran-cad/api-integration/getting-started/retrieving-your-credentials).
 
-<figure><img src="../../.gitbook/assets/Screenshot_11.png" alt=""><figcaption><p>Sonoran Discord Bot - Setup </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Bot_SetupPage.png" alt=""><figcaption><p>Sonoran Discord Bot - Setup </p></figcaption></figure>
 
 You will then be presented with the results of the setup.
 
