@@ -60,7 +60,7 @@ Due to restrictions in the way that some resources like vMenu are programmed, yo
 
 For communities on the **Plus** plan or higher, permissions can be synced instantly in-game when ranks are updated.
 
-Simply add your FiveM server's public IP address and at `Administrative Panel > Integrations > Sonoran CMS API > Servers`.
+Simply add your FiveM server's public IP address and at `Administrative Panel` > `Integrations` > `Sonoran CMS API` > `Servers`.
 
 ![Sonoran CMS - API Integration Servers Tab](../../../../../.gitbook/assets/CMS\_ApiIntegrationServersTab.png)
 
