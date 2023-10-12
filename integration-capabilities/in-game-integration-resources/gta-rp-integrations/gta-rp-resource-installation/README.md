@@ -17,18 +17,17 @@ Download the resource from its repository. These are found under its resource pa
 ### 2. Extract
 
 {% hint style="warning" %}
-All plugins for FiveM require the [Core](../available-resources/core.md) to start.
+All plugins for FiveM require the [Core](../available-resources/core/) to start.
 {% endhint %}
 
-Extract the resource to your server resources folder in the folder named [sonorancms] that comes with the download of Core so it sits alongside sonorancms & sonorancms_updatehelper.
+Extract the resource to your server resources folder in the folder named \[sonorancms] that comes with the download of Core so it sits alongside sonorancms & sonorancms\_updatehelper.
 
-![](../../../../.gitbook/assets/%5Bsonorancms%5D%20folder.png)
+![](<../../../../.gitbook/assets/\[sonorancms] folder.png>)
 
 ### 3. Add resource to server.cfg
 
 Add `ensure sonorancms` to your server.cfg and restart your server!
 
 {% hint style="danger" %}
-It is very important that the sonorancms_updatehelper resource is not started manually. Doing so may cause a server crash if updates are available due to a race condition.
-DO NOT start the whole [sonorancms] folder as that will also start the sonorancms_updatehelper which might cause crashing if it is started manually. Example of not what to do ensure [sonorancms]
+It is very important that the sonorancms\_updatehelper resource is not started manually. Doing so may cause a server crash if updates are available due to a race condition. DO NOT start the whole \[sonorancms] folder as that will also start the sonorancms\_updatehelper which might cause crashing if it is started manually. Example of not what to do ensure \[sonorancms]
 {% endhint %}

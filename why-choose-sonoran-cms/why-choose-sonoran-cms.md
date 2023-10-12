@@ -47,15 +47,15 @@ Whether it's your own patrol log system with automatic hour calculations, an ext
 
 ![Sonoran CMS - Custom Forms](<../.gitbook/assets/CMS\_WebBuilder (1).png>)
 
-## ✅ [In-Game Whitelisting](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/whitelist.md)
+## ✅ [In-Game Whitelisting](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/whitelist.md)
 
-Sonoran CMS is your single point of management for in-game whitelisting! Automatically whitelist players based on CMS rank for [FiveM](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/whitelist.md), [Minecraft](../integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](../integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
+Sonoran CMS is your single point of management for in-game whitelisting! Automatically whitelist players based on CMS rank for [FiveM](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/whitelist.md), [Minecraft](../integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](../integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
 
 ![Sonoran CMS - Whitelist Management](../.gitbook/assets/CMS\_Whitelist.png)
 
-## 🚫 [GTA RP ACE Permissions Management](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/ace-permission-sync.md)
+## 🚫 [GTA RP ACE Permissions Management](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/ace-permission-sync.md)
 
-Sonoran CMS allows you to manage all GTARP user permissions with [Ace Permissions Sync](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/ace-permission-sync.md)!
+Sonoran CMS allows you to manage all GTARP user permissions with [Ace Permissions Sync](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/ace-permission-sync.md)!
 
 Sonoran CMS is your single point of management for your community!
 

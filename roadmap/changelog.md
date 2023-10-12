@@ -10,7 +10,7 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.63 (Beta) Unreleased
+### v0.5.63 (Beta) 10/11/2023
 
 {% tabs %}
 {% tab title="New" %}
@@ -21,6 +21,8 @@ Name Sync now takes in account the name format set within Community Customizatio
 **vMenu** **Game Panel**
 
 Now introducing the _vMenu_ Game Panel, similar to the QBCore Game Panel we've implemented a user-friendly way to manage your _vMenu_ server(s). Manage whitelisting and ace permissions directly within your Sonoran CMS community without the need to mess with config files.
+
+* Whitelisting & Ace Permission Sync configuration now integrated within the UI&#x20;
 {% endtab %}
 
 {% tab title="Changed" %}
@@ -415,7 +417,7 @@ All users within communities are now automatically assigned a unique numerical I
 
 [**Integrations**](broken-reference)
 
-* [GTA RP - CMS Core](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core.md)
+* [GTA RP - CMS Core](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/)
   * You can now download the GTA RP CMS Core directly from the Integrations Portal, it will be downloaded with your community credentials already inputted into your config.
 {% endtab %}
 
@@ -2131,7 +2133,7 @@ Dashboard URL Handling
 {% endtab %}
 
 {% tab title="Changed" %}
-[FiveM Whitelist Resource](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/whitelist.md)&#x20;
+[FiveM Whitelist Resource](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/whitelist.md)&#x20;
 
 * The cache backup handling was updated to follow standards with the rest of the resource, now fully using [Sonoran.js](https://www.npmjs.com/package/@sonoransoftware/sonoran.js).
 {% endtab %}
@@ -2206,7 +2208,7 @@ Rosters
 
 {% tabs %}
 {% tab title="New" %}
-[Permissions Sync](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/ace-permission-sync.md)
+[Permissions Sync](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/ace-permission-sync.md)
 
 * A new integration resource was added to allow syncing of permissions between Sonoran CMS and your in-game server.
 * Easily manage your in-game permissions by mapping them to specific Sonoran CMS ranks.&#x20;

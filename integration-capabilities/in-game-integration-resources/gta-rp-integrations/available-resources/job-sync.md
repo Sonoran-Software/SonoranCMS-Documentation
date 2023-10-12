@@ -16,7 +16,7 @@ This resource is a in-game way of automatically syncing jobs and ranks to match 
 
 ### 1. Download the Core Resource
 
-This resource requires the [CMS core](core.md) for push event handling and API key configuration.
+This resource requires the [CMS core](core/) for push event handling and API key configuration.
 
 ### 2. Download the Resource
 
