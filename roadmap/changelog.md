@@ -10,6 +10,49 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.64 (Beta) 10/16/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Mobile Improvements**
+
+* Color styling is now more consistent in the Forms Editor
+* Form Settings are now a popup modal instead of a drop-down button
+* New element selection has been reworked for an improved UI/UX
+* Accounts Viewer has been improved for easier mobile UI/UX
+* **Rosters** now mimic the Forms Editor styling and functionality with reworked UI/UX
+* QBCore Game Panel navigation is now easier to use with more consistent styling
+{% endtab %}
+
+{% tab title="Changed" %}
+**Website Builder**
+
+* Section and element backgrounds support transparency now
+* Text elements support hyperlinks
+
+**Form Management**
+
+* Filtering is now persistent, once you change filtering it will be locally saved upon the next visit to the page.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Website Builder**
+
+* Section backgrounds would only display on the editor and not on the viewable page
+* Button styles wouldn't save on the editor and wouldn't display on the viewable page
+* Text elements when created when have alignment issues with the builder vs the viewable page
+
+**Discord Integration**
+
+* Invite Sonoran Bot button will now properly let you invite the Discord bot
+* Admin - General webhooks would unreliably trigger
+
+**Ranks Editor**
+
+* Editing a department would unreliably save
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.63 (Beta) 10/11/2023
 
 {% tabs %}
