@@ -34,7 +34,7 @@ Locate the whitelist module within your `[sonorancms]/sonorancms/server/modules`
 
 Navigate to the Rank Manager within the Administrative Panel.
 
-`Administrative Panel > Ranks`
+`Administrative Panel` > `Ranks`
 
 ![Sonoran CMS - Departments & Ranks](../../../../../.gitbook/assets/CMS\_DeptRankOverviewFull.png)
 
@@ -55,8 +55,6 @@ If a user is granted both **Block Whitelist** and **Allow Whitelist** through va
 ### 3. Add your API ID
 
 Ensure all players have added their [API ID](../../../../../developer-api-documentation/api-integration/getting-started/api-id-system.md) to the CMS!
-
-Configuration
 
 ## Reliability Notice
 

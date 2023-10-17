@@ -30,7 +30,7 @@ Follow the standard resource installation guide for the whitelist resource, avai
 
 Navigate to the Rank Manager within the Administrative Panel.
 
-`Administrative Panel > Ranks`
+`Administrative Panel` > `Ranks`
 
 ![Sonoran CMS - Departments & Ranks](../../../../.gitbook/assets/CMS\_DeptRankOverviewFull.png)
 

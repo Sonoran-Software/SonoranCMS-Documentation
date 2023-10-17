@@ -86,4 +86,4 @@ To clear filters, you can either click the X in the menu box, or select `No Rank
 
 Below that you can alternatively choose to display Pending, Banned, or Archived members.
 
-<figure><img src="../../.gitbook/assets/CMS_RankFilter.png" alt=""><figcaption><p>Sonoran CMS - Filter Users by Rank</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FilterByRank.png" alt=""><figcaption><p>Sonoran CMS - Filter Users by Rank</p></figcaption></figure>

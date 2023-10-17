@@ -29,13 +29,13 @@ The dialog contains two crucial fields for your department:
 1. Department Name (Example: Police Department)
 2. Short Name (Example: PD)
 
-<figure><img src="../../.gitbook/assets/CMS_DeptPerms.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Creating a Department</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_DeptPerms2.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Creating a Department</p></figcaption></figure>
 
 You do not need to customize anything to create your department, so saving now is fine. When you're ready to save, click anywhere outside the department box. Or, you can set permissions associated with the department.
 
 ### Department Permissions
 
-<figure><img src="../../.gitbook/assets/CMS_DeptPermsCheckedCrop.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Setting Department Permissions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_DeptPermsChecked2.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Setting Department Permissions</p></figcaption></figure>
 
 This is where you'll need to assign permissions that you want all ranks within the department to inherit. These are the same set of permissions that ranks are able to get assigned but will be applied to all ranks upon permission evaluation.
 
@@ -60,7 +60,7 @@ Rank permissions can be assigned using the same method as department permissions
 * **"Profile Fields"** permissions are based on the Profile Fields created in the `Administrative Panel` > `Profile Fields`.
 * **"Servers"** permissions are based on the API Integration servers made in `Administrative Panel` > `Integrations`.
 
-<figure><img src="../../.gitbook/assets/CMS_RankPerms.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Rank Permissions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_RankPerms2.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Rank Permissions</p></figcaption></figure>
 
 When you are done customizing your rank permissions, click anywhere outside to close the dialog and automatically save it. Your new rank will show up under the department you created it in. You can click "Rank Name" to input a name for your rank.&#x20;
 

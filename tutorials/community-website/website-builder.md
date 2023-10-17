@@ -74,9 +74,15 @@ Button elements can have individual styles and button group elements can have al
 Only Private Pages will have customizable permissions in the Department Editor
 {% endhint %}
 
-Pages can now be privatized and require permissions to view. When editing a page, you can select whether the page is public (and can thus be viewed by anyone in the community) or private. If you set a page as private, it will then provide permissions for the page within the Department Editor.
+Pages can now be privatized and require permissions to view. When editing a page, you can select whether the page is public (and can thus be viewed by anyone in the community) or private.
 
 <figure><img src="../../.gitbook/assets/CMS_WB_PageButtons (1).png" alt=""><figcaption><p>Sonoran CMS - Visibility Button</p></figcaption></figure>
+
+If it's set to Private, you can use the dropdown to the right to select what ranks are allowed to view this page.
+
+<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderVisPrivateSelect.png" alt=""><figcaption><p>Sonoran CMS - Open Rank Selector</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderVisDropdown.png" alt=""><figcaption><p>Sonoran CMS - Select Rank to View Page</p></figcaption></figure>
 
 ## Default / Landing Page
 
