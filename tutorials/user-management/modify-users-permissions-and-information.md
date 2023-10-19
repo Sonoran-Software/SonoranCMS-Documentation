@@ -26,7 +26,7 @@ If you would like to simply edit a user's account information just left-click a 
 
 When assigning someone identifier(s) you must press enter while in the input to add the identifier.
 
-In order for permissions to be used the user must have a "System Status" of **ACTIVE**. Assigning a user's account "System Status" to pending will revoke all the user's permissions and limit their access to your community's CMS.
+In order for permissions to be used the user must have a "System Status" of **ACTIVE**. Archiving a user will revoke all the user's permissions and limit their access to your community's CMS.
 
 ![Administrative Accounts Panel - Account Information Dialog](../../.gitbook/assets/CMS\_EditAccInfo2.png)
 
@@ -49,8 +49,8 @@ You can also perform administrative actions (currently Kick, Ban, and Archive) o
 
 Instead of left-clicking a user's row you can right-click which will prompt you with two actions:
 
-* **"Edit Account Information"** which will pop up with the above dialog
-* **"View Member Profile"** will redirect you to the user's community profile which will provide more information.
+* **Edit Account Information** which will pop up with the above dialog
+* **View Member Profile** will redirect you to the user's community profile which will provide more information.
 
 ![Sonoran CMS - Administrative Accounts Panel - Account Information Right Click Prompt](../../.gitbook/assets/CMS\_UserAccsListRC.png)
 
@@ -64,11 +64,11 @@ All ranks can be set to expire after a certain amount of time or at a specific t
 
 To start you'll need to grant an individual the rank you want to expire.
 
-Once you've chosen the rank you can now click the yellow "Set to Expire" button.
+Once you've chosen the rank you can now click the yellow `Set to Expire` button.
 
 This will open up a dialog where you can decide whether you want the rank to expire after a certain amount of time or on a specific time.
 
-Once you're happy with the expiration settings, just click the green "Set Expiration" button.
+Once you're happy with the expiration settings, just click the green"`Set Expiration` button.
 
 <figure><img src="https://i.imgur.com/N5bYqeH.png" alt=""><figcaption><p>Sonoran CMS - Rank Expiration Settings</p></figcaption></figure>
 

@@ -20,7 +20,7 @@ The Sonoran CMS Forum System is a custom page element allowing you to create and
 
 To create a Forum Category navigate to the website builder located at `Administrative Panel` > `Website Builder`. Once you've located the editor, add a **Forum Section** to your Custom Page.
 
-Now that you added a Forum Section you can select from existing Forum Categories or create a new one. If you're looking to create a category, simply click the blue **CREATE** button. This will display a popup with various inputs, fill in the category label and select the permission preferences that apply. Once the category fits the needs that you like click the green outline **SAVE** button.
+Now that you added a Forum Section you can select from existing Forum Categories or create a new one. If you're looking to create a category, simply click the blue `CREATE` button. This will display a popup with various inputs, fill in the category label and select the permission preferences that apply. Once the category fits the needs that you like click the green outline `SAVE` button.
 
 <figure><img src="https://i.imgur.com/vW2y6R8.png" alt=""><figcaption><p>Sonoran CMS - Forum Category Dialog Creation</p></figcaption></figure>
 
@@ -30,7 +30,7 @@ Once you have saved the Custom Page you can now view the page with the Forum ele
 
 To create Forum Sub-Categories navigate to the Custom Page Editor located at `Administrative Panel` > `Website Builder`. Once you've located the editor, select a page that has a **Forum Section** already.
 
-Now that you're at an already set up Forum Category you can easily add sub-categories to it, at the bottom left there's a button labeled, **Add Sub-Category**, in green. Click this button and it will prompt you with the sub-category label. Input that sub-category label that you would like and click **OK**. This will add the sub-category to your forum category, sub-categories can be created on sub-categories to create a forum category depth of your choosing.
+Now that you're at an already set up Forum Category you can easily add sub-categories to it, at the bottom left there's a button labeled `Add Sub-Category`, in green. Click this button and it will prompt you with the sub-category label. Input that sub-category label that you would like and click `OK`. This will add the sub-category to your forum category, sub-categories can be created on sub-categories to create a forum category depth of your choosing.
 
 {% hint style="info" %}
 Currently there's no additional permission settings for Forum Sub-Categories. Anyone that can see the root forum category will have the same permissions across all topics and sub-categories within it.

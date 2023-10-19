@@ -16,18 +16,31 @@ To access the "Roster Editor", navigate to `Administrative Panel` > `Rosters`
 
 Within this "Roster Editor" panel you'll be able to create custom and automatic rosters with whatever columns you please. You can specify some of the columns to utilize the custom column types that are in place such as the:
 
-* **"Patrol Log Hours"** column type requires a custom form to be created that is a "form type" of "Patrol Log".
+* **Patrol Log Hours** column type requires a custom form to be created that is a Form Type of `Patrol Log`.
   * This column type will automatically calculate hours based on form submissions from a specific time till the current time.
+* **Status Selector** column type allows the roster to display custom statuses set in the "Roster Statuses" section of the Roster Editor.
 
 {% hint style="warning" %}
-Ensure that you select the Patrol Log form from the "Available Patrol Logs" dropdown and ensure to input the date/time in the "Calculate Hours From" input.
+Ensure that you select the Patrol Log form from the "Source Form" dropdown and ensure to input the date/time in the "Start Date" input.
 {% endhint %}
 
-* **"Status Selector"** column type allows the roster to display custom statuses set in the "Roster Statuses" section of the Roster Editor.
-* **"Mod Only" and/or "Admin Only"** custom column types allow you to specify if a column is restricted to moderators or administrators only.
-  * These permissions are housed within [department ranks](creating-departments.md).
-
 <figure><img src="../../.gitbook/assets/CMS_CreateCustomRoster3.png" alt=""><figcaption><p>Sonoran CMS - Create Custom Roster</p></figcaption></figure>
+
+### Roster Customization & Permissions
+
+You also have customization options for the display of any column you have added to the roster. To edit these, click the pencil icon to the right of any column to open the editor popup.
+
+Here you can change the name of the column and the type of column it is. If you have a column of type **Patrol Log Hours**, you can select what form the time logs are being pulled from. Similarly, you can also set the start date so that it only shows patrol log hours logged _after_ this date.
+
+You can also customize the alignment of the content and the permissions, which determine who is allowed to view it. The permissions options are as follows:
+
+* **Everyone:** Everyone who can view this roster can view this column
+* **Mod & Admins:** Viewing this column is restricted to moderators and administrators only
+* **Admins:** Viewing this column is restricted to administrators only
+
+These permissions are housed within [Department & Rank Permissions](creating-departments.md) and can be customized for any rank on any individual roster as shown below:
+
+<figure><img src="../../.gitbook/assets/CMS_RosterPermissions.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Roster Permissions</p></figcaption></figure>
 
 {% hint style="info" %}
 Whenever you create new rosters you will need to explicitly give ranks permissions to the new roster to be used by other individuals. This can be done in the [Department Manager](creating-departments.md).
