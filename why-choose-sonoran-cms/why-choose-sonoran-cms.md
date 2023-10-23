@@ -17,7 +17,7 @@ Manage your community's documents, spreadsheets, and presentations natively in t
 
 
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>CMS -  Document Drive</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>CMS -  Document Drive</p></figcaption></figure>
 
 ## 🌐 [Website Builder](../tutorials/community-website/website-builder.md) and [Forums](../tutorials/community-website/forum-system.md)
 
