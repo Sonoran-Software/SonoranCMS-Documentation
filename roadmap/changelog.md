@@ -10,6 +10,39 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.65 (Beta) 10/23/2023
+
+{% tabs %}
+{% tab title="New" %}
+[**vMenu Game Panel**](../integration-capabilities/vmenu-game-panel.md)
+
+**Weather** and **Time Management** is now available within the vMenu Game Panel, easily change and manage vMenu Weather & Time directly from your Sonoran CMS!
+
+**Homepage**
+
+We've reworked out homepage to be more modern and information forward!
+{% endtab %}
+
+{% tab title="Changed" %}
+**Website Builder**
+
+* Information block items can now be dragged and dropped to be reordered
+* Gallery - Create Category & Forums - Create Category now uses the standardized component for managing permissions
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Forms Editor**
+
+* Unable to change the Form Type as the selector would provide blank labels
+* Re-organizing forms/folder within the selector would overwrite some forms within folders
+* Drag and dropping a new element into the blank area where no section is will now properly create a section for the new element instead of doing nothing
+
+**Website Builder**
+
+* Drag and dropping a new element into the blank area where no section is will now properly create a section for the new element instead of doing nothing
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.64 (Beta) 10/16/2023
 
 {% tabs %}
