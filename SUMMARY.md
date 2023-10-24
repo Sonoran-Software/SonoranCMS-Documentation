@@ -50,12 +50,7 @@
 ## Integration Capabilities
 
 * [Sonoran CAD Sync](integration-capabilities/sonoran-cad-sync.md)
-* [Discord Role Sync](integration-capabilities/discord-role-sync/README.md)
-  * [Getting Started](integration-capabilities/discord-role-sync/getting-started.md)
-  * [Commands Reference](integration-capabilities/discord-role-sync/commands-reference.md)
-  * [Features](integration-capabilities/discord-role-sync/features/README.md)
-    * [Permissions Synchronization](integration-capabilities/discord-role-sync/features/permissions-synchronization.md)
-    * [Form Status Updates](integration-capabilities/discord-role-sync/features/form-status-updates.md)
+* [Discord Bot Integration](integration-capabilities/discord-bot-integration.md)
 * [TeamSpeak 3 Role Sync](integration-capabilities/teamspeak-3-role-sync/README.md)
   * [Getting Started](integration-capabilities/teamspeak-3-role-sync/getting-started.md)
   * [Adding Ranks](integration-capabilities/teamspeak-3-role-sync/adding-ranks.md)

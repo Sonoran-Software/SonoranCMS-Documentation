@@ -90,7 +90,7 @@ We've reworked out homepage to be more modern and information forward!
 
 {% tabs %}
 {% tab title="New" %}
-[**Sonoran Bot Integration**](../integration-capabilities/discord-role-sync/)
+[**Sonoran Bot Integration**](../integration-capabilities/discord-bot-integration.md)
 
 Name Sync now takes in account the name format set within Community Customization!
 
@@ -274,7 +274,7 @@ Filtering and searching for the Accounts viewer has been improved, you can now f
 * Job Management is now achievable within Sonoran CMS, you can now edit/change the job and grades for individual accounts.
 * Search vehicle plates via the Vehicles table
 
-[**Discord Bot**](../integration-capabilities/discord-role-sync/)
+[**Discord Bot**](../integration-capabilities/discord-bot-integration.md)
 
 * Sonoran CMS community names are now able to be synced to your Discord guild(s)
 {% endtab %}
@@ -1129,7 +1129,7 @@ The entire Custom Page Editor UI has been reworked to become more of a _website 
 
 You can now share a direct link to a Custom Form to be submitted from, this should help with recruitment as it will take them straight to filling out the form. This URL can be found in the Custom Forms area prior to selecting a form to edit.
 
-[**Discord Sync**](../integration-capabilities/discord-role-sync/)
+[**Discord Sync**](../integration-capabilities/discord-bot-integration.md)
 
 Discord Sync has now been made available to all Free communities using Sonoran CMS, regardless of Sonoran CMS community premium status.
 {% endtab %}
@@ -2106,7 +2106,7 @@ Account Viewer
 
 {% tabs %}
 {% tab title="New" %}
-[Discord Role Sync](../integration-capabilities/discord-role-sync/)
+[Discord Role Sync](../integration-capabilities/discord-bot-integration.md)
 
 * A system was introduced to handle Discord Role Sync upon the release of the Sonoran Bot's newest update
 * This will allow bi-directional syncing
