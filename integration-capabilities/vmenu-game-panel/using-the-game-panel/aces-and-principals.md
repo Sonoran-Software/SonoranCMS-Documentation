@@ -4,7 +4,7 @@ description: Easily grant ACE Permissions to users directly from CMS.
 
 # Aces & Principals
 
-<figure><img src="../../../.gitbook/assets/QBPromo01.png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/VMenuPromo02.png" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
 
 ## Setup
 
@@ -18,7 +18,7 @@ add_ace resource.sonorancms command allow
 
 You can select the ranks you would like and input the principal identifier you would like to grant them. This makes it easy to grant users in-game permissions en masse.
 
-<figure><img src="https://i.imgur.com/j5XTpYT.png" alt=""><figcaption><p>Sonoran CMS -QBCore Game Panel - Aces &#x26; Principals</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/j5XTpYT.png" alt=""><figcaption><p>Sonoran CMS -VMenu Game Panel - Aces &#x26; Principals</p></figcaption></figure>
 
 You can further customize the permissions each Principal group receives in your `server.cfg`, make sure to follow the conventions outlined in [this guide](https://forum.cfx.re/t/basic-aces-principals-overview-guide/90917).
 

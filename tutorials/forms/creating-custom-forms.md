@@ -14,7 +14,7 @@ Navigate to the Custom Form Editor
 
 Within the Form Editor panel you'll be able to create custom forms designed to your liking. Although this is very similar to the Website Builder there are some specific features that have been added. For example, there are a few custom field types and premade sections that will further the functionality of your CMS.
 
-![Administrative Panel Custom Form Editor - Create Fully Customizable Forms](https://i.imgur.com/CeSaZ6m.png)
+![Administrative Panel Custom Form Editor - Create Fully Customizable Forms](../../.gitbook/assets/CMS\_FormEditor.png)
 
 {% hint style="info" %}
 Whenever you create new custom forms you will need to explicitly give ranks permissions to the new custom forms to be used by other individuals. This can be done in the [Department Manager](../user-management/creating-departments.md).
@@ -54,7 +54,11 @@ Checks for rank expirations are done upon each fetch of the account and not **cu
 
 This will change the submitter's rank (and department but that's behind the scenes). To apply an expiration to the rank(s) simply press the dropdown button located on the rank button, this will provide you with the option to access it's Expiration Settings.
 
-<figure><img src="../../.gitbook/assets/CMS_FormChangeDept.png" alt=""><figcaption><p>Change Submitter's Department/Rank Stage Action</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormChangeDept.png" alt=""><figcaption><p>Sonoran CMS - Change Submitter's Department/Rank Stage Action</p></figcaption></figure>
+
+In order to actually change the users department or rank, you must click the rank name button below the rank selector. It will then change color to Green, meaning it will **add** the rank to the user's account. If you click it again, it will turn Red, meaning it will **remove** the rank from the user's account.
+
+<figure><img src="../../.gitbook/assets/CMS_FormActionsChangeRank.png" alt=""><figcaption><p>Sonoran CMS - Change Submitter's Department/Rank Stage Action Clicked</p></figcaption></figure>
 
 ## Sections & Fields
 

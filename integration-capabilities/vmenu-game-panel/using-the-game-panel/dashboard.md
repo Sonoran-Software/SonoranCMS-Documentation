@@ -4,7 +4,7 @@ description: View your server statistics right from the CMS QB Core management p
 
 # Dashboard
 
-<figure><img src="../../../.gitbook/assets/Server Stats.png" alt="" width="563"><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/VMenuPromo07.png" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
 
 ## Viewing the Dashboard
 

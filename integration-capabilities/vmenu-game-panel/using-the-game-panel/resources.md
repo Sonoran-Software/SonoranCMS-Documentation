@@ -1,12 +1,12 @@
 ---
 description: >-
-  Easily start, stop, and ensure in-game resources with the CMS QB Core
-  management panel!
+  Easily start, stop, and ensure in-game resources with the CMS VMenu management
+  panel!
 ---
 
 # Resources
 
-<figure><img src="../../../.gitbook/assets/cms.resources.png" alt="" width="563"><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/VMenuPromo01.png" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
 
 ## Managing Resources
 

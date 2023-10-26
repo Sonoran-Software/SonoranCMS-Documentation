@@ -4,9 +4,7 @@ description: Easily manage in-game jobs with the CMS QB Core management panel!
 
 # Jobs
 
-<figure><img src="../../../.gitbook/assets/qbcore_jobs.png" alt="" width="563"><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/qbcore_jobs.png" alt="" width="563"><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
 
 ## Managing Jobs
 

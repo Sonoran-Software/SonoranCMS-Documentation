@@ -6,6 +6,8 @@ description: >-
 
 # Whitelist
 
+<figure><img src="../../../.gitbook/assets/QBPromo02.png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+
 ## Whitelisting Users
 
 Here you can select ranks to either allow or deny them on the whitelist for the server you've selected.

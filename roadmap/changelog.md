@@ -14,7 +14,7 @@ description: View the latest changes to Sonoran CMS!
 
 {% tabs %}
 {% tab title="New" %}
-[**vMenu Game Panel**](../integration-capabilities/vmenu-game-panel.md)
+[**vMenu Game Panel**](../integration-capabilities/vmenu-game-panel/)
 
 **Weather** and **Time Management** is now available within the vMenu Game Panel, easily change and manage vMenu Weather & Time directly from your Sonoran CMS!
 
