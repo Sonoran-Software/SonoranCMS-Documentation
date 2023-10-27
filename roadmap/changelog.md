@@ -10,6 +10,56 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.66 (Beta) Planned: 10/27/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Desktop Notifications**
+
+We've now introduced Desktop notifications as our first step to push notifications everywhere! Now receive desktop notifications, where configured, when you receive new form submissions, new calendar event, and much more! Manage your notification preferences directing within your Community Settings similar to API ID. Receive Desktop notifications upon each trigger WHEN you have the Sonoran CMS Desktop application running on your device.
+
+[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+
+**Job Sync** has been reworked into the core resource and implemented natively within the QBCore Game Panel, easily manage your server's jobs with automatic job sync!
+
+**Rank Manager**
+
+Drag and drop line previews are now present when managing your ranks, easily see where your organizing your ranks in real-time.
+
+**Toolbar Editor**
+
+Toolbar editing is now supported through auto-save functions, never worry about losing work toolbar customization!
+{% endtab %}
+
+{% tab title="Changed" %}
+**Template**
+
+Default community template has been updated for a more generic gaming community focus
+
+**User Accounts**
+
+* Mass Account Actions: Rank manipulation is now utilizing the standard component for selecting ranks
+* Individual Account Actions: Rank manipulation is now utilizing the standard component for selecting ranks
+* User Filter
+  * Rank selection is now utilizing the standard component
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Community Discovery**
+
+* Community banner image URLs that contained spaces would not be URL encoded to be properly loaded when sent through Discord
+
+**Form Management**
+
+* When viewing a submitted form you don't have access to it would provide a blank page instead of notifying user
+
+**Form Management**
+
+* Form Settings button would overlap Form Stage Settings dialog
+* Drag and drop would not work in certain instances, overall improved functionality
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.65 (Beta) 10/24/2023
 
 {% tabs %}
