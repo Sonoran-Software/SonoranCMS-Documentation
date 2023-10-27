@@ -16,7 +16,7 @@ description: View the latest changes to Sonoran CMS!
 {% tab title="New" %}
 **Desktop Notifications**
 
-We've now introduced Desktop notifications as our first step to push notifications everywhere! Now receive desktop notifications, where configured, when you receive new form submissions, new calendar event, and much more! Manage your notification preferences directing within your Community Settings similar to API ID. Receive Desktop notifications upon each trigger WHEN you have the Sonoran CMS Desktop application running on your device.
+We've now introduced Desktop notifications as our first step to push notifications everywhere! Now receive desktop notifications, where configured, when you receive new form submissions, new calendar event, and much more! Manage your notification preferences directly within your Community Settings similar to API ID. Receive Desktop notifications upon each trigger WHEN you have the Sonoran CMS Desktop application running on your device.
 
 [**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
 
