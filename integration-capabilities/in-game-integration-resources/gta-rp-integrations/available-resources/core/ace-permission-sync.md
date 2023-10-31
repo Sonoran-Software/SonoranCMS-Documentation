@@ -17,7 +17,7 @@ This module manages player's in-game permissions right from the CMS!
 ### Installation / Configuration
 
 {% hint style="info" %}
-With core version `v1.4.0` the Clock In resource was converted to a core module and no longer requires manual installation just configuration.
+With core version `v1.4.0` the Ace Permission Sync resource was converted to a core module and no longer requires manual installation just configuration.
 {% endhint %}
 
 ### 1. Ensure Resource Has Permissions

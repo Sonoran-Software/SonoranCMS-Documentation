@@ -14,10 +14,10 @@ This whitelist module utilizes Sonoran CMS's to enforce player connections.
 
 {% embed url="https://www.youtube.com/watch?v=4PAtKYQokXE" %}
 
-### Installation / Configuration
+## Installation / Configuration
 
 {% hint style="info" %}
-With core version `v1.4.0` the Clock In resource was converted to a core module and no longer requires manual installation just configuration.
+With core version `v1.4.0` the Whitelist resource was converted to a core module and no longer requires manual installation just configuration.
 {% endhint %}
 
 ### 1. Configure Clock In Module
