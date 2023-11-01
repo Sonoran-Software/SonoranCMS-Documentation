@@ -37,5 +37,6 @@ Currently, Sonoran CMS supports the following QB Core inventory scripts:
 * Ox Inventory
 * Quasar Inventory
 * Project Sloth Inventory
+* Origen Inventory
 
 You can suggest more integrations on our [support portal](https://support.sonoransoftware.com).
