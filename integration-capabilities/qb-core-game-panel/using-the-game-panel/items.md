@@ -4,13 +4,13 @@ description: Easily manage in-game items with the CMS QB Core management panel!
 
 # Items
 
+<figure><img src="../../../.gitbook/assets/Items.png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+
 ## Managing Items
 
 Click any item row to initiate editing.
 
 You can adjust the item label, weight, description, image, and various other options
-
-<figure><img src="../../../.gitbook/assets/Items.png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
 
 ## Add a New Item
 
