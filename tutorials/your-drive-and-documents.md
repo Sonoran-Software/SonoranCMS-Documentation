@@ -28,7 +28,7 @@ To quick manage Drive items you can right click the item, it'll provide a menu o
 
 <div align="center">
 
-<figure><img src="https://i.imgur.com/Fg5MtWt.png" alt=""><figcaption><p>Sonoran CMS - Drive - Quick Manage (Right Click)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CMS_DriveRightClick.png" alt=""><figcaption><p>Sonoran CMS - Drive - Quick Manage (Right Click)</p></figcaption></figure>
 
 </div>
 
@@ -94,7 +94,7 @@ To rename the page, simply type the new name and press the checkmark.
 
 ### Share Settings
 
-<figure><img src="https://i.imgur.com/8kY6U72.png" alt=""><figcaption><p>Sonoran CMS - Drive - Share Settings Dialog</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CMS_DriveShareSettings2.png" alt=""><figcaption><p>Sonoran CMS - Drive - Share Settings Dialog</p></figcaption></figure>
 
 To change share settings, simply right click the green hamburger button on the drive item and select "Share Settings". If you're editing the document already you can simply click the "Share Settings" button on the top.
 
@@ -116,7 +116,7 @@ _Restricted_
 
 This will only utilize the Ranks with All Drive Access and Ranks with Access Permissions to determine if they have access to the document.
 
-_Anyone - Not yet accessible, pending update v0.5.13_
+_Anyone with this link_
 
 This will allow ANYONE with the share link provided with the button to either view and/or edit the file, depending on what it set. You can click the icon on the left to either hide or show the drive item in your community member's Drive, if you have it hidden they'll still have access to either view or edit depending on what's set directly through the share link. Someone who is not apart of your community's CMS or even signed into Sonoran CMS will be able to view and/or edit through the share link provided.&#x20;
 
