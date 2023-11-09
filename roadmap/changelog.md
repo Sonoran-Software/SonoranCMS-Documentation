@@ -10,6 +10,44 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.67 (Beta) 11/8/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Toolbar Editor**
+
+You can now drag and drop the order of toolbar items to easily create the toolbar you desire.
+
+**Profile Fields Editor**
+
+Drag and drop of profile fields will now display a red line to signify where the profile field will be dropped.
+
+**Discord Bot**
+
+Improved handling has been introduced into the bot to make the setup and manage process easier when configuring the Discord bot.
+
+**Page Meta**
+
+All informational and administrative pages now have unique meta associated with them, allowing for easier differentiating of pages.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Forms**
+
+* Multi-member & member selector inputs now allow for input to filter specific members without the need to scroll and manually find the member
+* Patrol Log has been rebranded to Time Log
+* Default icons have been introduced to default form types
+* Submission Replies
+  * Submission replies have been completely reworked and simplified, reply settings are no longer locked to: "Basic", "Mod", and "Admin".
+  * Reply settings are now based on if the replies are locked, if the submitter can reply when locked and what ranks can reply
+* Stage Action: Community Status
+  * UI has been improved for a more clear and concise UX
+* Clock In/Out has been moved to the element list as opposed to being a section
+  * Though it is still a section, just more visible within the UI
+* Auto Member Elements will now default to the Form Submitter as the reference
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.66 (Beta) 10/27/2023
 
 {% tabs %}
