@@ -14,7 +14,7 @@ Profile Fields allow communities to put direct information onto member's profile
 
 <figure><img src="../../.gitbook/assets/CMS_ProfileFieldsEditor2.png" alt=""><figcaption><p>Sonoran CMS - Profile Fields Editor</p></figcaption></figure>
 
-Easily create and edit profile fields to your liking to fit your community's needs. Each field can be customized to have a different type and label with more to come in the future.
+Easily create and edit profile fields to your liking to fit your community's needs. Each field can be customized to have a different type and label with more to come in the future. Additionally, you can drag and drop profile field blocks to change the order in which they display on user's profiles.
 
 ### Creating Profile Fields
 

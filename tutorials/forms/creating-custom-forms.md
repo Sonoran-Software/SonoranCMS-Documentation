@@ -26,7 +26,7 @@ If a user has permissions for a specific form they'll be able to see those forms
 
 Form Stages allow you to control the process (or stages) of your form. Each for is required to have at least one stage before it can be used.
 
-<figure><img src="https://i.imgur.com/wnHfcIu.png" alt=""><figcaption><p>Form Stages Editor - Edit the flow of your forms!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormStages.png" alt=""><figcaption><p>Form Stages Editor - Edit the flow of your forms!</p></figcaption></figure>
 
 To begin, you can either create a new stage or add an existing stage to a form. If there are no other stages, this will be the stage that is first assigned when a person submits this form (the default stage).
 
@@ -35,14 +35,24 @@ After pressing "Create New Stage" (or pressing "Edit" on an existing stage), you
 If you have integrated your community with our [Discord Bot](https://info.sonoranbot.com/en/tutorials/getting-started), users can be pinged when a submitted form or application has changed stages.
 
 {% hint style="info" %}
-**Stage Label** is shown when referenced in stage actions (upon execution), Form Management and Available Forms. **Internal Label** is shown when referenced anywhere in the Administrative Panel.
+**Stage Title** is shown when referenced in stage actions (upon execution), Form Management and Available Forms. **Stage Internal Label** is shown when referenced anywhere in the Administrative Panel.
 {% endhint %}
 
-<figure><img src="https://i.imgur.com/rRDn9UI.png" alt=""><figcaption><p>Stage Editor - Edit a single stage</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormStageInfo.png" alt=""><figcaption><p>Stage Editor - Edit a single stage</p></figcaption></figure>
 
 {% hint style="warning" %}
 Stages are not unique between forms, so if two forms use the same stage then editing that stage will affect both forms
 {% endhint %}
+
+### Form Stage Actions
+
+You can add actions to any stage you create. Simply click the "Actions" tab at the top to add actions to a stage.
+
+<figure><img src="../../.gitbook/assets/CMS_FormStageActionsNew.png" alt=""><figcaption><p>Sonoran CMS - Form Stages - New Action</p></figcaption></figure>
+
+The list of possible actions you can add is shown in the image below:
+
+<figure><img src="../../.gitbook/assets/CMS_FormStageActionsList.png" alt=""><figcaption><p>Sonoran CMS - Form Stages - Actions List</p></figcaption></figure>
 
 ### Action Explanation: Change Submitter's Department/Rank
 
@@ -54,11 +64,11 @@ Checks for rank expirations are done upon each fetch of the account and not **cu
 
 This will change the submitter's rank (and department but that's behind the scenes). To apply an expiration to the rank(s) simply press the dropdown button located on the rank button, this will provide you with the option to access it's Expiration Settings.
 
-<figure><img src="../../.gitbook/assets/CMS_FormChangeDept.png" alt=""><figcaption><p>Sonoran CMS - Change Submitter's Department/Rank Stage Action</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormStageActionChangeDept.png" alt=""><figcaption><p>Sonoran CMS - Change Submitter's Department/Rank Stage Action</p></figcaption></figure>
 
 In order to actually change the users department or rank, you must click the rank name button below the rank selector. It will then change color to Green, meaning it will **add** the rank to the user's account. If you click it again, it will turn Red, meaning it will **remove** the rank from the user's account.
 
-<figure><img src="../../.gitbook/assets/CMS_FormActionsChangeRank.png" alt=""><figcaption><p>Sonoran CMS - Change Submitter's Department/Rank Stage Action Clicked</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormStageActionChangeDeptClick.png" alt=""><figcaption><p>Sonoran CMS - Change Submitter's Department/Rank Stage Action Clicked</p></figcaption></figure>
 
 ## Sections & Fields
 
@@ -66,9 +76,9 @@ In order to actually change the users department or rank, you must click the ran
 
 Premade sections are pre-defined sections for forms that have underlying functions. These sections will allow you to leverage further possibilities in a custom form. Below is a list of all premade sections and how they work:
 
-**Patrol Start/End**
+**Time Clock Start/End**
 
-This premade section allows your form submitters to import direct clock in entries, this will also allow integration with rosters via for the roster column type "Patrol Log Hours".
+This premade section allows your form submitters to import direct clock in entries, this will also allow integration with rosters via for the roster column type "Time Log Hours".
 
 ### Special Input Types
 
@@ -124,7 +134,7 @@ This number is the amount of days between submissions of this form. For example,
 **Ignore Archived Submissions**\
 If checked this will not check for any submissions that are currently set to a stage that is the type of "Archived". So if a form is "Archived" it will not be searched for.
 
-<figure><img src="https://i.imgur.com/SYeDZiM.png" alt=""><figcaption><p>Sonoran CMS - Available Forms - Block Example</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_AvailableForms.png" alt=""><figcaption><p>Sonoran CMS - Available Forms - Block Example</p></figcaption></figure>
 
 Forms that are blocked from being submitted at the current time will be shown this blocked view till the block is lifted based on the settings set for limiting. The member will not be able to submit any version of the form till they no longer meet any requirements to be blocked due to the settings.
 
@@ -132,12 +142,14 @@ Forms that are blocked from being submitted at the current time will be shown th
 
 Forms can now be organized within folders, these folders are purely for organizational purposes and doesn't serve any other function.
 
-<figure><img src="https://i.imgur.com/Iyxb7Zd.png" alt=""><figcaption><p>Sonoran CMS - Form Editor - Folders</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormEditor2.png" alt=""><figcaption><p>Sonoran CMS - Form Editor - Folders</p></figcaption></figure>
 
 To create a folder simply press the green plus button and select folder, this will prompt you to provide a name for the folder to then be created. Once the folder is created you can drag and drop forms into folders to easily organize them.
 
 ## Sharing Direct Submission Access
 
-You can directly share a Custom Form via URL to be directly submitted on, if the URL is viewed it'll automatically navigate and provide the form to be submitted. You can get the direct submission access URL by viewing it in Available Forms and grabbing your browsers URL while viewing it or you can navigate to the Custom Form Editor. And before you select a form to edit just hit the green share button to the left of the delete button.
+You can directly share a Custom Form via URL to be directly submitted on, if the URL is viewed it'll automatically navigate and provide the form to be submitted. You can get the direct submission access URL by viewing it in Available Forms and grabbing your browsers URL while viewing it or you can navigate to the Custom Form Editor. And before you select a form to edit just hit the settings cog then click green share button above the delete button.
 
-<figure><img src="https://i.imgur.com/RdYB5n4.png" alt=""><figcaption><p>Sonoran CMS - Share Forms Button</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormCog (1).png" alt=""><figcaption><p>Sonoran CMS - Form Settings Button</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/CMS_FormShare.png" alt=""><figcaption><p>Sonoran CMS - Share Forms Button</p></figcaption></figure>
