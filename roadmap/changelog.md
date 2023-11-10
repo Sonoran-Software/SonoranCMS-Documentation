@@ -10,6 +10,40 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.68 (Beta) 11/10/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Website Builder**
+
+_Element Offsets_
+
+Element offsets now allow for further customization of spacing and position of elements throughout your custom pages built through the Website Builder.
+
+_Element Image Support_
+
+Elements can now have images set on them similar to setting a page background but solely on an element.
+
+**Discord Integration**
+
+Improvements to the mobile aspect of the UI have been added specifically to the setup process, making it easier to follow the instructions and get set up faster!
+{% endtab %}
+
+{% tab title="Changed" %}
+**Help Modal**
+
+Several UI/UX improvements have been introduced.
+
+**Integrations - CMS API / Sonoran CAD / TS3**
+
+Mobile improvements have been made and other small UI tweaks to make the UX better.
+
+**Account Viewer**
+
+There's no longer a _Primary Identifier_ column as that was deprecated for the new identifier system recently
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.67 (Beta) 11/8/2023
 
 {% tabs %}
