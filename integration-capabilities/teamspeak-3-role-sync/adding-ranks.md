@@ -2,9 +2,9 @@
 
 {% embed url="https://www.youtube.com/watch?v=eoI5ah6amf4" %}
 
-You can enable role syncing with TeamSpeak after setting up the connection by checking the **Enable Role Sync** button on the TeamSpeak 3 Integration Admin Page.
+You can enable role syncing with TeamSpeak after setting up the connection by navigating to the `Role Sync` tab and checking the `Enable Role Sync` button.
 
-<figure><img src="https://i.imgur.com/Iy8Upi6.png" alt=""><figcaption><p>Sonoran CMS- TS Role Sync Enabled</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_TSIntegrationBlankRoleSync.png" alt=""><figcaption><p>Sonoran CMS- TS Role Sync Enabled</p></figcaption></figure>
 
 ## Adding a Rank
 
@@ -14,7 +14,7 @@ Steps for adding a rank that is associated with a group on your TeamSpeak server
 
 <div align="center">
 
-<figure><img src="https://i.imgur.com/XWsSy2y.png" alt=""><figcaption><p>Sonoran CMS - Add Mapping</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_TSIntegrationAddMapping.png" alt=""><figcaption><p>Sonoran CMS - Add Mapping</p></figcaption></figure>
 
 </div>
 
@@ -26,20 +26,26 @@ Steps for adding a rank that is associated with a group on your TeamSpeak server
 
 </div>
 
-3.  Input the TeamSpeak group permanent ID into the **TeamSpeak Group ID** input
+3. Input the TeamSpeak group permanent ID into the **TeamSpeak Group ID** input
 
-    * A TeamSpeak's group ID can be found by hovering over it in the permission editor
-    * Additionally, if you have Sonoran Radio installed you can also follow [this guide](https://info.sonoranradio.com/en/tutorials/permissions#server-group-ids)
+<figure><img src="../../.gitbook/assets/CMS_TSIntegrationInputGroupID.png" alt=""><figcaption><p>Sonoran CMS - Input Group ID</p></figcaption></figure>
 
-    <div align="left">
+* A TeamSpeak's group ID can be found by hovering over it in the permission editor
+* Additionally, if you have Sonoran Radio installed you can also follow [this guide](https://info.sonoranradio.com/en/tutorials/permissions#server-group-ids)
 
-    <figure><img src="https://i.imgur.com/H608nba.png" alt=""><figcaption><p>TeamSpeak - Group IDs</p></figcaption></figure>
+<div align="left">
 
-    </div>
+<figure><img src="https://i.imgur.com/H608nba.png" alt=""><figcaption><p>TeamSpeak - Group IDs</p></figcaption></figure>
 
-Repeat this for all ranks you'd like to map to a TeamSpeak Group
+</div>
 
-Once you've setup the rank mapping, you can save by clicking **Save Integration Settings**. This will automatically sync everyone who has their TeamSpeak setup
+Repeat this for all ranks you'd like to map to a TeamSpeak Group.
+
+This method will soon be deprecated and be replaced by the following:
+
+3. (Coming soon) Select a TeamSpeak group from the dropdown to the right.
+
+<figure><img src="../../.gitbook/assets/CMS_TSIntegrationGroupSelect.png" alt=""><figcaption><p>Sonoran CMS - Group Selection</p></figcaption></figure>
 
 ## Setting up Your Users
 
