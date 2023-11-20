@@ -10,6 +10,86 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.69 (Beta) 11/20/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Form Management**
+
+Form submissions are now easier to manage with the reworked UI, now easily move forms through stages with ease with the all new stage tab UI. Forms will now be in a list beneath their respective stage, allowing for easier distinction and visualization of where your community's forms are!
+
+Form Submissions are now accessible via Administrative Panel > Forms > View Submissions button.
+
+Submissions viewed in the new tabbed UI will now show the new submission popup modal with a more informational and condensed view.
+
+**Drive**
+
+File viewer UI has been reworked for a more user-friendly and informative experience. Folders are now displayed separately from any files in the parent folder in the grid view, in the list view folders are sorted above any files in the parent folder.
+
+Additionally, the view and edit drive file UI was updated to be more consistent.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Default Community Data**
+
+* New community default data was updated with modified pages.
+
+**Rank Manager**
+
+* Several aspects of the rank manager were improved for mobile sizes.
+* Primary & Secondary Only options are no longer used
+
+**Drive**
+
+* Ranks with Access Permissions now uses the newer rank selector component
+
+**Website Builder**
+
+* Mobile improvements were made to page, section, and element setting modals
+* Border show/hide is now only one button
+
+**Consistency Changes**
+
+* Website Pages
+  * A standard/common card style was applied to select, delete and add more
+
+**Misc.**
+
+* All notify button icons were changed to a bell icon
+* Add status button on mobile has better size handling within rosters
+
+**Branding**
+
+* Footer branding was condensed to just Sonoran CMS
+* Free communities can now change the icon in the toolbar within the customization settings
+{% endtab %}
+
+{% tab title="Fixed" %}
+**CMS API**
+
+* Add button is now the proper size while viewing on a larger screen
+
+**iOS Application**
+
+* Top community toolbar no longer is cut off by the notch
+
+**Community Profile**
+
+* Community name no longer overflows off the screen on mobile
+
+**Drive**
+
+* Drive UI no longer turns blank after closing share settings
+* Changes to the general access settings will now consistently persist
+* General access drop down should no longer display nothing or "Unknown"
+* General access settings now show on PDFs
+* Clicking the _Cancel_ button on the Share Settings modal will now cancel any changes instead of auto-saving
+* Auto-save notification is now grammatically correct
+* Changes to ranks viewer/editor permission will now consistently persist
+* Clicking and losing focus on the document name input will no longer error out
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.68 (Beta) 11/10/2023
 
 {% tabs %}
