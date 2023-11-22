@@ -44,6 +44,22 @@ If you have integrated your community with our [Discord Bot](https://info.sonora
 Stages are not unique between forms, so if two forms use the same stage then editing that stage will affect both forms
 {% endhint %}
 
+### Changing Form Stages
+
+When users submit forms, their submissions will be displayed in a way that makes it simple to track what stage each submission is in.
+
+To view all form submissions, click the orange "Go To Submissions" button in the top right hand of the Form Editor page.
+
+<figure><img src="../../.gitbook/assets/CMS_FormEditor3Arrow.png" alt=""><figcaption><p>Sonoran CMS - Form Editor - Go To Submissions</p></figcaption></figure>
+
+Once there, you can select the form whose submissions you'd like to manage on the left side, and then you will see all submissions and which stage they are in.
+
+<figure><img src="../../.gitbook/assets/CMS_FormSubmissionManager.png" alt=""><figcaption><p>Sonoran CMS - Form Submission Manager</p></figcaption></figure>
+
+You can also delete any form submissions by right clicking them.
+
+<figure><img src="../../.gitbook/assets/CMS_FormSubmissionManagerDelete.png" alt=""><figcaption><p>Sonoran CMS - Delete Form Submission</p></figcaption></figure>
+
 ### Form Stage Actions
 
 You can add actions to any stage you create. Simply click the "Actions" tab at the top to add actions to a stage.
@@ -133,8 +149,6 @@ This number is the amount of days between submissions of this form. For example,
 \
 **Ignore Archived Submissions**\
 If checked this will not check for any submissions that are currently set to a stage that is the type of "Archived". So if a form is "Archived" it will not be searched for.
-
-<figure><img src="../../.gitbook/assets/CMS_AvailableForms.png" alt=""><figcaption><p>Sonoran CMS - Available Forms - Block Example</p></figcaption></figure>
 
 Forms that are blocked from being submitted at the current time will be shown this blocked view till the block is lifted based on the settings set for limiting. The member will not be able to submit any version of the form till they no longer meet any requirements to be blocked due to the settings.
 
