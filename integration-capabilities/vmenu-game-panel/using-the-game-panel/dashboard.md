@@ -1,5 +1,5 @@
 ---
-description: View your server statistics right from the CMS QB Core management panel!
+description: View your server statistics right from the CMS VMenu game panel!
 ---
 
 # Dashboard
