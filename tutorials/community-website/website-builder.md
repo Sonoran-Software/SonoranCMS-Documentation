@@ -14,25 +14,31 @@ To access the website builder, navigate to `Administration Panel` > `Website Bui
 
 To start editing a page, either add a new page or click on an existing page in the page to open up the page editor.
 
-![Sonoran CMS - Page Editor](../../.gitbook/assets/CMS\_WebsiteBuilder2.png)
+![Sonoran CMS - Page Editor](../../.gitbook/assets/CMS\_WebsiteBuilder3.png)
 
 ## View Your Page
 
 Once your page is created and saved, you can [add it to the toolbar](website-builder.md#toolbar) or copy the URL to access it.
 
-![Sonoran CMS - Copy Page URL](../../.gitbook/assets/CMS\_WB\_CopyPageURL.png)
+![Sonoran CMS - Copy Page URL](../../.gitbook/assets/CMS\_WebsiteBuilderCopyPageUrl.png)
 
 {% hint style="info" %}
 On public pages you can copy the URL after going to a page and share it with anybody, they don't even have to be part of the Sonoran CMS community!
 {% endhint %}
 
+To add sections to your web page, simply drag and drop your desired section type in from the left hand side. The following section types are available to use:
+
 <table><thead><tr><th width="208">Element Type</th><th>Description</th></tr></thead><tbody><tr><td>Text</td><td>The text section includes a rich editor for including blocks of text. In this editor, you are able to set font sizes, bold, italic, underline, strike-through, and more!</td></tr><tr><td>Image</td><td>Image sections allow you to insert one image into your page, just paste a link to the image in the text box.</td></tr><tr><td>Image Carousel</td><td>Allows you to insert multiple images in the space of one, automatically cycling between them.</td></tr><tr><td>Video</td><td>The video section can be used to insert YouTube links into your custom page, just paste a regular YouTube link (or a shortened one) into the text box.</td></tr><tr><td>Forum Category</td><td>Forum Category sections allow you to have a section to display all associated posts to the selected forum category.</td></tr><tr><td>Button</td><td>Button sections allow you to put individual buttons on your page that can be directed to an external page, custom form, or custom page.</td></tr><tr><td>Button Group</td><td>Button Group sections allow you to have a group of buttons together on your page that can be directed to an external page, custom form, or custom page.</td></tr><tr><td>Card</td><td>Allows you to add and customize "cards" which can be configured to display information on members or characters as well as links.</td></tr><tr><td>Information Block</td><td>Information Block sections allow you to add multiple blocks to provide information for, these can be configured to grab "Total Community Members", "Total Department Members" or "Custom". "Custom" allows for customizable text.</td></tr><tr><td>Gallery</td><td>Gallery sections are the first element for the gallery system, this allows you to show all posts in the gallery category.</td></tr><tr><td>HTML</td><td>If you know HTML you can further customize your page by directly adding HTML code. To edit the HTML you must click on the element and input your HTML into the text box for. Please not you are <a href="website-builder.md#html-elements-limits">limited to certain element types</a>.</td></tr></tbody></table>
 
 ### Basic Information
 
-Through these inputs you can change the page's title, path slug, and privacy setting. Additionally, you're able to add new sections and change the preview size of the editor to visualize different size settings.
+From the website builder's toolbar you can change the page's title, path slug, and privacy setting. Additionally, you're able to add new sections, change the preview size of the editor to visualize different size settings, and toggle the borders for the different sections of your page.
 
-<figure><img src="../../.gitbook/assets/CMS_WB_TopBar.png" alt=""><figcaption><p>Sonoran CMS - Webpage Toolbar</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderHead.png" alt=""><figcaption><p>Sonoran CMS - Webpage Toolbar</p></figcaption></figure>
+
+The borders can be useful for visualizing the size of different sections on the page and will not show up on the viewable version of the page.
+
+<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderToggleBorders.png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Toggle Borders</p></figcaption></figure>
 
 ### Section-Specific Styling
 
@@ -90,7 +96,7 @@ Sonoran CMS allows you to easily customize the landing page/dashboard for your c
 
 <figure><img src="../../.gitbook/assets/CMS_WB_DefaultHomepage.png" alt=""><figcaption><p>Sonoran CMS Custom Page as Dashboard Page</p></figcaption></figure>
 
-To set a Custom Page as your Homepage, navigate to the Website Builder. Create a new page or choose between an existing page, once you have the page in mind press the grey home button, this will set it as the landing page.
+To set a Custom Page as your homepage, navigate to the main page for the Website Builder and look under the section titled `Website Pages`. Locate the page you wish to use as your homepage and press the grey home button, this will turn it orange and set it as the landing page.
 
 <figure><img src="../../.gitbook/assets/CMS_WB_SetHomepage.png" alt=""><figcaption><p>Sonoran CMS - Set Homepage</p></figcaption></figure>
 
