@@ -19,6 +19,8 @@ Access the payment center on the Web or Desktop version of Sonoran CMS by going 
 In the payment center, select "New Subscription"\
 From there, select the monthly subscription you would like to start.
 
+If you would like to pay **quarterly** instead, you can select that option at checkout and receive **25% off**.
+
 ![Sonoran CMS - Subscription Selection](../../.gitbook/assets/3g9gh1j5.png)
 
 ### 3. Select the Desired Community
@@ -30,10 +32,15 @@ From there, select the community you would like to assign the subscription to.
 
 ### 4. Complete the Purchase
 
-After selecting the desired subscription plan and community, you will be redirected to a Stripe checkout page.\
+After selecting the desired subscription plan and community, you will be redirected to a Stripe checkout page.
+
 Here, you can enter your billing information and start the subscription.
 
+As previously stated, you will be given the option to pay quarterly instead of monthly. By paying **quarterly**, you are granted a **25% discount**.
+
 ![Sonoran CMS - Stripe Checkout](../../.gitbook/assets/1adi66j7.png)
+
+<figure><img src="../../.gitbook/assets/Sono_QuarterlyCrop.png" alt=""><figcaption><p>Sonoran Software - Quarterly Discount</p></figcaption></figure>
 
 ### 5. Celebrate
 
