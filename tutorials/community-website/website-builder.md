@@ -56,7 +56,7 @@ With recent updates to the Custom Page Editor you're now able to customize the m
 
 It's important to note that the use of padding, margin, and alignment can greatly affect the design and layout of a page, so it's important to use them thoughtfully and consistently throughout your design. I hope this explanation helps your users better understand these concepts.
 
-<figure><img src="../../.gitbook/assets/CMS_WB_EditSection.png" alt=""><figcaption><p>Sonoran CMS - Edit Section Margins</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderSectionMarg.png" alt=""><figcaption><p>Sonoran CMS - Edit Section Margins</p></figcaption></figure>
 
 ### Element Sizes, Alignment and Background
 
@@ -64,7 +64,7 @@ Using the three align buttons, different size settings and background options yo
 
 These three size options; Desktop, Tablet, and Mobile are all different widths your element can have while being under those specific screen size conditions. You can preview how the size changes depending on settings by exiting the element edit modal and switch between the preview size selector above in blue.
 
-![Sonoran CMS - Element Size](../../.gitbook/assets/CMS\_WB\_Size.png)
+![Sonoran CMS - Element Size](../../.gitbook/assets/CMS\_WebsiteBuilderElemSize.png)
 
 ### Buttons
 
@@ -72,7 +72,7 @@ If you wish to add buttons to your page, you can add a button or button group se
 
 Button elements can have individual styles and button group elements can have all group styles.
 
-<figure><img src="../../.gitbook/assets/CMS_WB_ButtonEditor.png" alt=""><figcaption><p>Sonoran CMS - Button Editor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderBtnEditor.png" alt=""><figcaption><p>Sonoran CMS - Button Editor</p></figcaption></figure>
 
 ## Privatized Pages
 
@@ -82,13 +82,13 @@ Only Private Pages will have customizable permissions in the Department Editor
 
 Pages can now be privatized and require permissions to view. When editing a page, you can select whether the page is public (and can thus be viewed by anyone in the community) or private.
 
-<figure><img src="../../.gitbook/assets/CMS_WB_PageButtons (1).png" alt=""><figcaption><p>Sonoran CMS - Visibility Button</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderTopBtns.png" alt=""><figcaption><p>Sonoran CMS - Visibility Button</p></figcaption></figure>
 
 If it's set to Private, you can use the dropdown to the right to select what ranks are allowed to view this page.
 
-<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderVisPrivateSelect.png" alt=""><figcaption><p>Sonoran CMS - Open Rank Selector</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderPrivateHover.png" alt=""><figcaption><p>Sonoran CMS - Open Rank Selector</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderVisDropdown.png" alt=""><figcaption><p>Sonoran CMS - Select Rank to View Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderPrivateSelect.png" alt=""><figcaption><p>Sonoran CMS - Select Rank to View Page</p></figcaption></figure>
 
 ## Default / Landing Page
 
