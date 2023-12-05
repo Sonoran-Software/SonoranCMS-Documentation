@@ -4,7 +4,7 @@ description: Easily manage in-game gangs with the CMS QB Core management panel!
 
 # Gangs
 
-<figure><img src="../../../.gitbook/assets/qbcore_gangs.png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/qbcore_gangs (1).png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
 
 ## Managing Gangs
 

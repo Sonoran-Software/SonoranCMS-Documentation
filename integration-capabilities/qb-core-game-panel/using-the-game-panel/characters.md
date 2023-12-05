@@ -4,7 +4,7 @@ description: Easily manage in-game characters with the CMS QB Core management pa
 
 # Characters
 
-<figure><img src="../../../.gitbook/assets/characters.png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/characters (1).png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
 
 ## 1. Manage a Character
 

@@ -6,7 +6,7 @@ description: >-
 
 # Whitelist
 
-<figure><img src="../../../.gitbook/assets/QBPromo02.png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/QBPromo02 (1).png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
 
 ## Whitelisting Users
 

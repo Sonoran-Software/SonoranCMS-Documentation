@@ -4,7 +4,7 @@ description: Easily manage in-game items with the CMS QB Core management panel!
 
 # Items
 
-<figure><img src="../../../.gitbook/assets/Items.png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Items (1).png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
 
 ## Managing Items
 

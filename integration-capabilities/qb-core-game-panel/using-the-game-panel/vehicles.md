@@ -4,7 +4,7 @@ description: Easily manage in-game vehicles with the CMS QB Core management pane
 
 # Vehicles
 
-<figure><img src="../../../.gitbook/assets/vehicles.png" alt="" width="563"><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/vehicles (1).png" alt="" width="563"><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
 
 ## Switch Between Live and DB Vehicles
 
