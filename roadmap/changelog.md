@@ -10,6 +10,48 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.71 (Beta) 12/5/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Mobile - Push Notifications**
+
+Android and iOS apps for Sonoran CMS now offer push notifications for all previously supported notification events. Now receive notifications to your mobile device when events start, form status change, and much more!
+
+**Forms - Stage Editor**
+
+Stages editor has continued rework from last update now with more seamless editing and managing.
+
+New forms will now have three (3) default stages for quick form creation!
+{% endtab %}
+
+{% tab title="Changed" %}
+**Community Menu**
+
+Mobile UI has been improved for a better user-experience.
+
+**Drive**
+
+Sizing of drive items was improved for better viewing of multiple items within the drive item viewer.
+
+**Rank Manager**
+
+Permission editing modal sizing was improved on mobile for easier management.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Forms Builder**
+
+Mobile optimization and overall functionality improvements were made as it was difficult to create and edit forms
+
+**Forums**
+
+Usernames now ellipsis when too long, no longer expanding the UI
+{% endtab %}
+{% endtabs %}
+
+### v0.5.70 (Beta) _v0.5.69 Re-Release w/ Breaking Hotfix_
+
 ### v0.5.69 (Beta) 11/20/2023
 
 {% tabs %}
