@@ -26,7 +26,7 @@ If a user has permissions for a specific form they'll be able to see those forms
 
 Form Stages allow you to control the process (or stages) of your form. Each for is required to have at least one stage before it can be used.
 
-<figure><img src="../../.gitbook/assets/CMS_FormStages.png" alt=""><figcaption><p>Form Stages Editor - Edit the flow of your forms!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormStages2.png" alt=""><figcaption><p>Form Stages Editor - Edit the flow of your forms!</p></figcaption></figure>
 
 To begin, you can either create a new stage or add an existing stage to a form. If there are no other stages, this will be the stage that is first assigned when a person submits this form (the default stage).
 
@@ -62,13 +62,13 @@ You can also delete any form submissions by right clicking them.
 
 ### Form Stage Actions
 
-You can add actions to any stage you create. Simply click the "Actions" tab at the top to add actions to a stage.
+You can add actions to any stage you create. Simply click the green plus button to add actions to a new stage.
 
-<figure><img src="../../.gitbook/assets/CMS_FormStageActionsNew.png" alt=""><figcaption><p>Sonoran CMS - Form Stages - New Action</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormStageActionsList2.png" alt=""><figcaption><p>Sonoran CMS - Form Stages - New Action</p></figcaption></figure>
 
 The list of possible actions you can add is shown in the image below:
 
-<figure><img src="../../.gitbook/assets/CMS_FormStageActionsList.png" alt=""><figcaption><p>Sonoran CMS - Form Stages - Actions List</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormStageActionsAdd.png" alt=""><figcaption><p>Sonoran CMS - Form Stages - Actions List</p></figcaption></figure>
 
 ### Action Explanation: Change Submitter's Department/Rank
 
@@ -80,11 +80,11 @@ Checks for rank expirations are done upon each fetch of the account and not **cu
 
 This will change the submitter's rank (and department but that's behind the scenes). To apply an expiration to the rank(s) simply press the dropdown button located on the rank button, this will provide you with the option to access it's Expiration Settings.
 
-<figure><img src="../../.gitbook/assets/CMS_FormStageActionChangeDept.png" alt=""><figcaption><p>Sonoran CMS - Change Submitter's Department/Rank Stage Action</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormStageActionChangeDept2.png" alt=""><figcaption><p>Sonoran CMS - Change Submitter's Department/Rank Stage Action</p></figcaption></figure>
 
 In order to actually change the users department or rank, you must click the rank name button below the rank selector. It will then change color to Green, meaning it will **add** the rank to the user's account. If you click it again, it will turn Red, meaning it will **remove** the rank from the user's account.
 
-<figure><img src="../../.gitbook/assets/CMS_FormStageActionChangeDeptClick.png" alt=""><figcaption><p>Sonoran CMS - Change Submitter's Department/Rank Stage Action Clicked</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormStageActionChangeDeptClick2.png" alt=""><figcaption><p>Sonoran CMS - Change Submitter's Department/Rank Stage Action Clicked</p></figcaption></figure>
 
 ## Sections & Fields
 
