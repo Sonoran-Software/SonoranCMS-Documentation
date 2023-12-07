@@ -4,7 +4,7 @@ description: Easily manage in-game players with the CMS VMenu management panel!
 
 # Players
 
-<figure><img src="../../../.gitbook/assets/VMenuPromo04.png" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/VMenuPromo04 (1).png" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
 
 ## Select and Manage a Player
 
