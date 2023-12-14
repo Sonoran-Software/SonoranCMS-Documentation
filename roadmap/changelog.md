@@ -10,6 +10,52 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.72 (Beta) 12/13/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Form Builder**
+
+Our custom form builder has seen a complete user-interface rework, now allowing for easier and clearer form building. The new UI was focused on providing a more streamlined and efficient workflow for creating the custom forms needed for communities!
+
+**Discord Bot Integration**
+
+We've implemented Form stage changing directly from Discord form webhooks, form webhooks from CMS are now routed to the Sonoran Bot to provide additional features; form webhooks will now provide a drop-down menu allowing you to select what stage you want the form changed to. When updated the existing webhook embed will be updated for ease-of-use.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Rank Manager**
+
+We've updated the UI to allow for much better spacing on Desktop and re-introduced mass permission toggles, allowing you to toggle all of one permission section instead of each individual permission.
+
+**Community Settings**
+
+The mobile UI has been updated for much easier use while viewing on the smaller screen.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Forms**
+
+* Creating a new form template within a folder will now create the form in the folder instead of the root
+* Filter by form type within Available Forms will now properly filter
+
+**Community Profile**
+
+* While opening the Community Settings directly from your Community Profile would utilize the now deprecated settings UI
+* While viewing a profile and navigating to your own profile or someone else's directly from that profile would not update the UI with the new profile
+
+**Custom Pages**
+
+* Buttons that linked to a custom form would not navigate to the form for submitting
+* Image carousel would not properly display the images set for the carousel
+
+**Identifiers**
+
+* Identifiers were not able to be seen throughout the application, would show in some areas but majority wouldn't show
+* Identifiers can now have a default set which will show as your identifier throughout unless otherwise specified in the rosters
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.71 (Beta) 12/5/2023
 
 {% tabs %}
