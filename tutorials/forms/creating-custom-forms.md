@@ -12,9 +12,9 @@ Navigate to the Custom Form Editor
 
 `Administrative Panel` > `Forms`
 
-Within the Form Editor panel you'll be able to create custom forms designed to your liking. Although this is very similar to the Website Builder there are some specific features that have been added. For example, there are a few custom field types and premade sections that will further the functionality of your CMS.
+Within the Form Editor panel you'll be able to create custom forms designed to your liking. Here you can craft your own forms using a variety of custom field types and premade sections and will further enhance the functionality of your CMS by eliminating the need for external form sites and keeping it all in-house.
 
-![Administrative Panel Custom Form Editor - Create Fully Customizable Forms](../../.gitbook/assets/CMS\_FormEditor.png)
+![Administrative Panel Custom Form Editor - Create Fully Customizable Forms](../../.gitbook/assets/CMS\_FormBuilderRevamp.png)
 
 {% hint style="info" %}
 Whenever you create new custom forms you will need to explicitly give ranks permissions to the new custom forms to be used by other individuals. This can be done in the [Department Manager](../user-management/creating-departments.md).
@@ -122,11 +122,13 @@ To change the sort of your community's forms, you can change the "Sort Order" va
 
 ## Conditional Sections
 
-<figure><img src="https://i.imgur.com/TZ65r7Y.png" alt=""><figcaption><p>Sonoran CMS - Forms Editor - Conditional</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormBuilderToggleConditional.png" alt=""><figcaption><p>Sonoran CMS - Forms Editor - Conditional Switch</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/CMS_FormBuilderConditionals.png" alt=""><figcaption><p>Sonoran CMS - Forms Editor - Conditional</p></figcaption></figure>
 
 Conditional sections allow you to make an individual section visible based on conditions.
 
-To enable a section to be "Conditional" simply switch the Conditional switch to "on" state. Once you do that a "Dependency" selector will appear, this will provide you with all eligible fields that can be used for conditional checks. Select the field that you want to be checked for the appearance of this section. Once you've chosen a field it'll provide you with an input, provide all value(s) that you wish to be checked upon on the field.
+To enable a section to be "Conditional" simply switch the Conditional switch to "on" state for the section you would like to make conditional. Once you do that a "Dependency" selector will appear, this will provide you with all eligible fields that can be used for conditional checks. Select the field that you want to be checked for the appearance of this section. Once you've chosen a field it'll provide you with an input, provide all value(s) that you wish to be checked upon on the field.
 
 {% hint style="info" %}
 If the field that will be checked is a **checkbox** it will simply check if it's "checked", there won't be any reason to provide a value.
@@ -136,7 +138,7 @@ If the field that will be checked is a **checkbox** it will simply check if it's
 
 Newly introduced limit settings allow you to limit the amount of submissions users in your community are able to complete. With these various settings you're able to lock it down within the last X days, ignore archived submissions and even add a cooldown in-between form submissions.
 
-<figure><img src="https://i.imgur.com/oDlN1jD.png" alt=""><figcaption><p>Sonoran CMS - Custom Form Editor - Limit Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormLimits.png" alt=""><figcaption><p>Sonoran CMS - Custom Form Editor - Limit Settings</p></figcaption></figure>
 
 **# of Allowed Submissions**\
 This number is the total amount of submitted versions of this form that are allowed for each community member. _Setting this to_ `-1` _will not limit form submissions at all._\
