@@ -7,9 +7,7 @@ description: >-
 
 # 🏆 Why Choose Sonoran CMS?
 
-<figure><img src="../.gitbook/assets/Docs_Orange (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-## 📂 [CMS Document Drive](../tutorials/your-drive-and-documents.md)
+📂 [CMS Document Drive](../tutorials/your-drive-and-documents.md)
 
 Manage your community's documents, spreadsheets, and presentations natively in the CMS!
 
@@ -45,7 +43,7 @@ Or, manage Discord roles right through the CMS!
 
 Whether it's your own patrol log system with automatic hour calculations, an extensive new member application, or a custom community form, Sonoran CMS allows you to customize it all.
 
-![Sonoran CMS - Custom Forms](<../.gitbook/assets/CMS\_WebBuilder (1).png>)
+![Sonoran CMS - Custom Forms](../.gitbook/assets/Dec23-Forms.png)
 
 ## ✅ [In-Game Whitelisting](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/whitelist.md)
 
@@ -55,11 +53,11 @@ Sonoran CMS is your single point of management for in-game whitelisting! Automat
 
 ## 🚫 [GTA RP ACE Permissions Management](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/ace-permission-sync.md)
 
-Sonoran CMS allows you to manage all GTARP user permissions with [Ace Permissions Sync](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/ace-permission-sync.md)!
+Sonoran CMS allows you to manage all GTARP user permissions with [Ace Permissions Sync for QB](../integration-capabilities/qb-core-game-panel/using-the-game-panel/aces-and-principals.md) and [vMenu servers](../integration-capabilities/vmenu-game-panel/using-the-game-panel/aces-and-principals.md)!
 
 Sonoran CMS is your single point of management for your community!
 
-![Sonoran CMS - FiveM Ace Permissions](../.gitbook/assets/permissions.png)
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 ## 🖥️ [Sonoran CAD Account Management](../integration-capabilities/sonoran-cad-sync.md)
 
