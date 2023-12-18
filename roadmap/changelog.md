@@ -10,6 +10,38 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.73 (Beta) 12/18/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Forms Management**
+
+Form submissions can now be drag-and-dropped to change stages for much easier form submission management, this can be done within the Form Submissions viewer.
+
+**Permission Descriptions**
+
+Permission selectors now display individual descriptions for each permission type, explaining what the permission grants.
+
+**Form Editor**
+
+Permissions for individual form templates can now be modified directly through settings while editing a form
+{% endtab %}
+
+{% tab title="Changed" %}
+**Custom Domains**
+
+Handling has been improved for failed domains and when communities becoming ineligible for using a set up domain
+
+**Available Forms**
+
+Viewing your own form submissions within your Available Forms page will now utilize the new UI shown within Form Management
+
+**Community Settings**
+
+The UI on smaller / mobile devices has been improved upon for ease-of-use
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.72 (Beta) 12/13/2023
 
 {% tabs %}
