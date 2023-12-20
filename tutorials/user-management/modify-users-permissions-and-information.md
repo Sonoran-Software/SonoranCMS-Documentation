@@ -87,3 +87,17 @@ To clear filters, you can either click the X in the menu box, or select `No Rank
 Below that you can alternatively choose to display Pending, Banned, or Archived members.
 
 <figure><img src="../../.gitbook/assets/CMS_FilterByRank.png" alt=""><figcaption><p>Sonoran CMS - Filter Users by Rank</p></figcaption></figure>
+
+## Grant Rank on Join
+
+{% hint style="info" %}
+These settings can be found in `Admin Panel` > `Customization` > `Advanced`
+{% endhint %}
+
+You can automatically grant a default rank for all users who join your community. This could be used if you want to have a specific rank for inquiring members that only gives them access to certain forms. In this case you would set their On Join Status to `Active` and their On Join Role to whatever role you've designated for this.
+
+<figure><img src="../../.gitbook/assets/CMS_CustomizationAdvanced.png" alt=""><figcaption><p>Sonoran CMS - Customization - On Join Rank + Status</p></figcaption></figure>
+
+Alternatively, you could set their On Join Status to `Pending`, which would automatically prompt them to fill out a form.
+
+<figure><img src="../../.gitbook/assets/pending-filloutform.png" alt=""><figcaption><p>Sonoran CMS - Pending User Form Prompt</p></figcaption></figure>
