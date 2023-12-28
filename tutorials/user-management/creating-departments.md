@@ -14,7 +14,7 @@ To access the "Rank Manager", head to `Administrative Panel` > `Ranks`
 
 Within this Ranks panel you'll be able to create departments and ranks  your members, this will be the central panel for deciding permissions based on "ranks", when new, removed, or modified Custom Forms, Calendar Categories, and Rosters will be reflected with available permissions under each rank.
 
-![Sonoran CMS Department Manager Panel - Add/Remove/Edit Departments & Ranks](../../.gitbook/assets/CMS\_DeptRankOverview2.png)
+![Sonoran CMS Department Manager Panel - Add/Remove/Edit Departments & Ranks](../../.gitbook/assets/CMS\_Ranks.png)
 
 {% hint style="info" %}
 Rank **Power** will be compared to other users as a global user power, this will be utilized to determine if you can modify other individuals. If your power is higher than another individual then you can modify them, if it's less then you cannot.

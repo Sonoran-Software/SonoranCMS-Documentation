@@ -56,7 +56,7 @@ Once there, you can select the form whose submissions you'd like to manage on th
 
 <figure><img src="../../.gitbook/assets/CMS_FormSubmissionManager.png" alt=""><figcaption><p>Sonoran CMS - Form Submission Manager</p></figcaption></figure>
 
-You can also delete any form submissions by right clicking them.
+If you have the **Admin Delete** permission for a given form, you can also delete any submissions by right clicking them and selecting `Delete Form`.
 
 <figure><img src="../../.gitbook/assets/CMS_FormSubmissionManagerDelete.png" alt=""><figcaption><p>Sonoran CMS - Delete Form Submission</p></figcaption></figure>
 

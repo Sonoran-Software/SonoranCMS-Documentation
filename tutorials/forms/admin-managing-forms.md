@@ -6,6 +6,10 @@ description: >-
 
 # Managing Forms
 
+{% hint style="danger" %}
+**NOTE:** This page is deprecated. Current instructions for deleting form submissions can be found [here](https://info.sonorancms.com/tutorials/forms/creating-custom-forms#changing-form-stages)
+{% endhint %}
+
 {% embed url="https://www.youtube.com/watch?v=nyDLlEtGS9w" %}
 
 The "**Admin Delete**" permission granted under the "**Forms**" permission section allows users to delete and manage deleted forms. Once a form is "deleted" it will no longer be recognized in the system as "valid", these "deleted" forms are filtered separately from all other forms.
