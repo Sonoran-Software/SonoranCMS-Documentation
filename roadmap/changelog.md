@@ -10,6 +10,62 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.74 (Beta) 1/4/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Discord Integration**
+
+_Role Mapping_\
+CMS bi-directional Discord role sync has been implemented natively within the Sonoran CMS UI. A more visual and easy to use UI in comparison to the existing bot embed setup.
+
+_Ban Sync_\
+Bans will now sync across all linked guilds ensuring proper handling of members upon exit.
+
+**Forms**
+
+_Form Editor_\
+Drag and drop supported added to form questions, you can now easily re-order questions within a form.
+
+_Submissions_\
+On larger screens the form replies will now be on the right side, allowing to view the form response and the replies at the same time.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Limits**
+
+Drive limits have been increased to the following:\
+_Standard:_ 50MB -> 500MB\
+_Pro:_ 100MB -> 1GB
+
+Uploader max file size has been increased to 200MB to allow for larger documents to be imported into the Drive system.
+
+**Forms**
+
+Stage actions have been updated to our standard components with rank selecting, as well as improvements to the Discord Webhook editor.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Webhooks**
+
+Reply settings updates will now show properly for the newly changed reply settings structure.
+
+**Drive**
+
+Sizing with files was improved to no longer appear squeezed on certain resolutions.
+
+Viewing PDFs within the Drive will now properly show instead of kicking back to the main Drive UI.
+
+**TeamSpeak Integration**
+
+Backend functionality was reworked to avoid rate-limits associated with syncing full communities frequently, syncs are now queued and only processed once per minute.
+
+**Forms**
+
+Several issues regarding sizing of question elements was addressed, mostly pertaining to viewing a submission.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.73 (Beta) 12/18/2023
 
 {% tabs %}
