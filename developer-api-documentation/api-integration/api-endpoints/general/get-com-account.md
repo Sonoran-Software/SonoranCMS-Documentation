@@ -20,7 +20,7 @@ API Key
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" required="true" name="type" type="string" %}
-GET_COM_ACCOUNT
+GET\_COM\_ACCOUNT
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" required="true" name="data" type="array" %}
@@ -78,7 +78,7 @@ NO ACCOUNT FOUND UNDER GIVEN PARAMETERS IN THIS COMMUNITY
 {
     "id": "YOUR_COMMUNITY_ID",
     "key": "YOUR_API_KEY",
-    "type": "CHECK_COM_APIID",
+    "type": "GET_COM_ACCOUNT",
     "data": [
         {
             "apiId": "SOME_API_ID", // Optional - must have one
