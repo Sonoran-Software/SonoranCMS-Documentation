@@ -10,6 +10,39 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.75 (Beta) 1/8/2023
+
+{% tabs %}
+{% tab title="New" %}
+**Rosters**
+
+_Member ID Column_\
+Rosters now have the ability to display member's unique ID as a column type now, this will grab the member's unique ID
+
+_Rank Based Rosters_\
+Rosters will now be able to be specified from specific ranks rather than whole department's or utilizing a custom roster. You can now specify what ranks and order that a member must have in-order to be displayed on the roster.
+
+_Cosmetic Styling_\
+All roster columns now have the ability to be styled to have more customization over your rosters. Additionally you can set conditions to when a column row cell is a specific styling, allowing greater control on how rosters are displayed.\
+\
+As well, Rosters can now have a header image displayed above the roster table.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Forms**
+
+* Duplicating a form would not duplicate the form stages resulting in a shared stage group with the form you just duplicated from
+
+**Community Customization**
+
+* On Join Settings would not be accounted for when a new member joins, in certain circumstances
+
+**TeamSpeak Integration**
+
+* Several issues regarding timeouts, rate limits, and connection issues were addressed and improved
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.74 (Beta) 1/4/2023
 
 {% tabs %}
