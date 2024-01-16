@@ -10,7 +10,58 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### v0.5.75 (Beta) 1/8/2023
+### v0.5.76 (Beta) 1/15/2024
+
+{% tabs %}
+{% tab title="New" %}
+**iOS Notch Support**
+
+The iOS finally now has support for the _notch_ that was introduced with iPhone X+, there is now proper spacing for elements that would originally be within the notch area.
+
+**Rosters**
+
+_Discord Guild Nickname Column_\
+New column type was added allowing for Discord guild nicknames to be referenced within rosters, this will pull the nickname for the user if they're in the specified guild for the column. Each column can reference a different linked Discord guild to be the source of the nicknames.
+
+_Timeclock Column_\
+Several new improvements and additions were introduced. Now allowing for several different timeclock time parameters, allowing to fetch hours within the last amount of days, between two dates or simply from a specific date. These time parameters are set directly on the column within the Roster editor.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Rosters**
+
+_Timeclock Column_\
+While viewing a roster, that has a timeclock column, you can now specify the date range which you are referencing the hours from. Allowing for much easier viewing of hours without the need of modify the roster! Simply modify the date range while viewing the roster and you'll fetch the hours instantly!
+
+_Column Permissions_\
+To follow suit with several other aspects of the CMS we've removed the _Mod_ and _Admin_ specific permissions from roster restricting. Columns will now be able to simply specify which ranks have viewable access, no longer requiring to manually grant individual permission to view restricted columns.\
+If no ranks are specified the column will be viewable by all members that can view the roster.
+
+**Profile Fields**
+
+Drag and drop support, with the new system, has been introduced for profile fields within the editor. Now reorder profile fields with ease via drag and drop.
+
+**Website Builder**
+
+The _Card_ and _Button_ element editors have been reworked from the ground up, now allowing for much easier editing with instant visual changes. Editing these elements should feel more native and overall easier to use.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Rosters**
+
+* Pagination would only allow for a maximum of 100 rows to be fetched, any additional rows would be unable to be accessed
+
+**Branding**
+
+* Branding footer would appear above the Forms Editor
+
+**Common**
+
+* Image preview component wouldn't allow removal of the current image
+{% endtab %}
+{% endtabs %}
+
+### v0.5.75 (Beta) 1/8/2024
 
 {% tabs %}
 {% tab title="New" %}
@@ -43,7 +94,7 @@ As well, Rosters can now have a header image displayed above the roster table.
 {% endtab %}
 {% endtabs %}
 
-### v0.5.74 (Beta) 1/4/2023
+### v0.5.74 (Beta) 1/4/2024
 
 {% tabs %}
 {% tab title="New" %}
