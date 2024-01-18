@@ -24,23 +24,39 @@ Within this "Roster Editor" panel you'll be able to create custom and automatic 
 Ensure that you select the Patrol Log form from the "Source Form" dropdown and ensure to input the date/time in the "Start Date" input.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/CMS_CreateCustomRoster3.png" alt=""><figcaption><p>Sonoran CMS - Create Custom Roster</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_RosterOverview.png" alt=""><figcaption><p>Sonoran CMS - Create Custom Roster</p></figcaption></figure>
 
-### Roster Customization & Permissions
+Along the top bar of the editor itself, you can also select an icon which will show at the top of the roster.
 
-You also have customization options for the display of any column you have added to the roster. To edit these, click the pencil icon to the right of any column to open the editor popup.
+## Roster Customization & Permissions
 
-Here you can change the name of the column and the type of column it is. If you have a column of type **Patrol Log Hours**, you can select what form the time logs are being pulled from. Similarly, you can also set the start date so that it only shows patrol log hours logged _after_ this date.
+You also have customization options for the display of any column you have added to the roster. To edit these, click on any column to open the editor popup.
 
-You can also customize the alignment of the content and the permissions, which determine who is allowed to view it. The permissions options are as follows:
+If you have a column of type **Time Log Hours**, you can select what form the time logs are being pulled from. Similarly, you can also set the date type to choose whether it pulls time log hours from the last X days, after X date, or within the selected date range.
 
-* **Everyone:** Everyone who can view this roster can view this column
-* **Mod & Admins:** Viewing this column is restricted to moderators and administrators only
-* **Admins:** Viewing this column is restricted to administrators only
+For each column in the roster editor, you can customize the styling including text color, background color, font, and alignment, as well as the name of the column itself. You can style the content cells differently from the header cell if you wish.
 
-These permissions are housed within [Department & Rank Permissions](creating-departments.md) and can be customized for any rank on any individual roster as shown below:
+<figure><img src="../../.gitbook/assets/CMS_RosterEditColumnTimeLog.png" alt=""><figcaption><p>Sonoran CMS - Roster Editor - Edit Roster Column</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/CMS_RosterPermissions.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Roster Permissions</p></figcaption></figure>
+### Style Rule Builder
+
+In the `Style` tab, you can use the rule builder to set conditionals that change the style of cells that meet the given criteria. For example, if you have a column for `Community Name`, you can create a style rule where if a user's `Community Name` is `equal to` a certain value, in this example, `SonoranAdam`, then the styling will be what has been set below `Then:`.
+
+<figure><img src="../../.gitbook/assets/CMS_RosterRuleBuilder.png" alt=""><figcaption><p>Sonoran CMS - Roster Editor - Rule Builder</p></figcaption></figure>
+
+As you can see, the user `SonoranAdam` now has a red background with green text in Impact font, as specified in the Rule Builder above:
+
+<figure><img src="../../.gitbook/assets/CMS_RosterNameHighlight.png" alt=""><figcaption><p>Sonoran CMS - Example Roster</p></figcaption></figure>
+
+You can also use rules for if a value is `greater than`, `less than`, or `not equal to` a set value.
+
+### Roster Permissions
+
+You can also customize the roster's permissions, which determine who is allowed to view and edit it. These permissions apply to the roster as a whole. If you would like to restrict viewing a certain column to only specified ranks, please see [Column Permissions](creating-custom-rosters.md#column-permissions)
+
+These permissions are housed within [Department & Rank Permissions](creating-departments.md) and can be customized for any rank on any individual roster as shown belo**w:**
+
+<figure><img src="../../.gitbook/assets/CMS_RosterPermsRank.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Roster Permissions</p></figcaption></figure>
 
 {% hint style="info" %}
 Whenever you create new rosters you will need to explicitly give ranks permissions to the new roster to be used by other individuals. This can be done in the [Department Manager](creating-departments.md).
@@ -48,7 +64,13 @@ Whenever you create new rosters you will need to explicitly give ranks permissio
 If a user has permission to a specific roster they'll be able to access it on the left side menu under the "Rosters" dropdown.
 {% endhint %}
 
-### Roster Type Explained
+### Column Permissions
+
+In the roster column editor, you can select any rank that you wish to be able to view a column. If you do not select any ranks, then the column will be viewable by all.
+
+<figure><img src="../../.gitbook/assets/CMS_RosterPermsColumn.png" alt=""><figcaption><p>Sonoran CMS - Roster Editor - Column Permissions</p></figcaption></figure>
+
+## Roster Type Explained
 
 #### Custom - Manually Add Rows
 
@@ -73,5 +95,5 @@ Once you've figured out the department for this roster you can now design the ro
 Don't forget to click the green **Save** button once you've finished. Once it's saved you can go to the automatic roster and see all the generated rows.
 
 {% hint style="info" %}
-Rows **CANNOT** be removed from a department roster, these rows are dynamically generated with any previous data saved associated with it. Once a row is&#x20;
+Rows **CANNOT** be removed from a department roster, these rows are dynamically generated with any previous data saved associated with it.
 {% endhint %}
