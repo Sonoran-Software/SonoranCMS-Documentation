@@ -10,6 +10,49 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.77 (Beta) 1/31/2024
+
+{% tabs %}
+{% tab title="New" %}
+**Form Management**
+
+Managing forms will now properly paginate based on what's in your current view, the further you scroll down the more submitted forms will populate.
+
+**Game Panel**
+
+Game state fetching was optimized to be more efficient and only needed when requested. Game state data will now manually be fetched from CMS -> Game Server instead of a the Game Server sending a periodic (every 1 minute) update to the CMS to store even if not currently used.\
+Data will now be more up-to-date and fluid throughout, as well these optimizations _should_ alleviate some of the _hitch_ warnings seen.
+{% endtab %}
+
+{% tab title="Changed" %}
+**Discord Integration**
+
+Mobile optimizations have been made to make it easier and more fluid while configuring Discord integration capabilities.
+
+**User Accounts**
+
+Multi-select and filtering have seen several improvements for a better UI/UX
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Rosters**
+
+* Column colors are now consistent
+
+**User Accounts**
+
+* Join date will now properly show instead of a _random_ date/time
+
+**Forms**
+
+* Conditional sections will now properly be evaluated and populated
+
+**iOS**
+
+* An issue regarding a black/blank screen was addressed, the fix is not guaranteed
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.76 (Beta) 1/15/2024
 
 {% tabs %}
