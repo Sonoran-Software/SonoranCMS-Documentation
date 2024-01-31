@@ -39,7 +39,6 @@
 * [Drive & Documents](tutorials/your-drive-and-documents.md)
 * [Forms and Applications](tutorials/forms/README.md)
   * [Creating Custom Forms](tutorials/forms/creating-custom-forms.md)
-  * [Managing Forms](tutorials/forms/admin-managing-forms.md)
   * [Clock In/Out System](tutorials/forms/clock-in-out-system.md)
 * [Administrative](tutorials/administrative/README.md)
   * [Archive Community Member](tutorials/administrative/archive-community-member.md)

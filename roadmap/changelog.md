@@ -2408,7 +2408,7 @@ The Community Discovery Portal brings more members to communities by streamlinin
 
 Default Department Permissions applies the same set of permissions to all ranks within the department to easily manage permissions.
 
-[Admin Form Delete](../tutorials/forms/admin-managing-forms.md)
+[Admin Form Delete](broken-reference)
 
 Easily remove form submissions from y our community with the newly added "Admin Form Delete". This will remove the form from any data selection, this will now be accounted for when calculating patrol log hours, submissions, etc.
 {% endtab %}
