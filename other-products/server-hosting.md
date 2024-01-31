@@ -8,7 +8,7 @@ description: >-
 
 ## [Sonoran Servers](https://sonoranservers.com/)
 
-![](<../.gitbook/assets/image (17) (1).png>)
+![](../.gitbook/assets/services.png)
 
 We've configured, built, and collocated our hardware to provide clients with our reliable performance and exceptional customer support experience.
 
@@ -18,9 +18,7 @@ Looking to host your next gaming server? Sonoran Servers has you covered!
 
 ## 30-100% Off Sonoran Software <a href="#sonoran-cad-free-plugin-installation-and-30-off-monthly" id="sonoran-cad-free-plugin-installation-and-30-off-monthly"></a>
 
-![](../.gitbook/assets/banner\_update-1.png)
-
-![](<../.gitbook/assets/Bannerprojectsenoranone (1).png>)
+![](../.gitbook/assets/30-100.png)
 
 Sonoran Servers customers are eligible to receive 30-100% off their CMS subscription every month with the purchase of a qualified Windows Server Product.
 

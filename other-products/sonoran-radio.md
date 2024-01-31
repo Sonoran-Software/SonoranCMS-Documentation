@@ -4,7 +4,7 @@ description: >-
   to offer!
 ---
 
-# Sonoran Radio
+# 📡 Sonoran Radio
 
 ![](<../.gitbook/assets/SonoranRadio Logo\_Full (1).png>)
 
