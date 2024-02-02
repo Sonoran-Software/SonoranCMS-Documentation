@@ -60,7 +60,11 @@ Or, you may purchase a new domain name with [Sonoran Servers](https://sonoranser
 
 In your domain's DNS records, add a `CNAME` type record with:
 
-* `Name` set to the subdomain or `@` for the root domain
+{% hint style="warning" %}
+Due to [DNS requirements](https://blog.cloudflare.com/introducing-cname-flattening-rfc-compliant-cnames-at-a-domains-root), if you wish to use the Apex / root domain instead of a subdomain  (i.e. dojrp.com vs cms.dojrp.com), you must have a domain registered with Cloudflare, or otherwise[ transfer your existing domain to Cloudflare](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup/).
+{% endhint %}
+
+* `Name` set to the subdomain or `@` for the root domain (see above note)
 * `Content` set to `login.sonorancms.com`.
 
 {% hint style="info" %}

@@ -24,41 +24,31 @@ If a user has permissions for a specific form they'll be able to see those forms
 
 ## Form Stages
 
-Form Stages allow you to control the process (or stages) of your form. Each for is required to have at least one stage before it can be used.
+Form Stages allow you to control the process (or stages) of your form. Depending on the `Form Type` you selected while creating the form, default form stages may automatically populate.&#x20;
 
-<figure><img src="../../.gitbook/assets/CMS_FormStages2.png" alt=""><figcaption><p>Form Stages Editor - Edit the flow of your forms!</p></figcaption></figure>
+Any form requires at least one stage in order to be used.
 
-To begin, you can either create a new stage or add an existing stage to a form. If there are no other stages, this will be the stage that is first assigned when a person submits this form (the default stage).
-
-After pressing "Create New Stage" (or pressing "Edit" on an existing stage), you're shown an editor to modify the look and actions of that stage.
-
-If you have integrated your community with our [Discord Bot](https://info.sonoranbot.com/en/tutorials/getting-started), users can be pinged when a submitted form or application has changed stages.
-
-{% hint style="info" %}
-**Stage Title** is shown when referenced in stage actions (upon execution), Form Management and Available Forms. **Stage Internal Label** is shown when referenced anywhere in the Administrative Panel.
-{% endhint %}
-
-<figure><img src="../../.gitbook/assets/CMS_FormStageInfo.png" alt=""><figcaption><p>Stage Editor - Edit a single stage</p></figcaption></figure>
-
-{% hint style="warning" %}
-Stages are not unique between forms, so if two forms use the same stage then editing that stage will affect both forms
-{% endhint %}
-
-### Changing Form Stages
-
-When users submit forms, their submissions will be displayed in a way that makes it simple to track what stage each submission is in.
-
-To view all form submissions, click the orange "Go To Submissions" button in the top right hand of the Form Editor page.
+To begin customizing form stages, click the orange "Go To Submissions" button in the top right hand of the Form Editor page.
 
 <figure><img src="../../.gitbook/assets/CMS_FormEditor3Arrow.png" alt=""><figcaption><p>Sonoran CMS - Form Editor - Go To Submissions</p></figcaption></figure>
 
-Once there, you can select the form whose submissions you'd like to manage on the left side, and then you will see all submissions and which stage they are in.
+When users submit the form, their submissions will show up underneath their corresponding stage, and administrators will drag-and-drop submissions under other stages to change the stage. This is covered in more detail in [Changing Form Stages](creating-custom-forms.md#changing-form-stages).&#x20;
 
-<figure><img src="../../.gitbook/assets/CMS_FormSubmissionManager.png" alt=""><figcaption><p>Sonoran CMS - Form Submission Manager</p></figcaption></figure>
+You can add a new stage using the green plus button to the right, and you can customize any existing stage by clicking on the settings cog.
 
-If you have the **Admin Delete** permission for a given form, you can also delete any submissions by right clicking them and selecting `Delete Form`.
+<figure><img src="../../.gitbook/assets/CMS_BlankFormStages.png" alt=""><figcaption><p>Sonoran CMS - Form Editor - Form Stage Template</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/CMS_FormSubmissionManagerDelete.png" alt=""><figcaption><p>Sonoran CMS - Delete Form Submission</p></figcaption></figure>
+Within a stage's settings, there will be two tabs: `Info` and `Actions`. The `Info` tab allows you to customize the stage's name, description, color, and icon.&#x20;
+
+<figure><img src="../../.gitbook/assets/CMS_FormStageInfo3.png" alt=""><figcaption><p>Sonoran CMS - Form Stage Editor - Info Tab</p></figcaption></figure>
+
+The `Actions` tab allows you to add "actions" that are performed when a submission is moved to that stage and is explained in [the section below](creating-custom-forms.md#form-stage-actions).
+
+After adding or editing a stage, you will be able to see the stage overview window, which allows you to easily drag-and-drop stages to re-order them. The first stage will always be the "Default" stage, i.e. the stage initially given upon submission.
+
+<figure><img src="../../.gitbook/assets/CMS_FormStages2.png" alt=""><figcaption><p>Sonoran CMS - Form Stages - Overview Window</p></figcaption></figure>
+
+If you have integrated your community with our [Discord Bot](https://info.sonoranbot.com/en/tutorials/getting-started), users can be pinged when a submitted form or application has changed stages.
 
 ### Form Stage Actions
 
@@ -72,19 +62,31 @@ The list of possible actions you can add is shown in the image below:
 
 ### Action Explanation: Change Submitter's Department/Rank
 
-This action will allow you to set the submitter's ranks. Additionally this allow you to set the ranks to also expire after a certain amount of time after they've been granted the rank by the action.
+This action will allow you to modify the submitter's ranks. Additionally this allow you to set the ranks to also expire after a certain amount of time after they've been granted the rank by the action.
 
 {% hint style="info" %}
 Checks for rank expirations are done upon each fetch of the account and not **currently** periodically checked.
 {% endhint %}
 
-This will change the submitter's rank (and department but that's behind the scenes). To apply an expiration to the rank(s) simply press the dropdown button located on the rank button, this will provide you with the option to access it's Expiration Settings.
+This allows you to select any rank you would like to add, and any rank you would like to remove. To apply an expiration to the rank(s) simply press the dropdown button located on the rank button, this will provide you with the option to access it's Expiration Settings.
 
-<figure><img src="../../.gitbook/assets/CMS_FormStageActionChangeDept2.png" alt=""><figcaption><p>Sonoran CMS - Change Submitter's Department/Rank Stage Action</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormsModifySubRank.png" alt=""><figcaption><p>Sonoran CMS - Stages Editor - Modify Submitter's Rank</p></figcaption></figure>
 
-In order to actually change the users department or rank, you must click the rank name button below the rank selector. It will then change color to Green, meaning it will **add** the rank to the user's account. If you click it again, it will turn Red, meaning it will **remove** the rank from the user's account.
+### Changing Form Stages
 
-<figure><img src="../../.gitbook/assets/CMS_FormStageActionChangeDeptClick2.png" alt=""><figcaption><p>Sonoran CMS - Change Submitter's Department/Rank Stage Action Clicked</p></figcaption></figure>
+When users submit forms, their submissions will be displayed in a way that makes it simple to track what stage each submission is in.
+
+To view all form submissions, click the orange `Go To Submissions` button in the top right hand of the Form Editor page.
+
+<figure><img src="../../.gitbook/assets/CMS_FormEditor3Arrow.png" alt=""><figcaption><p>Sonoran CMS - Form Editor - Go To Submissions</p></figcaption></figure>
+
+Once there, you can select the form whose submissions you'd like to manage on the left side, and then you will see all submissions and which stage they are in.
+
+<figure><img src="../../.gitbook/assets/CMS_FormSubmissionManager.png" alt=""><figcaption><p>Sonoran CMS - Form Submission Manager</p></figcaption></figure>
+
+If you have the **Admin Delete** permission for a given form, you can also delete any submissions by right clicking them and selecting `Delete Form`.
+
+<figure><img src="../../.gitbook/assets/CMS_FormSubmissionManagerDelete.png" alt=""><figcaption><p>Sonoran CMS - Delete Form Submission</p></figcaption></figure>
 
 ## Sections & Fields
 
