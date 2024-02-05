@@ -6,7 +6,7 @@ description: >-
 
 # Creating Custom Forms
 
-{% embed url="https://www.youtube.com/watch?v=HEJtdmqK4qk" %}
+{% embed url="https://youtu.be/7CMHrEIEuS4" %}
 
 Navigate to the Custom Form Editor
 
