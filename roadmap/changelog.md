@@ -45,9 +45,23 @@ A new data template key was added to the Community Naming format, `{uniqueId}` w
 {% endtab %}
 
 {% tab title="Fixed" %}
+**Website Builder**
 
+* Page background image would not save, it would default back to the color option
+* Image uploader options for page background would often display under the image
 
+**User Accounts**
 
+* Rank icon / name badge will now show properly instead of empty space
+* Accounts should no longer have Unknown Rank in their rank list, audit functions were added&#x20;
+
+**Discord Integration - Role Mapping**
+
+* Removing / adding a role directly within the role list wouldn't actually save on the backend&#x20;
+
+**Rank Manager**
+
+* Roster & form ALL permission toggles will now properly add / remove all
 {% endtab %}
 {% endtabs %}
 
