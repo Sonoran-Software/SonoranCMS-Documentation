@@ -6,7 +6,7 @@ description: Learn more about Sonoran CMS's privacy policy.
 
 ### Sonoran CMS Privacy Policy
 
-Last updated July 11, 20201
+Last updated July 11, 2021
 
 #### Information Collection And Use
 
