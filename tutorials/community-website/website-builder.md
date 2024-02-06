@@ -6,7 +6,7 @@ description: Create your own community website entirely within Sonoran CMS!
 
 ![Sonoran CMS - Custom Pages](../../.gitbook/assets/CMS\_WebBuilder.png)
 
-{% embed url="https://www.youtube.com/watch?v=AFE5MlECQSg" %}
+{% embed url="https://youtu.be/OYV8JbnqLrU" %}
 
 To access the website builder, navigate to `Administration Panel` > `Website Builder`
 
