@@ -10,6 +10,49 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.79 (Beta) 2/6/2024
+
+{% tabs %}
+{% tab title="New" %}
+**Discord Integration**
+
+We've completely reworked how Discord guild data is fetched for a more efficient and effective method. Configuring your Discord Integration should be populating much faster as data is now concurrently fetched by key, reducing the overall data that is transferred.
+
+Additionally, we've made the following changes:
+
+* Remove Guilds\
+  _Remove linked guilds directly within the Discord Integration panel, allowing you to unlink guilds you no longer wish to be included in sync events_
+* Join Rank Check\
+  _New members that join your CMS community when a guild is linked will check whether they have any roles in guild(s) for mapped ranks that they should have, automatically applying the ranks on join_
+
+**Website Builder - MAJOR OVERHAUL**
+
+The website builder has seen a massive overhaul, now with the ability for more customization and control over your page designs. Create stunning pages with our new placement system, easily drag and drop elements wherever you want on the page, no longer limited by just column sizing.
+
+As well, when creating new pages you're now able to create from templates or just a blank canvas.
+
+**Navigation Bar**
+
+Bar items now have the ability to have more styles & customization applied to the item. Choose from several different styling options to fit your design needs. As well, the individual item editor was reworked for much better UI/UX.
+
+**Community Settings**
+
+A new data template key was added to the Community Naming format, `{uniqueId}` will now provide their automatically generated unique integer ID.
+
+**Admin Panel**
+
+`Drive` access button was added to the Administrative Panel side navigation, no longer requiring a navigation item to navigate through
+{% endtab %}
+
+{% tab title="Fixed" %}
+
+
+
+{% endtab %}
+{% endtabs %}
+
+
+
 ### v0.5.77 (Beta) 1/31/2024
 
 {% tabs %}
