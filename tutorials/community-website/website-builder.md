@@ -32,39 +32,41 @@ To add sections to your web page, simply drag and drop your desired section type
 
 ### Basic Information
 
-From the website builder's toolbar you can change the page's title, path slug, and privacy setting. Additionally, you're able to add new sections, change the preview size of the editor to visualize different size settings, and toggle the borders for the different sections of your page.
+From the website builder's toolbar you can change the page's title, path slug, and privacy setting. Additionally, you're able to add new sections, and change the preview size of the editor to visualize different size settings.
 
-<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderHead.png" alt=""><figcaption><p>Sonoran CMS - Webpage Toolbar</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderTop.png" alt=""><figcaption><p>Sonoran CMS - Webpage Toolbar</p></figcaption></figure>
 
-The borders can be useful for visualizing the size of different sections on the page and will not show up on the viewable version of the page.
+The device preview feature allows you to choose from a list of devices, or set your own custom resolution to give you further control over designing your community's website with mobile responsiveness in mind!&#x20;
 
-<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderToggleBorders.png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Toggle Borders</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderDevicePreview.png" alt=""><figcaption><p>Sonoran CMS - Webpage Toolbar - Device Preview</p></figcaption></figure>
 
 ### Section-Specific Styling
 
-With recent updates to the Custom Page Editor you're now able to customize the margin, padding, gutter, alignment and background styling of sections.
+Sections are containers for elements that exist within a webpage. You can add multiple sections and resize / move them however you'd like.&#x20;
 
-**Padding:** Padding refers to the space between an element's content and its border. It can be used to increase the visual space around a section, or to create separation between sections on a page. In your page editor, you can change padding options for different areas, such as top, bottom, left and right.
+You can customize the margin and background styling of specific sections.
 
-**Margin:** Margin refers to the space outside an section. It can be used to create space between sections on a page or to push elements away from the edges of the page.  In your page editor, you can change margin options for different areas, such as top, bottom, left and right.
+**Margin** refers to the space outside an section. It can be used to create space between sections on a page or to push elements away from the edges of the page. In your page editor, you can change margin options for different areas, such as top, bottom, left and right.
 
-**Horizontal alignment:** Horizontal alignment refers to the positioning of a section horizontally within the page. It can be used to center a section or align it to the left or right side of its container. In the page editor, we offer horizontal alignment options such as "start", "center", "end", "around", "between", and "evenly" to allow users to adjust the horizontal alignment of their section.
+<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderSectionStyling.png" alt=""><figcaption><p>Sonoran CMS - Website Builder -  Edit Section Margins</p></figcaption></figure>
 
-**Vertical alignment:** Vertical alignment refers to the positioning of an section vertically within the page. It can be used to align an element to the top, middle, or bottom of its container. In the page editor, we offer vertical alignment options such as "top", "middle", or "bottom" to allow users to adjust the vertical alignment of their section.
+You can also dynamically resize and position sections by clicking any of the boxes around the edges and dragging them to your desired position.&#x20;
 
-**Gutters:** Gutters refer to the space between elements in a section. They can be used to create visual separation between elements or to adjust the overall layout of a page.
+<figure><img src="../../.gitbook/assets/CMS_WB_ResizeSection.png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Resize Section</p></figcaption></figure>
 
-It's important to note that the use of padding, margin, and alignment can greatly affect the design and layout of a page, so it's important to use them thoughtfully and consistently throughout your design. I hope this explanation helps your users better understand these concepts.
+There is also a button at the top of the section that allows you to click and drag to move the section:
 
-<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderSectionMarg.png" alt=""><figcaption><p>Sonoran CMS - Edit Section Margins</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_WB_MoveSection.png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Move Section</p></figcaption></figure>
 
 ### Element Sizes, Alignment and Background
 
-Using the three align buttons, different size settings and background options you are able to control the styling of said element.
+You can also control the size of individual elements using the same method above, and you can click and drag to move any element wherever you'd like.
 
-These three size options; Desktop, Tablet, and Mobile are all different widths your element can have while being under those specific screen size conditions. You can preview how the size changes depending on settings by exiting the element edit modal and switch between the preview size selector above in blue.
+Elements will also snap to center lines within their respective section to assist with positioning.
 
-![Sonoran CMS - Element Size](../../.gitbook/assets/CMS\_WebsiteBuilderElemSize.png)
+<figure><img src="../../.gitbook/assets/CMS_WB_ElemPos.png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Resize &#x26; Reposition Element</p></figcaption></figure>
+
+In the top right corner of the button element above, you can see an orange lock icon. This means that this element is locked to the section its in. To move an element to another section, you can click this button to unlock the element, drag it to the section you desire, and then re-lock it.
 
 ### Buttons
 
@@ -72,7 +74,13 @@ If you wish to add buttons to your page, you can add a button or button group se
 
 Button elements can have individual styles and button group elements can have all group styles.
 
-<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderBtnEditor.png" alt=""><figcaption><p>Sonoran CMS - Button Editor</p></figcaption></figure>
+You can customize by clicking on it. The styling of a button is set in the `Styles` tab, the target link a button leads to is set in the `Target` tab.
+
+<figure><img src="../../.gitbook/assets/CMS_WB_ButtonEditor2.png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Button Editor</p></figcaption></figure>
+
+For Button Group elements, you can add as many target links as you need, and re-order or delete them using the controls on the top right of each entry.
+
+<figure><img src="../../.gitbook/assets/CMS_WB_ButtonGroupTarget.png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Button Group Targets</p></figcaption></figure>
 
 ## Privatized Pages
 
