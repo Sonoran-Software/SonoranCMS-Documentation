@@ -14,6 +14,13 @@ This whitelist module utilizes Sonoran CMS's to enforce player connections.
 
 {% embed url="https://www.youtube.com/watch?v=4PAtKYQokXE" %}
 
+## Whitelisting on QBCore / VMenu
+
+If using QBCore or VMenu on your server, it is recommended that you control whitelisting through their respective game panels, rather than through this plugin. For more information, see the links below:\
+[QBCore Game Panel - Whitelisting](../../../../qb-core-game-panel/using-the-game-panel/whitelist.md)&#x20;
+
+[VMenu Game Panel - Whitelisting](../../../../vmenu-game-panel/using-the-game-panel/whitelist.md)
+
 ## Installation / Configuration
 
 {% hint style="info" %}
@@ -22,7 +29,9 @@ With core version `v1.4.0` the Whitelist resource was converted to a core module
 
 ### 1. Configure Clock In Module
 
-Locate the whitelist module within your `[sonorancms]/sonorancms/server/modules` and open the `whitelist_config.json` file
+Locate the `whitelist` module within your `[sonorancms]/sonorancms/server/modules` folder and rename `whitelist_config.dist.json` so that it is just `whitelist_config.json`.&#x20;
+
+Next, open the `whitelist_config.json` file and set `enabled` to `true`.
 
 ## Configuration
 
