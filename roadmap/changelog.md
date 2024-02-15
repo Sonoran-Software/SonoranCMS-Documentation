@@ -10,6 +10,28 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.80 (Beta) 2/14/2024
+
+{% tabs %}
+{% tab title="New" %}
+**Search Engine Optimization**\
+Custom pages now have customizable SEO information, you can now set the image and description for the page SEO. This type of information will show within the link embeds in applications such as Discord. Additionally, forms will now have SEO information regarding the form name, description and image.
+
+**Form Management** - **Stages**\
+Stages have been completely reworked to be per form rather than globally created individually, primarily for future easier development.\
+As well, drag and drop support was added for rearranging the order of stages.
+
+**New Common UI**\
+We've created a unified common WYSIWYG text editor to be used throughout the application, allowing the same control through. This is seen within the Website Builder, Forums, etc.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Permissions**
+
+* Proper permission evaluation was corrected and validated for viewing any page within the Administrative Panel
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.79 (Beta) 2/6/2024
 
 {% tabs %}
