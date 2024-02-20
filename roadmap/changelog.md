@@ -10,6 +10,45 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.81 (Beta) 2/19/2024
+
+{% tabs %}
+{% tab title="New" %}
+**Rank Editor**\
+_Discord Role Import_\
+Creating departments and ranks within the editor is now much easier, you can now import any role from a linked guild directly into your community. It'll import name, color, and icon automatically, just select which roles you want imported and moments later they'll be created within your community.
+
+**API Endpoint**\
+_Get Accounts_\
+Fetch all accounts within your community, with filters and paginated. This will return all basic information for returned members.
+
+**WYSIWYG Text Editor**\
+The newly added WYSIWYG editor has been reworked to utilize a more feature rich editor, allowing for more control and customization.
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Accounts - Multi-Actions**
+
+* Changing or setting ranks via multi-actions will now properly process and apply
+
+**Community Profile**
+
+* Viewing your own profile and updating your community name will now update the UI upon successful change
+
+**Website Builder**
+
+* Buttons that target to fill out a form will now properly navigate
+
+**Form Management**
+
+* While viewing a form submission, you can now properly change stages via the dropdown button / options
+
+**Rosters**
+
+* Custom fonts and alignment will now properly display on the viewer side
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.80 (Beta) 2/14/2024
 
 {% tabs %}
