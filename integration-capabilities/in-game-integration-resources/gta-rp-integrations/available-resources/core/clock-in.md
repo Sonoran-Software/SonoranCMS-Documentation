@@ -22,7 +22,28 @@ Locate the clockin module within your `[sonorancms]/sonorancms/server/modules` a
 
 
 
-<figure><img src="https://i.imgur.com/sR9g6J3.png" alt=""><figcaption></figcaption></figure>
+```json
+{
+    "enableCommand": true,
+    "command": "clockin",
+    "useAcePermissions": false,
+    "qbcore": {
+        "use": false,
+        "autoClockInJobs": [
+            "police",
+            "ems",
+            "fire"
+        ]
+    },
+    "esx": {
+        "use": true,
+        "autoClockInJobs": [
+            "police",
+            "ambulance"
+        ]
+    }
+}
+```
 
 ## Configuration
 
@@ -33,6 +54,8 @@ Locate the clockin module within your `[sonorancms]/sonorancms/server/modules` a
 | useAcePermissions      | If `enableCommand` is `true`, this will enable ace permissions for the specific command, must give `command.whateverTheCommandIs`                |
 | qbcore.use             | Enables qbcore integration                                                                                                                       |
 | qbcore.autoClockInJobs | Will automatically clock in/out the player's Sonoran CMS account with they clock in/out of a job with the name in the array of `autoClockInJobs` |
+| esx.use                | Enables ESX integration                                                                                                                          |
+| esx.autoClockInJobs    | Will automatically clock in/out the player's Sonoran CMS account with they clock in/out of a job with the name in the array of `autoClockInJobs` |
 
 ### 2. Add your API ID
 
