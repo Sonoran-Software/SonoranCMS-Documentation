@@ -60,8 +60,13 @@ API ID NOT LINKED TO AN ACCOUNT IN THIS COMMUNITY
     "type": "EDIT_ACC_PROFLIE_FIELDS",
     "data": [
         {
-            "apiId": "SOME_API_ID", // Optional - must have one (apiId or accId)
-            "accId": "SOMEACCID", // Optional - must have one (apiId or accId)
+            // User Identification
+            "apiId": "SOME_API_ID", // Optional - must have one
+            "username": "SOMEUSERNAME", // Optional - must have one
+            "accId": "SOMEACCID", // Optional - must have one
+            "discord": "111122223333444455", // Optional - must have one
+            "uniqueId": 1234 // Optional - must have one
+            // Configuration
             "profileFields": [
                 {
                     "id": "d9d1288e-3892-40d6-acc5-be2c3d294bd4",

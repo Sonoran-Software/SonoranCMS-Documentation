@@ -18,7 +18,7 @@ API Key
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" required="true" name="type" type="string" %}
-GET_COM_ACCOUNT
+GET\_COM\_ACCOUNT
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" required="true" name="data" type="array" %}
@@ -54,6 +54,8 @@ NO ACCOUNT FOUND UNDER GIVEN PARAMETERS IN THIS COMMUNITY
             "apiId": "SOME_API_ID", // Optional - must have one
             "username": "SOMEUSERNAME", // Optional - must have one
             "accId": "SOMEACCID", // Optional - must have one
+            "discord": "111122223333444455", // Optional - must have one
+            "uniqueId": 1234 // Optional - must have one
         }
     ]
 }

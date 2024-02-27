@@ -14,7 +14,7 @@ API Key
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" required="true" name="type" type="string" %}
-GET_COM_ACCOUNT
+GET\_COM\_ACCOUNT
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" required="true" name="data" type="array" %}
@@ -47,10 +47,16 @@ NO ACCOUNT FOUND UNDER GIVEN PARAMETERS IN THIS COMMUNITY
     "type": "SET_ACCOUNT_RANKS",
     "data": [
         {
-            "accountId": "ACCOUNT_UUID",
-            "set": {"primary": "PRIMARY_RANK_UUID", "secondary": ["SECONDARY_RANK_UUID"]}, // "set", "primary", and "secondary" are all optional
-            "add": ["SECONDARY_RANK_UUID"], // Optional
-            "remove": ["SECONDARY_RANK_UUID"] // Optional
+            // User Identification
+            "apiId": "SOME_API_ID", // Optional - must have one
+            "username": "SOMEUSERNAME", // Optional - must have one
+            "accId": "SOMEACCID", // Optional - must have one
+            "discord": "111122223333444455", // Optional - must have one
+            "uniqueId": 1234 // Optional - must have one
+            // Rank Specification
+            "set": ["RANK_UUID", "ANOTHER_RANK_UUID"], // Remove and set ONLY these ranks on account
+            "add": ["RANK_UUID"], // Optional - Add rank(s)
+            "remove": ["RANK_UUID"] // Optional - Remove rank(s)
         }
     ]
 }
@@ -58,4 +64,6 @@ NO ACCOUNT FOUND UNDER GIVEN PARAMETERS IN THIS COMMUNITY
 
 ### Notes
 
-`set` `add` and `remove` can all be used together. `add` and `remove` only affect secondary ranks, to set the primary rank use `set.primary` (use `null` to unset). `remove` takes precedence over `add` (i.e. if both add and remove have the same rank, it is ultimately removed).
+`set` `add` and `remove` can all be used together. `remove` takes precedence over `add` (i.e. if both add and remove have the same rank, it is ultimately removed).
+
+The rank UUID(s) can be copied from the [rank manager](../../../../tutorials/user-management/creating-departments.md) by clicking the `...` icon and selecting the `Copy Rank ID` button.

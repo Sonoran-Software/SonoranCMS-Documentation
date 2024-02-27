@@ -54,9 +54,14 @@ API ID NOT LINKED TO AN ACCOUNT IN THIS COMMUNITY
     "type": "RSVP",
     "data": [
         {
+            // User Identification
+            "apiId": "SOME_API_ID", // Optional - must have one
+            "username": "SOMEUSERNAME", // Optional - must have one
+            "accId": "SOMEACCID", // Optional - must have one
+            "discord": "111122223333444455", // Optional - must have one
+            "uniqueId": 1234 // Optional - must have one
+            // Configuration
             "eventId": "", // UUID of Event
-            "apiId": "SOME_API_ID", // Optional - must have one (apiId or accId)
-            "accId": "SOMEACCID", // Optional - must have one (apiId or accId)
         }
     ]
 }
