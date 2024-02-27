@@ -78,7 +78,22 @@ Website Editor - Width Preview
 
 API Endpoints - User Variables
 
-* Added&#x20;
+* Added the following consistent user variable options:
+  * `accId`
+  * `apiId`
+  * `uniqueId`
+  * `discord`
+  * `username`
+* To the following endpoints:
+  * `GET_COM_ACCOUNT`
+  * `GET_ACCOUNT_RANKS`
+  * `SET_ACCOUNT_RANKS`
+  * `CLOCK_IN_OUT`
+  * `KICK_ACCOUNT`
+  * `BAN_ACCOUNT`
+  * `EDIT_ACC_PROFLIE_FIELDS`
+  * `VERIFY_WHITELIST`&#x20;
+  * `RSVP`
 {% endtab %}
 
 {% tab title="Fixed" %}
