@@ -10,6 +10,131 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+v0.5.82 (Beta) 2/27/2024
+
+
+
+{% tabs %}
+{% tab title="New" %}
+Community Account ID - Modify
+
+* Community administrators can now manually customize a member's UID in the user accounts tab.
+
+\#20479 - Clear All Notifications
+
+* Users can now clear all notifications on their CMS at once.
+
+Community Customization - UI Improvements
+
+* The community customization panel has been overhauled and simplified for a better user interface experience.
+
+Limits Panel - UI Improvements
+
+* The community limits panel has been updated for an improved user interface.
+
+\#20746 - Form Question Descriptions
+
+* Form questions can now have subtext added below the element type.
+
+\#20757 - Form Submission Removal
+
+* Added new delete buttons on the submission card and submission viewer to remove form submissions instead of having to right-click.
+
+\#20766 - Form Stage Email Branding
+
+* Updated the custom form stage emails to include custom community branding in the subject line and included email logo.
+
+\#20767 - Community Member UID Column
+
+* Added the community member UID column to the list view in the user accounts panel.
+
+\#20745 - Stage Customization in Submitter UI
+
+* Added proper stage customization display (icon and color) to the stage listed on the submitter UI section.
+
+\#20762 - Direct Link Stage Response
+
+* Added a new {form\_link} variable in custom form stages to send a direct link to the submitted form.
+
+Custom Emails - Sanitization
+
+* Added additional HTML and script sanitization on custom stage action emails.
+
+\#20754 - Event Redesigned
+
+* Redesigned the UI on the community event viewer and migrated to a dialog popup instead of a full page.
+
+New Form Scroll Height
+
+* Improved the form height scroll calculation for new form submissions, maximizing the user's screen space.
+
+Forms Label - New WYS Editor
+
+* Label elements on the form editor now include the updated WYS editor for better control.
+
+Website Editor - Width Preview
+
+* Improved the width handling on the website editor to show the true width of the page breakpoint being edited. Also added new ctrl + scroll handling to quickly zoom in and out of the editor preview.
+
+API Endpoints - User Variables
+
+* Added&#x20;
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#20744 - External URLs
+
+* Fixed an issue causing external URLs in the navbar to not properly open.
+
+\#20749 - Roster Hours
+
+* Fixed an issue with roster time hours showing as invalid.
+* Fixed an issue with manually added roster rows not displaying on initial save.
+
+\#20748 - Roster Ranks
+
+* Fixed an issue causing rosters with specific rank selections to load in reverse order.
+
+\#20742 - Clock-In Time
+
+* Fixed an issue causing the total time for click-in import not displaying the amount.
+
+\#20730 - Discord Webhook Selector
+
+* Fixed an issue causing the Discord webhook channel selector to display a webhook URL instead of the selected channel name.
+
+\#20692 - Advertise Encoding
+
+* Fixed an issue causing image URLs to not be fully encoded for special characters in the Sonoran Discord's #advertise-here channel
+
+\#20756 - Calendar Perm Checks
+
+* Fixed an issue allowing users without the create event permission to still create events.
+
+\#20761 - Form Action Template String
+
+* Fixed an issue causing {form\_name} and {stage\_name} variables from not properly displaying in custom stage action text.
+
+Department Name Ellipsis
+
+* Fixed an issue causing departments names in the rank manager from getting cut off instead of showing an ellipsis.
+
+Page Templates - Text Format Update
+
+* Updated the default community pages to have the newly formatted text markup for the improved WYS editor.
+
+\#20863 - Navbar Button Editor
+
+* Fixed multiple issues with the navbar button and dropdown editor, added additional style handling to prevent color clashes.
+
+\#20840 - Initial Discord Sync
+
+* Fixed an issue causing users already in a CMS community that newly linked their Discord account to not receive associated CMS ranks from their existing Discord roles.
+{% endtab %}
+{% endtabs %}
+
+
+
 ### v0.5.81 (Beta) 2/19/2024
 
 {% tabs %}
