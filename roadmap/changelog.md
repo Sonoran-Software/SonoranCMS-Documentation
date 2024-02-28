@@ -143,6 +143,8 @@ Page Templates - Text Format Update
 \#20840 - Initial Discord Sync
 
 * Fixed an issue causing users already in a CMS community that newly linked their Discord account to not receive associated CMS ranks from their existing Discord roles.
+
+_More than several additional bugs have been resolved via live hot-fix and are not listed with this module._
 {% endtab %}
 {% endtabs %}
 
