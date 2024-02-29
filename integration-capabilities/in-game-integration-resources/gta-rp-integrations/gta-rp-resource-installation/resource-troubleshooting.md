@@ -20,4 +20,6 @@ Resource updates are released often. Make sure your server is running on the lat
 
 ### 3. Ensure your API ID is set correctly.
 
-Ensure you have set your [API ID in the CMS](../../../../developer-api-documentation/api-integration/getting-started/api-id-system.md) using the API ID that your community is looking for (Discord ID for Discord, Steam Hex for Steam, FiveM License for license, etc.
+If your community is using recommended Discord integration, ensure your [Discord account](https://info.sonoranbot.com/en/tutorials/getting-started/sonoran-cms-integration#h-1-discord-sso-linking) is linked.
+
+For other methods (Steam, FiveM License, etc.) ensure you have set your [API ID in the CMS](../../../../developer-api-documentation/api-integration/getting-started/api-id-system.md) using the API ID that your community is looking for.
