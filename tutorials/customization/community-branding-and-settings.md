@@ -10,11 +10,10 @@ description: Customize your community's settings, branding, information, and mor
 
 The admin customization info section allows you to customize your community's image, name, and more! These settings can be found by navigating to `Administrative Panel` > `Customization`
 
-![Sonoran CMS - Community Customization](https://i.imgur.com/AVQq90Y.png)
+![Sonoran CMS - Community Customization](../../.gitbook/assets/CMS\_CustomizationPanel.png)
 
-| Field                    | Description                                                                                                                        |
+| Community Logo           | <p>A link to your community's logo.</p><p>This will be displayed on your community card, community dashboard, and more!</p>        |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Image                    | <p>A link to your community's logo.</p><p>This will be displayed on your community card, community dashboard, and more!</p>        |
 | Banner Image             | A link to your community's banner image. This will be displayed primarily through Community Discovery advertisement notifications. |
 | Community Name           | <p>This is your community's name.</p><p>This will be displayed on your community card and community dashboard.</p>                 |
 | Community Subtitle       | This is the text displayed below your community name on your community card.                                                       |
@@ -38,36 +37,42 @@ Looking to change your community ID?\
 Navigate to `Administrative Panel` > `Limits`\
 Click the "Change Community ID" button and enter your new community ID.
 
-![Sonoran CMS Community Limits - Changing Community ID](https://i.imgur.com/8DLUVwx.png)
+![Sonoran CMS Community Limits - Changing Community ID](../../.gitbook/assets/CMS\_ChangeCommId.png)
 
 ## Community Name Customization
 
 Sonoran CMS allows you to set whether your member's can customize their community name or not, within the Customization editor there's a misc. setting to allow and disallow members customizing their community name.
 
-<figure><img src="../../.gitbook/assets/CMS_CustomizationAdvancedCustNameHighlight.png" alt=""><figcaption><p>Sonoran CMS - Community Customization - Advanced Misc. Settings</p></figcaption></figure>
+To change this setting, click `Name Customizations` in the `General` tab.
 
-Members can customize their community names, if enabled, in their profile. And by clicking the blue outlined "Change Name" or clicking their name will then prompt to modify the community name.&#x20;
+<figure><img src="../../.gitbook/assets/CMS_CustomizationPanelClickNameCust.png" alt=""><figcaption><p>Sonoran CMS - Community Customization - Advanced Misc. Settings</p></figcaption></figure>
+
+Within the `Name Customizations` tab, you can click the icon underneath where it says "Allow Members to Customize Name" to toggle whether or not members can freely change their name or not.
+
+<figure><img src="../../.gitbook/assets/CMS_CustomizationPanelNameCustToggleClick.png" alt=""><figcaption><p>Sonoran CMS - Allow Changing Community Name</p></figcaption></figure>
+
+Members can customize their community names, if enabled, in their profile. And by clicking their name or the blue pencil icon next to it, it will then prompt to modify their community name.&#x20;
 
 <figure><img src="../../.gitbook/assets/CMS_ChangeCommNameProfile.png" alt=""><figcaption><p>Sonoran CMS - Changing Community Name</p></figcaption></figure>
 
 ### Naming Format
 
-In the `Social` tab, you can also set the automatic naming format for your community. The naming format determines how a user's name is displayed in the commuity (e.g. on their profile, form submissions, etc.).&#x20;
-
-
+In the `Name Customizations` menu, you can also set the automatic naming format for your community. The naming format determines how a user's name is displayed in the community (e.g. on their profile, form submissions, etc.).&#x20;
 
 <figure><img src="../../.gitbook/assets/CMS_NamingFormatExample.png" alt=""><figcaption><p>Sonoran CMS - Naming Format Example</p></figcaption></figure>
 
 In the above image, you can see that the name is displayed on the profile as `John Doe | 1A`. In this case, the user's Community Name is set as `John Doe`, and this user has an Identifier of `1A`. To display those together like this, you would set the naming format to `{comName} | {identifier}`.&#x20;
 
-<figure><img src="../../.gitbook/assets/CMS_CustomizationNamingFormat.png" alt=""><figcaption><p>Sonoran CMS - Naming Format</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_CustomizationPanelNameCust2.png" alt=""><figcaption><p>Sonoran CMS - Naming Format</p></figcaption></figure>
 
-Keep in mind that this is just an example, you can change the naming format to include whatever other text you'd like to input, though as of now `Community Name` & `Identifier` are the only things it can automatically draw from.
+Keep in mind that this is just an example, you can change the naming format to include whatever other text you'd like to input, though as of now `Community Name`, `Identifier`, and `Unique ID` are the only things it can automatically draw from.
 
-<table><thead><tr><th>User Information</th><th>Naming Format Variable</th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td>Community Name</td><td>{comName}</td><td></td><td></td></tr><tr><td>Identifier</td><td>{identifier}</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th>User Information</th><th>Naming Format Variable</th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td>Community Name</td><td>{comName}</td><td></td><td></td></tr><tr><td>Identifier</td><td>{identifier}</td><td></td><td></td></tr><tr><td>Unique ID</td><td>{uniqueId}</td><td></td><td></td></tr></tbody></table>
 
 ## Member On Join Settings
 
 Sonoran CMS allows you to customize whether a user's community status is active or pending when they initially join. If you select for users to join as "ACTIVE" then you'll have the option to choose a rank in which they'll automatically be granted upon join.
 
-<figure><img src="../../.gitbook/assets/CMS_CustomizationAdvanced (1).png" alt=""><figcaption><p>Sonoran CMS - Member On Join Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_CustomizationPanelClickOnJoin.png" alt=""><figcaption><p>Sonoran CMS - Member On Join Settings - Button Location</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/CMS_CustomizationPanelOnJoin.png" alt=""><figcaption><p>Sonoran CMS - Member On Join Settings</p></figcaption></figure>

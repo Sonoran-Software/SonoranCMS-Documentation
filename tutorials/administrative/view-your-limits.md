@@ -12,4 +12,4 @@ description: >-
 
 In the admin page, under `Advanced` click `Limits` to view your community limitations.
 
-![Sonoran CMS - Limits View](https://i.imgur.com/epxB8oK.png)
+![Sonoran CMS - Limits View](<../../.gitbook/assets/2024-02-29 15\_37\_29-My EPIC Gaming Community - Brave.png>)

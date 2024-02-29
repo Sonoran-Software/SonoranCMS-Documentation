@@ -8,7 +8,7 @@ description: >-
 
 {% embed url="https://www.youtube.com/watch?v=kj1seR5ifNU" %}
 
-<figure><img src="../../.gitbook/assets/CMS_CommunityDiscoveryPage.png" alt=""><figcaption><p>Sonoran CMS - Community Discover</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_CommunityDiscovery2.png" alt=""><figcaption><p>Sonoran CMS - Community Discover</p></figcaption></figure>
 
 Discovering and joining new communities is made simple with Sonoran CMS, when joining a community through the discovery portal you'll be greeted with the community's new member application, this will allow you to be streamlined into community's application process!
 
@@ -20,19 +20,15 @@ Not all communities will have the default new member application form set, if no
 
 To begin setting up community discovery, locate the `Administrative Panel` > `Customization`. From here, click on the `Community Discovery` tab along the left-hand menu.
 
-Once enabled your community will be shown to the thousands of users that use Sonoran CMS through the Community Discovery portal. You can also set a "New Member Application" form to be automatically shown when a user joins your community through the discovery portal.
-
-<figure><img src="../../.gitbook/assets/CMS_CommunityDiscovery.png" alt=""><figcaption><p>Sonoran CMS - Community Discovery Configuration</p></figcaption></figure>
+Once enabled your community will be shown to the thousands of users that use Sonoran CMS through the Community Discovery portal. You can set a "New Member Application" form to be automatically shown when a user joins your community through the discovery portal, as well as provide links to your community's website and Discord server.
 
 You can also set predefined tags that better categories your community for community discovery.&#x20;
 
-{% hint style="info" %}
-Ensure you save your Community Discovery settings by clicking the green "Save" button located at the bottom of the left-hand menu.
-{% endhint %}
+<figure><img src="../../.gitbook/assets/CMS_CustomizationPanelDiscovery.png" alt=""><figcaption><p>Sonoran CMS - Community Discovery Configuration</p></figcaption></figure>
 
 ## Community Discovery Bump System
 
-Head to your community customization settings located at `Administrative Panel` > `Customization`. From here, click on the `Community Discovery` tab along the left-hand menu.
+Head to your community customization settings located at `Administrative Panel` > `Customization`. From here, click on the `Discovery` tab along the top menu bar.
 
 If enabled, you can bump your community's discoverability every twenty (20) hours. You can bump your community by clicking the blue `Bump Discovery` button. Bumping your community will put your community at the top of the Community Discovery list.
 
