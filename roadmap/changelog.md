@@ -51,6 +51,8 @@ Forms - Submission Button
 \#20812 - API Unique ID
 
 * Fixed an issue causing the user account unique ID to not be returned in the GET\_COM\_ACCOUNT endpoint.
+
+_Additional bugs have been resolved via live hot-fix and are not listed with this module._
 {% endtab %}
 {% endtabs %}
 
