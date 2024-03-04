@@ -10,6 +10,50 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.83 (Beta) 3/04/2024
+
+{% tabs %}
+{% tab title="New" %}
+Rosters - Conditional Formatting on Other Cells
+
+* Added the ability to conditionally format both styles and values on a roster cell/column based on the value of another column.
+
+Rank Manager - Search
+
+* Added the ability to search and filter permissions in the rank manager for an easier configuration experience.
+
+Auto Clock-In ESX
+
+* Added ESX job support to the in-game auto clock-in system.
+
+Forms - Submission Button
+
+* Added a "view submissions" button in the available forms section for users that have permissions. This negates the need for the user to have access to the admin forms editor panel just to see the navigation button.
+
+\#20905 - View Profile in Grid Mode
+
+* Added the ability to right-click on a user account card to access their profile, mimicking function of the user accounts panel in list mode.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#20795 - Forms Reply Data
+
+* Fixed an issue causing forum threads to show some of the creator's info on replies.
+
+\#20791 - Multi-Account Change Webhook
+
+* Fixed an issue with webhooks not firing on multi/mass-account changes in the user panel.
+
+\#20798 - User Kick
+
+* Fixed an issue causing user kicks to seemingly do nothing
+
+\#20812 - API Unique ID
+
+* Fixed an issue causing the user account unique ID to not be returned in the GET\_COM\_ACCOUNT endpoint.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.82 (Beta) 2/27/2024
 
 {% tabs %}
