@@ -19,6 +19,7 @@
   * [Account Registration](tutorials/getting-started/registering-your-account.md)
   * [Community Registration](tutorials/getting-started/registering-your-community.md)
   * [Inviting Users](tutorials/getting-started/inviting-users-to-your-cms.md)
+  * [Troubleshooting](tutorials/getting-started/troubleshooting.md)
 * [User Management](tutorials/user-management/README.md)
   * [Creating Ranks](tutorials/user-management/creating-departments.md)
   * [Setting User Ranks](tutorials/user-management/modify-users-permissions-and-information.md)
