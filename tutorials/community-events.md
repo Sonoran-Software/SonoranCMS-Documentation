@@ -56,4 +56,6 @@ To remove an event simply navigate to the event and click the red trash can butt
 
 If you have linked you community to our [Discord Bot](https://info.sonoranbot.com/en/tutorials/getting-started), creating an event in CMS will automatically create an event within your community's Discord channel making it easy to coordinate community events across multiple platforms!
 
+By clicking the `Interested` button, you will be automatically RSVP'd in CMS.
+
 <figure><img src="../.gitbook/assets/CMS_CalendarEventDiscord.png" alt=""><figcaption><p>Sonoran CMS - Calendar Events Discord Integration</p></figcaption></figure>
