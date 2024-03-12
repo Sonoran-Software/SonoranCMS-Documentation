@@ -10,6 +10,56 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.84 (Beta) 03/12/2024
+
+{% tabs %}
+{% tab title="New" %}
+Forums - UI Improvements
+
+* Initial UI improvements for forums, including proper breadcrumb navigation back to the custom webpage, sub-category enforcement, and more.
+
+Rosters - New Column Types
+
+* Added Discord nickname, Discord ID, and TeamSpeak ID columns.
+
+Discord Integration - Loading Animations
+
+* Added new loading animations with live descriptions for the Discord panel. This improves user experience and understanding for larger Discord servers with multiple hundred channels and roles.
+
+Form Stage Variables
+
+* Added a `user_submission_link` (URL for the user that submitted the form to view) and `submission_link` variable (URL for an admin to view the submitted form) in replacement of the older `form_link` variable.
+{% endtab %}
+
+{% tab title="Changed" %}
+Community Customization - On-Join Rank Selector
+
+* Updated the on-join rank selector component.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#20951 - Community ID Change
+
+* Fixed an issue preventing community IDs from being changeable.
+
+\#20898 - Menu Panel Data Requests
+
+* Fixed an issue causing the vMenu panel from requesting QB specific data, resulting in console errors.
+
+Discord Guild Assignment
+
+* Fixed an issue with webhook configurations causing all roles and channels as belonging to the most recently linked guild.
+
+Limits - CSS Tweaks
+
+* Fixed minor placement issues with the community limits panel, and removed the upgrade button for communities already on pro.
+
+\#21180 - Notification Typo
+
+* Corrected a small typo in the notifications center.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.83 (Beta) 3/04/2024
 
 {% tabs %}
