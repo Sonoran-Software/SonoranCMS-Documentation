@@ -54,6 +54,10 @@ Limits - CSS Tweaks
 
 * Fixed minor placement issues with the community limits panel, and removed the upgrade button for communities already on pro.
 
+QB Character - Metadata
+
+* Fixed an issue causing character metadata in the QB core panel from displaying.
+
 \#21180 - Notification Typo
 
 * Corrected a small typo in the notifications center.
