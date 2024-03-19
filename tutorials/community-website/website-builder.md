@@ -4,7 +4,7 @@ description: Create your own community website entirely within Sonoran CMS!
 
 # Website Builder
 
-![Sonoran CMS - Custom Pages](../../.gitbook/assets/CMS\_WebBuilder.png)
+![Sonoran CMS - Custom Pages](<../../.gitbook/assets/web-updated (1).png>)
 
 {% embed url="https://youtu.be/OYV8JbnqLrU" %}
 
