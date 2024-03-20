@@ -10,6 +10,54 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.85 (Beta) 03/20/2024
+
+{% tabs %}
+{% tab title="New" %}
+Forums - UI Improvements
+
+* Improved UI design for creating topics and posts, private topic rank selection, and an all-new image uploader with drop support.
+
+Forums - Website Section Handling
+
+* Migrated new forums elements to a dedicated "section" in the website builder. This ensures forums elements can expand dynamically and push content down instead of overlapping or scrolling.
+
+Forms - File Against User
+
+* Forms can now be submitted on a user via third party for cases like ban requests or disciplinary action. These submissions then appear on the user's profile.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#21106 - QB Panel Vehicles
+
+* Fixed an issue in the QB panel preventing the vehicle information dialog from showing.
+
+\#21165 - Desktop Close/Open Error
+
+* Fixed an issue with an error pop-up when opening the CMS desktop app. Additionally, fixed a performance issue spawning duplicate CMS processes in the background and added a new tray icon for Windows.
+
+\#20876 - Form Submission from Profile
+
+* Fixed an issue where submitting a form from a user's profile would cause the same form type to always display.
+
+\#21058 - Drive Sensitivity Save
+
+* Fixed an issue causing the drive sensitivity toggle to not save.
+
+\#20872 - QB Allow/Deny
+
+* Fixed an issue causing the QB Core whitelist allow/deny lists from mirroring the same selection.
+
+Discord Role Import
+
+* Fixed an issue causing Discord role imports on the rank manager to load in the order of selection instead of the order in the selection table.
+
+\#21195 - Deleted Ranks
+
+* Fixed an issue causing rank deletions to still show on user profiles as an "Unknown Rank"
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.84 (Beta) 03/12/2024
 
 {% tabs %}
