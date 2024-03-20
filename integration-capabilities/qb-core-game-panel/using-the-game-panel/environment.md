@@ -4,8 +4,6 @@ description: Easily set the weather and time in your server, directly from CMS!
 
 # Environment
 
-<figure><img src="../../../.gitbook/assets/VMenuPromo08 (1).png" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
-
 ## Manage Weather
 
 Here you can set the current weather on your server. Open the dropdown menu and choose from 15 different weather options! You can also toggle `Freeze` and `Blackout` on the side.

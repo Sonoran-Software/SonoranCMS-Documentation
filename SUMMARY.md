@@ -72,6 +72,7 @@
     * [Jobs](integration-capabilities/qb-core-game-panel/using-the-game-panel/jobs.md)
     * [Gangs](integration-capabilities/qb-core-game-panel/using-the-game-panel/gangs.md)
     * [Job Sync](integration-capabilities/qb-core-game-panel/using-the-game-panel/job-sync.md)
+    * [Environment](integration-capabilities/qb-core-game-panel/using-the-game-panel/environment.md)
 * [VMenu Game Panel](integration-capabilities/vmenu-game-panel/README.md)
   * [Installation](integration-capabilities/vmenu-game-panel/installation.md)
   * [Using The Game Panel](integration-capabilities/vmenu-game-panel/using-the-game-panel/README.md)

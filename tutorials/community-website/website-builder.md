@@ -114,6 +114,18 @@ Custom Pages can now have a custom path to the page, this path will append to th
 
 <figure><img src="../../.gitbook/assets/CMS_WB_Slug.png" alt=""><figcaption><p>Sonoran CMS - Page URL Slug</p></figcaption></figure>
 
+## Page SEO
+
+Clicking on the cog on the right side of the `Page Title` box will open the SEO panel. Here you can set a custom image and description for the website's page. These will show in embeds, such as when you paste the link in Discord.
+
+<figure><img src="../../.gitbook/assets/CMS_WB_SEOPanelExampleSq.png" alt="" width="213"><figcaption><p>Sonoran CMS - SEO Panel</p></figcaption></figure>
+
+If you have a **Standard** subscription or higher, the "Sonoran CMS" branding in the title will be removed.
+
+Please be aware that Discord will locally cache the embed info - so updates may not show right away.&#x20;
+
+Additionally, there are third party sites such as [HEY META](https://www.heymeta.com/) that can be used to check your page's "meta" tags and show it, without caching like Discord would. After you've saved the page, you can use this to verify that the image and description display how you want.
+
 ## Custom Domain
 
 Sonoran CMS allows you to display your community website [on your own domain](../customization/custom-domain.md)!
