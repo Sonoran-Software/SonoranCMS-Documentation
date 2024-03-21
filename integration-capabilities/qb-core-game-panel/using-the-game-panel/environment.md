@@ -4,6 +4,8 @@ description: Easily set the weather and time in your server, directly from CMS!
 
 # Environment
 
+<figure><img src="../../../.gitbook/assets/enviorment-2.png" alt=""><figcaption></figcaption></figure>
+
 ## Manage Weather
 
 Here you can set the current weather on your server. Open the dropdown menu and choose from 15 different weather options! You can also toggle `Freeze` and `Blackout` on the side.
