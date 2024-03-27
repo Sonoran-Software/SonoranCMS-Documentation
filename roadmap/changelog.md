@@ -10,6 +10,58 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.086 (Beta) 03/26/2024
+
+{% tabs %}
+{% tab title="New" %}
+Forms - DM Stage Action
+
+* Added a new forms stage action to DM the submitter on Discord
+
+Discord Webhooks - Bot Handling
+
+* Overhauled how Discord webhooks are stored and processed, with all new webhook configurations being handled by bot posted embeds.
+
+Forms - Stage Discord Ping
+
+* Added the option in forms stages to ping the submitter in Discord.
+
+Forms - Stage Webhooks
+
+* Updated the webhook selector in the forms stages to be channel based instead of raw webhook URLs.
+
+\#21213 - Notification Text View
+
+* Added an icon to view the full notification text in the notification center if the text was cut off.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#21103 Discord Mapping Mobile UI
+
+* Fixed an issue causing Discord mappings on the mobile UI to not properly display.
+
+\#21205 - Forms Auto Reply
+
+* Fixed an issue causing forms auto reply messages to not hold the same format that they have in the stage editor.
+
+\#21206 - Notification Events
+
+* Fixed an issue where notifications, specifically in form stage updates, wouldn't appear in the user's notification center until a refresh.
+
+\#21276 - Form Delete
+
+* Fixed an issue preventing a user with permissions to delete their form submission from the available applications panel.
+
+\#21275 - QB Character Link
+
+* Fixed an issue with QB character links.
+
+Sonoran Bot - Single Guild Removal
+
+* Fixed an issue with guild removal.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.85 (Beta) 03/20/2024
 
 {% tabs %}
