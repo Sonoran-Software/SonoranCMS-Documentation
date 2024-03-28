@@ -156,6 +156,20 @@ If checked this will not check for any submissions that are currently set to a s
 
 Forms that are blocked from being submitted at the current time will be shown this blocked view till the block is lifted based on the settings set for limiting. The member will not be able to submit any version of the form till they no longer meet any requirements to be blocked due to the settings.
 
+## Third-Party Form Submissions
+
+You can also submit forms in reference to or on the behalf of other users. To do this, simply select their user in the dropdown menu labeled "You are submitting this form under:"
+
+<figure><img src="../../.gitbook/assets/CMS_ThirdPartyForm2.png" alt=""><figcaption><p>Sonoran CMS - Third Party Form Submissions</p></figcaption></figure>
+
+You can also toggle the bell button to the right to both notify this user that a form has been submitted under them, as well as display this form on their profile as shown below.
+
+<figure><img src="../../.gitbook/assets/CMS_ThirdPartyFormSubmission.png" alt=""><figcaption><p>Sonoran CMS - Third Party Form Submissions (Profile View)</p></figcaption></figure>
+
+Viewing forms in the Submissions page or the "My Forms" tab will also show if it was submitted under another user.
+
+<figure><img src="../../.gitbook/assets/CMS_ThirdPartyformView.png" alt=""><figcaption><p>Sonoran CMS - Third Party Form Submissions (Submission View)</p></figcaption></figure>
+
 ## Custom Form Folders
 
 Forms can now be organized within folders, these folders are purely for organizational purposes and doesn't serve any other function.
