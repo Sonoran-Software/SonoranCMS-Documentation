@@ -10,6 +10,94 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.87 (Beta) 04/09/2024
+
+{% tabs %}
+{% tab title="New" %}
+Security Center - Logging
+
+* Added a new logging section in the security center, allowing user actions to be searched
+
+Forms - Auto Member Unique ID
+
+* Added a new forms element type to automatically fill a user's unique ID
+
+Bot - Improved Permission Errors
+
+* Improved permission errors on Sonoran Bot to be more clear
+
+Bot - Name Sync on Join
+
+* Added handling to process a name sync when a new user joins a guild
+
+
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#21372 - Nav Bar Permissions
+
+* Fixed an issue causing navigation bar items to display even if the user had no page permissions for the item
+
+Community Discord Re-sync
+
+* Fixed an issue causing performance issues when larger communities did a full Discord resymc
+
+\#21351 - QB No Servers
+
+* Fixed an issue where a community having no servers setup in the API panel would cause the wrong error message to be displayed
+
+\#21392 - Forum Loading + Permissions
+
+* Fixed an issue with forum posts being visible when private and an issue with forums loading without permissions causing a black screen
+
+\#21536 - Roster Manual Row Fixes
+
+* Multiple fixes added for manually added roster rows
+
+\#21425 - Form Notifications
+
+* Fixed an issue where certain notification links wouldn't open the specific form if you were already on the forms page
+
+\#21537 - Rosters Date Field YY
+
+* Fixed an issue with date formatting in rosters
+
+\#21403 - Rank Manager Fixes
+
+* Fixed several minor issues in the rank manager
+
+\#21614 - Web Builder - Background Change
+
+* Fixed an issue with being unable to set the webpage background back to non once it was set to image or color
+
+\#21528 - Form Specific Webhooks
+
+* Fixed an issue with custom form webhooks not working
+
+\#21518 - Form Stage Change Webhook
+
+* Fixed an issue with the interactive form stage change embed not working
+
+\#21490 - Time Log Safety Check
+
+* &#x20;Added a safety check to ensure users do not submit forms with negative timesheet values
+
+\#21390 - Remove "Custom Pages" option
+
+* Removed the un-used "Custom Pages" option for nav bar items
+
+87 - Forums Sub-Category UI
+
+* Fixed issues with editing and creating forum sub-categories
+
+\#21768 - Page Backgrounds
+
+* Fixed an issue with uploading images in the website builder
+{% endtab %}
+{% endtabs %}
+
+
+
 ### v0.5.86 (Beta) 03/26/2024
 
 {% tabs %}
