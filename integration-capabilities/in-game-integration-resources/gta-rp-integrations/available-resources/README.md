@@ -1,5 +1,7 @@
 ---
-description: View Sonoran CMS's library of integration resources for your community!
+description: >-
+  View Sonoran CMS's integration resource for your FiveM community, as well as
+  its included modules!
 ---
 
 # Available Resources

@@ -122,7 +122,9 @@ Clicking on the cog on the right side of the `Page Title` box will open the SEO 
 
 If you have a **Standard** subscription or higher, the "Sonoran CMS" branding in the title will be removed.
 
-Please be aware that Discord will locally cache the embed info - so updates may not show right away.&#x20;
+Please be aware that Discord will locally cache the embed info - so updates may not show right away.
+
+<figure><img src="../../.gitbook/assets/CMS_PageSEOExample.png" alt="" width="289"><figcaption><p>Sonoran CMS - SEO Discord Embed</p></figcaption></figure>
 
 Additionally, there are third party sites such as [HEY META](https://www.heymeta.com/) that can be used to check your page's "meta" tags and show it, without caching like Discord would. After you've saved the page, you can use this to verify that the image and description display how you want.
 

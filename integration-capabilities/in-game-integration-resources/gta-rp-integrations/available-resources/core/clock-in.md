@@ -1,5 +1,5 @@
 ---
-description: A in-game way to utilize Sonoran CMS's clock in/out system.
+description: An in-game way to utilize Sonoran CMS's clock in/out system.
 ---
 
 # Clock In
@@ -19,8 +19,6 @@ With core version `v1.4.0` the Clock In resource was converted to a core module 
 ### 1. Configure Clock In Module
 
 Locate the clockin module within your `[sonorancms]/sonorancms/server/modules` and open the `clockin_config.json` file
-
-
 
 ```json
 {
