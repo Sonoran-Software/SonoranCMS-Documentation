@@ -23,9 +23,9 @@ Sonoran CMS is a state-of-the-art, cross-platform, all-in-one community manageme
 * [Create Custom Applications](tutorials/forms/creating-custom-forms.md)
   * Get notified with Discord webhooks when someone fills out a custom application!
   * Create workflows to auto-grant ranks, permissions, whitelisting, and more!
-* [Manage In-Game Whitelisting from the CMS](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/whitelist.md)
-  * Automatically whitelist users for in-game access based on a player's CMS rank for [FiveM](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/whitelist.md), [Minecraft](integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
-* [Manage In-Game Permissions from the CMS](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/ace-permission-sync.md)
+* [Manage In-Game Whitelisting from the CMS](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/whitelist.md)
+  * Automatically whitelist users for in-game access based on a player's CMS rank for [FiveM](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/whitelist.md), [Minecraft](integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
+* [Manage In-Game Permissions from the CMS](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/ace-permission-sync.md)
   * Automatically grant in-game permissions based on a player's CMS rank!
 * [Manage Sonoran CAD Permissions from the CMS](integration-capabilities/sonoran-cad-sync.md)
   * Automatically manage Sonoran CAD permissions based on a player's CMS rank!

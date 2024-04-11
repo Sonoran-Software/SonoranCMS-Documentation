@@ -45,13 +45,13 @@ Whether it's your own patrol log system with automatic hour calculations, an ext
 
 ![Sonoran CMS - Custom Forms](../.gitbook/assets/Dec23-Forms.png)
 
-## ✅ [In-Game Whitelisting](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/whitelist.md)
+## ✅ [In-Game Whitelisting](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/whitelist.md)
 
-Sonoran CMS is your single point of management for in-game whitelisting! Automatically whitelist players based on CMS rank for [FiveM](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/whitelist.md), [Minecraft](../integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](../integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
+Sonoran CMS is your single point of management for in-game whitelisting! Automatically whitelist players based on CMS rank for [FiveM](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/whitelist.md), [Minecraft](../integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](../integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
 
 ![Sonoran CMS - Whitelist Management](../.gitbook/assets/CMS\_Whitelist.png)
 
-## 🚫 [GTA RP ACE Permissions Management](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core/ace-permission-sync.md)
+## 🚫 [GTA RP ACE Permissions Management](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/ace-permission-sync.md)
 
 Sonoran CMS allows you to manage all GTARP user permissions with [Ace Permissions Sync for QB](../integration-capabilities/qb-core-game-panel/using-the-game-panel/aces-and-principals.md) and [vMenu servers](../integration-capabilities/vmenu-game-panel/using-the-game-panel/aces-and-principals.md)!
 

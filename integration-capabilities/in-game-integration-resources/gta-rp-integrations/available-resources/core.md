@@ -1,5 +1,5 @@
 ---
-description: The CMS core maintains common utility functions and push event handling.
+description: The CMS Core maintains common utility functions and push event handling.
 ---
 
 # Core
@@ -67,7 +67,7 @@ add_ace resource.sonorancms_updatehelper command allow
 
 The CMS Core resource comes with a variety of submodules included by default. These handle a variety of features such as whitelisting, permission synchronization, and more.&#x20;
 
-You can view the submodules and our guides for configuring them [here](core/).
+You can view the submodules and our guides for configuring them [here](core-submodules/).
 
 ## Updates
 
