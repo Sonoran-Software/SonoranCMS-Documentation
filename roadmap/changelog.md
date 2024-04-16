@@ -10,6 +10,60 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### v0.5.88 (Beta) 04/16/2024
+
+{% tabs %}
+{% tab title="New" %}
+Activity Tracker
+
+* Easily track member activity in your game server with an automated stopwatch system starting on server join and stopping on server exit
+
+Activity Roster Column
+
+* View member activity time in the last X days with the activity roster column
+
+Last Active Roster Column
+
+* See when your members were last in-game with the last active roster column
+
+Discord Panel Settings
+
+* Adjust all of Sonoran Bot's settings via the CMS UI instead of Discord commands
+
+Website Builder - Forums Category UI
+
+* Overhauled the forums category UI dialog in the website editor
+
+User Profile - Form Submission UI
+
+* Overhauled the forms submission UI in the user profile page
+
+Website Builder - Favicon
+
+* Paid communities now include a custom favicon on CMS website tabs utilizing their community icon
+{% endtab %}
+
+{% tab title="Changed" %}
+Roster Status Column
+
+* Removed the "status" type roster column and migrated all existing instances to a standard select/dropdown element. Conditional formatting has been automatically added to migrate the status colors.
+
+New Communities - Name Format
+
+* Adjusted the default name format for new communities from {name} | {identifier} to {uniqueUd} | {name}
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#20752 - TeamSpeak 3 Permissions
+
+* Fixed an issue causing TeamSpeak rank sync to override previously added roles when syncing
+
+\#21695 - Forum Webhooks
+
+* Fixed an issue causing forums webhooks from being configured and sent properly
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.87 (Beta) 04/09/2024
 
 {% tabs %}
