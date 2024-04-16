@@ -6,6 +6,14 @@ description: Customize your community's settings, branding, information, and mor
 
 {% embed url="https://www.youtube.com/watch?v=Un9AIFXzZqQ" %}
 
+## Branding Removal
+
+Looking to remove Sonoran CMS branding on your website?
+
+{% content-ref url="../../pricing/pricing-faq/branding-removal.md" %}
+[branding-removal.md](../../pricing/pricing-faq/branding-removal.md)
+{% endcontent-ref %}
+
 ## Community Information
 
 The admin customization info section allows you to customize your community's image, name, and more! These settings can be found by navigating to `Administrative Panel` > `Customization`

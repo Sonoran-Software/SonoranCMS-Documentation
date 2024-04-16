@@ -154,6 +154,7 @@
 ## Pricing
 
 * [Pricing FAQ](pricing/pricing-faq/README.md)
+  * [Branding Removal](pricing/pricing-faq/branding-removal.md)
   * [Military and First Responder Discount](pricing/pricing-faq/military-and-first-responder-discount.md)
   * [Expert Installation](pricing/pricing-faq/expert-installation.md)
   * [Free Plugin Installation and Discount - Sonoran Servers](pricing/pricing-faq/free-plugin-installation-and-discount-sonoran-servers.md)
