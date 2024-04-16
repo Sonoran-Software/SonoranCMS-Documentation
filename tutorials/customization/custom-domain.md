@@ -25,6 +25,8 @@ Looking for VPS, web, or dedicated hosting? Check out our official [server hosti
 
 Each community gets a **FREE** vanity URL, vanity URLs allow all communities to get access to the community homepage without a login.
 
+You can also [customize your Community ID](community-branding-and-settings.md#community-id-and-vanity-url).
+
 Your community's vanity URL can be found in your `Administrative Panel > Custom Domain`.
 
 <figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Sonoran CMS - Vanity URL</p></figcaption></figure>

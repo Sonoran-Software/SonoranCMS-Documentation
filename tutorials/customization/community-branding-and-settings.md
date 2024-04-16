@@ -34,16 +34,19 @@ The admin customization info section allows you to customize your community's im
 **Admin Icon** will display a cog icon next to a user's Notification Center icon in the top right of the toolbar.
 {% endhint %}
 
-## Community ID
+## Community ID and Vanity URL
 
 {% hint style="warning" %}
 Custom community IDs require the **Standard** version of Sonoran CMS or higher.\
 For more information, see our [pricing](https://sonorancms.com/#/pricing) or view how to check your community [limits](../administrative/view-your-limits.md).
 {% endhint %}
 
-Looking to change your community ID?\
+**Looking to change your community ID?**\
 Navigate to `Administrative Panel` > `Limits`\
 Click the "Change Community ID" button and enter your new community ID.
+
+Community IDs also customize your [vanity URL](custom-domain.md#vanity-urls).\
+`ID.sonorancms.com`
 
 ![Sonoran CMS Community Limits - Changing Community ID](../../.gitbook/assets/CMS\_ChangeCommId.png)
 
