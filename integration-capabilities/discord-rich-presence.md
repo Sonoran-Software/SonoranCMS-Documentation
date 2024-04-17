@@ -53,7 +53,7 @@ On [https://discord.com/developers/applications](https://discord.com/developers/
 
 Under OAuth2, copy your `Client ID`&#x20;
 
-![Discord Developer - Application Client ID](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![Discord Developer - Application Client ID](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### 3. Add an Icon
 
