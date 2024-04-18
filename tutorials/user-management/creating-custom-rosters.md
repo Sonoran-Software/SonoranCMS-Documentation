@@ -19,9 +19,15 @@ Within this "Roster Editor" panel you'll be able to create custom and automatic 
 * **Patrol Log Hours** column type requires a custom form to be created that is a Form Type of `Patrol Log`.
   * This column type will automatically calculate hours based on form submissions from a specific time till the current time.
 * **Status Selector** column type allows the roster to display custom statuses set in the "Roster Statuses" section of the Roster Editor.
+* **Activity Tracker Hours** column type displays how many hours a user has played on the selected server in a specified time period.&#x20;
+  * This requires that you've added a server in `Settings` > `SonoranCMS API` > `Servers` and have also set up an [in-game integration resource](https://info.sonorancms.com/integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core) on that server.
+* **Last Active** column type displays the date and time which a user was last active on the selected server.
+  * Just like with **Activity Tracker Hours**, this also requires that you've added a server in `Settings` > `SonoranCMS API` > `Servers` and have also set up an [in-game integration resource](https://info.sonorancms.com/integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core) on that server.
 
 {% hint style="warning" %}
-Ensure that you select the Patrol Log form from the "Source Form" dropdown and ensure to input the date/time in the "Start Date" input.
+If using a field of type **Patrol Log**, **Activity Tracker Hours**, or **Last Active**, ensure that you select a form or server from the "Source Form" / "Source Server" dropdown.&#x20;
+
+For the former two, also ensure you specify the date range or time period that the data should be sourced from.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/CMS_RosterOverview.png" alt=""><figcaption><p>Sonoran CMS - Create Custom Roster</p></figcaption></figure>
