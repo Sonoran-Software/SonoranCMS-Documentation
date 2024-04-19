@@ -105,6 +105,8 @@ Some users will see this in their server console:
 [ citizen-server-impl] Error data: yarn failed!
 ```
 
-This is common for users whose server is through a "game server host" that uses a Pterodactyl Panel for managing files. Particularly, uploading CMS via an FTP program to a server like this is known to cause this issue.&#x20;
+In the case of this error, please locate the file named `.yarn.installed`, open it in any editor, then save it (without modifying anything).&#x20;
 
-The solution is to upload the CMS zip file directly to the Pterodactyl Panel and unzip it within the panel using its native unzip tool. Doing this will allow yarn to build correctly.
+This updates the "date modified" value for that file, which should then allow it to build correctly.
+
+If you are having trouble with this, feel free to[ reach out to us](https://support.sonoransoftware.com), our support team will be happy to help you!
