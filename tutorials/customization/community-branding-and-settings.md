@@ -56,29 +56,35 @@ Sonoran CMS allows you to set whether your member's can customize their communit
 
 To change this setting, click `Name Customizations` in the `General` tab.
 
-<figure><img src="../../.gitbook/assets/CMS_CustomizationPanelClickNameCust.png" alt=""><figcaption><p>Sonoran CMS - Community Customization - Advanced Misc. Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_CustomizationPanelClickNameCust.png" alt="" width="375"><figcaption><p>Sonoran CMS - Community Customization - Advanced Misc. Settings</p></figcaption></figure>
 
 Within the `Name Customizations` tab, you can click the icon underneath where it says "Allow Members to Customize Name" to toggle whether or not members can freely change their name or not.
 
-<figure><img src="../../.gitbook/assets/CMS_CustomizationPanelNameCustToggleClick.png" alt=""><figcaption><p>Sonoran CMS - Allow Changing Community Name</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_CustomizationPanelNameCustToggleClick.png" alt="" width="273"><figcaption><p>Sonoran CMS - Allow Changing Community Name</p></figcaption></figure>
 
 Members can customize their community names, if enabled, in their profile. And by clicking their name or the blue pencil icon next to it, it will then prompt to modify their community name.&#x20;
 
-<figure><img src="../../.gitbook/assets/CMS_ChangeCommNameProfile.png" alt=""><figcaption><p>Sonoran CMS - Changing Community Name</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_ChangeCommNameProfile.png" alt="" width="375"><figcaption><p>Sonoran CMS - Changing Community Name</p></figcaption></figure>
 
 ### Naming Format
 
 In the `Name Customizations` menu, you can also set the automatic naming format for your community. The naming format determines how a user's name is displayed in the community (e.g. on their profile, form submissions, etc.).&#x20;
 
-<figure><img src="../../.gitbook/assets/CMS_NamingFormatExample.png" alt=""><figcaption><p>Sonoran CMS - Naming Format Example</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_NamingFormatExample.png" alt="" width="355"><figcaption><p>Sonoran CMS - Naming Format Example</p></figcaption></figure>
 
 In the above image, you can see that the name is displayed on the profile as `John Doe | 1A`. In this case, the user's Community Name is set as `John Doe`, and this user has an Identifier of `1A`. To display those together like this, you would set the naming format to `{comName} | {identifier}`.&#x20;
 
-<figure><img src="../../.gitbook/assets/CMS_CustomizationPanelNameCust2.png" alt=""><figcaption><p>Sonoran CMS - Naming Format</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_CustomizationPanelNameCust2.png" alt="" width="274"><figcaption><p>Sonoran CMS - Naming Format</p></figcaption></figure>
 
 Keep in mind that this is just an example, you can change the naming format to include whatever other text you'd like to input, though as of now `Community Name`, `Identifier`, and `Unique ID` are the only things it can automatically draw from.
 
 <table><thead><tr><th>User Information</th><th>Naming Format Variable</th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td>Community Name</td><td>{comName}</td><td></td><td></td></tr><tr><td>Identifier</td><td>{identifier}</td><td></td><td></td></tr><tr><td>Unique ID</td><td>{uniqueId}</td><td></td><td></td></tr></tbody></table>
+
+### Discord Name Sync
+
+With the Sonoran Bot integration, you can enforce your CMS name format in your Discord Guild(s)!
+
+{% embed url="https://info.sonoranbot.com/tutorials/usage/settings#namesync-settings" %}
 
 ## Member On Join Settings
 

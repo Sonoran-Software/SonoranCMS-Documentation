@@ -10,24 +10,24 @@ description: >-
 
 ### Getting Started
 
-Get started with SonoranBot today by inviting it to your Discord:
+Get started with Sonoran Bot today by inviting it to your Discord:
 
-{% embed url="https://info.sonoranbot.com/en/tutorials/getting-started" %}
+{% embed url="https://info.sonoranbot.com/tutorials/getting-started" %}
 
 ### CMS Integration
 
-Learn more about SonoranBot's CMS integration features:
+Learn more about Sonoran Bot's CMS integration features:
 
-{% embed url="https://info.sonoranbot.com/en/tutorials/getting-started/sonoran-cms-integration" %}
+{% embed url="https://info.sonoranbot.com/tutorials/sonoran-cms-integration" %}
 
 ### Settings
 
-Configure SonoranBot's settings in your server:
+Configure Sonoran Bot's settings in your server:
 
-{% embed url="https://info.sonoranbot.com/en/tutorials/getting-started/settings" %}
+{% embed url="https://info.sonoranbot.com/tutorials/usage/settings" %}
 
 ### Commands
 
 Reference a list of bot commands:
 
-{% embed url="https://info.sonoranbot.com/en/tutorials/getting-started/settings/commands" %}
+{% embed url="https://info.sonoranbot.com/tutorials/usage/commands" %}
