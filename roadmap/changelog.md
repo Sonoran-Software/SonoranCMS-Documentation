@@ -10,6 +10,50 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 0.5.89 (Beta) 04/23/2024
+
+{% tabs %}
+{% tab title="New" %}
+Rosters - Toolbox Consolidation
+
+* Improved the roster editor UI by grouping similar components into dropdowns to improve screen space.
+
+Rosters - Edit Row UI
+
+* Removed the popup cell/row editor in the roster view and added in-line auto-save editing.
+
+Image Uploads - Drive Storage
+
+* Removed image and file uploading limits throughout the CMS and added this storage to the community Drive. The free plan has been increased from 10MB to 100MB.
+{% endtab %}
+
+{% tab title="Fixed" %}
+TeamSpeak Sync
+
+* Fixed issue causing the TeamSpeak sync to not fully remove server groups in some cases.
+
+Nav Bar Dropdown Display
+
+* Fixed a permissions issue causing some dropdown items to not properly display, or display when the user didn't have navigation permissions.
+
+\#21526 - Photo Gallery Fixes
+
+* Resolved multiple bugs with the website builder's photo gallery element
+
+\#21942 - New Form Stages
+
+* Fixed an issue causing new forms to not automatically come with the three default stage options.
+
+\#22005 - Dropdown Item Delete
+
+* Fixed an issue with the nav bar editor's dropdown items not containing a delete button.
+
+\#21099 - Form Stage Actions
+
+* Fixed an issue with older form stage actions being unable to open/expand to configure.
+{% endtab %}
+{% endtabs %}
+
 ### v0.5.88 (Beta) 04/17/2024
 
 {% tabs %}
