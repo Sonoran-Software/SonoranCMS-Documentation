@@ -223,7 +223,7 @@ If a user of your community accesses the public generated link they will be auto
 There are several file types that the Sonoran CMS Drive accepts but only handles them as _downloadable_ content that isn't for viewable use. The following file types are currently supported for _downloadable content_:
 
 * `.rpf` GTA Archive
-* `.wav, .mp3` Audio
+* `.wav`, `.mp3` Audio
 * `.zip` ZIP
 * `.pdf` PDF
 
