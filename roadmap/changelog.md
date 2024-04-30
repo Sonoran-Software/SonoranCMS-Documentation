@@ -10,14 +10,10 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### 0.5.89 (Beta) 04/23/2024
+### 0.5.89 (Beta) 04/30/2024
 
 {% tabs %}
 {% tab title="New" %}
-Rosters - Toolbox Consolidation
-
-* Improved the roster editor UI by grouping similar components into dropdowns to improve screen space.
-
 Rosters - Edit Row UI
 
 * Removed the popup cell/row editor in the roster view and added in-line auto-save editing.
@@ -25,6 +21,14 @@ Rosters - Edit Row UI
 Image Uploads - Drive Storage
 
 * Removed image and file uploading limits throughout the CMS and added this storage to the community Drive. The free plan has been increased from 10MB to 100MB.
+
+Security Center
+
+* Added the start of new internal logging and tracking for the security center, with visible functionalities coming soon...
+
+Logging Center
+
+* Automatically removed logs older than 30 days.
 {% endtab %}
 
 {% tab title="Fixed" %}
@@ -51,6 +55,18 @@ Nav Bar Dropdown Display
 \#21099 - Form Stage Actions
 
 * Fixed an issue with older form stage actions being unable to open/expand to configure.
+
+TS Bad Credential Cooldown
+
+* Added a cooldown for bad TeamSpeak credentials to prevent requests from being blocked.
+
+Missing Page Loading
+
+* Fixed an issue where pages that no longer existed in the CMS would cause a long load an an error. Now, it simply kicks the user back to the previous page.
+
+\#21502 - Forms Auto Reply
+
+* Fixed an issue where form stage auto replies would not show in the form submission viewer until a refresh after triggering a stage change.
 {% endtab %}
 {% endtabs %}
 
