@@ -14,7 +14,7 @@ Sonoran CMS allows you to easily manage your community's Sonoran CAD permissions
 
 ## Web Panel Sync
 
-![Sonoran CMS x Sonoran CAD - Permission Sync](../.gitbook/assets/CMS-CAD-Sync.png)
+![Sonoran CMS x Sonoran CAD - Permission Sync](../.gitbook/assets/Sync1A.png)
 
 {% hint style="info" %}
 Sonoran CAD Sync settings can only be seen and modified by the community owner.
