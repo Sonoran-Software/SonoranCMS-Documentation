@@ -10,6 +10,46 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 0.5.90 (Beta) 05/07/2024
+
+{% tabs %}
+{% tab title="New" %}
+[Security Center - Account Flags](../tutorials/administrative/security-center/account-flags.md)
+
+* Added the base release of the new account flags system for alt account detection.
+
+Rosters - Toolbox Consolidation
+
+* Migrated the side toolbox elements for the roster editor into groups to better consolidate and save space.
+
+Website Builder - Toolbox Consolidation
+
+* Migrated the side toolbox elements for the website builder into groups to better consolidate and save space.
+
+Website Pages - Cards
+
+* Updated the available website pages UI to reflect a similar "card" style like rosters and forms have.
+
+API - Teamspeak ID
+
+* Added `teamspeakId` property to both `get_com_account` and `get_account` endpoints
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#22294 - Drive Duplication
+
+* Fixed an issue causing Drive documents to show as duplicated.
+
+TS Link/Unlink - Wipe Other Existing Maps
+
+* Patched a vulnerability and added handling to remove all existing/mapped TeamSpeak roles from a user when they unlink their TeamSpeak account, or when a second account links the same TeamSpeak account (resulting in the link being removed from the first account).
+
+Discord Link/Unlink - Wipe Other Existing Maps
+
+* Patched a vulnerability and added handling to remove all existing/mapped Discord roles from a user when they unlink their Discord account, or when a second account links the same Discord account (resulting in the link being removed from the first account).
+{% endtab %}
+{% endtabs %}
+
 ### 0.5.89 (Beta) 04/30/2024
 
 {% tabs %}

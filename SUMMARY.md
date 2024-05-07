@@ -46,7 +46,9 @@
   * [Delete & Transfer Community](tutorials/administrative/delete-community.md)
   * [Delete User Account](tutorials/administrative/delete-user-account.md)
   * [View Your Limits](tutorials/administrative/view-your-limits.md)
-  * [Security Center](tutorials/administrative/security-center.md)
+  * [Security Center](tutorials/administrative/security-center/README.md)
+    * [Account Flags](tutorials/administrative/security-center/account-flags.md)
+    * [Logging Center](tutorials/administrative/security-center/logging-center.md)
 
 ## Integration Capabilities
 
