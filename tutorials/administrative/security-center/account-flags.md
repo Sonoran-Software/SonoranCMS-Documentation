@@ -8,6 +8,12 @@ description: >-
 
 <figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption><p>Sonoran CMS - Alt Detection</p></figcaption></figure>
 
+{% hint style="danger" %}
+**Alternate Account Detection & Account Flags are only enabled with a Pro Subscription!**
+
+Learn more about our [paid plans](../../../pricing/pricing-faq/create-and-manage-a-subscription.md).
+{% endhint %}
+
 ## What is Alternate Account Detection?
 
 When bad actors are banned from your community, it's important to ensure they don't come back under a different account name, alias, etc.
