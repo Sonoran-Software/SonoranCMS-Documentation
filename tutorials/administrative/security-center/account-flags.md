@@ -81,7 +81,7 @@ Sometimes two different users may be harmlessly sharing the same physical device
 
 Ex: Two users sharing the same WiFi network, but both are in your community.
 
-After investigating why these two users have a shared identifier, and that it's harmless, you can "dismiss" the flag.
+After investigating why these two users have a shared identifier, and that it's harmless, you can "dismiss" the flag. Once dismissed, the flag with the involved accounts will no longer appear unless an additional account matches up in the future.
 
 ## Flag Permissions
 
