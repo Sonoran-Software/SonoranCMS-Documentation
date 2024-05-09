@@ -29,21 +29,23 @@ The dialog contains two crucial fields for your department:
 1. Department Name (Example: Police Department)
 2. Short Name (Example: PD)
 
-<figure><img src="../../.gitbook/assets/CMS_DeptPerms2.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Creating a Department</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_EditDept.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Creating a Department</p></figcaption></figure>
 
 You do not need to customize anything to create your department, so saving now is fine. When you're ready to save, click anywhere outside the department box. Or, you can set permissions associated with the department.
 
 ### Department Permissions
 
-<figure><img src="../../.gitbook/assets/CMS_DeptPermsChecked2.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Setting Department Permissions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_EditDeptToggled.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Setting Department Permissions</p></figcaption></figure>
 
 This is where you'll need to assign permissions that you want all ranks within the department to inherit. These are the same set of permissions that ranks are able to get assigned but will be applied to all ranks upon permission evaluation.
+
+You can toggle all permissions in a category with the Toggle On/Off button above the permissions.
 
 ## Creating a Rank
 
 Under the department header in, click the green plus button to begin creating a new rank
 
-This will bring up a new dialog where you'll need to setup permissions for your new rank.
+This will bring up a new dialog where you'll need to input a name and setup permissions for your new rank.
 
 Permissions on a rank dictate what a person with that rank can do. There are many different types of permission scopes:
 
@@ -60,9 +62,15 @@ Rank permissions can be assigned using the same method as department permissions
 * **"Profile Fields"** permissions are based on the Profile Fields created in the `Administrative Panel` > `Profile Fields`.
 * **"Servers"** permissions are based on the API Integration servers made in `Administrative Panel` > `Integrations`.
 
-<figure><img src="../../.gitbook/assets/CMS_RankPerms2.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Rank Permissions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_EditRank.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Rank Permissions</p></figcaption></figure>
 
-When you are done customizing your rank permissions, click anywhere outside to close the dialog and automatically save it. Your new rank will show up under the department you created it in. You can click "Rank Name" to input a name for your rank.&#x20;
+When you are done customizing your rank permissions, click anywhere outside to close the dialog and automatically save it. Your new rank will show up under the department you created it in.
+
+You search for specific permissions. This will bring display a number of how many settings match your search in each category, and will show only the ranks in a given category that match the search.
+
+
+
+<figure><img src="../../.gitbook/assets/CMS_SearchPerms.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Search Rank Permissions</p></figcaption></figure>
 
 If you ever want to modify permissions, click the person icon to the right of the name to open the dialog again.
 
@@ -78,7 +86,7 @@ To the top right of the rank name you will see a number, by default it is 0. Cli
 
 Below this you will be able to specify whether this is a primary or secondary rank. Activating either one will make it so the rank can only be used as a primary rank or a secondary rank. No selection means it can be used for both.
 
-<figure><img src="../../.gitbook/assets/CMS_RankPower.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Rank Power</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_RankPower2.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Rank Power</p></figcaption></figure>
 
 ## Importing Ranks from Discord Roles
 

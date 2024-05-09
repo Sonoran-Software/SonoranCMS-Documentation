@@ -6,7 +6,7 @@ description: >-
 
 # Logging Center
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## What is the Logging Center?
 
@@ -24,6 +24,6 @@ Users will need the `Security Center` permission under the `System` tab in the [
 
 ### Searching Logs
 
-Logs can be searched and filtered by the `type`, `user`, and `date` of occurrance.
+Logs can be searched and filtered by the `type`, `user`, and `date` of occurrence.
 
 All logs are stored for 30 days, regardless of your subscription tier.

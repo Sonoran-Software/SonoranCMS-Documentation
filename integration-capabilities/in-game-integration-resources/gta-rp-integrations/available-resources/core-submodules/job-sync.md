@@ -12,6 +12,10 @@ Looking for VPS, web, or dedicated hosting? Check out our official [server hosti
 
 This resource is a in-game way of automatically syncing jobs and ranks to match roster information in the Sonoran CMS system/community.
 
+{% hint style="warning" %}
+At this time, the Job Sync module only works with QBCore servers via the [QB Panel](../../../../qb-core-game-panel/)
+{% endhint %}
+
 ## Installation / Configuration
 
 {% hint style="info" %}
