@@ -14,7 +14,7 @@ To access the website builder, navigate to `Administration Panel` > `Website Bui
 
 To start editing a page, either add a new page or click on an existing page in the page to open up the page editor.
 
-![Sonoran CMS - Page Editor](../../.gitbook/assets/CMS\_WebsiteBuilder3.png)
+![Sonoran CMS - Page Editor](../../.gitbook/assets/CMS\_WebsiteBuilder4.png)
 
 ## View Your Page
 
@@ -102,7 +102,7 @@ If it's set to Private, you can use the dropdown to the right to select what ran
 
 Sonoran CMS allows you to easily customize the landing page/dashboard for your community, this page is the first page your members will see from signing into your community. This allows the full customization of a custom page for your landing page.
 
-<figure><img src="../../.gitbook/assets/CMS_WB_DefaultHomepage.png" alt=""><figcaption><p>Sonoran CMS Custom Page as Dashboard Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderHomepage.png" alt=""><figcaption><p>Sonoran CMS Custom Page as Dashboard Page</p></figcaption></figure>
 
 To set a Custom Page as your homepage, navigate to the main page for the Website Builder and look under the section titled `Website Pages`. Locate the page you wish to use as your homepage and press the grey home button, this will turn it orange and set it as the landing page.
 
