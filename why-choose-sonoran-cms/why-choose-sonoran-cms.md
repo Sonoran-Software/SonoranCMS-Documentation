@@ -51,6 +51,12 @@ Sonoran CMS is your single point of management for in-game whitelisting! Automat
 
 ![Sonoran CMS - Whitelist Management](../.gitbook/assets/CMS\_Whitelist.png)
 
+## 🔒 [Advanced Security and Alt Account Detection](../tutorials/administrative/security-center/)
+
+Sonoran CMS is the best way to ensure your community stays protected. Prevent banned users from ever applying or joining your community again with [advanced alternate account detection](../tutorials/administrative/security-center/#account-flags). Or, easily filter and find [user action logs](../tutorials/administrative/security-center/#logging-center) throughout your CMS platform.
+
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Sonoran CMS - Security Center</p></figcaption></figure>
+
 ## 🚫 [GTA RP ACE Permissions Management](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/ace-permission-sync.md)
 
 Sonoran CMS allows you to manage all GTARP user permissions with [Ace Permissions Sync for QB](../integration-capabilities/qb-core-game-panel/using-the-game-panel/aces-and-principals.md) and [vMenu servers](../integration-capabilities/vmenu-game-panel/using-the-game-panel/aces-and-principals.md)!

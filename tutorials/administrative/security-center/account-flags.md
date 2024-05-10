@@ -6,7 +6,7 @@ description: >-
 
 # Account Flags
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption><p>Sonoran CMS - Alt Detection</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Sonoran CMS - Alt Detection</p></figcaption></figure>
 
 {% hint style="danger" %}
 **Alternate Account Detection & Account Flags are only enabled with a Pro Subscription!**
