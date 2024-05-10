@@ -75,6 +75,14 @@ This example shows user `8` (SonoranBrian) linked a Discord account that a banne
 
 <figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
+#### Flag Icons
+
+When viewing a flag, the user accounts mentioned may also display one of the following icons:
+
+* 🚫 - This user is banned in your community
+* 🕒 - This user is pending in your community (no ranks yet, new applicant)
+* ❓ - This user has not yet joined your community but may be an alternate account of someone who is already in your community
+
 #### Dismissing a Flag
 
 Sometimes two different users may be harmlessly sharing the same physical device, IP address, etc.
