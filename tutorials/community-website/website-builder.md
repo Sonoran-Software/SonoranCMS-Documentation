@@ -138,17 +138,21 @@ Sonoran CMS allows you to [customize the top toolbar](toolbar-customization.md) 
 
 ## HTML Elements Limits
 
-HTML elements get sanitized before they're saved, displayed or manipulated. There's several HTML tags that are stripped and now allowed, below is the list of allowed HTML tags:
+HTML elements get sanitized before they're saved, displayed or manipulated.
 
-```
-[
-  "address", "article", "aside", "footer", "header", "h1", "h2", "h3", "h4",
-  "h5", "h6", "hgroup", "main", "nav", "section", "blockquote", "dd", "div",
-  "dl", "dt", "figcaption", "figure", "hr", "li", "main", "ol", "p", "pre",
-  "ul", "a", "abbr", "b", "bdi", "bdo", "br", "cite", "code", "data", "dfn",
-  "em", "i", "kbd", "mark", "q", "rb", "rp", "rt", "rtc", "ruby", "s", "samp",
-  "small", "span", "strong", "sub", "sup", "time", "u", "var", "wbr", "caption",
-  "col", "colgroup", "table", "tbody", "td", "tfoot", "th", "thead", "tr", "iframe",
-  "img"
-]
-```
+* **Allowed Tags**: A wide range of HTML tags for different purposes including:
+  * Structural elements like `header`, `footer`, `main`, `nav`, `section`.
+  * Text formatting tags such as `h1` through `h6`, `strong`, `em`, `b`, `i`.
+  * List elements like `ul`, `ol`, `li`.
+  * Table components including `table`, `th`, `td`, `thead`, `tbody`, `tfoot`.
+  * Media embedding tags `img` and `iframe`.
+  * Inline elements like `span`, `br`, `mark`, `small`.
+  * Text semantic tags such as `time`, `code`, `var`, `samp`.
+* **Attributes**:
+  * Allows `style` universally.
+  * For `a`: `href`, `name`, `target`.
+  * For `img`: `src`, `srcset`, `alt`, `title`, `width`, `height`, `loading`.
+  * For `iframe`: `src`, `height`, `width`, `name`.
+* **Styles**:
+  * Permits a wide range of CSS properties with any value for basic layout and visual styling such as `width`, `height`, `border`, and more.
+  * Specific regex patterns are set for `color`, `text-align`, and `font-size` to control text styling and coloring with precise formats.
