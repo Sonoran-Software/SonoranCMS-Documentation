@@ -10,7 +10,7 @@ Looking for VPS, web, or dedicated hosting? Check out our official [server hosti
 
 This whitelist module utilizes Sonoran CMS's to enforce player connections.
 
-![Sonoran CMS - Whitelist](../../../../../.gitbook/assets/CMS-WL.png)
+![Sonoran CMS - Whitelist](../../../../../.gitbook/assets/CMS\_Whitelist.png)
 
 {% embed url="https://www.youtube.com/watch?v=4PAtKYQokXE" %}
 
