@@ -10,6 +10,62 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 0.5.91 (Beta) 05/14/2024
+
+{% tabs %}
+{% tab title="New" %}
+Forms - Third Party Sub. Permission
+
+* Added a new permission to restrict which users can submit specific forms as a third party
+
+Forms - Audio Upload
+
+* Added a new form element allowing users to record and upload audio submissions
+
+Forms - Checkbox Section Dependency
+
+* Form sections can now have a dependency based on checkbox select values
+
+Account Avatar - View Profile
+
+* Clicking on a user's account avatar will now automatically redirect to their community profile
+
+Discord Role Import - Filter
+
+* Added a filter search box in the rank manager when importing existing Discord roles
+
+Photo Gallery - Image Uploader
+
+* Updated the image upload component in the website builder's photo gallery element
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#22313 - Discord Roster Bug
+
+* Fixed an issue causing rosters to not load if they contained a single Discord username column, and no other Discord type columns
+
+\#22312 - Roster Row Editor
+
+* Fixed an issue where Discord and TeamSpeak type roster columns would appear to be editable when selecting the row in the roster viewer
+
+\#22203 - Calendar Event Image
+
+* Fixed an issue causing the calendar event images to not be properly set or edited
+
+(HF) Roster Formatting - Hours over 23
+
+* Fixed an issue causing conditional formatting to break on a roster when relying on a time log or activity hours column that had 24 or more total hours
+
+(HF) Kick and Ban - Remove TS Ranks
+
+* Fixed a vulnerability where kicking or banning a CMS user would not also remove their mapped TeamSpeak ranks.
+
+(HF) CMS Kick - Remove Discord Roles
+
+* Fixed a vulnerability where kicking a CMS user would not remove their mapped Discord roles.
+{% endtab %}
+{% endtabs %}
+
 ### 0.5.90 (Beta) 05/08/2024
 
 {% tabs %}
