@@ -154,5 +154,5 @@ HTML elements get sanitized before they're saved, displayed or manipulated.
   * For `img`: `src`, `srcset`, `alt`, `title`, `width`, `height`, `loading`.
   * For `iframe`: `src`, `height`, `width`, `name`.
 * **Styles**:
-  * Permits a wide range of CSS properties with any value for basic layout and visual styling such as `width`, `height`, `border`, and more.
+  * Basic layout and visual styling such as `width`, `height`, `border`, `padding`, `margin`, `background`, `display`, `opacity`, `overflow` and `visibility`.
   * Specific regex patterns are set for `color`, `text-align`, and `font-size` to control text styling and coloring with precise formats.
