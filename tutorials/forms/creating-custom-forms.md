@@ -116,6 +116,12 @@ These special input types allows input values to be automatically generated from
 
 <figure><img src="https://i.imgur.com/MXcCFBl.png" alt=""><figcaption><p>Sonoran CMS - Custom Form - Member Selector &#x26; Auto Member Input</p></figcaption></figure>
 
+#### Uploader
+
+This upload type allows users to attach files from their computer to the form. It it compatible with PDF, Image, and Audio files, and you can choose to allow all three or only one file type.
+
+<figure><img src="../../.gitbook/assets/CMS_FormUploaderSection.png" alt=""><figcaption><p>Sonoran CMS - Custom Form - Uploader Section</p></figcaption></figure>
+
 ## Sorting Forms
 
 Sonoran CMS allows you to organize the order in which forms appear wherever they're listed, the main area forms are seen in a specific order would be when displaying the allowed forms in "Available Forms", this will allow you to organize the order of your forms for the best experience for your members.
@@ -131,10 +137,6 @@ To change the sort of your community's forms, you can change the "Sort Order" va
 Conditional sections allow you to make an individual section visible based on conditions.
 
 To enable a section to be "Conditional" simply switch the Conditional switch to "on" state for the section you would like to make conditional. Once you do that a "Dependency" selector will appear, this will provide you with all eligible fields that can be used for conditional checks. Select the field that you want to be checked for the appearance of this section. Once you've chosen a field it'll provide you with an input, provide all value(s) that you wish to be checked upon on the field.
-
-{% hint style="info" %}
-If the field that will be checked is a **checkbox** it will simply check if it's "checked", there won't be any reason to provide a value.
-{% endhint %}
 
 ## Limiting Form Submissions
 
@@ -158,7 +160,11 @@ Forms that are blocked from being submitted at the current time will be shown th
 
 ## Third-Party Form Submissions
 
-You can also submit forms in reference to or on the behalf of other users. To do this, simply select their user in the dropdown menu labeled "You are submitting this form under:"
+{% hint style="info" %}
+The **Submit 3rd Party Application/Form** permission is required for a user to make a third-party form submission on any given form.
+{% endhint %}
+
+You can also submit forms in reference to or on the behalf of other users. To do this, simply select their user in the dropdown menu labeled "You are submitting this form under:".&#x20;
 
 <figure><img src="../../.gitbook/assets/CMS_ThirdPartyForm2.png" alt=""><figcaption><p>Sonoran CMS - Third Party Form Submissions</p></figcaption></figure>
 
