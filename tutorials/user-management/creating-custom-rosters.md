@@ -30,7 +30,7 @@ If using a field of type **Patrol Log**, **Activity Tracker Hours**, or **Last A
 For the former two, also ensure you specify the date range or time period that the data should be sourced from.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/CMS_RosterOverview.png" alt=""><figcaption><p>Sonoran CMS - Create Custom Roster</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_RosterEditor3.png" alt=""><figcaption><p>Sonoran CMS - Create Custom Roster</p></figcaption></figure>
 
 Along the top bar of the editor itself, you can also select an icon which will show at the top of the roster.
 

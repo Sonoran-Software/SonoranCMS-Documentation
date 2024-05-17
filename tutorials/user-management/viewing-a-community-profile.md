@@ -8,20 +8,16 @@ description: >-
 
 {% embed url="https://www.youtube.com/watch?v=c7-dARy7xaI" %}
 
-![Sonoran CMS - Community Profile](../../.gitbook/assets/CMS\_CommunityProfile.png)
+![Sonoran CMS - Community Profile](../../.gitbook/assets/CMS\_Profile.png)
 
-{% embed url="https://www.youtube.com/watch?v=RMmez4o3hp0" fullWidth="true" %}
+## Accessing a User's Community Profile
 
-There are two ways to view a community profile, both options are listed below. One of which is accessing a profile through a roster or through the administrative panel.
+There are a few ways to view a community profile, which are listed below.&#x20;
 
-## Accessing a Community Profile via Administrative Panel
-
-Accessing a Community Profile via the Administrative Panel is easy as viewing the Accounts panel on the Administrative Panel. Once you're on that panel you can right-click any table row which will provide you with two options, "Edit Account Information" and "View Member Profile". Select "View Member Profile", which will direct you to the user's community profile.
+From `Administrative Panel` > `User Accounts`, you can right click on any user, then select `View Member Profile`.&#x20;
 
 ![Sonoran CMS Administrative Panel - Accounts Panel](../../.gitbook/assets/CMS\_UserAccsListRC.png)
 
-## Accessing a Community Profile via a Roster
+You can also click on any user's account avatar to be redirected to their profile. This can be done from the `User Accounts` page when viewed as a grid, from the `Edit Account Information` popup, as well as from form submissions, forum posts, and any other places where a user's avatar may be displayed.
 
-Accessing a Community Profile via the Administrative Panel is easy as viewing a roster. Once you're on a roster you can click any table row which will provide you with two options, "Edit Roster Data" and "View Profile". Select "View Profile", which will direct you to the user's community profile.
-
-![Sonoran CMS Roster View](../../.gitbook/assets/brave\_u4vnTEMMeO.png)
+<figure><img src="../../.gitbook/assets/CMS_ViewProfileAvatar.png" alt=""><figcaption><p>Sonoran CMS - View User's Profile</p></figcaption></figure>
