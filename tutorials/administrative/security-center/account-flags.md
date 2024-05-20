@@ -35,8 +35,10 @@ Ex: "Bob123" logs in with the same IP address as "Alice456" -> this results in a
 * Duplicate PC Hardware IDs
 * Duplicate Mobile Device IDs
 * Duplicate Linked Discord IDs
-* CFX License/Game ID (Coming Soon)
-* VPN Usage Detection (Coming Soon)
+* Duplicate CFX License (in-game)
+* Duplicate Steam ID (in-game)
+* Duplicate Xbox Live ID (in-game)
+* VPN Usage Detection
 
 ## Flag Management
 
