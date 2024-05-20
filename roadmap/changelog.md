@@ -10,6 +10,59 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 0.5.92 (Beta) 05/20/2024
+
+{% tabs %}
+{% tab title="New" %}
+Security Center - Reactivate Flag
+
+* Added a flag reactivation event if a (alt) user that was not in your community had their flag dismissed, it will re-activate when they later join the community.
+
+Security Center - In-Game Identifiers
+
+* Added new alt account detection methods for in-game identifiers like CFX license, Xbox live, Steam, hardware identifiers, etc.
+
+Security Center - VPN Detection Flag
+
+* Added a new flag type to detect users logging in with a VPN running, potentially trying to evade an IP ban.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Backend - Startup Without Logging DB
+
+* Fixed an issue preventing the CMS backend from starting if there was a logging database outage.
+
+\#22436 - Drive Permissions
+
+* Fixed an issue with users getting an error when trying to access authorized documents but without the modify all documents permission.
+* Fixed an issue with users who do not have the modify all documents permission being unable to edit documents on a rank-specific file.
+
+HF: Logging DB History Clear
+
+* Fixed an issue with system logs being stored longer than 30 days.
+
+\#22434 - Image Popup Size Constraints
+
+* Fixed an issue where the image displays in the website gallery and image editor popups were too large.
+
+Forms Panel - CSS Tweaks
+
+* Fixed minor style inconsistencies on the admin forms panel.
+
+\#22453 - Roster Editor Widths
+
+* Added handling to set a roster column's minimum width when editing it.
+
+\#22450 - Discord Webhook Action
+
+* Fixed an issue where Discord webhooks with an invalid author URL would cause a failure.
+
+\#22452 - Calendar Flag Redirect
+
+* Fixed an issue where clicking on a user's avatar in the calendar event menu wouldn't navigate to their community profile.
+{% endtab %}
+{% endtabs %}
+
 ### 0.5.91 (Beta) 05/15/2024
 
 {% tabs %}
