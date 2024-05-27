@@ -61,6 +61,14 @@ User Profile - URL Improvements
 Bot - Form Status Change
 
 * Removed an error message when updating a CMS form stage via Discord embed.
+
+Desktop Apps
+
+* Fixed an issue with local storage and security center device IDs preventing the desktop apps from properly launching.
+
+Mobile Apps
+
+* Fixed an issue with security center device IDs preventing the mobile apps from properly launching.
 {% endtab %}
 {% endtabs %}
 
