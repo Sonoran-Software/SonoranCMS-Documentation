@@ -10,6 +10,60 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 0.5.93 (Beta) 05/27/2024
+
+{% tabs %}
+{% tab title="New" %}
+Growth Panel
+
+* Added the initial start to the admin growth panel, offering community metrics and performance graphs.
+
+CAD Integration - Permission
+
+* Added a separate permission to access the CAD integration panel.
+
+Rosters - Manual Override
+
+* Added a way to manually set roster cell values on items that rely on conditional formatting. Ex: Setting a staff member's status column to Active manually, even if conditional formatting sets it based on an activity hours column.
+
+Security Center - Log Type Filter
+
+* Added a type to filter system to the security center log types search.
+
+User Profile - Third Party Icon
+
+* Added a third party icon to user profiles in their "submission" columns to show what forms they have submitted but on someone else.
+
+User Profile - Submission Status
+
+* Updated the submission status column on the user profile to show the custom stage/status color and icon.
+
+User Profile - Account Buttons
+
+* Updated the user profile page to use three new improved, icon-based buttons for their Sonoran Account, Community Settings, and account deletion.
+
+Forms - UI Improvements
+
+* Updated the forms editor UI to allow section up/down reordering.
+* Updated the forms editor UI to use a dropdown picker for section dependencies where applicable, instead of manually typing each value.
+* Updated the new form submission UI to navigate the user through each section individually.
+
+Security Center - Flag Notes
+
+* Added a notes system in the security center for account flags, allowing historic informational/context messages to be saved.
+
+User Profile - URL Improvements
+
+* User profiles are now formatted as community.com/u/id with the ID being the user's numerical unique ID.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Bot - Form Status Change
+
+* Removed an error message when updating a CMS form stage via Discord embed.
+{% endtab %}
+{% endtabs %}
+
 ### 0.5.92 (Beta) 05/21/2024
 
 {% tabs %}
