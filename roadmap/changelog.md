@@ -10,7 +10,7 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### 0.5.93 (Beta) 05/28/2024
+### 0.5.93 (Beta) 05/29/2024
 
 {% tabs %}
 {% tab title="New" %}
@@ -45,7 +45,6 @@ User Profile - Account Buttons
 Forms - UI Improvements
 
 * Updated the forms editor UI to allow section up/down reordering.
-* Updated the forms editor UI to use a dropdown picker for section dependencies where applicable, instead of manually typing each value.
 * Updated the new form submission UI to navigate the user through each section individually.
 
 Security Center - Flag Notes
