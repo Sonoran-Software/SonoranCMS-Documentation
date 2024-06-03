@@ -52,6 +52,7 @@
   * [Security Center](tutorials/administrative/security-center/README.md)
     * [Account Flags](tutorials/administrative/security-center/account-flags.md)
     * [Logging Center](tutorials/administrative/security-center/logging-center.md)
+  * [URL Shortener](tutorials/administrative/url-shortener.md)
 
 ## Integration Capabilities
 
