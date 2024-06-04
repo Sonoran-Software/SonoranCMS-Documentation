@@ -23,7 +23,7 @@ Ex: `https://discord.com/invite/123456` -> `mycommunity.com/discord`
 
 ### New Short URL
 
-To forward `https://discord.com/invite/123456` to our custom domain's `mycommunity.com/discord`
+To forward `https://discord.com/invite/123456` to our [custom domain](../customization/custom-domain.md#custom-domain)'s `mycommunity.com/discord`
 
 1. Enter the existing URL `https://discord.com/invite/123456`
 2. Enter the new short URL path `discord`
@@ -39,8 +39,8 @@ After adding the new short URL, it will be viewable, searchable, and copyable in
 
 The CMS supports three types of short URL formats:
 
-* Custom Domain: `customdomain.com/shorturl`
-* Vanity Domain: `communityid.sonorancms.com/shorturl`
+* [Custom Domain](../customization/custom-domain.md#custom-domain): `customdomain.com/shorturl`
+* [Vanity Domain](../customization/custom-domain.md#vanity-urls): `communityid.sonorancms.com/shorturl`
 * Long Domain: `sonorancms.com/com/communityuuid/shorturl`
 
 The custom path will work on all three of these options. The toggle simply allows you to select which format you are copying.
