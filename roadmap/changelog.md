@@ -10,6 +10,39 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 0.6.0 (Beta) 06/05/2024
+
+{% tabs %}
+{% tab title="New" %}
+Growth Panel - Additional Metrics
+
+* Added additional community metrics for every custom form and webpage.
+
+URL Shortener
+
+* Added an all-new URL shortener, allowing communities to create URL redirects with their custom domain or vanity URL.
+
+\#22435 - Image Aspect Ratio
+
+* Added a way to unlock the aspect ratio on website images, allowing the user to stretch images.
+
+Discord Mapping - Dependency
+
+* Added a new Discord mapping type "dependency" to grant a more "global" Discord role if the user has one of the listed CMS ranks.\
+  Ex: The Discord "Staff" role is dependent on the CMS `Moderator`, `Admin`, or `Owner` ranks. If the user has any of those, the Discord `Staff` role will be applied. Granting the `Staff` Discord role will not grant any other CMS ranks or have any further impact.
+
+Homepage - Security Center Promo
+
+* Updated the CMS homepage with additional feature promos.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Account Username Ellipsis
+
+* Improved account username overflow handling in the user accounts panel.
+{% endtab %}
+{% endtabs %}
+
 ### 0.5.93 (Beta) 05/30/2024
 
 {% tabs %}
