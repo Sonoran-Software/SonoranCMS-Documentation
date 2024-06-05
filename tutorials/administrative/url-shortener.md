@@ -44,3 +44,39 @@ The CMS supports three types of short URL formats:
 * Long Domain: `sonorancms.com/com/communityuuid/shorturl`
 
 The custom path will work on all three of these options. The toggle simply allows you to select which format you are copying.
+
+## Reserved Paths
+
+Sonoran CMS has several internal URL paths that can not be overridden by a custom short URL.
+
+Sonoran CMS will also not allow you to override an existing [website slug](../community-website/website-builder.md) with a custom short URL.
+
+```
+admin
+index
+login
+logout
+signup
+gallery
+menu
+event
+account
+oauth/discord
+oauth/sonoran
+oauth/apple
+drive/file
+game/menu
+game/qbcore
+profile
+roster
+forums
+forums/topics
+calendar
+forms
+```
+
+These paths are restricted only in their absolute form. Appending additional paths to these are allowed. For example:
+
+A short URL can **NOT** be: `example.com/forms`
+
+However, a short URL **CAN** be: `example.com/forms/civ`
