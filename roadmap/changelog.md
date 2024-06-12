@@ -55,6 +55,11 @@ Metrics - Negative
 \#22927 - Metric Graphs
 
 * Fixed an issue causing metric graphs in the growth panel to only visualize up to the number one each day
+
+Forms
+
+* Fixed a logic issue causing per-section submissions to be disabled if the conditional values were greater than one
+* Disabled the required toggle for label type questions
 {% endtab %}
 {% endtabs %}
 
