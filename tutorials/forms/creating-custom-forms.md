@@ -138,9 +138,21 @@ Conditional sections allow you to make an individual section visible based on co
 
 To enable a section to be "Conditional" simply switch the Conditional switch to "on" state for the section you would like to make conditional. Once you do that a "Dependency" selector will appear, this will provide you with all eligible fields that can be used for conditional checks. Select the field that you want to be checked for the appearance of this section. Once you've chosen a field it'll provide you with an input, provide all value(s) that you wish to be checked upon on the field.
 
+## Opening and Closing Form Submissions
+
+You can easily lock or unlock individual forms when you wish to make them available to your members.
+
+This can be done by toggling the lock icon in the admin form selector menu, or in the form editor.
+
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+
 ## Limiting Form Submissions
 
-Newly introduced limit settings allow you to limit the amount of submissions users in your community are able to complete. With these various settings you're able to lock it down within the last X days, ignore archived submissions and even add a cooldown in-between form submissions.
+Limit settings allow you to limit the amount of submissions users in your community are able to complete. With these various settings you're able to lock it down within the last X days, ignore archived submissions and even add a cooldown in-between form submissions.
 
 <figure><img src="../../.gitbook/assets/CMS_FormLimits.png" alt=""><figcaption><p>Sonoran CMS - Custom Form Editor - Limit Settings</p></figcaption></figure>
 

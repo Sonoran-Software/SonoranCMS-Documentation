@@ -10,6 +10,56 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 0.6.1 (Beta) 06/12/2024
+
+{% tabs %}
+{% tab title="New" %}
+Discovery Panel
+
+* Added the start of the redesigned community discovery panel, complete with spotlight and featured communities. Spotlight communities will soon be featured in the main menu of the CAD, CMS, and radio portals.
+
+Enable/Disable Submissions
+
+* Individual forms can now be locked or unlocked to easily open and close applications
+
+Limits Panel
+
+* Revamped the UI on the limits panel, fixed multiple issues, and added the new feature promos for the URL shortener and metrics panel
+
+Metrics - Tooltips
+
+* Added tooltips to every metric in the growth panel better explaining what is being visualized
+
+Discord Integration - Optimization
+
+* Internal UI component optimization with the Discord webhook config panel
+{% endtab %}
+
+{% tab title="Fixed" %}
+Security Flags - Mobile
+
+* Fixed an issue causing the flag number to not show on the admin navigation bar in mobile
+
+Metrics - Negative
+
+* Changed the lost members stat to red if an increase in value and green if a decrease in value
+
+\#22815 - Roster Editor
+
+* Fixed an issue in live-editing rosters where using the date picker on the date column would fail to auto-save
+
+\#22815 - Form Duplication
+
+* Fixed an issue causing form submissions to appear duplicated on the user profile
+
+\#22927 - Metric Graphs
+
+* Fixed an issue causing metric graphs in the growth panel to only visualize up to the number one each day
+{% endtab %}
+{% endtabs %}
+
+
+
 ### 0.6.0 (Beta) 06/05/2024
 
 {% tabs %}
