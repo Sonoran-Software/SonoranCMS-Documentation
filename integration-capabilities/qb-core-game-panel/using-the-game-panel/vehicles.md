@@ -34,6 +34,7 @@ Currently, Sonoran CMS supports the following QB Core garage scripts:
 * Codesign Garage
 * Quasar Advanced Garages
 * JG Advanced Garages
+* AK47 QG Garage
 
 You can suggest more integrations on our [support portal](https://support.sonoransoftware.com) or if you would like to add the support yourself, simply paste this code snippet in any **SERVER-sided** file in your garage resource.&#x20;
 
