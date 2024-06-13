@@ -16,7 +16,7 @@ Full metric history is available with the [pro version](broken-reference) of Son
 
 The leaderboard at the top of the growth panel displays your global rankings compared to other CMS communities.
 
-These placements are used to rank your community in the discovery page, helping to drive new users to your community!
+These placements are used to [rank your community in the discovery page](discovery.md), helping to drive new users to your community!
 
 ## Community Metrics
 
@@ -31,5 +31,5 @@ This allows administrators to easily track their community's growth, decline, or
   * Unique user visitors per day
 * Form Submissions
   * Number of new form submissions on each custom form
-* Website Views (Coming Soon)
+* Website Views
   * Number of unique visitors per day on each custom webpage
