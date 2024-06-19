@@ -10,6 +10,71 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 0.6.2 (Beta) 06/29/2024
+
+{% tabs %}
+{% tab title="New" %}
+Navbar - Dropdown Icons
+
+* Added customizable dropdown item icons/images
+
+Custom Domain - Login Preservation
+
+* Added new handling to redirect and preserve a community's custom domain when a user logs in via Discord or Apple
+
+Main Menu - Spotlight
+
+* Added spotlight communities to the main community selection menu
+
+Main Menu - UI Refresh
+
+* Refreshed and improved the community selection menu
+
+Homepage - URL Shortener Promo
+
+* Added a promotional slide for the URL shortener to the homepage
+
+Discovery Page - Metrics Tracking
+
+* Added new metrics to see community views and clicks from the discovery page
+
+Improved Spotlight Selection
+
+* Limited the fastest growing communities spotlight category (by percentage) to communities between 50 and 250 members
+
+Form Submission Viewer - Search and Scroll
+
+* Added a search bar to filer form names in the submission viewer
+* Added vertical scroll support for desktop in the submission viewer for communities with large amount of forms
+{% endtab %}
+
+{% tab title="Changed" %}
+Discovery Settings
+
+* Community discovery settings have been migrated to the growth panel's discovery section
+{% endtab %}
+
+{% tab title="Fixed" %}
+Website Cards - Image Tweaks
+
+* Fixed an issue where setting an image instead of an icon on a website card element would stretch the entire image across the card
+
+Available Page Cards - Add Button Mobile
+
+* Fixed a mobile sizing issue with the website overview new page button
+
+Form Submission Loading
+
+* Fixed a bug causing submissions to not load in rare cases
+
+Roster Loading
+
+* Fixed a big causing rosters to not load in rare cases
+{% endtab %}
+{% endtabs %}
+
+
+
 ### 0.6.1 (Beta) 06/12/2024
 
 {% tabs %}
