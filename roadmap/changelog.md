@@ -10,6 +10,42 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 0.6.3 (Beta) 07/26/2024
+
+{% tabs %}
+{% tab title="New" %}
+Vanity & Custom Domain - Auto Join on Login
+
+* Users now automatically join your CMS when they login on your custom domain or vanity URL
+
+Discovery Panel - UI Updates
+
+* Updated the UI for community discovery configuration in the admin growth panel
+
+Discord Mapping - UI Improvements
+
+* Overhauled this discord mapping UI to reflect more of an if/then style for more clarity
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#23042 - Delete Manual Roster Rows
+
+* Re-added the ability to delete rows in custom rosters via right-click
+
+Webhooks - Character Limits
+
+* Added handling to ensure webhooks don't fail due to going over the text length limit
+
+\#22911 - Typo
+
+* Fixed small typos
+
+Mobile - View Submissions
+
+* Fixed an issue on mobile causing the submission type tabs to be oversized
+{% endtab %}
+{% endtabs %}
+
 ### 0.6.2 (Beta) 06/20/2024
 
 {% tabs %}
