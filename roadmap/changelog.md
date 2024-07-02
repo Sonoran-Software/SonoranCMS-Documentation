@@ -10,7 +10,51 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### 0.6.3 (Beta) 07/26/2024
+### 0.6.4 (Beta) 07/03/2024
+
+{% tabs %}
+{% tab title="New" %}
+UID Data Type Restriction
+
+* Increased the numerical size of member UIDs to allow for Roblox identifiers
+
+Discord Mapping - Updates
+
+* Added the ability to update existing Discord mappings of any type
+
+Roster Permissions - Consolidate
+
+* Removed the separate roster add/edit/remove permissions for primary and secondary, and merged into a single permission each
+
+URL Shortner IPs and Ports
+
+* Added the ability to redirect a short URL to an IP address and the ability to add a port number
+
+Webhook Attachment URLs
+
+* Added a hyperlinked content section to all webhooks for any attachment fields in a form
+
+Forms - Section Drag-and-Drop
+
+* Improved the forms editor UI to collapse sections when clicking on the header, and drag-and-drop capability to each header
+{% endtab %}
+
+{% tab title="Fixed" %}
+Notification Cross-Community
+
+* Improved handling to resolve edge cases causing notifications to go to additional users outside of the intended community
+
+Roster Loading
+
+* Improved handling to resolve edge cases causing roster pagination (changing pages) to load a different community's roster
+
+\#23175 - Forum Bullet Sanitization
+
+* Improved sanitization and UI rendering to ensure forum posts and replies are the same as the post and reply editor
+{% endtab %}
+{% endtabs %}
+
+### 0.6.3 (Beta) 06/26/2024
 
 {% tabs %}
 {% tab title="New" %}
