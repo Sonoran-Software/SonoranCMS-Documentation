@@ -10,6 +10,50 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.0.0 (Full Release) 07/10/2024
+
+{% tabs %}
+{% tab title="New" %}
+Translation Overhaul
+
+* The completion of the full translation overhaul, allowing communities to fully translate the CMS into any language
+
+Forms - Apply Action to Selected User
+
+* Form stage actions can now be applied to user(s) on a member-select field instead of only the form submitter
+
+Form Submission Limits - UI Improvements
+
+* Overhauled the form submissions limits UI
+
+Rosters - Primary vs Secondary
+
+* Removed all references of the old primary and secondary roster rows
+
+Community Discovery
+
+* Improved loading with "skeleton" animation placeholders for a less jarring experience
+{% endtab %}
+
+{% tab title="Fixed" %}
+Logged Out - Forums Loading
+
+* Fixed an issue preventing forums from fully loading while the user is logged out
+
+Logged Out - Profile Loading
+
+* Fixed an issue preventing user profile pages from fully loading while the user is logged out
+
+Roster Editor
+
+* Fixed a small UI issue displaying an unused grey bar at the bottom of certain column type editors
+
+Spotlight - Fastest Growing
+
+* Fixed an issue causing some communities outside of the 50-250 member range to still be eligible for the fastest growing spotlight category
+{% endtab %}
+{% endtabs %}
+
 ### 0.6.4 (Beta) 07/03/2024
 
 {% tabs %}
