@@ -10,7 +10,7 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### 1.0.0 (Full Release) Coming Soon!
+### 1.0.0 (Full Release) 07/17/2024
 
 {% tabs %}
 {% tab title="New" %}
