@@ -10,6 +10,36 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.0.1 07/24/2024
+
+{% tabs %}
+{% tab title="New" %}
+Discovery - AI Approval
+
+* Added a new AI based approval system to approve communities for the discovery page
+
+Drive - Increase Storage Purchase
+
+* Added a new subscription option/addon to purchase additional Drive storage space
+
+Join Community - UI Refresh
+
+* Updated and improved the UI on the community selection screen when searching for a community to join
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#23476 - Allow Replies
+
+* Fixed an issue allowing submitters to still comment on form submissions after replies were locked
+
+Growth - Mobile Tab Improvements
+
+* Improved the growth panel metric tabs on mobile to have consistent margins and prevent scrolling from changing tabs
+{% endtab %}
+{% endtabs %}
+
+
+
 ### 1.0.0 (Full Release) 07/17/2024
 
 {% tabs %}
