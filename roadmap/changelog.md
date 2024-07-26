@@ -35,6 +35,10 @@ Join Community - UI Refresh
 Growth - Mobile Tab Improvements
 
 * Improved the growth panel metric tabs on mobile to have consistent margins and prevent scrolling from changing tabs
+
+\#23824 - Forum Post Overflow
+
+* Fixed an issue causing long forum posts to overflow the page
 {% endtab %}
 {% endtabs %}
 
