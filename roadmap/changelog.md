@@ -39,6 +39,10 @@ Growth - Mobile Tab Improvements
 \#23824 - Forum Post Overflow
 
 * Fixed an issue causing long forum posts to overflow the page
+
+\#23834 - Delete Assets
+
+* Fixed an issue causing the inability to delete drive files with unconventional names
 {% endtab %}
 {% endtabs %}
 
