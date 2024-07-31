@@ -10,6 +10,60 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.0.2 Coming Soon!
+
+{% tabs %}
+{% tab title="New" %}
+Security Center - Preferences
+
+* Added two new customizable security center preferences (enabled by default) to hide VPN flags on non-pending users and hide alt account flags on accounts not yet in the community
+
+Form Folders - Icon/Image
+
+* Added the ability to customize an icon or image on form folders
+
+Form Types - Consolidation
+
+* Consolidated all existing form types to the new member application (allows pending users to submit) and general form types
+
+Manual Roster - New Row Modal UI Improvements
+
+* Improved the popup modal to configure a new row on a manual roster
+
+Forms Auto-Reply Avatar
+
+* When a form stage adds an automatic reply, the avatar will be the CMS logo or the community logo with [branding removal](../pricing/pricing-faq/branding-removal.md)
+
+Forms Editor - Improvements
+
+* Toggling the dependency on a section in the form editor will no longer cause it to also collapse/expand
+* Removed the dependency toggle if the section is the highest in order
+
+Notification Replacements
+
+* Replaced multiple popup notifications with an orange progress bar for basic save and edit functions
+
+Drive UI Improvements
+
+* Added icons on the triple dot menu for existing items
+* Moved and adjusted the import from Google Drive button
+{% endtab %}
+
+{% tab title="Fixed" %}
+New Webpage Name
+
+* Fixed an issue where setting the webpage name on a brand new webpage would result in both duplication and an error
+
+Account UID - Cutoff
+
+* Improved UID cutoff handling in the user accounts panel for users with a long UID value
+
+\#23889 - Drive Issues
+
+* Fixed an issue causing file uploads to not appear until after a refresh
+{% endtab %}
+{% endtabs %}
+
 ### 1.0.1 07/26/2024
 
 {% tabs %}
