@@ -16,13 +16,13 @@ Branding removal is included with the CMS **Standard** plan ($9.99/mo). This hel
 
 Branding removal hides the "Powered by Sonoran CMS" in your website's bottom footer.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Footer Branding</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Footer Branding</p></figcaption></figure>
 
 ### Browser Tab Favicon
 
 Branding removal customizes your browser tab favicon to your community logo set in your customization settings.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Favicon</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Favicon</p></figcaption></figure>
 
 ### Browser Tab Title
 
@@ -40,6 +40,12 @@ Branding removal takes away the `| Sonoran CMS` at the end of it.
 Or, use [your own fully-custom domain](../../tutorials/customization/custom-domain.md#custom-domain) with the **Pro** plan!
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>CMS - Custom Domain</p></figcaption></figure>
+
+### Forms Auto-Reply Avatar
+
+When using a [forms stage automation to auto-reply](../../tutorials/forms/creating-custom-forms.md#form-stage-actions) to a submission, the auto-reply avatar will use your custom community logo.
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption><p>Sonoran CMS - Automated Form Replies</p></figcaption></figure>
 
 ## Social Page Embeds
 
@@ -60,4 +66,4 @@ Ex: Moving a Membership Application from `Pending` to `Accepted`
 The email subject follows a `Sonoran CMS | Community Name | Form Updated` format.\
 Branding removal takes the `Sonoran CMS |` out of the subject line.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Form Emails</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Form Emails</p></figcaption></figure>
