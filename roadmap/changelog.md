@@ -39,14 +39,14 @@ Forms Editor - Improvements
 * Toggling the dependency on a section in the form editor will no longer cause it to also collapse/expand
 * Removed the dependency toggle if the section is the highest in order
 
-Notification Replacements
-
-* Replaced multiple popup notifications with an orange progress bar for basic save and edit functions
-
 Drive UI Improvements
 
 * Added icons on the triple dot menu for existing items
 * Moved and adjusted the import from Google Drive button
+
+User Permissions - Translations
+
+* Added missing translation keys for user permission title and descriptions
 {% endtab %}
 
 {% tab title="Fixed" %}
