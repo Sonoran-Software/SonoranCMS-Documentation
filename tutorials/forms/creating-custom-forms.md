@@ -174,7 +174,7 @@ Limit settings allow you to limit the amount of submissions users in your commun
 This number is the total amount of submitted versions of this form that are allowed for each community member. _Setting this to_ `-1` _will not limit form submissions at all._
 
 **Time Window**\
-This number is the amount of days prior that the total number of submissions will be counted for. For example, if this is set to `30` and `Total` is set to `3`, then the user will be limited to a maximum of 3 submissions in the last 30 days.\
+This number is the amount of days prior that the total number of submissions will be counted for. For example, if this is set to `30` and `Total` is set to `3`, then the user will be limited to a maximum of 3 submissions in the last 30 days. _Setting this to_ `-1` _will ignore submission date checks, meaning the amount of times a user can submit is limited to whatever is specified in `Total`, regardless of how much time has passed._\
 \
 **Cooldown**\
 This number is the amount of days a user must wait following a submission before being able to submit the form again. _Setting this to_ `-1` _will allow for an indefinite amount of submissions at once, with no cooldown in between them._
