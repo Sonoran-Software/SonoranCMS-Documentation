@@ -44,9 +44,7 @@ Within a stage's settings, there will be two tabs: `Info` and `Actions`. The `In
 
 The `Actions` tab allows you to add "actions" that are performed when a submission is moved to that stage and is explained in [the section below](creating-custom-forms.md#form-stage-actions).
 
-After adding or editing a stage, you will be able to see the stage overview window, which allows you to easily drag-and-drop stages to re-order them. The first stage will always be the "Default" stage, i.e. the stage initially given upon submission.
-
-<figure><img src="../../.gitbook/assets/CMS_FormStages2.png" alt=""><figcaption><p>Sonoran CMS - Form Stages - Overview Window</p></figcaption></figure>
+You can drag and drop stages to re-order them. The first stage will always be the "Default" stage, i.e. the stage initially given upon submission.
 
 If you have integrated your community with our [Discord Bot](https://info.sonoranbot.com/en/tutorials/getting-started), users can be pinged when a submitted form or application has changed stages.
 
@@ -70,7 +68,9 @@ Checks for rank expirations are done upon each fetch of the account and not **cu
 
 This allows you to select any rank you would like to add, and any rank you would like to remove. To apply an expiration to the rank(s) simply press the dropdown button located on the rank button, this will provide you with the option to access it's Expiration Settings.
 
-<figure><img src="../../.gitbook/assets/CMS_FormsModifySubRank.png" alt=""><figcaption><p>Sonoran CMS - Stages Editor - Modify Submitter's Rank</p></figcaption></figure>
+By default, it will apply these rank changes to the submitter of the form,
+
+<figure><img src="../../.gitbook/assets/CMS_FormStageActionModifySubRanksFull2.png" alt=""><figcaption><p>Sonoran CMS - Stages Editor - Modify Submitter's Rank</p></figcaption></figure>
 
 ### Changing Form Stages
 
@@ -82,21 +82,39 @@ To view all form submissions, click the orange `Go To Submissions` button in the
 
 Once there, you can select the form whose submissions you'd like to manage on the left side, and then you will see all submissions and which stage they are in.
 
-<figure><img src="../../.gitbook/assets/CMS_FormSubmissionManager.png" alt=""><figcaption><p>Sonoran CMS - Form Submission Manager</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormStages3.png" alt=""><figcaption><p>Sonoran CMS - Form Submission Manager</p></figcaption></figure>
 
 If you have the **Admin Delete** permission for a given form, you can also delete any submissions by right clicking them and selecting `Delete Form`.
 
-<figure><img src="../../.gitbook/assets/CMS_FormSubmissionManagerDelete.png" alt=""><figcaption><p>Sonoran CMS - Delete Form Submission</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormStageDeleteSubmission.png" alt=""><figcaption><p>Sonoran CMS - Delete Form Submission</p></figcaption></figure>
 
-## Sections & Fields
+## Question Field Types
 
-### Premade Sections
+Within a form section is its questions. These questions can take inputs from the user in a variety of formats, such as text, checkboxes, dropdown menus, date/time selectors, or can simply display information as a "label" without taking any input. Sections and questions can be re-ordered by dragging and dropping from the top-middle point.
+
+<figure><img src="../../.gitbook/assets/CMS_FormQuestionExample.png" alt=""><figcaption><p>Sonoran CMS - Custom Form - Example Question of type "Text"</p></figcaption></figure>
+
+### Premade Field Types
 
 Premade sections are pre-defined sections for forms that have underlying functions. These sections will allow you to leverage further possibilities in a custom form. Below is a list of all premade sections and how they work:
 
-**Time Clock Start/End**
+**Clock In/Out**
 
 This premade section allows your form submitters to import direct clock in entries, this will also allow integration with rosters via for the roster column type "Time Log Hours".
+
+<figure><img src="../../.gitbook/assets/CMS_FormsClockInOut.png" alt=""><figcaption><p>Sonoran CMS - Custom Form - Clock In/Out Section</p></figcaption></figure>
+
+#### Uploader
+
+This upload type allows users to attach files from their computer to the form. It it compatible with PDF, Image, and Audio files, and you can choose to allow all three or only one file type.
+
+<figure><img src="../../.gitbook/assets/CMS_FormUploaderSection.png" alt=""><figcaption><p>Sonoran CMS - Custom Form - Uploader Section</p></figcaption></figure>
+
+#### Audio Recorder
+
+This upload type allows users to record and embed audio directly into the form.
+
+<figure><img src="../../.gitbook/assets/CMS_FormsAudioRec.png" alt=""><figcaption><p>Sonoran CMS - Custom Form - Audio Recorder Input</p></figcaption></figure>
 
 ### Special Input Types
 
@@ -104,23 +122,19 @@ Special Input Types are inputs that have underlying functions. These input types
 
 **Member Selector**
 
-This special input type allows form submitters to select **ONE** user from your community, these users are formatted with preferred format set in Community Customization. This special input type can be referenced in a "auto member x" input.
+This special input type allows form submitters to select **ONE** user from your community, these users are formatted with preferred format set in Community Customization. This special input type can be referenced in an "Auto Member" type question.
 
 #### Multi-Member Selector
 
-This special input type allows form submitters to select **MULTIPLE** users from your community, these users are formatted with the preferred format set in Community Customization. This special input type **CANNOT** be referenced in a "auto member x" input.
+This special input type allows form submitters to select **MULTIPLE** users from your community, these users are formatted with the preferred format set in Community Customization. This special input type **CANNOT** be referenced in an "Auto Member" type question.
 
 #### Auto Member Types
 
 These special input types allows input values to be automatically generated from a "Member Selector" input or from the form submitters account. When using these input in Custom Form creation ensure to select an option from the "Field/Source to Reference".
 
-<figure><img src="https://i.imgur.com/MXcCFBl.png" alt=""><figcaption><p>Sonoran CMS - Custom Form - Member Selector &#x26; Auto Member Input</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormAutoMemberExample2.png" alt=""><figcaption><p>Sonoran CMS - Custom Form - Member Selector &#x26; Auto Member Input</p></figcaption></figure>
 
-#### Uploader
 
-This upload type allows users to attach files from their computer to the form. It it compatible with PDF, Image, and Audio files, and you can choose to allow all three or only one file type.
-
-<figure><img src="../../.gitbook/assets/CMS_FormUploaderSection.png" alt=""><figcaption><p>Sonoran CMS - Custom Form - Uploader Section</p></figcaption></figure>
 
 ## Sorting Forms
 
@@ -144,31 +158,26 @@ You can easily lock or unlock individual forms when you wish to make them availa
 
 This can be done by toggling the lock icon in the admin form selector menu, or in the form editor.
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption><p>Sonoran CMS - Form Submissions Locked from Main Editor Page</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormSubmissionsLockedSettings.png" alt=""><figcaption><p>Sonoran CMS - Form Submissions Locked from Settings</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption><p>Sonoran CMS - Locked Form Example</p></figcaption></figure>
 
 ## Limiting Form Submissions
 
-Limit settings allow you to limit the amount of submissions users in your community are able to complete. With these various settings you're able to lock it down within the last X days, ignore archived submissions and even add a cooldown in-between form submissions.
+Limit settings allow you to limit the amount of submissions users in your community are able to complete. With these various settings you're able to limit the maximum number of submissions allowed per user and specify the mandatory waiting period between submissions within the specified time window.
 
-<figure><img src="../../.gitbook/assets/CMS_FormLimits.png" alt=""><figcaption><p>Sonoran CMS - Custom Form Editor - Limit Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_FormLimits3.png" alt=""><figcaption><p>Sonoran CMS - Custom Form Editor - Limit Settings</p></figcaption></figure>
 
-**# of Allowed Submissions**\
-This number is the total amount of submitted versions of this form that are allowed for each community member. _Setting this to_ `-1` _will not limit form submissions at all._\
-\
-**Limit Submissions Within Last X Days**\
-This number is the amount of days prior that submissions will be searched for, for limiting. For example, if this is set to `3` then it will only check for submissions 3 days prior from now. _Setting this to_ `-1` _will check all-time submitted versions of this form and not within the last X days._\
-\
-**Submission Cooldown**\
-This number is the amount of days between submissions of this form. For example, if this is set to `3` then the member will have to wait three days between submitting versions of this form.\
-\
-**Ignore Archived Submissions**\
-If checked this will not check for any submissions that are currently set to a stage that is the type of "Archived". So if a form is "Archived" it will not be searched for.
+**Total**\
+This number is the total amount of submitted versions of this form that are allowed for each community member. _Setting this to_ `-1` _will not limit form submissions at all._
 
-Forms that are blocked from being submitted at the current time will be shown this blocked view till the block is lifted based on the settings set for limiting. The member will not be able to submit any version of the form till they no longer meet any requirements to be blocked due to the settings.
+**Time Window**\
+This number is the amount of days prior that the total number of submissions will be counted for. For example, if this is set to `30` and `Total` is set to `3`, then the user will be limited to a maximum of 3 submissions in the last 30 days.\
+\
+**Cooldown**\
+This number is the amount of days a user must wait following a submission before being able to submit the form again. _Setting this to_ `-1` _will allow for an indefinite amount of submissions at once, with no cooldown in between them._
 
 ## Third-Party Form Submissions
 
