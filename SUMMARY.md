@@ -110,6 +110,7 @@
     * [Roblox Resource Installation](integration-capabilities/in-game-integration-resources/roblox-integrations/roblox-resource-installation.md)
     * [Available Resources](integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/README.md)
       * [Whitelist](integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md)
+  * [IP Whitelisting](integration-capabilities/in-game-integration-resources/ip-whitelisting.md)
 
 ## Developer API Documentation
 
