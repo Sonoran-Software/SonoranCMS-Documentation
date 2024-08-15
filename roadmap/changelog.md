@@ -10,6 +10,46 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.0 08/15/24
+
+{% tabs %}
+{% tab title="New" %}
+Disciplinary Panel
+
+* An all new panel allowing communities to configure disciplinary points, their expiration time, and point thresholds at which automated actions will occur.
+
+Forms Disciplinary Point Action
+
+* Added a new form stage action to add or remove disciplinary points from a user.
+
+Forms Number Element
+
+* Added a new number form element which can be optionally selected on the forms disciplinary stage action to specify the number of points.
+
+Webpage Clone
+
+* Added the ability to clone an existing webpage.
+
+Notify Swap to Progress
+
+* Updated several notification popups for basic actions like save confirmations to instead show the orange loading/progress bar at the top for a less-invasive experience.
+
+Discovery Spotlight Description
+
+* Updated the discovery spotlight to display the community's discovery description instead of the tagline.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#23965 - Roster Date Range
+
+* Fixed an issue causing the roster date range selector on specific fields to not properly set.
+
+Drive Removal Paths
+
+* Finalized a perminant fix for a previous issue causing Drive files with unusual names to not be removable.
+{% endtab %}
+{% endtabs %}
+
 ### 1.0.2 08/06/2024
 
 {% tabs %}
