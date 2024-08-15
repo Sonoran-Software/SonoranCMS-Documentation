@@ -26,6 +26,10 @@ Forms Number Element
 
 * Added a new number form element which can be optionally selected on the forms disciplinary stage action to specify the number of points.
 
+Sonoran Radio Standalone Integration
+
+* Added the ability to configure a Sonoran Radio standalone community for auto-join, kick, and permission sync (requires Radio Standalone Beta v2.5.0)
+
 Webpage Clone
 
 * Added the ability to clone an existing webpage.
