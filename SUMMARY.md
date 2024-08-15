@@ -58,6 +58,7 @@
 ## Integration Capabilities
 
 * [Sonoran CAD Sync](integration-capabilities/sonoran-cad-sync.md)
+* [Sonoran Radio Sync](integration-capabilities/sonoran-radio-sync.md)
 * [Discord Bot Integration](integration-capabilities/discord-bot-integration.md)
 * [TeamSpeak 3 Role Sync](integration-capabilities/teamspeak-3-role-sync/README.md)
   * [Getting Started](integration-capabilities/teamspeak-3-role-sync/getting-started.md)
