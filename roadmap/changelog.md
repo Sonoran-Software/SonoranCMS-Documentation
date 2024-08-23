@@ -10,6 +10,48 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.1 08/23/2024
+
+{% tabs %}
+{% tab title="New" %}
+Growth Panel - Custom Dashboard
+
+* Added a new favorites tab to the growth metrics panel, allow you to toggle, drag-and-drop, and see your favorite metrics at a glance
+
+Form Perm Separation
+
+* Separated the permissions needed to change a form stage and the ability to edit form stage actions
+
+Grant Ranks w/Higher Power
+
+* Separated the permissions needed to grant ranks on a user and grant ranks to a user that have a higher rank power than yours
+
+Avatar - Flag and Point Consolidation
+
+* For user avatars displayed in small areas, the badge for security center flags and disciplinary points has been consolidated to not cover the avatar as much
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#24134 - Security Flag Nav Badge
+
+* Fixed an issue causing the admin security center navigation button to display the full number of community flags regardless of the new preference settings
+
+Discord Guild Error
+
+* Fixed an issue causing the Discord integration panel to give an un-needed warning in the event that the bot was kicked from a linked guild
+
+\#24263 - Change Name Wrong Endpoint
+
+* Fixed an issue preventing some users from being unable to change their own community name
+
+\#24347 - Stage Actions - Fix Rank Modify
+
+* Fixed an issue causing the rank modifier action on form stage changes to not save
+{% endtab %}
+{% endtabs %}
+
+
+
 ### 1.1.0 08/15/2024
 
 {% tabs %}
