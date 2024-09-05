@@ -10,6 +10,39 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.2 09/06/2024
+
+{% tabs %}
+{% tab title="New" %}
+Disciplinary Action Variables
+
+* Added new point\_reason and discord\_ping variables for automated actions in the disciplinary panel
+
+Radio Integration Perm Breakout
+
+* Added a separate Sonoran Radio panel access permission instead of relying on the Sonoran CAD panel permission
+
+Radio Integration UI Improvements
+
+* Large improvements to the Radio integration panel's rank mapping UI
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#24250 Form Clone + Stage Internal Fix
+
+* Fixed an issue causing cloned forms to break after cloning and directly navigating to the available forms section without a refresh
+* Overhauled internal logic for form stages from a previous migration
+
+\#24371 Form Attachments
+
+* Fixed an issue causing form images to not be saved in the form editor
+
+Fix CMS icon in Discord mapping
+
+* Fixed an issue causing the CMS logo to not display in the mobile and desktop applications in the Discord mapping panel
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.1 08/23/2024
 
 {% tabs %}
