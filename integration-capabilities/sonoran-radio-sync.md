@@ -35,7 +35,7 @@ Enter these into your Sonoran CMS as shown below.
 
 Check the sync options that best fit your community's needs, explanation of each sync feature can be found [below](sonoran-cad-sync.md#feature-overview).
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="298"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (50).png" alt="" width="302"><figcaption></figcaption></figure>
 
 ### 3. Map CAD Permissions to Ranks
 
@@ -62,3 +62,11 @@ This will trigger an action to kick the same user from your Sonoran Radio commun
 ### Auto Join Radio
 
 This will have all new members that join your community automatically join your Sonoran Radio community under the same user account.
+
+### Name Sync
+
+This will automatically set a user's radio display name to match their CMS display name. This is updated on:
+
+* CMS community name change
+* User account update/save
+* Radio integration configuration change
