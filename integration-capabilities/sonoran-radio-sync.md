@@ -47,7 +47,7 @@ When you're done setting up Radio sync and configuring permission mappings, simp
 Permission syncs from Sonoran CMS will set the user's permissions explicitly to what is mapped in the CMS and will wipe any non-enabled permissions.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (4).png" alt="" width="375"><figcaption><p>Sonoran CMS - Sonoran CAD Integration Permission Mapping</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (51).png" alt="" width="375"><figcaption><p>Sonoran CMS - Sonoran CAD Integration Permission Mapping</p></figcaption></figure>
 
 ## Feature Overview
 
