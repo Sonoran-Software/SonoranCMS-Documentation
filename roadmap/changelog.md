@@ -10,6 +10,50 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.4 09/27/2024
+
+{% tabs %}
+{% tab title="New" %}
+Temporary Bans
+
+* Added temporary bans to the user accounts portal
+
+Form Stages - Temporary Bans
+
+* Added temporary bans to form stage actions
+
+Disciplinary Points - Temporary Bans
+
+* Added temporary bans to disciplinary point thresholds
+
+Sonoran Radio Private Channel Sync
+
+* Added private channel permission sync to the Sonoran Radio Integration
+
+Sonoran Radio Name Sync
+
+* Added display name sync to the Sonoran Radio integration
+
+User Account Search Filters
+
+* Added search filters username, Discord, TeamSpeak, and UID in the admin accounts panel
+
+Name Customization Permission
+
+* Removed the toggle for the community-wide ability for users to update their display name and made it a separate per-user permission
+
+Growth Metrics Mobile Improvements
+
+* Added small mobile UI improvements to the metrics panel graphs
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#24841 - Radio Sync Toggles
+
+* Fixed an issue with radio sync toggles in the radio integration panel
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.2 09/06/2024
 
 {% tabs %}
