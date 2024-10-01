@@ -10,7 +10,7 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### 1.1.4 09/27/2024
+### 1.1.4 10/01/2024
 
 {% tabs %}
 {% tab title="New" %}
@@ -33,6 +33,10 @@ Sonoran Radio Private Channel Sync
 Sonoran Radio Name Sync
 
 * Added display name sync to the Sonoran Radio integration
+
+Sonoran Radio Talkover Override
+
+* Added an option to enable the talkover override permission in Sonoran Radio (not yet released)
 
 User Account Search Filters
 
