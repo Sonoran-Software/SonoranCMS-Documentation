@@ -10,6 +10,66 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.5 10/09/2024
+
+{% tabs %}
+{% tab title="New" %}
+Discord -> CMS Name Sync
+
+* Added the ability to sync names from Discord to the CMS, instead of only CMS to Discord. These name syncs also apply to the Sonoran Radio integration.
+
+Roster - Activity Time Options
+
+* Added the option for roster activity time columns to be set to the current week, month, quarter, and year
+
+Roster Webpage Embed
+
+* Added the ability to embed a roster inside of a custom webpage
+
+Community Settings - Improvements
+
+* Small UI improvements to the user's community settings modal, along with a change to a "global" or system-wide re-sync instead of only Sonoran CAD
+
+Mobile App - Prompt to Review
+
+* Mobile app now prompts the user if they would like to leave a review on the app store
+{% endtab %}
+
+{% tab title="Fixed" %}
+QB Inventory Bug
+
+* Fixed an issue where adding an item to a player's inventory wouldn't save
+
+Bot - Strip Unmapped
+
+* Removed the depreciated and no-longer needed role strip unmapped feature
+
+\#24954 - Webpage Font
+
+* Fixed an issue causing webpage font selection to not save or display
+
+Forms not showing on Profile View
+
+* Fixed an issue causing some forms to not display on the profile view that were submitted by the profile's user
+
+Pagination on Short URLs
+
+* Fixed an issue causing the URL shortnener to not paginate more than 10 items at a time.
+
+Notification Cleanup
+
+* General fixes, improvements, and cleanup for mobile push notifications
+
+Discord Ban - Rank Clear
+
+* Fixed an issue where banning a user via Discord would not clear their CMS ranks on unban.
+
+Roster - Discord Nickname Fetch Timeout
+
+* Fixed an issue with Discord nickname fetching on rosters causing timeouts and failures
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.4 10/01/2024
 
 {% tabs %}
