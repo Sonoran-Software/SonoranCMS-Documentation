@@ -10,6 +10,46 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.6 10/16/2024
+
+{% tabs %}
+{% tab title="New" %}
+On-Join Actions
+
+* Added customizable on-join actions to modify a user's ranks, send an email, send a Discord DM/webhook, and more
+
+Live Reactivity
+
+* Added live updates for user permissions, toolbar items, webpage content, and account status
+
+Website Section Copy
+
+* Added the ability to copy and paste a website page section via right-click
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#25011 - Integration Images
+
+* Fixed an issue causing the desktop application's integration card images to not display
+
+\#24884 - Radio Integration UI
+
+* Fixed an issue causing the Sonoran Radio integration permission modal to display off screen in certain screen sizes
+
+\#25010 - CAD Integration Keys
+
+* Fixed an issue causing the Sonoran CAD integration community ID/key boxes to clear when initially setting values
+
+\#24980 - Form Limits
+
+* Fixed an issue causing form limits to apply incorrectly in some cases
+
+Backend Log Cleanup
+
+* Improved and cleaned up general backend logging process
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.5 10/09/2024
 
 {% tabs %}
