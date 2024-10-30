@@ -10,6 +10,35 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.7 10/30/2024
+
+{% tabs %}
+{% tab title="undefined" %}
+Short URLs - Subdomain
+
+* Initial overhaul of the short URL system with the additional support of custom subdomain redirects. Ex: forms.community.com -> community.com/forms/new/123
+
+Profile Field - Activity Time
+
+* Added a new profile field type to show server activity time
+
+Homepage - Radio Promo
+
+* Added a new homepage promo to highlight the CMS x Radio permissions management
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#25234 - TeamSpeak Resync
+
+* Adjusted TS3 sync handling in the event that a community changes their TS3 server IP address.
+* Added additional handling to re-sync TS3 permissions in the user's manual re-sync tab in their community settings.
+
+Roster N/A Rows
+
+* Fixed an issue causing roster name and community ID rows to display as N/A when editing
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.6 10/16/2024
 
 {% tabs %}
