@@ -13,7 +13,7 @@ description: View the latest changes to Sonoran CMS!
 ### 1.1.7 10/31/2024
 
 {% tabs %}
-{% tab title="undefined" %}
+{% tab title="New" %}
 Short URLs - Subdomain
 
 * Initial overhaul of the short URL system with the additional support of custom subdomain redirects. Ex: forms.community.com -> community.com/forms/new/123
