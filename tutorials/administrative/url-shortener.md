@@ -40,10 +40,73 @@ After adding the new short URL, it will be viewable, searchable, and copyable in
 The CMS supports three types of short URL formats:
 
 * [Custom Domain](../customization/custom-domain.md#custom-domain): `customdomain.com/shorturl`
+* [Custom Subdomain](url-shortener.md#custom-subdomains): `example.customdomain.com/shorturl`
 * [Vanity Domain](../customization/custom-domain.md#vanity-urls): `communityid.sonorancms.com/shorturl`
 * Long Domain: `sonorancms.com/com/communityuuid/shorturl`
 
 The custom path will work on all three of these options. The toggle simply allows you to select which format you are copying.
+
+## Custom Subdomains
+
+Subdomains are extensions of your custom domain and are used to organize or separate different sections of a website (e.g., info.customdomain.com).
+
+### Adding A Subdomain
+
+<details>
+
+<summary>1. Click to Add a New Subdomain</summary>
+
+Click the `+` icon next to the short URL type selector.
+
+<img src="../../.gitbook/assets/image (52).png" alt="URL Shortener: Add Subdomain" data-size="original">
+
+</details>
+
+<details>
+
+<summary>2. Enter the Desired Subdomain</summary>
+
+Enter your desired subdomain for your community's [configured custom domain](../customization/custom-domain.md#custom-domain).
+
+Here, the subdomain is `links` and the custom domain is `sonoranrp.com`
+
+<img src="../../.gitbook/assets/image (53).png" alt="URL Shortener: Subdomain Url" data-size="original">
+
+</details>
+
+<details>
+
+<summary>3. Copy and Add DNS Records</summary>
+
+Copy the information from the panel to create a `CNAME` and `TXT` DNS record.
+
+<img src="../../.gitbook/assets/image (57).png" alt="" data-size="original">
+
+The examples below show DNS management via Cloudflare.\
+If you are unsure how to add a DNS record, contact your domain provider.
+
+\
+If you are using Cloudflare, **DISABLE the proxy mode** and set it to `DNS Only`
+
+<img src="../../.gitbook/assets/image (55).png" alt="Cloudflare: Subdomain CNAME Record" data-size="original"><img src="../../.gitbook/assets/image (56).png" alt="Cloudflare: Subdomain TXT Record" data-size="original">
+
+</details>
+
+<details>
+
+<summary>4. Save and Use Subdomain</summary>
+
+After saving your new `CNAME` and `TXT` record, click `Add Link Subdomain` to verify the DNS records.
+
+Note: _Depending on your DNS provider, there may be a cache delay before the DNS records are detected._
+
+<img src="../../.gitbook/assets/image (58).png" alt="" data-size="original">
+
+You can now select the custom domain in the `URL Type` drop-down to be used when creating a new short URL.
+
+![](<../../.gitbook/assets/image (60).png>)
+
+</details>
 
 ## Reserved Paths
 
