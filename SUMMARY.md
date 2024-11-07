@@ -145,6 +145,8 @@
       * [Full Whitelist](developer-api-documentation/api-integration/api-endpoints/servers/full-whitelist.md)
     * [Events](developer-api-documentation/api-integration/api-endpoints/events/README.md)
       * [RSVP](developer-api-documentation/api-integration/api-endpoints/events/rsvp.md)
+    * [Rosters](developer-api-documentation/api-integration/api-endpoints/rosters/README.md)
+      * [Get Roster Contents](developer-api-documentation/api-integration/api-endpoints/rosters/get-roster-contents.md)
 * [🌎 Translation Support](developer-api-documentation/translation-support.md)
 
 ## Roadmap
