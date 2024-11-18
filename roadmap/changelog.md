@@ -10,6 +10,62 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.8 11/18/2024
+
+{% tabs %}
+{% tab title="New" %}
+QB Job Sync - CMS Permissions
+
+* Overhauled the QB job sync functionality to automatically add or remove CMS ranks based on their in-game job. Ex: Only allow CAD/Radio access while in-game in an LEO job
+
+Auto Clock-in/out Via CAD
+
+* Added an auto clockin/out feature based on Sonoran CAD, for non QB/ESX severs
+
+Kicked/Banned UID Changes
+
+* Added the ability to customize a user's UID even if they're kicked or banned
+
+Website Element Copy/Paste
+
+* Added the ability to right-click and copy/paste website elements
+
+Profile Activity Time - Add/Edit/Remove
+
+* Added the ability to open a user's profile activity time block to view, add, edit, and remove time logs
+
+API - Roster Endpoint
+
+* Added an API endpoint to get roster data
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#25397 - Custom Domain Login Join Community
+
+* Fixed an issue causing custom domain logins to display the join community banner, even though the user was auto-joined
+
+Custom Domain Join - Link Discord Banner
+
+* Fixed an issue causing users newly joining a community via custom domain login to not have the Discord link banner displayed until after a refresh
+
+\#256623 - QB Nav Item
+
+* Fixed a permissions issue causing a custom toolbar link to the QB game panel to not display
+
+Core Download - Hash Check
+
+* Added additional checks to the FiveM core download to ensure all files are present
+
+Stage Actions - Status Breaks Rank Add
+
+* Fixed an issue where setting a user's status in a custom form stage action while also setting ranks would cause the ranks to be wiped
+
+i18n Update - Kick Sync
+
+* Updated the Discord kick sync description in the settings panel to better reflect the functionality
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.7 10/31/2024
 
 {% tabs %}
