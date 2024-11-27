@@ -10,6 +10,43 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.9 11/27/2024
+
+{% tabs %}
+{% tab title="New" %}
+URL Shortener: UI and Functionality Improvements
+
+* Greatly improved the URL Shortener UI for more simplicity
+* Updated functionality so that all Short URLs are unque to the specific subdomain
+
+CAD Integration: UI Update
+
+* Updated the CAD integration UI to match the newer style that the Radio integration has
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#25553 - Roster Rank Alignment
+
+* Fixed an issue causing cell alignment to not apply to roster rank columns
+
+\#25837: Short URL Save
+
+* Fixed an issue causing new short URLs to sometimes not generate/save
+
+Calendar Notification
+
+* Added additional logging in the event of a calendar event notification from a different community getting fired
+
+HF: Stage Webhook
+
+* Fixed an issue causing some Discord stage webhooks to not be sent if certain properties were null.
+
+HF: #25753 - Push Notifications
+
+* Fixed an issue with template strings not properly being formatted in mobile push notifications
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.8 11/18/2024
 
 {% tabs %}
@@ -1488,11 +1525,11 @@ _More than several additional bugs have been resolved via live hot-fix and are n
 {% tabs %}
 {% tab title="New" %}
 **Rank Editor**\
-_Discord Role Import_\
+&#xNAN;_&#x44;iscord Role Import_\
 Creating departments and ranks within the editor is now much easier, you can now import any role from a linked guild directly into your community. It'll import name, color, and icon automatically, just select which roles you want imported and moments later they'll be created within your community.
 
 **API Endpoint**\
-_Get Accounts_\
+&#xNAN;_&#x47;et Accounts_\
 Fetch all accounts within your community, with filters and paginated. This will return all basic information for returned members.
 
 **WYSIWYG Text Editor**\
@@ -1555,9 +1592,9 @@ We've completely reworked how Discord guild data is fetched for a more efficient
 Additionally, we've made the following changes:
 
 * Remove Guilds\
-  _Remove linked guilds directly within the Discord Integration panel, allowing you to unlink guilds you no longer wish to be included in sync events_
+  &#xNAN;_&#x52;emove linked guilds directly within the Discord Integration panel, allowing you to unlink guilds you no longer wish to be included in sync events_
 * Join Rank Check\
-  _New members that join your CMS community when a guild is linked will check whether they have any roles in guild(s) for mapped ranks that they should have, automatically applying the ranks on join_
+  &#xNAN;_&#x4E;ew members that join your CMS community when a guild is linked will check whether they have any roles in guild(s) for mapped ranks that they should have, automatically applying the ranks on join_
 
 **Website Builder - MAJOR OVERHAUL**
 
@@ -1753,8 +1790,8 @@ On larger screens the form replies will now be on the right side, allowing to vi
 **Limits**
 
 Drive limits have been increased to the following:\
-_Standard:_ 50MB -> 500MB\
-_Pro:_ 100MB -> 1GB
+&#xNAN;_&#x53;tandard:_ 50MB -> 500MB\
+&#xNAN;_&#x50;ro:_ 100MB -> 1GB
 
 Uploader max file size has been increased to 200MB to allow for larger documents to be imported into the Drive system.
 
@@ -3378,7 +3415,7 @@ Adding new fields could randomly be placed in a different section than the inten
 {% tabs %}
 {% tab title="New" %}
 **Mobile UI**\
-_Side Menu & Hamburger Menu while Signed into a Community_\
+&#xNAN;_&#x53;ide Menu & Hamburger Menu while Signed into a Community_\
 The hamburger menu when shown on mobile has been reworked to introduce the existing menu that listed all community area such as Administrative Panel, Form Management, etc. The main side menu will now longer show on mobile view and will be included in the hamburger menu.
 
 _Forum Topic Page_\
@@ -4396,8 +4433,8 @@ Rosters
 * Creating folders and moving files into folders is now possible
   * Permissions for folders coming soon
 * Multiple file types now supported
-  * \+Presentations
-  * \+Excel Sheets
+  * +Presentations
+  * +Excel Sheets
 * Usage is now shown on the drive's toolbar
 * Sensitive mode is now added for all file types
 {% endtab %}
@@ -4418,7 +4455,7 @@ Communities
 * Permissions have been expanded for the Sonoran CMS Drive, you'll now be able to set VIEW and EDIT permissions to individual documents by editing the document. This requires the "Modify All Documents (Drive)" permission.
 * You can now upload documents directly to the Sonoran CMS Drive.
 
-[Translations](https://github.com/Sonoran-Software/sonorancms\_translations)
+[Translations](https://github.com/Sonoran-Software/sonorancms_translations)
 
 * A German translation has been added, thank you to [Linztric801](https://github.com/Linztric801) for that.
 
