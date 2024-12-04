@@ -4,49 +4,44 @@ description: This endpoint allows you to clock in/out a community account.
 
 # Clock In Out
 
-{% swagger method="post" path="/general/clock_in_out" baseUrl="https://api.sonorancms.com" summary="Clock In Out" %}
-{% swagger-description %}
+## Clock In Out
+
+<mark style="color:green;">`POST`</mark> `https://api.sonorancms.com/general/clock_in_out`
+
 Clock in/out a community account found by API ID or account ID.
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="id" type="string" required="true" %}
-Community ID
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="key" type="string" required="true" %}
-API Key
-{% endswagger-parameter %}
+| Name                                   | Type   | Description                |
+| -------------------------------------- | ------ | -------------------------- |
+| id<mark style="color:red;">\*</mark>   | string | Community ID               |
+| key<mark style="color:red;">\*</mark>  | string | API Key                    |
+| type<mark style="color:red;">\*</mark> | string | CLOCK\_I&#x4E;_\__&#x4F;UT |
+| data<mark style="color:red;">\*</mark> | array  | Array of request objects   |
 
-{% swagger-parameter in="body" required="true" name="type" type="string" %}
-CLOCK\_IN_\__OUT
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" required="true" name="data" type="array" %}
-Array of request objects
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="The following 200 response texts may be sent in response:" %}
+{% tabs %}
+{% tab title="200: OK The following 200 response texts may be sent in response:" %}
 ```javascript
 CLOCKED IN
 FORCE CLOCKED IN
 CLOCKED OUT
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
+{% tab title="400: Bad Request The following 400 errors may be sent in response:" %}
 ```javascript
 INVALID API KEY
 INVALID COMMUNITY ID
 API ID NOT LINKED TO AN ACCOUNT IN THIS COMMUNITY
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="404: Not Found" description="The following 404 errors may be sent in response:" %}
+{% tab title="404: Not Found The following 404 errors may be sent in response:" %}
 ```javascript
 API ID NOT LINKED TO AN ACCOUNT IN THIS COMMUNITY
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ```
 {

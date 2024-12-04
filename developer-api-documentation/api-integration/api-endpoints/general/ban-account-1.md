@@ -6,28 +6,23 @@ description: >-
 
 # Edit Account Profile Fields
 
-{% swagger method="post" path="/general/edit_acc_profile_fields" baseUrl="https://api.sonorancms.com" summary="Edit Account Profile Fields" %}
-{% swagger-description %}
+## Edit Account Profile Fields
+
+<mark style="color:green;">`POST`</mark> `https://api.sonorancms.com/general/edit_acc_profile_fields`
+
 Edit profile fields on a community account found by API ID or account ID.
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="id" type="string" required="true" %}
-Community ID
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="key" type="string" required="true" %}
-API Key
-{% endswagger-parameter %}
+| Name                                   | Type   | Description                |
+| -------------------------------------- | ------ | -------------------------- |
+| id<mark style="color:red;">\*</mark>   | string | Community ID               |
+| key<mark style="color:red;">\*</mark>  | string | API Key                    |
+| type<mark style="color:red;">\*</mark> | string | CLOCK\_I&#x4E;_\__&#x4F;UT |
+| data<mark style="color:red;">\*</mark> | array  | Array of request objects   |
 
-{% swagger-parameter in="body" required="true" name="type" type="string" %}
-CLOCK\_IN_\__OUT
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" required="true" name="data" type="array" %}
-Array of request objects
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="The following 200 response texts may be sent in response:" %}
+{% tabs %}
+{% tab title="200: OK The following 200 response texts may be sent in response:" %}
 <pre class="language-javascript"><code class="lang-javascript"><strong>[
 </strong><strong>    {
 </strong><strong>        "id": "d9d1288e-3892-40d6-acc5-be2c3d294bd4",
@@ -36,22 +31,22 @@ Array of request objects
 </strong><strong>    ... // This will return all profile fields that have data associated from the account
 </strong><strong>]
 </strong></code></pre>
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
+{% tab title="400: Bad Request The following 400 errors may be sent in response:" %}
 ```javascript
 INVALID API KEY
 INVALID COMMUNITY ID
 API ID NOT LINKED TO AN ACCOUNT IN THIS COMMUNITY
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="404: Not Found" description="The following 404 errors may be sent in response:" %}
+{% tab title="404: Not Found The following 404 errors may be sent in response:" %}
 ```javascript
 API ID NOT LINKED TO AN ACCOUNT IN THIS COMMUNITY
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ```json
 {

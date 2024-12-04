@@ -16,13 +16,13 @@ Branding removal is included with the CMS **Standard** plan ($9.99/mo). This hel
 
 Branding removal hides the "Powered by Sonoran CMS" in your website's bottom footer.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Footer Branding</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Footer Branding</p></figcaption></figure>
 
 ### Browser Tab Favicon
 
 Branding removal customizes your browser tab favicon to your community logo set in your customization settings.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Favicon</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Favicon</p></figcaption></figure>
 
 ### Browser Tab Title
 
@@ -66,4 +66,4 @@ Ex: Moving a Membership Application from `Pending` to `Accepted`
 The email subject follows a `Sonoran CMS | Community Name | Form Updated` format.\
 Branding removal takes the `Sonoran CMS |` out of the subject line.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Form Emails</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Form Emails</p></figcaption></figure>

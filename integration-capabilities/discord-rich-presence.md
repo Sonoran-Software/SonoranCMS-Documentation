@@ -17,11 +17,11 @@ For more information, see our [pricing](../pricing/pricing-faq/) or view how to 
 
 When running our [desktop application](../download-the-app.md), Discord can automatically detect and display information about your community.
 
-![Sonoran CMS - Discord Rich Presence](../.gitbook/assets/DiscordPTB\_Tzluj4WYgI.png)
+![Sonoran CMS - Discord Rich Presence](../.gitbook/assets/DiscordPTB_Tzluj4WYgI.png)
 
 ## Customizing your Rich Presence
 
-![Sonoran CMS - Discord Rich Presence Customization](../.gitbook/assets/electron\_U2tSqNbvS8.png)
+![Sonoran CMS - Discord Rich Presence Customization](../.gitbook/assets/electron_U2tSqNbvS8.png)
 
 ### Customizing Buttons
 
@@ -53,7 +53,7 @@ On [https://discord.com/developers/applications](https://discord.com/developers/
 
 Under OAuth2, copy your `Client ID`&#x20;
 
-![Discord Developer - Application Client ID](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![Discord Developer - Application Client ID](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### 3. Add an Icon
 
@@ -65,11 +65,11 @@ Next, upload an icon for your new application. Be sure to copy down the name of 
 
 Back in the admin customization menu, we can paste the Discord application's Client ID and Icon name.
 
-![Sonoran CMS - Custom Discord Presence Config](../.gitbook/assets/electron\_usiYhP7qa1.png)
+![Sonoran CMS - Custom Discord Presence Config](../.gitbook/assets/electron_usiYhP7qa1.png)
 
 Once saved, your Discord presence for all community members will reflect your custom icon, title, and buttons.
 
-![Sonoran CAD - Custom Discord Presence View](../.gitbook/assets/DiscordPTB\_aQhYkv2DGy.png)
+![Sonoran CAD - Custom Discord Presence View](../.gitbook/assets/DiscordPTB_aQhYkv2DGy.png)
 
 ## Toggle On/Off Rich Presence <a href="#toggle-on-off-rich-presence" id="toggle-on-off-rich-presence"></a>
 
@@ -81,4 +81,4 @@ To hide the invite button for your community's Discord Rich Presence, simply lea
 
 In the profile dropdown, users can toggle this display on or off for their individual desktop client.
 
-![Sonoran CMS Profile Dropdown - Disable Discord's Rich Presence](../.gitbook/assets/electron\_KUr68rZjLj.png)
+![Sonoran CMS Profile Dropdown - Disable Discord's Rich Presence](../.gitbook/assets/electron_KUr68rZjLj.png)

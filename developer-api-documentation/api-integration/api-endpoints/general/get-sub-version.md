@@ -9,28 +9,23 @@ API endpoint requires the **FREE** version of Sonoran CMS or higher.\
 For more information, see our [pricing ](../../../../pricing/pricing-faq/)page.
 {% endhint %}
 
-{% swagger method="post" path="/general/get_sub_version" baseUrl="https://api.sonorancms.com" summary="Get Sub Version" %}
-{% swagger-description %}
+## Get Sub Version
+
+<mark style="color:green;">`POST`</mark> `https://api.sonorancms.com/general/get_sub_version`
+
 Get Sonoran CMS subscription version of a community.
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="id" type="string" required="true" %}
-Community ID
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="key" type="string" required="true" %}
-API Key
-{% endswagger-parameter %}
+| Name                                   | Type   | Description                   |
+| -------------------------------------- | ------ | ----------------------------- |
+| id<mark style="color:red;">\*</mark>   | string | Community ID                  |
+| key<mark style="color:red;">\*</mark>  | string | API Key                       |
+| type<mark style="color:red;">\*</mark> | string | GET\_SU&#x42;_\__&#x56;ERSION |
+| data<mark style="color:red;">\*</mark> | array  | Array of request objects      |
 
-{% swagger-parameter in="body" required="true" name="type" type="string" %}
-GET\_SUB_\__VERSION
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" required="true" name="data" type="array" %}
-Array of request objects
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```javascript
 0 - FREE
 1 - STARTER
@@ -39,15 +34,15 @@ Array of request objects
 4 - PRO
 5 - SONORANONE
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
+{% tab title="400: Bad Request The following 400 errors may be sent in response:" %}
 ```javascript
 INVALID API KEY
 INVALID COMMUNITY ID
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ```
 {

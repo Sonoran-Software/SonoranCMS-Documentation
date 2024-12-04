@@ -4,41 +4,36 @@ description: This endpoint allows you to check a community API ID.
 
 # Check Com API ID
 
-{% swagger method="post" path="/general/check_com_apiid" baseUrl="https://api.sonorancms.com" summary="Check Com APIID" %}
-{% swagger-description %}
+## Check Com APIID
+
+<mark style="color:green;">`POST`</mark> `https://api.sonorancms.com/general/check_com_apiid`
+
 Check if a API ID is attached to any community account
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="id" type="string" required="true" %}
-Community ID
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="key" type="string" required="true" %}
-API Key
-{% endswagger-parameter %}
+| Name                                   | Type   | Description                   |
+| -------------------------------------- | ------ | ----------------------------- |
+| id<mark style="color:red;">\*</mark>   | string | Community ID                  |
+| key<mark style="color:red;">\*</mark>  | string | API Key                       |
+| type<mark style="color:red;">\*</mark> | string | CHECK\_CO&#x4D;_\__&#x41;PIID |
+| data<mark style="color:red;">\*</mark> | array  | Array of request objects      |
 
-{% swagger-parameter in="body" required="true" name="type" type="string" %}
-CHECK\_COM_\__APIID
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" required="true" name="data" type="array" %}
-Array of request objects
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```javascript
 {{Sonoran CMS Account Username}}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
+{% tab title="400: Bad Request The following 400 errors may be sent in response:" %}
 ```javascript
 INVALID API KEY
 INVALID COMMUNITY ID
 API ID NOT LINKED TO AN ACCOUNT IN THIS COMMUNITY
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ```
 {

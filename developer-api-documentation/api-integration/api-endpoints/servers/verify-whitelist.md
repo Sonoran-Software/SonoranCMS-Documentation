@@ -4,49 +4,44 @@ description: This endpoint allows you to verify the whitelist of a community acc
 
 # Verify Whitelist
 
-{% swagger method="post" path="/servers/verify_whitelist" baseUrl="https://api.sonorancms.com" summary="Verify Whitelist" %}
-{% swagger-description %}
+## Verify Whitelist
+
+<mark style="color:green;">`POST`</mark> `https://api.sonorancms.com/servers/verify_whitelist`
+
 Verifies the whitelist of a community account found given the accId or API ID.
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="id" type="string" %}
-Community ID
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="key" type="string" %}
-API Key
-{% endswagger-parameter %}
+| Name | Type   | Description                    |
+| ---- | ------ | ------------------------------ |
+| id   | string | Community ID                   |
+| key  | string | API Key                        |
+| type | string | GET\_GAM&#x45;_\__&#x53;ERVERS |
+| data | array  |                                |
 
-{% swagger-parameter in="body" name="type" type="string" %}
-GET\_GAME_\__SERVERS
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="data" type="array" %}
-
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="The following text responses may be sent in response:" %}
+{% tabs %}
+{% tab title="200: OK The following text responses may be sent in response:" %}
 ```javascript
 {{Sonoran CMS Account Username}}
 BYPASSED WHITELIST - {{Sonoran CMS Account Username}}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="The following text responses may be sent in response:" %}
+{% tab title="400: Bad Request The following text responses may be sent in response:" %}
 ```json
 {
     "status": 400,
     "message": "VALID BAD REQUEST REASON"
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="404: Not Found" description="The following text responses may be sent in response:" %}
+{% tab title="404: Not Found The following text responses may be sent in response:" %}
 ```javascript
 NOT ALLOWED ON WHITELIST
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ```json
 {
