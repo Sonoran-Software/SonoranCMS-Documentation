@@ -10,6 +10,81 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.10 12/10/2024
+
+{% tabs %}
+{% tab title="New" %}
+Rosters - Username Search
+
+* Added a new search bar in rosters to find a specific user by username, UID, Discord, or TS3 ID.
+
+Status Action: Remove Pending and Active
+
+* Updated the community status action item to only contain kick, ban, and archive as pending and active are automated based on whether the user has one or more ranks.
+
+Drive: Upload Images
+
+* Added handling to allow for image uploads directly to the community Drive.
+* Added tooltip notices in the community drive to inform users that files can't be added to the auto-generated assets directory.
+
+URL Shortener: Path Subtext
+
+* Added full path subtext while creating a new short URL for better context.
+
+CAD Integration: UI Improvements
+
+* Improved horizontal scrolling in the CAD permission mapping integration window.
+{% endtab %}
+
+{% tab title="Fixed" %}
+HF: Guild Selection
+
+* Fixed an issue causing the form stage execute webhook to not display all linked Discord Guilds
+
+HF: CAD Sync
+
+* Fixed an issue causing new Sonoran CAD permission sync mappings to fail
+
+Nav Bar
+
+* Fixed an issue causing new drop-down items to not appear until after a refresh
+
+Page Editor
+
+* Fixed an issue with the settings cog where the page options hint would not hide, partially covering the homepage button
+* Fixed an issue with an error improperly displaying after setting a new homepage
+* Fixed an issue with new sections containing a blank element that couldn't be edited
+
+Drive: List Images
+
+* Fixed an issue causing drive images to not display when in list mode
+
+HF: #25966 - Archived Users
+
+* Fixed an issue causing archived users to not show up
+
+HF: URL Shortener Redirect
+
+* Fixed an issue where adding a subdomain based URL on a protected path - would cause the protected path to also go to the shortened URL
+
+\#25944 - Form Limits
+
+* Fixed an issue with new form submissions being blocked when the limits were set to ignore
+
+\#25799 - Discovery Save
+
+* Fixed issues with the Growth tab's Discovery settings not properly auto-saving
+
+Footer Version
+
+* Fixed an issue with the footer version displaying as undefined
+
+Missing i18n Key
+
+* Fixed an issue with a missing i18n key on the user accounts unban button
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.9 11/27/2024
 
 {% tabs %}
