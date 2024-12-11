@@ -22,11 +22,6 @@ Status Action: Remove Pending and Active
 
 * Updated the community status action item to only contain kick, ban, and archive as pending and active are automated based on whether the user has one or more ranks.
 
-Drive: Upload Images
-
-* Added handling to allow for image uploads directly to the community Drive.
-* Added tooltip notices in the community drive to inform users that files can't be added to the auto-generated assets directory.
-
 URL Shortener: Path Subtext
 
 * Added full path subtext while creating a new short URL for better context.
