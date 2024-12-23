@@ -10,6 +10,63 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.12 12/23/2024
+
+{% tabs %}
+{% tab title="New" %}
+URL Shortener: Perm Breakout
+
+* Expanded URL shortener permissions to separate view, add, edit, remove, and manage domains
+
+URL Shortener Subdomain Root Path
+
+* Added support for short URLs to the root subdomain (ex: subdomain.example.com -> some url)
+
+URL Shortener Metrics
+
+* Added URL shortener metrics in the community growth panel
+
+Drive: Upload Images
+
+* Added image upload support in the Drive complete with thumbnails and a previewer
+{% endtab %}
+
+{% tab title="Fixed" %}
+Drive: Only Show Assets Folder in Root
+
+* Fixed an issue causing the community assets folder to sometimes also appear in sub-folders
+
+Form Icon/Image Fixes
+
+* Fixed an issue causing form icons to display tiny in the available forms section
+* Added icon support inside of the form editor instead of only image uploads
+
+HF: Ranks Add Auto-Active Status
+
+* Fixed an issue causing automated rank changes to not update a user's account status from pending to active
+
+Form Name Confirmation
+
+* Fixed an issue causing the form name to display incorrectly in the delete confirmation popup
+
+Discord Webhook: Length Failure
+
+* Fixed an issue with general discord webhooks (not from custom actions) where fields were not being trimmed to size resulting in a failed embed
+
+HF: Short URL Path Conflicts
+
+* Fixed an issue causing short URL paths on a subdomain to conflict with the main domain
+
+External Nav Links Duplicate Tabs
+
+* Fixed an issue where external navigation links would open in two new tabs instead of one if popups were enabled
+
+Roster Discord Guild Selector
+
+* Fixed an issue in the roster editor causing the Discord guild selector to not display
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.11 12/11/2024
 
 {% tabs %}
