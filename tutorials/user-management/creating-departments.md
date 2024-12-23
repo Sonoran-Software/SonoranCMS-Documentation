@@ -14,7 +14,7 @@ To access the "Rank Manager", head to `Administrative Panel` > `Ranks`
 
 Within this Ranks panel you'll be able to create departments and ranks  your members, this will be the central panel for deciding permissions based on "ranks", when new, removed, or modified Custom Forms, Calendar Categories, and Rosters will be reflected with available permissions under each rank.
 
-![Sonoran CMS Department Manager Panel - Add/Remove/Edit Departments & Ranks](../../.gitbook/assets/CMS\_RankManager.png)
+![Sonoran CMS Department Manager Panel - Add/Remove/Edit Departments & Ranks](../../.gitbook/assets/CMS_RankManager.png)
 
 {% hint style="info" %}
 Rank **Power** will be compared to other users as a global user power, this will be utilized to determine if you can modify other individuals. If your power is higher than another individual then you can modify them, if it's less then you cannot.
@@ -111,3 +111,14 @@ Finally, click `Import Roles to Ranks` at the bottom of the window, and new rank
 <figure><img src="../../.gitbook/assets/CMS_RanksImportDiscord06.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Imported Discord Roles</p></figcaption></figure>
 
 Please note that you will still have to configure permissions for these newly created ranks. By default they will assume the permissions of their department, but any further changes must be done manually.
+
+
+
+## Copy Rank IDs
+
+Some integrations may require you to input Sonoran CMS rank IDs.
+
+Select the `...` menu and the `Copy Rank ID` button to copy the rank ID to your clipboard.
+
+<figure><img src="../../.gitbook/assets/image (61).png" alt="" width="174"><figcaption></figcaption></figure>
+

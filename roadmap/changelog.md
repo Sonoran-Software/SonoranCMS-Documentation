@@ -29,6 +29,10 @@ URL Shortener Metrics
 Drive: Upload Images
 
 * Added image upload support in the Drive complete with thumbnails and a previewer
+
+CAD Login Add/Remove Ranks
+
+* Added a new `ranksWhileCadActive` config option to automatically add and remove ranks (for things like radio access) based on being in the CAD or not
 {% endtab %}
 
 {% tab title="Fixed" %}

@@ -26,7 +26,7 @@ Locate the clockin module within your `[sonorancms]/sonorancms/server/modules` a
     "command": "clockin",
     "useAcePermissions": false,
     "qbcore": {
-        "use": false,
+        "use": true,
         "autoClockInJobs": [
             "police",
             "ems",
@@ -34,26 +34,37 @@ Locate the clockin module within your `[sonorancms]/sonorancms/server/modules` a
         ]
     },
     "esx": {
-        "use": true,
+        "use": false,
         "autoClockInJobs": [
             "police",
             "ambulance"
         ]
-    }
+    },
+    "cad": {
+        "use": false,
+        "note": "This will automatically clock in users when they enter a Police/EMS/Fire CAD panel. This will not correlate to the users actual in-game status, but will allow them to use the CAD without having to manually clock in."
+    },
+    "ranksWhileCadActive": [
+        "00000000-0000-0000-0000-000000000000"
+    ]
 }
 ```
 
 ## Configuration
 
-| Config Option          | Description                                                                                                                                      |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| enableCommand          | Registers the specified `command` that allows you to toggle clock in/out.                                                                        |
-| command                | If `enableCommand` is `true`, this will be the registered command to toggle clock in/out.                                                        |
-| useAcePermissions      | If `enableCommand` is `true`, this will enable ace permissions for the specific command, must give `command.whateverTheCommandIs`                |
-| qbcore.use             | Enables qbcore integration                                                                                                                       |
-| qbcore.autoClockInJobs | Will automatically clock in/out the player's Sonoran CMS account with they clock in/out of a job with the name in the array of `autoClockInJobs` |
-| esx.use                | Enables ESX integration                                                                                                                          |
-| esx.autoClockInJobs    | Will automatically clock in/out the player's Sonoran CMS account with they clock in/out of a job with the name in the array of `autoClockInJobs` |
+| Config Option          | Description                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| enableCommand          | Registers the specified `command` that allows you to toggle clock in/out.                                                                                                                                                                                                                                                                                |
+| command                | If `enableCommand` is `true`, this will be the registered command to toggle clock in/out.                                                                                                                                                                                                                                                                |
+| useAcePermissions      | If `enableCommand` is `true`, this will enable ace permissions for the specific command, must give `command.whateverTheCommandIs`                                                                                                                                                                                                                        |
+| qbcore.use             | Enables qbcore integration                                                                                                                                                                                                                                                                                                                               |
+| qbcore.autoClockInJobs | Will automatically clock in/out the player's Sonoran CMS account with they clock in/out of a job with the name in the array of `autoClockInJobs`                                                                                                                                                                                                         |
+| esx.use                | Enables ESX integration                                                                                                                                                                                                                                                                                                                                  |
+| esx.autoClockInJobs    | Will automatically clock in/out the player's Sonoran CMS account with they clock in/out of a job with the name in the array of `autoClockInJobs`                                                                                                                                                                                                         |
+| cad                    | When enabled, it will automatically clock the user in and out when logging into and out of Sonoran CAD.                                                                                                                                                                                                                                                  |
+| ranksWhileCadActive    | <p>A list of <a href="../../../../../tutorials/user-management/creating-departments.md#copy-rank-ids">CMS rank IDs</a> that will be added when the user logs into Sonoran CAD and removes it when logging out of Sonoran CAD.<br>This is used for restricting access to things like Sonoran Radio to only be available to users actively in the CAD.</p> |
+
+
 
 ### 2. Add your API ID
 
