@@ -34,21 +34,17 @@ This category randomly selects communities that have been bumped in the last hou
 
 _You can improve your ranking in this category by bumping your community in the discovery panel._
 
-## Discovery Metrics
+_Bumped communities are also posted to the #advertise-here channel in our_ [_Official Discord_](https://discord.sonoransoftware.com)_!_
 
-{% hint style="danger" %}
-Discovery metrics are coming soon!
-{% endhint %}
+## Discovery Metrics
 
 Every time your community is viewed or clicked on via the community discovery page, or CAD/CMS/radio menu those metrics are logged.
 
 You can view these in the growth panel to see how the community spotlight and discovery page are impacting your community.
 
-## Configuring Community Discovery
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Sonoran CMS: Community Discovery Metrics</p></figcaption></figure>
 
-{% hint style="danger" %}
-More information on configuring community discovery and approval is coming soon!
-{% endhint %}
+## Configuring Community Discovery
 
 ### Community Approval
 

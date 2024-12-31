@@ -33,3 +33,7 @@ This allows administrators to easily track their community's growth, decline, or
   * Number of new form submissions on each custom form
 * Website Views
   * Number of unique visitors per day on each custom webpage
+* Discovery
+  * Number of unique views and clicks from the [community discovery system](discovery.md)
+* URL Shortener
+  * Number of visits to each link from the[ URL shortener](../url-shortener.md)

@@ -3351,7 +3351,7 @@ All areas where an icon would be expected to be supplied it has been reworked to
 
 The Custom Page Editor has been thoroughly reworked to allow for more styling specifically to sections and elements within sections. With this rework we've revamped the structures of pages and all existing pages have been migrated over to the new page system. Pages are now constructed of individual sections which house elements. All existing pages were updated to move all pre-existing sections into one section and converted to elements. Now customize the padding, margin, alignment, etc. of sections, we've also included background color and images to sections and elements!
 
-[**Discovery Page UI**](../tutorials/customization/community-discovery.md)
+[**Discovery Page UI**](broken-reference)
 
 The Community Discovery Page UI has been reworked to better advertise and showcase the communities that use Sonoran CMS!
 {% endtab %}
@@ -4105,7 +4105,7 @@ Accounts Viewer
 * Cosmetic
   * You can now add a community "banner" image, currently this banner image only displays with the notification message sent with bumping your community for discovery.
 
-[Community Discovery](../tutorials/customization/community-discovery.md)
+[Community Discovery](broken-reference)
 
 * Bumping
   * Bumping your community will now include your community's banner image upon bump. If no banner image is set it won't include any image.
@@ -4117,7 +4117,7 @@ Accounts Viewer
 {% endtab %}
 
 {% tab title="Fixed" %}
-[Community Discovery](../tutorials/customization/community-discovery.md)
+[Community Discovery](broken-reference)
 
 * Clicking community cards to open up the community modal would not be possible unless you click the image or text on the card. The whole card should be clickable.
 * Clicking a community card would display a modal with additional community information and options to join, this would not include the image.
@@ -4147,7 +4147,7 @@ Accounts Viewer
 * Webhooks Executing
   * An issue which would causing the Calendar Creation webhook to not execute at all.
 
-[Community Discovery](../tutorials/customization/community-discovery.md)
+[Community Discovery](broken-reference)
 
 * Bump System
   * An issue which would cause the Discord advertisement webhook message to include various programmatic types within the message such as '\[object Object]' & 'undefined'.
@@ -4169,7 +4169,7 @@ Accounts Viewer
 {% endtab %}
 
 {% tab title="Changed" %}
-[Community Discovery](../tutorials/customization/community-discovery.md)
+[Community Discovery](broken-reference)
 
 * User Interface
   * Equal sizing has been applied to all community discovery cards
@@ -4185,9 +4185,9 @@ Application User Interface
 
 {% tabs %}
 {% tab title="New" %}
-[Community Discovery](../tutorials/customization/community-discovery.md)
+[Community Discovery](broken-reference)
 
-* [Bump System](../tutorials/customization/community-discovery.md#community-discovery-bump-system)
+* [Bump System](broken-reference)
   * Allows your community to be bumped to the top of the Community Discovery list.
     * &#x20;Every **20 hours**!
     * Bumping will automatically advertise your community to the thousands of users in the Sonoran Software Systems LLC's Official Discord!
@@ -4202,7 +4202,7 @@ Application User Interface
 
 {% tabs %}
 {% tab title="New" %}
-[Community Discovery](../tutorials/customization/community-discovery.md)
+[Community Discovery](broken-reference)
 
 The Community Discovery Portal brings more members to communities by streamlining the joining process for your community. Joining a community through the discovery portal will automatically prompt them with the community's new member application. Advertise your community to the thousands of users using Sonoran CMS!
 

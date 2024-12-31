@@ -80,7 +80,7 @@ You will also need to add a `TXT` type record with:
 
 The example record below sets `cms.sonoranroleplay.com` as the custom login page URL.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Cloudflare - DNS Record </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Cloudflare - DNS Record </p></figcaption></figure>
 
 {% hint style="info" %}
 **Cloudflare Users:** Be sure to have the **DNS record proxy DISABLED** - and set to `DNS Only`.

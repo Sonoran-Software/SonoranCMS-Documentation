@@ -35,7 +35,6 @@
   * [Community Branding and Settings](tutorials/customization/community-branding-and-settings.md)
   * [Custom Domain / Vanity URL](tutorials/customization/custom-domain.md)
   * [Profile Fields](tutorials/customization/community-profile-fields.md)
-  * [Community Discovery](tutorials/customization/community-discovery.md)
 * [Calendar Events](tutorials/community-events.md)
 * [Drive & Documents](tutorials/your-drive-and-documents.md)
 * [Forms and Applications](tutorials/forms/README.md)
