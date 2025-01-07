@@ -10,6 +10,69 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.13 01/07/2025
+
+{% tabs %}
+{% tab title="New" %}
+Short URL: subpaths
+
+* Short URLs now support subpaths (ex: url.com/one/two/three)
+
+Form Elements: Discord ID
+
+* Added a new automatic Discord ID field to forms
+
+Logging Center Usability Improvements
+
+* Hid spammed internal logs used for syncs
+* Added additional logs for form status changes
+* Added additional logs for short URL changes
+* Updated date ranges to reflect local timezone
+
+CAD & Radio Integration: Auto-Save only if needed
+
+* Improved the CAD and radio integrations to only auto-save when needed
+
+On-Join Actions: Auto-Save
+
+* On-join actions now auto-save instead of requiring a manual save button
+
+Roster Member Add Filter
+
+* On manual rosters, added a type-to-filter option to the member selection drop-down
+{% endtab %}
+
+{% tab title="Fixed" %}
+Security Center: Flag Pagination
+
+* Fixed an issue causing only 20 security center flags to load at once
+
+Roster Search Overflows Title
+
+* Fixed an issue on mobile where the roster search bar would fall behind the roster name
+
+Integration Panel Hyperlinks
+
+* Fixed an issue with integration panel hyperlinks being hard to click
+
+Form Icon Duplicate Tooltip
+
+* Removed a duplicate tooltip on the admin form editor viewer
+
+HF: Form Webhooks: Checkbox Emoji
+
+* Updated the checkbox status emojis in Discord webhook to be more clear on the checked vs unchecked state
+
+HF: Form Webhooks: Number Field
+
+* Fixed an issue where number fields in discord webhooks for forms would display as empty
+
+HF: Discord Stage Change User
+
+* Fixed an issue causing the "stage changed by" user to be incorrect when a form stage was changed via Discord embed
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.12 12/23/2024
 
 {% tabs %}
