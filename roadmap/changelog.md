@@ -10,6 +10,76 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.14 01/14/2025
+
+{% tabs %}
+{% tab title="New" %}
+Drive Audio File Player
+
+* Added an in-Drive audio file player
+
+ACE Perm Config - CMS Backup
+
+* The QBCore/vMenu panel now stores the ACE permission config on the CMS side, rather than the community's server. This ensures communities deploying via GIT do not have their configuration files wiped out
+
+URL Shortener Metrics Small Fixes/Improvements
+
+* Added automatic loading when scrolling to the bottom of the URL shortener metrics tabs
+* Fixed an issue causing URL shortener metrics to not update after changing the date selection
+
+API Critical UI Notices
+
+* Added new critical notice banners to display at the top of a community page for critical errors (such as a Discord bot configuration)
+
+Short URL Root Subdomain Load Optimization
+
+* Optimized the URL shortener configuration to load the short URL table faster
+
+goodToProcess Handling Overhaul
+
+* Overhauled logic for how pages reload and sign the user back in for a smoother experience
+{% endtab %}
+
+{% tab title="Fixed" %}
+Available Forms Icon Fixes
+
+* Fixed small issues with form icons being aligned
+* Added small horizontal padding to available form titles and descriptions
+
+Image Component - Bad Source Handling
+
+* Fixed an issue where uploading a corrupt image would fail to display the image and fail to allow the user to hover over, click, and update the image
+
+HF: Form Webhooks
+
+* Resolved minor issues causing some form submission webhooks to fail
+
+HF: Form View
+
+* Resolved minor issues causing some communities to see a form submission from another community
+
+Calendar Event Notification
+
+* Resolved an issue causing some communities to get a calendar event notification from another community
+
+FiveM Download: Remove "Dist"
+
+* Fixed an issue with the FiveM download where "dist" was not automatically removed from the whitelist configuration file name
+
+Drive Unzip Folder Handling
+
+* Fixed an issue causing Google Drive ZIP file extractions (when migrating) to place files in the wrong directory
+
+Webpage Navigation Display Issues
+
+* Resolved an issue causing toolbar menu options to sometimes display incorrectly on mobile vs desktop
+
+Form Clone Element ID
+
+* Fixed an issue where cloning a form element would not generate a different unique field ID, causing dependency selections to conflict
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.13 01/07/2025
 
 {% tabs %}
