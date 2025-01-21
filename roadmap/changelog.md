@@ -10,6 +10,42 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.15 01/21/2025
+
+{% tabs %}
+{% tab title="New" %}
+URL Shortener Search Expansion
+
+* Updated the URL shortener search bar to include words/phrases from the URLs themselves and not just the description
+
+Disciplinary Actions: Auto-Save
+
+* Disciplinary panel actions now auto-save
+
+Account Filter: Fixes and Improvements
+
+* Improved labels and refresh handling in the account search filter
+{% endtab %}
+
+{% tab title="Fixed" %}
+CAD Sync Change: Mass Resync
+
+* Fixed an issue causing the CAD permission mapping to not properly mass-resync after updating the configuration
+
+\#26629 Discord Roster Load
+
+* Fixed an issue causing Discord username fields in rosters to not properly load/display
+
+\#25800 - Page Load Redirect
+
+* Fixed an issue causing a slow loading page to redirect back if navigating to a second page while waiting for the load to finish
+
+HF: API Get FiveM Download
+
+* Added a new API endpoint to get the pre-configured FiveM download
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.14 01/14/2025
 
 {% tabs %}
