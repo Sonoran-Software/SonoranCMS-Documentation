@@ -15,7 +15,7 @@ Click on any online player to interact.
 * Kick the player from the server
 * View their [characters](characters.md)
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 

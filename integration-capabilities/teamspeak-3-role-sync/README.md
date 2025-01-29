@@ -4,7 +4,7 @@ description: Automatically sync your CMS Ranks to TeamSpeak Groups
 
 # TeamSpeak 3 Role Sync
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - TeamSpeak Management</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - TeamSpeak Management</p></figcaption></figure>
 
 ## What Does Role Sync Do?
 

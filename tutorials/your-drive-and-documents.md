@@ -16,7 +16,7 @@ With your drive, you're able to create files and folders for your community. The
 This feature is currently experimental. It is known that phones and other small devices may not have the best compatibility with editing/viewing files
 {% endhint %}
 
-![Sonoran CMS - Document Editor](../.gitbook/assets/CMS\_DriveDocEditMore.png)
+![Sonoran CMS - Document Editor](../.gitbook/assets/CMS_DriveDocEditMore.png)
 
 ## Your Drive
 
@@ -26,11 +26,7 @@ To view a document, simply click it in either grid or list view. This will show 
 
 To quick manage Drive items you can right click the item, it'll provide a menu of actions that can be performed on that item.
 
-<div align="center">
-
-<figure><img src="../.gitbook/assets/CMS_DriveRightClick2.png" alt=""><figcaption><p>Sonoran CMS - Drive - Quick Manage (Right Click)</p></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../.gitbook/assets/CMS_DriveRightClick2.png" alt=""><figcaption><p>Sonoran CMS - Drive - Quick Manage (Right Click)</p></figcaption></figure></div>
 
 ### Folders
 
@@ -46,21 +42,13 @@ Folders can have permissions associated with them to mass organize files with pe
 
 You can change the view mode between grid and list by using the orange toggle button at the top right of the drive.
 
-<div align="center">
-
-<img src="../.gitbook/assets/CMS_DriveOverviewList.png" alt="Sonoran CMS - Drive List View">
-
-</div>
+<div align="center"><img src="../.gitbook/assets/CMS_DriveOverviewList.png" alt="Sonoran CMS - Drive List View"></div>
 
 ### Document Types
 
 You're able to create multiple document types, from presentations to excel sheets to word files!
 
-<div align="center">
-
-<img src="../.gitbook/assets/CMS_DriveNew.png" alt="Sonoran CMS - Create File Dialog">
-
-</div>
+<div align="center"><img src="../.gitbook/assets/CMS_DriveNew.png" alt="Sonoran CMS - Create File Dialog"></div>
 
 ### Document Actions
 
@@ -72,11 +60,7 @@ If you have access to modify documents, then you'll be able to create/edit/delet
 
 ## Editing a Document
 
-<div align="center">
-
-<img src="https://i.imgur.com/7L9wLdS.png" alt="Sonoran CMS - Word Document Editor">
-
-</div>
+<div align="center"><img src="https://i.imgur.com/7L9wLdS.png" alt="Sonoran CMS - Word Document Editor"></div>
 
 Editing documents is fairly easy! On the editor page, you have the main editor, a section to rename, and a section to change share settings
 
@@ -136,21 +120,13 @@ This will inherit the parent folder's general access settings, this will simply 
 
 You can also change the sensitivity of the document. With sensitive mode enabled, viewers will not be able to download, print, or copy the document. A watermark will also be added.
 
-<div align="center">
-
-<img src="../.gitbook/assets/image (15).png" alt="Sonoran CMS - Sensitive Document Toggle">
-
-</div>
+<div align="center"><img src="../.gitbook/assets/image (15) (1).png" alt="Sonoran CMS - Sensitive Document Toggle"></div>
 
 ### Saving
 
 Due to limitations with the editor, it's not able to save automatically. To save, you can press the floppy-disk icon on the top left or press `CTRL+S`
 
-<div align="center">
-
-<img src="https://i.imgur.com/ZLlc5og.png" alt="Sonoran CMS - Save Icon">
-
-</div>
+<div align="center"><img src="https://i.imgur.com/ZLlc5og.png" alt="Sonoran CMS - Save Icon"></div>
 
 A warning will be shown if you try to leave the page with unsaved changes
 

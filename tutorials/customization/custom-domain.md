@@ -29,11 +29,11 @@ You can also [customize your Community ID](community-branding-and-settings.md#co
 
 Your community's vanity URL can be found in your `Administrative Panel > Custom Domain`.
 
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Sonoran CMS - Vanity URL</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Vanity URL</p></figcaption></figure>
 
 The vanity URL will take users to the home page created in the website builder.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Homepage</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Homepage</p></figcaption></figure>
 
 ## Custom Domain
 
@@ -45,7 +45,7 @@ Custom Domain requires a **Pro** subscription.
 
 This can be a root domain `sonoranroleplay.com` or a subdomain `cms.sonoranroleplay.com`
 
-<div align="center" data-full-width="false"><figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Domain</p></figcaption></figure></div>
+<div align="center" data-full-width="false"><figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Domain</p></figcaption></figure></div>
 
 ### 2. Configure DNS Records for your Domain
 
@@ -80,7 +80,7 @@ You will also need to add a `TXT` type record with:
 
 The example record below sets `cms.sonoranroleplay.com` as the custom login page URL.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Cloudflare - DNS Record </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Cloudflare - DNS Record </p></figcaption></figure>
 
 {% hint style="info" %}
 **Cloudflare Users:** Be sure to have the **DNS record proxy DISABLED** - and set to `DNS Only`.
@@ -90,7 +90,7 @@ If you are using Sonoran Servers, our company's server hosting, for your domain 
 
 Typically the Host Name is left blank or in this case a `@` is used to point the record at the root domain name of "`sonoranroleplay.com`"
 
-<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption><p>Sonoran Servers - DNS Record </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption><p>Sonoran Servers - DNS Record </p></figcaption></figure>
 
 ### 3. Save the Custom Domain
 
@@ -106,7 +106,7 @@ Press `Set Custom Domain` in the CMS to save.
 
 Your new domain name will be shown below your vanity URL.
 
-<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Domain Display</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Custom Domain Display</p></figcaption></figure>
 
 ## Troubleshooting
 

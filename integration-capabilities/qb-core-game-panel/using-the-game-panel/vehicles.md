@@ -10,7 +10,7 @@ description: Easily manage in-game vehicles with the CMS QB Core management pane
 
 You can switch to view only live vehicles active in the server, or all vehicles in the database at the top right.
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -24,7 +24,7 @@ Selecting `Add Vehicle` at the top right allows you to create a new vehicle and 
 
 Select any vehicle to modify it's information, transfer ownership, repair it, or delete it from the server.
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt="" width="286"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (1).png" alt="" width="286"><figcaption></figcaption></figure>
 
 ## Supported Garage Scripts
 
