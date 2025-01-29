@@ -10,6 +10,38 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.16 01/29/2025
+
+{% tabs %}
+{% tab title="New" %}
+Website Element: Account Card
+
+* Added a new website element to display a selected user with their name, avatar, highest rank, and more.
+
+Form Submission: Title Customization
+
+* Added new submission title customizations, complete with variables, to customize how submissions show in the submitted form board.
+
+Form Submission Limits: Blacklisted Ranks
+
+* Added a new blacklisted permission that can restrict a user's ability to submit specific forms regardless of other ranks.
+
+Push Notification: Community Icon
+
+* Added custom community icon/logo support to push notifications for desktop and mobile apps.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#26780 Form Editor Element Delete
+
+* Fixed an issue breaking the form editor when deleting the last question in a section.
+
+Mobile & Desktop - Freeze
+
+* Fixed an issue causing the mobile and desktop apps to freeze on new logins.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.15 01/21/2025
 
 {% tabs %}
