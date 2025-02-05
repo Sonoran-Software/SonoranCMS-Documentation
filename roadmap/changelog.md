@@ -10,6 +10,38 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.17 02/05/2025
+
+{% tabs %}
+{% tab title="New" %}
+Form Submission Board: Tree View
+
+* Form submission board now has expandable tree nodes for form selection, allowing for better organization with folders.
+
+Actions: Variable Modal Component
+
+* Form stage and disciplinary actions now use the new variable component for easier copy/paste of dynamic variables instead of visual typing in the descriptions.
+
+Form SEO Metadata
+
+* Improved social embeds for new forms and form submission links.
+
+Forms: Dependency Select
+
+* Improved the dependency selection in the form editor to have a drop-down select for applicable form types instead of always requiring a comma separated string.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#26930 Roster Rank Display Order
+
+* Fixed an issue causing rosters with specificly ordered ranks to load the ranks in reverse order.
+
+\#26903 Share Submission Link
+
+* Fixed an issue causing admin form submission share URLs to not automatically open the form submission.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.16 01/29/2025
 
 {% tabs %}
