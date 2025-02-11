@@ -10,6 +10,44 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.18 02/11/2025
+
+{% tabs %}
+{% tab title="New" %}
+Form Viewer: Mobile Improvements
+
+* Improved form submission board UI layout for better density with the stage add and reorder buttons.
+
+Clockin: Live Reactivity
+
+* Clocking in externally via API (in-game) now live updates on your CMS screen if open.
+
+Available Forms: Live Permission Update
+
+* Adding or removing a rank from a user will now live update/reload their available forms page if viewing it.
+
+
+{% endtab %}
+
+{% tab title="Fixed" %}
+Dev Mode Banner Race Condition
+
+* Fixed an internal display issue with the banner on the development version site
+
+\#27105 Delete Community
+
+* Fixed an issue causing the redirect after deleting a CMS community to cause an endless loading screen on the main menu.
+
+i18n Fix
+
+* Fixed a missing "Kicked Members" label in the account menu.
+
+Mobile App Login Redirect
+
+* Fixed an issue with the mobile app causing the SSO login screen to keep the app in-browser instead of reopening the CMS app.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.17 02/05/2025
 
 {% tabs %}
