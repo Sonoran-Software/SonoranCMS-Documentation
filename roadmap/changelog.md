@@ -10,6 +10,50 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.20 02/18/2025
+
+{% tabs %}
+{% tab title="New" %}
+Nav Bar Dropdown Items: Drag-and-Drop Reorder
+
+* Added the ability to drag-and-drop dropdown items in the navigation bar editor to reorder them.
+
+Form Stage Editor Variables: Dropdown
+
+* Improved the variables modal for form stages to include a dropdown to select the form field (instead of manually clicking and copying a field ID).
+
+Form Board: Tree Width Expansion
+
+* Improved the width rendering in the form submission board's tree expansion.
+
+Backend Outage Endpoint
+
+* Improved internal monitoring to more quickly detect unhealthy nodes in the event of a service outage.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#27249 Profile Image
+
+* Fixed an issue causing the root /account page to not display the proper account avatar.
+
+\#27277 Discord ID Profile Field
+
+* Fixed an issue causing the Discord ID profile field to not properly load.
+
+Verify Token Reauth 2x WSS
+
+* Improved reauthentication checks to help prevent an endless load on refreshes.
+
+HF: Mobile Discord Login
+
+* Fixed an issue causing the mobile app login with Discord to not process correctly.
+
+Form Submit: Prior Required Field
+
+* Fixed an issue preventing submisssions if a required field was changed to a label, thus no longer displaying the option to no longer be required.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.18 02/11/2025
 
 {% tabs %}
@@ -25,8 +69,6 @@ Clockin: Live Reactivity
 Available Forms: Live Permission Update
 
 * Adding or removing a rank from a user will now live update/reload their available forms page if viewing it.
-
-
 {% endtab %}
 
 {% tab title="Fixed" %}
