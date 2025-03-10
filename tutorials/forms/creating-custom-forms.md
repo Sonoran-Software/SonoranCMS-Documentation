@@ -12,11 +12,11 @@ description: >-
 
 In the `Forms` panel, select the green `+` button to create a new form.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>Create New Form</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption><p>Create New Form</p></figcaption></figure>
 
 ## Form Customization
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>Form Editor: Diagram</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption><p>Form Editor: Diagram</p></figcaption></figure>
 
 <details>
 
