@@ -10,6 +10,46 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.21 03/11/2025
+
+{% tabs %}
+{% tab title="New" %}
+Form Stages - Conditional Firing
+
+* Added conditional options to only trigger form stage actions in certain cases
+{% endtab %}
+
+{% tab title="undefined" %}
+HF: ACE Perm API Failure
+
+* Fixed an issue causing the ACE perm configuration to be temporarily wiped on resource stop until the game panel was loaded
+
+HF: CAD Sync
+
+* Fixed an issue causing CAD sync to fail in certain edge cases
+
+Garage Script Spam
+
+* Reduced error spam when a server does not have a compatible garage script installed for the game panel
+
+HF: Section Checkbox Conditionals
+
+* Added a safety to ignore label fields that were marked as a required question before being changed to a label field
+
+Form Question Variable Select
+
+* Fixed an issue on form question variable select (for custom submission labels) where question options in the drop-down wouldn't update if changed
+
+\#27463 Dropdown Target Select
+
+* Fixed an issue causing the inability to select which specific form or roster a dropdown button item navigated to
+
+Discord Mapping: Missing CMS Logo
+
+* Fixed an issue causing the CMS logo to be missing in the Discord mapping configuration
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.20 02/18/2025
 
 {% tabs %}
