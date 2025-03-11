@@ -18,7 +18,7 @@ If you are using the Sonoran Radio TeamSpeak, view our [TeamSpeak integration](t
 
 Click the _Sonoran Radio_ icon or click the plus button to sync another Radio to you community
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran CMS - Radio Integration Setup List Area</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran CMS - Radio Integration Setup List Area</p></figcaption></figure>
 
 ### 1. Enter Credentials
 
@@ -27,9 +27,9 @@ Enter your Sonoran Radio community's ID & API Key.
 Your Community ID and API Key are located in Sonoran Radio's `Administration` panel.\
 Enter these into your Sonoran CMS as shown below.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Administration Panel</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran Radio - Administration Panel</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt="" width="299"><figcaption><p>Sonoran CMS - Sonoran Radio Integration Credential Inputs</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="299"><figcaption><p>Sonoran CMS - Sonoran Radio Integration Credential Inputs</p></figcaption></figure>
 
 ### 2. Configure Sync Settings
 

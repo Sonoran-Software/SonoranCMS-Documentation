@@ -12,7 +12,7 @@ description: Sonoran CMS manages your QB Core server for free!
 
 The QB Core management panel will help walk you through each step.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Download the CMS Core. This download will already have the config filled with your Community ID (or UUID) and API Key.
 

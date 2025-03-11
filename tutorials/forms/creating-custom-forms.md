@@ -12,7 +12,7 @@ description: >-
 
 In the `Forms` panel, select the green `+` button to create a new form.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption><p>Create New Form</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption><p>Create New Form</p></figcaption></figure>
 
 ## Form Customization
 
@@ -145,7 +145,13 @@ The `Actions` tab allows you to customize automated actions that will occur when
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt="" width="251"><figcaption><p>Stage Editor: Actions</p></figcaption></figure>
 
+### Conditional Stages
 
+Form stage actions can be conditional, meaning they will only trigger if a certain question response was selected.
+
+The example action below shows that the email will only be sent if the form submitter selects `Yes` to the question `Would you like us to email you more information?`&#x20;
+
+<div><figure><img src="../../.gitbook/assets/image.png" alt="" width="336"><figcaption><p>Stage Action: Conditional Question</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="255"><figcaption><p>Form Submission: Conditional Question</p></figcaption></figure></div>
 
 ### Form Submissions: Submit, View, and Change Stages
 
