@@ -19,7 +19,7 @@ Form Stages - Conditional Firing
 * Added conditional options to only trigger form stage actions in certain cases
 {% endtab %}
 
-{% tab title="undefined" %}
+{% tab title="Fixed" %}
 HF: ACE Perm API Failure
 
 * Fixed an issue causing the ACE perm configuration to be temporarily wiped on resource stop until the game panel was loaded
