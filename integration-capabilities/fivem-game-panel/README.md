@@ -14,14 +14,14 @@ description: Manage your FiveM server with the CMS QBCore, QBox, and vMenu game 
 
 ## Using the QBCore & QBox Panel
 
-{% content-ref url="../../" %}
-[..](../../)
+{% content-ref url="qbcore-and-qbox-panel/" %}
+[qbcore-and-qbox-panel](qbcore-and-qbox-panel/)
 {% endcontent-ref %}
 
 ## Using the vMenu Panel
 
-{% content-ref url="../../" %}
-[..](../../)
+{% content-ref url="vmenu-panel/" %}
+[vmenu-panel](vmenu-panel/)
 {% endcontent-ref %}
 
 
