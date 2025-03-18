@@ -2617,7 +2617,7 @@ All informational and administrative pages now have unique meta associated with 
 
 We've now introduced Desktop notifications as our first step to push notifications everywhere! Now receive desktop notifications, where configured, when you receive new form submissions, new calendar event, and much more! Manage your notification preferences directly within your Community Settings similar to API ID. Receive Desktop notifications upon each trigger WHEN you have the Sonoran CMS Desktop application running on your device.
 
-[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+[**QBCore Game Panel**](broken-reference)
 
 **Job Sync** has been reworked into the core resource and implemented natively within the QBCore Game Panel, easily manage your server's jobs with automatic job sync!
 
@@ -2663,7 +2663,7 @@ Default community template has been updated for a more generic gaming community 
 
 {% tabs %}
 {% tab title="New" %}
-[**vMenu Game Panel**](../integration-capabilities/vmenu-game-panel/)
+[**vMenu Game Panel**](broken-reference)
 
 **Weather** and **Time Management** is now available within the vMenu Game Panel, easily change and manage vMenu Weather & Time directly from your Sonoran CMS!
 
@@ -2918,7 +2918,7 @@ _Rank Filtering_
 
 Filtering and searching for the Accounts viewer has been improved, you can now filter by individual ranks and search for users by their _new_ Unique ID.
 
-[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+[**QBCore Game Panel**](broken-reference)
 
 * Job Management is now achievable within Sonoran CMS, you can now edit/change the job and grades for individual accounts.
 * Search vehicle plates via the Vehicles table
@@ -2984,7 +2984,7 @@ Ranks are no longer separated by _Primary_ and _Secondary_, all ranks are now se
 
 Additionally, account identifiers have been combined into one group instead of separating by Primary & Secondary.
 
-[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+[**QBCore Game Panel**](broken-reference)
 
 * Several aspects have been improved upon for a better UI/UX, specifically with mobile handling
 {% endtab %}
@@ -3005,7 +3005,7 @@ The input system for webhooks has been completely reworked and streamlined for a
 * Auto-save functionality is now smoother and more efficient
 * Setup process is now outlined within the UI
 
-[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+[**QBCore Game Panel**](broken-reference)
 
 Several aspects of the game panel have been improved upon for a better UI/UX.
 
@@ -3050,7 +3050,7 @@ All users within communities are now automatically assigned a unique numerical I
 * UI was completely reworked to be more interactive and user-friendly
 * Community Statuses has been moved to the Roster Editor and rebranded to Roster Statuses
 
-[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+[**QBCore Game Panel**](broken-reference)
 
 * Vehicle management dialogs with user/character information is now hyperlinked to manage the character that the vehicle belongs to
 
@@ -3102,7 +3102,7 @@ All users within communities are now automatically assigned a unique numerical I
 
 {% tabs %}
 {% tab title="New" %}
-[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+[**QBCore Game Panel**](broken-reference)
 
 * Vehicle management inputs that require a Citizen ID will now provide users with a select input to select a character from rather than a raw Citizen ID
 * Permissions
@@ -3126,7 +3126,7 @@ All users within communities are now automatically assigned a unique numerical I
 
 {% tabs %}
 {% tab title="New" %}
-[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+[**QBCore Game Panel**](broken-reference)
 
 * Initial Setup
   * The setup process for the panel has been placed directly into the panel with direct and easy steps to get it running.
@@ -3172,7 +3172,7 @@ All users within communities are now automatically assigned a unique numerical I
 
 {% tabs %}
 {% tab title="New" %}
-[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+[**QBCore Game Panel**](broken-reference)
 
 * Characters
   * View and manage character inventories directly within the panel
@@ -3205,7 +3205,7 @@ Several aspects of the Drive system have been reworked in favor for a better UI/
 
 {% tabs %}
 {% tab title="New" %}
-[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+[**QBCore Game Panel**](broken-reference)
 
 * Gangs
   * View and manage QBCore framework gangs
@@ -3238,7 +3238,7 @@ There was a hotfix version bump release that was sent to all non-web version pla
 
 {% tabs %}
 {% tab title="New" %}
-[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+[**QBCore Game Panel**](broken-reference)
 
 * Characters
   * View online & offline characters
@@ -3281,7 +3281,7 @@ Servers editor for API Integration has been completely reworked for a clearer an
 
 Form Stage changes will now trigger the Sonoran Bot to notify the submitter of the form that it's been updated! With Discord Sync enabled and form notifications properly configured you can now receive a Discord notification via DM, text channel or both.
 
-[**QBCore Game Panel**](../integration-capabilities/qb-core-game-panel/)
+[**QBCore Game Panel**](broken-reference)
 
 * Server Logs
   * View and search the last 1,000 logs generated by your server directly within your Sonoran CMS community!
@@ -3312,7 +3312,7 @@ Several aspects of the UI have been improved upon for a clearer UI/UX.
 
 All aspects of the calendar system has been consolidated to the main calendar view, editing and adding event categories can now be edited and managed within there. You can now easily manage permissions specifically for the calendars you're editing. The event creation UI has also been improved for a better UI/UX.
 
-[**QB Core Game Panel**](../integration-capabilities/qb-core-game-panel/)
+[**QB Core Game Panel**](broken-reference)
 
 * Warn Player
 * Characters
@@ -3381,7 +3381,7 @@ Rank titles within forum posts will no longer overflow the UI, they now ellipsis
 
 {% tabs %}
 {% tab title="New" %}
-[**QB Core Management Panel**](../integration-capabilities/qb-core-game-panel/)
+[**QB Core Management Panel**](broken-reference)
 
 The first update to our official QB Core management panel for GTARP!
 

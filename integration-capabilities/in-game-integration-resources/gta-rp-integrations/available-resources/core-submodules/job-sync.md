@@ -13,7 +13,7 @@ Looking for VPS, web, or dedicated hosting? Check out our official [server hosti
 This resource is a in-game way of automatically syncing jobs and ranks to match roster information in the Sonoran CMS system/community.
 
 {% hint style="warning" %}
-At this time, the Job Sync module only works with QBCore servers via the [QB Panel](../../../../qb-core-game-panel/)
+At this time, the Job Sync module only works with [QBCore and Qbox servers](../../../../fivem-game-panel/qbcore-and-qbox-panel/).
 {% endhint %}
 
 ## Installation / Configuration
@@ -40,12 +40,12 @@ Here you must follow the format shown above to specify rank mappings, the first 
 
 ### 1. Open Department Configuration Page
 
-![Sonoran CMS - Departments & Ranks](../../../../../.gitbook/assets/CMS\_DeptRankOverview2.png)
+![Sonoran CMS - Departments & Ranks](../../../../../.gitbook/assets/CMS_DeptRankOverview2.png)
 
 ### 2. Open "Rank Settings" Menu
 
-![Sonoran CMS - Open Rank Settings Menu](../../../../../.gitbook/assets/CMS\_RankSettings.png)
+![Sonoran CMS - Open Rank Settings Menu](../../../../../.gitbook/assets/CMS_RankSettings.png)
 
 ### 3. Select "Copy Rank ID"
 
-![Sonoran CMS - Copy Rank ID](../../../../../.gitbook/assets/CMS\_CopyRankId.png)
+![Sonoran CMS - Copy Rank ID](../../../../../.gitbook/assets/CMS_CopyRankId.png)

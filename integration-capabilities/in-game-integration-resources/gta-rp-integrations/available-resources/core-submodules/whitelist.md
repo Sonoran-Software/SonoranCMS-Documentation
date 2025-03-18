@@ -10,16 +10,16 @@ Looking for VPS, web, or dedicated hosting? Check out our official [server hosti
 
 This whitelist module utilizes Sonoran CMS's to enforce player connections.
 
-![Sonoran CMS - Whitelist](../../../../../.gitbook/assets/CMS\_Whitelist.png)
+![Sonoran CMS - Whitelist](../../../../../.gitbook/assets/CMS_Whitelist.png)
 
 {% embed url="https://www.youtube.com/watch?v=4PAtKYQokXE" %}
 
 ## Whitelisting on QBCore / VMenu
 
 If using QBCore or VMenu on your server, it is recommended that you control whitelisting through their respective game panels, rather than through this plugin. For more information, see the links below:\
-[QBCore Game Panel - Whitelisting](../../../../qb-core-game-panel/using-the-game-panel/whitelist.md)&#x20;
+[QBCore Game Panel - Whitelisting](../../../../fivem-game-panel/qbcore-and-qbox-panel/whitelist.md)&#x20;
 
-[VMenu Game Panel - Whitelisting](../../../../vmenu-game-panel/using-the-game-panel/whitelist.md)
+[VMenu Game Panel - Whitelisting](../../../../fivem-game-panel/vmenu-panel/whitelist.md)
 
 ## Installation / Configuration
 
@@ -45,7 +45,7 @@ Navigate to the Rank Manager within the Administrative Panel.
 
 `Administrative Panel` > `Ranks`
 
-![Sonoran CMS - Departments & Ranks](../../../../../.gitbook/assets/CMS\_DeptRankOverviewFull.png)
+![Sonoran CMS - Departments & Ranks](../../../../../.gitbook/assets/CMS_DeptRankOverviewFull.png)
 
 For users in your Sonoran CMS community to be accepted through the whitelist, they'll need to be granted permission for the whitelist through rank permissions.
 
@@ -59,7 +59,7 @@ Granting each rank with the permission of **Block Whitelist** blocks users from 
 If a user is granted both **Block Whitelist** and **Allow Whitelist** through various ranks they will be blocked from the whitelist. Block will always overrule allow.
 {% endhint %}
 
-![Sonoran CMS - Rank Manger Server Permissions](../../../../../.gitbook/assets/CMS\_WhitelistPerms.png)
+![Sonoran CMS - Rank Manger Server Permissions](../../../../../.gitbook/assets/CMS_WhitelistPerms.png)
 
 ### 3. Add your API ID
 

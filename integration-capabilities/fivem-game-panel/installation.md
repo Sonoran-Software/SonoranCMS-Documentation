@@ -1,12 +1,16 @@
 ---
-description: Sonoran CMS manages your VMenu server for free!
+description: Sonoran CMS manages your QB Core server for free!
 ---
 
 # Installation
 
+## Video Tutorial
+
+{% embed url="https://youtu.be/pkdC-qgM64E" %}
+
 ## 1. Install the CMS Core Framework
 
-The VMenu management panel will help walk you through each step.
+The QB Core management panel will help walk you through each step.
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -41,7 +45,7 @@ Select `Edit Servers` to include the IP address and port used to direct connect 
 
 ## 5. Grant Permissions
 
-By default, only community owners will have access to the VMenu management panel.
+By default, only community owners will have access to the QB Core management panel.
 
 In the [Rank Manager](../teamspeak-3-role-sync/adding-ranks.md), you will need to add the associated permissions under the `Server` tab.
 
@@ -49,4 +53,8 @@ In the [Rank Manager](../teamspeak-3-role-sync/adding-ranks.md), you will need t
 
 ## 6. Using the Game Panel
 
-View the next guide below to start using the VMenu game panel.
+View the next guide below to start using the QB Core game panel.
+
+{% content-ref url="qbcore-and-qbox-panel/" %}
+[qbcore-and-qbox-panel](qbcore-and-qbox-panel/)
+{% endcontent-ref %}

@@ -49,7 +49,7 @@ Whether it's your own patrol log system with automatic hour calculations, an ext
 
 Sonoran CMS is your single point of management for in-game whitelisting! Automatically whitelist players based on CMS rank for [FiveM](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/whitelist.md), [Minecraft](../integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](../integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
 
-![Sonoran CMS - Whitelist Management](../.gitbook/assets/CMS\_Whitelist.png)
+![Sonoran CMS - Whitelist Management](../.gitbook/assets/CMS_Whitelist.png)
 
 ## 🔒 [Advanced Security and Alt Account Detection](../tutorials/administrative/security-center/)
 
@@ -57,13 +57,11 @@ Sonoran CMS is the best way to ensure your community stays protected. Prevent ba
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Sonoran CMS - Security Center</p></figcaption></figure>
 
-## 🚫 [GTA RP ACE Permissions Management](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/ace-permission-sync.md)
+## 🎮 [FiveM Management Panel](../integration-capabilities/fivem-game-panel/)
 
-Sonoran CMS allows you to manage all GTARP user permissions with [Ace Permissions Sync for QB](../integration-capabilities/qb-core-game-panel/using-the-game-panel/aces-and-principals.md) and [vMenu servers](../integration-capabilities/vmenu-game-panel/using-the-game-panel/aces-and-principals.md)!
+Sonoran CMS manages your entire FiveM server with a [dedicated panel for QBCore, Qbox, and menu servers](../integration-capabilities/fivem-game-panel/)!
 
-Sonoran CMS is your single point of management for your community!
-
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/fivem_management (1).png" alt=""><figcaption><p>CMS: FiveM Management Panel</p></figcaption></figure>
 
 ## 🖥️ [Sonoran CAD Account Management](../integration-capabilities/sonoran-cad-sync.md)
 
@@ -99,7 +97,7 @@ It's never been more easy to manage your gaming community, regardless of your pl
 
 Only Sonoran CMS supports full[ i18n localization](../developer-api-documentation/translation-support.md). Regardless of your community's native language, Sonoran CMS supports it!\
 \
-Sonoran CMS translations are made possible by our community contributors! Anyone is allowed to [contribute to our GitHub translation files](https://github.com/Sonoran-Software/sonorancms\_translations).
+Sonoran CMS translations are made possible by our community contributors! Anyone is allowed to [contribute to our GitHub translation files](https://github.com/Sonoran-Software/sonorancms_translations).
 
 ## 📋 [Frequent Updates](../roadmap/changelog.md)
 
