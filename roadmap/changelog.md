@@ -10,6 +10,38 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.22 03/18/2025
+
+{% tabs %}
+{% tab title="New" %}
+Qbox Panel
+
+* Added a Qbox management panel for FiveM management
+
+Per-Form Edit Permission
+
+* Added per-form edit permissions in the event that a community does not want to grant the system permission to edit all forms
+
+Discord Mapping Terms
+
+* Updated terminology in the Discord mapping configurator, along with popup help images
+{% endtab %}
+
+{% tab title="Fixed" %}
+Job Sync: Framework Safety Disable
+
+* Added a safety to the job sync to automatically disable if framework is set to none
+
+\#27462 Electron Window Maximize
+
+* Fixed an issue causing an error popup when maximizing the CMS desktop application
+
+Disciplinary Point Action Labels
+
+* Fixed an issue causing disciplinary actions to have missing labels
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.21 03/11/2025
 
 {% tabs %}
