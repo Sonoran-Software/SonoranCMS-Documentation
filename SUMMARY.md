@@ -127,7 +127,7 @@
       * [Get Sub Version](developer-api-documentation/api-integration/api-endpoints/general/get-sub-version.md)
       * [Check Com API ID](developer-api-documentation/api-integration/api-endpoints/general/check-com-api-id.md)
       * [Get Com Account](developer-api-documentation/api-integration/api-endpoints/general/get-com-account.md)
-      * [Get Current Clock In](developer-api-documentation/api-integration/api-endpoints/general/get-com-account-1.md)
+      * [Get Current Clock In](developer-api-documentation/api-integration/api-endpoints/general/get-current-clock-in.md)
       * [Get Accounts](developer-api-documentation/api-integration/api-endpoints/general/get-accounts.md)
       * [Get Departments](developer-api-documentation/api-integration/api-endpoints/general/get-departments.md)
       * [Get Profile Fields](developer-api-documentation/api-integration/api-endpoints/general/get-departments-1.md)
