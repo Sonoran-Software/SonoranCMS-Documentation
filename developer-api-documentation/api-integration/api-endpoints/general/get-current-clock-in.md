@@ -22,7 +22,7 @@ Get a Sonoran CMS community account's current clock in by account ID, API ID, Di
 | data<mark style="color:red;">\*</mark> | object | Requst Data Object |
 
 {% tabs %}
-{% tab title="200: OK " %}
+{% tab title="201: OK " %}
 ```javascript
 {
   "id": 1,
@@ -31,6 +31,10 @@ Get a Sonoran CMS community account's current clock in by account ID, API ID, Di
   "completed": false,
   "notes": [];
 }
+```
+
+```
+Not Clocked In
 ```
 {% endtab %}
 
