@@ -10,6 +10,38 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.23 03/24/2025
+
+{% tabs %}
+{% tab title="New" %}
+WYSIWYG (Quill) Editor for Form Comments + Auto-Reply
+
+* Added a full WYS editor to form comments and the auto-reply action
+
+Form Editor: Type Selection
+
+* Improved the form type selection settings in the editor to be more clear
+
+\#27655 - Get Clock Status API
+
+* Added an API endpoint to get a user's current clock-in status
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#27568 - Calendar Perms
+
+* Fixed an issue causing calendar permissions to not display in the rank manager
+
+CMS Resource Linux Detection
+
+* Fixed an issue causing the CMS resource to detect the platform as Linux on some versions of Windows
+
+Time Log Popup
+
+* Fixed an issue causing the time log modal to not properly display in rosters
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.22 03/18/2025
 
 {% tabs %}
