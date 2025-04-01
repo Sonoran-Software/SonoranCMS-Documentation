@@ -5,7 +5,7 @@
 
 ## Other Products
 
-* [🖥️ Sonoran Servers](other-products/server-hosting.md)
+* [🖥️ FiveM Hosting](other-products/server-hosting.md)
 * [⌨️ Sonoran CAD](other-products/sonoran-cad.md)
 * [📡 Sonoran Radio](other-products/sonoran-radio.md)
 
