@@ -10,7 +10,7 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### 1.1.24 04/08/2025
+### 1.1.24 04/07/2025
 
 {% tabs %}
 {% tab title="New" %}
