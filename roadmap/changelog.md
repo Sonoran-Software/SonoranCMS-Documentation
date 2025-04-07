@@ -10,6 +10,54 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.24 04/08/2025
+
+{% tabs %}
+{% tab title="New" %}
+Form Comments - Private Messages
+
+* Added new per-form permissions to send private comments on submissions.
+
+IFrame Viewer
+
+* Added a new iframe website viewer component.
+
+Website Cards - Preview Image
+
+* Added preview images to the website cards after saving the page.
+
+Video Element - Additional Support
+
+* Added the ability to link TikTok videos or upload your own file to the video viewer website element.
+
+Form Unit Number Field Label Change
+
+* Updated the form "Unit Number" field label to "Primary Identifier".
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#27889 Roster Search
+
+* Fixed an issue causing the roster to refresh and show all default results when first changing the search type.
+
+Name Format Customization
+
+* Fixed missing i18n labels in the name format customization area.
+
+Form Submit Permissions
+
+* Forms set to "anyone can submit" now work for non-pending users with ranks instead of only pending users.
+
+Growth Description Auto-Save
+
+* Fixed an issue where updating the community description in the growth panel would not trigger an auto-save.
+
+Member Select Drop-Downs
+
+* Fixed an issue causing form member selector dropdowns to be empty.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.23 03/24/2025
 
 {% tabs %}
