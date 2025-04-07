@@ -45,9 +45,9 @@ Whether it's your own patrol log system with automatic hour calculations, an ext
 
 ![Sonoran CMS - Custom Forms](../.gitbook/assets/Dec23-Forms.png)
 
-## ✅ [In-Game Whitelisting](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/whitelist.md)
+## ✅ [In-Game Whitelisting](../integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md)
 
-Sonoran CMS is your single point of management for in-game whitelisting! Automatically whitelist players based on CMS rank for [FiveM](../integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/whitelist.md), [Minecraft](../integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](../integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
+Sonoran CMS is your single point of management for in-game whitelisting! Automatically whitelist players based on CMS rank for [FiveM](../integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md), [Minecraft](../integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](../integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
 
 ![Sonoran CMS - Whitelist Management](../.gitbook/assets/CMS_Whitelist.png)
 

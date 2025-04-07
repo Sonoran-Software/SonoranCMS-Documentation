@@ -23,9 +23,9 @@ Sonoran CMS is a state-of-the-art, cross-platform, all-in-one community manageme
 * [Create Custom Applications](tutorials/forms/creating-custom-forms.md)
   * Get notified with Discord webhooks when someone fills out a custom application!
   * Create workflows to auto-grant ranks, permissions, whitelisting, and more!
-* [Manage In-Game Whitelisting from the CMS](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/whitelist.md)
-  * Automatically whitelist users for in-game access based on a player's CMS rank for [FiveM](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/whitelist.md), [Minecraft](integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
-* [Manage In-Game Permissions from the CMS](integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/ace-permission-sync.md)
+* [Manage In-Game Whitelisting from the CMS](integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md)
+  * Automatically whitelist users for in-game access based on a player's CMS rank for [FiveM](integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md), [Minecraft](integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
+* [Manage In-Game Permissions from the CMS](integration-capabilities/in-game-integration-resources/core/core-submodules/ace-permission-sync.md)
   * Automatically grant in-game permissions based on a player's CMS rank!
 * [Manage Sonoran CAD Permissions from the CMS](integration-capabilities/sonoran-cad-sync.md)
   * Automatically manage Sonoran CAD permissions based on a player's CMS rank!
@@ -45,8 +45,8 @@ Sonoran CMS is a state-of-the-art, cross-platform, all-in-one community manageme
 
 * [Website](https://sonorancms.com/)
 * [iOS App Store](https://apps.apple.com/us/app/sonoran-cms/id1576259945)
-* [Google Play Store](https://play.google.com/store/apps/details?id=com.sonorancms\&hl=en\_US\&gl=US)
-* [Windows Desktop](https://github.com/Sonoran-Software/SonoranCMS\_Windows/releases/latest/download/Sonoran-CMS.exe)
+* [Google Play Store](https://play.google.com/store/apps/details?id=com.sonorancms\&hl=en_US\&gl=US)
+* [Windows Desktop](https://github.com/Sonoran-Software/SonoranCMS_Windows/releases/latest/download/Sonoran-CMS.exe)
 
 ### How do I get started? <a href="#how-do-i-get-started" id="how-do-i-get-started"></a>
 

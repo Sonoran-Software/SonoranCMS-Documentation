@@ -4,11 +4,7 @@ description: >-
   installation with your Sonoran Servers Windows Server or Expert Installation.
 ---
 
-# Free Plugin Installation - Next Steps
-
-![Sonoran Servers - Bundle Program](<../../../.gitbook/assets/banner_update-1 (1).png>)
-
-If you haven't already, [check out our page for more information on this promotion](../../../pricing/pricing-faq/free-plugin-installation-and-discount-sonoran-servers.md).
+# FiveM Installation - Next Steps
 
 ## 1. Locate your Submodules
 
@@ -24,6 +20,12 @@ For every Sonoran CMS addon installed, there will be a `config.lua` or `config.j
 
 You can open these configuration files with a text editor and change values.
 
-For more information on a plugin's configuration options, you can view the individual plugin guides on the [Available Resources](../roblox-integrations/available-resources/) page and scroll down to the configuration section.
+For more information on a plugin's configuration options, you can view the individual plugin guides on the submodules page and scroll down to the configuration section.
 
 If you modify a configuration file, be sure to save it and restart the server.
+
+{% content-ref url="core-submodules/" %}
+[core-submodules](core-submodules/)
+{% endcontent-ref %}
+
+***

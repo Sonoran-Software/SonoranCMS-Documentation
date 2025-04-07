@@ -9,7 +9,7 @@ description: >-
 
 ## CAD: 30%-100% off Discount
 
-![30% off Sonoran Software Subscriptions with Sonoran Servers](<../../.gitbook/assets/banner\_update-1 (1).png>)
+![30% off Sonoran Software Subscriptions with Sonoran Servers](<../../.gitbook/assets/banner_update-1 (1).png>)
 
 ![Sonoran One - Free with a Dedicated Server](../../.gitbook/assets/Bannerprojectsenoranone.png)
 
@@ -27,6 +27,6 @@ Reach out on our [customer support site](https://support.sonoransoftware.com) an
 
 ### The support agent has installed my plugins, what's next?
 
-{% content-ref url="../../integration-capabilities/in-game-integration-resources/gta-rp-integrations/free-plugin-installation-next-steps.md" %}
-[free-plugin-installation-next-steps.md](../../integration-capabilities/in-game-integration-resources/gta-rp-integrations/free-plugin-installation-next-steps.md)
+{% content-ref url="../../integration-capabilities/in-game-integration-resources/core/free-plugin-installation-next-steps.md" %}
+[free-plugin-installation-next-steps.md](../../integration-capabilities/in-game-integration-resources/core/free-plugin-installation-next-steps.md)
 {% endcontent-ref %}

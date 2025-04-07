@@ -51,6 +51,6 @@ Yes! Your purchase is valid for three installation credits. You could have the a
 
 ### The support agent has installed my plugins, what's next?
 
-{% content-ref url="../../integration-capabilities/in-game-integration-resources/gta-rp-integrations/free-plugin-installation-next-steps.md" %}
-[free-plugin-installation-next-steps.md](../../integration-capabilities/in-game-integration-resources/gta-rp-integrations/free-plugin-installation-next-steps.md)
+{% content-ref url="../../integration-capabilities/in-game-integration-resources/core/free-plugin-installation-next-steps.md" %}
+[free-plugin-installation-next-steps.md](../../integration-capabilities/in-game-integration-resources/core/free-plugin-installation-next-steps.md)
 {% endcontent-ref %}

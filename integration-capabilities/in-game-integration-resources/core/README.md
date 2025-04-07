@@ -2,25 +2,40 @@
 description: The CMS Core maintains common utility functions and push event handling.
 ---
 
-# Core
+# FiveM Installation
 
 {% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](../../../../other-products/server-hosting.md)!
+Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](../../../other-products/server-hosting.md)!
 {% endhint %}
 
-This resource does nothing on its own and is simply a dependency for other resources.
+## A. One-Click Installation (RocketNode)
 
-## Installation
+We've partnered with Rocket Node to bring you one-click Sonoran CMS installation for FiveM — making it easier than ever to host your community and connect with Sonoran CMS.
+
+* [Purchase your FiveM Game Server!](https://sonoran.link/FA2ZbwUb)
+* Use code `SONORAN` to save big!
+
+{% embed url="https://www.youtube.com/watch?v=L_7V3yOIRaQ" %}
+
+After installation, learn about configuring the submodule features.
+
+{% content-ref url="free-plugin-installation-next-steps.md" %}
+[free-plugin-installation-next-steps.md](free-plugin-installation-next-steps.md)
+{% endcontent-ref %}
+
+***
+
+## B. Pre-Configured Resource Installation <a href="#pre-configured-resource-installation-recommended" id="pre-configured-resource-installation-recommended"></a>
 
 ### 1. Download the Resource
 
-Click [<mark style="color:blue;">here</mark>](https://github.com/Sonoran-Software/sonorancms\_core/releases) to download the core resource.
+Click [<mark style="color:blue;">here</mark>](https://github.com/Sonoran-Software/sonorancms_core/releases) to download the core resource.
 
 ### 2. Install the Resource
 
 Extract the \[sonorancms] folder into your server's resources folder.
 
-![Sonoran CMS - Resource Installation Folder](../../../../.gitbook/assets/CMS\_ResourceFolder.png)
+![Sonoran CMS - Resource Installation Folder](../../../.gitbook/assets/CMS_ResourceFolder.png)
 
 ### 3. Configure and Rename
 
@@ -29,6 +44,10 @@ Open `sonorancms\config.CHANGEME.lua`, update the values, then save it as `confi
 Default configuration is below:
 
 #### Configuration Details
+
+<details>
+
+<summary>Configuration Options</summary>
 
 | Config Option      | Description                                                                                                                                                                       |
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -42,6 +61,8 @@ Default configuration is below:
 | framework          | `none`, `qb-core`, or `esx`                                                                                                                                                       |
 | MaxInventorySlots  | If using framework: `qb-core` you can specify the max inventory slots your inventory resource supports, this is for inventory management via the Game Panel's within Sonoran CMS. |
 | restartWithPlayers | When set to `true`, it will auto-update the resource and restart it even if players are present on the server.                                                                    |
+
+</details>
 
 ### 4. Server Config
 
@@ -63,11 +84,15 @@ add_ace resource.sonorancms command allow
 add_ace resource.sonorancms_updatehelper command allow
 ```
 
-## Submodules
+### 5. Configure Submodule Features
 
-The CMS Core resource comes with a variety of submodules included by default. These handle a variety of features such as whitelisting, permission synchronization, and more.&#x20;
+The CMS Core resource comes with a variety of submodules included by default. These handle a variety of features such as whitelisting, permission synchronization, and more.
 
-You can view the submodules and our guides for configuring them [here](core-submodules/).
+{% content-ref url="free-plugin-installation-next-steps.md" %}
+[free-plugin-installation-next-steps.md](free-plugin-installation-next-steps.md)
+{% endcontent-ref %}
+
+***
 
 ## Updates
 
@@ -91,7 +116,7 @@ CMS updates are released often. Make sure your server is running on the latest r
 
 If your community is using recommended Discord integration, ensure your [Discord account](https://info.sonoranbot.com/en/tutorials/getting-started/sonoran-cms-integration#h-1-discord-sso-linking) is linked.
 
-For other methods (Steam, FiveM License, etc.) ensure you have set your [API ID in the CMS](../../../../developer-api-documentation/api-integration/getting-started/api-id-system.md) using the API ID that your community is looking for.
+For other methods (Steam, FiveM License, etc.) ensure you have set your [API ID in the CMS](../../../developer-api-documentation/api-integration/getting-started/api-id-system.md) using the API ID that your community is looking for.
 
 ### Yarn Error
 

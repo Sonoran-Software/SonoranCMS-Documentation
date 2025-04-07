@@ -24,4 +24,4 @@ You can further customize the permissions each Principal group receives in your 
 
 Additionally, ensure all players have added their [API ID](../../../developer-api-documentation/api-integration/getting-started/api-id-system.md) to the CMS.
 
-For more details, read our documentation on the "Ace Permission Sync" module for CMS Core [here](../../in-game-integration-resources/gta-rp-integrations/available-resources/core-submodules/ace-permission-sync.md).
+For more details, read our documentation on the "Ace Permission Sync" module for CMS Core [here](../../in-game-integration-resources/core/core-submodules/ace-permission-sync.md).
