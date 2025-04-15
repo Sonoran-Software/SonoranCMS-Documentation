@@ -84,15 +84,13 @@ Ranks are able to be customized to the styling that best fits your community. Yo
 
 To the top right of the rank name you will see a number, by default it is 0. Click on this to access the rank power tab. Rank Power determines who has higher authority in the community.
 
-Below this you will be able to specify whether this is a primary or secondary rank. Activating either one will make it so the rank can only be used as a primary rank or a secondary rank. No selection means it can be used for both.
-
 <figure><img src="../../.gitbook/assets/CMS_RankPower2.png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Rank Power</p></figcaption></figure>
 
 ## Importing Ranks from Discord Roles
 
 Instead of manually creating rank for everything, you can also directly import the roles from any linked Discord server directly to your CMS Community.
 
-To do this, in any department, click the Discord icon below the deaprtment header.
+To do this, in any department, click the Discord icon below the department header.
 
 <figure><img src="../../.gitbook/assets/CMS_RanksImportDiscord01.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Import Discord Roles</p></figcaption></figure>
 

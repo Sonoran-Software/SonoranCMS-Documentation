@@ -18,7 +18,7 @@ To access the "Accounts Panel", head to `Administrative Panel` > `User Accounts`
 
 Within this "Accounts Panel" is where you'll be able to see every user that has joined your community. From here you can click each row to edit their information and permissions.
 
-![Sonoran CMS - Administrative Accounts Panel - Utilize this panel to edit and view all users information.](../../.gitbook/assets/CMS\_UserAccsList.png)
+![Sonoran CMS - Administrative Accounts Panel - Utilize this panel to edit and view all users information.](../../.gitbook/assets/CMS_UserAccsList.png)
 
 ## Editing Account Information
 
@@ -28,7 +28,7 @@ When assigning someone identifier(s) you must press enter while in the input to 
 
 In order for permissions to be used the user must have a "System Status" of **ACTIVE**. Archiving a user will revoke all the user's permissions and limit their access to your community's CMS.
 
-![Administrative Accounts Panel - Account Information Dialog](../../.gitbook/assets/CMS\_EditAccInfo2.png)
+![Administrative Accounts Panel - Account Information Dialog](../../.gitbook/assets/CMS_EditAccInfo2.png)
 
 ### Assign Rank to  Multiple Accounts
 
@@ -52,9 +52,9 @@ Instead of left-clicking a user's row you can right-click which will prompt you 
 * **Edit Account Information** which will pop up with the above dialog
 * **View Member Profile** will redirect you to the user's community profile which will provide more information.
 
-![Sonoran CMS - Administrative Accounts Panel - Account Information Right Click Prompt](../../.gitbook/assets/CMS\_UserAccsListRC.png)
+![Sonoran CMS - Administrative Accounts Panel - Account Information Right Click Prompt](../../.gitbook/assets/CMS_UserAccsListRC.png)
 
-![Sonoran CMS - User's Community Profile - Redirected from the "View Member Profile" prompt from above](../../.gitbook/assets/CMS\_UserProfile.png)
+![Sonoran CMS - User's Community Profile - Redirected from the "View Member Profile" prompt from above](../../.gitbook/assets/CMS_UserProfile.png)
 
 If you have permission to edit the individuals information in the Account Viewer you can edit the member's name in their Community Profile by clicking their name or the blue pencil shown to the right of it. The pencil will only show if you have permission.
 
@@ -91,13 +91,17 @@ Below that you can alternatively choose to display Pending, Banned, or Archived 
 ## Grant Rank on Join
 
 {% hint style="info" %}
-These settings can be found in `Admin Panel` > `Customization` > `Advanced`
+These settings can be found in `Admin Panel` > `Customization` > `On Join Actions`
 {% endhint %}
 
-You can automatically grant a default rank for all users who join your community. This could be used if you want to have a specific rank for inquiring members that only gives them access to certain forms. In this case you would set their On Join Status to `Active` and their On Join Role to whatever role you've designated for this.
+You can automatically grant a default rank for all users who join your community. This could be used if you want to have a specific rank for inquiring members that only gives them access to certain forms.&#x20;
 
-<figure><img src="../../.gitbook/assets/CMS_CustomizationAdvanced.png" alt=""><figcaption><p>Sonoran CMS - Customization - On Join Rank + Status</p></figcaption></figure>
+In this case you would click the green plus button, add a `Modify Ranks` block, then select the rank you wish to grant.
 
-Alternatively, you could set their On Join Status to `Pending`, which would automatically prompt them to fill out a form.
+Granting a rank will automatically change a new user's status from **Pending** to **Active**.
+
+<figure><img src="../../.gitbook/assets/CMS_AddRankOnJoin.png" alt=""><figcaption><p>Sonoran CMS - Customization - On Join Rank</p></figcaption></figure>
+
+Alternatively, if you do **not** set a rank on join, new users' statuses will remain as **Pending**, prompting them to fill out a membership application.
 
 <figure><img src="../../.gitbook/assets/pending-filloutform.png" alt=""><figcaption><p>Sonoran CMS - Pending User Form Prompt</p></figcaption></figure>
