@@ -10,6 +10,34 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.25 04/15/2025
+
+{% tabs %}
+{% tab title="New" %}
+Webpage animations
+
+* Added webpage animations for page elements.
+
+Private Comments - UI Improvements
+
+* Improved the UI for private form submission comments by moving the toggle directly in the input and highlighting the background as red when in private mode.
+
+WYS Editor - Placeholder Text
+
+* Added small placeholder text in the upgraded text editor for the form submission comments.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#28030 - Form Folders & Templates
+
+* Fixed an issue causing new form folders and templates to not appear.
+
+Toolbar Editor - Giant Security Flag Badge
+
+* Fixed an issue in the toolbar editor showing the user flag chip as giant.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.24 04/07/2025
 
 {% tabs %}
