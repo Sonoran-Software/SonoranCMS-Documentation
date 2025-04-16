@@ -34,10 +34,7 @@ add_filesystem_permission sonorancms write qb-core
 add_filesystem_permission sonorancms write qbx_core
 add_filesystem_permission sonorancms write ox_inventory
 
-ensure sonorancms
-# permissions for SonoranCMS auto-updater (REQUIRED)
-add_ace resource.sonorancms command allow
-add_ace resource.sonorancms_updatehelper command allow
+exec @sonorancms/sonorancms.cfg
 ```
 
 <div align="center" data-full-width="false"><figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
