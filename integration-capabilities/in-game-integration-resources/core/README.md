@@ -77,11 +77,7 @@ Example of what **not** to do: `ensure [sonorancms]`
 {% endhint %}
 
 ```javascript
-ensure sonorancms
-
-# permissions for SonoranCMS auto-updater (REQUIRED)
-add_ace resource.sonorancms command allow
-add_ace resource.sonorancms_updatehelper command allow
+exec @sonorancms/sonorancms.cfg
 ```
 
 ### 5. Configure Submodule Features
