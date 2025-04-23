@@ -144,6 +144,12 @@
       * [RSVP](developer-api-documentation/api-integration/api-endpoints/events/rsvp.md)
     * [Rosters](developer-api-documentation/api-integration/api-endpoints/rosters/README.md)
       * [Get Roster Contents](developer-api-documentation/api-integration/api-endpoints/rosters/get-roster-contents.md)
+    * [Disciplinary](developer-api-documentation/api-integration/api-endpoints/disciplinary/README.md)
+      * [Get Member Points](developer-api-documentation/api-integration/api-endpoints/disciplinary/get-member-points.md)
+      * [Get Member Records](developer-api-documentation/api-integration/api-endpoints/disciplinary/get-roster-contents.md)
+      * [Add Member Record](developer-api-documentation/api-integration/api-endpoints/disciplinary/add-member-record.md)
+      * [Update Member Record Points](developer-api-documentation/api-integration/api-endpoints/disciplinary/add-member-record-1.md)
+      * [Update Member Record Reason](developer-api-documentation/api-integration/api-endpoints/disciplinary/add-member-record-2.md)
 * [🌎 Translation Support](developer-api-documentation/translation-support.md)
 
 ## Roadmap
