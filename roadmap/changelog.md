@@ -10,6 +10,26 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.26 04/23/2025
+
+{% tabs %}
+{% tab title="New" %}
+Disciplinary API
+
+* Added API endpoints to get records, get points, add records, and modify records.
+
+Drive: Admin Nav Bar
+
+* When navigating to the Drive via Admin panel, the nav bar on the left will persist.
+{% endtab %}
+
+{% tab title="Fixed" %}
+JS Cache Busting
+
+* Improved JS file cache busting to resolve issues when updates are pushed.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.25 04/15/2025
 
 {% tabs %}
