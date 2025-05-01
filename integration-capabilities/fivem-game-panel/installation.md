@@ -50,8 +50,6 @@ Due to recent changes to FiveM there is now security limitations to the file sys
 
 **QBox Specific**
 
-* Update `qbx_core/fxmanifest.lua` author line to the following:
-  * `author ''`&#x20;
 * Update `ox_inventory/fxmanifest.lua` author line to the following:
   * `author ''`&#x20;
 
