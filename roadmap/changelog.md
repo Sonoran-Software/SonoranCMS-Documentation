@@ -10,6 +10,38 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.27
+
+{% tabs %}
+{% tab title="New" %}
+Forms: Local Save Progress
+
+* Filling out a form saves locally to resume progress if the page is exited, reloaded, or navigated away from.
+
+Security Center: Mass-Dismiss
+
+* Added the ability to mass-select security center flags to dismiss or reactivate.
+{% endtab %}
+
+{% tab title="Fixed" %}
+HF: Page Editor SQL
+
+* Fixed an issue causing the wrong page to load in the website page editor in rare cases.
+
+Form Selection Cards: Gear Menu Improvements
+
+* Fixed an issue with the form selection gear menu sometimes disappearing when clicking.
+
+\#28318 - Website Card URLs
+
+* Fixed an issue causing website card URLs to not properly navigate.
+
+Fix: Private Webpages
+
+* Fixed an issue causing webpages to all show as private.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.26 04/23/2025
 
 {% tabs %}
