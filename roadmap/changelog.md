@@ -10,7 +10,53 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### 1.1.27
+### 1.1.28 05/06/2025
+
+{% tabs %}
+{% tab title="Fixed" %}
+\#28514 - Pending Forms
+
+* Fixed an issue causing "Anyone Can Submit" forms showing twice for pending users.
+
+Mobile: Rosters Search Overlap
+
+* Fixed an issue causing the roster search box to overlap the roster title on mobile.
+
+Mobile: Profile Page Improvements
+
+* General improvements to the community profile page on mobile.
+
+Mobile: Tab Permission Updates
+
+* Improve reconnection handling to ensure community navigation tab permissions load.
+
+i18n: Edit Account
+
+* Fixed a missing i18n label in the general account profile tab.
+
+Notification Center: Centering
+
+* Improvements to icon centering and padding in the notification center.
+
+Integrations: Icon Spacing
+
+* Improvements to icon spacing in the integrations portal.
+
+Discovery Text Overflow
+
+* Fixed a text overflow issue in the community discovery spotlight section.
+
+Form Selection Redirect
+
+* Fixed an issue causing form editor selections to navigate back without showing a permissions error.
+
+Disciplinary Point Duplicate Actions
+
+* Fixed an issue causing multiple disciplinary actions to fire at once, instead of only the threshold meeting action.
+{% endtab %}
+{% endtabs %}
+
+### 1.1.27 05/01/2025
 
 {% tabs %}
 {% tab title="New" %}
