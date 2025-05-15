@@ -10,6 +10,58 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.29 05/15/2025
+
+{% tabs %}
+{% tab title="New" %}
+\#28444: Roster Slugs
+
+* Added customizable roster slugs for better URLs
+
+Security Center Flags Live Update
+
+* Dismissing or re-activating security center flags now live-updates on the admin navigation bar
+{% endtab %}
+
+{% tab title="Fixed" %}
+Drive Icons
+
+* Minor padding fixes in drive files and folder icons
+
+Community Discovery Minor Improvements
+
+* Multiple small improvements and fixes in the community discovery panel
+
+TS Copy ID Disable
+
+* Fixed an issue causing the TS3 ID copy button in the user accounts panel to not be disabled when the user does not have a TS3 ID linked
+
+Server UI Modal Button Tweaks
+
+* Minor UI improvements in the server API configuration panel
+
+Pricing Page - Hidden Image
+
+* Fixed a hidden image resulting in large padding on the pricing page
+
+Global API IDs
+
+* Fixed issues with adding API IDs not showing properly until after a refresh
+
+HF: #28710 Bot Rank Expiration
+
+* Fixed an issue causing CMS rank expirations to not have Discord roles removed
+
+i18n Missing
+
+* Fixed a missing i18n key in the permissions tab
+
+Navigation Perms
+
+* Fixed an issue causing dropdown navigation items to not show for some public pages
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.28 05/06/2025
 
 {% tabs %}
