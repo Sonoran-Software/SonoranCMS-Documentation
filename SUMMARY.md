@@ -109,6 +109,7 @@
     * [Available Resources](integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/README.md)
       * [Whitelist](integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md)
   * [IP Whitelisting](integration-capabilities/in-game-integration-resources/ip-whitelisting.md)
+* [ER:LC Game Panel](integration-capabilities/er-lc-game-panel.md)
 
 ## Developer API Documentation
 

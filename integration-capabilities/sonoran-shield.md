@@ -1,5 +1,6 @@
 ---
 description: Manage your Sonoran Server's network protection, right from the CMS!
+hidden: true
 ---
 
 # Sonoran Shield

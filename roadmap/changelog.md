@@ -10,6 +10,16 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.30 05/19/2025
+
+{% tabs %}
+{% tab title="New" %}
+ER:LC Game Panel
+
+* Early access release of the ER:LC game panel with bare functionality to see online players, kick, and ban.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.29 05/15/2025
 
 {% tabs %}
