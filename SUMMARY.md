@@ -91,6 +91,12 @@
     * [Logs](integration-capabilities/fivem-game-panel/vmenu-panel/logs.md)
     * [Resources](integration-capabilities/fivem-game-panel/vmenu-panel/resources.md)
     * [Aces & Principals](integration-capabilities/fivem-game-panel/vmenu-panel/aces-and-principals.md)
+* [ER:LC Game Panel](integration-capabilities/er-lc-game-panel/README.md)
+  * [Installation](integration-capabilities/er-lc-game-panel/installation.md)
+  * [Usage](integration-capabilities/er-lc-game-panel/usage/README.md)
+    * [Dashboard](integration-capabilities/er-lc-game-panel/usage/dashboard.md)
+    * [Players](integration-capabilities/er-lc-game-panel/usage/players.md)
+    * [Activity](integration-capabilities/er-lc-game-panel/usage/activity.md)
 * [Sonoran Shield](integration-capabilities/sonoran-shield.md)
 * [In-Game Integration Resources](integration-capabilities/in-game-integration-resources/README.md)
   * [FiveM Installation](integration-capabilities/in-game-integration-resources/core/README.md)
@@ -109,7 +115,6 @@
     * [Available Resources](integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/README.md)
       * [Whitelist](integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md)
   * [IP Whitelisting](integration-capabilities/in-game-integration-resources/ip-whitelisting.md)
-* [ER:LC Game Panel](integration-capabilities/er-lc-game-panel.md)
 
 ## Developer API Documentation
 
