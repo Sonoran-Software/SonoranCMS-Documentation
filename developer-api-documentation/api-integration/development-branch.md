@@ -24,7 +24,7 @@ https://cmsapi.dev.sonoransoftware.com
 
 ## Development CMS <a href="#development-cad" id="development-cad"></a>
 
-The latest CAD development version can be accessed at the following address:
+The latest CMS development version can be accessed at the following address:
 
 ```
 https://cms.dev.sonoransoftware.com
@@ -34,12 +34,12 @@ https://cms.dev.sonoransoftware.com
 
 Data will be reset at random times and **this environment is not suitable for production use**. Use only for testing new features when requested by Sonoran Software Development and for developing API based resources.
 
-When building or testing our API library, you can upgrade your development CAD to pro for free!
+When building or testing our API library, you can upgrade your development community to pro for free!
 
 1. Create a new PRO subscription in the development billing portal.
 2. At checkout enter `4242 4242 4242 4242` as the card number with any CVV and expiration date.
 3. Apply the subscription to your development testing community.
 
-#### Developer Discord <a href="#developer-discord" id="developer-discord"></a>
+## Developer Discord <a href="#developer-discord" id="developer-discord"></a>
 
-Join our [Discord](http://discord.sonorancad.com/) and view the `#request-role` channel for access to our community testing and development channel. Here you can discuss API related issues, development, and more.
+Join our [Discord](http://discord.sonorancad.com/) and access the `#community-development` channel. Here you can discuss API related issues, development, and more.
