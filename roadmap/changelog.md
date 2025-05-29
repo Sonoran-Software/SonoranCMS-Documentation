@@ -10,6 +10,46 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.31 05/29/2025
+
+{% tabs %}
+{% tab title="New" %}
+\#28817 - Comment Delete
+
+* Added additional permission and the ability to delete other user's comments on form submissions.
+
+Game Panel: Add New Server via Drop-Down
+
+* Added the ability to add a new game server directly from the game server panel dropdown.
+
+ERLC Panel: Setup Stepper
+
+* Added a new setup guide to the ER:LC panel, separating that out from the FiveM panel.
+
+ERLC Panel: Logging
+
+* Added the initial base of ER:LC logging for in-game and external actions.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Roster Former User
+
+* Fixed an issue causing pending or former users to appear on rosters.
+
+Forms Submit Clear Save
+
+* Fixed an issue causing saved progress on form submissions to not reset after submitting.
+
+Icon Previews
+
+* Fixed an issue causing some icons in the icon picker to not show.
+
+Nav Bar Icon vs Image Size
+
+* Fixed an issue with custom navigation bar items to display different sizes if the user added an icon vs a custom image.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.30 05/19/2025
 
 {% tabs %}
