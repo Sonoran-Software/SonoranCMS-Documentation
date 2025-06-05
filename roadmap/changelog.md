@@ -10,6 +10,38 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.32 06/05/2025
+
+{% tabs %}
+{% tab title="New" %}
+Roster: Sort Order and CSV Export
+
+* Added the ability to click on a roster column to sort the order, and the ability to export a roster to CSV.
+
+Community Profile Element - Filter
+
+* Added a type-to-filter to find the account on the community profile website element.
+
+Animations - Play
+
+* When setting an animation on a website element, you can now visualize and replay the animation without needing to publish the page.
+
+Footer Branding - Margin
+
+* Added the Powered/Partnered by Sonoran CMS footer to the website page editor to better reflect the published result for free and partnered communities.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Transparent Text Highlight
+
+* Fixed an issue where no transparent highlight option was available in the text editor to reset the highlight after setting one.
+
+Google Drive Typo
+
+* Fixed a typo in the Google Drive migration wizard.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.31 05/29/2025
 
 {% tabs %}
