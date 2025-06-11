@@ -10,6 +10,34 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.33 06/11/2025
+
+{% tabs %}
+{% tab title="New" %}
+Image Hyperlinks
+
+* Added the ability to hyperlink a website image to an internal page, form, website link, and more
+
+Website Card Improvements
+
+* Added new styling options and improvements to the website card element buttons
+
+ER:LC Run Command
+
+* Added a run command panel to the ER:LC management panel under private testing
+
+Rank Selection Indicators
+
+* Added indicators in the rank selection for rosters to more easily customize the selections
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#29124 - Delete Private Comment
+
+* Fixed an issue where red private comments hid the red delete button
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.32 06/05/2025
 
 {% tabs %}
