@@ -10,6 +10,30 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.34 06/23/2025
+
+{% tabs %}
+{% tab title="New" %}
+Permissions 3x Stage
+
+* Added a three-stage toggle to all permissions, allowing for the creation and use of blacklisted ranks.
+
+Form Stages - Multiple of Each
+
+* Added the ability to create multiple form stage actions of the same kind, expanding options for conditional fields.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#28823 Roster Pagination
+
+* Fixed an issue causing the bottom table pagination to dissappear after navigating to the last roster page.
+
+HF: Roster Sort Column
+
+* Fixed an issue throwing an error when trying to sort certain roster column types.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.33 06/12/2025
 
 {% tabs %}
