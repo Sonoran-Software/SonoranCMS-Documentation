@@ -5,11 +5,13 @@ description: >-
   can be your community's single point of management.
 ---
 
-# 🏆 Why Choose Sonoran CMS?
+# 🏆 Why Sonoran CMS?
 
 ## What is Sonoran CMS?
 
-Sonoran CMS is a state-of-the-art, cross-platform, all-in-one community management system for gaming communities.
+Sonoran CMS is the all-in-one management system built for gaming communities.
+
+With advanced applications, Discord role sync, FiveM and ER:LC game panels, a built-in file drive, and more—Sonoran CMS streamlines your operations like never before.
 
 {% content-ref url="tutorials/getting-started/" %}
 [getting-started](tutorials/getting-started/)
