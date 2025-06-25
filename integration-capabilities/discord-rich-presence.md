@@ -15,7 +15,7 @@ For more information, see our [pricing](../pricing/pricing-faq/) or view how to 
 
 ## What is Discord Rich Presence?
 
-When running our [desktop application](../download-the-app.md), Discord can automatically detect and display information about your community.
+When running our [desktop application](../download.md), Discord can automatically detect and display information about your community.
 
 ![Sonoran CMS - Discord Rich Presence](../.gitbook/assets/DiscordPTB_Tzluj4WYgI.png)
 

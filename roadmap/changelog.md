@@ -5658,7 +5658,7 @@ Community Selection Menu\
 Community Login Query Strings\
 \- Sonoran CMS URLs now support the use of ?comid=[**communityID**](../tutorials/customization/community-branding-and-settings.md#community-id) at the end of URLs. You can hand these out to automatically invite users to your community, this will automatically direct them to the community selection menu where they can accept an invite.\
 \
-[Android Application](../download-the-app.md)\
+[Android Application](../download.md)\
 \- Sonoran CMS is now on the Google Play Store for [download](https://play.google.com/store/apps/details?id=com.sonorancms).&#x20;
 {% endtab %}
 

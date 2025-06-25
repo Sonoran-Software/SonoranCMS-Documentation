@@ -1,7 +1,7 @@
 # Table of contents
 
 * [🏆 Why Sonoran CMS?](README.md)
-* [📱 Download the App](download-the-app.md)
+* [📱 Download the App](download.md)
 
 ## Tutorials
 

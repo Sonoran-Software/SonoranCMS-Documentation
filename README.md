@@ -91,10 +91,10 @@ Sonoran CMS makes organizing [community events](tutorials/community-events.md) e
 
 <figure><img src=".gitbook/assets/community-events.png" alt=""><figcaption><p>Sonoran CMS - Calendar Features</p></figcaption></figure>
 
-## 📱 [Downloadable Apps](download-the-app.md)
+## 📱 [Downloadable Apps](download.md)
 
-{% content-ref url="download-the-app.md" %}
-[download-the-app.md](download-the-app.md)
+{% content-ref url="download.md" %}
+[download.md](download.md)
 {% endcontent-ref %}
 
 Learn more about accessing and downloading Sonoran CMS on web, desktop, and mobile devices!
