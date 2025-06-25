@@ -153,24 +153,12 @@
 
 * [📋 Changelog](roadmap/changelog.md)
 
-## Other
-
-* [AI QA](other/ai-qa.md)
-* [Contact Us](https://support.sonoransoftware.com/)
-* [Policy](other/policy/README.md)
-  * [Terms of Service](other/policy/terms-of-service.md)
-  * [Privacy Policy](other/policy/privacy-policy.md)
-  * [Refund and Purchase Policy](other/policy/refund-and-purchase-policy.md)
-  * [Promotions](other/policy/promotions/README.md)
-    * [03/10/25-03/17/25 Suggestions](other/policy/promotions/03-10-25-03-17-25-suggestions.md)
-
 ## Pricing
 
 * [Pricing FAQ](pricing/pricing-faq/README.md)
   * [Branding Removal](pricing/pricing-faq/branding-removal.md)
   * [Military and First Responder Discount](pricing/pricing-faq/military-and-first-responder-discount.md)
   * [Expert Installation](pricing/pricing-faq/expert-installation.md)
-  * [Free Plugin Installation and Discount - Sonoran Servers](pricing/pricing-faq/free-plugin-installation-and-discount-sonoran-servers.md)
   * [Accessing the Payment Center](pricing/pricing-faq/accessing-the-payment-center.md)
   * [Create and Manage a Subscription](pricing/pricing-faq/create-and-manage-a-subscription.md)
   * [Request Discord Role](pricing/pricing-faq/request-discord-role.md)
