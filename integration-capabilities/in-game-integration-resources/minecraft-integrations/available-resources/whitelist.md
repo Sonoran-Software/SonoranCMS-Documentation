@@ -9,7 +9,7 @@ All players of your server must have their [API ID](../../../../developer-api-do
 {% endhint %}
 
 {% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](../../../../other-products/server-hosting.md)!
+Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](broken-reference)!
 {% endhint %}
 
 This resource is a whitelist system that utilizes Sonoran CMS's game whitelist system by checking against that whitelist upon each player connection.
@@ -52,7 +52,7 @@ Navigate to the Rank Manager within the Administrative Panel.
 
 `Administrative Panel` > `Ranks`
 
-![Sonoran CMS Departments & Ranks](../../../../.gitbook/assets/CMS\_DeptRankOverviewFull.png)
+![Sonoran CMS Departments & Ranks](../../../../.gitbook/assets/CMS_DeptRankOverviewFull.png)
 
 For users in your Sonoran CMS community to be accepted through the whitelist, they'll need to be granted permission for the whitelist through rank permissions. You will need to grant each rank the permission of **Allow Whitelist** that you want to be allowed through the whitelist. You will want to grant each rank with the permission of **Block Whitelist** if you want them to be blocked from passing through the whitelist.
 
@@ -62,7 +62,7 @@ For users in your Sonoran CMS community to be accepted through the whitelist, th
 If a user is granted both **Block Whitelist** and **Allow Whitelist** through various ranks they will be blocked from the whitelist. Block will always overrule allow.
 {% endhint %}
 
-![Sonoran CMS - Rank Manager Server Permissions](../../../../.gitbook/assets/CMS\_WhitelistPerms.png)
+![Sonoran CMS - Rank Manager Server Permissions](../../../../.gitbook/assets/CMS_WhitelistPerms.png)
 
 ### 4. Add your API ID
 

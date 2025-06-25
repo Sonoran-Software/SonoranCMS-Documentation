@@ -5,12 +5,12 @@ description: Manage in-game player permissions right from the CMS!
 # Ace Permission Sync
 
 {% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](../../../../../other-products/server-hosting.md)!
+Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](broken-reference)!
 {% endhint %}
 
 This module manages player's in-game permissions right from the CMS!
 
-![Sonoran CMS - ACE Permission Sync](../../../../../.gitbook/assets/CMS-Ace-Sync.png)
+![Sonoran CMS - ACE Permission Sync](../../../../.gitbook/assets/CMS-Ace-Sync.png)
 
 {% embed url="https://www.youtube.com/watch?v=4PAtKYQokXE" %}
 
@@ -44,7 +44,7 @@ Configure your aces and principals to how you desire while following the syntax 
 
 ### 4. Add your API ID
 
-Ensure all players have added their [API ID](../../../../../developer-api-documentation/api-integration/getting-started/api-id-system.md) to the CMS!
+Ensure all players have added their [API ID](../../../../developer-api-documentation/api-integration/getting-started/api-id-system.md) to the CMS!
 
 ## Functionality
 
@@ -62,7 +62,7 @@ For communities on the **Plus** plan or higher, permissions can be synced instan
 
 Simply add your FiveM server's public IP address and at `Administrative Panel` > `Integrations` > `Sonoran CMS API` > `Servers`.
 
-![Sonoran CMS - API Integration Servers Tab](../../../../../.gitbook/assets/CMS\_ApiIntegrationServersTab.png)
+![Sonoran CMS - API Integration Servers Tab](../../../../.gitbook/assets/CMS_ApiIntegrationServersTab.png)
 
 ### Manual Sync
 

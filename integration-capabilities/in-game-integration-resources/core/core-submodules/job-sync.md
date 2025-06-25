@@ -7,7 +7,7 @@ description: >-
 # Job Sync
 
 {% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](../../../../other-products/server-hosting.md)!
+Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](broken-reference)!
 {% endhint %}
 
 This resource is a in-game way of automatically syncing jobs and ranks to match roster information in the Sonoran CMS system/community.

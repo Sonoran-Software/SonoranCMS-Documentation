@@ -1,17 +1,7 @@
 # Table of contents
 
-* [Sonoran CMS](README.md)
+* [🏆 Why Choose Sonoran CMS?](README.md)
 * [📱 Download the App](download-the-app.md)
-
-## Other Products
-
-* [🖥️ FiveM Hosting](other-products/server-hosting.md)
-* [⌨️ Sonoran CAD](other-products/sonoran-cad.md)
-* [📡 Sonoran Radio](other-products/sonoran-radio.md)
-
-## Why choose Sonoran CMS?
-
-* [🏆 Why Choose Sonoran CMS?](why-choose-sonoran-cms/why-choose-sonoran-cms.md)
 
 ## Tutorials
 
@@ -165,7 +155,6 @@
 
 ## Other
 
-* [Sonoran CMS](other/sonoran-cms.md)
 * [AI QA](other/ai-qa.md)
 * [Contact Us](https://support.sonoransoftware.com/)
 * [Policy](other/policy/README.md)

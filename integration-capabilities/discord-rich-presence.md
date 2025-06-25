@@ -31,7 +31,7 @@ Navigate to Administrator Panel > Customization > Community Customization > Disc
 
 #### For communities on the **Standard** plan or higher:
 
-\- Button #2 may be customized to any [Sonoran CAD](../other-products/sonoran-cad.md) or [Sonoran CMS](https://info.sonorancms.com/why-choose-sonoran-cms/why-choose-sonoran-cms) invitation link.\
+\- Button #2 may be customized to any [Sonoran CAD](broken-reference) or [Sonoran CMS](https://info.sonorancms.com/why-choose-sonoran-cms/why-choose-sonoran-cms) invitation link.\
 \- Ex: `https://sonorancad.com/#/?comid=mycommunityid` or `https://sonorancms.com/#/?comid=mycommunityid`
 
 #### For communities on the Pro plan:

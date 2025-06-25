@@ -5,53 +5,106 @@ description: >-
   can be your community's single point of management.
 ---
 
-# Sonoran CMS
+# 🏆 Why Choose Sonoran CMS?
 
-{% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](other-products/server-hosting.md)!
-{% endhint %}
-
-<figure><img src=".gitbook/assets/Docs_Orange (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-### What is Sonoran CMS?
+## What is Sonoran CMS?
 
 Sonoran CMS is a state-of-the-art, cross-platform, all-in-one community management system for gaming communities.
-
-* [Full Document Suite](tutorials/your-drive-and-documents.md)
-  * Create and share documents, spreadsheets, and presentations!
-  * Manage document permissions based on community rank/role!
-* [Create Custom Applications](tutorials/forms/creating-custom-forms.md)
-  * Get notified with Discord webhooks when someone fills out a custom application!
-  * Create workflows to auto-grant ranks, permissions, whitelisting, and more!
-* [Manage In-Game Whitelisting from the CMS](integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md)
-  * Automatically whitelist users for in-game access based on a player's CMS rank for [FiveM](integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md), [Minecraft](integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
-* [Manage In-Game Permissions from the CMS](integration-capabilities/in-game-integration-resources/core/core-submodules/ace-permission-sync.md)
-  * Automatically grant in-game permissions based on a player's CMS rank!
-* [Manage Sonoran CAD Permissions from the CMS](integration-capabilities/sonoran-cad-sync.md)
-  * Automatically manage Sonoran CAD permissions based on a player's CMS rank!
-* [Create a Custom Community Website](tutorials/community-website/website-builder.md)
-  * Use your [own domain](tutorials/customization/custom-domain.md)!
-  * Add text, images, videos, and more!
-* [Create Custom Community Forums](tutorials/community-website/forum-system.md)
-  * Add forum subjects, topics, replies, and more!
-
-### Why choose Sonoran CMS?
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-### How do I access Sonoran CMS?
-
-* [Website](https://sonorancms.com/)
-* [iOS App Store](https://apps.apple.com/us/app/sonoran-cms/id1576259945)
-* [Google Play Store](https://play.google.com/store/apps/details?id=com.sonorancms\&hl=en_US\&gl=US)
-* [Windows Desktop](https://github.com/Sonoran-Software/SonoranCMS_Windows/releases/latest/download/Sonoran-CMS.exe)
-
-### How do I get started? <a href="#how-do-i-get-started" id="how-do-i-get-started"></a>
-
-Using Sonoran CMS with your community is free, fast, and easy! We've compiled a list of tutorials to help you get started and get the most out of our advanced system:
 
 {% content-ref url="tutorials/getting-started/" %}
 [getting-started](tutorials/getting-started/)
 {% endcontent-ref %}
+
+### 📂 [CMS Document Drive](tutorials/your-drive-and-documents.md)
+
+Manage your community's documents, spreadsheets, and presentations natively in the CMS!
+
+[Create and live edit documents](tutorials/your-drive-and-documents.md) to share with members based on rank. Sonoran CMS allows you to watermark documents as sensitive, organize files with folders, and more!
+
+<figure><img src=".gitbook/assets/CMSDriveUpdate.png" alt=""><figcaption><p>CMS -  Document Drive</p></figcaption></figure>
+
+## 🌐 [Website Builder](tutorials/community-website/website-builder.md) and [Forums](tutorials/community-website/forum-system.md)
+
+Create your own [community website](tutorials/community-website/website-builder.md), all [on your own domain](tutorials/customization/custom-domain.md)!
+
+Create custom pages with community information, multi-media, announcements, and more!
+
+Sonoran CMS even allows you to add [community forums](tutorials/community-website/forum-system.md) for posts, discussions, and more!
+
+![Sonoran CMS - Custom Pages](.gitbook/assets/web-updated.png)
+
+<figure><img src=".gitbook/assets/cms.forums.png" alt=""><figcaption></figcaption></figure>
+
+## 💬 [Discord Role Management](integration-capabilities/discord-bot-integration.md)
+
+Control your member's access to _everything_, just by [changing a Discord role](integration-capabilities/discord-bot-integration.md)!
+
+Or, manage Discord roles right through the CMS!
+
+<figure><img src=".gitbook/assets/crossrolesync-v6.png" alt=""><figcaption></figcaption></figure>
+
+## ✍️ [Custom Applications and Forms](tutorials/forms/creating-custom-forms.md)
+
+[Create fully customizable member applications](tutorials/forms/creating-custom-forms.md), forms for tracking, and more!
+
+Whether it's your own patrol log system with automatic hour calculations, an extensive new member application, or a custom community form, Sonoran CMS allows you to customize it all.
+
+![Sonoran CMS - Custom Forms](.gitbook/assets/Dec23-Forms.png)
+
+## ✅ [In-Game Whitelisting](integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md)
+
+Sonoran CMS is your single point of management for in-game whitelisting! Automatically whitelist players based on CMS rank for [FiveM](integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md), [Minecraft](integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
+
+![Sonoran CMS - Whitelist Management](.gitbook/assets/CMS_Whitelist.png)
+
+## 🔒 [Advanced Security and Alt Account Detection](tutorials/administrative/security-center/)
+
+Sonoran CMS is the best way to ensure your community stays protected. Prevent banned users from ever applying or joining your community again with [advanced alternate account detection](tutorials/administrative/security-center/#account-flags). Or, easily filter and find [user action logs](tutorials/administrative/security-center/#logging-center) throughout your CMS platform.
+
+<figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption><p>Sonoran CMS - Security Center</p></figcaption></figure>
+
+## 🎮 [FiveM Management Panel](integration-capabilities/fivem-game-panel/)
+
+Sonoran CMS manages your entire FiveM server with a [dedicated panel for QBCore, Qbox, and menu servers](integration-capabilities/fivem-game-panel/)!
+
+<figure><img src=".gitbook/assets/fivem_management (1).png" alt=""><figcaption><p>CMS: FiveM Management Panel</p></figcaption></figure>
+
+## 🖥️ [Sonoran CAD Account Management](integration-capabilities/sonoran-cad-sync.md)
+
+Automatically add users to your Sonoran CAD community when you accept their application or manually grant a role!
+
+<figure><img src=".gitbook/assets/BigSquare.png" alt=""><figcaption><p>Sonoran CMS - CAD Auto-Join</p></figcaption></figure>
+
+## 🖥️ [Sonoran CAD Permission Sync](integration-capabilities/sonoran-cad-sync.md)
+
+Remove all the hassle of managing your community's [Sonoran CAD](https://info.sonorancad.com/why-choose-sonoran-cad/about) permissions. Sonoran CMS is now your single point of management!
+
+Sonoran CMS allows you to easily manage your community's Sonoran CAD permissions based on their Sonoran CMS rank automatically!
+
+![Sonoran CMS x Sonoran CAD - Permissions Sync](.gitbook/assets/CMS-CAD-Sync.png)
+
+## [📅](https://emojipedia.org/calendar/) [Event Management](tutorials/community-events.md)
+
+Sonoran CMS makes organizing [community events](tutorials/community-events.md) easy! Manage member RSVPs, event information, Discord webhooks, and more!
+
+<figure><img src=".gitbook/assets/community-events.png" alt=""><figcaption><p>Sonoran CMS - Calendar Features</p></figcaption></figure>
+
+## 📱 [Downloadable Apps](download-the-app.md)
+
+{% content-ref url="download-the-app.md" %}
+[download-the-app.md](download-the-app.md)
+{% endcontent-ref %}
+
+Learn more about accessing and downloading Sonoran CMS on web, desktop, and mobile devices!
+
+It's never been more easy to manage your gaming community, regardless of your platform!
+
+## 🌎 [Full Translation and Locality Support](developer-api-documentation/translation-support.md)
+
+Only Sonoran CMS supports full[ i18n localization](developer-api-documentation/translation-support.md). Regardless of your community's native language, Sonoran CMS supports it!\
+\
+Sonoran CMS translations are made possible by our community contributors! Anyone is allowed to [contribute to our GitHub translation files](https://github.com/Sonoran-Software/sonorancms_translations).
+
+## 📋 [Frequent Updates](roadmap/changelog.md)
+
+As shown in our [changelog](roadmap/changelog.md), new features, fixes, and suggestions are added all the time!

@@ -5,7 +5,7 @@ description: A whitelist system that utilizes Sonoran CMS's game whitelist syste
 # Whitelist
 
 {% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](../../../../other-products/server-hosting.md)!
+Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](broken-reference)!
 {% endhint %}
 
 This whitelist module utilizes Sonoran CMS's to enforce player connections.
