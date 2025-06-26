@@ -151,7 +151,9 @@
 
 ## Roadmap
 
-* [📋 Changelog](roadmap/changelog.md)
+* [Roadmap & Changelog](roadmap/roadmap-and-changelog/README.md)
+  * [🗺️ Roadmap](https://roadmap.sonorancms.com/)
+  * [📋 Changelog](roadmap/roadmap-and-changelog/changelog.md)
 
 ## Pricing
 

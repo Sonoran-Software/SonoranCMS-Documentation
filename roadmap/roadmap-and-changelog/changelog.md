@@ -1329,7 +1329,7 @@ Manual Roster - New Row Modal UI Improvements
 
 Forms Auto-Reply Avatar
 
-* When a form stage adds an automatic reply, the avatar will be the CMS logo or the community logo with [branding removal](../pricing/pricing-faq/branding-removal.md)
+* When a form stage adds an automatic reply, the avatar will be the CMS logo or the community logo with [branding removal](../../pricing/pricing-faq/branding-removal.md)
 
 Forms Editor - Improvements
 
@@ -1850,7 +1850,7 @@ Photo Gallery - Image Uploader
 
 {% tabs %}
 {% tab title="New" %}
-[Security Center - Account Flags](../tutorials/administrative/security-center/account-flags.md)
+[Security Center - Account Flags](../../tutorials/administrative/security-center/account-flags.md)
 
 * Added the base release of the new account flags system for alt account detection.
 
@@ -3131,7 +3131,7 @@ We've reworked out homepage to be more modern and information forward!
 
 {% tabs %}
 {% tab title="New" %}
-[**Sonoran Bot Integration**](../integration-capabilities/discord-bot-integration.md)
+[**Sonoran Bot Integration**](../../integration-capabilities/discord-bot-integration.md)
 
 Name Sync now takes in account the name format set within Community Customization!
 
@@ -3315,7 +3315,7 @@ Filtering and searching for the Accounts viewer has been improved, you can now f
 * Job Management is now achievable within Sonoran CMS, you can now edit/change the job and grades for individual accounts.
 * Search vehicle plates via the Vehicles table
 
-[**Discord Bot**](../integration-capabilities/discord-bot-integration.md)
+[**Discord Bot**](../../integration-capabilities/discord-bot-integration.md)
 
 * Sonoran CMS community names are now able to be synced to your Discord guild(s)
 {% endtab %}
@@ -3341,13 +3341,13 @@ Rosters no longer require a member to be assigned to a row for Custom Rosters, y
 
 * Several aspects of the Rosters Editor has been improved upon for a better UI/UX
 
-[**Discord Webhooks**](../integration-capabilities/discord-webhooks.md)
+[**Discord Webhooks**](../../integration-capabilities/discord-webhooks.md)
 
 You can now select what roles you want to get mentioned with each Discord Webhook log, just select what ranks (supplied by Sonoran Bot) you want mentioned and they'll be sent along with each log!
 
 * Additionally, Minor UI/UX Improvements
 
-[**TeamSpeak Integration**](../integration-capabilities/teamspeak-3-role-sync/)
+[**TeamSpeak Integration**](../../integration-capabilities/teamspeak-3-role-sync/)
 
 You can now select TeamSpeak groups instead of having to manually input UIDs for each one during the role sync setup!
 
@@ -3390,7 +3390,7 @@ There was a hotfix version bump release that was sent to Web, MacOS, and Windows
 
 {% tabs %}
 {% tab title="New" %}
-[**Discord Webhooks**](../integration-capabilities/discord-webhooks.md)
+[**Discord Webhooks**](../../integration-capabilities/discord-webhooks.md)
 
 The input system for webhooks has been completely reworked and streamlined for a easier setup and management. Now you can select channels pulled from all Discord guilds the Sonoran Bot is setup for with your community.
 
@@ -3416,7 +3416,7 @@ All users within communities are now automatically assigned a unique numerical I
 {% endtab %}
 
 {% tab title="Changed" %}
-[**Sonoran CAD Integration**](../integration-capabilities/sonoran-cad-sync.md)
+[**Sonoran CAD Integration**](../../integration-capabilities/sonoran-cad-sync.md)
 
 * Overall page has been reworked for a better UI/UX
 * Setup process have been reworked to follow standardized stepper
@@ -3437,7 +3437,7 @@ All users within communities are now automatically assigned a unique numerical I
 
 {% tabs %}
 {% tab title="New" %}
-[**Rosters Editor**](../tutorials/user-management/creating-custom-rosters.md)
+[**Rosters Editor**](../../tutorials/user-management/creating-custom-rosters.md)
 
 * UI was completely reworked to be more interactive and user-friendly
 * Community Statuses has been moved to the Roster Editor and rebranded to Roster Statuses
@@ -3456,7 +3456,7 @@ All users within communities are now automatically assigned a unique numerical I
 
 * Now forced to the bottom of the screen when there's not enough content on the page
 
-[**Forms**](../tutorials/forms/creating-custom-forms.md)
+[**Forms**](../../tutorials/forms/creating-custom-forms.md)
 
 * You can now reorder forms in and out of folders by simply dragging and dropping to the desired position
 
@@ -3464,22 +3464,22 @@ All users within communities are now automatically assigned a unique numerical I
 
 * Drop downs on mobile will no longer show if there's no options in the dropdown
 
-[**Website Builder - Gallery**](../tutorials/community-website/gallery-system.md)
+[**Website Builder - Gallery**](../../tutorials/community-website/gallery-system.md)
 
 * New gallery categories will now automatically have one image created with it
 {% endtab %}
 
 {% tab title="Fixed" %}
-[**Drive**](../tutorials/your-drive-and-documents.md)
+[**Drive**](../../tutorials/your-drive-and-documents.md)
 
 * Preview images were not getting generated upon saves
 * Manually saving (Ctrl + S) a document, slideshow, etc. would throw an error despite successfully saving
 
-[**Clock In/Out**](../tutorials/forms/clock-in-out-system.md)
+[**Clock In/Out**](../../tutorials/forms/clock-in-out-system.md)
 
 * Adding a clock in/out note after clocking in would add the note to the clock in/out previously created
 
-[**Profile - Change Name**](../tutorials/user-management/viewing-a-community-profile.md)
+[**Profile - Change Name**](../../tutorials/user-management/viewing-a-community-profile.md)
 
 * Despite having the _Allow Members to Customize Name_ users wouldn't be able to change their name
 
@@ -3534,21 +3534,21 @@ All users within communities are now automatically assigned a unique numerical I
 
 [**Integrations**](broken-reference)
 
-* [GTA RP - CMS Core](../integration-capabilities/in-game-integration-resources/core/core-submodules/)
+* [GTA RP - CMS Core](../../integration-capabilities/in-game-integration-resources/core/core-submodules/)
   * You can now download the GTA RP CMS Core directly from the Integrations Portal, it will be downloaded with your community credentials already inputted into your config.
 {% endtab %}
 
 {% tab title="Changed" %}
-[**Custom Domain**](../tutorials/customization/custom-domain.md)
+[**Custom Domain**](../../tutorials/customization/custom-domain.md)
 
 * Custom domains now go through a more thorough DNS record check to ensure domains are assigned to the proper communities.
 
-[**Drive**](../tutorials/your-drive-and-documents.md)
+[**Drive**](../../tutorials/your-drive-and-documents.md)
 
 * Several aspects of the Drive UI have been improved for a better UI/UX.
 * Several actions on the Drive UI have been reworked to handle auto-saving instead of manual saves.
 
-[**API Integration**](../developer-api-documentation/api-integration/)
+[**API Integration**](../../developer-api-documentation/api-integration/)
 
 * Servers managing has been reworked to handle auto-saving instead of manual saving.
 {% endtab %}
@@ -3643,11 +3643,11 @@ There was a hotfix version bump release that was sent to all non-web version pla
 {% endtab %}
 
 {% tab title="Changed" %}
-[**Discord Integration** - **Webhooks**](../integration-capabilities/discord-webhooks.md)
+[**Discord Integration** - **Webhooks**](../../integration-capabilities/discord-webhooks.md)
 
 Discord Webhook Notification editor UI has been completely reworked for a better UI/UX, editing should now auto-save instead of requiring a manual save.
 
-[**API Integration**](../developer-api-documentation/api-integration/)
+[**API Integration**](../../developer-api-documentation/api-integration/)
 
 Servers editor for API Integration has been completely reworked for a clearer and better UI/UX.
 {% endtab %}
@@ -3659,7 +3659,7 @@ Servers editor for API Integration has been completely reworked for a clearer an
 * Duplicating rank wouldn't trigger a auto-save.
 * Delete a rank wouldn't give a clear indicator whether it's been processed or not.
 
-[**Website Builder**](../tutorials/community-website/website-builder.md)
+[**Website Builder**](../../tutorials/community-website/website-builder.md)
 
 * Changing a `image` component will not properly change the image instead of applying it as a background to the existing placeholder image.
 {% endtab %}
@@ -3855,7 +3855,7 @@ Initial functionality includes:
 
 More functionality is planned for weekly releases! The CMS QB Core management panel will soon be your single management point for your QB server!
 
-[**Community Creation**](../tutorials/getting-started/registering-your-community.md)
+[**Community Creation**](../../tutorials/getting-started/registering-your-community.md)
 
 The Community Creation UI has been completely reworked, now walking new users through a guided process to upload and customize logos, descriptions, and more.
 
@@ -3889,7 +3889,7 @@ Increased spacing between toolbar items for more clear separation.
 
 {% tabs %}
 {% tab title="New" %}
-[**Community Customization**](../tutorials/customization/)
+[**Community Customization**](../../tutorials/customization/)
 
 The entire Community Customization UI has been completely reworked from the ground up, focused on an improved UI/UX.
 
@@ -3925,7 +3925,7 @@ A new Integrations Portal has been introduced, this portal houses all integratio
 
 {% tabs %}
 {% tab title="New" %}
-[**Website Builder** - **New Elements**](../tutorials/community-website/website-builder.md)
+[**Website Builder** - **New Elements**](../../tutorials/community-website/website-builder.md)
 
 _Static Image Carousel_
 
@@ -3947,7 +3947,7 @@ HTML Embed allows more in-depth customization to your website pages, easily embe
 
 The ability to copy and paste permissions between ranks/departments has been re-implemented from being removed in the last update.
 
-[**Toolbar**](../tutorials/community-website/website-builder.md#toolbar)
+[**Toolbar**](../../tutorials/community-website/website-builder.md#toolbar)
 
 _Drive Document_
 
@@ -3955,13 +3955,13 @@ A new destination type has been added to the toolbar item options, you can now s
 {% endtab %}
 
 {% tab title="Changed" %}
-[**Website Builder**](../tutorials/community-website/website-builder.md)
+[**Website Builder**](../../tutorials/community-website/website-builder.md)
 
 * Editing an element's sizing will change the current preview size shown within the editor.
 * Removed excess spacing on the sides while viewing on a mobile sized screen.
 * Pop-up editing of elements have been reworked and improved for a better user experience.
 
-[**Forms Editor**](../tutorials/forms/creating-custom-forms.md)
+[**Forms Editor**](../../tutorials/forms/creating-custom-forms.md)
 
 * Utility Toolbar has been reworked and improved for a better user experience.
 
@@ -3973,11 +3973,11 @@ A new destination type has been added to the toolbar item options, you can now s
 
 * The Sonoran CAD button now has the correct hyperlink destination
 
-[**Direct Form URLs**](../tutorials/forms/)
+[**Direct Form URLs**](../../tutorials/forms/)
 
 When linking an individual a direct apply link to a form it would it just take them to the Available Forms and not display anything. Now it'll notify they must be signed in and will easily direct them to login and take them back to the same page once signed in.
 
-[**Forums**](../tutorials/community-website/forum-system.md)
+[**Forums**](../../tutorials/community-website/forum-system.md)
 
 Forums no longer require individuals to be signed in to just view a category and forums element.
 {% endtab %}
@@ -3997,7 +3997,7 @@ Forums no longer require individuals to be signed in to just view a category and
 
 The Community Template feature has been removed for the time being, we've reworked the default template to be fully customized to easily see the full capabilities of the system and an easier customization transition. Newly created communities will now come with departments, rosters, pages, etc. fully customized to be used out of the box or customized further to fit your needs.
 
-[**Forms Editor**](../tutorials/forms/creating-custom-forms.md)
+[**Forms Editor**](../../tutorials/forms/creating-custom-forms.md)
 
 The Forms Editor has been reworked to take after the ease of use and customization the Website Builder brings. The entire UI has been reworked and now includes the majority of customization capabilities of the Website Builder for forms.
 
@@ -4039,13 +4039,13 @@ We're making Sonoran CMS more accessible than ever before, with all functionalit
 
 View our [notice](broken-reference) for more information.
 
-[**Website Builder**](../tutorials/community-website/website-builder.md)
+[**Website Builder**](../../tutorials/community-website/website-builder.md)
 
 Background images now have different handling to better allow more customization on how they view, you can now change how the image shows across the background.
 {% endtab %}
 
 {% tab title="Changed" %}
-[**Website Builder**](../tutorials/community-website/website-builder.md)
+[**Website Builder**](../../tutorials/community-website/website-builder.md)
 
 Side toolbar is now scrollable
 
@@ -4063,21 +4063,21 @@ When editing an individual account there will no longer be an option to change b
 
 {% tabs %}
 {% tab title="New" %}
-[**Custom Forms**](../tutorials/forms/creating-custom-forms.md)
+[**Custom Forms**](../../tutorials/forms/creating-custom-forms.md)
 
 Custom Forms now have new element type, uploader. This accepts images and PDFs but is configurable per element. Easily have your users upload images or PDFs to be viewable directly within the submission.
 
-[**Profile Fields**](../tutorials/customization/community-profile-fields.md)
+[**Profile Fields**](../../tutorials/customization/community-profile-fields.md)
 
 Two new profile field types have been added, Discord and TeamSpeak. These two types are apart of the new _verified_ profile types. These will be automatically grabbed from the account without any user interaction or input.
 
-[**Toolbar Editing**](../tutorials/community-website/website-builder.md#toolbar)
+[**Toolbar Editing**](../../tutorials/community-website/website-builder.md#toolbar)
 
 The toolbar editor has been moved from Customization to the Website Builder.
 
 Additionally the toolbar now supports background color, individual font and text-color customization, and easy drag and drop support. You can now rearrange your toolbar including the community image easily to how you desire.&#x20;
 
-[**TeamSpeak 3 Sync**](../integration-capabilities/teamspeak-3-role-sync/)
+[**TeamSpeak 3 Sync**](../../integration-capabilities/teamspeak-3-role-sync/)
 
 You can now sync your Sonoran CMS ranks directly to your TeamSpeak 3 server's groups! This will automatically add/remove TS server groups from individuals that are configured to be set with their associated ranks.
 {% endtab %}
@@ -4093,7 +4093,7 @@ Custom page backgrounds now extend to the entire body of the page instead of the
 
 {% tabs %}
 {% tab title="New" %}
-[**Website Builder**](../tutorials/community-website/website-builder.md)
+[**Website Builder**](../../tutorials/community-website/website-builder.md)
 
 The existing Custom Page Editor has been rebranded to the Website Builder.
 
@@ -4124,7 +4124,7 @@ All areas where an icon would be expected to be supplied it has been reworked to
 
 {% tabs %}
 {% tab title="New" %}
-[**Custom Page Editor**](../tutorials/community-website/website-builder.md)
+[**Custom Page Editor**](../../tutorials/community-website/website-builder.md)
 
 The Custom Page Editor has been thoroughly reworked to allow for more styling specifically to sections and elements within sections. With this rework we've revamped the structures of pages and all existing pages have been migrated over to the new page system. Pages are now constructed of individual sections which house elements. All existing pages were updated to move all pre-existing sections into one section and converted to elements. Now customize the padding, margin, alignment, etc. of sections, we've also included background color and images to sections and elements!
 
@@ -4154,23 +4154,23 @@ Forms could not be submitted from _Available Forms_ or directly linked, this iss
 
 {% tabs %}
 {% tab title="New" %}
-[**Department Editor**](../tutorials/user-management/creating-departments.md#4.-customize-rank-cosmetic-styling)
+[**Department Editor**](../../tutorials/user-management/creating-departments.md#4.-customize-rank-cosmetic-styling)
 
 The customization workflow for Department Rank's has been improved, you can now directly upload an image or choose from thousands of icons for your rank cosmetic icon.
 
-[**Community Transfers**](../tutorials/administrative/delete-community.md#how-to-transferring-a-community)
+[**Community Transfers**](../../tutorials/administrative/delete-community.md#how-to-transferring-a-community)
 
 Community Owner's can now transfer their community to anyone that's currently active within the community, the owner must complete a confirmation before the transfer is complete.
 
-[**Custom Page Editor - UI**](../tutorials/community-website/website-builder.md)
+[**Custom Page Editor - UI**](../../tutorials/community-website/website-builder.md)
 
 The entire Custom Page Editor UI has been reworked to become more of a _website editor_ than a custom form editor. This new UI allows for easy sorting of sections by dragging and dropping and an overall better user experience. This new UI is one of many improvements we plan on bringing to Custom Pages.
 
-[**Direct Form Submission Links**](../tutorials/forms/creating-custom-forms.md#sharing-direct-submission-access)
+[**Direct Form Submission Links**](../../tutorials/forms/creating-custom-forms.md#sharing-direct-submission-access)
 
 You can now share a direct link to a Custom Form to be submitted from, this should help with recruitment as it will take them straight to filling out the form. This URL can be found in the Custom Forms area prior to selecting a form to edit.
 
-[**Discord Sync**](../integration-capabilities/discord-bot-integration.md)
+[**Discord Sync**](../../integration-capabilities/discord-bot-integration.md)
 
 Discord Sync has now been made available to all Free communities using Sonoran CMS, regardless of Sonoran CMS community premium status.
 {% endtab %}
@@ -4186,7 +4186,7 @@ The top header would be oddly positioned and would have text be misaligned.
 
 {% tabs %}
 {% tab title="New" %}
-[**Toolbar**](../tutorials/customization/community-branding-and-settings.md#toolbar)\
+[**Toolbar**](../../tutorials/customization/community-branding-and-settings.md#toolbar)\
 The existing side-menu that was positioned to the left of the Community pages was removed and migrated to the top toolbar. Now all navigation goes through the top navigation bar, allowing full customization for how your navigation is designed and organized.
 
 * **Clock In/Out** is now located between the Admin cog (if enabled & viewable) and the Notification Center icon located on the right side of the toolbar.
@@ -4194,7 +4194,7 @@ The existing side-menu that was positioned to the left of the Community pages wa
   * Drive, Available Forms, Form Management, etc. are now toolbar options for all existing communities from this update. Feel free to update your toolbar to remove these options if not desired.
 * **Community Settings** to edit your API IDs, refresh CAD Sync, etc. has been moved to the top-right dropdown menu where you can navigate to Community Discovery, My Communities, etc.
 
-[**CAD Sync**](../integration-capabilities/sonoran-cad-sync.md)\
+[**CAD Sync**](../../integration-capabilities/sonoran-cad-sync.md)\
 CAD Sync has now been made available to all Free communities using Sonoran CMS, regardless of Sonoran CAD community premium status. Use the full capabilities of CAD Sync without needing a premium subscription.
 {% endtab %}
 
@@ -4231,19 +4231,19 @@ Specific Form's would not all show in the Form Management filtering selector.
 
 {% tabs %}
 {% tab title="New" %}
-[**Calendar** RSVP Limits](../tutorials/community-events.md#regarding-rsvp-limit)
+[**Calendar** RSVP Limits](../../tutorials/community-events.md#regarding-rsvp-limit)
 
 Calendar events can now be RSVP limited, you can now set how many members can RSVP to an individual event.
 
 **API Endpoints**
 
-[**Event RSVP**](../developer-api-documentation/api-integration/api-endpoints/events/rsvp.md)
+[**Event RSVP**](../../developer-api-documentation/api-integration/api-endpoints/events/rsvp.md)
 
-[**Drive** Downloads](../tutorials/your-drive-and-documents.md#drive-downloads)
+[**Drive** Downloads](../../tutorials/your-drive-and-documents.md#drive-downloads)
 
 Additional file types can now be uploaded and downloaded directly from the Sonoran CMS Drive. Any **.rpf**, **.wav**, **.mp3**, **.zip**, and **.pdf** are accepted. They aren't "viewable" but are able to be downloaded easily. Additionally there's now a download URL that can be copied for the _downloadable_ file types as described above.
 
-[**Community Gallery**](../tutorials/community-website/gallery-system.md)
+[**Community Gallery**](../../tutorials/community-website/gallery-system.md)
 
 A new **Custom Page Element** has been added for additional customization and content. We've added the first of many elements apart of the new Gallery system. This system is designed heavily after the Forum system, as far as handling. Each element requires it to be associated to a _Gallery category_, with further customization and elements coming in later updates. This new element will show your images in a larger slide show with also listing all the gallery posts associated to the category. These gallery categories can be restricted as far as who can upload.
 {% endtab %}
@@ -4267,7 +4267,7 @@ Mobile UI/UX has been improved in several areas to better adapt to smaller scree
 
 {% tabs %}
 {% tab title="New" %}
-[**Archive Community Member**](../tutorials/administrative/archive-community-member.md)
+[**Archive Community Member**](../../tutorials/administrative/archive-community-member.md)
 
 Community member's can now be archived, this is _kick_ from the community but sets the member in a archived state where their profile and information is still accessible. This should allow communities to better organize member's that have left and will allow you to easily see their information by viewing their profile even after they're gone.
 
@@ -4277,14 +4277,14 @@ Community member's can now be archived, this is _kick_ from the community but se
 
 **Custom Profile Fields**
 
-[_Text Array Profile Field Type_](../tutorials/customization/community-profile-fields.md#text-array-profile-field-editing)\
+[_Text Array Profile Field Type_](../../tutorials/customization/community-profile-fields.md#text-array-profile-field-editing)\
 A new profile field type has been added; Text Array. This new field type allows you to store several entries of information on one specific field.
 
 **API Endpoints**
 
-[**Get Profile Fields Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/get-departments-1.md)
+[**Get Profile Fields Endpoint**](../../developer-api-documentation/api-integration/api-endpoints/general/get-departments-1.md)
 
-[**Edit Account Profile Fields Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/ban-account-1.md)
+[**Edit Account Profile Fields Endpoint**](../../developer-api-documentation/api-integration/api-endpoints/general/ban-account-1.md)
 {% endtab %}
 
 {% tab title="Changed" %}
@@ -4389,13 +4389,13 @@ Premade form sections were removed during the rework of the Custom Forms & Stage
 {% tab title="New" %}
 **Expiring Ranks**
 
-Ranks can now be applied to [individuals manually](../tutorials/user-management/modify-users-permissions-and-information.md#granting-expiring-ranks) or through [stage actions](../tutorials/forms/creating-custom-forms.md#action-explanation-change-submitters-department-rank) to set a rank to expire, the rank will automatically be removed upon the next check (every fetch for the account) if found expired. Ranks can be set to expire after X amount of hours/days or by a exact time/day that you set.
+Ranks can now be applied to [individuals manually](../../tutorials/user-management/modify-users-permissions-and-information.md#granting-expiring-ranks) or through [stage actions](../../tutorials/forms/creating-custom-forms.md#action-explanation-change-submitters-department-rank) to set a rank to expire, the rank will automatically be removed upon the next check (every fetch for the account) if found expired. Ranks can be set to expire after X amount of hours/days or by a exact time/day that you set.
 
 **Account Avatars**
 
 Customizable account avatars have now been implemented, all areas within the Sonoran CMS should now support the customizable avatar. You can now set your avatar [here](https://account.sonoransoftware.com/).
 
-[**Discord Webhooks**](../integration-capabilities/discord-webhooks.md)
+[**Discord Webhooks**](../../integration-capabilities/discord-webhooks.md)
 
 A new webhook event has been added, **Member Join**. This webhook will fire when a member joins your Sonoran CMS community.
 
@@ -4432,11 +4432,11 @@ Account editing UI has been slightly reworked to adapt to the new Expiring Ranks
 
 {% tabs %}
 {% tab title="New" %}
-[**Custom Page Paths**](../tutorials/community-website/website-builder.md#custom-page-paths)
+[**Custom Page Paths**](../../tutorials/community-website/website-builder.md#custom-page-paths)
 
 Custom pages can now have a custom path slug to further customize your pages. These path slugs will replace the number ID that is given by default for all custom pages. These paths support custom domains, example: `lspd/sop` would append to a custom domain such as `cms.sonoranrp.com/lspd/sop`.
 
-[**Custom Form Folders**](../tutorials/forms/creating-custom-forms.md#custom-form-folders)
+[**Custom Form Folders**](../../tutorials/forms/creating-custom-forms.md#custom-form-folders)
 
 Custom Forms can now be organized within folders, folders are simply for organizational purposes and serve no additional purposes.
 
@@ -4446,9 +4446,9 @@ Our home page has been reworked to provide a more user-friendly and informationa
 
 **API Endpoints**
 
-[**Kick Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/kick-account.md)
+[**Kick Endpoint**](../../developer-api-documentation/api-integration/api-endpoints/general/kick-account.md)
 
-[**Ban Endpoint**](../developer-api-documentation/api-integration/api-endpoints/general/ban-account.md)
+[**Ban Endpoint**](../../developer-api-documentation/api-integration/api-endpoints/general/ban-account.md)
 
 **API Integration**
 
@@ -4470,7 +4470,7 @@ Automatic Department Roster's have been reworked to improve reliability and perf
 
 {% tabs %}
 {% tab title="New" %}
-[**Automatic Rosters**](../tutorials/user-management/creating-custom-rosters.md#department-automatic)
+[**Automatic Rosters**](../../tutorials/user-management/creating-custom-rosters.md#department-automatic)
 
 Rosters have been reworked to add additional functionality and purpose. All existing rosters have been moved to the type of "Custom", this type is considered for all rosters that will allow you to add and remove rows as you please. With this change the previous _Department_ and _Sub-Department_ type have been deprecated.\
 \
@@ -4482,7 +4482,7 @@ A new roster type, Department, was added to replace the previous _Department_ ro
 
 Filtering forms to show only **Deleted Forms** would show no forms despite fetching all deleted forms.
 
-[**Custom Forms**](../tutorials/forms/creating-custom-forms.md)
+[**Custom Forms**](../../tutorials/forms/creating-custom-forms.md)
 
 An internal ID was not setting correctly upon save which would make the form no longer editable or usable.
 
@@ -4496,7 +4496,7 @@ Menu items would not correctly evaluate permissions.
 
 {% tabs %}
 {% tab title="New" %}
-[**Form Submission Limits**](../tutorials/forms/creating-custom-forms.md#limiting-form-submissions)
+[**Form Submission Limits**](../../tutorials/forms/creating-custom-forms.md#limiting-form-submissions)
 
 Custom Form Templates now have limit settings, these settings will allow you to customize how your forms are being submitted. This allows for submissions to be limited to a certain amount per user, within the last X days, and even with a cooldown between submissions.
 
@@ -4505,7 +4505,7 @@ Custom Form Templates now have limit settings, these settings will allow you to 
 * Submission Cooldown
 * Limit Within Last X Days
 
-[**Department Rank Cosmetic Customization**](../tutorials/user-management/creating-departments.md#4.-customize-rank-cosmetic-styling)
+[**Department Rank Cosmetic Customization**](../../tutorials/user-management/creating-departments.md#4.-customize-rank-cosmetic-styling)
 
 Department ranks now have cosmetic styling, this cosmetic addition is only shown when viewing Forum Topic's but will be expanded upon as UI is needed. This customization allows you to change the background color and icon associated with it.
 
@@ -4540,7 +4540,7 @@ Account Info
 
 {% tabs %}
 {% tab title="New" %}
-[Forum System](../tutorials/community-website/forum-system.md)
+[Forum System](../../tutorials/community-website/forum-system.md)
 
 The user interface for the Forum System has been completely revamped, improving the individual topic viewing and forum categories pages.
 
@@ -4573,7 +4573,7 @@ Account Viewer Table
 
 {% tabs %}
 {% tab title="New" %}
-[Custom Login Page](../tutorials/customization/custom-domain.md#custom-login-page)
+[Custom Login Page](../../tutorials/customization/custom-domain.md#custom-login-page)
 
 The custom login page has been completely revamped, the old login page has been deprecated and have been moved to the top toolbar & community dashboards.
 
@@ -4583,7 +4583,7 @@ The custom login page has been completely revamped, the old login page has been 
 {% endtab %}
 
 {% tab title="Fixed" %}
-[Discord Webhooks](../integration-capabilities/discord-webhooks.md)
+[Discord Webhooks](../../integration-capabilities/discord-webhooks.md)
 
 * Account Updated webhook would not show the correct ranks/departments the account is associated with.
 * Event webhooks would include raw HTML within the event description.
@@ -4596,11 +4596,11 @@ The custom login page has been completely revamped, the old login page has been 
 
 {% tabs %}
 {% tab title="New" %}
-[Dashboard](../tutorials/community-website/website-builder.md#default-dashboard-page)
+[Dashboard](../../tutorials/community-website/website-builder.md#default-dashboard-page)
 
 The community Dashboard / Landing page has been completely reworked, this now allows for the full customization of the Custom Page Editor. Set any existing custom page as your community's dashboard page.
 
-[Custom Page Editor](../tutorials/community-website/website-builder.md#page-editing)
+[Custom Page Editor](../../tutorials/community-website/website-builder.md#page-editing)
 
 * New Page Section Type
   * Information Block
@@ -4632,17 +4632,17 @@ Admin Routes
 
 {% tabs %}
 {% tab title="New" %}
-[Sonoran CAD Integration](../integration-capabilities/sonoran-cad-sync.md#feature-overview)
+[Sonoran CAD Integration](../../integration-capabilities/sonoran-cad-sync.md#feature-overview)
 
 * **Multi-Setup Sync**
 
 Sync your single Sonoran CMS community to multiple Sonoran CAD communities!
 
-[Navigation Button Visibility](../tutorials/community-website/navigation-sidebar.md)
+[Navigation Button Visibility](../../tutorials/community-website/navigation-sidebar.md)
 
 Navigation items on the sidebar can now be dynamically shown based upon permissions. Documentation explains how each navigation item is permission evaluated.
 
-[Privatized Pages](../tutorials/community-website/website-builder.md#privatized-pages)
+[Privatized Pages](../../tutorials/community-website/website-builder.md#privatized-pages)
 
 Pages can now be privatized and require permissions to view, this view type can be changed in the page editor.
 
@@ -4652,13 +4652,13 @@ The _Available Forms_ area is now in a grid UI.
 {% endtab %}
 
 {% tab title="Fixed" %}
-[Whitelist API](../developer-api-documentation/api-integration/api-endpoints/servers/verify-whitelist.md)
+[Whitelist API](../../developer-api-documentation/api-integration/api-endpoints/servers/verify-whitelist.md)
 
 Reponses have been fixed to be consistent and adjusted to provide reliablity to the in-game resource(s).
 {% endtab %}
 
 {% tab title="Changed" %}
-[Sonoran CAD Integration](../integration-capabilities/sonoran-cad-sync.md#feature-overview)
+[Sonoran CAD Integration](../../integration-capabilities/sonoran-cad-sync.md#feature-overview)
 
 * Individual Manual Sync
   * CAD Sync button located in the Account Settings dialog
@@ -4671,7 +4671,7 @@ Member's can now manually sync their Sonoran CMS account with the linked Sonoran
 
 {% tabs %}
 {% tab title="New" %}
-[Sonoran CAD Integration](../integration-capabilities/sonoran-cad-sync.md#feature-overview)
+[Sonoran CAD Integration](../../integration-capabilities/sonoran-cad-sync.md#feature-overview)
 
 * **API ID Sync**
 
@@ -4681,13 +4681,13 @@ Sync member's API IDs to the same user from your Sonoran CAD community, if they 
 
 All new members that join your community automatically join your Sonoran CAD community under the same user ID.
 
-[Member Join Customization](../tutorials/customization/community-branding-and-settings.md#member-on-join-settings)
+[Member Join Customization](../../tutorials/customization/community-branding-and-settings.md#member-on-join-settings)
 
 Through the newly added "Member On Join Settings" you can customize whether members join with "ACTIVE" status, if "ACTIVE" is selected you can customize a rank which they'll be automatically granted.
 {% endtab %}
 
 {% tab title="Fixed" %}
-[Custom Forms](../tutorials/forms/creating-custom-forms.md)
+[Custom Forms](../../tutorials/forms/creating-custom-forms.md)
 
 * Forms submitted would not be able to be replied to by the author of the form
 * Forms would not be able to be submitted at all
@@ -4702,23 +4702,23 @@ Department Permissions
 
 {% tabs %}
 {% tab title="New" %}
-[Discord Webhooks](../integration-capabilities/discord-webhooks.md)
+[Discord Webhooks](../../integration-capabilities/discord-webhooks.md)
 
 * A new webhook option was added for when submitted forms get their stage changed, a new webhook option is added solely for this event.
 
-[Page Re-ordering](../tutorials/community-website/website-builder.md#sorting-pages)
+[Page Re-ordering](../../tutorials/community-website/website-builder.md#sorting-pages)
 
 * The ability to sort the position of the pages in which they appear in lists.
 
-[Form Re-ordering](../tutorials/forms/creating-custom-forms.md#sorting-forms)
+[Form Re-ordering](../../tutorials/forms/creating-custom-forms.md#sorting-forms)
 
 * The ability to sort the position of the forms in which they appear in Available Forms.
 
-[Conditional Custom Form Sections](../tutorials/forms/creating-custom-forms.md#conditional-sections)
+[Conditional Custom Form Sections](../../tutorials/forms/creating-custom-forms.md#conditional-sections)
 
 * Dynamically show sections within your custom forms based upon conditions set that require to be met with the specified field.
 
-[Member Customization](../tutorials/customization/community-branding-and-settings.md#community-name-customization)
+[Member Customization](../../tutorials/customization/community-branding-and-settings.md#community-name-customization)
 
 * Allow members to customize their community name's, this setting is community wide.
 {% endtab %}
@@ -4738,7 +4738,7 @@ Rosters
 
 {% tabs %}
 {% tab title="Fixed" %}
-[Discord Webhooks](../integration-capabilities/discord-webhooks.md)
+[Discord Webhooks](../../integration-capabilities/discord-webhooks.md)
 
 * Webhook preference would appear to not be "saved" when switching pages, data was not updated locally upon backend change.
 
@@ -4771,13 +4771,13 @@ Forms
 
 {% tabs %}
 {% tab title="New" %}
-[Forum System](../tutorials/community-website/forum-system.md)
+[Forum System](../../tutorials/community-website/forum-system.md)
 
 Several new changes have been added to the forum system;
 
-* [Sub-Categories](../tutorials/community-website/forum-system.md#creating-forum-sub-categories)
-* [Topic Attachments](../tutorials/community-website/forum-system.md#topic-creation-forum-topic-attachments)
-* [Private Topics](../tutorials/community-website/forum-system.md#creating-private-topics)
+* [Sub-Categories](../../tutorials/community-website/forum-system.md#creating-forum-sub-categories)
+* [Topic Attachments](../../tutorials/community-website/forum-system.md#topic-creation-forum-topic-attachments)
+* [Private Topics](../../tutorials/community-website/forum-system.md#creating-private-topics)
 * Discord Webhooks
   * A new section has been added to the Discord Logging Webhook editor, Forums. This allows webhooks to be executed on Topic Creation & Reply Creation.
 
@@ -4805,12 +4805,12 @@ Community Toolbar
 
 {% tabs %}
 {% tab title="New" %}
-[Forum System](../tutorials/community-website/forum-system.md)
+[Forum System](../../tutorials/community-website/forum-system.md)
 
 Several new changes have been added to the forum system;
 
-* [Dedicated Forum Category Page](../tutorials/community-website/forum-system.md#dedicated-forum-category-page)
-* [Topic Pinning & Locking](../tutorials/community-website/forum-system.md#topic-actions-pin-and-lock)
+* [Dedicated Forum Category Page](../../tutorials/community-website/forum-system.md#dedicated-forum-category-page)
+* [Topic Pinning & Locking](../../tutorials/community-website/forum-system.md#topic-actions-pin-and-lock)
 * Improved UI
   * Forum Category Topics Table
   * Usernames within the Forum System will show with community name and identifier format as well as their primary rank if assigned
@@ -4834,7 +4834,7 @@ Custom Forms
 {% endtab %}
 
 {% tab title="Changed" %}
-[Forum System](../tutorials/community-website/forum-system.md)
+[Forum System](../../tutorials/community-website/forum-system.md)
 
 **Delete Topics** permission section for forum category's has been moved to **Manage Topics** allowing that same permission section to handle topic deletion, pinning and locking.\
 **Delete Topics -> Manage Topics**
@@ -4845,7 +4845,7 @@ Custom Forms
 
 {% tabs %}
 {% tab title="New" %}
-[Forum System](../tutorials/community-website/forum-system.md)
+[Forum System](../../tutorials/community-website/forum-system.md)
 
 A new Forum System has been implemented; allows communities to create categories that can be used across multiple or individual custom pages in the form of a custom page section. Each category can have topics created within them, each topic can be removed and replied to. Permissions to create and manage topics/replies is handled by the forum category.
 {% endtab %}
@@ -4877,7 +4877,7 @@ Accounts Viewer
 
 {% tabs %}
 {% tab title="New" %}
-[Community Customization](../tutorials/customization/community-branding-and-settings.md)
+[Community Customization](../../tutorials/customization/community-branding-and-settings.md)
 
 * Cosmetic
   * You can now add a community "banner" image, currently this banner image only displays with the notification message sent with bumping your community for discovery.
@@ -4887,7 +4887,7 @@ Accounts Viewer
 * Bumping
   * Bumping your community will now include your community's banner image upon bump. If no banner image is set it won't include any image.
 
-[Custom Pages](../tutorials/community-website/website-builder.md)
+[Custom Pages](../../tutorials/community-website/website-builder.md)
 
 * Page Elements
   * Two new page elements have been added, `Button` and `Button Group`. Both these elements can be added to any custom page. Each button's functionality and style can be configured to fit your needs. Buttons can target to a external website, custom form and custom page.
@@ -4912,12 +4912,12 @@ Accounts Viewer
 
 {% tabs %}
 {% tab title="Fixed" %}
-[Community Drive](../tutorials/your-drive-and-documents.md)
+[Community Drive](../../tutorials/your-drive-and-documents.md)
 
 * Editing Files
   * An issue which would cause files to not be edited within the member editing page but would still allow edits through the public-sided edit file page.
 
-[Discord Webhook Logging](../integration-capabilities/discord-webhooks.md)
+[Discord Webhook Logging](../../integration-capabilities/discord-webhooks.md)
 
 * Editor
   * An issue which would cause the webhook input editor to not load fully or at all.
@@ -4929,12 +4929,12 @@ Accounts Viewer
 * Bump System
   * An issue which would cause the Discord advertisement webhook message to include various programmatic types within the message such as '\[object Object]' & 'undefined'.
 
-[Community Member Profile](../tutorials/customization/community-profile-fields.md)
+[Community Member Profile](../../tutorials/customization/community-profile-fields.md)
 
 * Forms
   * An issue which would cause individuals to be unable to submit forms directly onto another user's profile to attach it to their profile.
 
-[Rosters](../tutorials/user-management/creating-custom-rosters.md)
+[Rosters](../../tutorials/user-management/creating-custom-rosters.md)
 
 * Column Types
   * Community Identifier row columns would not populate with a user's primary identifier properly unless the conditions which very specific.
@@ -5003,7 +5003,7 @@ Community Deletion
 
 {% tabs %}
 {% tab title="New" %}
-[Community Profile Fields](../tutorials/customization/community-profile-fields.md)
+[Community Profile Fields](../../tutorials/customization/community-profile-fields.md)
 
 Profile Fields allow communities to put direct information onto member's profiles that can be restricted to certain viewers, editors, etc. with rank permissions. Profile Fields are dynamically on profiles depending on what ranks the profile you're viewing holds.
 {% endtab %}
@@ -5023,9 +5023,9 @@ Community Profile
 
 {% tabs %}
 {% tab title="New" %}
-[Drive](../tutorials/your-drive-and-documents.md#folders)
+[Drive](../../tutorials/your-drive-and-documents.md#folders)
 
-* [Publicly Accessible Files](../tutorials/your-drive-and-documents.md#publicly-accessible-files)
+* [Publicly Accessible Files](../../tutorials/your-drive-and-documents.md#publicly-accessible-files)
   * Files can now be accessible by anyone on the internet by a share link.
   * A new "General Access" option has been added, "Anyone with this link".
   * This will allow anyone to view and/or edit the file through the link given from the "Copy Link" button on the Share Settings dialog.
@@ -5059,9 +5059,9 @@ Toolbar
 
 {% tabs %}
 {% tab title="New" %}
-[Drive Enhancements](../tutorials/your-drive-and-documents.md#folders)
+[Drive Enhancements](../../tutorials/your-drive-and-documents.md#folders)
 
-* [Share Settings Overhaul](../tutorials/your-drive-and-documents.md#share-settings)
+* [Share Settings Overhaul](../../tutorials/your-drive-and-documents.md#share-settings)
   * The Share Settings for each drive item has been overhauled, this shows all ranks that have access and some general share types.
   * There's now a "Ranks with Access Permissions", this will allow all listed ranks to have either edit or view access. This will grant them access regardless of what General Access is set to. This also has a "Inherit Parent Folder Access Permissions" option, this will only show for non-root items and this will inherit the parent folder's access permissions to determine with the drive items existing access permissions.
   * There's now several General Access types:
@@ -5108,7 +5108,7 @@ Drive Uploading
 
 {% tabs %}
 {% tab title="New" %}
-[Drive Folder Permissions Expansion](../tutorials/your-drive-and-documents.md#folders)
+[Drive Folder Permissions Expansion](../../tutorials/your-drive-and-documents.md#folders)
 
 * Folders can now have their own Share Type & Permissions associated with them.
   * Right click a folder to manage.
@@ -5147,7 +5147,7 @@ Account Viewer
 
 {% tabs %}
 {% tab title="New" %}
-[Discord Role Sync](../integration-capabilities/discord-bot-integration.md)
+[Discord Role Sync](../../integration-capabilities/discord-bot-integration.md)
 
 * A system was introduced to handle Discord Role Sync upon the release of the Sonoran Bot's newest update
 * This will allow bi-directional syncing
@@ -5155,7 +5155,7 @@ Account Viewer
 * Utilizes your Sonoran Account Discord Link
   * Does not handle API ID's of Discord ID's, it will only search and grab the Discord account linked to your Sonoran Account
 
-[API Endpoints](../developer-api-documentation/api-integration/api-endpoints/)
+[API Endpoints](../../developer-api-documentation/api-integration/api-endpoints/)
 
 * `GET_DEPARTMENTS`
 * `SET_ACCOUNT_RANKS`
@@ -5206,7 +5206,7 @@ WS Stability
 {% tab title="New" %}
 Drive
 
-* [File Uploading](../tutorials/your-drive-and-documents.md#uploading-batch-files-zip) now supports **ZIP**s, this means you can bulk import files from popular file hosting services such as Google Drive.
+* [File Uploading](../../tutorials/your-drive-and-documents.md#uploading-batch-files-zip) now supports **ZIP**s, this means you can bulk import files from popular file hosting services such as Google Drive.
 * Easily migrate all your files and directories directly into Sonoran CMS Drive with one ZIP.
 
 Community Templates
@@ -5250,7 +5250,7 @@ Dashboard URL Handling
 {% endtab %}
 
 {% tab title="Changed" %}
-[FiveM Whitelist Resource](../integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md)&#x20;
+[FiveM Whitelist Resource](../../integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md)&#x20;
 
 * The cache backup handling was updated to follow standards with the rest of the resource, now fully using [Sonoran.js](https://www.npmjs.com/package/@sonoransoftware/sonoran.js).
 {% endtab %}
@@ -5266,11 +5266,11 @@ Community Templates
 
 {% tabs %}
 {% tab title="New" %}
-[Custom Domain](../tutorials/customization/custom-domain.md)
+[Custom Domain](../../tutorials/customization/custom-domain.md)
 
 * Communities are auto-joined when visiting their custom domain (and successfully logging in)
 
-[Custom Pages](../tutorials/community-website/website-builder.md)
+[Custom Pages](../../tutorials/community-website/website-builder.md)
 
 * Custom pages can now be setup as direct links from toolbar items
 
@@ -5299,7 +5299,7 @@ Menu
 
 {% tabs %}
 {% tab title="New" %}
-[Sonoran CAD Sync](../integration-capabilities/sonoran-cad-sync.md)
+[Sonoran CAD Sync](../../integration-capabilities/sonoran-cad-sync.md)
 
 * Map Sonoran CAD permissions to your department ranks to sync permissions directly with Sonoran CAD.&#x20;
 * Enable Kick and Ban sync to immediately kick and/or ban a user from your Sonoran CAD community when kicked or banned from your Sonoran CMS.
@@ -5325,7 +5325,7 @@ Rosters
 
 {% tabs %}
 {% tab title="New" %}
-[Permissions Sync](../integration-capabilities/in-game-integration-resources/core/core-submodules/ace-permission-sync.md)
+[Permissions Sync](../../integration-capabilities/in-game-integration-resources/core/core-submodules/ace-permission-sync.md)
 
 * A new integration resource was added to allow syncing of permissions between Sonoran CMS and your in-game server.
 * Easily manage your in-game permissions by mapping them to specific Sonoran CMS ranks.&#x20;
@@ -5336,7 +5336,7 @@ Rosters
 
 {% tabs %}
 {% tab title="New" %}
-[Drive & Documents](../tutorials/your-drive-and-documents.md)
+[Drive & Documents](../../tutorials/your-drive-and-documents.md)
 
 * Creating folders and moving files into folders is now possible
   * Permissions for folders coming soon
@@ -5358,7 +5358,7 @@ Communities
 
 {% tabs %}
 {% tab title="New" %}
-[Drive & Documents](../tutorials/your-drive-and-documents.md)
+[Drive & Documents](../../tutorials/your-drive-and-documents.md)
 
 * Permissions have been expanded for the Sonoran CMS Drive, you'll now be able to set VIEW and EDIT permissions to individual documents by editing the document. This requires the "Modify All Documents (Drive)" permission.
 * You can now upload documents directly to the Sonoran CMS Drive.
@@ -5395,7 +5395,7 @@ Joining & Leaving Communities
 
 {% tabs %}
 {% tab title="New" %}
-[Drive & Documents](../tutorials/your-drive-and-documents.md)
+[Drive & Documents](../../tutorials/your-drive-and-documents.md)
 
 * Communities can now create and manage documents within their community directly in Sonoran CMS.
   * Initial permissions have been introduced to manage and/or view all documents.
@@ -5414,7 +5414,7 @@ Desktop & Mobile Apps
 
 {% tabs %}
 {% tab title="New" %}
-[Community Pages](../tutorials/community-website/website-builder.md)
+[Community Pages](../../tutorials/community-website/website-builder.md)
 
 * Custom pages now have their own URLs
 * Links to custom pages are public (anyone can access the URLs)
@@ -5424,7 +5424,7 @@ Communities
 * Community dashboards now load a separate URL: `/com/{community_uuid}`
 * The community selection menu can be accessed through a button in the account dropdown
 
-[Custom Domain](../tutorials/customization/custom-domain.md)
+[Custom Domain](../../tutorials/customization/custom-domain.md)
 
 * Custom domains will now load the community dashboard at the index URL (i.e. `https://mycustomdomain.com/`
 {% endtab %}
@@ -5441,7 +5441,7 @@ Communities
 
 {% tabs %}
 {% tab title="New" %}
-[Community Pages](../tutorials/community-website/website-builder.md)
+[Community Pages](../../tutorials/community-website/website-builder.md)
 
 * Communities now have the ability to create multiple custom pages for their community
   * Free: 2
@@ -5462,7 +5462,7 @@ Communities
 
 {% tabs %}
 {% tab title="New" %}
-[Community Pages](../tutorials/community-website/website-builder.md)
+[Community Pages](../../tutorials/community-website/website-builder.md)
 
 * Grants all communities a single page they can edit with content sections, videos, and images. This page can be accessed on the Dashboard of a community
   * Much more is pending with community pages, stay tuned!
@@ -5483,11 +5483,11 @@ Migration Issues
 
 {% tabs %}
 {% tab title="New" %}
-[Toolbar Customization](../tutorials/customization/community-branding-and-settings.md#toolbar)
+[Toolbar Customization](../../tutorials/customization/community-branding-and-settings.md#toolbar)
 
 * Allows you to customize the top toolbar with buttons and dropdowns options with whatever label and link that you desire.
 
-[Vanity URL](../tutorials/customization/custom-domain.md#vanity-urls-not-implemented)
+[Vanity URL](../../tutorials/customization/custom-domain.md#vanity-urls-not-implemented)
 
 * Allows all communities the option to use a **FREE** vanity URL with their community, this URL is based on your community ID and will provide you with a custom login page displaying your community's image.
 {% endtab %}
@@ -5501,7 +5501,7 @@ This update consisted of a complete rewrite of the backend and partially the fro
 
 {% tabs %}
 {% tab title="New" %}
-[Public API](../developer-api-documentation/api-integration/)\
+[Public API](../../developer-api-documentation/api-integration/)\
 \- Introducing another way for developer's and community's to interact with Sonoran CMS.\
 &#x20; \- The first set of endpoints are only the start to a long list of endpoints we have planned to offer.\
 \
@@ -5519,7 +5519,7 @@ Calendars\
 \- The UI for the calendar events have been reworked to favor a large design instead of being so "crammed" and busy. No longer will cause UI to bug out due to missing image.\
 \- Overall improvement of reliability of Discord webhooks sending for calendar related Discord webhooks.\
 \
-[API ID System](../developer-api-documentation/api-integration/getting-started/api-id-system.md)\
+[API ID System](../../developer-api-documentation/api-integration/getting-started/api-id-system.md)\
 \- Allows a bridge between 3rd party resources and Sonoran CMS with utilizing a unique identifier to be used for API calls.
 {% endtab %}
 
@@ -5643,22 +5643,22 @@ Community Selection Menu\
 
 {% tabs %}
 {% tab title="New" %}
-&#x20;[Custom Domain System](../tutorials/customization/custom-domain.md)\
+&#x20;[Custom Domain System](../../tutorials/customization/custom-domain.md)\
 \- Communities that are on the Standard Plan+ can now set up their custom domain through a DNS record to be used as a custom login page for Sonoran CMS.\
 \
-[Discord RPC](../integration-capabilities/discord-rich-presence.md)\
+[Discord RPC](../../integration-capabilities/discord-rich-presence.md)\
 \- The desktop application now adds rich presence info and buttons to your Discord profile. You can customize the invite link to your Sonoran CMS community, or your community's Sonoran CAD.\
 \
-[Discord Webhooks](../integration-capabilities/discord-webhooks.md)\
+[Discord Webhooks](../../integration-capabilities/discord-webhooks.md)\
 \- We've added Discord Webhooks for all your logging needs, you can now set up Discord webhooks to be sent when you get a new application, someone edits another account's information, etc.\
 \
-[Community Dashboard Buttons](../tutorials/customization/community-branding-and-settings.md#community-information)\
+[Community Dashboard Buttons](../../tutorials/customization/community-branding-and-settings.md#community-information)\
 \- We've introduced functionality to the website and discord inputs that are in the Community Customization area of the Administrative Panel. Both of these inputs will now show buttons located in the initial Dashboard view.\
 \
 Community Login Query Strings\
-\- Sonoran CMS URLs now support the use of ?comid=[**communityID**](../tutorials/customization/community-branding-and-settings.md#community-id) at the end of URLs. You can hand these out to automatically invite users to your community, this will automatically direct them to the community selection menu where they can accept an invite.\
+\- Sonoran CMS URLs now support the use of ?comid=[**communityID**](../../tutorials/customization/community-branding-and-settings.md#community-id) at the end of URLs. You can hand these out to automatically invite users to your community, this will automatically direct them to the community selection menu where they can accept an invite.\
 \
-[Android Application](../download.md)\
+[Android Application](../../download.md)\
 \- Sonoran CMS is now on the Google Play Store for [download](https://play.google.com/store/apps/details?id=com.sonorancms).&#x20;
 {% endtab %}
 
@@ -5683,7 +5683,7 @@ Available Forms\
 {% tabs %}
 {% tab title="New" %}
 Delete Community\
-\- We've added in the feature to delete your community if you ever need to, this is located in the Administrative Panel > Advanced Limits. View the guide [here](../tutorials/administrative/delete-community.md) for more information!
+\- We've added in the feature to delete your community if you ever need to, this is located in the Administrative Panel > Advanced Limits. View the guide [here](../../tutorials/administrative/delete-community.md) for more information!
 {% endtab %}
 
 {% tab title="Fixed" %}

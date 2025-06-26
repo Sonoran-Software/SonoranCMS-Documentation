@@ -9,7 +9,7 @@ description: >-
 {% embed url="https://www.youtube.com/watch?v=EsoYW-tROMs" %}
 
 {% hint style="info" %}
-**Notice:** Managing Discord Webhooks now requires Sonoran Bot as of [v0.5.56](../roadmap/changelog.md#v0.5.56-beta-pending-release)!
+**Notice:** Managing Discord Webhooks now requires Sonoran Bot as of [v0.5.56](../roadmap/roadmap-and-changelog/changelog.md#v0.5.56-beta-pending-release)!
 {% endhint %}
 
 ### 1. Invite & Configure Sonoran Bot
@@ -24,7 +24,7 @@ In order to configure your Sonoran CMS Webhooks you must invite and configure So
 Select the channel you want your webhook logs to send to for each log type\
 When you are done editing, click anywhere outside and it will automatically save any changes.
 
-![Sonoran CMS - Discord Webhook Setup](../.gitbook/assets/CMS\_DiscordWebhookSettings.png)
+![Sonoran CMS - Discord Webhook Setup](../.gitbook/assets/CMS_DiscordWebhookSettings.png)
 
 ### 3. Role Mention
 

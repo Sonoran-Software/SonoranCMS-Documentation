@@ -107,6 +107,6 @@ Only Sonoran CMS supports full[ i18n localization](developer-api-documentation/t
 \
 Sonoran CMS translations are made possible by our community contributors! Anyone is allowed to [contribute to our GitHub translation files](https://github.com/Sonoran-Software/sonorancms_translations).
 
-## 📋 [Frequent Updates](roadmap/changelog.md)
+## 📋 [Frequent Updates](roadmap/roadmap-and-changelog/changelog.md)
 
-As shown in our [changelog](roadmap/changelog.md), new features, fixes, and suggestions are added all the time!
+As shown in our [changelog](roadmap/roadmap-and-changelog/changelog.md), new features, fixes, and suggestions are added all the time!
