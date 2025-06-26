@@ -156,10 +156,10 @@
 ## Pricing
 
 * [Pricing FAQ](pricing/pricing-faq/README.md)
+  * [View and Compare Plans](https://sonorancms.com/#/pricing)
+  * [Military and First Responder Discount](https://docs.sonoransoftware.com/first-responder-discount)
+  * [Expert Installation](https://docs.sonoransoftware.com/promotions/expert-installation)
   * [Branding Removal](pricing/pricing-faq/branding-removal.md)
-  * [Military and First Responder Discount](pricing/pricing-faq/military-and-first-responder-discount.md)
-  * [Expert Installation](pricing/pricing-faq/expert-installation.md)
   * [Accessing the Payment Center](pricing/pricing-faq/accessing-the-payment-center.md)
   * [Create and Manage a Subscription](pricing/pricing-faq/create-and-manage-a-subscription.md)
   * [Request Discord Role](pricing/pricing-faq/request-discord-role.md)
-* [View and Compare Plans](https://sonorancms.com/#/pricing)
