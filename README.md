@@ -101,9 +101,9 @@ Learn more about accessing and downloading Sonoran CMS on web, desktop, and mobi
 
 It's never been more easy to manage your gaming community, regardless of your platform!
 
-## 🌎 [Full Translation and Locality Support](developer-api-documentation/translation-support.md)
+## 🌎 [Full Translation and Locality Support](broken-reference)
 
-Only Sonoran CMS supports full[ i18n localization](developer-api-documentation/translation-support.md). Regardless of your community's native language, Sonoran CMS supports it!\
+Only Sonoran CMS supports full[ i18n localization](broken-reference). Regardless of your community's native language, Sonoran CMS supports it!\
 \
 Sonoran CMS translations are made possible by our community contributors! Anyone is allowed to [contribute to our GitHub translation files](https://github.com/Sonoran-Software/sonorancms_translations).
 
