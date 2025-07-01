@@ -19,7 +19,7 @@ ERLC: Log Improvements
 * Clicking on the user avatar and name on a log now opens their profile
 * Added pagination/lazy loading to logs when scrolling
 
-ERLC: Log Improvements
+ERLC: Command Improvements
 
 * Added type-to-filter for user dropdowns
 * Selected users in dropdowns now show the avatar
