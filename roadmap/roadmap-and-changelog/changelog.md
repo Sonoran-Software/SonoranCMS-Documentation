@@ -10,6 +10,47 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.35 06/30/2025
+
+{% tabs %}
+{% tab title="New" %}
+ERLC: Log Improvements
+
+* Clicking on the user avatar and name on a log now opens their profile
+* Added pagination/lazy loading to logs when scrolling
+
+ERLC: Log Improvements
+
+* Added type-to-filter for user dropdowns
+* Selected users in dropdowns now show the avatar
+* Commands that take a second input box have a shortcut to execute by pressing enter
+
+ERLC: User Profile Improvements
+
+* Added open Roblox player profile button
+* Added user activity (recent logs) expansion item
+* Added current vehicle expansion item
+
+ERLC: Player Item Avatar
+
+* Updated the online players dashboard UI to use the player avatar item
+{% endtab %}
+
+{% tab title="Fixed" %}
+HF: CAD/Radio Sync Perms
+
+* Fixed an issue causing CAD and Radio sync configs to fail
+
+HF: QB Panel Perms
+
+* Fixed an issue causing the QB game panel permissions to fail
+
+HF: Display Name Perms
+
+* Fixed an issue causing display name permissions to fail
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.34 06/24/2025
 
 {% tabs %}
