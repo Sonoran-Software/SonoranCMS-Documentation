@@ -54,3 +54,9 @@ INVALID COMMUNITY ID
     ]
 }
 ```
+
+### Template ID
+
+The `templateId` number can be taken from the form editor's URL when editing a form template.
+
+<figure><img src="../../../../.gitbook/assets/image (65).png" alt="" width="375"><figcaption></figcaption></figure>
