@@ -10,6 +10,46 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.36 07/14/2025
+
+{% tabs %}
+{% tab title="New" %}
+ERLC: Disciplinary Integration
+
+* Added the ability to add/remove disciplinary points to a player directly through the ER:LC panel.
+
+ERLC: Roblox Link
+
+* Added a banner to help users link their Roblox account to Sonoran for CMS ERLC integrations.
+
+ERLC Live Logs
+
+* Firing an ERLC action (command, etc.) will result in a log showing up on the panel instantly, not delayed by ERLC's rate limits and periodic refreshing.
+
+API: Form Submissions
+
+* Added a new API endpoint to paginate through submitted forms.
+
+Inherited Rank Tooltip
+
+* Improved the inherited rank badge in the rank manager along with a descriptive tooltip.
+
+Form Permission Editing 3-Step
+
+* Improved the form permission modal, now using the three step permission toggle for granted vs denied permissions.
+{% endtab %}
+
+{% tab title="Fixed" %}
+SEO Embed - Sanitize HTML
+
+* Added HTML sanitization to remove tags showing up in social embeds when linking a CMS page.
+
+FiveM: OX Inventory Support
+
+* Fixed an issue with QB Core mode relying only on QB inventory, allowing the configuration of OX inventory.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.35 06/30/2025
 
 {% tabs %}
