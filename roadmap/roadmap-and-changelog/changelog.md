@@ -10,6 +10,52 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.37 07/22/2025
+
+{% tabs %}
+{% tab title="New" %}
+Websocket Call Optimizations
+
+* Reduced the number of duplicate websocket calls for a more optimized experience.
+
+Kick Log Improvements
+
+* Added a new, improved kick log in the security center to make it more clear what user made the kick action.
+
+ERLC - No Servers - New Server Modal
+
+* Improved the setup page for new ER:LC servers when no servers are configured at all.
+
+
+{% endtab %}
+
+{% tab title="Fixed" %}
+Whitelist Failover - Hard Timeout
+
+* Fixed an issue where the in-game whitelist would not fail over to the local copy in the event of a partial CMS outage (not a full one).
+
+\#29547 - Conditional Progress
+
+* Fixed an issue with form saved progress causing conditional sections to not display.
+
+\#29650 - Calendar Event View
+
+* Fixed an issue causing calendar events to not be viewable.
+
+\#29713 - OSX Download
+
+* Fixed a crashing issue with the OSX app.
+
+\#29956 - Roster Pagination
+
+* Fixed an issue with roster pagination failing.
+
+ERLC Panel: Player Loading Fix
+
+* Fixed an issue with players loading in the ERLC panel.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.36 07/14/2025
 
 {% tabs %}
