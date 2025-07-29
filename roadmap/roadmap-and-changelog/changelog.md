@@ -10,6 +10,54 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.38 07/29/2025
+
+{% tabs %}
+{% tab title="New" %}
+Form Webhooks - Hide Blank Fields/Sections
+
+* Added the option to hide all blank field responses from Discord form webhooks.
+
+Form Conditionals - Rank Based
+
+* Added the ability to make a form section only show for certain CMS ranks.
+
+Roster Columns - Filtering
+
+* Added the ability to filter a roster dropdown column by value.
+
+Form Header Expansion - Move to Single Button
+
+* Improved the form editor by moving the expand/collapse section to a dedicated button.
+
+ER:LC Disciplinary Delete
+
+* Added the option to delete a disciplinary log directly from the ER:LC panel.
+
+ER:LC Loading Improvements
+
+* Improved the initial ER:LC panel loading to not show the setup panel at first.
+
+ER:LC Players in Queue
+
+* Added a display to show the number of players in the connecting queue.
+
+ER:LC Permission Expansion
+
+* Expanded permissions for the ER:LC management panel.
+
+ER:LC Navigation
+
+* Added the ability to select the ER:LC panel as a navigation bar item.
+{% endtab %}
+
+{% tab title="Fixed" %}
+\#30059 - Member Selectors
+
+* Fixed an issue with form member selector items not working.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.37 07/22/2025
 
 {% tabs %}
