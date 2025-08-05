@@ -10,6 +10,36 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.39 08/05/2025
+
+{% tabs %}
+{% tab title="New" %}
+Rosters: Disciplinary Points
+
+* Added a new roster column to display a user's disciplinary points.
+
+Form Stages - Response Variables
+
+* Added form question response variables to insert submission info into custom stage actions.
+
+ER:LC Weather & Time Sync
+
+* Added an option to select a real-world location to sync in-game time and weather with.
+
+ER:LC User Activity Loading Animation
+
+* Added a loading animation to the user modal activity section.
+
+ER:LC Side Bar Improvements
+
+* Moved the command button to the sidebar and removed placeholder items.
+
+ER:LC Whitelist (Team & Vehicle Restrictions) - UI ONLY
+
+* Added a placeholder UI for the upcoming team and vehicle restrictions configurator.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.38 07/29/2025
 
 {% tabs %}
