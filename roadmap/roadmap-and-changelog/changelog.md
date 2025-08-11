@@ -10,6 +10,46 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.40 08/11/2025
+
+{% tabs %}
+{% tab title="New" %}
+Actions/Reminders
+
+* Added a new actions tab to configure routine actions and schedule them for repeated use.
+
+ER:LC Team Whitelist
+
+* Added functionality to whitelist ER:LC teams to specific ranks and actions to take when a violation is found.
+
+ER:LC Vehicle Whitelist
+
+* Added functionality to whitelist ER:LC vehicles to specific ranks and actions to take when a violation is found.
+
+ER:LC Livery Whitelist
+
+* Added functionality to whitelist ER:LC vehicle liveries to specific ranks and actions to take when a violation is found.
+
+ER:LC Activity Hours
+
+* Added a new roster column that automatically tracks in-game time for ER:LC players.
+
+ER:LC Moderation
+
+* Added a moderation tab for username profanity.
+
+Event Webhook Links & Image
+
+* Added image and link support to callendar event webhooks.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Suggest Integration Link
+
+* Updated the "Suggest and Integration" link to our Discord, as suggestions are no longer taken on the support portal.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.39 08/05/2025
 
 {% tabs %}
