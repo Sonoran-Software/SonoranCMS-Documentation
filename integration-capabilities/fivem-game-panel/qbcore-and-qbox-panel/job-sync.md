@@ -1,7 +1,5 @@
 ---
-description: >-
-  Easily manage your server's jobs from the QBCore game panel with automatic job
-  sync!
+description: Grant CMS ranks based on your current in-game job!
 ---
 
 # Job Sync
@@ -10,7 +8,9 @@ description: >-
 
 ## Managing Job Sync
 
-Select the rank(s) which you would like to associate with a given job in-game on the left box, then select the job in the right box.&#x20;
+Select the rank(s) which you would like to associate with a given job in-game on the left box, then select the job in the right box.
+
+When a player has the job in-game, they will be granted the associated CMS ranks. This allows you to restrict permissions for Sonoran CAD, Radio, etc. to specific character jobs only.
 
 <figure><img src="../../../.gitbook/assets/CMS_QBJobSyncSelectRank.png" alt="" width="563"><figcaption><p>Sonoran CMS - QBCore Game Panel - Job Sync - Select Rank</p></figcaption></figure>
 
