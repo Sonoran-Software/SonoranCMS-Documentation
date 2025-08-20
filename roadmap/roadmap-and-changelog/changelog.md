@@ -10,6 +10,50 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.41 08/20/2025
+
+{% tabs %}
+{% tab title="New" %}
+User Accounts: UI Revamp
+
+* Added an initial UI revamp to the user accounts section of the admin panel.
+
+Forms: Modify Ranks on Date Question Selection
+
+* Added the ability to add/remove ranks based on a selected date question in the form submission. Ex: LOA forms have a start and end date, the actions will automatically add and remove a LOA rank on those dates.
+
+Roster Styles: If Has Ranks
+
+* Added the ability to set a roster cell's value and styling based on them having, or not having, specific rank(s). Ex: Set "Status" column to "LOA" if the user has the LOA rank.
+
+Default LOA Form
+
+* Added a new, default LOA form for new communities.
+
+ER:LC Whitelist Improvements
+
+* Added type-to-filter on vehicle selection
+* Added action to add disciplinary points
+* Added action to kick user from their team
+* Added action to send a CMS and push notification to specific ranks
+* Small UI improvements
+{% endtab %}
+
+{% tab title="Fixed" %}
+Growth: Vertical Gaps
+
+* Fixed an issue where some graphs in the growth center were missing a gap at the top between other graphs.
+
+User Account Load Optimizations
+
+* Initial optimizations for loading user accounts, data, etc.
+
+FiveM Panel: No Load w/o Servers
+
+* Fixed an issue where the FiveM management panel would endlessly load instead of showing the setup modal for new communities with no configured servers.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.40 08/11/2025
 
 {% tabs %}
