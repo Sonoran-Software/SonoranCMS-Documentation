@@ -10,6 +10,62 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.42 08/25/2025
+
+{% tabs %}
+{% tab title="New" %}
+ER:LC Whitelist Players
+
+* Added the ability to whitelist server access based on CMS ranks.
+
+ER:LC Activity Hours - Per-Team
+
+* Roster columns for ERLC activity time can be separated to specific teams.
+
+Webhook Logging: CMS Kick/Ban
+
+* Added new webhook logging options for kick and ban.
+
+Form Submissions: UI Revamp
+
+* Initial UI revamp for the submitted forms board.
+
+UI Revamp: Forms Editor
+
+* Initial UI revamp for the forms editor.
+
+User Accounts: UI Revamp
+
+* Initial UI revamp for the admin accounts panel on desktop.
+
+Rank Manager: UI Revamp
+
+* Initial UI revamp for the rank manager.
+
+Admin Side Bar: UI Tweaks
+
+* Additional color and sizing changes to the admin navigation sidebar.
+
+Desktop: Download the App Banner
+
+* Added a banner on desktop browsers to better promote the OSX and Windows apps.
+
+Form Change Log
+
+* Added a new log in the security center when a user changes a submitted form's status.
+
+Rank Change Log
+
+* Added a new log in the security center when a user adds or removes ranks on an account.
+{% endtab %}
+
+{% tab title="Fixed" %}
+WS Optimization: Get Community
+
+* Fixed an issue causing certain pages to make duplicate get community requests.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.41 08/20/2025
 
 {% tabs %}
