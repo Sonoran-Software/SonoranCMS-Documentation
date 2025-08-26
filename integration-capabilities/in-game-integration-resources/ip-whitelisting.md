@@ -10,4 +10,4 @@ You may whitelist the following IPs:
 34.173.36.190
 ```
 
-Last Updated : 3/26/2025
+Last Updated : 8/26/2025
