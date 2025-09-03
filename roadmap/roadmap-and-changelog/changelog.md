@@ -10,6 +10,68 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.47 09/03/2025
+
+{% tabs %}
+{% tab title="New" %}
+AI Log Search
+
+* Added an AI powered log search in the security center's logging panel.
+
+User Available Forms: UI Revamp
+
+* UI revamp for the user-sided available forms UI.
+
+Admin Available Forms: UI Revamp
+
+* UI revamp for viewing forms and folders in the admin panel.
+
+Discord Webhook UI Revamp
+
+* UI revamp for configuring Discord webhooks.
+
+ER:LC Command UI Revamp
+
+* UI revamp for the ER:LC command modal.
+
+ER:LC Mobile Improvements
+
+* Multiple mobile improvements for the ER:LC panel.
+
+Integrations Panel: Disable Card w/o Permissions
+
+* Disabled integration cards in the integrations panel for a better experience than a page kickback with an error popup.
+
+Form Submissions: Default to Last Viewed
+
+* Viewing the form submission board will restore your last viewed form tab.
+
+Actions: Component Consolidation
+
+* Combined automated action UIs (forms, actions, ER:LC) into a common component with a small UI update, making the way for easier UI revamps.
+
+ER:LC i18n
+
+* Added translation support to the ER:LC panel.
+
+Community Table Index Improvements
+
+* Improved community table database indices for improved speed and performance.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Default Forms: Stage Icons
+
+* Added missing stage icons to two default forms on new communities
+
+Forms: Dependency Issues
+
+* Fixed an issue with adding new select items in the form editor, also causing issues with dependencies based on the broken select options.
+{% endtab %}
+{% endtabs %}
+
+
+
 ### 1.1.42 08/25/2025
 
 {% tabs %}
