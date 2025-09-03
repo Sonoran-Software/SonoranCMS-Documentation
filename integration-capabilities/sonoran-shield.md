@@ -5,7 +5,7 @@ hidden: true
 
 # Sonoran Shield
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS x Sonoran Servers - Shield</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS x Sonoran Servers - Shield</p></figcaption></figure>
 
 ## Linking your Sonoran Server
 
