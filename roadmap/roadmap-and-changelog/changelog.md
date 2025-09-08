@@ -10,6 +10,50 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.48 09/08/2025
+
+{% tabs %}
+{% tab title="New" %}
+Forms: Auto Roblox ID Field
+
+* Added a new form option to automatically enter the user's Roblox ID.
+
+Accounts: Copy Roblox ID
+
+* Added the option to copy a user's Roblox ID from the account card.
+
+Rosters: Roblox ID
+
+* Added a column type to display a user's Roblox ID.
+
+Search Bar - Via Roblox ID
+
+* Added the ability to search for a user based on a Roblox ID.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Webpage Permissions
+
+* Fixed an issue causing some webpage permissions to fail due to an incompatibility between the old system and the newer triple-status permissions.
+
+Mobile Community Bar Loading
+
+* Fixed an issue causing the community navigation bar on mobile to sometimes not load all available buttons for custom webpages.
+
+WYS Label Forms: Un-Bold
+
+* Fixed an issue preventing the removal of text styling (bold, italic, underline, or strikethrough) on the forms editor label question.
+
+\#31091 - Card Element Color
+
+* Fixed an issue preventing the ability to update the website card element's color.
+
+Form Stage Change - Notification Emails
+
+* Fixed an issue where adding a push notification action on form stages would also send the user an email.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.47 09/03/2025
 
 {% tabs %}
