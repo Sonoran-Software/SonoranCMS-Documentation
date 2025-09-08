@@ -26,9 +26,17 @@ Rosters: Roblox ID
 
 * Added a column type to display a user's Roblox ID.
 
-Search Bar - Via Roblox ID
+User Search Bar: Via Roblox ID
 
 * Added the ability to search for a user based on a Roblox ID.
+
+Accounts: Debug Permissions
+
+* Added a new "Debug Permissions" modal available on any user account card to show the finalized permissions for all of the user's combined ranks.
+
+Permission Expansions: Allow/Deny Preview Chips
+
+* Added new green and red chips on permission expansion items (ex: rank permission expansions for every single form, roster, page, etc.) to quickly reflect the number of allow or deny permissions set.
 {% endtab %}
 
 {% tab title="Fixed" %}
@@ -51,6 +59,10 @@ WYS Label Forms: Un-Bold
 Form Stage Change - Notification Emails
 
 * Fixed an issue where adding a push notification action on form stages would also send the user an email.
+
+\#31172 - Roster Download Timeout
+
+* Fixed an issue causing CSV download requests for large rosters to fail due to a timeout.
 {% endtab %}
 {% endtabs %}
 
