@@ -31,6 +31,7 @@
   * [Creating Forms](tutorials/forms/creating-custom-forms.md)
   * [Form Submissions](tutorials/forms/form-submissions.md)
   * [Clock In/Out System](tutorials/forms/clock-in-out-system.md)
+  * [AI Form Processing](tutorials/forms/ai-form-processing.md)
 * [Administrative](tutorials/administrative/README.md)
   * [Archive Community Member](tutorials/administrative/archive-community-member.md)
   * [Delete & Transfer Community](tutorials/administrative/delete-community.md)
