@@ -12,6 +12,12 @@ description: >-
 ## AI Forms Processing
 
 {% hint style="danger" %}
+AI form processing is currently in **early-access with our partnered communities**.
+
+Public availability will be released soon!
+{% endhint %}
+
+{% hint style="danger" %}
 **AI form processing is only enabled with a Pro Subscription!**
 
 Learn more about our [paid plans](../../pricing/pricing-faq/create-and-manage-a-subscription.md).
@@ -25,7 +31,7 @@ When a form enters a specific stage (e.g., _Awaiting Review_), you can define ho
 
 ### Setting Section Criteria
 
-For each section of your form, you can define criteria for the AI to score responses. Criteria can be marked as **required** or **preferred**, and each section can be assigned a **scoring weight** to determine its importance.
+For each section of your form, you can define criteria for the AI to score responses. Criteria can be marked as **required** or **preferred**, and each section can be assigned a **scoring weight** to determine its importance. Every section visible to the user (see: [form dependencies](creating-custom-forms.md#conditional-sections)) will be scored.
 
 To set this up:
 
@@ -36,9 +42,13 @@ To set this up:
 
 Some criteria can act as **deal-breakers**. For example, if applicants must be 18+ regardless of other answers, mark that criterion as **required**.
 
+<figure><img src="../../.gitbook/assets/image (66).png" alt="" width="270"><figcaption></figcaption></figure>
+
 ### Setting Scoring Rules
 
 In the **Scoring** section, the dropdown lets you specify a stage if any **required criteria** are missed. For example, if your application requires applicants to be 18+ but the user is underage, the form can automatically be moved to the **Denied** stage regardless of other responses.
+
+Rules are applied according to their hierarchy and can be reordered using drag-and-drop.
 
 Next, define the **scoring rules** that determine how forms progress:
 
@@ -47,12 +57,16 @@ Next, define the **scoring rules** that determine how forms progress:
 3. Enter the **maximum score**.
 4. Choose the **form stage** to move to.
 
+<figure><img src="../../.gitbook/assets/image (67).png" alt="" width="262"><figcaption></figcaption></figure>
+
 #### **Disciplinary Points & Account Flags** Rules can also include limits on disciplinary points and account flags:
 
 * [**Account Flags**](../administrative/security-center/#account-flags) are added when alternate accounts are detected.
 * [**Disciplinary Points**](../administrative/disciplinary-panel.md) are assigned by staff when users have prior infractions.
 
 For example, you may want to prevent a form from being automatically accepted if the applicant has a flagged account or too many disciplinary points.
+
+<figure><img src="../../.gitbook/assets/image (68).png" alt="" width="255"><figcaption></figcaption></figure>
 
 ## Tips and Tricks
 

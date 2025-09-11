@@ -49,9 +49,13 @@ Or, manage Discord roles right through the CMS!
 
 [Create fully customizable member applications](tutorials/forms/creating-custom-forms.md), forms for tracking, and more!
 
-Whether it's your own patrol log system with automatic hour calculations, an extensive new member application, or a custom community form, Sonoran CMS allows you to customize it all.
+Whether it's a new member application, promotion request, or ban appeal, Sonoran CMS allows you to customize it all.
 
-![Sonoran CMS - Custom Forms](.gitbook/assets/Dec23-Forms.png)
+[AI processing can automatically move forms](tutorials/forms/ai-form-processing.md) to various stages based on your requirements.
+
+Each form stage has [powerful automations](tutorials/forms/creating-custom-forms.md#form-stages) to add/remove permissions, send push notifications, Discord webhooks or DMs, and more!
+
+<div><img src=".gitbook/assets/Dec23-Forms.png" alt=""> <figure><img src=".gitbook/assets/upgrade_ai_forms.png" alt=""><figcaption></figcaption></figure></div>
 
 ## ✅ [In-Game Whitelisting](integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md)
 
