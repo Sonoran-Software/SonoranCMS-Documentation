@@ -21,6 +21,8 @@ Public availability will be released soon!
 **AI form processing is only enabled with a Pro Subscription!**
 
 Learn more about our [paid plans](../../pricing/pricing-faq/create-and-manage-a-subscription.md).
+
+To prevent abuse, communities are limited to **100 AI form processes per day**. If your community is actively (or realistically intends to) surpass this limit with legitimate traffic, [contact our support team](https://support.sonoransoftware.com/)!
 {% endhint %}
 
 Stop wasting time manually reviewing applications. With Sonoran CMS, your community can set custom rules to automatically score forms and seamlessly move them through the right workflow stage.
@@ -79,3 +81,12 @@ For critical applications—especially those that automatically add or remove ra
 ### Account Flags
 
 [**Account Flags**](../administrative/security-center/account-flags.md) help protect your community against alternate accounts and ban evasion. If an applicant has active flags on their account, it’s recommended to route their submission to a **Manual Review** stage for further investigation before approval.
+
+### Form Submission Limits
+
+Because AI-powered forms can be processed in seconds, it’s important to guard against abuse. To prevent users from “brute forcing” submissions, communities can set limits on how often a form type can be re-submitted.
+
+The form editor provides two control options:
+
+* [**Submission limits**](creating-custom-forms.md#limits) – Set a maximum number of submissions allowed within a defined timeframe.
+* [**Cooldown period**](creating-custom-forms.md#limits) – Require a minimum waiting time between individual submissions.
