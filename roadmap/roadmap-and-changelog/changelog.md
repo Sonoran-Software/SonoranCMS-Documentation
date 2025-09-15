@@ -10,6 +10,54 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.49 09/15/2025
+
+{% tabs %}
+{% tab title="New" %}
+Forms AI Processing
+
+* Added a new AI agent to automatically score and process forms by moving them to the next stage, available to partnered communities with early access.
+
+Desktop: Toolbar Improvements
+
+* Improved the header spacing and styling on the desktop applications.
+
+Forums: Expand Ranks
+
+* Forums now only display the user's top rank on the sidebar, with an expansion item to view the rest.
+
+Permission Debug: Tooltips
+
+* When viewing the "Debug Permissions" modal in the user account, tooltips now highlight what specific department(s) or rank(s) are giving the grant or deny.
+
+ER:LC Clickable Player Command Logs
+
+* Added clickable player mentions for ER:LC logs when a command is ran on a player.
+
+ER:LC Player Cards - Activity Time
+
+* Online user cards now show an icon with a tooltip to reflect how long the user has been in-game for.
+
+ER:LC Order specific CMS ranked players first
+
+* Added an option to configure specific CMS ranks (Ex: Staff Ranks) that will show up first on the online players list along with their rank icon.
+
+ER:LC/Disciplinary Points Modal: Multi-Select
+
+* Added the ability to select multiple users at once when adding disciplinary points.
+
+Discord Mapping: Role/Rank Text Color
+
+* Added a feature to dynamically detect if the Discord mapping role or rank is on a light colored background. If so, the text will be black instead of white for proper visibility.
+{% endtab %}
+
+{% tab title="Fixed" %}
+OSX Crash on Startup
+
+* Fixed an issue causing the OSX application to crash on startup.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.48 09/08/2025
 
 {% tabs %}
