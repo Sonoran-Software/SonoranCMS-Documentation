@@ -70,6 +70,20 @@ For example, you may want to prevent a form from being automatically accepted if
 
 <figure><img src="../../.gitbook/assets/image (68).png" alt="" width="255"><figcaption></figcaption></figure>
 
+### AI Processing Reason
+
+When the AI updates a form’s stage, it will leave a private comment on the submission explaining its scoring rationale. These private comments are visible to anyone with the `Access Private Comments` [permission](../user-management/creating-departments.md) on that form.
+
+Additionally, the AI’s reasoning can be included in any stage action—such as a Discord webhook—to provide context on why the form was advanced to a new stage.
+
+<div><figure><img src="../../.gitbook/assets/image (69).png" alt="" width="210"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (70).png" alt="" width="279"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (71).png" alt="" width="278"><figcaption></figcaption></figure></div>
+
+## Limits
+
+To prevent abuse, all Pro communities are limited to **100 AI form submissions per 24-hour period**. Current usage can be tracked in the [**Community Limits panel**](../administrative/view-your-limits.md).
+
+If your community requires more than 100 submissions within 24 hours for legitimate purposes, please [contact our support team](https://support.sonoransoftware.com/) to request an increased limit.
+
 ## Tips and Tricks
 
 ### Using "Likely" Accepted/Denied Stages
