@@ -131,3 +131,9 @@ In the case of this error, please locate the file named `.yarn.installed`, open 
 This updates the "date modified" value for that file, which should then allow it to build correctly.
 
 If you are having trouble with this, feel free to[ reach out to us](https://support.sonoransoftware.com), our support team will be happy to help you!
+
+### "config.NEW.lua was found!"
+
+This log message means there was an update to the `sonorancms` resource that contains a configuration update. All you have to do is copy the contents from the `config.NEW.lua` file into your current configuration file then delete the `config.NEW.lua` file and restart `sonorancms` to resolve this message.
+
+If you are having trouble with this, feel free to[ reach out to us](https://support.sonoransoftware.com), our support team will be happy to help you!
