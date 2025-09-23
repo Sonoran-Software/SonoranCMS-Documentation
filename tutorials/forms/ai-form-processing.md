@@ -12,12 +12,6 @@ description: >-
 ## AI Forms Processing
 
 {% hint style="danger" %}
-AI form processing is currently in **early-access with our partnered communities**.
-
-Public availability will be released soon!
-{% endhint %}
-
-{% hint style="danger" %}
 **AI form processing is only enabled with a Pro Subscription!**
 
 Learn more about our [paid plans](../../pricing/pricing-faq/create-and-manage-a-subscription.md).
