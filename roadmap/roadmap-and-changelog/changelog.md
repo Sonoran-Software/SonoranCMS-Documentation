@@ -10,6 +10,66 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.51 09/23/2025
+
+{% tabs %}
+{% tab title="New" %}
+Forms AI: Public Release
+
+* Form stage AI processing is now available to all pro communities
+
+Roster View UI Revamp
+
+* Initial UI overhaul for community rosters
+
+Roster Editor: Preview Revamp
+
+* Initial UI overhaul for parts of the roster editor
+
+Form Webhooks: Toggle Stage Change Dropdown
+
+* Added a toggle on the Discord integrations form stage action to disable the Discord stage change dropdown
+
+ER:LC: Records
+
+* Added a new player records system for the ER:LC panel
+
+ER:LC Hide Loading Bar
+
+* ER:LC panel no longer shows a visual refresh when updating
+
+ER:LC Run Command Live Log
+
+* ER:LC commands ran now show instantly in the recent activity logs
+
+ER:LC Moderation UI Revamp
+
+* Initial UI revamp for the ER:LC moderation panel
+
+ER:LC User Modal - Discord Information
+
+* Added a new Discord information modal to the ER:LC player popup allowing you to view the Discord avatar, username, and ID with click-to-copy
+{% endtab %}
+
+{% tab title="Fixed" %}
+Stage Change Webhook: Not Updating
+
+* Fixed an issue where updating a form stage via AI wouldn't trigger the stage actions
+
+ER:LC Logs User "ERR"
+
+* Fixed an issue causing some external commands to show as coming from "ERR"
+
+Fix: Disciplinary Variables
+
+* Fixed an issue causing some action variable popups in the disciplinary panel to be blank
+
+HF: Short URL Path Taken
+
+* Fixed an issue causing some custom URL shortener paths to incorrectly error as an already existing path
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.50 09/15/2025
 
 {% tabs %}
