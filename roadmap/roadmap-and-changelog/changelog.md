@@ -10,6 +10,38 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.54 09/29/2025
+
+{% tabs %}
+{% tab title="New" %}
+New Form Logged Out - Optimize Speed
+
+* Optimized speed to detect user not logged in when hitting an application button. Added additional handling to redirect the user back to the page/panel that requires login after logging in.
+
+Cloudflare Custom Domains Swap
+
+* Updated the custom domain system for all new, custom domains to run on the upcoming Cloudflare for SaaS system over the existing, legacy handling.
+
+i18n Translation Script Optimizations
+
+* Greatly improved the speed of AI i18n translations for faster release deployments.
+{% endtab %}
+
+{% tab title="Fixed" %}
+HF: Game panels no server
+
+* Fixed an issue where new communities with no servers would not load the step-by-step install modal for in-game integrations.
+
+HF: Legacy Actions
+
+* Fixed an issue with form stage actions setup long ago that would no longer properly open in the editor.
+
+Stage Change Duplicate Webhook
+
+* Fixed an issue where new form submission webhooks would not include a proper form ID in the footer, resulting in a duplicate form stage change webhook for the next change.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.51 09/23/2025
 
 {% tabs %}
