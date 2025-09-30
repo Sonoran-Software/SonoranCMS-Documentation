@@ -10,6 +10,26 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.55 09/30/2025
+
+{% tabs %}
+{% tab title="New" %}
+Domain Caching
+
+* Improved loading speeds and caching for communities using custom domains.
+{% endtab %}
+
+{% tab title="Fixed" %}
+ER:LC Record Player Select
+
+* Fixed an issue with selecting the online players in the ER:LC panel
+
+New Roster Columns
+
+* Fixed an issue preventing the ability to add new roster columns in the roster editor.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.54 09/29/2025
 
 {% tabs %}
