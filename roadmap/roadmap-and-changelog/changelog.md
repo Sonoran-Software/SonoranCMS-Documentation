@@ -10,6 +10,16 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.56 10/01/2025
+
+{% tabs %}
+{% tab title="Changed" %}
+ER:LC Record Player Search
+
+* Added type-to-filter on the new record player input
+{% endtab %}
+
+{% endtabs %}
 ### 1.1.55 09/30/2025
 
 {% tabs %}
