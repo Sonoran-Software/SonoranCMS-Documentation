@@ -13,13 +13,25 @@ description: View the latest changes to Sonoran CMS!
 ### 1.1.56 10/01/2025
 
 {% tabs %}
+{% tab title="New" %}
+Webpage: Video Background
+
+* Added the ability to set the background of a webpage to an uploaded video.
+{% endtab %}
+
 {% tab title="Changed" %}
 ER:LC Record Player Search
 
 * Added type-to-filter on the new record player input
 {% endtab %}
 
+{% tab title="Fixed" %}
+Roster Generation
+
+* Tweaked backend roster generation for further debug on potential crashes.
+{% endtab %}
 {% endtabs %}
+
 ### 1.1.55 09/30/2025
 
 {% tabs %}
@@ -296,8 +308,6 @@ Forms: Dependency Issues
 {% endtab %}
 {% endtabs %}
 
-
-
 ### 1.1.42 08/25/2025
 
 {% tabs %}
@@ -531,8 +541,6 @@ Kick Log Improvements
 ERLC - No Servers - New Server Modal
 
 * Improved the setup page for new ER:LC servers when no servers are configured at all.
-
-
 {% endtab %}
 
 {% tab title="Fixed" %}
@@ -1894,8 +1902,6 @@ Discord Guild Error
 {% endtab %}
 {% endtabs %}
 
-
-
 ### 1.1.0 08/15/2024
 
 {% tabs %}
@@ -2029,8 +2035,6 @@ Growth - Mobile Tab Improvements
 * Fixed an issue causing the inability to delete drive files with unconventional names
 {% endtab %}
 {% endtabs %}
-
-
 
 ### 1.0.0 (Full Release) 07/17/2024
 
@@ -2219,8 +2223,6 @@ Roster Loading
 {% endtab %}
 {% endtabs %}
 
-
-
 ### 0.6.1 (Beta) 06/12/2024
 
 {% tabs %}
@@ -2273,8 +2275,6 @@ Forms
 * Disabled the required toggle for label type questions
 {% endtab %}
 {% endtabs %}
-
-
 
 ### 0.6.0 (Beta) 06/05/2024
 
@@ -2652,8 +2652,6 @@ Bot - Improved Permission Errors
 Bot - Name Sync on Join
 
 * Added handling to process a name sync when a new user joins a guild
-
-
 {% endtab %}
 
 {% tab title="Fixed" %}
@@ -2703,7 +2701,7 @@ Community Discord Re-sync
 
 \#21490 - Time Log Safety Check
 
-* &#x20;Added a safety check to ensure users do not submit forms with negative timesheet values
+* Added a safety check to ensure users do not submit forms with negative timesheet values
 
 \#21390 - Remove "Custom Pages" option
 
@@ -2718,8 +2716,6 @@ Community Discord Re-sync
 * Fixed an issue with uploading images in the website builder
 {% endtab %}
 {% endtabs %}
-
-
 
 ### v0.5.86 (Beta) 03/26/2024
 
@@ -3001,7 +2997,7 @@ API Endpoints - User Variables
   * `KICK_ACCOUNT`
   * `BAN_ACCOUNT`
   * `EDIT_ACC_PROFLIE_FIELDS`
-  * `VERIFY_WHITELIST`&#x20;
+  * `VERIFY_WHITELIST`
   * `RSVP`
 {% endtab %}
 
@@ -3059,18 +3055,16 @@ _More than several additional bugs have been resolved via live hot-fix and are n
 {% endtab %}
 {% endtabs %}
 
-
-
 ### v0.5.81 (Beta) 2/19/2024
 
 {% tabs %}
 {% tab title="New" %}
 **Rank Editor**\
-&#xNAN;_&#x44;iscord Role Import_\
+\&#xNAN;_Discord Role Import_\
 Creating departments and ranks within the editor is now much easier, you can now import any role from a linked guild directly into your community. It'll import name, color, and icon automatically, just select which roles you want imported and moments later they'll be created within your community.
 
 **API Endpoint**\
-&#xNAN;_&#x47;et Accounts_\
+\&#xNAN;_Get Accounts_\
 Fetch all accounts within your community, with filters and paginated. This will return all basic information for returned members.
 
 **WYSIWYG Text Editor**\
@@ -3133,9 +3127,9 @@ We've completely reworked how Discord guild data is fetched for a more efficient
 Additionally, we've made the following changes:
 
 * Remove Guilds\
-  &#xNAN;_&#x52;emove linked guilds directly within the Discord Integration panel, allowing you to unlink guilds you no longer wish to be included in sync events_
+  \&#xNAN;_Remove linked guilds directly within the Discord Integration panel, allowing you to unlink guilds you no longer wish to be included in sync events_
 * Join Rank Check\
-  &#xNAN;_&#x4E;ew members that join your CMS community when a guild is linked will check whether they have any roles in guild(s) for mapped ranks that they should have, automatically applying the ranks on join_
+  \&#xNAN;_New members that join your CMS community when a guild is linked will check whether they have any roles in guild(s) for mapped ranks that they should have, automatically applying the ranks on join_
 
 **Website Builder - MAJOR OVERHAUL**
 
@@ -3165,19 +3159,17 @@ A new data template key was added to the Community Naming format, `{uniqueId}` w
 **User Accounts**
 
 * Rank icon / name badge will now show properly instead of empty space
-* Accounts should no longer have Unknown Rank in their rank list, audit functions were added&#x20;
+* Accounts should no longer have Unknown Rank in their rank list, audit functions were added
 
 **Discord Integration - Role Mapping**
 
-* Removing / adding a role directly within the role list wouldn't actually save on the backend&#x20;
+* Removing / adding a role directly within the role list wouldn't actually save on the backend
 
 **Rank Manager**
 
 * Roster & form ALL permission toggles will now properly add / remove all
 {% endtab %}
 {% endtabs %}
-
-
 
 ### v0.5.77 (Beta) 1/31/2024
 
@@ -3331,8 +3323,8 @@ On larger screens the form replies will now be on the right side, allowing to vi
 **Limits**
 
 Drive limits have been increased to the following:\
-&#xNAN;_&#x53;tandard:_ 50MB -> 500MB\
-&#xNAN;_&#x50;ro:_ 100MB -> 1GB
+\&#xNAN;_Standard:_ 50MB -> 500MB\
+\&#xNAN;_Pro:_ 100MB -> 1GB
 
 Uploader max file size has been increased to 200MB to allow for larger documents to be imported into the Drive system.
 
@@ -3642,7 +3634,7 @@ All informational and administrative pages now have unique meta associated with 
 
 We've now introduced Desktop notifications as our first step to push notifications everywhere! Now receive desktop notifications, where configured, when you receive new form submissions, new calendar event, and much more! Manage your notification preferences directly within your Community Settings similar to API ID. Receive Desktop notifications upon each trigger WHEN you have the Sonoran CMS Desktop application running on your device.
 
-[**QBCore Game Panel**](broken-reference)
+[**QBCore Game Panel**](broken-reference/)
 
 **Job Sync** has been reworked into the core resource and implemented natively within the QBCore Game Panel, easily manage your server's jobs with automatic job sync!
 
@@ -3688,7 +3680,7 @@ Default community template has been updated for a more generic gaming community 
 
 {% tabs %}
 {% tab title="New" %}
-[**vMenu Game Panel**](broken-reference)
+[**vMenu Game Panel**](broken-reference/)
 
 **Weather** and **Time Management** is now available within the vMenu Game Panel, easily change and manage vMenu Weather & Time directly from your Sonoran CMS!
 
@@ -3772,7 +3764,7 @@ Name Sync now takes in account the name format set within Community Customizatio
 
 Now introducing the _vMenu_ Game Panel, similar to the QBCore Game Panel we've implemented a user-friendly way to manage your _vMenu_ server(s). Manage whitelisting and ace permissions directly within your Sonoran CMS community without the need to mess with config files.
 
-* Whitelisting & Ace Permission Sync configuration now integrated within the UI&#x20;
+* Whitelisting & Ace Permission Sync configuration now integrated within the UI
 {% endtab %}
 
 {% tab title="Changed" %}
@@ -3927,8 +3919,6 @@ Several aspects of the website builder have been improved upon and corrected for
 {% endtab %}
 {% endtabs %}
 
-
-
 ### v0.5.59 (Beta) 9/8/2023
 
 {% tabs %}
@@ -3943,7 +3933,7 @@ _Rank Filtering_
 
 Filtering and searching for the Accounts viewer has been improved, you can now filter by individual ranks and search for users by their _new_ Unique ID.
 
-[**QBCore Game Panel**](broken-reference)
+[**QBCore Game Panel**](broken-reference/)
 
 * Job Management is now achievable within Sonoran CMS, you can now edit/change the job and grades for individual accounts.
 * Search vehicle plates via the Vehicles table
@@ -4009,7 +3999,7 @@ Ranks are no longer separated by _Primary_ and _Secondary_, all ranks are now se
 
 Additionally, account identifiers have been combined into one group instead of separating by Primary & Secondary.
 
-[**QBCore Game Panel**](broken-reference)
+[**QBCore Game Panel**](broken-reference/)
 
 * Several aspects have been improved upon for a better UI/UX, specifically with mobile handling
 {% endtab %}
@@ -4030,16 +4020,16 @@ The input system for webhooks has been completely reworked and streamlined for a
 * Auto-save functionality is now smoother and more efficient
 * Setup process is now outlined within the UI
 
-[**QBCore Game Panel**](broken-reference)
+[**QBCore Game Panel**](broken-reference/)
 
 Several aspects of the game panel have been improved upon for a better UI/UX.
 
 * More consistent styling throughout pages
 * Viewing a character now shows owned vehicles
 * Viewing characters on the Players page will now show basic information
-  * Cash & Bank Balances&#x20;
-  * Jobs&#x20;
-* Resources page now supports folders&#x20;
+  * Cash & Bank Balances
+  * Jobs
+* Resources page now supports folders
 
 **Community Account Unique IDs**
 
@@ -4075,7 +4065,7 @@ All users within communities are now automatically assigned a unique numerical I
 * UI was completely reworked to be more interactive and user-friendly
 * Community Statuses has been moved to the Roster Editor and rebranded to Roster Statuses
 
-[**QBCore Game Panel**](broken-reference)
+[**QBCore Game Panel**](broken-reference/)
 
 * Vehicle management dialogs with user/character information is now hyperlinked to manage the character that the vehicle belongs to
 
@@ -4119,7 +4109,7 @@ All users within communities are now automatically assigned a unique numerical I
 **Calendar**
 
 * RSVPing for an event wouldn't do anything when clicking the button
-* _Irregular_ - Calendar event times would be initially incorrect after creation&#x20;
+* _Irregular_ - Calendar event times would be initially incorrect after creation
 {% endtab %}
 {% endtabs %}
 
@@ -4127,7 +4117,7 @@ All users within communities are now automatically assigned a unique numerical I
 
 {% tabs %}
 {% tab title="New" %}
-[**QBCore Game Panel**](broken-reference)
+[**QBCore Game Panel**](broken-reference/)
 
 * Vehicle management inputs that require a Citizen ID will now provide users with a select input to select a character from rather than a raw Citizen ID
 * Permissions
@@ -4151,7 +4141,7 @@ All users within communities are now automatically assigned a unique numerical I
 
 {% tabs %}
 {% tab title="New" %}
-[**QBCore Game Panel**](broken-reference)
+[**QBCore Game Panel**](broken-reference/)
 
 * Initial Setup
   * The setup process for the panel has been placed directly into the panel with direct and easy steps to get it running.
@@ -4165,7 +4155,7 @@ All users within communities are now automatically assigned a unique numerical I
   * Jobs
     * You can now view character job data within the Character dialog
 
-[**Integrations**](broken-reference)
+[**Integrations**](broken-reference/)
 
 * [GTA RP - CMS Core](../../integration-capabilities/in-game-integration-resources/core/core-submodules/)
   * You can now download the GTA RP CMS Core directly from the Integrations Portal, it will be downloaded with your community credentials already inputted into your config.
@@ -4197,7 +4187,7 @@ All users within communities are now automatically assigned a unique numerical I
 
 {% tabs %}
 {% tab title="New" %}
-[**QBCore Game Panel**](broken-reference)
+[**QBCore Game Panel**](broken-reference/)
 
 * Characters
   * View and manage character inventories directly within the panel
@@ -4230,7 +4220,7 @@ Several aspects of the Drive system have been reworked in favor for a better UI/
 
 {% tabs %}
 {% tab title="New" %}
-[**QBCore Game Panel**](broken-reference)
+[**QBCore Game Panel**](broken-reference/)
 
 * Gangs
   * View and manage QBCore framework gangs
@@ -4263,7 +4253,7 @@ There was a hotfix version bump release that was sent to all non-web version pla
 
 {% tabs %}
 {% tab title="New" %}
-[**QBCore Game Panel**](broken-reference)
+[**QBCore Game Panel**](broken-reference/)
 
 * Characters
   * View online & offline characters
@@ -4286,7 +4276,7 @@ Servers editor for API Integration has been completely reworked for a clearer an
 {% endtab %}
 
 {% tab title="Fixed" %}
-[**Rank Editor**](broken-reference)
+[**Rank Editor**](broken-reference/)
 
 * Auto-save has been optimized to not trigger when no changes have been made.
 * Duplicating rank wouldn't trigger a auto-save.
@@ -4306,7 +4296,7 @@ Servers editor for API Integration has been completely reworked for a clearer an
 
 Form Stage changes will now trigger the Sonoran Bot to notify the submitter of the form that it's been updated! With Discord Sync enabled and form notifications properly configured you can now receive a Discord notification via DM, text channel or both.
 
-[**QBCore Game Panel**](broken-reference)
+[**QBCore Game Panel**](broken-reference/)
 
 * Server Logs
   * View and search the last 1,000 logs generated by your server directly within your Sonoran CMS community!
@@ -4333,11 +4323,11 @@ Several aspects of the UI have been improved upon for a clearer UI/UX.
 
 {% tabs %}
 {% tab title="New" %}
-[**Calendar Consolidation**](broken-reference)
+[**Calendar Consolidation**](broken-reference/)
 
 All aspects of the calendar system has been consolidated to the main calendar view, editing and adding event categories can now be edited and managed within there. You can now easily manage permissions specifically for the calendars you're editing. The event creation UI has also been improved for a better UI/UX.
 
-[**QB Core Game Panel**](broken-reference)
+[**QB Core Game Panel**](broken-reference/)
 
 * Warn Player
 * Characters
@@ -4406,7 +4396,7 @@ Rank titles within forum posts will no longer overflow the UI, they now ellipsis
 
 {% tabs %}
 {% tab title="New" %}
-[**QB Core Management Panel**](broken-reference)
+[**QB Core Management Panel**](broken-reference/)
 
 The first update to our official QB Core management panel for GTARP!
 
@@ -4516,8 +4506,6 @@ Increased spacing between toolbar items for more clear separation.
 {% endtab %}
 {% endtabs %}
 
-
-
 ### v0.5.44 (Beta) 6/8/2023
 
 {% tabs %}
@@ -4576,7 +4564,7 @@ _HTML Embed_
 
 HTML Embed allows more in-depth customization to your website pages, easily embed popular embeds from other sites such as TrackyServer!
 
-[**Rank Manager**](broken-reference)
+[**Rank Manager**](broken-reference/)
 
 The ability to copy and paste permissions between ranks/departments has been re-implemented from being removed in the last update.
 
@@ -4626,7 +4614,7 @@ Forums no longer require individuals to be signed in to just view a category and
 
 {% tabs %}
 {% tab title="New" %}
-[**Community Template**](broken-reference)
+[**Community Template**](broken-reference/)
 
 The Community Template feature has been removed for the time being, we've reworked the default template to be fully customized to easily see the full capabilities of the system and an easier customization transition. Newly created communities will now come with departments, rosters, pages, etc. fully customized to be used out of the box or customized further to fit your needs.
 
@@ -4634,9 +4622,9 @@ The Community Template feature has been removed for the time being, we've rework
 
 The Forms Editor has been reworked to take after the ease of use and customization the Website Builder brings. The entire UI has been reworked and now includes the majority of customization capabilities of the Website Builder for forms.
 
-[**Department Manager -> Rank Manager**](broken-reference)
+[**Department Manager -> Rank Manager**](broken-reference/)
 
-The Department Manager has been reworked and renamed to Rank Manager. This rework has provided an easier and smoother experience when editing and managing ranks. From creating a department to managing rank permissions, the whole experience has been simplified and improved.&#x20;
+The Department Manager has been reworked and renamed to Rank Manager. This rework has provided an easier and smoother experience when editing and managing ranks. From creating a department to managing rank permissions, the whole experience has been simplified and improved.
 {% endtab %}
 
 {% tab title="Fixed" %}
@@ -4666,11 +4654,11 @@ The Department Manager has been reworked and renamed to Rank Manager. This rewor
 
 {% tabs %}
 {% tab title="New" %}
-[**Pricing & Subscriptions**](broken-reference)
+[**Pricing & Subscriptions**](broken-reference/)
 
 We're making Sonoran CMS more accessible than ever before, with all functionality for **FREE**!
 
-View our [notice](broken-reference) for more information.
+View our [notice](broken-reference/) for more information.
 
 [**Website Builder**](../../tutorials/community-website/website-builder.md)
 
@@ -4708,7 +4696,7 @@ Two new profile field types have been added, Discord and TeamSpeak. These two ty
 
 The toolbar editor has been moved from Customization to the Website Builder.
 
-Additionally the toolbar now supports background color, individual font and text-color customization, and easy drag and drop support. You can now rearrange your toolbar including the community image easily to how you desire.&#x20;
+Additionally the toolbar now supports background color, individual font and text-color customization, and easy drag and drop support. You can now rearrange your toolbar including the community image easily to how you desire.
 
 [**TeamSpeak 3 Sync**](../../integration-capabilities/teamspeak-3-role-sync/)
 
@@ -4761,7 +4749,7 @@ All areas where an icon would be expected to be supplied it has been reworked to
 
 The Custom Page Editor has been thoroughly reworked to allow for more styling specifically to sections and elements within sections. With this rework we've revamped the structures of pages and all existing pages have been migrated over to the new page system. Pages are now constructed of individual sections which house elements. All existing pages were updated to move all pre-existing sections into one section and converted to elements. Now customize the padding, margin, alignment, etc. of sections, we've also included background color and images to sections and elements!
 
-[**Discovery Page UI**](broken-reference)
+[**Discovery Page UI**](broken-reference/)
 
 The Community Discovery Page UI has been reworked to better advertise and showcase the communities that use Sonoran CMS!
 {% endtab %}
@@ -4956,7 +4944,7 @@ Adding new fields could randomly be placed in a different section than the inten
 {% tabs %}
 {% tab title="New" %}
 **Mobile UI**\
-&#xNAN;_&#x53;ide Menu & Hamburger Menu while Signed into a Community_\
+\&#xNAN;_Side Menu & Hamburger Menu while Signed into a Community_\
 The hamburger menu when shown on mobile has been reworked to introduce the existing menu that listed all community area such as Administrative Panel, Form Management, etc. The main side menu will now longer show on mobile view and will be included in the hamburger menu.
 
 _Forum Topic Page_\
@@ -5259,8 +5247,6 @@ Admin Routes
 {% endtab %}
 {% endtabs %}
 
-
-
 ### v0.5.25 (Beta) 1/24/2023
 
 {% tabs %}
@@ -5515,7 +5501,7 @@ Accounts Viewer
 * Cosmetic
   * You can now add a community "banner" image, currently this banner image only displays with the notification message sent with bumping your community for discovery.
 
-[Community Discovery](broken-reference)
+[Community Discovery](broken-reference/)
 
 * Bumping
   * Bumping your community will now include your community's banner image upon bump. If no banner image is set it won't include any image.
@@ -5527,14 +5513,14 @@ Accounts Viewer
 {% endtab %}
 
 {% tab title="Fixed" %}
-[Community Discovery](broken-reference)
+[Community Discovery](broken-reference/)
 
 * Clicking community cards to open up the community modal would not be possible unless you click the image or text on the card. The whole card should be clickable.
 * Clicking a community card would display a modal with additional community information and options to join, this would not include the image.
 {% endtab %}
 
 {% tab title="Changed" %}
-[Department Manager](broken-reference)
+[Department Manager](broken-reference/)
 
 * Performance
   * Several improvements have been implemented to decrease any issues with performance regarding permission management of departments.
@@ -5557,7 +5543,7 @@ Accounts Viewer
 * Webhooks Executing
   * An issue which would causing the Calendar Creation webhook to not execute at all.
 
-[Community Discovery](broken-reference)
+[Community Discovery](broken-reference/)
 
 * Bump System
   * An issue which would cause the Discord advertisement webhook message to include various programmatic types within the message such as '\[object Object]' & 'undefined'.
@@ -5572,14 +5558,14 @@ Accounts Viewer
 * Column Types
   * Community Identifier row columns would not populate with a user's primary identifier properly unless the conditions which very specific.
 
-[Custom Stage Form Actions](broken-reference)
+[Custom Stage Form Actions](broken-reference/)
 
 * Status Modifier
   * An issue which would cause the stage action to change community status to not execute properly unless the individual was active within the community from the start.
 {% endtab %}
 
 {% tab title="Changed" %}
-[Community Discovery](broken-reference)
+[Community Discovery](broken-reference/)
 
 * User Interface
   * Equal sizing has been applied to all community discovery cards
@@ -5595,11 +5581,11 @@ Application User Interface
 
 {% tabs %}
 {% tab title="New" %}
-[Community Discovery](broken-reference)
+[Community Discovery](broken-reference/)
 
-* [Bump System](broken-reference)
+* [Bump System](broken-reference/)
   * Allows your community to be bumped to the top of the Community Discovery list.
-    * &#x20;Every **20 hours**!
+    * Every **20 hours**!
     * Bumping will automatically advertise your community to the thousands of users in the Sonoran Software Systems LLC's Official Discord!
 * Tags Categorization
   * Categorization your community with up to **5** predefined tags!
@@ -5612,15 +5598,15 @@ Application User Interface
 
 {% tabs %}
 {% tab title="New" %}
-[Community Discovery](broken-reference)
+[Community Discovery](broken-reference/)
 
 The Community Discovery Portal brings more members to communities by streamlining the joining process for your community. Joining a community through the discovery portal will automatically prompt them with the community's new member application. Advertise your community to the thousands of users using Sonoran CMS!
 
-[Default Department Permissions](broken-reference)
+[Default Department Permissions](broken-reference/)
 
 Default Department Permissions applies the same set of permissions to all ranks within the department to easily manage permissions.
 
-[Admin Form Delete](broken-reference)
+[Admin Form Delete](broken-reference/)
 
 Easily remove form submissions from y our community with the newly added "Admin Form Delete". This will remove the form from any data selection, this will now be accounted for when calculating patrol log hours, submissions, etc.
 {% endtab %}
@@ -5663,7 +5649,7 @@ Community Profile
   * A new "General Access" option has been added, "Anyone with this link".
   * This will allow anyone to view and/or edit the file through the link given from the "Copy Link" button on the Share Settings dialog.
 
-[Custom Form Stages](broken-reference)
+[Custom Form Stages](broken-reference/)
 
 * Custom Action: Modify Submitter's Community Status
   * This new action will do any of the following upon a form changing to a stage with this action:
@@ -5752,7 +5738,7 @@ Drive Uploading
 Available Forms
 
 * Forms available to submit based on associated permissions would not populate the table
-* Submitting forms would cause infinite loading or appear to be frozen&#x20;
+* Submitting forms would cause infinite loading or appear to be frozen
 
 Form Management
 
@@ -5844,7 +5830,7 @@ Drive
 
 Community Templates
 
-* [Template Management](broken-reference)
+* [Template Management](broken-reference/)
   * This allows you to create templates from your community setup and share it with other communities to benefit from.
   * All submitted templates will go through a review process with the Sonoran CMS Development Team.
 {% endtab %}
@@ -5879,11 +5865,11 @@ Backend
 Dashboard URL Handling
 
 * All pages accessible through the left-side menu in the dashboard will now take you to a physical URL that can be copied and pasted to members to open to directly.
-* Further handling will be developed in further updates.&#x20;
+* Further handling will be developed in further updates.
 {% endtab %}
 
 {% tab title="Changed" %}
-[FiveM Whitelist Resource](../../integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md)&#x20;
+[FiveM Whitelist Resource](../../integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md)
 
 * The cache backup handling was updated to follow standards with the rest of the resource, now fully using [Sonoran.js](https://www.npmjs.com/package/@sonoransoftware/sonoran.js).
 {% endtab %}
@@ -5912,7 +5898,7 @@ Subscriptions
 * Pro subscriptions now come with a 14 day free trial! All other subscriptions currently do not have trials
   * Only one trial per person, and one trial per community
 
-[Community Templates](broken-reference)
+[Community Templates](broken-reference/)
 
 * Community templates can now be applied to existing communities! If you wish to apply a template, look under Customization in the Administration Panel
 {% endtab %}
@@ -5934,10 +5920,10 @@ Menu
 {% tab title="New" %}
 [Sonoran CAD Sync](../../integration-capabilities/sonoran-cad-sync.md)
 
-* Map Sonoran CAD permissions to your department ranks to sync permissions directly with Sonoran CAD.&#x20;
+* Map Sonoran CAD permissions to your department ranks to sync permissions directly with Sonoran CAD.
 * Enable Kick and Ban sync to immediately kick and/or ban a user from your Sonoran CAD community when kicked or banned from your Sonoran CMS.
 
-[Community Templates](broken-reference)
+[Community Templates](broken-reference/)
 
 * Community Templates are now accessible through Community Customization, you can replace your community with an available template or add onto your existing community by adding bits and pieces from an available template.
 {% endtab %}
@@ -5945,7 +5931,7 @@ Menu
 {% tab title="Fixed" %}
 Calendars
 
-* Fixed an issue regarding an error when attempting to delete a calendar category.&#x20;
+* Fixed an issue regarding an error when attempting to delete a calendar category.
 * Fixed an issue regarding calendar permissions not allowing certain actions despite what permissions that individual actually has.
 
 Rosters
@@ -5961,7 +5947,7 @@ Rosters
 [Permissions Sync](../../integration-capabilities/in-game-integration-resources/core/core-submodules/ace-permission-sync.md)
 
 * A new integration resource was added to allow syncing of permissions between Sonoran CMS and your in-game server.
-* Easily manage your in-game permissions by mapping them to specific Sonoran CMS ranks.&#x20;
+* Easily manage your in-game permissions by mapping them to specific Sonoran CMS ranks.
 {% endtab %}
 {% endtabs %}
 
@@ -6000,7 +5986,7 @@ Communities
 
 * A German translation has been added, thank you to [Linztric801](https://github.com/Linztric801) for that.
 
-[Community Templates](broken-reference)
+[Community Templates](broken-reference/)
 
 * A new template was added for community creation. Applying templates to created community's will be re-implemented in a future update.
 {% endtab %}
@@ -6079,7 +6065,7 @@ Communities
 * Communities now have the ability to create multiple custom pages for their community
   * Free: 2
   * Starter: 4
-  * &#x20;Standard: 6
+  * Standard: 6
   * Plus: 10
   * Pro: Unlimited
 {% endtab %}
@@ -6136,11 +6122,11 @@ This update consisted of a complete rewrite of the backend and partially the fro
 {% tab title="New" %}
 [Public API](../../developer-api-documentation/api-integration/)\
 \- Introducing another way for developer's and community's to interact with Sonoran CMS.\
-&#x20; \- The first set of endpoints are only the start to a long list of endpoints we have planned to offer.\
+\- The first set of endpoints are only the start to a long list of endpoints we have planned to offer.\
 \
 Clock In/Out\
 \- Timestamped Notes were introduced in this update, allowing members to add a timestamped note to a current clock in.\
-&#x20; \- Notes are accessible in the community profile view. Downloading/exporting of clock in data is restricted to Plus or higher.\
+\- Notes are accessible in the community profile view. Downloading/exporting of clock in data is restricted to Plus or higher.\
 \
 Whitelist System\
 \- Introduced hand-in-hand with the public API, paired with the Sonoran provided whitelist script allows multi-server whitelist provided through Sonoran CMS.\
@@ -6187,8 +6173,7 @@ Desktop Version\
 {% tabs %}
 {% tab title="New" %}
 [Custom Form Stages](https://info.sonorancms.com/tutorials/getting-started/creating-custom-form-stages)\
-\- Custom Form Stages are stages at which a form can be on, each stage can have powerful actions executed once that form gets changed to that stage. Various actions such as executing a webhook, automatically replying, etc.\
-
+\- Custom Form Stages are stages at which a form can be on, each stage can have powerful actions executed once that form gets changed to that stage. Various actions such as executing a webhook, automatically replying, etc.\\
 
 [Custom Form Stage Groups](https://info.sonorancms.com/tutorials/getting-started/creating-custom-form-stage-groups)\
 \- Custom Form Stage Groups are _rough_ pre-determined routes you can assign to a form, groups allow you to choose what stage(s) are shown at each stage the form has the potential of being on.
@@ -6241,7 +6226,7 @@ Custom Forms\
 
 {% tabs %}
 {% tab title="Fixes" %}
-&#x20;Community Selection Menu\
+Community Selection Menu\
 \- Fixed an issue on top of the last update's issue with being able to join or create multiple of the same community at the same time within a fraction of a second.\
 \- Fixed an issue that would cause nothing to happen or show if you leave a community and rejoin that community you just left. It'll display an error and explain the issue if you're banned or for other reasons. Should allow users to rejoin communities now if they leave.\
 \
@@ -6255,7 +6240,7 @@ Rosters\
 
 {% tabs %}
 {% tab title="Fixes" %}
-&#x20;Community Templates\
+Community Templates\
 \- Fixed an issue that allowed for community templates to show all available instead of available within your current limits and would let you use a template that's out of your limits.\
 \
 Rosters\
@@ -6276,7 +6261,7 @@ Community Selection Menu\
 
 {% tabs %}
 {% tab title="New" %}
-&#x20;[Custom Domain System](../../tutorials/customization/custom-domain.md)\
+[Custom Domain System](../../tutorials/customization/custom-domain.md)\
 \- Communities that are on the Standard Plan+ can now set up their custom domain through a DNS record to be used as a custom login page for Sonoran CMS.\
 \
 [Discord RPC](../../integration-capabilities/discord-rich-presence.md)\
@@ -6292,7 +6277,7 @@ Community Login Query Strings\
 \- Sonoran CMS URLs now support the use of ?comid=[**communityID**](../../tutorials/customization/community-branding-and-settings.md#community-id) at the end of URLs. You can hand these out to automatically invite users to your community, this will automatically direct them to the community selection menu where they can accept an invite.\
 \
 [Android Application](../../download.md)\
-\- Sonoran CMS is now on the Google Play Store for [download](https://play.google.com/store/apps/details?id=com.sonorancms).&#x20;
+\- Sonoran CMS is now on the Google Play Store for [download](https://play.google.com/store/apps/details?id=com.sonorancms).
 {% endtab %}
 
 {% tab title="Fixed" %}
@@ -6401,16 +6386,16 @@ Dashboard - Community Profile View\
 {% tab title="New" %}
 Community Templates System\
 \- The Community Templates System will allow users to create new communities from templates instead of a blank community, they will also have the option to create a blank community if they choose.\
-\- This system allows existing communities to import templates into their community as well, this is outlined in [Community Template System](broken-reference).\
+\- This system allows existing communities to import templates into their community as well, this is outlined in [Community Template System](broken-reference/).\
 \
 Custom Form Editor - Move Fields\
 \- Added a feature that allows users to move fields within a section in the Custom Form Editor.\
 \
 Department Manager - Duplicating Departments & Ranks\
-\- Added a feature that allows users to duplicate entire departments and ranks for easier department managing, this is outlined in [Managing Rank Permissions](broken-reference).\
+\- Added a feature that allows users to duplicate entire departments and ranks for easier department managing, this is outlined in [Managing Rank Permissions](broken-reference/).\
 \
 Department Manager - Permission Copy & Paste\
-\- Added a feature that allows users to copy and paste permissions across different ranks, this is outlined in [Managing Rank Permissions](broken-reference).
+\- Added a feature that allows users to copy and paste permissions across different ranks, this is outlined in [Managing Rank Permissions](broken-reference/).
 {% endtab %}
 
 {% tab title="Changed" %}
@@ -6449,7 +6434,7 @@ Administrative Panel - Custom Roster Editor\
 \- Fixed an issue that would cause the wrong UI being shown with roster columns due to a character case.\
 \
 Administrative Panel - Department Manager\
-\- Fixed an issue that would cause the wrong department to get removed when using the remove department feature within the department manager.&#x20;
+\- Fixed an issue that would cause the wrong department to get removed when using the remove department feature within the department manager.
 {% endtab %}
 {% endtabs %}
 
