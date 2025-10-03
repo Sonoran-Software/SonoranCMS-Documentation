@@ -22,14 +22,14 @@ Forms Editor: Scroll Buttons
 {% tab title="Fixed" %}
 On Join Actions Save
 
-Fix App Loading
-
 * Fixed an issue causing infinite loading after login until a refresh was made
 
-- Fixed an issue causing some new on-join actions to not properly save
-{% endtab %}
+Fix App Loading
 
+* Fixed an issue causing some new on-join actions to not properly save
+{% endtab %}
 {% endtabs %}
+
 ### 1.1.56 10/01/2025
 
 {% tabs %}
