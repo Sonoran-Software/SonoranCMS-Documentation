@@ -10,6 +10,26 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.57 10/03/2025
+
+{% tabs %}
+{% tab title="New" %}
+Forms Editor: Scroll Buttons
+
+* Add section and question buttons now scroll with the page on the side
+{% endtab %}
+
+{% tab title="Fixed" %}
+On Join Actions Save
+
+Fix App Loading
+
+* Fixed an issue causing infinite loading after login until a refresh was made
+
+- Fixed an issue causing some new on-join actions to not properly save
+{% endtab %}
+
+{% endtabs %}
 ### 1.1.56 10/01/2025
 
 {% tabs %}
