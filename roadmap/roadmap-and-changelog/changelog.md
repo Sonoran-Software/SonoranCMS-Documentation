@@ -10,6 +10,22 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.59 10/03/2025
+
+{% tabs %}
+{% tab title="New" %}
+Private Form Stages
+
+* Hidden form stages with permission controls – for when you don’t want users to see the current stage.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Push Notification Branding
+
+* Fixed an issue where mobile push notifications wouldn't include the branded community logo
+{% endtab %}
+
+{% endtabs %}
 ### 1.1.57 10/03/2025
 
 {% tabs %}
