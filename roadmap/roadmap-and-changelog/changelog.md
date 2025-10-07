@@ -10,6 +10,30 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.60 10/06/2025
+
+{% tabs %}
+{% tab title="New" %}
+Login Restrictions
+
+* Added the ability to restrict which login methods are available to community members.
+
+Growth Metrics Revamp
+
+* Initial UI revamp of the growth panel's metrics.
+{% endtab %}
+
+{% tab title="Changed" %}
+Actions UI
+
+* Small UI tweaks and improvments inside the automated actions configurators.
+
+Disciplinary Points
+
+* Set the minimum number of disciplinary points to add to zero instead of one, allow for true "warning" type records in the ER:LC panel.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.59 10/03/2025
 
 {% tabs %}
@@ -24,8 +48,8 @@ Push Notification Branding
 
 * Fixed an issue where mobile push notifications wouldn't include the branded community logo
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.1.57 10/03/2025
 
 {% tabs %}
