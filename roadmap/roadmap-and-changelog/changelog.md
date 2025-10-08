@@ -10,6 +10,38 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.61 10/08/2025
+
+{% tabs %}
+{% tab title="New" %}
+ER:LC Social Whitelist
+
+* Added automated whitelist actions for ER:LC users if they don't have a Discord or Roblox account linked when joining
+
+ER:LC Commands
+
+* Added missing commands for helper, unhelper, and unjail
+
+ER:LC Kick & Ban
+
+* When kicking or banning a user via command or record, both will be automatically generated
+{% endtab %}
+
+{% tab title="Changed" %}
+Roster Mobile View
+
+* Hid the CSV download and centered the search bar when viewing a roster on mobile
+{% endtab %}
+
+{% tab title="Fixed" %}
+Form Conditionals
+
+* Fixed an issue causing the conditionals for ranks and questions on form actions to not appear
+
+
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.60 10/06/2025
 
 {% tabs %}
