@@ -10,6 +10,40 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.62 10/13/2025
+
+{% tabs %}
+{% tab title="New" %}
+Security Center UI Revamp
+
+* Initial UI revamp for the security center
+
+ER:LC Edit Record
+
+* Initial options to edit existing ER:LC player records and view the history of changes
+
+ER:LC Disciplinary Point Actions
+
+* Added new disciplinary point actions to kick and ban from ER:LC
+
+Disciplinary Points: UI Refresh
+
+* Initial UI color revamp for the disciplinary points panel
+{% endtab %}
+
+{% tab title="Changed" %}
+Game Panel: Delete Server
+
+* Added a button to delete a game server from the server selection menu
+{% endtab %}
+
+{% tab title="Fixed" %}
+Join Actions Discord
+
+* Fixed an issue causing the on-join actions Discord webhook to not expand in the UI
+{% endtab %}
+
+{% endtabs %}
 ### 1.1.61 10/08/2025
 
 {% tabs %}
