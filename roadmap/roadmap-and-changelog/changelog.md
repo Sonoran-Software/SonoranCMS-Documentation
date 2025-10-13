@@ -29,12 +29,32 @@ ER:LC Disciplinary Point Actions
 Disciplinary Points: UI Refresh
 
 * Initial UI color revamp for the disciplinary points panel
+
+Limits: UI Color Refresh
+
+* Initial color refresh in the community limits panel
+
+Custom Domain: UI Color Refresh
+
+* Initial color refresh in the custom domain panel
+
+Actions: UI Color Refresh
+
+* Initial color refresh in the community actions panel
+
+Integrations: UI Color Refresh
+
+* Initial color refresh in the community integrations panel
 {% endtab %}
 
 {% tab title="Changed" %}
 Game Panel: Delete Server
 
 * Added a button to delete a game server from the server selection menu
+
+Form Stage Change Log
+
+* Improved security center logging descriptions for API based form stage changes
 {% endtab %}
 
 {% tab title="Fixed" %}
@@ -42,8 +62,8 @@ Join Actions Discord
 
 * Fixed an issue causing the on-join actions Discord webhook to not expand in the UI
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.1.61 10/08/2025
 
 {% tabs %}
@@ -71,8 +91,6 @@ Roster Mobile View
 Form Conditionals
 
 * Fixed an issue causing the conditionals for ranks and questions on form actions to not appear
-
-
 {% endtab %}
 {% endtabs %}
 
