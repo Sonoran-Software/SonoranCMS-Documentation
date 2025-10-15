@@ -14,15 +14,17 @@ If you already have an account on [sonorancad.com](https://sonorancad.com/) and/
 
 ### 1. Navigate to the Login Page
 
-On the website or app, select "Signup"
+On the website or app, select your "Login Preference"
 
-![The account registration panel allows users to input their information.](../../.gitbook/assets/chrome\_HkDwOtTZyO.png)
+"
+
+![The account registration panel allows users to input their information.](<../../.gitbook/assets/Screenshot (191).png>)
 
 ### 2. Enter Your Account Information
 
-Enter in your email, username, and password. Then, select the blue "Signup" button.
+Enter in your email, username, and password. Then, select the "Register" button.
 
-![Verification emails are sent for user registration.](../../.gitbook/assets/chrome\_ajhonWnahF.png)
+![Verification emails are sent for user registration.](<../../.gitbook/assets/Screenshot (193).png>)
 
 ### 3. Verify Your Email Address
 
@@ -36,4 +38,4 @@ Check your inbox for an email from Sonoran CMS.\
 \
 Select the "Verify Email" button, and your account will be automatically verified.
 
-![Account verification emails are sent as shown above.](../../.gitbook/assets/msedge\_ODRH1gJG4s.png)
+![Account verification emails are sent as shown above.](<../../.gitbook/assets/Screenshot (195).png>)

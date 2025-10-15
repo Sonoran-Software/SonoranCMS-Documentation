@@ -2,7 +2,7 @@
 description: Registering your community and creating a CMS is fast, easy, and free!
 ---
 
-# Registering Your Community
+# Community Registration
 
 {% embed url="https://youtu.be/vyWIYNBNWZc" %}
 
@@ -12,7 +12,7 @@ NOTE: If you have not already, you will need to [create a user account](register
 
 ### 1. Enter In Your Community Information
 
-Once logged in, press "Create" on the community selection menu.\
+Once logged in, press the "Plus Icon" on the community selection menu.\
 You will be prompted for five information fields:
 
 1. Community Name
@@ -21,10 +21,10 @@ You will be prompted for five information fields:
 4. Community Banner
 5. Community Description
 
-![The community CMS registration model is shown as above.](<../../.gitbook/assets/CMS\_Registration (1).png>)
+![The community CMS registration model is shown as above.](<../../.gitbook/assets/Screenshot (197).png>)
 
 ### 2. Register Your Community
 
-Once you've filled out the information, press "Create" to create your CMS.\
+Once you've filled out the information, press "Create" to create your CMS Community.\
 \
-Your community icon will now be displayed under the "My Communities" section. You can click on this to log into your new CMS.
+Your community icon will now be displayed under the "My Communities" section. You can click on this to log into your new CMS Community.
