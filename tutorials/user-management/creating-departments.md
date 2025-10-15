@@ -16,7 +16,7 @@ Within the Rank panel you'll be able to create groups and ranks for your members
 
 ## Creating a Group
 
-Click the "Add a New Group" button, which can be found at the end of your existing departments (or the beginning if you're on mobile). Once clicked, a dialog popup should appear
+Click the "Add a New Group" button, which can be found at the end of your existing groups (or the beginning if you're on mobile). Once clicked, a dialog popup should appear
 
 The dialog contains one crucial field for your group:
 
