@@ -10,6 +10,32 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.63 10/16/2025
+
+{% tabs %}
+{% tab title="New" %}
+ER:LC Command Queue
+
+* Added all ER:LC manual commands to a shared queue, ensuring rate limits are respected
+
+Rank Change Webhooks
+
+* Added a new Discord webhook option whenever someone's ranks are changed
+{% endtab %}
+
+{% tab title="Changed" %}
+Name Customization
+
+* Improved the customzation panel's UI for name customizations with clickable variables
+{% endtab %}
+
+{% tab title="Fixed" %}
+Metrics Panel Mobile
+
+* Multiple UI improvements for the metrics panel on mobile devices
+{% endtab %}
+
+{% endtabs %}
 ### 1.1.62 10/13/2025
 
 {% tabs %}
