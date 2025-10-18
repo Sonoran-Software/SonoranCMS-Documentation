@@ -10,6 +10,30 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.64 10/18/2025
+
+{% tabs %}
+{% tab title="New" %}
+ER:LC Action Player Badges
+
+* ER:LC Players that recently had a command ran on them will be pushed to the top of the player list showing a badge
+
+ER:LC Record Search Filters
+
+* Added new record search filters for types, staff member, user, and date range
+{% endtab %}
+
+{% tab title="Fixed" %}
+Roster Last Connected
+
+* Fixed an issue causing the "last connected" roster column type to show as blank on CSV exports
+
+Security Flag Notes
+
+* Fixed an issue with security center flag notes causing notes to not load or be unable to add
+{% endtab %}
+
+{% endtabs %}
 ### 1.1.63 10/16/2025
 
 {% tabs %}
