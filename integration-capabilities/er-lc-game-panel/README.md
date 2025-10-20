@@ -20,6 +20,6 @@ Setting up the ER:LC management panel is easy! Learn more below:
 
 Learn more about each of the ER:LC panel's features using the guides below:
 
-```
-Coming soon!
-```
+{% content-ref url="usage/" %}
+[usage](usage/)
+{% endcontent-ref %}
