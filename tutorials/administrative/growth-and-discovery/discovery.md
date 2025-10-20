@@ -42,7 +42,7 @@ Every time your community is viewed or clicked on via the community discovery pa
 
 You can view these in the growth panel to see how the community spotlight and discovery page are impacting your community.
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt="" width="375"><figcaption><p>Sonoran CMS: Community Discovery Metrics</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26) (1).png" alt="" width="375"><figcaption><p>Sonoran CMS: Community Discovery Metrics</p></figcaption></figure>
 
 ## Configuring Community Discovery
 

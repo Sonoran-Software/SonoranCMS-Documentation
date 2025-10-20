@@ -120,7 +120,7 @@ This will inherit the parent folder's general access settings, this will simply 
 
 You can also change the sensitivity of the document. With sensitive mode enabled, viewers will not be able to download, print, or copy the document. A watermark will also be added.
 
-<div align="center"><img src="../.gitbook/assets/image (15) (1).png" alt="Sonoran CMS - Sensitive Document Toggle"></div>
+<div align="center"><img src="../.gitbook/assets/image (15) (1) (1).png" alt="Sonoran CMS - Sensitive Document Toggle"></div>
 
 ### Saving
 

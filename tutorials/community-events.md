@@ -4,7 +4,7 @@ description: This guide covers managing Calendar Events in Sonoran CMS.
 
 # Calendar Events
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>Sonoran CMS - Community Events</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Community Events</p></figcaption></figure>
 
 {% embed url="https://www.youtube.com/watch?v=4o19lVdsy7U" %}
 

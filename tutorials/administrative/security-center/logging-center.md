@@ -6,7 +6,7 @@ description: >-
 
 # Logging Center
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## What is the Logging Center?
 
@@ -36,4 +36,4 @@ Learn more about our [paid plans](../../../pricing/pricing-faq/create-and-manage
 
 With the large amount of logs to search through, our AI agent can help automatically find relevant logs and provide a summary of the actions. Simply type your question including any details about the username, unique ID, Discord ID, Roblox ID, Teamspeak ID, or action types to get started.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt="" width="375"><figcaption></figcaption></figure>
