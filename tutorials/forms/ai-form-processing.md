@@ -103,9 +103,15 @@ The form editor provides two control options:
 
 <details>
 
-<summary>{form_ai_response} variable is 'N/A'</summary>
+<summary><code>{form_ai_response}</code> variable is 'N/A'</summary>
 
-Whenever a form is moved to a stage, the stage actions will fire instantly. The `{form_ai_response}` variable will be filled with the latest AI reasoning reply. **This reply only exists if the AI has moved the form** from one stage to another.
+Whenever a form is moved to a stage—whether manually or by the AI—**the stage’s actions fire immediately**.
+
+The `{form_ai_response}` variable is automatically populated with the **latest AI reasoning reply**.
+
+This variable is only available when the **AI itself** has moved the form from one stage to another.
+
+<figure><img src="../../.gitbook/assets/image (73).png" alt="" width="188"><figcaption></figcaption></figure>
 
 </details>
 
