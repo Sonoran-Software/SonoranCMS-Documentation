@@ -12,7 +12,7 @@ description: >-
 
 To access the "Roster Editor", navigate to `Administrative Panel` > `Rosters`
 
-![Sonoran CMS - Roster Editor Overview](../../.gitbook/assets/CMS\_RosterEditor2.png)
+![Sonoran CMS - Roster Editor Overview](<../../.gitbook/assets/Screenshot (239).png>)
 
 Within this "Roster Editor" panel you'll be able to create custom and automatic rosters with whatever columns you please. You can specify some of the columns to utilize the custom column types that are in place such as the:
 
@@ -30,7 +30,7 @@ If using a field of type **Patrol Log**, **Activity Tracker Hours**, or **Last A
 For the former two, also ensure you specify the date range or time period that the data should be sourced from.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/CMS_RosterEditor3.png" alt=""><figcaption><p>Sonoran CMS - Create Custom Roster</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (240).png" alt=""><figcaption><p>Sonoran CMS - Create Custom Roster</p></figcaption></figure>
 
 Along the top bar of the editor itself, you can also select an icon which will show at the top of the roster.
 
@@ -42,7 +42,7 @@ If you have a column of type **Time Log Hours**, you can select what form the ti
 
 For each column in the roster editor, you can customize the styling including text color, background color, font, and alignment, as well as the name of the column itself. You can style the content cells differently from the header cell if you wish.
 
-<figure><img src="../../.gitbook/assets/CMS_RosterEditColumnTimeLog.png" alt=""><figcaption><p>Sonoran CMS - Roster Editor - Edit Roster Column</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-10-22 145034.png" alt=""><figcaption><p>Sonoran CMS - Roster Editor - Edit Roster Column</p></figcaption></figure>
 
 ### Style Rule Builder
 
@@ -62,7 +62,7 @@ You can also customize the roster's permissions, which determine who is allowed 
 
 These permissions are housed within [Department & Rank Permissions](creating-departments.md) and can be customized for any rank on any individual roster as shown belo**w:**
 
-<figure><img src="../../.gitbook/assets/CMS_RosterPermsRank.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Roster Permissions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (241).png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Roster Permissions</p></figcaption></figure>
 
 {% hint style="info" %}
 Whenever you create new rosters you will need to explicitly give ranks permissions to the new roster to be used by other individuals. This can be done in the [Department Manager](creating-departments.md).
@@ -74,7 +74,7 @@ If a user has permission to a specific roster they'll be able to access it on th
 
 In the roster column editor, you can select any rank that you wish to be able to view a column. If you do not select any ranks, then the column will be viewable by all.
 
-<figure><img src="../../.gitbook/assets/CMS_RosterPermsColumn.png" alt=""><figcaption><p>Sonoran CMS - Roster Editor - Column Permissions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (242).png" alt=""><figcaption><p>Sonoran CMS - Roster Editor - Column Permissions</p></figcaption></figure>
 
 ## Roster Type Explained
 
@@ -94,11 +94,11 @@ You **CANNOT** change the order which rows appear, they're sorted in which the r
 
 Creating a Department type roster is as easy as creating a custom roster without the headache of adding each individual row for each member. In the Roster Editor, along the top bar click the **Roster Departments** dropdown menu and select what department you would like this roster to be associated with.
 
-<figure><img src="../../.gitbook/assets/CMS_RosterDepartment.png" alt=""><figcaption><p>Sonoran CMS - Roster Department Selector</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (243).png" alt=""><figcaption><p>Sonoran CMS - Roster Department Selector</p></figcaption></figure>
 
 Once you've figured out the department for this roster you can now design the roster columns as you please.\
 \
-Don't forget to click the green **Save** button once you've finished. Once it's saved you can go to the automatic roster and see all the generated rows.
+Don't forget to click the orange **Save** button once you've finished. Once it's saved you can go to the automatic roster and see all the generated rows.
 
 {% hint style="info" %}
 Rows **CANNOT** be removed from a department roster, these rows are dynamically generated with any previous data saved associated with it.

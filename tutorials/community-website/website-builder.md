@@ -14,13 +14,13 @@ To access the website builder, navigate to `Administration Panel` > `Website Bui
 
 To start editing a page, either add a new page or click on an existing page in the page to open up the page editor.
 
-![Sonoran CMS - Page Editor](../../.gitbook/assets/CMS\_WebsiteBuilder4.png)
+![Sonoran CMS - Page Editor](<../../.gitbook/assets/Screenshot (244).png>)
 
 ## View Your Page
 
 Once your page is created and saved, you can [add it to the toolbar](website-builder.md#toolbar) or copy the URL to access it.
 
-![Sonoran CMS - Copy Page URL](../../.gitbook/assets/CMS\_WebsiteBuilderCopyPageUrl.png)
+![Sonoran CMS - Copy Page URL](<../../.gitbook/assets/Screenshot (245).png>)
 
 {% hint style="info" %}
 On public pages you can copy the URL after going to a page and share it with anybody, they don't even have to be part of the Sonoran CMS community!
@@ -34,11 +34,11 @@ To add sections to your web page, simply drag and drop your desired section type
 
 From the website builder's toolbar you can change the page's title, path slug, and privacy setting. Additionally, you're able to add new sections, and change the preview size of the editor to visualize different size settings.
 
-<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderTop.png" alt=""><figcaption><p>Sonoran CMS - Webpage Toolbar</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (246).png" alt=""><figcaption><p>Sonoran CMS - Webpage Toolbar</p></figcaption></figure>
 
 The device preview feature allows you to choose from a list of devices, or set your own custom resolution to give you further control over designing your community's website with mobile responsiveness in mind!&#x20;
 
-<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderDevicePreview.png" alt=""><figcaption><p>Sonoran CMS - Webpage Toolbar - Device Preview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (247).png" alt=""><figcaption><p>Sonoran CMS - Webpage Toolbar - Device Preview</p></figcaption></figure>
 
 ### Section-Specific Styling
 
@@ -48,11 +48,11 @@ You can customize the margin and background styling of specific sections.
 
 **Margin** refers to the space outside an section. It can be used to create space between sections on a page or to push elements away from the edges of the page. In your page editor, you can change margin options for different areas, such as top, bottom, left and right.
 
-<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderSectionStyling.png" alt=""><figcaption><p>Sonoran CMS - Website Builder -  Edit Section Margins</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (248).png" alt=""><figcaption><p>Sonoran CMS - Website Builder -  Edit Section Margins</p></figcaption></figure>
 
 You can also dynamically resize and position sections by clicking any of the boxes around the edges and dragging them to your desired position.&#x20;
 
-<figure><img src="../../.gitbook/assets/CMS_WB_ResizeSection.png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Resize Section</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (250).png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Resize Section</p></figcaption></figure>
 
 There is also a button at the top of the section that allows you to click and drag to move the section:
 
@@ -64,7 +64,7 @@ You can also control the size of individual elements using the same method above
 
 Elements will also snap to center lines within their respective section to assist with positioning.
 
-<figure><img src="../../.gitbook/assets/CMS_WB_ElemPos.png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Resize &#x26; Reposition Element</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (252).png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Resize &#x26; Reposition Element</p></figcaption></figure>
 
 In the top right corner of the button element above, you can see an orange lock icon. This means that this element is locked to the section its in. To move an element to another section, you can click this button to unlock the element, drag it to the section you desire, and then re-lock it.
 
@@ -76,11 +76,11 @@ Button elements can have individual styles and button group elements can have al
 
 You can customize by clicking on it. The styling of a button is set in the `Styles` tab, the target link a button leads to is set in the `Target` tab.
 
-<figure><img src="../../.gitbook/assets/CMS_WB_ButtonEditor2.png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Button Editor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (253).png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Button Editor</p></figcaption></figure>
 
 For Button Group elements, you can add as many target links as you need, and re-order or delete them using the controls on the top right of each entry.
 
-<figure><img src="../../.gitbook/assets/CMS_WB_ButtonGroupTarget.png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Button Group Targets</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (254).png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Button Group Targets</p></figcaption></figure>
 
 ## Privatized Pages
 
@@ -90,13 +90,13 @@ Only Private Pages will have customizable permissions in the Department Editor
 
 Pages can now be privatized and require permissions to view. When editing a page, you can select whether the page is public (and can thus be viewed by anyone in the community) or private.
 
-<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderTopBtns.png" alt=""><figcaption><p>Sonoran CMS - Visibility Button</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (255).png" alt=""><figcaption><p>Sonoran CMS - Visibility Button</p></figcaption></figure>
 
 If it's set to Private, you can use the dropdown to the right to select what ranks are allowed to view this page.
 
-<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderPrivateHover.png" alt=""><figcaption><p>Sonoran CMS - Open Rank Selector</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (256).png" alt=""><figcaption><p>Sonoran CMS - Open Rank Selector</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderPrivateSelect.png" alt=""><figcaption><p>Sonoran CMS - Select Rank to View Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (257).png" alt=""><figcaption><p>Sonoran CMS - Select Rank to View Page</p></figcaption></figure>
 
 ## Default / Landing Page
 
@@ -104,15 +104,15 @@ Sonoran CMS allows you to easily customize the landing page/dashboard for your c
 
 <figure><img src="../../.gitbook/assets/CMS_WebsiteBuilderHomepage.png" alt=""><figcaption><p>Sonoran CMS Custom Page as Dashboard Page</p></figcaption></figure>
 
-To set a Custom Page as your homepage, navigate to the main page for the Website Builder and look under the section titled `Website Pages`. Locate the page you wish to use as your homepage and press the grey home button, this will turn it orange and set it as the landing page.
+To set a Custom Page as your homepage, navigate to the main page for the Website Builder and look under the section titled `Website Pages`. Locate the page you wish to use as your homepage and press the grey gear icon then the grey home icon, this will turn it orange and set it as the landing page.
 
-<figure><img src="../../.gitbook/assets/CMS_WB_SetHomepage.png" alt=""><figcaption><p>Sonoran CMS - Set Homepage</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (259).png" alt=""><figcaption><p>Sonoran CMS - Set Homepage</p></figcaption></figure>
 
 ## Custom Page Paths
 
 Custom Pages can now have a custom path to the page, this path will append to the Sonoran CMS URL. If you're using a custom domain it'll detect that and provide the proper URL.
 
-<figure><img src="../../.gitbook/assets/CMS_WB_Slug.png" alt=""><figcaption><p>Sonoran CMS - Page URL Slug</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (260).png" alt=""><figcaption><p>Sonoran CMS - Page URL Slug</p></figcaption></figure>
 
 ## Page SEO
 
