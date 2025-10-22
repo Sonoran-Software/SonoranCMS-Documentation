@@ -14,15 +14,15 @@ If you already have an account on [sonorancad.com](https://sonorancad.com/) and/
 
 ### 1. Navigate to the Login Page
 
-On the website or app, select your "Login Preference"
+On the website or app, select your Login method.
 
-"
+When viewing a specific community, they may have [restricted login options](../customization/community-branding-and-settings.md#allowed-login-methods).
 
 ![The account registration panel allows users to input their information.](<../../.gitbook/assets/Screenshot (191).png>)
 
 ### 2. Enter Your Account Information
 
-Enter in your email, username, and password. Then, select the "Register" button.
+Enter in your email, username, and password. Then, select the **Register** button.
 
 ![Verification emails are sent for user registration.](<../../.gitbook/assets/Screenshot (193).png>)
 
@@ -36,6 +36,6 @@ If you're having trouble finding the email, check your spam, junk, promotions, o
 
 Check your inbox for an email from Sonoran CMS.\
 \
-Select the "Verify Email" button, and your account will be automatically verified.
+Select the **Verify Email** button, and your account will be automatically verified.
 
 ![Account verification emails are sent as shown above.](<../../.gitbook/assets/Screenshot (195).png>)

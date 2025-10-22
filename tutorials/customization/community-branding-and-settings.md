@@ -18,7 +18,7 @@ Looking to remove Sonoran CMS branding on your website?
 
 The admin customization info section allows you to customize your community's image, name, and more! These settings can be found by navigating to `Administrative Panel` > `Customization`
 
-![Sonoran CMS - Community Customization](../../.gitbook/assets/CMS\_CustomizationPanel.png)
+![Sonoran CMS - Community Customization](../../.gitbook/assets/CMS_CustomizationPanel.png)
 
 | Community Logo           | <p>A link to your community's logo.</p><p>This will be displayed on your community card, community dashboard, and more!</p>        |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -41,14 +41,21 @@ Custom community IDs require the **Standard** version of Sonoran CMS or higher.\
 For more information, see our [pricing](https://sonorancms.com/#/pricing) or view how to check your community [limits](../administrative/view-your-limits.md).
 {% endhint %}
 
-**Looking to change your community ID?**\
-Navigate to `Administrative Panel` > `Limits`\
-Click the "Change Community ID" button and enter your new community ID.
+### **Looking to change your community ID?**
+
+Navigate to **Administrative Panel** > **Limits**\
+Click the **Change Community ID** button and enter your new community ID.
 
 Community IDs also customize your [vanity URL](custom-domain.md#vanity-urls).\
 `ID.sonorancms.com`
 
-![Sonoran CMS Community Limits - Changing Community ID](../../.gitbook/assets/CMS\_ChangeCommId.png)
+![Sonoran CMS Community Limits - Changing Community ID](../../.gitbook/assets/CMS_ChangeCommId.png)
+
+## Allowed Login Methods
+
+Some communities may only want specific login methods to be available to their users. Each method can be enabled or disabled in the customization menu.
+
+<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 ## Community Name Customization
 

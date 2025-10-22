@@ -25,6 +25,6 @@ You will be prompted for five information fields:
 
 ### 2. Register Your Community
 
-Once you've filled out the information, press "Create" to create your CMS Community.\
+Once you've filled out the information, press **Create** to create your CMS Community.\
 \
-Your community icon will now be displayed under the "My Communities" section. You can click on this to log into your new CMS Community.
+Your community icon will now be displayed under the **My Communities** section. You can click on this to log into your new CMS Community.
