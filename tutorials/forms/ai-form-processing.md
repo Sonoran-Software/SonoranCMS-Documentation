@@ -98,3 +98,38 @@ The form editor provides two control options:
 
 * [**Submission limits**](creating-custom-forms.md#limits) – Set a maximum number of submissions allowed within a defined timeframe.
 * [**Cooldown period**](creating-custom-forms.md#limits) – Require a minimum waiting time between individual submissions.
+
+## Troubleshooting
+
+<details>
+
+<summary>{form_ai_response} variable is 'N/A'</summary>
+
+Whenever a form is moved to a stage, the stage actions will fire instantly. The `{form_ai_response}` variable will be filled with the latest AI reasoning reply. **This reply only exists if the AI has moved the form** from one stage to another.
+
+</details>
+
+<details>
+
+<summary>AI is Not Moving the Stage</summary>
+
+AI form processing applies **only** to the specific form stage where it is configured.\
+To trigger AI processing, the form must be in that configured stage. Once active, the AI will:
+
+1. Evaluate the form submission.
+2. Post a response in the submission comments.
+3. Move the form to the next stage (if applicable).
+
+✅ **Valid flow:**\
+`[Stage with AI Rules] → [New Stage]`
+
+❌ **Invalid flow:**\
+`[Stage without AI] → [Stage with AI]`
+
+#### **Loop Prevention**
+
+If the AI moves a form from **Stage A** to **Stage B**, the AI processing rules configured on **Stage B** will **not** run automatically.
+
+This safeguard prevents recursive AI loops that could continuously move the form back and forth between stages.
+
+</details>
