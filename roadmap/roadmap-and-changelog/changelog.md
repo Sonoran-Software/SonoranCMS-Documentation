@@ -10,6 +10,36 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.65 10/22/2025
+
+{% tabs %}
+{% tab title="New" %}
+Discord UI Revamp
+
+* Initial UI color revamp for the Discord integration panel
+
+Website Pages UI Revamp
+
+* Initial UI revamp of the admin website pages panel
+{% endtab %}
+
+{% tab title="Changed" %}
+Admin Sidebar Expansion
+
+* Improve the mobile admin navigation bar expander, saving it's position and making it scroll with the page
+{% endtab %}
+
+{% tab title="Fixed" %}
+ER:LC Whitelist
+
+* Fixed an issue where toggling a rank on the ER:LC allow or deny list would add or remove it on the opposing list
+
+ER:LC User Activity
+
+* Fixed an issue causing the player info's recent activity to load indefinity
+{% endtab %}
+
+{% endtabs %}
 ### 1.1.64 10/18/2025
 
 {% tabs %}
