@@ -10,6 +10,36 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.66 10/23/2025
+
+{% tabs %}
+{% tab title="New" %}
+Event Share Embeds
+
+* Added custom social embeds for public event URLs
+
+User Account Modal
+
+* Initial UI refresh of the user account popup modal in the admin menu.
+{% endtab %}
+
+{% tab title="Changed" %}
+URL Shortener Mobile
+
+* Small tweaks for a better mobile experience in the URL shortener.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Event WYS Formatting
+
+* Fixed an issue causing the WYS text editor's formatting for events to be cleared when viewing the event.
+
+Discord CMS Mapping Icon
+
+* Fixed an issue causing the CMS icon in the Discord mapping panel to be stretched on mobile devices
+{% endtab %}
+
+{% endtabs %}
 ### 1.1.65 10/22/2025
 
 {% tabs %}
