@@ -10,6 +10,36 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.67 10/24/2025
+
+{% tabs %}
+{% tab title="New" %}
+ER:LC Record Edit Improvements
+
+* Added the ability to clear the record editor
+* Added the ability to change a record type
+* Added the ability to click on a user in the edit history
+
+Form Stage Activity Comments
+
+* Added form submissions comments stating what user changed the form stage
+
+Cloudflare Custom Domains
+
+* Updated the custom domain system to the newer Cloudflare for SaaS
+
+Mobile Reload Persist
+
+* Added automatic re-loading of the last community viewed when exiting and re-opening the mobile app
+{% endtab %}
+
+{% tab title="Changed" %}
+Discord Mapping Resync
+
+* Updated the trigger for a community re-sync after Discord mapping changes are made, reducing the amount of stacked community re-syncs in the queue
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.66 10/23/2025
 
 {% tabs %}
@@ -38,8 +68,8 @@ Discord CMS Mapping Icon
 
 * Fixed an issue causing the CMS icon in the Discord mapping panel to be stretched on mobile devices
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.1.65 10/22/2025
 
 {% tabs %}
@@ -68,8 +98,8 @@ ER:LC User Activity
 
 * Fixed an issue causing the player info's recent activity to load indefinity
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.1.64 10/18/2025
 
 {% tabs %}
@@ -92,8 +122,8 @@ Security Flag Notes
 
 * Fixed an issue with security center flag notes causing notes to not load or be unable to add
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.1.63 10/16/2025
 
 {% tabs %}
@@ -118,8 +148,8 @@ Metrics Panel Mobile
 
 * Multiple UI improvements for the metrics panel on mobile devices
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.1.62 10/13/2025
 
 {% tabs %}
