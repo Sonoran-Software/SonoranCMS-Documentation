@@ -16,7 +16,7 @@ Toggle the `Roblox` and/or `Discord` requirement(s). Then, define custom actions
 
 Available actions include public or private in-game messages, Discord webhooks, push notifications, and more.
 
-<div><figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="243"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1).png" alt="" width="243"><figcaption></figcaption></figure></div>
 
 ## Allow and Deny List
 
@@ -26,7 +26,7 @@ When enabled, only users with a Roblox account linked to a CMS account that hold
 
 If a user’s CMS rank appears on the **deny list**, that restriction overrides the allow list — those users will be kicked upon joining.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Team, Vehicle & Livery Restrictions
 
@@ -35,4 +35,4 @@ The Team, Vehicle, and Livery Restrictions panel allows you to control which ER:
 Then, you can define automated actions for users who access a team, vehicle, or livery without the required ranks.\
 Available actions include removing them from the team, sending messages, triggering Discord webhooks, and more.
 
-<div><figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>

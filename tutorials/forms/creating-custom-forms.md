@@ -12,11 +12,11 @@ description: >-
 
 In the `Forms` panel, select the green `+` button to create a new form.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Create New Form</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Create New Form</p></figcaption></figure>
 
 ## Form Customization
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption><p>Form Editor: Diagram</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="375"><figcaption><p>Form Editor: Diagram</p></figcaption></figure>
 
 <details>
 
@@ -55,7 +55,7 @@ In the `Forms` panel, select the green `+` button to create a new form.
 
 Form settings allows you to lock and unlock submissions, set submission limits, restrict submission permissions, customize the submission board title format, and add a description.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="116"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="116"><figcaption></figcaption></figure>
 
 #### Locking a Form
 
@@ -75,7 +75,7 @@ Total: Restrict the maximum number of submissions per-user in the specified time
 
 Cooldown: Specify the wait time between submissions within the specified time window.
 
-<div><figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="277"><figcaption><p>Limits: Total</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="278"><figcaption><p>Limits: Cooldown</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt="" width="277"><figcaption><p>Limits: Total</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt="" width="278"><figcaption><p>Limits: Cooldown</p></figcaption></figure></div>
 
 #### Permissions
 
@@ -151,7 +151,7 @@ Form stage actions can be conditional, meaning they will only trigger if a certa
 
 The example action below shows that the email will only be sent if the form submitter selects `Yes` to the question `Would you like us to email you more information?`&#x20;
 
-<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="336"><figcaption><p>Stage Action: Conditional Question</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="255"><figcaption><p>Form Submission: Conditional Question</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="336"><figcaption><p>Stage Action: Conditional Question</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="255"><figcaption><p>Form Submission: Conditional Question</p></figcaption></figure></div>
 
 ### Form Submissions: Submit, View, and Change Stages
 

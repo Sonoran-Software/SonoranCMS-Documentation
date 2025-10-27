@@ -5,7 +5,7 @@ hidden: true
 
 # Sonoran Shield
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS x Sonoran Servers - Shield</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS x Sonoran Servers - Shield</p></figcaption></figure>
 
 ## Linking your Sonoran Server
 
@@ -35,4 +35,4 @@ CMS allows you to grant shield access to other administrators.
 
 In the [rank manager](../tutorials/user-management/creating-departments.md), their role will need the `Modify Sonoran Shield` permission under the `System` tab.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
