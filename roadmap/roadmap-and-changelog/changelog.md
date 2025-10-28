@@ -13,61 +13,21 @@ description: View the latest changes to Sonoran CMS!
 ### 1.1.70 10/28/2025
 
 {% tabs %}
-{% tab title="New" %}
-Form Stage Change Comment
-
-* Form submission activity box now shows a comment stating who changed the stage
-
-Custom Domain
-
-* Updated custom domain setup for new communities
-
-ER:LC Edit Records
-
-* Added a clear button in the editor. Added the ability to edit the record type. Added the ability to click the user in the edit history.
-
-Mobile Reload
-
-* Added handling to re-load back into the previous community on mobile on app exit and re-open
-
-Form Actions: User Change Variable
-
-* Added a new variable for stage actions to state who changed the form stage.
-
-Custom Discord Bot Branding
-
-* Added the ability to customize the avatar, banner, name, and bio of the Sonoran Bot.
-{% endtab %}
-
-{% tab title="Changed" %}
-Discord Mapping Resync
-
-* Adjusted the community re-sync timing after updating the Discord mapping, ensuring multiple syncs are not layered at once
-
-Discord Mapping Resync
-
-* Improved queuing for community re-sync when mapping is updated, preventing multiple re-syncs from stacking
-{% endtab %}
-
 {% tab title="Fixed" %}
-ER:LC Panel Permissions
-
-* Fixed an issue preventing users with the view panel access from opening the ER:LC panel.
-
 Limits Expiration
 
-* Fixed an issue causing the expiration date in the limits panel to always show as "No Expiration"
+* Fixed an issue on the limits panel where the subscription expiration wouldn't properly show.
 
-Calendar Event Logo
+Event Embed Logo
 
-* Fixed an issue where the social embed for public calendar events wouldn't show the community logo if no event logo was specified
+* Fixed an issue on the calendar event share page social embeds where the community logo wouldn't show if no event image was added.
 
 Calendar Push Notifications
 
-* Fixed an issue where calendar event push notifications wouldn't open up the event on mobile
+* Fixed an issue where push notifications for calendar events wouldn't open the event directly when opened.
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.1.69 10/27/2025
 
 {% tabs %}
