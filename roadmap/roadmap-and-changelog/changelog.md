@@ -10,6 +10,26 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.69 10/27/2025
+
+{% tabs %}
+{% tab title="New" %}
+Discord Bot Custom Branding
+
+* Added the ability to customize the Discord bot nickname, avatar, banner image, and bio as a part of branding removal.
+
+Form Stage Changer Variable
+
+* Added a new form stage variable to state the username of the stage changer.
+{% endtab %}
+
+{% tab title="Fix" %}
+ER:LC Panel View Permissions
+
+* Fixed an issue causing the view ER:LC panel permissions to not allow viewing from other users.
+{% endtab %}
+{% endtabs %}
+
 ### 1.1.67 10/24/2025
 
 {% tabs %}
