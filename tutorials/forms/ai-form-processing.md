@@ -68,9 +68,9 @@ For example, you may want to prevent a form from being automatically accepted if
 
 When the AI updates a form’s stage, it will leave a private comment on the submission explaining its scoring rationale. These private comments are visible to anyone with the `Access Private Comments` [permission](../user-management/creating-departments.md) on that form.
 
-Additionally, the AI’s reasoning can be included in any stage action—such as a Discord webhook—to provide context on why the form was advanced to a new stage.
+Additionally, the AI’s reasoning and score % can be included in any stage action—such as a Discord webhook—to provide context on why the form was advanced to a new stage.
 
-<div><figure><img src="../../.gitbook/assets/image (69).png" alt="" width="210"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (70).png" alt="" width="279"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (71).png" alt="" width="278"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (69).png" alt="" width="210"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (76).png" alt="" width="247"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (71).png" alt="" width="278"><figcaption></figcaption></figure></div>
 
 ## Limits
 

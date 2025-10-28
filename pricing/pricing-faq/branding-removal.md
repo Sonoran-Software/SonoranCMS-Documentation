@@ -63,9 +63,11 @@ Branding removal removes the `| Sonoran CMS` from the embed title.
 
 ## Discord Bot
 
-The Sonoran Discord Bot can have a custom avatar, nickname, banner image, and bio!
+The Sonoran Discord Bot can have a [custom avatar, nickname, banner image, and bio](https://app.gitbook.com/u/ktd3UN62W3TRmYyiu3UYjdC4Qfp1)! These can be customized in the CMS Discord Integration's Settings panel.
 
+Note: Due to Discord rate limits, changes can take up to five minutes to become visible.
 
+<div><figure><img src="../../.gitbook/assets/image (74).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (75).png" alt="" width="180"><figcaption></figcaption></figure></div>
 
 ## Emails
 
