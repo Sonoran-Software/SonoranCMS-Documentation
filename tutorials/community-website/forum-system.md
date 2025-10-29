@@ -20,9 +20,9 @@ The Sonoran CMS Forum System is a custom page element allowing you to create and
 
 To create a Forum Category navigate to the website builder located at `Administrative Panel` > `Website Builder`. Once you've located the editor, add a **Forum Section** to your Custom Page.
 
-Now that you added a Forum Section you can select from existing Forum Categories or create a new one. If you're looking to create a category, simply click the blue `CREATE` button. This will display a popup with various inputs, fill in the category label and select the permission preferences that apply. Once the category fits the needs that you like click the green outline `SAVE` button.
+Now that you added a Forum Section you can select from existing Forum Categories or create a new one. If you're looking to create a category, simply click the forum category . This will display a popup with various inputs, click on <kbd>editor</kbd> then <kbd>create</kbd> and fill in the category label and select the permission preferences that apply. Once the category fits the needs that you like click outside the box and it will save automatically.&#x20;
 
-<figure><img src="https://i.imgur.com/vW2y6R8.png" alt=""><figcaption><p>Sonoran CMS - Forum Category Dialog Creation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (289).png" alt=""><figcaption><p>Sonoran CMS - Forum Category Dialog Creation</p></figcaption></figure>
 
 Once you have saved the Custom Page you can now view the page with the Forum element added.&#x20;
 
@@ -30,7 +30,7 @@ Once you have saved the Custom Page you can now view the page with the Forum ele
 
 To create Forum Sub-Categories navigate to the Custom Page Editor located at `Administrative Panel` > `Website Builder`. Once you've located the editor, select a page that has a **Forum Section** already.
 
-Now that you're at an already set up Forum Category you can easily add sub-categories to it, at the bottom left there's a button labeled `Add Sub-Category`, in green. Click this button and it will prompt you with the sub-category label. Input that sub-category label that you would like and click `OK`. This will add the sub-category to your forum category, sub-categories can be created on sub-categories to create a forum category depth of your choosing.
+Now that you're at an already set up Forum Category you can easily add sub-categories by clicking on `Add Sub-Category`, on the desired forum. Click this button and it will prompt you with the sub-category label. Input that sub-category label that you would like and click `SAVE`. This will add the sub-category to your forum category, sub-categories can be created on sub-categories to create a forum category depth of your choosing.
 
 {% hint style="info" %}
 Currently there's no additional permission settings for Forum Sub-Categories. Anyone that can see the root forum category will have the same permissions across all topics and sub-categories within it.
@@ -38,13 +38,13 @@ Currently there's no additional permission settings for Forum Sub-Categories. An
 
 ### Viewing & Creating Topics
 
-<figure><img src="https://i.imgur.com/vPdXOy3.png" alt=""><figcaption><p>Sonoran CMS - Forum System - Forum Category Topics Table</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (290).png" alt=""><figcaption><p>Sonoran CMS - Forum System - Forum Category Topics Table</p></figcaption></figure>
 
 To view forum topics navigate to a Custom Page that has a Forum element added. Once you've located a page you will be shown a table with all of the topics in the forum category. Click the topic table row to open up the topic for viewing and replying.
 
-To create a forum topic simply click the green plus button located on the Forum Topics table, this will display a topic creation dialog. Fill in the appropriate information for the topic you're wanting to create. Once the topic information suffices your needs simply click the green outline **CREATE TOPIC** button to create the topic. Once it's created it'll automatically navigate you to the topic. This will allow you to edit and reply to the topic.
+To create a forum topic simply click <kbd>Post Topic</kbd> button located on the Forum Topics table, this will display a topic creation dialog. Fill in the appropriate information for the topic you're wanting to create. Once the topic information suffices your needs simply click the green **CREATE TOPIC** button to create the topic. Once it's created it'll automatically navigate you to the topic. This will allow you to edit and reply to the topic.
 
-<figure><img src="https://i.imgur.com/PW8xufG.png" alt=""><figcaption><p>Sonoran CMS - Forum System - Viewing a Topic</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (292).png" alt=""><figcaption><p>Sonoran CMS - Forum System - Viewing a Topic</p></figcaption></figure>
 
 #### Topic Creation - Forum Topic Attachments
 
@@ -58,11 +58,11 @@ Topic Attachments are currently only available on topic creation, they cannot be
 
 Private topics allow individuals to create forum topic(s) that can only be seen by the ranks the individual specifies. This allows for better permission management of individual topics that you may want to hide within a more public category. In order to create private topics within a category you must be granted permission on the root category's permissions. If you want a rank to be able to create a private topic in your category you must add that rank to the **Can Create Private Topics** permission section in the forum section editor.
 
-<figure><img src="https://i.imgur.com/amOM1PS.png" alt=""><figcaption><p>Sonoran CMS - Forum System - Forum Category Dialog - Can Create Private Topics Highlight</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (294).png" alt=""><figcaption><p>Sonoran CMS - Forum System - Forum Category Dialog - Can Create Private Topics Highlight</p></figcaption></figure>
 
 To create a private topic you will need to locate a Forum Category and click the green button in the top right, this should provide you with a popup dialog to create a topic. On the bottom there should be settings for private topics as well as a switch to toggle this topic as private. Flip the switch to toggle the topic as private on and add the ranks that you would like to view and reply to the topic.
 
-<figure><img src="https://i.imgur.com/GTP4G2s.png" alt=""><figcaption><p>Sonoran CMS - Create Topic - Private Topic Highlight</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (293).png" alt=""><figcaption><p>Sonoran CMS - Create Topic - Private Topic Highlight</p></figcaption></figure>
 
 ### Topic Actions: Pin & Lock
 
