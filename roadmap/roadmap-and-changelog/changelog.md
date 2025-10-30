@@ -10,6 +10,16 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.71 10/30/2025
+
+{% tabs %}
+{% tab title="Fixed" %}
+Roster Sort
+
+* Improved roster sorting for connection times and usernames
+{% endtab %}
+
+{% endtabs %}
 ### 1.1.70 10/28/2025
 
 {% tabs %}
