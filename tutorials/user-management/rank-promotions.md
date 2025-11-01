@@ -6,19 +6,24 @@ description: Configure rank promotion flows for your community members.
 
 ## What are Promotions?
 
-Promotion flows make it easy to promote or demote users in your community. For example, someone with the rank of `Rookie` and be promoted to `Member`. Or, someone with the rank of `Administrator` could be demoted to `Moderator`.
+**Promotion flows** let you easily promote or demote members within your community.
+
+For example, a user with the **Rookie** rank can be promoted to **Member**, or an **Administrator** can be demoted to **Moderator**.
 
 ## Creating Promotion Flows
 
 ### Label and Ranks
 
-In the **Promotions** panel, select **Promotion Flows** to view, add, edit, and remove promotional flows.
-
-In the flow header, label the flow with the **Promote From** and **Promote To** inputs. For example: we want to promote from **Moderator** to **Admin**.
-
-In the **Ranks to Add** section, we will select the **Admin** rank. In the **Ranks to Remove** section, we will select the **Moderator** rank.
-
-When this flow is ran as a promotion, it will add the **Admin** rank and remove the **Moderator** rank.
+1. **Access the Promotions Panel**\
+   In the **Promotions** panel, select **Promotion Flows** to view, add, edit, or remove existing promotion flows.
+2. **Set Up the Flow Header**\
+   Use the **Promote From** and **Promote To** fields to label the flow.\
+   **Example:** Promote from **Moderator** to **Admin**.
+3. **Configure Rank Changes**
+   * In the **Ranks to Add** section, select **Admin**.
+   * In the **Ranks to Remove** section, select **Moderator**.
+4. **Run the Promotion Flow**\
+   When executed, this flow will **add the Admin rank** and **remove the Moderator rank**, effectively promoting the user.
 
 <figure><img src="../../.gitbook/assets/image (77).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -34,9 +39,9 @@ This feature is coming soon!
 
 ### Via CMS
 
-In the **Run Promotions** panel, select the user(s), promotional flow, and whether you wish to promote or demote.
+In the **Run Promotions** panel, select the **user(s)**, choose the **promotion flow**, and specify whether to **promote** or **demote**.
 
-You can use the green **+** icon to create additional rows, running multiple different promotional flows at once.
+Use the **green “+” icon** to add additional rows, allowing you to run multiple promotional flows simultaneously.
 
 <figure><img src="../../.gitbook/assets/image (78).png" alt="" width="375"><figcaption></figcaption></figure>
 
