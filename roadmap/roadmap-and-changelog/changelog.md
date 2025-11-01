@@ -10,6 +10,22 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.72 11/01/2025
+
+{% tabs %}
+{% tab title="New" %}
+Rank Promotions
+
+* Added a new promotion flow panel in the rank manager
+{% endtab %}
+
+{% tab title="Changed" %}
+Mobile Reload
+
+* Improvements for reloading the community page when exiting and re-opening the app.
+{% endtab %}
+
+{% endtabs %}
 ### 1.1.71 10/30/2025
 
 {% tabs %}
