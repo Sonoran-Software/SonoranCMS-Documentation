@@ -12,6 +12,7 @@
   * [Troubleshooting](tutorials/getting-started/troubleshooting.md)
 * [User Management](tutorials/user-management/README.md)
   * [Creating Ranks](tutorials/user-management/creating-departments.md)
+  * [Rank Promotions](tutorials/user-management/rank-promotions.md)
   * [Setting User Ranks](tutorials/user-management/modify-users-permissions-and-information.md)
   * [Community Profile](tutorials/user-management/viewing-a-community-profile.md)
   * [Creating Rosters](tutorials/user-management/creating-custom-rosters.md)
