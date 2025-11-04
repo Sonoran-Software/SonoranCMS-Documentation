@@ -47,8 +47,4 @@ Use the **green “+” icon** to add additional rows, allowing you to run multi
 
 ### Via Discord Command
 
-Communities can run promotional flows right from a Discord command!
-
-{% hint style="warning" %}
-This feature is coming soon!
-{% endhint %}
+Communities can [run promotional flows right from a Discord command](https://docs.sonoransoftware.com/bot/tutorials/sonoran-cms-integration/promotion-flows)!
