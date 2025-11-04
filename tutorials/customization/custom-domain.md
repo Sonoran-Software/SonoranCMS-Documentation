@@ -29,7 +29,7 @@ You can also [customize your Community ID](community-branding-and-settings.md#co
 
 Your community's vanity URL can be found in your `Administrative Panel > Custom Domain`.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (307).png" alt=""><figcaption></figcaption></figure>
 
 The vanity URL will take users to the home page created in the website builder.
 
@@ -43,7 +43,7 @@ Custom Domain requires a **Pro** subscription.
 
 This can be a root domain `example.com` or a subdomain `cms.example.com`
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (307) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Configure DNS Records for your Domain
 
@@ -53,7 +53,7 @@ This can be a root domain `example.com` or a subdomain `cms.example.com`
 
 Copy and paste the values to add three DNS records (two `CNAME` records and one `TXT` record). This verifies your domain ownership, community ownership, and redirects traffic on your domain to the CMS.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (308).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Some DNS providers are different!**\
@@ -85,7 +85,9 @@ You can try running `ipconfig /flushdns` in a Windows CMD window and restart you
 
 Press **Set Custom Domain** in the CMS to save. Your new custom domain name will be shown below your vanity URL.
 
-<div><figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Troubleshooting
 
