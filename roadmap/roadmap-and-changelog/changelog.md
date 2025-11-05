@@ -10,6 +10,20 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.73 11/05/2025
+
+{% tabs %}
+{% tab title="New" %}
+Discord Promotion Command
+
+* Run promotional flows right from a Discord /promote or /demote command!
+
+Drive Diagrams
+
+* Added diagram building to the Drive.
+{% endtab %}
+
+{% endtabs %}
 ### 1.1.72 11/01/2025
 
 {% tabs %}
