@@ -10,6 +10,36 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.1.74 11/10/2025
+
+{% tabs %}
+{% tab title="New" %}
+ER:LC Search
+
+* Added a search user button to quickly find and view player records
+
+Promotion Flow Actions
+
+* Added customizable actions to run on each promotional flow.
+
+Promotion Flow Edit Logs
+
+* Added logging for user accounts adding, editing, or removing promotional flows.
+{% endtab %}
+
+{% tab title="Changed" %}
+Roster Styling Computation
+
+* Migrated the computation for roster cell styling to the backend, allowing for proper sorting via dynamic values like status columns.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Hidden Stage Notifications
+
+* Fixed an issue where hidden stage names would still be shown to users in the notifications.
+{% endtab %}
+
+{% endtabs %}
 ### 1.1.73 11/05/2025
 
 {% tabs %}
