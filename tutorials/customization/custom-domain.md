@@ -58,20 +58,20 @@ Copy and paste the values to add three DNS records (two `CNAME` records and one 
 {% hint style="info" %}
 **Some DNS providers are different!**\
 \
-Check with your DNS provider if using a "root domain" (i.e. `example.com` instead of `cms.example.com`) to see what to add as the `name`. \
+Check with your DNS provider if using a "root domain" (i.e. `example.com` instead of `cms.example.com`) to see what to add as the `name`.\
 \
 Typically it is `@` or left blank.
 {% endhint %}
 
 The example record below sets `cms.example.com` as the custom login page URL.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Cloudflare - DNS Record </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Cloudflare - DNS Record</p></figcaption></figure>
 
 {% hint style="info" %}
 **Cloudflare Users:** Be sure to have the **DNS record proxy DISABLED** - and set to `DNS Only`.
 {% endhint %}
 
-If you are using Sonoran Servers, our company's server hosting, for your domain name please note the differences in how to enter the settings pictured below. Each DNS provider is a bit different and requires different input for the Host Name.&#x20;
+If you are using Sonoran Servers, our company's server hosting, for your domain name please note the differences in how to enter the settings pictured below. Each DNS provider is a bit different and requires different input for the Host Name.
 
 Typically the Host Name is left blank or in this case a `@` is used to point the record at the root domain name of "`sonoranroleplay.com`"
 
@@ -87,7 +87,7 @@ Press **Set Custom Domain** in the CMS to save. Your new custom domain name will
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Troubleshooting
 

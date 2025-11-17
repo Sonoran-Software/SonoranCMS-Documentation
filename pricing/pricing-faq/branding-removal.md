@@ -16,20 +16,20 @@ Branding removal is included with the CMS **Standard** plan ($9.99/mo). This hel
 
 Branding removal hides the "Powered by Sonoran CMS" in your website's bottom footer.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran CMS - Footer Branding</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran CMS - Footer Branding</p></figcaption></figure>
 
 ### Browser Tab Favicon
 
 Branding removal customizes your browser tab favicon to your community logo set in your customization settings.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran CMS - Custom Favicon</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran CMS - Custom Favicon</p></figcaption></figure>
 
 ### Browser Tab Title
 
 Website page names are formatted as `Title | Sonoran CMS`\
 Branding removal takes away the `| Sonoran CMS` at the end of it.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran CMS - Page Title Branding</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran CMS - Page Title Branding</p></figcaption></figure>
 
 ### Vanity URL or Custom Domain
 
@@ -37,7 +37,7 @@ Branding removal takes away the `| Sonoran CMS` at the end of it.
 
 Or, use [your own fully-custom domain](../../tutorials/customization/custom-domain.md#custom-domain) with the **Pro** plan!
 
-<div><figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="251"><figcaption><p>CMS: Vanity URL</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt="" width="199"><figcaption><p>CMS: Custom Domain</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="" width="251"><figcaption><p>CMS: Vanity URL</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt="" width="199"><figcaption><p>CMS: Custom Domain</p></figcaption></figure></div>
 
 ### Forms Auto-Reply Avatar
 
@@ -51,7 +51,7 @@ Mobile and desktop push notifications alert users when community events begin, f
 
 Branding removal changes the Sonoran CMS icon to your community's custom logo!
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="150"><figcaption><p>CMS: Push Notifications</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="150"><figcaption><p>CMS: Push Notifications</p></figcaption></figure>
 
 ## Social Page Embeds
 
@@ -80,4 +80,4 @@ Ex: Moving a Membership Application from `Pending` to `Accepted`
 The email subject follows a `Sonoran CMS | Community Name | Form Updated` format.\
 Branding removal takes the `Sonoran CMS |` out of the subject line.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran CMS - Custom Form Emails</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Sonoran CMS - Custom Form Emails</p></figcaption></figure>

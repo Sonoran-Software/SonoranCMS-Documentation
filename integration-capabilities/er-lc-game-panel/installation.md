@@ -20,7 +20,7 @@ ER:LC grants API access as a paid upgrade.
 
 Once in-game, select the `Menu` button at the top left > `Servers` > `Owned Servers` > Select your private server > `Upgrade Packs` > `API Pack`.
 
-<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>ER:LC Menu</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>ER:LC API Pack</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>ER:LC Menu</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>ER:LC API Pack</p></figcaption></figure></div>
 
 ### Copy Your ER:LC API Key
 

@@ -4,7 +4,7 @@ description: Easily grant ACE Permissions to users directly from CMS.
 
 # Aces & Principals
 
-<figure><img src="../../../.gitbook/assets/QBPromo01.png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/QBPromo01 (1).png" alt=""><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
 
 ## Setup
 

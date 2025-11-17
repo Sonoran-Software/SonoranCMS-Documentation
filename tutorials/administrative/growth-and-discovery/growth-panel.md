@@ -4,12 +4,12 @@ description: Track performance with in-depth community metrics.
 
 # Growth Panel
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Growth Panel</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Sonoran CMS - Growth Panel</p></figcaption></figure>
 
 {% hint style="info" %}
 Community metrics are limited to the last 24 hours on free and standard plans.
 
-Full metric history is available with the [pro version](broken-reference) of Sonoran CMS.
+Full metric history is available with the [pro version](broken-reference/) of Sonoran CMS.
 {% endhint %}
 
 ## Community Leaderboard

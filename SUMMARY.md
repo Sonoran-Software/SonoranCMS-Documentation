@@ -16,6 +16,7 @@
   * [Setting User Ranks](tutorials/user-management/modify-users-permissions-and-information.md)
   * [Community Profile](tutorials/user-management/viewing-a-community-profile.md)
   * [Creating Rosters](tutorials/user-management/creating-custom-rosters.md)
+  * [Configuring User Permissions](tutorials/user-management/configuring-user-permissions.md)
 * [Community Website](tutorials/community-website/README.md)
   * [Website Builder](tutorials/community-website/website-builder.md)
   * [Toolbar Customization](tutorials/community-website/toolbar-customization.md)
