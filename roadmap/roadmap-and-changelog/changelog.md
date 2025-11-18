@@ -10,6 +10,22 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.2.0 11/18/2025
+
+{% tabs %}
+{% tab title="New" %}
+Roster Trigger and Loading
+
+* Added roster based triggers in the action panel to send an event when user roster values change. Also overhauled the roster system for persistent compute, making it load instantly for all viewing and filters.
+{% endtab %}
+
+{% tab title="Changed" %}
+Notifications and Preferences
+
+* Updated the UI styling and toggle buttons for the notification center and preferences modal.
+{% endtab %}
+
+{% endtabs %}
 ### 1.1.74 11/10/2025
 
 {% tabs %}
