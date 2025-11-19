@@ -11,3 +11,8 @@ Actions are routine automations ran at specific intervals. Communities may wish 
 In the actions panel actions can be configured, enabled, and manually triggered.
 
 <figure><img src="../../.gitbook/assets/image (24).png" alt="" width="375"><figcaption></figcaption></figure>
+
+## Action Triggers
+
+* **Interval**: Triggers the action every X minutes.
+* **Roster**: [Triggers the action when a roster cell is updated](../rosters/roster-automations.md#roster-trigger-actions).
