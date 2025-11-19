@@ -16,53 +16,53 @@ With your drive, you're able to create files and folders for your community. The
 This feature is currently experimental. It is known that phones and other small devices may not have the best compatibility with editing/viewing files
 {% endhint %}
 
-![Sonoran CMS - Document Editor](../.gitbook/assets/CMS_DriveDocEditMore.png)
+![Sonoran CMS - Document Editor](<../.gitbook/assets/Screenshot (340).png>)
 
 ## Your Drive
 
-You can navigate to your drive using the `Drive` button on the menu sidebar. Once in the drive, you'll see all create documents! If you have permission to edit/create documents, then there will be some additional buttons for you
+You can navigate to your drive using the `Drive` button on the menu sidebar. Once in the drive, you'll see all created documents! If you have permission to edit/create documents, then there will be some additional buttons for you
 
-To view a document, simply click it in either grid or list view. This will show a read-only view of the document
+To quickly manage Drive items you can right click the item, it'll provide a menu of actions that can be performed on that item.
 
-To quick manage Drive items you can right click the item, it'll provide a menu of actions that can be performed on that item.
-
-<div align="center"><figure><img src="../.gitbook/assets/CMS_DriveRightClick2.png" alt=""><figcaption><p>Sonoran CMS - Drive - Quick Manage (Right Click)</p></figcaption></figure></div>
+<div align="center"><figure><img src="../.gitbook/assets/Screenshot (341).png" alt=""><figcaption><p>Sonoran CMS - Drive - Quick Manage (Right Click)</p></figcaption></figure></div>
 
 ### Folders
 
-Folders help you organize your community's drive! To create folders, just use the green plus button on the top, then drag n drop files into the folders. You can also drag n drop files on the breadcrumbs on the top
+Folders help you organize your community's drive! To create folders, just use the green plus button, then drag n drop files into the folders. You can also drag n drop files on the breadcrumbs on the top
 
-<figure><img src="https://i.imgur.com/XQX9D1D.png" alt=""><figcaption><p>Sonoran CMS - Drive File Path</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot (342).png" alt=""><figcaption><p>Sonoran CMS - Drive File Path</p></figcaption></figure>
 
-To move a file without drag n drop, you can use the blue arrow button on a document and select the folder in the popup
+To move a file without drag n drop, you can right click the document then <kbd>Move to Folder</kbd> and select the folder in the popup.
 
-Folders can have permissions associated with them to mass organize files with permissions. To edit a folder's permissions/share type you can right click the folder and select "Change Permissions". All items within the folder that have the Share Type of "Inherit Parent Folder" will inherit the Share Type & Permissions associated with the folder.
+Folders have share settings with them to determine who can view/edit via the direct link. To edit a folder's share settings you can right click the folder and select "Share Settings".
+
+
 
 ### View Mode
 
 You can change the view mode between grid and list by using the orange toggle button at the top right of the drive.
 
-<div align="center"><img src="../.gitbook/assets/CMS_DriveOverviewList.png" alt="Sonoran CMS - Drive List View"></div>
+<div align="center"><img src="../.gitbook/assets/Screenshot (344).png" alt="Sonoran CMS - Drive List View"></div>
 
 ### Document Types
 
 You're able to create multiple document types, from presentations to excel sheets to word files!
 
-<div align="center"><img src="../.gitbook/assets/CMS_DriveNew.png" alt="Sonoran CMS - Create File Dialog"></div>
+<div align="center"><img src="../.gitbook/assets/Screenshot (345).png" alt="Sonoran CMS - Create File Dialog"></div>
 
 ### Document Actions
 
 If you have access to modify documents, then you'll be able to create/edit/delete them.
 
-* To edit a document, press the orange button with a pen and paper on the document
-* To delete a document, press the red trash can on the document
-* To create a document, press the green plus button on the top right (next to the view mode selector)
+* To edit a document, press the three orange dots then Open.
+* To delete a document, press the press the three orange dots then Remove
+* To create a document, press the green plus button that says New.
 
 ## Editing a Document
 
-<div align="center"><img src="https://i.imgur.com/7L9wLdS.png" alt="Sonoran CMS - Word Document Editor"></div>
+<div align="center"><img src="../.gitbook/assets/Screenshot (346).png" alt="Sonoran CMS - Word Document Editor"></div>
 
-Editing documents is fairly easy! On the editor page, you have the main editor, a section to rename, and a section to change share settings
+Editing documents is simple. On the editor page, you can modify the content, rename the file, adjust sharing settings, and manage if the info is sensitive.
 
 To rename the page, simply type the new name and press the checkmark.
 
@@ -72,9 +72,9 @@ To rename the page, simply type the new name and press the checkmark.
 
 ### Share Settings
 
-<figure><img src="../.gitbook/assets/CMS_DriveShareSettings3-2.png" alt=""><figcaption><p>Sonoran CMS - Drive - Share Settings Dialog</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot (343) (1).png" alt=""><figcaption><p>Sonoran CMS - Drive - Share Settings Dialog</p></figcaption></figure>
 
-To change share settings, simply right click the green hamburger button on the drive item and select "Share Settings". If you're editing the document already you can simply click the "Share Settings" button on the top.
+To change share settings, simply right click the file and select "Share Settings". If you're editing the document already you can simply click the "Share Settings" icon on the top right.
 
 **Ranks with All Drive Access**
 
@@ -84,9 +84,7 @@ This shows all ranks that have the "Modify Documents (Drive)" permission, this w
 
 This shows all ranks that have been added to have direct view or edit access regardless of what the General Access share type is set to. If a user has a rank listed here the drive item will show in their Drive as well. You can select what ranks you wish to give access permissions and whether they're given permission to view or edit.
 
-<figure><img src="../.gitbook/assets/CMS_DriveShareSettings3.png" alt=""><figcaption><p>Sonoran CMS - Drive - Share Settings - Select Ranks for Access Permissions</p></figcaption></figure>
-
-There's also a "Inherit Parent Folder Access Permissions" option for all nested drive items, this will inherit the parent folder's access permissions ranks.
+<figure><img src="../.gitbook/assets/Screenshot (347).png" alt=""><figcaption><p>Sonoran CMS - Drive - Share Settings - Select Ranks for Access Permissions</p></figcaption></figure>
 
 **General Access**
 
@@ -98,7 +96,7 @@ This will only utilize the Ranks with All Drive Access and Ranks with Access Per
 
 _Anyone with this link_
 
-This will allow ANYONE with the share link provided with the button to either view and/or edit the file, depending on what it set. You can click the icon on the left to either hide or show the drive item in your community member's Drive, if you have it hidden they'll still have access to either view or edit depending on what's set directly through the share link. Someone who is not apart of your community's CMS or even signed into Sonoran CMS will be able to view and/or edit through the share link provided.&#x20;
+This will allow ANYONE with the share link provided with the button to either view and/or edit the file, depending on what it set. You can click the icon on the left to either hide or show the drive item in your community member's Drive, if you have it hidden they'll still have access to either view or edit depending on what's set directly through the share link. Someone who is not apart of your community's CMS or even signed into Sonoran CMS will be able to view and/or edit through the share link provided.
 
 _Active members with this link_
 
@@ -120,13 +118,13 @@ This will inherit the parent folder's general access settings, this will simply 
 
 You can also change the sensitivity of the document. With sensitive mode enabled, viewers will not be able to download, print, or copy the document. A watermark will also be added.
 
-<div align="center"><img src="../.gitbook/assets/image (15) (1) (1).png" alt="Sonoran CMS - Sensitive Document Toggle"></div>
+<div align="center"><img src="../.gitbook/assets/Screenshot (354).png" alt="Sonoran CMS - Sensitive Document Toggle" width="375"></div>
 
 ### Saving
 
 Due to limitations with the editor, it's not able to save automatically. To save, you can press the floppy-disk icon on the top left or press `CTRL+S`
 
-<div align="center"><img src="https://i.imgur.com/ZLlc5og.png" alt="Sonoran CMS - Save Icon"></div>
+<div align="center"><img src="../.gitbook/assets/Screenshot (348).png" alt="Sonoran CMS - Save Icon"></div>
 
 A warning will be shown if you try to leave the page with unsaved changes
 
@@ -136,13 +134,13 @@ The editor allows multiple people to edit the same document at the same time! No
 
 ## Uploading / Migrating Files
 
-<figure><img src="../.gitbook/assets/CMS_DriveNew.png" alt=""><figcaption><p>Sonoran CMS - Drive - Upload a Document</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot (349).png" alt=""><figcaption><p>Sonoran CMS - Drive - Upload a Document</p></figcaption></figure>
 
 Sonoran CMS easily allows you to upload individual files, multiple files via a ZIP. This will allow your community to easily migrate community documents and assets easily over from standard document hosting services such as Google Drive!
 
 ### Uploading Individual Files
 
-As shown in the image above you'll want to navigate to the Sonoran CMS Drive, locate the blue upload cloud button and click it.\
+As shown in the image above, navigate to the Sonoran CMS Drive, click the green plus button, and then select _Upload File_.\
 \
 From there, you'll be able to select a file with the following type:
 
@@ -154,7 +152,7 @@ From there, you'll be able to select a file with the following type:
 * `.wav` Audio
 * `.rpf` GTA Archive
 
-<figure><img src="https://i.imgur.com/BCEiVpM.png" alt=""><figcaption><p>Sonoran CMS - Drive - File Uploader</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot (350).png" alt=""><figcaption><p>Sonoran CMS - Drive - File Uploader</p></figcaption></figure>
 
 Once you select the file(s) you'd like to upload click the white cloud upload icon to the right of "Upload Document". This will now upload the file and alert you once it's completed.
 
@@ -162,7 +160,7 @@ Once you select the file(s) you'd like to upload click the white cloud upload ic
 
 As mentioned above you can upload / migrate complete directories from standard document hosting services such as Google Drive.
 
-While in the Sonoran CMS Drive locate the blue cloud upload button in the top right area of the drive, click it and begin selecting file(s).
+While in the Sonoran CMS Drive click the green plus button, and then select _Upload Zip_.
 
 From there you'll be able to select a ZIP file, keep in mind that the following file types will be the only ones recognized by Sonoran CMS once uploaded.
 
@@ -174,7 +172,7 @@ From there you'll be able to select a ZIP file, keep in mind that the following 
 * `.wav` Audio
 * `.rpf` GTA Archive
 
-<figure><img src="../.gitbook/assets/CMS_DriveZipUpload.png" alt=""><figcaption><p>Sonoran CMS - Drive - ZIP Upload Alerts</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot (351).png" alt=""><figcaption><p>Sonoran CMS - Drive - ZIP Upload Alerts</p></figcaption></figure>
 
 Once you select the file(s) you'd like to upload click the white cloud upload icon to the right of "Upload Document". You will get alerted for all the files that were successfully uploaded from the ZIP and which ones were rejected with reason.
 
@@ -186,11 +184,11 @@ Migrating files from Google Drive to the Sonoran CMS is very easy! All you need 
 
 ## Publicly Accessible Files
 
-<figure><img src="https://i.imgur.com/OJ4jcH5.png" alt=""><figcaption><p>Sonoran CMS - Publicly Accessible File Preview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot (355).png" alt=""><figcaption><p>Sonoran CMS - Publicly Accessible File Preview</p></figcaption></figure>
 
 Sonoran CMS Drive allows files to be publicly viewable and editable with a simple share setting change and sharing the generated share link. When a file's general access is set to "Anyone with this link" it will allow anyone with that generated link access to view or edit the file. This will not require the user to sign in or to be part of your community.
 
-<figure><img src="../.gitbook/assets/CMS_DriveShare.png" alt=""><figcaption><p>Sonoran CMS - File Share Settings for Anyone with this link</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot (352).png" alt=""><figcaption><p>Sonoran CMS - File Share Settings for Anyone with this link</p></figcaption></figure>
 
 If a user of your community accesses the public generated link they will be automatically redirected to view the file in your community's Drive.
 
