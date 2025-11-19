@@ -22,4 +22,4 @@ Use **Deny** sparingly. It’s best suited for special ranks that must override 
 
 You can view a user’s computed permissions directly in the account portal. Click the **(?)** icon above their ranks to see every permission that’s granted, unset, or denied. Hover over any permission to see a tooltip listing the groups and ranks responsible for granting or denying it.
 
-<div><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>

@@ -19,13 +19,13 @@ Within this "Roster Editor" panel you'll be able to create custom and automatic 
 * **Patrol Log Hours** column type requires a custom form to be created that is a Form Type of `Patrol Log`.
   * This column type will automatically calculate hours based on form submissions from a specific time till the current time.
 * **Status Selector** column type allows the roster to display custom statuses set in the "Roster Statuses" section of the Roster Editor.
-* **Activity Tracker Hours** column type displays how many hours a user has played on the selected server in a specified time period.&#x20;
+* **Activity Tracker Hours** column type displays how many hours a user has played on the selected server in a specified time period.
   * This requires that you've added a server in `Settings` > `SonoranCMS API` > `Servers` and have also set up an [in-game integration resource](https://info.sonorancms.com/integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core) on that server.
 * **Last Active** column type displays the date and time which a user was last active on the selected server.
   * Just like with **Activity Tracker Hours**, this also requires that you've added a server in `Settings` > `SonoranCMS API` > `Servers` and have also set up an [in-game integration resource](https://info.sonorancms.com/integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core) on that server.
 
 {% hint style="warning" %}
-If using a field of type **Patrol Log**, **Activity Tracker Hours**, or **Last Active**, ensure that you select a form or server from the "Source Form" / "Source Server" dropdown.&#x20;
+If using a field of type **Patrol Log**, **Activity Tracker Hours**, or **Last Active**, ensure that you select a form or server from the "Source Form" / "Source Server" dropdown.
 
 For the former two, also ensure you specify the date range or time period that the data should be sourced from.
 {% endhint %}
@@ -42,13 +42,13 @@ If you have a column of type **Time Log Hours**, you can select what form the ti
 
 For each column in the roster editor, you can customize the styling including text color, background color, font, and alignment, as well as the name of the column itself. You can style the content cells differently from the header cell if you wish.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-10-22 145034.png" alt=""><figcaption><p>Sonoran CMS - Roster Editor - Edit Roster Column</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-10-22 145034.png" alt="" width="375"><figcaption><p>Sonoran CMS - Roster Editor - Edit Roster Column</p></figcaption></figure>
 
 ### Style Rule Builder
 
 In the `Style` tab, you can use the rule builder to set conditionals that change the style of cells that meet the given criteria. For example, if you have a column for `Community Name`, you can create a style rule where if a user's `Community Name` is `equal to` a certain value, in this example, `SonoranAdam`, then the styling will be what has been set below `Then:`.
 
-<figure><img src="../../.gitbook/assets/CMS_RosterRuleBuilder.png" alt=""><figcaption><p>Sonoran CMS - Roster Editor - Rule Builder</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_RosterRuleBuilder.png" alt="" width="259"><figcaption><p>Sonoran CMS - Roster Editor - Rule Builder</p></figcaption></figure>
 
 As you can see, the user `SonoranAdam` now has a red background with green text in Impact font, as specified in the Rule Builder above:
 
@@ -60,12 +60,12 @@ You can also use rules for if a value is `greater than`, `less than`, or `not eq
 
 You can also customize the roster's permissions, which determine who is allowed to view and edit it. These permissions apply to the roster as a whole. If you would like to restrict viewing a certain column to only specified ranks, please see [Column Permissions](creating-custom-rosters.md#column-permissions)
 
-These permissions are housed within [Department & Rank Permissions](creating-departments.md) and can be customized for any rank on any individual roster as shown belo**w:**
+These permissions are housed within [Department & Rank Permissions](../user-management/creating-departments.md) and can be customized for any rank on any individual roster as shown belo**w:**
 
-<figure><img src="../../.gitbook/assets/Screenshot (241).png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Roster Permissions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (241).png" alt="" width="375"><figcaption><p>Sonoran CMS - Rank Editor - Roster Permissions</p></figcaption></figure>
 
 {% hint style="info" %}
-Whenever you create new rosters you will need to explicitly give ranks permissions to the new roster to be used by other individuals. This can be done in the [Department Manager](creating-departments.md).
+Whenever you create new rosters you will need to explicitly give ranks permissions to the new roster to be used by other individuals. This can be done in the [Department Manager](../user-management/creating-departments.md).
 
 If a user has permission to a specific roster they'll be able to access it on the left side menu under the "Rosters" dropdown.
 {% endhint %}

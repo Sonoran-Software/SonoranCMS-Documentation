@@ -6,7 +6,7 @@ description: The ER:LC panel also has extended functionality from other areas of
 
 ## Roster Activity Time
 
-The ER:LC panel extends functionality to [CMS rosters](../../../tutorials/user-management/creating-custom-rosters.md) by allowing you to add an `Activity Tracker Hours` column that automatically displays each user’s in-game time over a configurable period. This column can also be configured to track time spent on specific ER:LC team(s).
+The ER:LC panel extends functionality to [CMS rosters](../../../tutorials/rosters/creating-custom-rosters.md) by allowing you to add an `Activity Tracker Hours` column that automatically displays each user’s in-game time over a configurable period. This column can also be configured to track time spent on specific ER:LC team(s).
 
 <div><figure><img src="../../../.gitbook/assets/image (25).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (26).png" alt="" width="234"><figcaption></figcaption></figure></div>
 

@@ -16,7 +16,7 @@ Toggle the `Roblox` and/or `Discord` requirement(s). Then, define custom actions
 
 Available actions include public or private in-game messages, Discord webhooks, push notifications, and more.
 
-<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="243"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="243"><figcaption></figcaption></figure></div>
 
 ## Allow and Deny List
 

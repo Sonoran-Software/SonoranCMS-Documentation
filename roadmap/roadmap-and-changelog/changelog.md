@@ -24,8 +24,8 @@ Notifications and Preferences
 
 * Updated the UI styling and toggle buttons for the notification center and preferences modal.
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.1.74 11/10/2025
 
 {% tabs %}
@@ -54,8 +54,8 @@ Hidden Stage Notifications
 
 * Fixed an issue where hidden stage names would still be shown to users in the notifications.
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.1.73 11/05/2025
 
 {% tabs %}
@@ -68,8 +68,8 @@ Drive Diagrams
 
 * Added diagram building to the Drive.
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.1.72 11/01/2025
 
 {% tabs %}
@@ -84,8 +84,8 @@ Mobile Reload
 
 * Improvements for reloading the community page when exiting and re-opening the app.
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.1.71 10/30/2025
 
 {% tabs %}
@@ -94,8 +94,8 @@ Roster Sort
 
 * Improved roster sorting for connection times and usernames
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.1.70 10/28/2025
 
 {% tabs %}
@@ -4468,7 +4468,7 @@ All users within communities are now automatically assigned a unique numerical I
 
 {% tabs %}
 {% tab title="New" %}
-[**Rosters Editor**](../../tutorials/user-management/creating-custom-rosters.md)
+[**Rosters Editor**](../../tutorials/rosters/creating-custom-rosters.md)
 
 * UI was completely reworked to be more interactive and user-friendly
 * Community Statuses has been moved to the Roster Editor and rebranded to Roster Statuses
@@ -5499,7 +5499,7 @@ Automatic Department Roster's have been reworked to improve reliability and perf
 
 {% tabs %}
 {% tab title="New" %}
-[**Automatic Rosters**](../../tutorials/user-management/creating-custom-rosters.md#department-automatic)
+[**Automatic Rosters**](../../tutorials/rosters/creating-custom-rosters.md#department-automatic)
 
 Rosters have been reworked to add additional functionality and purpose. All existing rosters have been moved to the type of "Custom", this type is considered for all rosters that will allow you to add and remove rows as you please. With this change the previous _Department_ and _Sub-Department_ type have been deprecated.\
 \
@@ -5961,7 +5961,7 @@ Accounts Viewer
 * Forms
   * An issue which would cause individuals to be unable to submit forms directly onto another user's profile to attach it to their profile.
 
-[Rosters](../../tutorials/user-management/creating-custom-rosters.md)
+[Rosters](../../tutorials/rosters/creating-custom-rosters.md)
 
 * Column Types
   * Community Identifier row columns would not populate with a user's primary identifier properly unless the conditions which very specific.
