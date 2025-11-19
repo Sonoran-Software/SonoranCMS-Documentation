@@ -5665,7 +5665,7 @@ Admin Routes
 
 Sync your single Sonoran CMS community to multiple Sonoran CAD communities!
 
-[Navigation Button Visibility](../../tutorials/community-website/navigation-sidebar.md)
+[Navigation Button Visibility](broken-reference)
 
 Navigation items on the sidebar can now be dynamically shown based upon permissions. Documentation explains how each navigation item is permission evaluated.
 

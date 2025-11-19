@@ -71,10 +71,6 @@ The example record below sets `cms.example.com` as the custom login page URL.
 **Cloudflare Users:** Be sure to have the **DNS record proxy DISABLED** - and set to `DNS Only`.
 {% endhint %}
 
-If you are using Sonoran Servers, our company's server hosting, for your domain name please note the differences in how to enter the settings pictured below. Each DNS provider is a bit different and requires different input for the Host Name.
-
-Typically the Host Name is left blank or in this case a `@` is used to point the record at the root domain name of "`sonoranroleplay.com`"
-
 ### 3. Save the Custom Domain
 
 {% hint style="warning" %}

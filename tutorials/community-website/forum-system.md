@@ -20,11 +20,11 @@ The Sonoran CMS Forum System is a custom page element allowing you to create and
 
 To create a Forum Category navigate to the website builder located at `Administrative Panel` > `Website Builder`. Once you've located the editor, add a **Forum Section** to your Custom Page.
 
-Now that you added a Forum Section you can select from existing Forum Categories or create a new one. If you're looking to create a category, simply click the forum category . This will display a popup with various inputs, click on <kbd>editor</kbd> then <kbd>create</kbd> and fill in the category label and select the permission preferences that apply. Once the category fits the needs that you like click outside the box and it will save automatically.&#x20;
+Now that you added a Forum Section you can select from existing Forum Categories or create a new one. If you're looking to create a category, simply click the forum category . This will display a popup with various inputs, click on <kbd>editor</kbd> then <kbd>create</kbd> and fill in the category label and select the permission preferences that apply. Once the category fits the needs that you like click outside the box and it will save automatically.
 
 <figure><img src="../../.gitbook/assets/Screenshot (289).png" alt=""><figcaption><p>Sonoran CMS - Forum Category Dialog Creation</p></figcaption></figure>
 
-Once you have saved the Custom Page you can now view the page with the Forum element added.&#x20;
+Once you have saved the Custom Page you can now view the page with the Forum element added.
 
 ### Creating Forum Sub-Categories
 
@@ -48,7 +48,7 @@ To create a forum topic simply click <kbd>Post Topic</kbd> button located on the
 
 #### Topic Creation - Forum Topic Attachments
 
-Forum topics can attach image(s) to their topic upon creation, these will act as attachments for the topic. To add attachments to your topic upon creation head over to a Forum Category, locate the green topic creation button and click it. At the bottom/middle of the popup dialog there should be an uploader there to upload your attachments. Select the images you would like to attach and create the topic, these attachments will be shown under the topic content.
+Forum topics can include image attachments during creation. To add them, go to any Forum Category and click the green **Create Topic** button. In the popup, use the uploader near the middle/bottom to select your images. After creating the topic, the attachments will appear below the topic content.
 
 {% hint style="info" %}
 Topic Attachments are currently only available on topic creation, they cannot be modified once they've been uploaded. Topic Attachment Management is planned in a future release.
@@ -56,7 +56,7 @@ Topic Attachments are currently only available on topic creation, they cannot be
 
 ### Creating Private Topics
 
-Private topics allow individuals to create forum topic(s) that can only be seen by the ranks the individual specifies. This allows for better permission management of individual topics that you may want to hide within a more public category. In order to create private topics within a category you must be granted permission on the root category's permissions. If you want a rank to be able to create a private topic in your category you must add that rank to the **Can Create Private Topics** permission section in the forum section editor.
+Private topics let users create forum posts visible only to the ranks they choose, allowing tighter control over sensitive discussions inside public categories. To create private topics in a category, a user must have permission on the root category. To allow a rank to create private topics, add that rank to **Can Create Private Topics** in the forum section’s permissions.
 
 <figure><img src="../../.gitbook/assets/Screenshot (294).png" alt=""><figcaption><p>Sonoran CMS - Forum System - Forum Category Dialog - Can Create Private Topics Highlight</p></figcaption></figure>
 

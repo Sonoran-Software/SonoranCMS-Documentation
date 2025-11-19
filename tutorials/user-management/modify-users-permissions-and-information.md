@@ -22,15 +22,15 @@ Within this "Accounts Panel" is where you'll be able to see every user that has 
 
 ## Editing Account Information
 
-If you would like to simply edit a user's account information just left-click a user's row on the User Accounts table. Doing so will bring up a dialog that will allow you to modify a user's account information by setting their Rank, Identifier, etc. Setting a user's rank(s) will assign the individual the permissions and power associated with those rank(s).
+To edit a user’s account, left-click their row in the **User Accounts** table. This opens a dialog where you can update details such as Rank and Identifiers. Assigning ranks grants the user the permissions associated with those roles.
 
-When assigning someone identifier(s) you must press enter while in the input to add the identifier.
+When adding identifiers, type the value and press **Enter** to apply it.
 
-In order for permissions to be used the user must have a "System Status" of **ACTIVE**. Archiving a user will revoke all the user's permissions and limit their access to your community's CMS.
+A user’s permissions are active only when their **System Status** is set to **ACTIVE**. If a user is archived, all permissions are revoked and their access to the community CMS is restricted.
 
 ![Administrative Accounts Panel - Account Information Dialog](<../../.gitbook/assets/Screenshot (223).png>)
 
-### Assign Rank to  Multiple Accounts
+### Assign Rank to Multiple Accounts
 
 In the `User Accounts` viewer, you can now tick the checkboxes to select multiple accounts at once. This will allow you to perform actions on multiple accounts at once.
 
@@ -60,15 +60,11 @@ If you have permission to edit the individuals information in the Account Viewer
 
 ### Granting Expiring Ranks
 
-All ranks can be set to expire after a certain amount of time or at a specific time, below will explain how to set a rank to expire.
+You can configure any rank to expire either after a set duration or at a specific date and time. To begin, assign the user the rank you want to schedule for expiration.
 
-To start you'll need to grant an individual the rank you want to expire.
+After selecting the rank, click the yellow **Set to Expire** button. A dialog will appear where you can choose between a time-based expiration (e.g., after a certain number of days) or an exact expiration date and time.
 
-Once you've chosen the rank you can now click the yellow `Set to Expire` button.
-
-This will open up a dialog where you can decide whether you want the rank to expire after a certain amount of time or on a specific time.
-
-Once you're happy with the expiration settings, just click the green"`Set Expiration` button.
+Once you’ve configured the settings, click the green **Set Expiration** button to apply the expiration schedule.
 
 <figure><img src="../../.gitbook/assets/Screenshot (231).png" alt=""><figcaption><p>Sonoran CMS - Rank Expiration Settings</p></figcaption></figure>
 
@@ -80,7 +76,7 @@ Checks for rank expirations are done upon each fetch of the account and not **cu
 
 In the `User Accounts` page, you can filter users by rank so that only users who hold the rank(s) you've selected will be shown.
 
-To filter by rank, open the dropdown menu to the right of where it says `User Accounts:`. In there you can department sub-menus and click on ranks to filter them. You can select multiple ranks to filter if you would like.&#x20;
+To filter by rank, open the dropdown menu to the right of where it says `User Accounts:`. In there you can department sub-menus and click on ranks to filter them. You can select multiple ranks to filter if you would like.
 
 To clear filters, you can click the X in the menu box.
 
@@ -94,7 +90,7 @@ Below that you can alternatively choose to display Pending, Banned, or Archived 
 These settings can be found in `Admin Panel` > `Customization` > `On Join Actions`
 {% endhint %}
 
-You can automatically grant a default rank for all users who join your community. This could be used if you want to have a specific rank for inquiring members that only gives them access to certain forms.&#x20;
+You can automatically grant a default rank for all users who join your community. This could be used if you want to have a specific rank for inquiring members that only gives them access to certain forms.
 
 In this case you would click the green plus button, add a `Modify Ranks` block, then select the rank you wish to grant.
 

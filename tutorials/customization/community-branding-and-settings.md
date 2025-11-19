@@ -20,13 +20,13 @@ The admin customization info section allows you to customize your community's im
 
 ![Sonoran CMS - Community Customization](<../../.gitbook/assets/Screenshot (301).png>)
 
-| Community Logo        | <p>A link to your community's logo.</p><p>This will be displayed on your community card, community dashboard, and more!</p>                                                                                                                                                                                      |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Community Name        | <p>This is your community's name.</p><p>This will be displayed on your community card and community dashboard.</p>                                                                                                                                                                                               |
-| Community Subtitle    | This is the text displayed below your community name on your community card.                                                                                                                                                                                                                                     |
-| Name Customizations   | <p>This allows customization of how community names are formatted. Many RP communities use a specific naming style.<br>Example: <strong>Format:</strong> <code>{uniqueId} | {comName}</code> → <strong>123 | Brian</strong><br>You can click the &#x3C;/> icon to easily copy and paste available variables.</p> |
-| Allowed Login Methods | This controls which login methods are available for signing into the CMS community. For example, if you only want users to log in with Discord, you can disable all other options.                                                                                                                               |
-| On Join Actions       | This configures automatic actions that occur when new members join your community.                                                                                                                                                                                                                               |
+| Community Logo        | <p>A link to your community's logo.</p><p>This will be displayed on your community card, community dashboard, and more!</p>                                                          |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Community Name        | <p>This is your community's name.</p><p>This will be displayed on your community card and community dashboard.</p>                                                                   |
+| Community Subtitle    | This is the text displayed below your community name on your community card.                                                                                                         |
+| Name Customizations   | <p>This allows customization of how community names are formatted. Many RP communities use a specific naming style.<br>Example: <strong>Format:</strong> <code>{uniqueId}</code></p> |
+| Allowed Login Methods | This controls which login methods are available for signing into the CMS community. For example, if you only want users to log in with Discord, you can disable all other options.   |
+| On Join Actions       | This configures automatic actions that occur when new members join your community.                                                                                                   |
 
 {% hint style="info" %}
 **Admin Icon** will display a cog icon next to a user's Notification Center icon in the top right of the toolbar.
@@ -57,15 +57,13 @@ Some communities may only want specific login methods to be available to their u
 
 ### Naming Format
 
-In the `Name Customizations` area, you can also set the automatic naming format for your community. The naming format determines how a user's name is displayed in the community (e.g. on their profile, form submissions, etc.).&#x20;
+In the `Name Customizations` area, you can also set the automatic naming format for your community. The naming format determines how a user's name is displayed in the community (e.g. on their profile, form submissions, etc.).
 
 <figure><img src="../../.gitbook/assets/CMS_NamingFormatExample.png" alt="" width="355"><figcaption><p>Sonoran CMS - Naming Format Example</p></figcaption></figure>
 
-In the above image, you can see that the name is displayed on the profile as `John Doe | 1A`. In this case, the user's Community Name is set as `John Doe`, and this user has an Identifier of `1A`. To display those together like this, you would set the naming format to `{comName} | {identifier}`.&#x20;
+In the above image, you can see that the name is displayed on the profile as `John Doe | 1A`. In this case, the user's Community Name is set as `John Doe`, and this user has an Identifier of `1A`. To display those together like this, you would set the naming format to `{comName} | {identifier}`.
 
 <figure><img src="../../.gitbook/assets/Screenshot (304).png" alt=""><figcaption><p>Sonoran CMS - Naming Format</p></figcaption></figure>
-
-Keep in mind that this is just an example, you can change the naming format to include whatever other text you'd like to input, though as of now `Community Name`, `Identifier`, and `Unique ID` are the only things it can automatically draw from.
 
 <table><thead><tr><th>User Information</th><th>Naming Format Variable</th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td>Community Name</td><td>{comName}</td><td></td><td></td></tr><tr><td>Identifier</td><td>{identifier}</td><td></td><td></td></tr><tr><td>Unique ID</td><td>{uniqueId}</td><td></td><td></td></tr></tbody></table>
 
