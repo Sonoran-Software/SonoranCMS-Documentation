@@ -11,6 +11,8 @@ Communities can use the [**Actions**](../administrative/actions.md) panel to sen
 **Example:**\
 A community roster includes a **Status** column that automatically switches members between **Active** and **Inactive** based on their recent in-game activity. When a member’s playtime drops below the required threshold and their status updates to _Inactive_, a Discord webhook should be sent automatically.
 
+_**Note:** Activity time columns update automatically when new logs (join/leave game) are created. If a member hasn’t logged in recently, no logs exist to trigger a recalculation, so a 12-hour scheduled task re-processes them._
+
 <figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Edit Roster on Form Stage
