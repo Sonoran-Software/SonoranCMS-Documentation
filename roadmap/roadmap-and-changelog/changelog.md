@@ -10,6 +10,38 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.2.0 11/20/2025
+
+{% tabs %}
+{% tab title="Changed" %}
+Rank Reordering
+
+* Added a grab icon for rank reordering via drag-and-drop. Making it easier particularly on mobile.
+
+Promotion Flow Improvements
+
+* Improved the mobile UI for promotional runs and added a confirmation on deletion of flows.
+
+ER:LC Search
+
+* Automatically re-focused the search box after an automatic search is ran.
+
+Form URL Share Tree Select
+
+* Automatically selected and expanded the proper folders when viewing a shared form submission.
+{% endtab %}
+
+{% tab title="Fixed" %}
+CAD Sync Translations
+
+* Fixed an issue where CAD sync integration labels were missing from translations.
+
+Roster Filtering
+
+* Fixed an issue where filtering a roster column would break pagination from being able to load other pages. Also resolved an issue with Roblox usernames being cut off.
+{% endtab %}
+
+{% endtabs %}
 ### 1.2.0 11/18/2025
 
 {% tabs %}
