@@ -10,7 +10,7 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
-### 1.2.0 11/20/2025
+### 1.2.1 11/20/2025
 
 {% tabs %}
 {% tab title="Changed" %}
@@ -40,8 +40,8 @@ Roster Filtering
 
 * Fixed an issue where filtering a roster column would break pagination from being able to load other pages. Also resolved an issue with Roblox usernames being cut off.
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.2.0 11/18/2025
 
 {% tabs %}
@@ -5697,7 +5697,7 @@ Admin Routes
 
 Sync your single Sonoran CMS community to multiple Sonoran CAD communities!
 
-[Navigation Button Visibility](broken-reference)
+[Navigation Button Visibility](broken-reference/)
 
 Navigation items on the sidebar can now be dynamically shown based upon permissions. Documentation explains how each navigation item is permission evaluated.
 
