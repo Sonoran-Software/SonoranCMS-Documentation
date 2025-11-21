@@ -10,6 +10,20 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.2.2 11/21/2025
+
+{% tabs %}
+{% tab title="New" %}
+Timezone Customization
+
+* Timezone customization determines the timezone for add/remove rank on date actions, roster activity columns, and more!
+
+Promotional Flow Multi-Action
+
+* Added automated actions than run when the multi-flow promotional UI is used.
+{% endtab %}
+
+{% endtabs %}
 ### 1.2.1 11/20/2025
 
 {% tabs %}
