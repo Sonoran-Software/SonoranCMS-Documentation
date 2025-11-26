@@ -26,7 +26,7 @@ Below their account name and to the right of the "Kick" and "Ban" options, there
 
 Additionally you're given the option to choose whether their rank and identifiers get removed or if they stay on the account. If rank(s) are not removed from their account upon archiving it does not mean they still have permission or can do anything additional, it's simply for organization.
 
-<figure><img src="../../.gitbook/assets/CMS_ArchiveUser2.png" alt=""><figcaption><p>Sonoran CMS -  Archive User Confirmation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (412).png" alt=""><figcaption><p>Sonoran CMS - Archive User Confirmation</p></figcaption></figure>
 
 ### How to Unarchive a Member?
 
@@ -36,8 +36,8 @@ Unarchiving a member is **NOT** required for the member to rejoin the Sonoran CM
 
 To unarchive a member head over to the `Administrative Panel` > `User Accounts` and click the drop down in the top left to filter user accounts. You'll want to change this to the "ARCHIVED" option. This will now display all _Archived_ members.
 
-Once you've located the archived member, click their row which will provide you with a dialog.&#x20;
+Once you've located the archived member, click their row which will provide you with a dialog.
 
 Choose whether or not if their rank(s) and identifier(s) should be removed and confirm the unarchiving.
 
-<figure><img src="../../.gitbook/assets/CMS_UnarchiveConfirmation2.png" alt=""><figcaption><p>Sonoran CMS - Unarchive Confirmation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (413).png" alt=""><figcaption><p>Sonoran CMS - Unarchive Confirmation</p></figcaption></figure>
