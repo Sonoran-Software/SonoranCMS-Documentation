@@ -28,7 +28,7 @@ Using the Clock In/Out feature is easy as clicking the "Clock In" button, doing 
 
 ![Sonoran CMS - Clocked In View](<../../.gitbook/assets/Screenshot (407).png>)
 
-Once the "Clock Out" button is available to be used and when you're ready to clock out all you need to do is click the "Clock Out" button. After clocking out it'll show when you clocked out and will give you the option to clock back in if you do choose.
+Once the "Clock Out" button is available to be used and when you're ready to clock out all you need to do is click the "Clock Out" button.&#x20;
 
 ![Sonoran CMS - Clocked Out View](<../../.gitbook/assets/Screenshot (408).png>)
 
