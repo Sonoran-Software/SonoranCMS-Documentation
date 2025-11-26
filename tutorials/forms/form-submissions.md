@@ -10,7 +10,7 @@ The available applications page lists all forms that the user has permissions to
 
 Select `Submit Form` to create a new form submission.
 
-<figure><img src="../../.gitbook/assets/image (17) (1).png" alt="" width="375"><figcaption><p>Available Forms: Submit</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (397).png" alt=""><figcaption><p>Available Forms: Submit</p></figcaption></figure>
 
 ### Third-Party Form Submissions
 
@@ -20,28 +20,28 @@ To do this in the form submission, simply select their user in the dropdown menu
 
 Toggling the bell icon will notify this user that a form has been submitted under them.
 
-<figure><img src="../../.gitbook/assets/image (18) (1).png" alt="" width="375"><figcaption><p>Form Submission: Third-Party</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-26 122736.png" alt=""><figcaption><p>Form Submission: Third-Party</p></figcaption></figure>
 
 ## Viewing Your Submissions (User)
 
 As a user, your submissions can be viewed below the Available Forms section, or on your profile.
 
-<div><figure><img src="../../.gitbook/assets/image (19) (1).png" alt="" width="375"><figcaption><p>Available Forms: Submissions</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (20) (1).png" alt="" width="375"><figcaption><p>Profile: Submissions</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Screenshot (399).png" alt=""><figcaption><p>Available Forms: Submissions</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot (400).png" alt=""><figcaption><p>Profile: Submissions</p></figcaption></figure></div>
 
 ## Viewing Form Submissions (Admin)
 
 Admins can view form submissions under `Available Forms` > `Go To Submissions` or in the admin panel under `Forms` > `Go To Submissions`
 
-<div><figure><img src="../../.gitbook/assets/image (22) (1).png" alt="" width="375"><figcaption><p>Admin Forms: Submission</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (21) (1).png" alt="" width="375"><figcaption><p>Available Forms: Submissions</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Screenshot (401).png" alt=""><figcaption><p>Admin Forms: Submission</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot (402).png" alt=""><figcaption><p>Available Forms: Submissions</p></figcaption></figure></div>
 
 ### Change Form Stage
 
 In the form submission board, drag-and-drop to change a form stage. Or, click to open the submission and change it from the drop-down.
 
-<div><figure><img src="../../.gitbook/assets/image (24) (1).png" alt="" width="375"><figcaption><p>Submission Board</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (23) (1).png" alt="" width="375"><figcaption><p>Submission View</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Screenshot (403).png" alt=""><figcaption><p>Submission Board</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot (404).png" alt=""><figcaption><p>Submission View</p></figcaption></figure></div>
 
 ### Sharing a Form Submission
 
 Click the share icon to copy a direct URL to the submission viewer.
 
-<figure><img src="../../.gitbook/assets/image (25) (1).png" alt="" width="375"><figcaption><p>Submission Viewer: Share URL</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (404) (1).png" alt="" width="235"><figcaption><p>Submission Viewer: Share URL</p></figcaption></figure>

@@ -48,7 +48,7 @@ Ex: "Bob123" logs in with the same IP address as "Alice456" -> this results in a
 
 In the `Administrator Panel` the `Security Center` tab highlights all active flags that need to be reviewed.
 
-<figure><img src="../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/broken/files/4urdCWoT14t8heJXJVxP" alt=""><figcaption></figcaption></figure>
 
 #### Via Account Avatar
 
@@ -59,7 +59,7 @@ Anywhere an account avatar is visible will also show a user's account flags.
 * User Accounts Panel
 * User Profile and Bio
 
-<figure><img src="../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/broken/files/S02WPOnWvqutkxbvDObt" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 

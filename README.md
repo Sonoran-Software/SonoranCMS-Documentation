@@ -23,7 +23,7 @@ Manage your community's documents, spreadsheets, and presentations natively in t
 
 [Create and live edit documents](tutorials/your-drive-and-documents.md) to share with members based on rank. Sonoran CMS allows you to watermark documents as sensitive, organize files with folders, and more!
 
-<figure><img src=".gitbook/assets/CMSDriveUpdate.png" alt=""><figcaption><p>CMS -  Document Drive</p></figcaption></figure>
+<figure><img src=".gitbook/assets/CMSDriveUpdate.png" alt=""><figcaption><p>CMS - Document Drive</p></figcaption></figure>
 
 ## 🌐 [Website Builder](tutorials/community-website/website-builder.md) and [Forums](tutorials/community-website/forum-system.md)
 
@@ -73,7 +73,7 @@ Sonoran CMS is the best way to ensure your community stays protected. Prevent ba
 
 Sonoran CMS manages your entire FiveM server with a [dedicated panel for QBCore, Qbox, and menu servers](integration-capabilities/fivem-game-panel/)!
 
-<figure><img src=".gitbook/assets/fivem_management (1).png" alt=""><figcaption><p>CMS: FiveM Management Panel</p></figcaption></figure>
+<figure><img src="/broken/files/5Q0yxt1TO8lbUczIsYo1" alt=""><figcaption><p>CMS: FiveM Management Panel</p></figcaption></figure>
 
 ## 🖥️ [Sonoran CAD Account Management](integration-capabilities/sonoran-cad-sync.md)
 
@@ -105,9 +105,9 @@ Learn more about accessing and downloading Sonoran CMS on web, desktop, and mobi
 
 It's never been more easy to manage your gaming community, regardless of your platform!
 
-## 🌎 [Full Translation and Locality Support](broken-reference)
+## 🌎 [Full Translation and Locality Support](broken-reference/)
 
-Only Sonoran CMS supports full[ i18n localization](broken-reference). Regardless of your community's native language, Sonoran CMS supports it!\
+Only Sonoran CMS supports full[ i18n localization](broken-reference/). Regardless of your community's native language, Sonoran CMS supports it!\
 \
 Sonoran CMS translations are made possible by our community contributors! Anyone is allowed to [contribute to our GitHub translation files](https://github.com/Sonoran-Software/sonorancms_translations).
 

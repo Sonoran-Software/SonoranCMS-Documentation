@@ -4,7 +4,7 @@ description: Easily manage in-game vehicles with the CMS VMenu management panel!
 
 # Vehicles
 
-<figure><img src="../../../.gitbook/assets/VMenuPromo05 (1).png" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="/broken/files/9jNHhvx3pGmmS04LByTW" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
 
 ## View and Manage Vehicles
 

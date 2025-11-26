@@ -104,7 +104,7 @@ Note: _Depending on your DNS provider, there may be a cache delay before the DNS
 
 You can now select the custom domain in the `URL Type` drop-down to be used when creating a new short URL.
 
-![](<../../.gitbook/assets/image (59) (1).png>)
+![](/broken/files/BekTaXZul9jXXRHu820n)
 
 </details>
 

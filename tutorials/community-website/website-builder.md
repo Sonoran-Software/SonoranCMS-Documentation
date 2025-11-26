@@ -4,7 +4,7 @@ description: Create your own community website entirely within Sonoran CMS!
 
 # Website Builder
 
-![Sonoran CMS - Custom Pages](<../../.gitbook/assets/web-updated (1).png>)
+![Sonoran CMS - Custom Pages](/broken/files/XQxSNhZ1WZgeRAZDGiPp)
 
 {% embed url="https://youtu.be/OYV8JbnqLrU" %}
 
@@ -36,21 +36,21 @@ From the website builder's toolbar you can change the page's title, path slug, a
 
 <figure><img src="../../.gitbook/assets/Screenshot (246).png" alt=""><figcaption><p>Sonoran CMS - Webpage Toolbar</p></figcaption></figure>
 
-The device preview feature allows you to choose from a list of devices, or set your own custom resolution to give you further control over designing your community's website with mobile responsiveness in mind!&#x20;
+The device preview feature allows you to choose from a list of devices, or set your own custom resolution to give you further control over designing your community's website with mobile responsiveness in mind!
 
 <figure><img src="../../.gitbook/assets/Screenshot (247).png" alt=""><figcaption><p>Sonoran CMS - Webpage Toolbar - Device Preview</p></figcaption></figure>
 
 ### Section-Specific Styling
 
-Sections are containers for elements that exist within a webpage. You can add multiple sections and resize / move them however you'd like.&#x20;
+Sections are containers for elements that exist within a webpage. You can add multiple sections and resize / move them however you'd like.
 
 You can customize the margin and background styling of specific sections.
 
 **Margin** refers to the space outside an section. It can be used to create space between sections on a page or to push elements away from the edges of the page. In your page editor, you can change margin options for different areas, such as top, bottom, left and right.
 
-<figure><img src="../../.gitbook/assets/Screenshot (248).png" alt=""><figcaption><p>Sonoran CMS - Website Builder -  Edit Section Margins</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (248).png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Edit Section Margins</p></figcaption></figure>
 
-You can also dynamically resize and position sections by clicking any of the boxes around the edges and dragging them to your desired position.&#x20;
+You can also dynamically resize and position sections by clicking any of the boxes around the edges and dragging them to your desired position.
 
 <figure><img src="../../.gitbook/assets/Screenshot (250).png" alt=""><figcaption><p>Sonoran CMS - Website Builder - Resize Section</p></figcaption></figure>
 

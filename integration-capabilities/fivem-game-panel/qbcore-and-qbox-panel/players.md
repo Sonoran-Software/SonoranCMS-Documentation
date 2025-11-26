@@ -4,7 +4,7 @@ description: Easily manage in-game players with the CMS QB Core management panel
 
 # Players
 
-<figure><img src="../../../.gitbook/assets/players (1).png" alt="" width="563"><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="/broken/files/VUvspuwVOh7tWa98nqcC" alt="" width="563"><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
 
 ## Select and Manage a Player
 
@@ -16,8 +16,6 @@ Click on any online player to interact.
 * View their [characters](characters.md)
 
 <figure><img src="../../../.gitbook/assets/image (20) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-
 
 ## Warn a Player
 

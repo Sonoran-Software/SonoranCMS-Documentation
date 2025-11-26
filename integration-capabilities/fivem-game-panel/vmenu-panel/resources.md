@@ -6,7 +6,7 @@ description: >-
 
 # Resources
 
-<figure><img src="../../../.gitbook/assets/VMenuPromo01 (1).png" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="/broken/files/h2EZtVxl9yAKCuOcGZxN" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
 
 ## Managing Resources
 

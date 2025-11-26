@@ -4,15 +4,13 @@ description: Easily manage in-game vehicles with the CMS QB Core management pane
 
 # Vehicles
 
-<figure><img src="../../../.gitbook/assets/vehicles (1).png" alt="" width="563"><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="/broken/files/e9hQhvuusD8CIlneIyKL" alt="" width="563"><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
 
 ## Switch Between Live and DB Vehicles
 
 You can switch to view only live vehicles active in the server, or all vehicles in the database at the top right.
 
 <figure><img src="../../../.gitbook/assets/image (22) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-
 
 ## Add a Vehicle
 
@@ -36,7 +34,7 @@ Currently, Sonoran CMS supports the following QB Core garage scripts:
 * JG Advanced Garages
 * AK47 QG Garage
 
-You can suggest more integrations on our [support portal](https://support.sonoransoftware.com) or if you would like to add the support yourself, simply paste this code snippet in any **SERVER-sided** file in your garage resource.&#x20;
+You can suggest more integrations on our [support portal](https://support.sonoransoftware.com) or if you would like to add the support yourself, simply paste this code snippet in any **SERVER-sided** file in your garage resource.
 
 ```lua
 local function getAllGarages()

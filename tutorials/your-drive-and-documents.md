@@ -72,7 +72,7 @@ To rename the page, simply type the new name and press the checkmark.
 
 ### Share Settings
 
-<figure><img src="../.gitbook/assets/Screenshot (343) (1).png" alt=""><figcaption><p>Sonoran CMS - Drive - Share Settings Dialog</p></figcaption></figure>
+<figure><img src="/broken/files/Ai75uSmxHlBZj9QnvJln" alt=""><figcaption><p>Sonoran CMS - Drive - Share Settings Dialog</p></figcaption></figure>
 
 To change share settings, simply right click the file and select "Share Settings". If you're editing the document already you can simply click the "Share Settings" icon on the top right.
 

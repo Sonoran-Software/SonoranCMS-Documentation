@@ -4,7 +4,7 @@ description: Easily grant ACE Permissions to users directly from CMS.
 
 # Aces & Principals
 
-<figure><img src="../../../.gitbook/assets/VMenuPromo02 (1).png" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="/broken/files/jILuwFyjFX0VdFnCOqGw" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
 
 ## Setup
 

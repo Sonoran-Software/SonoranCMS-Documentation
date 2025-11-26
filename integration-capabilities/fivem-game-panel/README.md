@@ -4,7 +4,7 @@ description: Manage your FiveM server with the CMS QBCore, QBox, and vMenu game 
 
 # FiveM Game Panel
 
-<figure><img src="../../.gitbook/assets/fivem_management (1).png" alt=""><figcaption><p>Sonoran CMS: FiveM Management Panel</p></figcaption></figure>
+<figure><img src="/broken/files/5Q0yxt1TO8lbUczIsYo1" alt=""><figcaption><p>Sonoran CMS: FiveM Management Panel</p></figcaption></figure>
 
 ## Get Started Today!
 
@@ -23,6 +23,3 @@ description: Manage your FiveM server with the CMS QBCore, QBox, and vMenu game 
 {% content-ref url="vmenu-panel/" %}
 [vmenu-panel](vmenu-panel/)
 {% endcontent-ref %}
-
-
-

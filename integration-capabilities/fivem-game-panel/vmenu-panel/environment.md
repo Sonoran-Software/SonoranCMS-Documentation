@@ -4,7 +4,7 @@ description: Easily set the weather and time in your server, directly from CMS!
 
 # Environment
 
-<figure><img src="../../../.gitbook/assets/VMenuPromo08 (1).png" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="/broken/files/EGthOA3Z2ZzQPyjupM75" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
 
 ## Manage Weather
 
@@ -26,6 +26,6 @@ You can also set the time to any time of day using the time selector. You can al
 
 ## Weather Flickering Issue
 
-Sometimes, having CMS installed can cause an issue where the weather and time in the server seem to rapidly "flicker". This occurs when another resource is also trying to manage weather.&#x20;
+Sometimes, having CMS installed can cause an issue where the weather and time in the server seem to rapidly "flicker". This occurs when another resource is also trying to manage weather.
 
 If you are encountering this issue and would like to disable CMS's weather management, then please set `Config.EnableWeatherSync` to `false` in the resource's `config.lua`.

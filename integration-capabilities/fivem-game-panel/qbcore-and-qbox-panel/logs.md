@@ -4,7 +4,7 @@ description: Easily view server logs with the CMS QB Core management panel!
 
 # Logs
 
-<figure><img src="../../../.gitbook/assets/logs (1).png" alt="" width="563"><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="/broken/files/2rCbqDXCYtGUNOizaUyF" alt="" width="563"><figcaption><p>Sonoran CMS - QBCore Game Panel Promotional Image</p></figcaption></figure>
 
 ## Viewing Server Logs
 
