@@ -19,7 +19,7 @@ Sonoran CMS' development branch maintains the same rate limiting as production. 
 All API endpoints and requests should be made to the following address:
 
 ```
-https://cmsapi.dev.sonoransoftware.com
+https://staging-api.dev.sonorancms.com
 ```
 
 ## Development CMS <a href="#development-cad" id="development-cad"></a>
@@ -27,7 +27,7 @@ https://cmsapi.dev.sonoransoftware.com
 The latest CMS development version can be accessed at the following address:
 
 ```
-https://cms.dev.sonoransoftware.com
+https://staging.dev.sonorancms.com
 ```
 
 ## Development Subscription - Free <a href="#development-subscription-free" id="development-subscription-free"></a>
