@@ -12,7 +12,7 @@ All of these metrics are based off the last seven days.
 
 ### 📈Fastest Growing Community
 
-This category is based on user growth as a percentage and is limited to communities between `50` and `250`  members.
+This category is based on user growth as a percentage and is limited to communities between `50` and `250` members.
 
 _Improve your ranking in this category by_ [_signing up new members_](../../getting-started/inviting-users-to-your-cms.md) _in your community._
 
@@ -42,7 +42,7 @@ Every time your community is viewed or clicked on via the community discovery pa
 
 You can view these in the growth panel to see how the community spotlight and discovery page are impacting your community.
 
-<figure><img src="../../../.gitbook/assets/image (26) (1).png" alt="" width="375"><figcaption><p>Sonoran CMS: Community Discovery Metrics</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot (433).png" alt=""><figcaption><p>Sonoran CMS: Community Discovery Metrics</p></figcaption></figure>
 
 ## Configuring Community Discovery
 
@@ -54,10 +54,4 @@ In order to be on the community discovery page, communities must meet specific c
 2. The homepage must be customized and cleared of any default/placeholder text.
 3. The homepage must have a clear button or link for a new user to apply or join.
 
-Once these criteria have been met, select the `Request Approval` button in
-
-
-
-
-
-## Adver
+Once these criteria have been met, select the <kbd>Bump Discovery</kbd> button in Discovery Settings.
