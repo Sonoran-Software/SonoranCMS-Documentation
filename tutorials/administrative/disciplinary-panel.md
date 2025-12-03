@@ -22,7 +22,7 @@ Many communities may wish to have points expire after a certain length of time.
 
 In the configuration tab, you can enable or disable point expiration and set the length of time.
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt="" width="375"><figcaption><p>Sonoran CMS Disciplinary Point Expiration</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (441).png" alt=""><figcaption><p>Sonoran CMS Disciplinary Point Expiration</p></figcaption></figure>
 
 ### Configure Automated Actions
 
@@ -30,7 +30,7 @@ You can also configure automated actions that apply to users once they meet spec
 
 In this example, once a user receives 1 or more points they will receive a Discord DM message.
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt="" width="375"><figcaption><p>Sonoran CMS Disciplinary Point Actions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (443).png" alt=""><figcaption><p>Sonoran CMS Disciplinary Point Actions</p></figcaption></figure>
 
 ## Using the Disciplinary Panel
 
@@ -38,13 +38,13 @@ In this example, once a user receives 1 or more points they will receive a Disco
 
 Disciplinary points will be displayed on a member's avatar for anyone that has access to the disciplinary panel.
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt="" width="375"><figcaption><p>Sonoran CMS Avatar Disciplinary Points</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (446).png" alt=""><figcaption><p>Sonoran CMS Avatar Disciplinary Points</p></figcaption></figure>
 
 Use the search bar to filter to a specific community member.
 
 Select the user to view all active points or remove them.
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt="" width="375"><figcaption><p>Sonoran CMS View/Remove Disciplinary Points</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (445).png" alt=""><figcaption><p>Sonoran CMS View/Remove Disciplinary Points</p></figcaption></figure>
 
 ### Manually Add Points
 
@@ -52,7 +52,7 @@ To add points to a member press the green + icon.
 
 Use the popup dialog to select the account, amount of points, and a description.
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt="" width="375"><figcaption><p>Sonoran CMS Add Disciplinary Points</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (447).png" alt=""><figcaption><p>Sonoran CMS Add Disciplinary Points</p></figcaption></figure>
 
 ### Add Points via Form Stage
 
@@ -62,4 +62,4 @@ You can specify a `Member Selector` field on the form for someone to report a co
 
 Additionally, a `Number` field on the form can also be utilized to add a custom amount of points to a user.
 
-<figure><img src="../../.gitbook/assets/image (48).png" alt="" width="375"><figcaption><p>Sonoran CMS - Form Stage Action: Add Disciplinary Points</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (448).png" alt=""><figcaption><p>Sonoran CMS - Form Stage Action: Add Disciplinary Points</p></figcaption></figure>
