@@ -28,7 +28,7 @@ Account flags are raised when a user has a "clash" with another account in your 
 
 Ex: "Bob123" logs in with the same IP address as "Alice456" -> this results in a `Duplicate IP` flag
 
-### What Flag Types are There?
+### What Flag Types are there?
 
 * Duplicate IP Address
 * Duplicate Browser IDs
@@ -48,18 +48,16 @@ Ex: "Bob123" logs in with the same IP address as "Alice456" -> this results in a
 
 In the `Administrator Panel` the `Security Center` tab highlights all active flags that need to be reviewed.
 
-<figure><img src="/broken/files/4urdCWoT14t8heJXJVxP" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot (437).png" alt=""><figcaption></figcaption></figure>
 
 #### Via Account Avatar
 
-Anywhere an account avatar is visible will also show a user's account flags.
+Anywhere an account avatar is visible it will also show a user's account flags.
 
 * Forms and Applications
 * Forums Posts
 * User Accounts Panel
 * User Profile and Bio
-
-<figure><img src="/broken/files/S02WPOnWvqutkxbvDObt" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
@@ -89,7 +87,7 @@ When viewing a flag, the user accounts mentioned may also display one of the fol
 
 Sometimes two different users may be harmlessly sharing the same physical device, IP address, etc.
 
-Ex: Two users sharing the same WiFi network, but both are in your community.
+Ex: Two users sharing the same Wi-Fi network, but both are in your community.
 
 After investigating why these two users have a shared identifier, and that it's harmless, you can "dismiss" the flag. Once dismissed, the flag with the involved accounts will no longer appear unless an additional account matches up in the future.
 
