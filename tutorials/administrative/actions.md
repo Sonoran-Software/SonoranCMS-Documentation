@@ -10,7 +10,7 @@ Actions are routine automations ran at specific intervals. Communities may wish 
 
 In the actions panel actions can be configured, enabled, and manually triggered.
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (435).png" alt=""><figcaption><p>Sonoran CMS - Automated Actions</p></figcaption></figure>
 
 ## Action Triggers
 
