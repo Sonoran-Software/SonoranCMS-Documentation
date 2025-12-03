@@ -6,7 +6,7 @@ description: Grow your community with new traffic from Sonoran CMS!
 
 ## Community Spotlight
 
-The community discovery system highlights both active, growing small communities and large communities with many members. Communities in the spotlight are also advertised in the [CAD](https://info.sonorancad.com/why-choose-sonoran-cad/about), CMS, and [radio ](https://info.sonoranradio.com/why-choose-sonoran-radio/why-choose-sonoran-radio)main menus.
+The community discovery system highlights both active, growing small communities and large communities with many members. Communities in the spotlight are also advertised in the [CAD](https://docs.sonoransoftware.com/cad), CMS, and [radio ](https://docs.sonoransoftware.com/radio)main menus.
 
 All of these metrics are based off the last seven days.
 
