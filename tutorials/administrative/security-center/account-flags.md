@@ -48,7 +48,7 @@ Ex: "Bob123" logs in with the same IP address as "Alice456" -> this results in a
 
 In the `Administrator Panel` the `Security Center` tab highlights all active flags that need to be reviewed.
 
-<figure><img src="../../../.gitbook/assets/Screenshot (437).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot (437).png" alt=""><figcaption><p>Sonoran CMS - Security Center</p></figcaption></figure>
 
 #### Via Account Avatar
 
@@ -59,7 +59,7 @@ Anywhere an account avatar is visible it will also show a user's account flags.
 * User Accounts Panel
 * User Profile and Bio
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption><p>Sonoran CMS - Account Avatar</p></figcaption></figure>
 
 Select the highlighted flag on a user's account avatar to automatically redirect to the security center with their specific flags raised.
 
@@ -73,7 +73,7 @@ Investigate the flag type and the users involved. If one of the users was a prev
 
 This example shows user `8` (SonoranBrian) linked a Discord account that a banned user `14` (Bob123) previously used.
 
-<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption><p>Sonoran CMS - Security Center</p></figcaption></figure>
 
 #### Flag Icons
 
