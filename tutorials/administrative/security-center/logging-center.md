@@ -24,7 +24,7 @@ Users will need the `Security Center` permission under the `System` tab in the [
 
 Logs can be searched and filtered by the `type`, `user`, and `date` of occurrence.
 
-All logs are stored for 30 days, regardless of your subscription tier. Some logs (kicks, bans, permission changes) are stored indefinetly.
+All logs are stored for 30 days, regardless of your subscription tier. Some logs (kicks, bans, permission changes) are stored indefinitely.
 
 ### AI Search
 
@@ -34,6 +34,6 @@ All logs are stored for 30 days, regardless of your subscription tier. Some logs
 Learn more about our [paid plans](../../../pricing/pricing-faq/create-and-manage-a-subscription.md).
 {% endhint %}
 
-With the large amount of logs to search through, our AI agent can help automatically find relevant logs and provide a summary of the actions. Simply type your question including any details about the username, unique ID, Discord ID, Roblox ID, Teamspeak ID, or action types to get started.
+With the large amount of logs to search through, our AI agent can help automatically find relevant logs and provide a summary of the actions. Simply type your question including any details about the username, unique ID, Discord ID, Roblox ID, TeamSpeak ID, or action types to get started.
 
-<figure><img src="../../../.gitbook/assets/image (27).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
