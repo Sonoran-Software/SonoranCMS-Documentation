@@ -18,6 +18,8 @@ New player records can be created directly from the ER:LC server dashboard.
 
 ### Via Discord Bot
 
+<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+
 Player records can be added via [Discord bot](../../discord-bot-integration.md) by using the `/erlc record` command.
 
 * **ServerID** specifies the ER:LC server you wish to add this player record to.
@@ -28,9 +30,24 @@ Player records can be added via [Discord bot](../../discord-bot-integration.md) 
 
 ### Via In-Game Command
 
-{% hint style="warning" %}
-This feature is coming soon!
-{% endhint %}
+Players in-game can use the `:log` command to create records.
+
+Syntax: `:log record [type] [player name] [points - optional] [reason]`
+
+Example: `:log record note John This is an example note!`
+
+Record Types:
+
+* `points` (uses extra `[points]` parameter)
+* `note`
+* `kick`
+* `ban`
+
+Players can also manage their timeclock in-game using the `:log` command.
+
+Timeclock shift types are configured in the community customization panel.
+
+* `:log clockin [shift type - optional]`
 
 ## Searching Player Records
 

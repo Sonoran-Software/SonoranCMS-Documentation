@@ -55,7 +55,7 @@ Some communities may only want specific login methods to be available to their u
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
-### Naming Format
+## Naming Format
 
 In the `Name Customizations` area, you can also set the automatic naming format for your community. The naming format determines how a user's name is displayed in the community (e.g. on their profile, form submissions, etc.).
 
@@ -72,6 +72,14 @@ In the above image, you can see that the name is displayed on the profile as `Jo
 With the Sonoran Bot integration, you can enforce your CMS name format in your Discord Guild(s)!
 
 {% embed url="https://info.sonoranbot.com/tutorials/usage/settings#namesync-settings" %}
+
+## Timeclock Shift Types
+
+<div><figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure></div>
+
+Looking to separate shift types for players with multiple community positions? Add custom shift types in the customization menu. Players can select an optional shift type in the CMS timeclock menu, via the [Discord bot](../../integration-capabilities/discord-bot-integration.md)'s `/clockin` command, or from an [in-game ER:LC command](../../integration-capabilities/er-lc-game-panel/usage/player-records.md#via-in-game-command).
+
+When configuring rosters, you can select a specific shift type to be displayed in the timeclock hours column.
 
 ## Member On Join Actions
 
