@@ -10,6 +10,40 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.2.3 12/04/2025
+
+{% tabs %}
+{% tab title="New" %}
+Timeclock Shift Types
+
+* Added customizable shift types for the timeclock, allowing for better separation
+
+ER:LC Game Log Commands
+
+* Added the ability to add records and manage timeclock shifts via :log command
+
+ER:LC Discord Commands
+
+* Added the ability to run ERLC commands from Discord
+{% endtab %}
+
+{% tab title="Changed" %}
+ER:LC New Record Search Player
+
+* Modified the ER:LC new record user drop-down to allow for searching and selecting of offline players
+
+Discord Change Stage Log
+
+* Improved logging when a form stage is changed via Discord embed, reflecting the user that changed it via Discord
+{% endtab %}
+
+{% tab title="Fixed" %}
+ERLC Command Logs
+
+* Fixed an issue where running some ERLC commands wouldn't create an activity log with the user that executed it
+{% endtab %}
+
+{% endtabs %}
 ### 1.2.2 11/21/2025
 
 {% tabs %}
