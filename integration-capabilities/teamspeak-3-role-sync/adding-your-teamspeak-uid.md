@@ -13,7 +13,7 @@
 
 ## Adding your UID to CMS
 
-1. Open your Community Settings by using your profile dropdown on the top-left of your screen
+1. Open your Community Settings by using your profile dropdown on the top-right of your screen
 
 <div align="center"><figure><img src="../../.gitbook/assets/Screenshot (471).png" alt=""><figcaption><p>Sonoran CMS - Community Settings</p></figcaption></figure></div>
 
