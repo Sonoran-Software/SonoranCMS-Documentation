@@ -22,26 +22,26 @@ Sonoran CAD Sync settings can only be seen and modified by the community owner.
 
 ### 1. Add New CAD Integration
 
-Click the _Sonoran CAD_ icon or click the plus butt on to syn another CAD to you community
+Click the _Sonoran CAD_ icon or click the plus button to sync another CAD to you community
 
-<figure><img src="../.gitbook/assets/CMS_CADSyncAdd.png" alt=""><figcaption><p>Sonoran CMS - CAD Integration Setup List Area</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot (456).png" alt=""><figcaption><p>Sonoran CMS - CAD Integration Setup List Area</p></figcaption></figure>
 
 ### 1. Enter Credentials
 
 Click the _Enable Sync_ check box and enter your Sonoran CAD community's ID & API Key.
 
-![Sonoran CAD In-Game Integration Settings](https://i.imgur.com/nVFr3qR.png)
+![Sonoran CAD In-Game Integration Settings](<../.gitbook/assets/Screenshot (457).png>)
 
 Your Community ID and API Key are located in Sonoran CAD at `Admin Panel > Advanced > In-Game Integration > Web API`.\
 Enter these into your Sonoran CMS as shown below.
 
-![Sonoran CMS - Sonoran CAD Integration Credential Inputs](../.gitbook/assets/CMS\_CADSyncCreds.png)
+![Sonoran CMS - Sonoran CAD Integration Credential Inputs](<../.gitbook/assets/Screenshot (458).png>)
 
 ### 2. Configure Sync Settings
 
 Check the sync options that best fit your community's needs, explanation of each sync feature can be found [below](sonoran-cad-sync.md#feature-overview).
 
-![Sonoran CMS - Sonoran CAD Sync Options](../.gitbook/assets/CMS\_CADSyncOptions.png)
+![Sonoran CMS - Sonoran CAD Sync Options](<../.gitbook/assets/Screenshot 2025-12-10 141647.png>)
 
 ### 3. Map CAD Permissions to Ranks
 
@@ -51,7 +51,7 @@ To edit, click any rank on the left-hand side. This tree will contain all depart
 Permission syncs from Sonoran CMS will set the user's permissions explicitly to what is mapped in the CMS and will wipe any non-enabled permissions.
 {% endhint %}
 
-![Sonoran CMS - Sonoran CAD Integration Permission Mapping](../.gitbook/assets/CMS\_CADSyncPerms.png)
+![Sonoran CMS - Sonoran CAD Integration Permission Mapping](<../.gitbook/assets/Screenshot (459).png>)
 
 ## Feature Overview
 
@@ -79,12 +79,12 @@ This will have all new members that join your community automatically join your 
 
 ### Full Community
 
-Community Owner's can trigger a full community sync of CAD permissions through the **FULL SYNC** button located at the bottom of the CAD Rank Permission Selector.
+Community Owner's can trigger a manual community sync of CAD permissions through the **Manual SYNC** button located in the CAD Sync Options.
 
-<figure><img src="../.gitbook/assets/CMS_CADSyncFullSync.png" alt=""><figcaption><p>Sonoran CMS - CAD Permission Configuration Full Sync</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-10 141647 (1).png" alt=""><figcaption><p>Sonoran CMS - CAD Permission Configuration Full Sync</p></figcaption></figure>
 
 ### Individual Account
 
-Individual member's can trigger a sync of their account with the community linked CAD in their _Account Settings_ dialog.
+Individual members can re-sync their account with the community-linked CAD directly from the Community Settings menu.
 
-<figure><img src="https://i.imgur.com/mSf5VqT.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot (460).png" alt=""><figcaption></figcaption></figure>
