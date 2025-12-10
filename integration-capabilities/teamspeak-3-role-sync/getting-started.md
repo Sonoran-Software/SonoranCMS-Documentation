@@ -11,9 +11,9 @@ Once in that section, enter the information corresponding to your TeamSpeak serv
 * **IP/Hostname**: The IP (like 1.2.3.4) or the hostname (like google.com) that you use to connect to your TeamSpeak server
 * **Query Port**: By default 10011 for most TeamSpeak servers (especially self-hosted ones). Check with your host provider to be sure
 * **Server Port**: The port you use to connect to your TeamSpeak, which is by default 9987. (This will always be different from the Query Port)
-* **ServerQuery Username/Password:** Check the section below for creating a serverquery login
+* **ServerQuery Username/Password:** Check the section below for creating a server query login
 
-<figure><img src="https://i.imgur.com/g3Bhbnd.png" alt=""><figcaption><p>Sonoran CMS - TeamSpeak Integration Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (467).png" alt=""><figcaption><p>Sonoran CMS - TeamSpeak Integration Settings</p></figcaption></figure>
 
 Once you put all the TeamSpeak information into the inputs, click the **Save Integration Settings** button to save. If something is wrong, it'll display an error at the top of your screen that identifies the issue. If all correct, you should see:
 
@@ -46,7 +46,7 @@ The `serveradmin` password is found:
 1. In the original popup when you create your TeamSpeak, the same dialog that had your Server Admin permission key
 2. Or by changing the serveradmin password manually ([use this guide](https://support.teamspeak.com/hc/en-us/articles/360002712878-How-do-I-change-my-ServerQuery-Admin-password-))
 
-Now that you have the password, you can put that into CMS along with the username `serveradmin`&#x20;
+Now that you have the password, you can put that into CMS along with the username `serveradmin`
 
 ## Setting up Role Sync
 
@@ -55,4 +55,3 @@ Now that you've got the connection, it's time to setup which CMS Ranks correspon
 {% content-ref url="adding-ranks.md" %}
 [adding-ranks.md](adding-ranks.md)
 {% endcontent-ref %}
-
