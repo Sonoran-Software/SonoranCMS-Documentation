@@ -12,22 +12,22 @@ description: >-
 
 Get started with Sonoran Bot today by inviting it to your Discord:
 
-{% embed url="https://info.sonoranbot.com/tutorials/getting-started" %}
+{% embed url="https://docs.sonoransoftware.com/bot" %}
 
 ### CMS Integration
 
 Learn more about Sonoran Bot's CMS integration features:
 
-{% embed url="https://info.sonoranbot.com/tutorials/sonoran-cms-integration" %}
+{% embed url="https://docs.sonoransoftware.com/bot/tutorials/sonoran-cms-integration" %}
 
 ### Settings
 
 Configure Sonoran Bot's settings in your server:
 
-{% embed url="https://info.sonoranbot.com/tutorials/usage/settings" %}
+{% embed url="https://docs.sonoransoftware.com/bot/tutorials/usage/settings" %}
 
 ### Commands
 
 Reference a list of bot commands:
 
-{% embed url="https://info.sonoranbot.com/tutorials/usage/commands" %}
+{% embed url="https://docs.sonoransoftware.com/bot/tutorials/usage/commands" %}
