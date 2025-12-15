@@ -45,9 +45,7 @@ Record Types:
 
 Players can also manage their timeclock in-game using the `:log` command.
 
-Timeclock shift types are configured in the community customization panel.
-
-* `:log clockin [shift type - optional]`
+[Learn more about in-game timeclock commands here.](shifts-and-activity.md#timeclock)
 
 ## Searching Player Records
 

@@ -97,6 +97,7 @@
     * [Whitelist](integration-capabilities/er-lc-game-panel/usage/whitelist.md)
     * [Environment](integration-capabilities/er-lc-game-panel/usage/environment.md)
     * [CMS Integrations](integration-capabilities/er-lc-game-panel/usage/cms-integrations.md)
+    * [Shifts and Activity](integration-capabilities/er-lc-game-panel/usage/shifts-and-activity.md)
 * [Sonoran Shield](integration-capabilities/sonoran-shield.md)
 * [In-Game Integration Resources](integration-capabilities/in-game-integration-resources/README.md)
   * [FiveM Installation](integration-capabilities/in-game-integration-resources/core/README.md)
