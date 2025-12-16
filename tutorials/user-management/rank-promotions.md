@@ -25,7 +25,7 @@ For example, a user with the **Rookie** rank can be promoted to **Member**, or a
 4. **Run the Promotion Flow**\
    When executed, this flow will **add the Admin rank** and **remove the Moderator rank**, effectively promoting the user.
 
-<figure><img src="../../.gitbook/assets/image (77).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
 ### Actions
 
@@ -48,3 +48,16 @@ Use the **green “+” icon** to add additional rows, allowing you to run multi
 ### Via Discord Command
 
 Communities can [run promotional flows right from a Discord command](https://docs.sonoransoftware.com/bot/tutorials/sonoran-cms-integration/promotion-flows)!
+
+
+
+### Permissions
+
+To allow others to manage Promotion Flows on your behalf, you can assign the following permissions.&#x20;
+
+
+
+* Create/Edit/Remove Promotion Flows - **Modify Departments**
+* Trigger Promotion Flows - **Change Permissions**
+* Allows the user to modify anyone’s permissions except the owner’s - **Change Higher Permission**
+
