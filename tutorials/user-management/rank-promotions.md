@@ -10,6 +10,8 @@ description: Configure rank promotion flows for your community members.
 
 For example, a user with the **Rookie** rank can be promoted to **Member**, or an **Administrator** can be demoted to **Moderator**.
 
+<figure><img src="../../.gitbook/assets/Screenshot (477).png" alt=""><figcaption></figcaption></figure>
+
 ## Creating Promotion Flows
 
 ### Label and Ranks
