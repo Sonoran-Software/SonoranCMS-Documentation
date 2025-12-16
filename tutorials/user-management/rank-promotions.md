@@ -43,7 +43,7 @@ In the **Run Promotions** panel, select the **user(s)**, choose the **promotion 
 
 Use the **green “+” icon** to add additional rows, allowing you to run multiple promotional flows simultaneously.
 
-<figure><img src="../../.gitbook/assets/image (78).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
 ### Via Discord Command
 
