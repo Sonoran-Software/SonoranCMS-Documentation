@@ -4,10 +4,6 @@ description: Manage in-game player permissions right from the CMS!
 
 # Ace Permission Sync
 
-{% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](broken-reference)!
-{% endhint %}
-
 This module manages player's in-game permissions right from the CMS!
 
 ![Sonoran CMS - ACE Permission Sync](../../../../.gitbook/assets/CMS-Ace-Sync.png)
@@ -62,7 +58,7 @@ For communities on the **Plus** plan or higher, permissions can be synced instan
 
 Simply add your FiveM server's public IP address and at `Administrative Panel` > `Integrations` > `Sonoran CMS API` > `Servers`.
 
-![Sonoran CMS - API Integration Servers Tab](../../../../.gitbook/assets/CMS_ApiIntegrationServersTab.png)
+![Sonoran CMS - API Integration Servers Tab](<../../../../.gitbook/assets/Screenshot (489).png>)
 
 ### Manual Sync
 
