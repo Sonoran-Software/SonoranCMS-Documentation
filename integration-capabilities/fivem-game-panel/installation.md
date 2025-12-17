@@ -73,7 +73,7 @@ Select `Edit Servers` to include the IP address and port used to direct connect 
 
 By default, only community owners will have access to the QB Core management panel.
 
-In the [Rank Manager](../teamspeak-3-role-sync/adding-ranks.md), you will need to add the associated permissions under the `Server` tab.
+In the [Rank Manager](../../tutorials/user-management/creating-departments.md), you will need to add the associated permissions under the tab `Game Servers`   &#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot (488).png" alt=""><figcaption></figcaption></figure>
 
