@@ -6,10 +6,6 @@ description: >-
 
 # Job Sync
 
-{% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](broken-reference)!
-{% endhint %}
-
 This resource is a in-game way of automatically syncing jobs and ranks to match roster information in the Sonoran CMS system/community.
 
 {% hint style="warning" %}
@@ -26,7 +22,7 @@ With core version `v1.4.2` the Job Sync resource was converted to a core module 
 
 Locate the whitelist module within your `[sonorancms]/sonorancms/server/modules` and open the `jobsync_config.json` file
 
-<figure><img src="../../../../.gitbook/assets/CMS_JobSyncConfig.png" alt=""><figcaption><p>Sonoran CMS - In-Game Integration - JobSync Config </p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/CMS_JobSyncConfig.png" alt=""><figcaption><p>Sonoran CMS - In-Game Integration - JobSync Config</p></figcaption></figure>
 
 ### 2. Set Rank Mappings for Job Sync
 
