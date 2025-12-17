@@ -38,7 +38,7 @@ To set this up:
 
 Some criteria can act as **deal-breakers**. For example, if applicants must be 18+ regardless of other answers, mark that criterion as **required**.
 
-<figure><img src="../../.gitbook/assets/image (66).png" alt="" width="270"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt="" width="405"><figcaption></figcaption></figure>
 
 ### Setting Scoring Rules
 
@@ -53,7 +53,7 @@ Next, define the **scoring rules** that determine how forms progress:
 3. Enter the **maximum score**.
 4. Choose the **form stage** to move to.
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt="" width="262"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67).png" alt="" width="392"><figcaption></figcaption></figure>
 
 #### **Disciplinary Points & Account Flags** Rules can also include limits on disciplinary points and account flags:
 
@@ -62,7 +62,7 @@ Next, define the **scoring rules** that determine how forms progress:
 
 For example, you may want to prevent a form from being automatically accepted if the applicant has a flagged account or too many disciplinary points.
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt="" width="255"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68).png" alt="" width="383"><figcaption></figcaption></figure>
 
 ### AI Processing Reason
 
@@ -132,7 +132,7 @@ To trigger AI processing, the form must be in that configured stage. Once active
 ❌ **Invalid flow:**\
 `[Stage without AI] → [Stage with AI]`
 
-#### **Loop Prevention**
+**Loop Prevention**
 
 If the AI moves a form from **Stage A** to **Stage B**, the AI processing rules configured on **Stage B** will **not** run automatically.
 
