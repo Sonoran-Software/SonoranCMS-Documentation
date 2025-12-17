@@ -16,7 +16,7 @@ When configuring a rank, each permission can be set to **Grant**, **Unset**, or 
 
 Use **Deny** sparingly. It’s best suited for special ranks that must override other granted permissions, such as a temporary ban rank. In most cases, leaving a permission **Unset** is sufficient, as it will not grant the permission on its own.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="279"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="419"><figcaption></figcaption></figure>
 
 ## Viewing User Permissions
 
