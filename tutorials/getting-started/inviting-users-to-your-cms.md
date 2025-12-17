@@ -16,7 +16,7 @@ Users can [create an account](registering-your-account.md), and click the blue a
 
 From there, users can select your community card in the **My Communities** section to log into your CMS.
 
-<figure><img src="../../.gitbook/assets/Screenshot (198).png" alt="" width="375"><figcaption><p>The join community model allows users to search for a community ID.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (198).png" alt=""><figcaption><p>The join community model allows users to search for a community ID.</p></figcaption></figure>
 
 ## Join Community with a URL
 
@@ -28,4 +28,4 @@ All communities are given a free [vanity URL](../customization/community-brandin
 
 Communities with a **Pro** subscription can [link a custom domain](../customization/custom-domain.md#custom-domain). This custom domain name will load the community homepage, allowing users to login and join.
 
-<figure><img src="../../.gitbook/assets/Screenshot (199).png" alt="" width="375"><figcaption><p>CMS Vanity URL and Custom Domains</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (199).png" alt=""><figcaption><p>CMS Vanity URL and Custom Domains</p></figcaption></figure>
