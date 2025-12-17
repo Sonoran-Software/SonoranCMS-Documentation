@@ -4,10 +4,6 @@ description: A whitelist system that utilizes Sonoran CMS's game whitelist syste
 
 # Whitelist
 
-{% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](broken-reference)!
-{% endhint %}
-
 This whitelist module utilizes Sonoran CMS's to enforce player connections.
 
 ![Sonoran CMS - Whitelist](../../../../.gitbook/assets/CMS_Whitelist.png)
@@ -17,7 +13,7 @@ This whitelist module utilizes Sonoran CMS's to enforce player connections.
 ## Whitelisting on QBCore / VMenu
 
 If using QBCore or VMenu on your server, it is recommended that you control whitelisting through their respective game panels, rather than through this plugin. For more information, see the links below:\
-[QBCore Game Panel - Whitelisting](../../../fivem-game-panel/qbcore-and-qbox-panel/whitelist.md)&#x20;
+[QBCore Game Panel - Whitelisting](../../../fivem-game-panel/qbcore-and-qbox-panel/whitelist.md)
 
 [VMenu Game Panel - Whitelisting](../../../fivem-game-panel/vmenu-panel/whitelist.md)
 
@@ -29,7 +25,7 @@ With core version `v1.4.0` the Whitelist resource was converted to a core module
 
 ### 1. Configure Clock In Module
 
-Locate the `whitelist` module within your `[sonorancms]/sonorancms/server/modules` folder and rename `whitelist_config.dist.json` so that it is just `whitelist_config.json`.&#x20;
+Locate the `whitelist` module within your `[sonorancms]/sonorancms/server/modules` folder and rename `whitelist_config.dist.json` so that it is just `whitelist_config.json`.
 
 Next, open the `whitelist_config.json` file and set `enabled` to `true`.
 
@@ -45,7 +41,7 @@ Navigate to the Rank Manager within the Administrative Panel.
 
 `Administrative Panel` > `Ranks`
 
-![Sonoran CMS - Departments & Ranks](../../../../.gitbook/assets/CMS_DeptRankOverviewFull.png)
+![Sonoran CMS - Departments & Ranks](<../../../../.gitbook/assets/Screenshot (490).png>)
 
 For users in your Sonoran CMS community to be accepted through the whitelist, they'll need to be granted permission for the whitelist through rank permissions.
 
@@ -59,7 +55,7 @@ Granting each rank with the permission of **Block Whitelist** blocks users from 
 If a user is granted both **Block Whitelist** and **Allow Whitelist** through various ranks they will be blocked from the whitelist. Block will always overrule allow.
 {% endhint %}
 
-![Sonoran CMS - Rank Manger Server Permissions](../../../../.gitbook/assets/CMS_WhitelistPerms.png)
+![Sonoran CMS - Rank Manger Server Permissions](<../../../../.gitbook/assets/Screenshot (491).png>)
 
 ### 3. Add your API ID
 
