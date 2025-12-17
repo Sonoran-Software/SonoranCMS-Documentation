@@ -4,10 +4,6 @@ description: An in-game way to utilize Sonoran CMS's clock in/out system.
 
 # Clock In
 
-{% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](broken-reference)!
-{% endhint %}
-
 This module is a in-game way of automatically\* clocking in/out of Sonoran CMS's system.
 
 ## Installation / Configuration
@@ -63,8 +59,6 @@ Locate the clockin module within your `[sonorancms]/sonorancms/server/modules` a
 | esx.autoClockInJobs    | Will automatically clock in/out the player's Sonoran CMS account with they clock in/out of a job with the name in the array of `autoClockInJobs`                                                                                                                                                                                                      |
 | cad                    | When enabled, it will automatically clock the user in and out when logging into and out of Sonoran CAD.                                                                                                                                                                                                                                               |
 | ranksWhileCadActive    | <p>A list of <a href="../../../../tutorials/user-management/creating-departments.md#copy-rank-ids">CMS rank IDs</a> that will be added when the user logs into Sonoran CAD and removes it when logging out of Sonoran CAD.<br>This is used for restricting access to things like Sonoran Radio to only be available to users actively in the CAD.</p> |
-
-
 
 ### 2. Add your API ID
 
