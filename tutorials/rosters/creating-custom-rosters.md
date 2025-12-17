@@ -42,13 +42,13 @@ If you have a column of type **Time Log Hours**, you can select what form the ti
 
 For each column in the roster editor, you can customize the styling including text color, background color, font, and alignment, as well as the name of the column itself. You can style the content cells differently from the header cell if you wish.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-10-22 145034.png" alt="" width="375"><figcaption><p>Sonoran CMS - Roster Editor - Edit Roster Column</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-10-22 145034.png" alt="" width="563"><figcaption><p>Sonoran CMS - Roster Editor - Edit Roster Column</p></figcaption></figure>
 
 ### Style Rule Builder
 
 In the `Style` tab, you can use the rule builder to set conditionals that change the style of cells that meet the given criteria. For example, if you have a column for `Community Name`, you can create a style rule where if a user's `Community Name` is `equal to` a certain value, in this example, `SonoranAdam`, then the styling will be what has been set below `Then:`.
 
-<figure><img src="../../.gitbook/assets/CMS_RosterRuleBuilder.png" alt="" width="259"><figcaption><p>Sonoran CMS - Roster Editor - Rule Builder</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CMS_RosterRuleBuilder.png" alt="" width="389"><figcaption><p>Sonoran CMS - Roster Editor - Rule Builder</p></figcaption></figure>
 
 As you can see, the user `SonoranAdam` now has a red background with green text in Impact font, as specified in the Rule Builder above:
 
@@ -62,7 +62,7 @@ You can also customize the roster's permissions, which determine who is allowed 
 
 These permissions are housed within [Department & Rank Permissions](../user-management/creating-departments.md) and can be customized for any rank on any individual roster as shown belo**w:**
 
-<figure><img src="../../.gitbook/assets/Screenshot (241).png" alt="" width="375"><figcaption><p>Sonoran CMS - Rank Editor - Roster Permissions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot (241).png" alt="" width="563"><figcaption><p>Sonoran CMS - Rank Editor - Roster Permissions</p></figcaption></figure>
 
 {% hint style="info" %}
 Whenever you create new rosters you will need to explicitly give ranks permissions to the new roster to be used by other individuals. This can be done in the [Department Manager](../user-management/creating-departments.md).
