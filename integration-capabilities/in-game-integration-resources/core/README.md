@@ -4,10 +4,6 @@ description: The CMS Core maintains common utility functions and push event hand
 
 # FiveM Installation
 
-{% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](broken-reference)!
-{% endhint %}
-
 ## A. One-Click Installation (RocketNode)
 
 We've partnered with Rocket Node to bring you one-click Sonoran CMS installation for FiveM — making it easier than ever to host your community and connect with Sonoran CMS.
@@ -69,9 +65,9 @@ Default configuration is below:
 Add the following to your `server.cfg`
 
 {% hint style="danger" %}
-It is very important that the sonorancms\_updatehelper resource is **not** started manually. Doing so may cause a server crash if updates are available due to a race condition.&#x20;
+It is very important that the sonorancms\_updatehelper resource is **not** started manually. Doing so may cause a server crash if updates are available due to a race condition.
 
-**DO NOT** start the whole \[sonorancms] folder as that will also start the sonorancms\_updatehelper which might cause crashing if it is started manually.&#x20;
+**DO NOT** start the whole \[sonorancms] folder as that will also start the sonorancms\_updatehelper which might cause crashing if it is started manually.
 
 Example of what **not** to do: `ensure [sonorancms]`
 {% endhint %}
@@ -126,7 +122,7 @@ Some users will see this in their server console:
 [ citizen-server-impl] Error data: yarn failed!
 ```
 
-In the case of this error, please locate the file named `.yarn.installed`, open it in any editor, then save it (without modifying anything).&#x20;
+In the case of this error, please locate the file named `.yarn.installed`, open it in any editor, then save it (without modifying anything).
 
 This updates the "date modified" value for that file, which should then allow it to build correctly.
 
