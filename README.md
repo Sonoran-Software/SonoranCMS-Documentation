@@ -73,7 +73,7 @@ Sonoran CMS is the best way to ensure your community stays protected. Prevent ba
 
 Sonoran CMS manages your entire FiveM server with a [dedicated panel for QBCore, Qbox, and menu servers](integration-capabilities/fivem-game-panel/)!
 
-<figure><img src="/broken/files/5Q0yxt1TO8lbUczIsYo1" alt=""><figcaption><p>CMS: FiveM Management Panel</p></figcaption></figure>
+<figure><img src=".gitbook/assets/fivem_management (1).png" alt=""><figcaption><p>CMS: FiveM Management Panel</p></figcaption></figure>
 
 ## 🖥️ [Sonoran CAD Account Management](integration-capabilities/sonoran-cad-sync.md)
 

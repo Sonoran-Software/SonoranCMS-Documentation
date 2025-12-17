@@ -4,7 +4,7 @@ description: Easily view server logs with the CMS VMenu management panel!
 
 # Logs
 
-<figure><img src="/broken/files/SvRYsxDz37oK44kqy6oZ" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/VMenuPromo03 (1).png" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
 
 ## Viewing Server Logs
 

@@ -6,7 +6,7 @@ description: >-
 
 # Whitelist
 
-<figure><img src="/broken/files/ChgKbj2Kdff4zfTuBnfh" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/VMenuPromo06 (1).png" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
 
 ## Whitelisting Users
 

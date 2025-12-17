@@ -4,7 +4,7 @@ description: Easily set the weather and time in your server, directly from CMS!
 
 # Environment
 
-<figure><img src="/broken/files/EGthOA3Z2ZzQPyjupM75" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/VMenuPromo08 (1).png" alt=""><figcaption><p>Sonoran CMS - VMenu Game Panel Promotional Image</p></figcaption></figure>
 
 ## Manage Weather
 
