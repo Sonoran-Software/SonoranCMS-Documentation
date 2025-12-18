@@ -159,6 +159,8 @@
       * [Update Member Record Reason](developer-api-documentation/api-integration/api-endpoints/disciplinary/add-member-record-2.md)
     * [Forms](developer-api-documentation/api-integration/api-endpoints/forms/README.md)
       * [Get Form Submissions](developer-api-documentation/api-integration/api-endpoints/forms/get-form-submissions.md)
+      * [Get Form Lock Status](developer-api-documentation/api-integration/api-endpoints/forms/get-form-lock-status.md)
+      * [Set Form Lock Status](developer-api-documentation/api-integration/api-endpoints/forms/set-form-lock-status.md)
   * [Development Branch](developer-api-documentation/api-integration/development-branch.md)
 * [🌎 Translation Support](https://docs.sonoransoftware.com/other/translation-support)
 
