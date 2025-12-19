@@ -10,6 +10,48 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.2.4 12/19/2025
+
+{% tabs %}
+{% tab title="New" %}
+ER:LC Queue Info
+
+* Added a menu in the player queue count to see the users in the queue.
+
+Actions Calendar Event Trigger
+
+* Added action trigger support on event creation, start, and end.
+
+Calendar Event Discord Sync Toggle
+
+* Added a per-event toggle to sync calendar events to Discord.
+
+ER:LC Shift Reports
+
+* Added custom shift reports for ER:LC sent via Discord DM.
+
+ER:LC Session Action Triggers
+
+* Added triggers to fire, start, or stop actions based on starting and stopping an ER:LC session
+
+Discord Notifications
+
+* Added a configurable Discord DM notification setting
+
+Roster Editor Preview
+
+* Added real data to the roster editor, allowing for a better preview of the roster before saving.
+
+Form Lock API
+
+* Added a new API endpoint to lock and unlock a CMS form.
+
+Calendar Event Expanded Permissions
+
+* Separated edit and delete permissions into edit/delete own events vs others events.
+{% endtab %}
+
+{% endtabs %}
 ### 1.2.3 12/04/2025
 
 {% tabs %}
