@@ -6,10 +6,6 @@ description: >-
 
 # Account Registration
 
-```
-// <iframe src="https://scribehow.com/embed/How_to_Register_a_New_Sonoran_CMS_Account__T0hbUAevRTKyjWN6B11hzQ?removeLogo=true&as=video" width="100%" height="800" allow="fullscreen" style="aspect-ratio: 16 / 12; border: 0; min-height: 480px"></iframe>
-```
-
 {% embed url="https://youtu.be/uFyrPNdF-uA" %}
 
 {% hint style="info" %}
