@@ -6,7 +6,7 @@ description: >-
 
 # Account Registration
 
-{% embed url="https://youtu.be/uFyrPNdF-uA" %}
+{% embed url="https://app.guidde.com/share/playbooks/cKaxjBfjELSb29e43BA4Yd?origin=G25dDmjNZ2b8ccFUz9X7G7W8T1k1" %}
 
 {% hint style="info" %}
 If you already have an account on [sonorancad.com](https://sonorancad.com/) and/or [account.sonoransoftware.com](https://account.sonoransoftware.com) you can simply [login](https://sonorancms.com/#/login) instead of creating an account.
