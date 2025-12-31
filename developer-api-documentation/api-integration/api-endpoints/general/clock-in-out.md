@@ -55,9 +55,10 @@ API ID NOT LINKED TO AN ACCOUNT IN THIS COMMUNITY
             "username": "SOMEUSERNAME", // Optional - must have one
             "accId": "SOMEACCID", // Optional - must have one
             "discord": "111122223333444455", // Optional - must have one
-            "uniqueId": 1234 // Optional - must have one
+            "uniqueId": 1234, // Optional - must have one
             // Configuration
-            "forceClockIn": true // Optional - will start a new clock in replacing any current one
+            "forceClockIn": true, // Optional - will start a new clock in replacing any current one
+            "forceClockOut": true // Optional - will clock out the current clock in session
         }
     ]
 }
