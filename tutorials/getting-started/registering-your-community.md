@@ -4,7 +4,7 @@ description: Registering your community and creating a CMS is fast, easy, and fr
 
 # Community Registration
 
-{% embed url="https://youtu.be/vyWIYNBNWZc" %}
+{% embed url="https://app.guidde.com/share/playbooks/6kTLSFXwofS2QDNHnuMcjQ?origin=G25dDmjNZ2b8ccFUz9X7G7W8T1k1" %}
 
 {% hint style="info" %}
 NOTE: If you have not already, you will need to [create a user account](registering-your-account.md) with Sonoran CMS.
