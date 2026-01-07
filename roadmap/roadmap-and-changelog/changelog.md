@@ -10,6 +10,44 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.2.5 01/07/2026
+
+{% tabs %}
+{% tab title="New" %}
+Toolbar Update Logging
+
+* Added a community log whenever the toolbar is updated.
+
+Sessions API
+
+* Added API support to start and stop sessions.
+{% endtab %}
+
+{% tab title="Changed" %}
+Roster Audit Timezone
+
+* The 12-hour roster audits to update hours is now based on the community timezone to properly update at the start of a new month.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Navigation Bar Alignment
+
+* Fixed an issue causing the navigation bar alignment settings to not save.
+
+Image Carousel Add
+
+* Fixed an issue where adding images to the carousel element required extra scrolling
+
+Document Previews
+
+* Fixed an issue with drive document previews not generating properly
+
+Form Attachment Webhook
+
+* Fixed an issue with form attachments in Discord webhooks having a broken URL
+{% endtab %}
+
+{% endtabs %}
 ### 1.2.4 12/19/2025
 
 {% tabs %}
