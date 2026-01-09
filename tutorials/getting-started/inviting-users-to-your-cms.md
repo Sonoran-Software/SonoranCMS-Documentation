@@ -4,7 +4,7 @@ description: Invite your community members to join your community, and grant the
 
 # Inviting Users
 
-{% embed url="https://www.youtube.com/watch?v=krRPJyoEib8" %}
+{% embed url="https://app.guidde.com/share/playbooks/9cFxjht6JjCRnDrBKpSeHN?origin=G25dDmjNZ2b8ccFUz9X7G7W8T1k1" %}
 
 ## Manually Join with a Community ID
 
