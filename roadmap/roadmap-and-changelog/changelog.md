@@ -10,6 +10,20 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.2.6 01/13/2026
+
+{% tabs %}
+{% tab title="New" %}
+ER:LC Team Lock
+
+* Added the ability to lock ERLC teams to a specific user account, with automatic actions any bypass ranks.
+
+Form Submission History
+
+* Added a form history button on forms to view prior submissions with status information and clickable items to swap between.
+{% endtab %}
+
+{% endtabs %}
 ### 1.2.5 01/07/2026
 
 {% tabs %}
