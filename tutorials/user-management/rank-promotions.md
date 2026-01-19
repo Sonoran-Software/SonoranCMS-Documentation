@@ -4,6 +4,8 @@ description: Configure rank promotion flows for your community members.
 
 # Rank Promotions
 
+{% embed url="https://app.guidde.com/share/playbooks/wJ25VP5VoPdCjmsS44zKHr?origin=G25dDmjNZ2b8ccFUz9X7G7W8T1k1" %}
+
 ## What are Promotions?
 
 **Promotion flows** let you easily promote or demote members within your community.
