@@ -6,6 +6,8 @@ description: >-
 
 # Creating Ranks
 
+{% embed url="https://app.guidde.com/share/playbooks/a7SxReQKBLpNWVAx1G9LZv?origin=G25dDmjNZ2b8ccFUz9X7G7W8T1k1" %}
+
 ## Accessing the Rank Manager
 
 To access the "Rank Manager", head to `Administrative Panel` > `Ranks`
@@ -60,8 +62,6 @@ When you are done customizing your rank permissions, click anywhere outside to c
 
 You search for specific permissions. This will bring display a number of how many settings match your search in each category, and will show only the ranks in a given category that match the search.
 
-
-
 <figure><img src="../../.gitbook/assets/Screenshot (207).png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Search Rank Permissions</p></figcaption></figure>
 
 If you ever want to modify permissions, click the person icon to the right of the name to open the dialog again.
@@ -106,8 +106,6 @@ Finally, click `Import Roles to Ranks` at the bottom of the window, and new rank
 
 Please note that you will still have to configure permissions for these newly created ranks. By default they will assume the permissions of their department, but any further changes must be done manually.
 
-
-
 ## Copy Rank IDs
 
 Some integrations may require you to input Sonoran CMS rank IDs.
@@ -115,4 +113,3 @@ Some integrations may require you to input Sonoran CMS rank IDs.
 Select the `...` menu and the `Copy Rank ID` button to copy the rank ID to your clipboard.
 
 <figure><img src="../../.gitbook/assets/Screenshot (211).png" alt=""><figcaption></figcaption></figure>
-
