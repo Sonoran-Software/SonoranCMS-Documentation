@@ -6,7 +6,7 @@ description: >-
 
 # Setting User Ranks
 
-{% embed url="https://www.youtube.com/watch?v=4qpw5IUnL0I" %}
+{% embed url="https://app.guidde.com/share/playbooks/9t7tJGYCTmTCa9V68Hzf7f?origin=G25dDmjNZ2b8ccFUz9X7G7W8T1k1" %}
 
 {% hint style="warning" %}
 Make sure that you've viewed the [**Creating Ranks**](creating-departments.md) guide and have created at least one group prior to modifying user permissions.
