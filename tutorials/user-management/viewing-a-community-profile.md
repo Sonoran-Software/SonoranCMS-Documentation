@@ -6,7 +6,7 @@ description: >-
 
 # Community Profile
 
-{% embed url="https://www.youtube.com/watch?v=c7-dARy7xaI" %}
+{% embed url="https://app.guidde.com/share/playbooks/9pgQ43qPRgvuuVcyA8ma8n?origin=G25dDmjNZ2b8ccFUz9X7G7W8T1k1" %}
 
 ![Sonoran CMS - Community Profile](<../../.gitbook/assets/Screenshot (238).png>)
 
