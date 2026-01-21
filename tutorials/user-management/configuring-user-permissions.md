@@ -6,6 +6,8 @@ description: >-
 
 # Configuring User Permissions
 
+{% embed url="https://app.guidde.com/share/playbooks/tZ6JoJVGXMWeJZejtoNmci?origin=G25dDmjNZ2b8ccFUz9X7G7W8T1k1" %}
+
 ## Rank Permissions
 
 When configuring a rank, each permission can be set to **Grant**, **Unset**, or **Deny**:
