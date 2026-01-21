@@ -14,7 +14,7 @@ The ER:LC game panel's dashboard provides basic server information at a glance.
 
 Quickly glance at your online players, or use the search bar and team filters to find a specific one.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (85).png" alt="" width="195"><figcaption></figcaption></figure>
 
 </details>
 
