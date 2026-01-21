@@ -10,6 +10,20 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.3.0 01/21/2026
+
+{% tabs %}
+{% tab title="New" %}
+Actions: Discord Lock
+
+* Automated actions can now lock/unlock and hide/unhide Discord channels for specific roles.
+
+Melonly Import
+
+* Added functionality to import Melonly logs to CMS player records
+{% endtab %}
+
+{% endtabs %}
 ### 1.2.6 01/13/2026
 
 {% tabs %}
