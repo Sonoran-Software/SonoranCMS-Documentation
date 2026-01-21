@@ -28,7 +28,9 @@ Select `Edit Server Settings` > Navigate To `ER:LC API` > Select `Edit` to Copy.
 
 ## 2. Enter Your ER:LC API Key
 
-In the CMS, paste the ER:LC API key into the setup modal.
+In the CMS navigate to **Admin** (grey gear icon) > **Integrations** > **ER:LC Game Panel**
+
+Paste the ER:LC API key into the setup modal.
 
 <figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
