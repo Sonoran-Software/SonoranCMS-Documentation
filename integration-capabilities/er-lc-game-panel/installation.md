@@ -4,10 +4,6 @@ description: Manage your ER:LC Roblox server right from Sonoran CMS!
 
 # Installation
 
-{% hint style="danger" %}
-The ER:LC game panel is currently available as an **early-access proof of concept and is not intended for production use**. We’re rolling out weekly updates to expand its features ahead of the full release.
-{% endhint %}
-
 ## ER:LC Panel Setup
 
 ## 1. Create an ER:LC API Key
@@ -20,7 +16,7 @@ ER:LC grants API access as a paid upgrade.
 
 Once in-game, select the `Menu` button at the top left > `Servers` > `Owned Servers` > Select your private server > `Upgrade Packs` > `API Pack`.
 
-<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>ER:LC Menu</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>ER:LC API Pack</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>ER:LC Menu</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>ER:LC API Pack</p></figcaption></figure></div>
 
 ### Copy Your ER:LC API Key
 
@@ -51,3 +47,7 @@ Additionally, you can [enforce Roblox and Discord account linking requirements i
 ### 4. Import Data from Another Provider
 
 Migrating to Sonoran CMS from another ER:LC management panel provider? Import your data by using the import wizard!
+
+{% content-ref url="usage/migration-import.md" %}
+[migration-import.md](usage/migration-import.md)
+{% endcontent-ref %}

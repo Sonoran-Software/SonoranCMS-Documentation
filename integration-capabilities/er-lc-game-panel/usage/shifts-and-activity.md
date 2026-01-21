@@ -6,25 +6,43 @@ description: Learn more about powerful time tracking with the ER:LC panel!
 
 ## Timeclock
 
-Timeclock shift types are configured in the community customization panel.
+Timeclock [shift types are configured in the community customization panel](../../../tutorials/customization/).
 
 ### Via In-Game Command
+
+<details>
+
+<summary>Via In-Game Command</summary>
 
 Users can clock in or out of their timeclock by using the `:log` command in-game.
 
 Format: `:log clockin [shift type - optional]`&#x20;
 
+</details>
+
 ### Via Discord Command
 
-Users can clock in or out of their timeclock by using the `/clickockin <type` and `/clockout` commands in Discord.
+<details>
+
+<summary>Via Discord Command</summary>
+
+Users can clock in or out of their timeclock by using the `/clickockin <type` and `/clockout` commands in [Discord](../../discord-bot-integration.md).
 
 <figure><img src="../../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
 
+</details>
+
 ### Via CMS
+
+<details>
+
+<summary>Via CMS</summary>
 
 Users can clock in or out of their timeclock by selecting the timer icon at the top of the CMS navigation bar.
 
 <figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+
+</details>
 
 ## Activity Time
 
@@ -34,14 +52,24 @@ When a user joins the ER:LC game server, an automatic activity timer starts. Thi
 
 ### Discord Shift Reports
 
+<details>
+
+<summary>Discord Shift Reports</summary>
+
 When a player exits the ER:LC server, a shift report will automatically be direct messaged to them via Discord.
 
 These notifications can be disabled in the CMS notification settings.
 
 <figure><img src="../../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
-
+</details>
 
 ### Discord Activity Review
 
+<details>
+
+<summary>Discord Activity Review</summary>
+
 Users can review their activity logs with the `/activity <type>` Discord command. This allows you to review manual timeclock shifts or automatic activity time logs.
+
+</details>

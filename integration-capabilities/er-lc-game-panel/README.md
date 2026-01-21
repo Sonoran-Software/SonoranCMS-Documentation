@@ -1,12 +1,11 @@
 ---
-description: Configure CMS to manage your ER:LC server in minutes!
+description: >-
+  Sonoran CMS allows you to fully manage your ER:LC server(s) with player
+  records, whitelisting, automations, commands, weather, shifts, and so much
+  more! All ER:LC features are included for free!
 ---
 
 # ER:LC Game Panel
-
-{% hint style="danger" %}
-The ER:LC game panel is currently available as an **early-access proof of concept and is not intended for production use**. We’re rolling out weekly updates to expand its features ahead of the full release.
-{% endhint %}
 
 ## Installation
 
