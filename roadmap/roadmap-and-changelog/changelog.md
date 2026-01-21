@@ -14,6 +14,18 @@ description: View the latest changes to Sonoran CMS!
 
 {% tabs %}
 {% tab title="New" %}
+ER:LC Panel - Public Beta Release
+
+* ER:LC management panel is now available in beta to the public.
+
+ER:LC - Custom Record Types
+
+* Added customizable record types for ER:LC player records, along with Discord command support.
+
+ER:LC - Lock Team
+
+* Added custom team player count locks along with Discord command support.
+
 Actions: Discord Lock
 
 * Automated actions can now lock/unlock and hide/unhide Discord channels for specific roles.
@@ -22,8 +34,8 @@ Melonly Import
 
 * Added functionality to import Melonly logs to CMS player records
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.2.6 01/13/2026
 
 {% tabs %}
@@ -36,8 +48,8 @@ Form Submission History
 
 * Added a form history button on forms to view prior submissions with status information and clickable items to swap between.
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.2.5 01/07/2026
 
 {% tabs %}
@@ -74,8 +86,8 @@ Form Attachment Webhook
 
 * Fixed an issue with form attachments in Discord webhooks having a broken URL
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.2.4 12/19/2025
 
 {% tabs %}
@@ -116,8 +128,8 @@ Calendar Event Expanded Permissions
 
 * Separated edit and delete permissions into edit/delete own events vs others events.
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.2.3 12/04/2025
 
 {% tabs %}
@@ -150,8 +162,8 @@ ERLC Command Logs
 
 * Fixed an issue where running some ERLC commands wouldn't create an activity log with the user that executed it
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.2.2 11/21/2025
 
 {% tabs %}
@@ -164,8 +176,8 @@ Promotional Flow Multi-Action
 
 * Added automated actions than run when the multi-flow promotional UI is used.
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.2.1 11/20/2025
 
 {% tabs %}
