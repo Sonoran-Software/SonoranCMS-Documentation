@@ -20,7 +20,7 @@ ER:LC grants API access as a paid upgrade.
 
 Once in-game, select the `Menu` button at the top left > `Servers` > `Owned Servers` > Select your private server > `Upgrade Packs` > `API Pack`.
 
-<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>ER:LC Menu</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>ER:LC API Pack</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>ER:LC Menu</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>ER:LC API Pack</p></figcaption></figure></div>
 
 ### Copy Your ER:LC API Key
 
@@ -34,7 +34,7 @@ Select `Edit Server Settings` > Navigate To `ER:LC API` > Select `Edit` to Copy.
 
 In the CMS, paste the ER:LC API key into the setup modal.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## 3. Link Roblox and Discord to CMS
 
@@ -47,3 +47,7 @@ Additionally, you can [enforce Roblox and Discord account linking requirements i
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+### 4. Import Data from Another Provider
+
+Migrating to Sonoran CMS from another ER:LC management panel provider? Import your data by using the import wizard!

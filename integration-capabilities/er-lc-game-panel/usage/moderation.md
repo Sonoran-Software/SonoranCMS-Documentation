@@ -10,7 +10,15 @@ The Priority Player List highlights in-game users with specific CMS ranks by mov
 
 Players with one of the configured CMS ranks will display a rank badge on their player card and appear at the top of the dashboard list.
 
-<div><figure><img src="../../../.gitbook/assets/image (16).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (9).png" alt="" width="207"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (16) (1).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (9) (1).png" alt="" width="207"><figcaption></figcaption></figure></div>
+
+## Custom Record Types
+
+Create additional, custom player record types for things like RDM, Combat, and more!
+
+These custom log types can be created via [CMS](player-records.md#via-cms-panel), [Discord](player-records.md#via-discord-bot), or [in-game](player-records.md#via-in-game-command)!
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## Username Moderation
 

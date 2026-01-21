@@ -22,4 +22,4 @@ The [CMS Actions panel](../../../tutorials/administrative/actions.md) performs r
 
 The ER:LC panel extends this functionality by enabling automated kicks or bans when a user reaches the configured disciplinary point limit.
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt="" width="375"><figcaption></figcaption></figure>

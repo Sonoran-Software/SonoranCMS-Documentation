@@ -12,7 +12,7 @@ Some commands have two states (e.g., Jail/Unjail, Admin/Unadmin). Simply click t
 
 The `Kick` and `Ban` command will create a [corresponding player record](player-records.md) when used.
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt="" width="280"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt="" width="280"><figcaption></figcaption></figure>
 
 ## Commands Via Discord
 

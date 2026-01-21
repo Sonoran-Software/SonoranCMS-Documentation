@@ -14,19 +14,19 @@ Quickly glance at your online players, or use the search bar and team filters to
 
 Players with [configured priority CMS ranks](moderation.md#priority-player-list) will appear at the top of the list. Their CMS rank icon will be displayed at the top left of the avatar and can be hovered over for more information.
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt="" width="207"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt="" width="207"><figcaption></figcaption></figure>
 
 ### Recent Player Commands
 
 Players who recently [had a command ran on them](command-palette.md) will be displayed at the top of the player list with a badge reflecting the command.
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt="" width="207"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt="" width="207"><figcaption></figcaption></figure>
 
 ### Player Connection Time
 
 On each player card, a clock icon will show the current connection time. Player time can also be automatically shown on a [community roster](cms-integrations.md#roster-activity-time).
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="198"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt="" width="198"><figcaption></figcaption></figure>
 
 ### Player Actions
 
@@ -40,13 +40,13 @@ The `Activity` expansion area will show all recent player logs and records. Clic
 
 The `Vehicle` expansion area will show the player's current vehicle in-game.
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt="" width="220"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt="" width="220"><figcaption></figcaption></figure>
 
 ## Create New Record
 
 The player record panel allows for the [creation of player records](player-records.md).
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Latest Activity
 
@@ -54,11 +54,10 @@ The Latest Activity section displays real-time logs for player connections, disc
 
 Use the search bar to find logs by username, or apply filters to locate specific player records.
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Server Selection
 
 At the top left, you can select what game server to view. Use the join button on the right to automatically launch Roblox and join the ER:LC server. You can also add a new ER:LC server or delete an existing one from the dropdown.
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt="" width="153"><figcaption></figcaption></figure>
-
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt="" width="153"><figcaption></figcaption></figure>

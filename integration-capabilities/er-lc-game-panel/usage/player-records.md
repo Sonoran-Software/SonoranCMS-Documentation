@@ -47,6 +47,10 @@ Players can also manage their timeclock in-game using the `:log` command.
 
 [Learn more about in-game timeclock commands here.](shifts-and-activity.md#timeclock)
 
+## Adding Custom Record Types
+
+Communities can [configure additional custom record types in the Moderation panel](moderation.md#custom-record-types).
+
 ## Searching Player Records
 
 ### Search Filters

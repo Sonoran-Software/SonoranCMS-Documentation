@@ -27,7 +27,7 @@ The characters tab allows you to view and edit:
 
 Select the `Inventory` tab on a character to open a drag-and-drop inventory manager.
 
-<figure><img src="../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Supported Inventory Scripts
 

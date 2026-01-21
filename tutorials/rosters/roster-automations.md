@@ -13,7 +13,7 @@ A community roster includes a **Status** column that automatically switches memb
 
 _**Note:** Activity time columns update automatically when new logs (join/leave game) are created. If a member hasn’t logged in recently, no logs exist to trigger a recalculation, so a 12-hour scheduled task re-processes them._
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Edit Roster on Form Stage
 

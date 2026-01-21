@@ -91,7 +91,7 @@ Customize submission titles on the form submission board with variables.
 
 Click the `</>` icon to view available variables. Additionally, copy any form question ID (blue copy button on the question) and use that as a `{variable}` .
 
-<div><figure><img src="../../.gitbook/assets/Screenshot (366).png" alt=""><figcaption><p>Title Format</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot (367).png" alt=""><figcaption><p>Title Variables</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (9) (1).png" alt="" width="375"><figcaption><p>Submission Board</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Screenshot (366).png" alt=""><figcaption><p>Title Format</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot (367).png" alt=""><figcaption><p>Title Variables</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt="" width="375"><figcaption><p>Submission Board</p></figcaption></figure></div>
 
 #### Description
 
@@ -153,7 +153,7 @@ Form stage actions can be conditional, meaning they will only trigger if a certa
 
 The example action below shows that the email will only be sent if the form submitter selects `Yes` to the question `Would you like us to email you more information?`
 
-<div><figure><img src="../../.gitbook/assets/Screenshot (374).png" alt=""><figcaption><p>Stage Action: Conditional Question</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="255"><figcaption><p>Form Submission: Conditional Question</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Screenshot (374).png" alt=""><figcaption><p>Stage Action: Conditional Question</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="255"><figcaption><p>Form Submission: Conditional Question</p></figcaption></figure></div>
 
 ### Form Submissions: Submit, View, and Change Stages
 
