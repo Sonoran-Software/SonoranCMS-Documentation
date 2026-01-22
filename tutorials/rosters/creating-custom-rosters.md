@@ -6,7 +6,7 @@ description: >-
 
 # Creating Rosters
 
-{% embed url="https://www.youtube.com/watch?v=ANJj0AM-SLc" %}
+{% embed url="https://app.guidde.com/share/playbooks/vAFoos7FETJaLpf7S3G346?origin=G25dDmjNZ2b8ccFUz9X7G7W8T1k1" %}
 
 ## Accessing the Roster Editor
 
