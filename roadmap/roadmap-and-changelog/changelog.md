@@ -10,6 +10,20 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.3.1 01/23/2026
+
+{% tabs %}
+{% tab title="New" %}
+Actions: Timeclock
+
+* Actions to update user ranks can now be triggered based on clock in/out events.
+
+Promotion User Search
+
+* User searches in the rank promotion tab can now be ran via Discord/Roblox/other IDs instead of only usernames.
+{% endtab %}
+
+{% endtabs %}
 ### 1.3.0 01/21/2026
 
 {% tabs %}
