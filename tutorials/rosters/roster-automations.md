@@ -4,6 +4,8 @@ description: Create powerful automations with your custom community rosters!
 
 # Roster Automations
 
+{% embed url="https://app.guidde.com/share/playbooks/ox4JpYzJkH8RACzRs43FUF?origin=G25dDmjNZ2b8ccFUz9X7G7W8T1k1" %}
+
 ## Roster Trigger Actions
 
 Communities can use the [**Actions**](../administrative/actions.md) panel to send webhooks, in-game messages, and other automated tasks. These actions can run on a schedule or be triggered when roster cells change.
