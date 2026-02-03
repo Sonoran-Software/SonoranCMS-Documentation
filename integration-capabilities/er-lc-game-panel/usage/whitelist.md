@@ -20,7 +20,7 @@ Toggle the `Roblox` and/or `Discord` requirement(s). Then, define custom actions
 
 Available actions include public or private in-game messages, Discord webhooks, push notifications, and more.
 
-<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="243"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="243"><figcaption></figcaption></figure></div>
 
 </details>
 
@@ -36,7 +36,7 @@ When enabled, only users with a Roblox account linked to a CMS account that hold
 
 If a user’s CMS rank appears on the **deny list**, that restriction overrides the allow list — those users will be kicked upon joining.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </details>
 
@@ -116,6 +116,6 @@ Just like teams, select the **Shield** icon to which ranks are allowed to use th
 
 Select the **Actions** panel to create actions that apply when a user uses a vehicle or livery without the proper CMS rank.
 
-<div><figure><img src="../../../.gitbook/assets/image (16).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt="" width="246"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (16).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt="" width="246"><figcaption></figcaption></figure></div>
 
 </details>

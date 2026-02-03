@@ -4,6 +4,26 @@ description: The ER:LC panel also has extended functionality from other areas of
 
 # CMS Integrations
 
+## Form Stage Actions
+
+<details>
+
+<summary>Form Stage Actions</summary>
+
+[Form stages have configurable actions](../../../tutorials/forms/creating-custom-forms.md#form-stages) to send webhooks, messages, modify ranks, in-game commands, and more. When a form submission is moved to the stage, the stage actions are ran.
+
+CMS form stage actions also support running ER:LC commands.
+
+The ER:LC commands can be ran on the form submitter, the user who changed the form stage, or on a specific user selected in the submission with a **Member Select** type form field.
+
+**Example: Priority Request**
+
+In this example, when a user's **Priority Request** form submission is moved to **Accepted** we send that user an in-game private message.
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
 ## Roster Activity Time
 
 <details>

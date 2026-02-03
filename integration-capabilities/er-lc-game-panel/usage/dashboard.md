@@ -98,6 +98,10 @@ Use the search bar to find logs by username, or apply filters to locate specific
 
 <figure><img src="../../../.gitbook/assets/image (14) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
+[Request form types](moderation.md#request-form-types) will also be displayed at the top of the activity box.
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 </details>
 
 ## Server Selection
