@@ -10,6 +10,36 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.3.2 02/03/2026
+
+{% tabs %}
+{% tab title="New" %}
+ER:LC Offline Player Records
+
+* Added offline player search in the ER:LC create record panel
+
+Clock Shift Permissions
+
+* Added new rank permissions to restrict which shift types users can clock in with.
+
+Stage Change Reason
+
+* Added a new reason popup when changing a form's stage. The reason text is also available as a variable.
+
+Discord CMS ID
+
+* Added a new /cmsid Discord command to get a user's CMS UID.
+
+ER:LC Requests
+
+* Added a system for custom form requests in the ER:LC panel, complete with in-game commands.
+
+ER:LC Stage Actions
+
+* Added support for custom ER:LC server commands on form stage actions.
+{% endtab %}
+
+{% endtabs %}
 ### 1.3.1 01/23/2026
 
 {% tabs %}
