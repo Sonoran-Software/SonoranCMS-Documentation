@@ -41,3 +41,17 @@ ER:LC commands can be ran via [Discord bot](../../discord-bot-integration.md) us
 Some specific commands can be ran entirely [in-game with the `:log` syntax](player-records.md#via-in-game-command).
 
 </details>
+
+## Commands via Form Stage Automations
+
+<details>
+
+<summary>Commands via Form Stage Automations</summary>
+
+ER:LC commands can also be ran when a form's stage is changed.
+
+[Learn more here!](cms-integrations.md#form-stage-actions)
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+</details>
