@@ -26,7 +26,7 @@ Players with one of the configured CMS ranks will display a rank badge on their 
 
 These custom log types can be created via [CMS](player-records.md#via-cms-panel), [Discord](player-records.md#via-discord-bot), or [in-game](player-records.md#via-in-game-command)!
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Create additional, custom player record types for things like RDM, Combat, and more!
 
@@ -54,9 +54,9 @@ Ex: `:log prio this is an example` > would create a new **Priority Request** for
 
 When a form stage is changed [automated actions, including ER:LC commands](cms-integrations.md#stage-actions) can be ran.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

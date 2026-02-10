@@ -10,4 +10,4 @@ description: >-
 
 To sync the in-game time and weather to a real-world location, click a location on the map. Then, toggle on `Sync Weather` and `Sync Time` to enable environment sync.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
