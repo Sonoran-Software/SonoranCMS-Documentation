@@ -39,7 +39,7 @@ Go to my submissions on the top right hand corner.
 The Community Member Roster Panel\
 \- From here you can edit and column and make adjustments inside the panel with different selections in the form.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Here you can modify each table column to what matches in your CMS documentation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
 <br>
 
