@@ -54,9 +54,9 @@ Ex: `:log prio this is an example` > would create a new **Priority Request** for
 
 When a form stage is changed [automated actions, including ER:LC commands](cms-integrations.md#stage-actions) can be ran.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

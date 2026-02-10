@@ -53,7 +53,35 @@ Use the **green “+” icon** to add additional rows, allowing you to run multi
 
 Communities can [run promotional flows right from a Discord command](https://docs.sonoransoftware.com/bot/tutorials/sonoran-cms-integration/promotion-flows)!
 
+#### Promotion Flows
 
+\
+Create <mark style="color:orange;">**Promotion flows**</mark>  of ranks to promote or demote, Add disciplinary action or even assign new ranks when new actions are needed. \
+\
+When you select Promotion Flows\
+Click the <mark style="color:$success;">**Green Plus Button**</mark> next to the <mark style="color:$info;">search bar</mark>. \
+<br>
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+**Actions**
+
+Actions allow you to define what category a specific promotion flow will apply to.\
+\
+Click <mark style="color:orange;">**Actions**</mark> \
+Click the <mark style="color:$success;">**Green Plus**</mark> <mark style="color:$success;">**Button**</mark>
+
+When a promotion occurs, the configured action determines how the system responds based on the segment selected within that promotion flow. This ensures the promotion is processed and applied in accordance with the defined category and targeting rules set during configuration.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+**Promotion Flows**
+
+Promotion Flows allow you to assign promotions quickly without needing to manually edit ranks each time.
+
+To run a promotion, navigate to **Ranks → Promotions → Run Promotions**, then select the custom promotion ranks you’d like to apply. This streamlines the promotion process and ensures rank changes are applied consistently.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Permissions
 

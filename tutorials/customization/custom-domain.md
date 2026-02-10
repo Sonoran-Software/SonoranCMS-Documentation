@@ -83,7 +83,7 @@ Press **Set Custom Domain** in the CMS to save. Your new custom domain name will
 
 <figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Troubleshooting
 
