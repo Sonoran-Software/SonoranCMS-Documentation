@@ -62,7 +62,7 @@ When you select Promotion Flows\
 Click the <mark style="color:$success;">**Green Plus Button**</mark> next to the <mark style="color:$info;">search bar</mark>. \
 <br>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Actions**
 
@@ -73,7 +73,7 @@ Click the <mark style="color:$success;">**Green Plus**</mark> <mark style="color
 
 When a promotion occurs, the configured action determines how the system responds based on the segment selected within that promotion flow. This ensures the promotion is processed and applied in accordance with the defined category and targeting rules set during configuration.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Promotion Flows**
 
@@ -81,7 +81,7 @@ Promotion Flows allow you to assign promotions quickly without needing to manual
 
 To run a promotion, navigate to **Ranks → Promotions → Run Promotions**, then select the custom promotion ranks you’d like to apply. This streamlines the promotion process and ensures rank changes are applied consistently.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Permissions
 

@@ -100,7 +100,7 @@ Use the search bar to find logs by username, or apply filters to locate specific
 
 [Request form types](moderation.md#request-form-types) will also be displayed at the top of the activity box.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
