@@ -19,35 +19,6 @@ _**Note:** Activity time columns update automatically when new logs (join/leave 
 
 ## Edit Roster on Form Stage
 
-When a form is moved to a new stage a roster cell can be automatically updated.\
-<br>
+[Custom form stages](../forms/creating-custom-forms.md#form-stages) can also update rosters. For example, when a leave-of-absence (LOA) submission moves to the **Accepted** stage, the submitter’s **Status** field can automatically be set to **LOA**.
 
-#### Roster Actions
-
-Go to my submissions on the top right hand corner.
-
-<br>
-
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-#### Rosters tab is a dropdown that you can edit with new features in each column.&#x20;
-
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Rosters has a drop down for any other pages needed for your community.</p></figcaption></figure>
-
-![](<../../.gitbook/assets/image (4).png>)\
-\
-The Community Member Roster Panel\
-\- From here you can edit and column and make adjustments inside the panel with different selections in the form.&#x20;
-
-<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
-
-<br>
-
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>In Actions you can set the conditions and what ranks to apply to a submission</p></figcaption></figure>
-
-{% hint style="warning" %}
-Coming soon!
-{% endhint %}
-
-<br>
-
+<figure><img src="../../.gitbook/assets/Screenshot 2026-02-13 at 11.02.53 AM.png" alt="" width="375"><figcaption></figcaption></figure>
