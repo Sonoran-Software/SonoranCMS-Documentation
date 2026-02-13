@@ -21,4 +21,4 @@ _**Note:** Activity time columns update automatically when new logs (join/leave 
 
 [Custom form stages](../forms/creating-custom-forms.md#form-stages) can also update rosters. For example, when a leave-of-absence (LOA) submission moves to the **Accepted** stage, the submitter’s **Status** field can automatically be set to **LOA**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-02-13 at 11.02.53 AM.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="/broken/files/qjjVRbdLQ8mMaXsNAzzT" alt="" width="375"><figcaption></figcaption></figure>

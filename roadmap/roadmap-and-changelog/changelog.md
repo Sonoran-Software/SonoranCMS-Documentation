@@ -10,6 +10,42 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.3.3 02/13/2026
+
+{% tabs %}
+{% tab title="New" %}
+Form Embed Field
+
+* Added the ability to embed a youtube video or file attachment in a form field to provide information to the submitter.
+
+Custom Domain Remove
+
+* Updated custom domain logic to ensure Cloudflare records are removed when a community no longer has a custom domain.
+
+Form Stage Roster Actions
+
+* Form stage changes can now update community rosters via action.
+{% endtab %}
+
+{% tab title="Changed" %}
+Account Search Types
+
+* Updated the account searches in forms, security center, and the disciplinary panel to include the options to search via other identifiers.
+
+Promotional Flow Permissions
+
+* Separated permissions for promotional flows so users can't run promotion flows that contain higher level ranks than they have, unless they have explicit permissions to modify ranks with a higher power.
+
+Default Form Icon
+
+* Updated new forms to use a default icon instead of the CMS logo when created.
+
+Discord Webhook Filter
+
+* Added a search filter box in the Discord integration's webhook panel, making it easier to sort through pages of webhook options.
+{% endtab %}
+{% endtabs %}
+
 ### 1.3.2 02/03/2026
 
 {% tabs %}

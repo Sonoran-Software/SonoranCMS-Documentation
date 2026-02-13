@@ -16,32 +16,59 @@ For example, a user with the **Rookie** rank can be promoted to **Member**, or a
 
 ## Creating Promotion Flows
 
-### Label and Ranks
+<details>
 
-1. **Access the Promotions Panel**\
-   In the **Promotions** panel, select **Promotion Flows** to view, add, edit, or remove existing promotion flows.
-2. **Set Up the Flow Header**\
-   Use the **Promote From** and **Promote To** fields to label the flow.\
-   **Example:** Promote from **Moderator** to **Admin**.
-3. **Configure Rank Changes**
-   * In the **Ranks to Add** section, select **Admin**.
-   * In the **Ranks to Remove** section, select **Moderator**.
-4. **Run the Promotion Flow**\
-   When executed, this flow will **add the Admin rank** and **remove the Moderator rank**, effectively promoting the user.
+<summary>Flow Information and Ranks</summary>
+
+1. Access the Promotions Panel
+
+In the **Promotions** panel, select **Promotion Flows** to view, add, edit, or remove existing promotion flows.
+
+2. Configure Promotion Ranks
+
+Use the **Promote From** and **Promote To** fields to label the flow.\
+Exampl&#x65;**:** Promote from **Moderator** to **Admin**.
+
+**Configure Rank Changes**
+
+* In the **Ranks to Add** section, select **Admin**.
+* In the **Ranks to Remove** section, select **Moderator**.
+
+3. **Run the Promotion Flow**
+
+When executed, this flow will **add the Admin rank** and **remove the Moderator rank**, effectively promoting the user.
 
 <figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
-### Actions
+</details>
+
+<details>
+
+<summary>Flow Actions</summary>
 
 When a promotion flow is ran, you can also run automated actions like a Discord webhook, push notification, and more.
 
-{% hint style="warning" %}
-This feature is coming soon!
-{% endhint %}
+<figure><img src="../../.gitbook/assets/Screenshot 2026-02-13 at 11.08.50 AM.png" alt="" width="375"><figcaption></figcaption></figure>
+
+</details>
+
+### Multi-Flow Actions
+
+<details>
+
+<summary>Multi-Flow Actions</summary>
+
+Communities can also define general actions that trigger when any one or more promotional flows are executed. This allows, for example, a single community announcement that summarizes all users included and all promotions applied.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-02-13 at 11.11.01 AM.png" alt="" width="375"><figcaption></figcaption></figure>
+
+</details>
 
 ## Running Promotion Flows
 
-### Via CMS
+<details>
+
+<summary>Via CMS</summary>
 
 In the **Run Promotions** panel, select the **user(s)**, choose the **promotion flow**, and specify whether to **promote** or **demote**.
 
@@ -49,47 +76,23 @@ Use the **green “+” icon** to add additional rows, allowing you to run multi
 
 <figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
-### Via Discord Command
+</details>
+
+<details>
+
+<summary>Via Discord Command</summary>
 
 Communities can [run promotional flows right from a Discord command](https://docs.sonoransoftware.com/bot/tutorials/sonoran-cms-integration/promotion-flows)!
 
-#### Promotion Flows
-
-\
-Create <mark style="color:orange;">**Promotion flows**</mark>  of ranks to promote or demote, Add disciplinary action or even assign new ranks when new actions are needed. \
-\
-When you select Promotion Flows\
-Click the <mark style="color:$success;">**Green Plus Button**</mark> next to the <mark style="color:$info;">search bar</mark>. \
-<br>
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-**Actions**
-
-Actions allow you to define what category a specific promotion flow will apply to.\
-\
-Click <mark style="color:orange;">**Actions**</mark> \
-Click the <mark style="color:$success;">**Green Plus**</mark> <mark style="color:$success;">**Button**</mark>
-
-When a promotion occurs, the configured action determines how the system responds based on the segment selected within that promotion flow. This ensures the promotion is processed and applied in accordance with the defined category and targeting rules set during configuration.
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-**Promotion Flows**
-
-Promotion Flows allow you to assign promotions quickly without needing to manually edit ranks each time.
-
-To run a promotion, navigate to **Ranks → Promotions → Run Promotions**, then select the custom promotion ranks you’d like to apply. This streamlines the promotion process and ensures rank changes are applied consistently.
-
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+</details>
 
 ### Permissions
 
-To allow others to manage Promotion Flows on your behalf, you can assign the following permissions.&#x20;
+To allow others to manage Promotion Flows on your behalf, you can assign the following [permissions](creating-departments.md#assigning-rank-permissions).&#x20;
 
-
-
-* Create/Edit/Remove Promotion Flows - **Modify Departments**
-* Trigger Promotion Flows - **Change Permissions**
-* Allows the user to modify anyone’s permissions except the owner’s - **Change Higher Permission**
-
+* Create/Edit/Remove Promotion Flows
+  * **Modify Departments**
+* Trigger Promotion Flows
+  * **Change Permissions**
+* Trigger promotion flows that include ranks above the triggering user’s permission level.
+  * **Change Higher Permission**
