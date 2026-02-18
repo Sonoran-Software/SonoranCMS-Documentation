@@ -10,6 +10,36 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.3.4 02/18/2026
+
+{% tabs %}
+{% tab title="New" %}
+Drive Overhaul
+
+* Dozens of UI and functionality improvements to the CMS Drive.
+{% endtab %}
+
+{% tab title="Changed" %}
+Admin Panel UI Alignments
+
+* Updated several admin panels to a more consistent theme and alignment
+{% endtab %}
+
+{% tab title="Fixed" %}
+Discord Category Mapping
+
+* Added a safety to prevent adding the same Discord role to multiple different category mappings.
+
+Website Background Image
+
+* Fixed an issue where adding a website background image wouldn't take the entire space.
+
+Roster Select Column
+
+* Fixed an issue in the roster editor that could cause the roster to clear when adding a specific column type.
+{% endtab %}
+
+{% endtabs %}
 ### 1.3.3 02/13/2026
 
 {% tabs %}
