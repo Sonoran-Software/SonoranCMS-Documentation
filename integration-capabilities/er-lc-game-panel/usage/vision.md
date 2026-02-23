@@ -6,6 +6,8 @@ description: >-
 
 # Vision
 
+<figure><img src="../../../.gitbook/assets/vision_promo.png" alt=""><figcaption></figcaption></figure>
+
 ## What Is ER:LC Vision?
 
 CMS Vision for ER:LC lets users hover over a player’s in-game name, press a keybind, and instantly open an overlay displaying that player’s latest activity with the ability to create [custom records](player-records.md) on the spot. By eliminating the need to leave the game to access or manage records, it streamlines workflows and significantly reduces response time.
