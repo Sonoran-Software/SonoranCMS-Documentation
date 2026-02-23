@@ -22,6 +22,18 @@ New player records can be created directly from the ER:LC server dashboard.
 
 </details>
 
+### Via In-Game Vision
+
+<details>
+
+<summary>Via CMS Vision</summary>
+
+Users with the CMS desktop application can use [Vision with a hotkey to open an in-game overlay](vision.md) and quickly add records to the nearby player.
+
+<figure><img src="../../../.gitbook/assets/qj8i4.webp" alt=""><figcaption></figcaption></figure>
+
+</details>
+
 ### Via Discord Bot
 
 <details>

@@ -20,7 +20,7 @@ The ER:LC commands can be ran on the form submitter, the user who changed the fo
 
 In this example, when a user's **Priority Request** form submission is moved to **Accepted** we send that user an in-game private message.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
