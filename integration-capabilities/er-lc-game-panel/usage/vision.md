@@ -46,6 +46,22 @@ The CMS ER:LC panel supports configuring multiple servers under a single communi
 
 </details>
 
+### CMS User Permissions
+
+<details>
+
+<summary>CMS Vision User Permissions</summary>
+
+In order to utilize CMS vision, users must have the following [rank permissions](../../../tutorials/user-management/creating-departments.md):
+
+* **Create Record (Left Panel):**
+  * Disciplinary Panel (To add Disciplinary Point Records)
+  * Kick/Ban/Warn Player (To add Kick/Ban/Warn Records)
+* **View User (Center Panel):** View Game Panel
+* **View Activity (Right Panel):** View Game Panel
+
+</details>
+
 ### Mac OSX Permissions
 
 <details>
