@@ -10,6 +10,16 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.3.5 02/23/2026
+
+{% tabs %}
+{% tab title="New" %}
+ER:LC Vision
+
+* Added an all-new in-game hotkey system to detect players and open a moderation overlay
+{% endtab %}
+
+{% endtabs %}
 ### 1.3.4 02/18/2026
 
 {% tabs %}
