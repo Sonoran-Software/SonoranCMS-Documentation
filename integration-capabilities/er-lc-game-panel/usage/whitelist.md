@@ -119,3 +119,19 @@ Select the **Actions** panel to create actions that apply when a user uses a veh
 <div><figure><img src="../../../.gitbook/assets/image (16).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt="" width="246"><figcaption></figcaption></figure></div>
 
 </details>
+
+## AOP (Area-of-Play)
+
+<details>
+
+<summary>AOP Restrictions</summary>
+
+Some communities wish to restrict users to an AOP (area-of-play) on the map.
+
+In the CMS, use the polygon, square, or circle tool to create a custom AOP. Once created, the AOP can be enabled and disabled. Select the **Actions** tab to configure custom CMS automations that will fire once a player is outside of all enabled AOPs.
+
+Select the **Rank** button to add CMS ranks that bypass AOP restrictions.
+
+<figure><img src="../../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+
+</details>
