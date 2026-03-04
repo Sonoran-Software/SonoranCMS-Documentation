@@ -10,6 +10,56 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.3.6 03/04/2026
+
+{% tabs %}
+{% tab title="New" %}
+Form Submission Reply Actions
+
+* Added a new action system that triggers when a reply comment is made on a form submission
+
+FiveM Automatic Server Generation
+
+* The FiveM resource now automatically adds a server in the CMS with the game server's IP and port, removing the manual need to enter
+
+ER:LC AOP
+
+* Added customizable AOP zones with automatic actions when outside of the zone
+
+ER:LC AOP
+
+* Added custom AOP map zones with CMS actions when a player is outsize
+
+ER:LC Dummy Data
+
+* Added toggleable dummy data to the ER:LC panel for development images and promotional content
+
+Roster Rank Edit
+
+* Added the ability to edit ranks directly from a roster column
+{% endtab %}
+
+{% tab title="Changed" %}
+Vanity URL Handling
+
+* Added proper redirect handling for invalid vanity URLs
+
+FiveM Installation Steps
+
+* Simplified FiveM installation instructions now that the resource automatically adds a server and sets the framework type
+{% endtab %}
+
+{% tab title="Fixed" %}
+Mobile Push Notification Routes
+
+* Fixed an issue where opening a mobile push notification would open your last used community instead of the notification specific community
+
+Name Sync Variables
+
+* Fixed an issue where updating a user's identifier in the custom name format wouldn't trigger a Discord name sync
+{% endtab %}
+
+{% endtabs %}
 ### 1.3.5 02/23/2026
 
 {% tabs %}
