@@ -22,21 +22,17 @@ FiveM Automatic Server Generation
 
 * The FiveM resource now automatically adds a server in the CMS with the game server's IP and port, removing the manual need to enter
 
+Roster Rank Edit
+
+* Added the ability to edit ranks directly from a roster column
+
 ER:LC AOP
 
 * Added customizable AOP zones with automatic actions when outside of the zone
 
-ER:LC AOP
-
-* Added custom AOP map zones with CMS actions when a player is outsize
-
 ER:LC Dummy Data
 
 * Added toggleable dummy data to the ER:LC panel for development images and promotional content
-
-Roster Rank Edit
-
-* Added the ability to edit ranks directly from a roster column
 {% endtab %}
 
 {% tab title="Changed" %}
@@ -57,9 +53,13 @@ Mobile Push Notification Routes
 Name Sync Variables
 
 * Fixed an issue where updating a user's identifier in the custom name format wouldn't trigger a Discord name sync
-{% endtab %}
 
+Discord Mapping Booster
+
+* Fixed an issue causing the Discord mapping panel to not show the Discord generated Nitro booster role
+{% endtab %}
 {% endtabs %}
+
 ### 1.3.5 02/23/2026
 
 {% tabs %}
@@ -68,8 +68,8 @@ ER:LC Vision
 
 * Added an all-new in-game hotkey system to detect players and open a moderation overlay
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.3.4 02/18/2026
 
 {% tabs %}
@@ -98,8 +98,8 @@ Roster Select Column
 
 * Fixed an issue in the roster editor that could cause the roster to clear when adding a specific column type.
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.3.3 02/13/2026
 
 {% tabs %}
