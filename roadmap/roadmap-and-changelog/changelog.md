@@ -10,6 +10,30 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.3.7 03/16/2026
+
+{% tabs %}
+{% tab title="New" %}
+Admin Panel Banner
+
+* Added a dismissible banner on the community website to help access the admin panel for new users
+
+ER:LC Hub
+
+* Migrated to a new, shared ER:LC API hub for all Sonoran applications (CAD, CMS, Radio)
+{% endtab %}
+
+{% tab title="Changed" %}
+Limits UI
+
+* Updated UI elements in the community limits panel
+
+Account Dropdown UI
+
+* Improved UI in the user account drop-down menu in the top right
+{% endtab %}
+
+{% endtabs %}
 ### 1.3.6 03/04/2026
 
 {% tabs %}
