@@ -14,6 +14,11 @@ description: View the latest changes to Sonoran CMS!
 
 {% tabs %}
 {% tab title="New" %}
+ER:LC Action Delays
+
+* Added new "delayed" action to ER:LC whitelist automations.
+* Ex: ER:LC AOP - Send in-game warning when outside of AOP, if still outside 60 seconds later kick the user
+
 Admin Panel Banner
 
 * Added a dismissible banner on the community website to help access the admin panel for new users
@@ -33,7 +38,21 @@ Account Dropdown UI
 * Improved UI in the user account drop-down menu in the top right
 {% endtab %}
 
+{% tab title="Fixed" %}
+Bot Stage
+
+* Fixed an issue causing some users to be unable to change a CMS form stage via Discord embed
+
+Roster Text Update
+
+* Fixed an issue causing some roster text columns to not accept manual changes
+
+Pormotion Flow Discord Roles
+
+* Fixed an issue causing promotional flows ran via CMS to not auto-sync Discord roles for the new CMS ranks
+{% endtab %}
 {% endtabs %}
+
 ### 1.3.6 03/04/2026
 
 {% tabs %}
