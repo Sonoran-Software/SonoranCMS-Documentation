@@ -10,6 +10,61 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.3.8 03/20/2026
+
+{% tabs %}
+{% tab title="New" %}
+**Discord Role Import Auto Map**
+
+* Automatically adds one-to-one mapping when importing Discord roles as CMS ranks
+
+**Form Social Link**
+
+* New form element to ensure a user’s Discord or Roblox account is linked
+
+**Account Merge**
+
+* Ability to merge duplicate user accounts (combine ranks, content, etc.)
+
+**Promotion Flows: Lock Direction**
+
+* Lock a promotional flow to one direction only (e.g., prevent mass-demote being run as mass-promote)
+
+**User Accounts Mobile Revamp**
+
+* Revamped mobile user accounts menu
+* Added missing user search input
+
+**Forms: Roblox Username**
+
+* New form element to automatically insert a user’s Roblox username
+
+**Discord Webhooks: Change Stage Embed**
+
+* Option to include an embed dropdown in form stage actions to change the form stage
+{% endtab %}
+
+{% tab title="Changed" %}
+**ER:LC Missing Whitelist Vehicles**
+
+* Added multiple missing vehicle types to the whitelist panel selector
+{% endtab %}
+
+{% tab title="Fixed" %}
+**Calendar Date Checks**
+
+* Ensures event start dates are always before end dates
+
+**New Form Submission Window**
+
+* Fixed issue where question scroll area could be invisible
+
+**QBCore: Vehicle Garage**
+
+* Fixed issue where changes to a vehicle’s garage were not saving
+{% endtab %}
+{% endtabs %}
+
 ### 1.3.7 03/16/2026
 
 {% tabs %}
