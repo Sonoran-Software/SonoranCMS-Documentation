@@ -20,11 +20,13 @@ For example, a user with the **Rookie** rank can be promoted to **Member**, or a
 
 <summary>Flow Information and Ranks</summary>
 
-1. Access the Promotions Panel
+1. **Access the Promotions Panel**
+
+Open the **Ranks** panel and select the **Promotions** tab at the top left.
 
 In the **Promotions** panel, select **Promotion Flows** to view, add, edit, or remove existing promotion flows.
 
-2. Configure Promotion Ranks
+2. **Configure Promotion Ranks**
 
 Use the **Promote From** and **Promote To** fields to label the flow.\
 Exampl&#x65;**:** Promote from **Moderator** to **Admin**.
@@ -34,11 +36,29 @@ Exampl&#x65;**:** Promote from **Moderator** to **Admin**.
 * In the **Ranks to Add** section, select **Admin**.
 * In the **Ranks to Remove** section, select **Moderator**.
 
-3. **Run the Promotion Flow**
-
 When executed, this flow will **add the Admin rank** and **remove the Moderator rank**, effectively promoting the user.
 
 <figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
+<summary>Promotion Flow Direction</summary>
+
+**Configure Flow Direction**
+
+By default, promotional flows can be executed in either direction—promotion or demotion. To reduce the risk of misuse, flows can be restricted to a single direction.
+
+Select the toggle at the top to change between
+
+* **Promotion and Demotion**
+* **Promote Only**
+* **Demote Only**
+
+For example, a “mass demote” flow may be designed to remove all CMS ranks. If that same flow is accidentally run in reverse, it would instead grant every CMS rank to the user, leading to unintended privilege escalation.
+
+<figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

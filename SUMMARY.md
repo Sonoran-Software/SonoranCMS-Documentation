@@ -16,6 +16,7 @@
   * [Setting User Ranks](tutorials/user-management/modify-users-permissions-and-information.md)
   * [Community Profile](tutorials/user-management/viewing-a-community-profile.md)
   * [Configuring User Permissions](tutorials/user-management/configuring-user-permissions.md)
+  * [Merge Duplicate Accounts](tutorials/user-management/merge-duplicate-accounts.md)
 * [Rosters](tutorials/rosters/README.md)
   * [Creating Rosters](tutorials/rosters/creating-custom-rosters.md)
   * [Viewing Rosters](tutorials/rosters/viewing-rosters.md)

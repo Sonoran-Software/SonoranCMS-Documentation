@@ -90,21 +90,51 @@ To do this, in any group, click the Discord icon in the group header.
 
 <figure><img src="../../.gitbook/assets/Screenshot (210).png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Import Discord Roles</p></figcaption></figure>
 
-Next, click `Select Guild` and select the linked guild you would like to import roles from. If you have not yet linked a Discord guild to CMS, you must do so through our [Sonoran Discord Bot](https://docs.sonoransoftware.com/bot/tutorials/getting-started).
+### 1. Select Guild
+
+<details>
+
+<summary>Select Discord Guild to Import Roles</summary>
+
+Next, click **Select Guild** and select the linked guild you would like to import roles from. If you have not yet linked a Discord guild to CMS, you must do so through our [Sonoran Discord Bot](https://docs.sonoransoftware.com/bot/tutorials/getting-started).
 
 <figure><img src="../../.gitbook/assets/CMS_RanksImportDiscord03.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Select Guild</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/CMS_RanksImportDiscord04.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Click Guild</p></figcaption></figure>
 
+</details>
+
+### 2. Select Discord Roles for Import
+
+<details>
+
+<summary>Select Discord Roles</summary>
+
 When you select a guild to import roles from, it will populate the window with all existing roles within that Discord. You can select which roles you would like to import, or click the top checkbox to select all.
 
 <figure><img src="../../.gitbook/assets/CMS_RanksImportDiscord05.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Select Discord Roles</p></figcaption></figure>
 
-Finally, click `Import Roles to Ranks` at the bottom of the window, and new ranks matching the name and color of the roles will be created:
+</details>
+
+### 3. Discord Map and Import
+
+<details>
+
+<summary>Discord Map and Import</summary>
+
+You can optionally toggle on the feature to **Also create one-to-one Discord role mapping(s)** at the bottom of the import window.
+
+If toggled on, this will [automatically map your selected Discord roles to CMS ranks](https://docs.sonoransoftware.com/bot/tutorials/sonoran-cms-integration/role-mapping), enabling role sync.
+
+<figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+
+Finally, click **Import Roles to Ranks** at the bottom of the window, and new ranks matching the name and color of the roles will be created:
 
 <figure><img src="../../.gitbook/assets/CMS_RanksImportDiscord06.png" alt=""><figcaption><p>Sonoran CMS - Rank Editor - Imported Discord Roles</p></figcaption></figure>
 
 Please note that you will still have to configure permissions for these newly created ranks. By default they will assume the permissions of their department, but any further changes must be done manually.
+
+</details>
 
 ## Copy Rank IDs
 
