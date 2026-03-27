@@ -10,6 +10,88 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.3.9 03/27/2026
+
+{% tabs %}
+{% tab title="New" %}
+Discord Role Import Auto Map
+
+* Added the ability to automatically add one-to-one mapping when importing Discord roles as CMS ranks
+
+Form Social Link
+
+* Added a new form element to ensure a user's Discord or Roblox account is linked
+
+Account Merge
+
+* Added the ability to merge two duplicate user accounts together to combine ranks, content, etc.
+
+Promotion Flows: Lock Direction
+
+* Added the ability to lock a promotional flow to only one way - preventing things like a mass-demote flow from being ran as a mass-promote
+
+User Accounts Mobile Revamp
+
+* Revamped the user accounts menu on mobile and added a missing user search input
+
+Forms: Roblox Username
+
+* Added a new form element to automatically insert a user's Roblox username
+
+Discord Webhooks: Change Stage Embed
+
+* Added an option on Discord webhook form stage actions to include an embed dropdown to change the form stage
+
+Rank Drag to Different Group
+
+* Ranks can now be dragged-and-dropped into different rank groups in the editor
+
+Rank Change ID Undo
+
+* All rank changes are now logged with an ID (webhooks, logs, etc.) and can be reversed via a Discord undo command
+
+Roster Roblox Username Column
+
+* Added a new roster column for Roblox usernames
+
+Radio Permission Stun Sync
+
+* Added the ability to grant the new radio stun feature permissions via CMS
+
+Form Lock on Date
+
+* Added the ability to set a specific date and time to lock a form from new submissions
+{% endtab %}
+
+{% tab title="Changed" %}
+ER:LC Missing Whitelist Vehicles
+
+* Added multiple missing vehicle types to the ER:LC whitelist panel selector
+
+Rank Audit
+
+* Improved internal systems for removing old ranks
+
+Form Submission Count
+
+* The number of forms in a stage is now shown on the submission board
+{% endtab %}
+
+{% tab title="Fixed" %}
+Calendar Date Checks
+
+* Added checks to ensure calendar event start dates are always before the end date
+
+New Form Submission Window
+
+* Fixed an issue causing the new form submission question scroll area to sometimes not be visible.
+
+QBCore: Vehicle Garage
+
+* Fixed an issue with the QB Core panel not saving when changing a vehicle's garage
+{% endtab %}
+
+{% endtabs %}
 ### 1.3.8 03/20/2026
 
 {% tabs %}
