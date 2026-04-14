@@ -32,6 +32,12 @@ You can also write your own script using our API endpoints:
 [api-endpoints](api-endpoints/)
 {% endcontent-ref %}
 
+The newer REST-style v2 surface is documented here, with one page per endpoint:
+
+{% content-ref url="api-endpoints-v2/" %}
+[api-endpoints-v2](api-endpoints-v2/)
+{% endcontent-ref %}
+
 ## Are there rate limits?
 
 Yes, Sonoran CMS will automatically block any malicious or spammed traffic. While we don't publicly publish these limits, it's not best to not make more than one call per second for an extended period of time.
