@@ -1,89 +1,163 @@
-﻿---
-description: Triggers one or more promotion flows.
+---
+description: Trigger one or more promotion flow actions.
 ---
 
 # Trigger Promotion Flows
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
-
-{% hint style="info" %}
-Recommended safe rate limit: `13 requests/min` per credential.
-
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
-
-## Trigger Promotion Flows
-
 <mark style="color:green;">`POST`</mark> `https://api.sonorancms.com/v2/community/promotion-flows/trigger`
-{% swagger method="post" path="/v2/community/promotion-flows/trigger" baseUrl="https://api.sonorancms.com" summary="Trigger Promotion Flows" %}
-{% swagger-description %}
-Triggers one or more promotion flows.
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/promotion-flows/trigger&quot;
-             },
-    &quot;data&quot;:  {
+> **Rate limit:** `13 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+Trigger one or more promotion flow actions.
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/promotion-flows/trigger&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+## Request Body
 
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `data` | array | Yes | See example request for the shape. |
 
-Triggers one or more promotion flows.
+## Example Request
 
-#### Request
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-- Body: `data` array of promotion flow trigger items.
+```lua
+local response = sonoran:request({
+  "method": "POST",
+  "path": "/v2/community/promotion-flows/trigger",
+  "body": {
+    "data": [
+      {
+        "flowId": "flow-1",
+        "users": [
+          "ExampleUser"
+        ],
+        "promote": true
+      }
+    ]
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.js" %}
+
+```javascript
+const response = await sonoran.request({
+  "method": "POST",
+  "path": "/v2/community/promotion-flows/trigger",
+  "body": {
+    "data": [
+      {
+        "flowId": "flow-1",
+        "users": [
+          "ExampleUser"
+        ],
+        "promote": true
+      }
+    ]
+  }
+});
+```
+
+{% endtab %}
+{% tab title="Sonoran.py" %}
+
+```python
+response = sonoran.request({
+  "method": "POST",
+  "path": "/v2/community/promotion-flows/trigger",
+  "body": {
+    "data": [
+      {
+        "flowId": "flow-1",
+        "users": [
+          "ExampleUser"
+        ],
+        "promote": true
+      }
+    ]
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "POST",
+      "path": "/v2/community/promotion-flows/trigger",
+      "body": {
+        "data": [
+          {
+            "flowId": "flow-1",
+            "users": [
+              "ExampleUser"
+            ],
+            "promote": true
+          }
+        ]
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+post:
+  summary: Trigger Promotion Flows
+  security:
+    - v2ApiKey: []
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request POST \
+  --url "https://api.sonorancms.com/v2/community/promotion-flows/trigger" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json" \
+  --data '{"data":[{"flowId":"flow-1","users":["ExampleUser"],"promote":true}]}'
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "data":  [
-                 {
-                     "userId":  "00000000-0000-0000-0000-000000000000",
-                     "promote":  true,
-                     "users":  [
-                                   "acc-id-1"
-                               ],
-                     "flowId":  "promotion-flow-id"
-                 }
-             ]
+  "success": true,
+  "data": {
+    "triggered": 1,
+    "results": [
+      {
+        "flowId": "flow-1",
+        "status": "queued"
+      }
+    ]
+  },
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/promotion-flows/trigger"
+  }
 }
 ```
-
-#### Response
-
-- Returns the promotion service result inside the v2 envelope.
-
-```json
-{
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/promotion-flows/trigger"
-             },
-    "data":  [
-
-             ],
-    "success":  true
-}
-```
-
-

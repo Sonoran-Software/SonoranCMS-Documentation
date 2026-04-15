@@ -1,97 +1,139 @@
-﻿---
-description: Checks whether an identity is whitelisted on the server.
+---
+description: Check whether an account is whitelisted on a server.
 ---
 
 # Verify Whitelist
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
+<mark style="color:green;">`POST`</mark> `https://api.sonorancms.com/v2/community/servers/1/whitelist/check`
 
-{% hint style="info" %}
-Recommended safe rate limit: `27 requests/min` per credential.
+> **Rate limit:** `27 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
+Check whether an account is whitelisted on a server.
 
-## Verify Whitelist
+## Route Parameters
 
-<mark style="color:green;">`POST`</mark> `https://api.sonorancms.com/v2/community/servers/:serverId/whitelist/check`
-{% swagger method="post" path="/v2/community/servers/:serverId/whitelist/check" baseUrl="https://api.sonorancms.com" summary="Verify Whitelist" %}
-{% swagger-description %}
-Checks whether an identity is whitelisted on the server.
-{% endswagger-description %}
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `serverId` | number | Yes | Target serverId. |
 
-{% swagger-parameter in="path" name="serverId" type="number" required="true" %}
-server ID
-{% endswagger-parameter %}
+## Request Body
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/servers/:serverId/whitelist/check&quot;
-             },
-    &quot;data&quot;:  {
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `accId` | string | Yes | See example request for the shape. |
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+## Example Request
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/servers/:serverId/whitelist/check&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-{% swagger-response status="404: Not Found" description="The following 404 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;NOT FOUND&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/servers/:serverId/whitelist/check&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/404&quot;,
-    &quot;title&quot;:  &quot;Not Found&quot;,
-    &quot;status&quot;:  404
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+```lua
+local response = sonoran:request({
+  "method": "POST",
+  "path": "/v2/community/servers/1/whitelist/check",
+  "body": {
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+})
+```
 
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-Checks whether an identity is whitelisted on the server.
+```javascript
+const response = await sonoran.request({
+  "method": "POST",
+  "path": "/v2/community/servers/1/whitelist/check",
+  "body": {
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+});
+```
 
-#### Request
+{% endtab %}
+{% tab title="Sonoran.py" %}
 
-- Body supports the standard identity fields used elsewhere in v2.
-- Path parameter: `serverId` (integer).
+```python
+response = sonoran.request({
+  "method": "POST",
+  "path": "/v2/community/servers/1/whitelist/check",
+  "body": {
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "POST",
+      "path": "/v2/community/servers/1/whitelist/check",
+      "body": {
+        "accId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+post:
+  summary: Verify Whitelist
+  security:
+    - v2ApiKey: []
+  parameters:
+    - name: serverId
+      in: path
+      required: true
+      schema:
+        type: integer
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request POST \
+  --url "https://api.sonorancms.com/v2/community/servers/1/whitelist/check" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json" \
+  --data '{"accId":"00000000-0000-0000-0000-000000000000"}'
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "accId":  "00000000-0000-0000-0000-000000000000",
-    "username":  "TestUser"
+  "success": true,
+  "data": {
+    "allowed": true,
+    "serverId": 1,
+    "reason": "Whitelisted"
+  },
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/servers/1/whitelist/check"
+  }
 }
 ```
-
-#### Response
-
-- Returns the whitelist result as a plain success response or a problem-details error if access is denied.
-
-```json
-{
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/servers/1/whitelist/check"
-             },
-    "data":  {
-                 "whitelisted":  true
-             },
-    "success":  true
-}
-```
-
-

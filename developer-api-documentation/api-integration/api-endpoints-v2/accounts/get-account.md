@@ -1,90 +1,128 @@
-﻿---
-description: Returns a single account by account UUID.
+---
+description: Retrieve a single community account.
 ---
 
 # Get Account
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
+<mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community/accounts/00000000-0000-0000-0000-000000000000`
 
-{% hint style="info" %}
-Recommended safe rate limit: `27 requests/min` per credential.
+> **Rate limit:** `27 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
+Retrieve a single community account.
 
-## Get Account
+## Route Parameters
 
-<mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community/accounts/:accountId`
-{% swagger method="get" path="/v2/community/accounts/:accountId" baseUrl="https://api.sonorancms.com" summary="Get Account" %}
-{% swagger-description %}
-Returns a single account by account UUID.
-{% endswagger-description %}
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `accountId` | string (uuid) | Yes | Target accountId. |
 
-{% swagger-parameter in="path" name="accountId" type="string" required="true" %}
-account ID
-{% endswagger-parameter %}
+## Example Request
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/accounts/:accountId&quot;
-             },
-    &quot;data&quot;:  {
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+```lua
+local response = sonoran:request({
+  "method": "GET",
+  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000"
+})
+```
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/accounts/:accountId&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-{% swagger-response status="404: Not Found" description="The following 404 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;NOT FOUND&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/accounts/:accountId&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/404&quot;,
-    &quot;title&quot;:  &quot;Not Found&quot;,
-    &quot;status&quot;:  404
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+```javascript
+const response = await sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000"
+});
+```
 
+{% endtab %}
+{% tab title="Sonoran.py" %}
 
-Returns a single account by account UUID.
+```python
+response = sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000"
+})
+```
 
-#### Request
+{% endtab %}
+{% tab title="Sonoran.Net" %}
 
-- Path parameter: `accountId` (UUID).
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "GET",
+      "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000"
+    }
+});
+```
 
-#### Response
+{% endtab %}
+{% tab title="OpenAPI" %}
 
-- Returns one account object or `404 Not Found` if the account is missing.
+```yaml
+get:
+  summary: Get Account
+  security:
+    - v2ApiKey: []
+  parameters:
+    - name: accountId
+      in: path
+      required: true
+      schema:
+        type: string
+        format: uuid
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request GET \
+  --url "https://api.sonorancms.com/v2/community/accounts/00000000-0000-0000-0000-000000000000" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json"
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/accounts/00000000-0000-0000-0000-000000000000"
-             },
-    "data":  {
-                 "accId":  "00000000-0000-0000-0000-000000000000",
-                 "accName":  "Test Account"
-             },
-    "success":  true
+  "success": true,
+  "data": {
+    "accId": "00000000-0000-0000-0000-000000000000",
+    "accName": "ExampleAccount",
+    "activeApiIds": [],
+    "discordId": "1234567890",
+    "uniqueId": 1,
+    "banned": false,
+    "archived": false,
+    "comName": "Example Account",
+    "comStatus": true,
+    "joinDate": "",
+    "lastLogin": "",
+    "owner": true,
+    "identifiers": [],
+    "ranks": [],
+    "sysStatus": true,
+    "profileFields": []
+  },
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000"
+  }
 }
 ```
-
-

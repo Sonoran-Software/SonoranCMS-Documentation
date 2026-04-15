@@ -1,72 +1,117 @@
-﻿---
-description: Cancels a session without returning a response body.
+---
+description: Cancel an active session.
 ---
 
 # Cancel Session
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
-
-{% hint style="info" %}
-Recommended safe rate limit: `9 requests/min` per credential.
-
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
-
-## Cancel Session
-
 <mark style="color:green;">`DELETE`</mark> `https://api.sonorancms.com/v2/community/sessions`
-{% swagger method="delete" path="/v2/community/sessions" baseUrl="https://api.sonorancms.com" summary="Cancel Session" %}
-{% swagger-description %}
-Cancels a session without returning a response body.
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/sessions&quot;
-             },
-    &quot;data&quot;:  {
+> **Rate limit:** `9 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+Cancel an active session.
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/sessions&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
+## Request Body
 
-{% swagger-response status="204: No Content" description="The session was canceled successfully." %}
-No content returned.
-{% endswagger-response %}
-{% endswagger %}
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `serverId` | number | Yes | See example request for the shape. |
+| `accId` | string | Yes | See example request for the shape. |
 
+## Example Request
 
-Cancels a session without returning a response body.
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-#### Request
-
-- Body uses the same shape as `POST /v2/community/sessions`.
-
-```json
-{
-    "accId":  "member-account-id",
-    "serverId":  1
-}
+```lua
+local response = sonoran:request({
+  "method": "DELETE",
+  "path": "/v2/community/sessions",
+  "body": {
+    "serverId": 1,
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+})
 ```
 
-#### Response
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-- Returns `204 No Content`.
+```javascript
+const response = await sonoran.request({
+  "method": "DELETE",
+  "path": "/v2/community/sessions",
+  "body": {
+    "serverId": 1,
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+});
+```
 
+{% endtab %}
+{% tab title="Sonoran.py" %}
 
+```python
+response = sonoran.request({
+  "method": "DELETE",
+  "path": "/v2/community/sessions",
+  "body": {
+    "serverId": 1,
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "DELETE",
+      "path": "/v2/community/sessions",
+      "body": {
+        "serverId": 1,
+        "accId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+delete:
+  summary: Cancel Session
+  security:
+    - v2ApiKey: []
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+  responses:
+    '204':
+      description: No Content
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request DELETE \
+  --url "https://api.sonorancms.com/v2/community/sessions" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json" \
+  --data '{"serverId":1,"accId":"00000000-0000-0000-0000-000000000000"}'
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+This endpoint returns `204 No Content` with no JSON body.

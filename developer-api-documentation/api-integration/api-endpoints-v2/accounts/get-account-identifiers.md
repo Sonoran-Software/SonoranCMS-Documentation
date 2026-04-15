@@ -1,89 +1,116 @@
-﻿---
-description: Returns registered identifiers for an account.
+---
+description: Retrieve the identifiers stored for an account.
 ---
 
 # Get Account Identifiers
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
+<mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers`
 
-{% hint style="info" %}
-Recommended safe rate limit: `22 requests/min` per credential.
+> **Rate limit:** `22 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
+Retrieve the identifiers stored for an account.
 
-## Get Account Identifiers
+## Route Parameters
 
-<mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community/accounts/:accountId/identifiers`
-{% swagger method="get" path="/v2/community/accounts/:accountId/identifiers" baseUrl="https://api.sonorancms.com" summary="Get Account Identifiers" %}
-{% swagger-description %}
-Returns registered identifiers for an account.
-{% endswagger-description %}
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `accountId` | string (uuid) | Yes | Target accountId. |
 
-{% swagger-parameter in="path" name="accountId" type="string" required="true" %}
-account ID
-{% endswagger-parameter %}
+## Example Request
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/accounts/:accountId/identifiers&quot;
-             },
-    &quot;data&quot;:  {
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+```lua
+local response = sonoran:request({
+  "method": "GET",
+  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers"
+})
+```
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/accounts/:accountId/identifiers&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-{% swagger-response status="404: Not Found" description="The following 404 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;NOT FOUND&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/accounts/:accountId/identifiers&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/404&quot;,
-    &quot;title&quot;:  &quot;Not Found&quot;,
-    &quot;status&quot;:  404
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+```javascript
+const response = await sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers"
+});
+```
 
+{% endtab %}
+{% tab title="Sonoran.py" %}
 
-Returns registered identifiers for an account.
+```python
+response = sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers"
+})
+```
 
-#### Request
+{% endtab %}
+{% tab title="Sonoran.Net" %}
 
-- Path parameter: `accountId` (UUID).
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "GET",
+      "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers"
+    }
+});
+```
 
-#### Response
+{% endtab %}
+{% tab title="OpenAPI" %}
 
-- Returns the identifier list from the security service.
+```yaml
+get:
+  summary: Get Account Identifiers
+  security:
+    - v2ApiKey: []
+  parameters:
+    - name: accountId
+      in: path
+      required: true
+      schema:
+        type: string
+        format: uuid
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request GET \
+  --url "https://api.sonorancms.com/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json"
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers"
-             },
-    "data":  [
-
-             ],
-    "success":  true
+  "success": true,
+  "data": [
+    {
+      "type": "discord",
+      "value": "1234567890"
+    }
+  ],
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers"
+  }
 }
 ```
-
-

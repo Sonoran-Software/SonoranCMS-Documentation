@@ -1,97 +1,163 @@
-﻿---
-description: Updates ACE mappings for a server.
+---
+description: Update the ACE configuration for a server.
 ---
 
 # Set ACE Config
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
+<mark style="color:green;">`PATCH`</mark> `https://api.sonorancms.com/v2/community/servers/1/ace-config`
 
-{% hint style="info" %}
-Recommended safe rate limit: `18 requests/min` per credential.
+> **Rate limit:** `18 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
+Update the ACE configuration for a server.
 
-## Set ACE Config
+## Route Parameters
 
-<mark style="color:green;">`PATCH`</mark> `https://api.sonorancms.com/v2/community/servers/:serverId/ace-config`
-{% swagger method="patch" path="/v2/community/servers/:serverId/ace-config" baseUrl="https://api.sonorancms.com" summary="Set ACE Config" %}
-{% swagger-description %}
-Updates ACE mappings for a server.
-{% endswagger-description %}
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `serverId` | number | Yes | Target serverId. |
 
-{% swagger-parameter in="path" name="serverId" type="number" required="true" %}
-server ID
-{% endswagger-parameter %}
+## Request Body
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/servers/:serverId/ace-config&quot;
-             },
-    &quot;data&quot;:  {
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `mappings` | array | Yes | See example request for the shape. |
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+## Example Request
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/servers/:serverId/ace-config&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-{% swagger-response status="404: Not Found" description="The following 404 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;NOT FOUND&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/servers/:serverId/ace-config&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/404&quot;,
-    &quot;title&quot;:  &quot;Not Found&quot;,
-    &quot;status&quot;:  404
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+```lua
+local response = sonoran:request({
+  "method": "PATCH",
+  "path": "/v2/community/servers/1/ace-config",
+  "body": {
+    "mappings": [
+      {
+        "discordRoleId": "1234567890",
+        "aceGroup": "admin"
+      }
+    ]
+  }
+})
+```
 
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-Updates ACE mappings for a server.
+```javascript
+const response = await sonoran.request({
+  "method": "PATCH",
+  "path": "/v2/community/servers/1/ace-config",
+  "body": {
+    "mappings": [
+      {
+        "discordRoleId": "1234567890",
+        "aceGroup": "admin"
+      }
+    ]
+  }
+});
+```
 
-#### Request
+{% endtab %}
+{% tab title="Sonoran.py" %}
 
-- Body: `mappings` array.
+```python
+response = sonoran.request({
+  "method": "PATCH",
+  "path": "/v2/community/servers/1/ace-config",
+  "body": {
+    "mappings": [
+      {
+        "discordRoleId": "1234567890",
+        "aceGroup": "admin"
+      }
+    ]
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "PATCH",
+      "path": "/v2/community/servers/1/ace-config",
+      "body": {
+        "mappings": [
+          {
+            "discordRoleId": "1234567890",
+            "aceGroup": "admin"
+          }
+        ]
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+patch:
+  summary: Set ACE Config
+  security:
+    - v2ApiKey: []
+  parameters:
+    - name: serverId
+      in: path
+      required: true
+      schema:
+        type: integer
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request PATCH \
+  --url "https://api.sonorancms.com/v2/community/servers/1/ace-config" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json" \
+  --data '{"mappings":[{"discordRoleId":"1234567890","aceGroup":"admin"}]}'
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "mappings":  [
-
-                 ]
+  "success": true,
+  "data": {
+    "serverId": 1,
+    "mappings": [
+      {
+        "discordRoleId": "1234567890",
+        "aceGroup": "admin"
+      }
+    ]
+  },
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/servers/1/ace-config"
+  }
 }
 ```
-
-#### Response
-
-- Returns the updated ACE config inside the v2 envelope.
-
-```json
-{
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/servers/1/ace-config"
-             },
-    "data":  [
-
-             ],
-    "success":  true
-}
-```
-
-

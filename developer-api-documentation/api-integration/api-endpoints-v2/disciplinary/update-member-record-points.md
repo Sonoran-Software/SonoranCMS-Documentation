@@ -1,96 +1,142 @@
-﻿---
-description: Updates the points on a record.
+---
+description: Update the points on a disciplinary record.
 ---
 
 # Update Member Record Points
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
+<mark style="color:green;">`PATCH`</mark> `https://api.sonorancms.com/v2/community/disciplinary/records/11111111-1111-1111-1111-111111111111/points`
 
-{% hint style="info" %}
-Recommended safe rate limit: `18 requests/min` per credential.
+> **Rate limit:** `18 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
+Update the points on a disciplinary record.
 
-## Update Member Record Points
+## Route Parameters
 
-<mark style="color:green;">`PATCH`</mark> `https://api.sonorancms.com/v2/community/disciplinary/records/:recordId/points`
-{% swagger method="patch" path="/v2/community/disciplinary/records/:recordId/points" baseUrl="https://api.sonorancms.com" summary="Update Member Record Points" %}
-{% swagger-description %}
-Updates the points on a record.
-{% endswagger-description %}
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `recordId` | string (uuid) | Yes | Target recordId. |
 
-{% swagger-parameter in="path" name="recordId" type="number" required="true" %}
-record ID
-{% endswagger-parameter %}
+## Request Body
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/disciplinary/records/:recordId/points&quot;
-             },
-    &quot;data&quot;:  {
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `points` | number | Yes | See example request for the shape. |
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+## Example Request
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/disciplinary/records/:recordId/points&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-{% swagger-response status="404: Not Found" description="The following 404 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;NOT FOUND&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/disciplinary/records/:recordId/points&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/404&quot;,
-    &quot;title&quot;:  &quot;Not Found&quot;,
-    &quot;status&quot;:  404
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+```lua
+local response = sonoran:request({
+  "method": "PATCH",
+  "path": "/v2/community/disciplinary/records/11111111-1111-1111-1111-111111111111/points",
+  "body": {
+    "points": 10
+  }
+})
+```
 
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-Updates the points on a record.
+```javascript
+const response = await sonoran.request({
+  "method": "PATCH",
+  "path": "/v2/community/disciplinary/records/11111111-1111-1111-1111-111111111111/points",
+  "body": {
+    "points": 10
+  }
+});
+```
 
-#### Request
+{% endtab %}
+{% tab title="Sonoran.py" %}
 
-- Path parameter: `recordId` (UUID).
-- Body: `points`.
+```python
+response = sonoran.request({
+  "method": "PATCH",
+  "path": "/v2/community/disciplinary/records/11111111-1111-1111-1111-111111111111/points",
+  "body": {
+    "points": 10
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "PATCH",
+      "path": "/v2/community/disciplinary/records/11111111-1111-1111-1111-111111111111/points",
+      "body": {
+        "points": 10
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+patch:
+  summary: Update Member Record Points
+  security:
+    - v2ApiKey: []
+  parameters:
+    - name: recordId
+      in: path
+      required: true
+      schema:
+        type: string
+        format: uuid
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request PATCH \
+  --url "https://api.sonorancms.com/v2/community/disciplinary/records/11111111-1111-1111-1111-111111111111/points" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json" \
+  --data '{"points":10}'
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "points":  10
+  "success": true,
+  "data": {
+    "recordId": "11111111-1111-1111-1111-111111111111",
+    "accId": "00000000-0000-0000-0000-000000000000",
+    "points": 5,
+    "reason": "Training violation",
+    "status": true
+  },
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/disciplinary/records/11111111-1111-1111-1111-111111111111/points"
+  }
 }
 ```
-
-#### Response
-
-- Returns the updated record points inside the v2 envelope.
-
-```json
-{
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/disciplinary/records/00000000-0000-0000-0000-000000000000/points"
-             },
-    "data":  {
-
-             },
-    "success":  true
-}
-```
-
-

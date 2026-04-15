@@ -1,90 +1,151 @@
-﻿---
-description: Returns submissions for a template with pagination.
+---
+description: Retrieve submissions for a form template.
 ---
 
 # Get Template Submissions
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
+<mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community/forms/1/submissions`
 
-{% hint style="info" %}
-Recommended safe rate limit: `13 requests/min` per credential.
+> **Rate limit:** `13 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
+Retrieve submissions for a form template.
 
-## Get Template Submissions
+## Route Parameters
 
-<mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community/forms/:templateId/submissions`
-{% swagger method="get" path="/v2/community/forms/:templateId/submissions" baseUrl="https://api.sonorancms.com" summary="Get Template Submissions" %}
-{% swagger-description %}
-Returns submissions for a template with pagination.
-{% endswagger-description %}
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `templateId` | number | Yes | Target templateId. |
 
-{% swagger-parameter in="path" name="templateId" type="number" required="true" %}
-template ID
-{% endswagger-parameter %}
+## Query Parameters
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/forms/:templateId/submissions&quot;
-             },
-    &quot;data&quot;:  {
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `skip` | number | Yes | See example request for the shape. |
+| `take` | number | Yes | See example request for the shape. |
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+## Example Request
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/forms/:templateId/submissions&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-{% swagger-response status="404: Not Found" description="The following 404 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;NOT FOUND&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/forms/:templateId/submissions&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/404&quot;,
-    &quot;title&quot;:  &quot;Not Found&quot;,
-    &quot;status&quot;:  404
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+```lua
+local response = sonoran:request({
+  "method": "GET",
+  "path": "/v2/community/forms/1/submissions",
+  "query": {
+    "skip": 0,
+    "take": 25
+  }
+})
+```
 
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-Returns submissions for a template with pagination.
+```javascript
+const response = await sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/forms/1/submissions",
+  "query": {
+    "skip": 0,
+    "take": 25
+  }
+});
+```
 
-#### Request
+{% endtab %}
+{% tab title="Sonoran.py" %}
 
-- Path parameter: `templateId` (integer).
-- Query parameters: `skip`, `take`.
+```python
+response = sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/forms/1/submissions",
+  "query": {
+    "skip": 0,
+    "take": 25
+  }
+})
+```
 
-#### Response
+{% endtab %}
+{% tab title="Sonoran.Net" %}
 
-- Returns the submissions list inside the v2 envelope.
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "GET",
+      "path": "/v2/community/forms/1/submissions",
+      "query": {
+        "skip": 0,
+        "take": 25
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+get:
+  summary: Get Template Submissions
+  security:
+    - v2ApiKey: []
+  parameters:
+    - name: templateId
+      in: path
+      required: true
+      schema:
+        type: integer
+  parameters:
+    - name: skip
+      in: query
+      required: false
+      schema:
+        type: integer
+    - name: take
+      in: query
+      required: false
+      schema:
+        type: integer
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request GET \
+  --url "https://api.sonorancms.com/v2/community/forms/1/submissions?skip=0&take=25" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json"
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/forms/1/submissions"
-             },
-    "data":  [
-
-             ],
-    "success":  true
+  "success": true,
+  "data": [
+    {
+      "submissionId": 1,
+      "formId": 1,
+      "accId": "00000000-0000-0000-0000-000000000000",
+      "stageId": "review"
+    }
+  ],
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/forms/1/submissions"
+  }
 }
 ```
-
-

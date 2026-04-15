@@ -1,96 +1,138 @@
-﻿---
-description: Updates the server type.
+---
+description: Update the server type.
 ---
 
 # Set Server Type
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
+<mark style="color:green;">`PATCH`</mark> `https://api.sonorancms.com/v2/community/servers/1/type`
 
-{% hint style="info" %}
-Recommended safe rate limit: `18 requests/min` per credential.
+> **Rate limit:** `18 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
+Update the server type.
 
-## Set Server Type
+## Route Parameters
 
-<mark style="color:green;">`PATCH`</mark> `https://api.sonorancms.com/v2/community/servers/:serverId/type`
-{% swagger method="patch" path="/v2/community/servers/:serverId/type" baseUrl="https://api.sonorancms.com" summary="Set Server Type" %}
-{% swagger-description %}
-Updates the server type.
-{% endswagger-description %}
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `serverId` | number | Yes | Target serverId. |
 
-{% swagger-parameter in="path" name="serverId" type="number" required="true" %}
-server ID
-{% endswagger-parameter %}
+## Request Body
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/servers/:serverId/type&quot;
-             },
-    &quot;data&quot;:  {
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `type` | string | Yes | See example request for the shape. |
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+## Example Request
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/servers/:serverId/type&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-{% swagger-response status="404: Not Found" description="The following 404 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;NOT FOUND&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/servers/:serverId/type&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/404&quot;,
-    &quot;title&quot;:  &quot;Not Found&quot;,
-    &quot;status&quot;:  404
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+```lua
+local response = sonoran:request({
+  "method": "PATCH",
+  "path": "/v2/community/servers/1/type",
+  "body": {
+    "type": "FiveM"
+  }
+})
+```
 
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-Updates the server type.
+```javascript
+const response = await sonoran.request({
+  "method": "PATCH",
+  "path": "/v2/community/servers/1/type",
+  "body": {
+    "type": "FiveM"
+  }
+});
+```
 
-#### Request
+{% endtab %}
+{% tab title="Sonoran.py" %}
 
-- Body: `type`.
+```python
+response = sonoran.request({
+  "method": "PATCH",
+  "path": "/v2/community/servers/1/type",
+  "body": {
+    "type": "FiveM"
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "PATCH",
+      "path": "/v2/community/servers/1/type",
+      "body": {
+        "type": "FiveM"
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+patch:
+  summary: Set Server Type
+  security:
+    - v2ApiKey: []
+  parameters:
+    - name: serverId
+      in: path
+      required: true
+      schema:
+        type: integer
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request PATCH \
+  --url "https://api.sonorancms.com/v2/community/servers/1/type" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json" \
+  --data '{"type":"FiveM"}'
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "type":  "fivem"
+  "success": true,
+  "data": {
+    "serverId": 1,
+    "type": "FiveM"
+  },
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/servers/1/type"
+  }
 }
 ```
-
-#### Response
-
-- Returns the updated server type inside the v2 envelope.
-
-```json
-{
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/servers/1/type"
-             },
-    "data":  {
-                 "id":  1,
-                 "type":  "fivem"
-             },
-    "success":  true
-}
-```
-
-

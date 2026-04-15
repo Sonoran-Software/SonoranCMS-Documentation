@@ -1,84 +1,148 @@
-﻿---
-description: Creates a player record in ER:LC tracking.
+---
+description: Create an ER:LC record.
 ---
 
 # Add ERLC Record
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
-
-{% hint style="info" %}
-Recommended safe rate limit: `18 requests/min` per credential.
-
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
-
-## Add ERLC Record
-
 <mark style="color:green;">`POST`</mark> `https://api.sonorancms.com/v2/community/erlc/records`
-{% swagger method="post" path="/v2/community/erlc/records" baseUrl="https://api.sonorancms.com" summary="Add ERLC Record" %}
-{% swagger-description %}
-Creates a player record in ER:LC tracking.
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/erlc/records&quot;
-             },
-    &quot;data&quot;:  {
+> **Rate limit:** `18 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+Create an ER:LC record.
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/erlc/records&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+## Request Body
 
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `robloxJoinCode` | string | Yes | See example request for the shape. |
+| `executerDiscordId` | string | Yes | See example request for the shape. |
+| `type` | string | Yes | See example request for the shape. |
+| `reason` | string | Yes | See example request for the shape. |
+| `points` | number | Yes | See example request for the shape. |
 
-Creates a player record in ER:LC tracking.
+## Example Request
 
-#### Request
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-- Body: `robloxJoinCode`, `executerDiscordId`, optional player identifiers, `type`, `reason`, and optional `points`.
+```lua
+local response = sonoran:request({
+  "method": "POST",
+  "path": "/v2/community/erlc/records",
+  "body": {
+    "robloxJoinCode": "ABC123",
+    "executerDiscordId": "1234567890",
+    "type": "note",
+    "reason": "Example note",
+    "points": 0
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.js" %}
+
+```javascript
+const response = await sonoran.request({
+  "method": "POST",
+  "path": "/v2/community/erlc/records",
+  "body": {
+    "robloxJoinCode": "ABC123",
+    "executerDiscordId": "1234567890",
+    "type": "note",
+    "reason": "Example note",
+    "points": 0
+  }
+});
+```
+
+{% endtab %}
+{% tab title="Sonoran.py" %}
+
+```python
+response = sonoran.request({
+  "method": "POST",
+  "path": "/v2/community/erlc/records",
+  "body": {
+    "robloxJoinCode": "ABC123",
+    "executerDiscordId": "1234567890",
+    "type": "note",
+    "reason": "Example note",
+    "points": 0
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "POST",
+      "path": "/v2/community/erlc/records",
+      "body": {
+        "robloxJoinCode": "ABC123",
+        "executerDiscordId": "1234567890",
+        "type": "note",
+        "reason": "Example note",
+        "points": 0
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+post:
+  summary: Add ERLC Record
+  security:
+    - v2ApiKey: []
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request POST \
+  --url "https://api.sonorancms.com/v2/community/erlc/records" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json" \
+  --data '{"robloxJoinCode":"ABC123","executerDiscordId":"1234567890","type":"note","reason":"Example note","points":0}'
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "executerDiscordId":  "111122223333444455",
-    "robloxJoinCode":  "JOIN-CODE",
-    "reason":  "Example",
-    "type":  "Note",
-    "points":  1
+  "success": true,
+  "data": {
+    "recordId": "11111111-1111-1111-1111-111111111111",
+    "type": "note",
+    "reason": "Example note",
+    "points": 0
+  },
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/erlc/records"
+  }
 }
 ```
-
-#### Response
-
-- Returns the tracking result inside the v2 envelope.
-
-```json
-{
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/erlc/records"
-             },
-    "data":  {
-
-             },
-    "success":  true
-}
-```
-
-

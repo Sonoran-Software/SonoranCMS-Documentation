@@ -1,14 +1,11 @@
-﻿---
-description: Event RSVP endpoints for the v2 API.
+---
+description: Events endpoints for the v2 API.
 ---
 
 # Events
 
-Each endpoint below has its own page.
-
-## RSVP
+This section groups the v2 events endpoints.
 
 {% content-ref url="rsvp.md" %}
 [RSVP](rsvp.md)
 {% endcontent-ref %}
-

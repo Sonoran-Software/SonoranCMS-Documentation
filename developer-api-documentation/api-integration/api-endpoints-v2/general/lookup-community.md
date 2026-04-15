@@ -1,79 +1,131 @@
-﻿---
-description: Looks up the authenticated community or another community by id or uuid.
+---
+description: Look up the community by ID or UUID.
 ---
 
 # Lookup Community
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
-
-{% hint style="info" %}
-Recommended safe rate limit: `13 requests/min` per credential.
-
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
-
-## Lookup Community
-
 <mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community/lookup`
-{% swagger method="get" path="/v2/community/lookup" baseUrl="https://api.sonorancms.com" summary="Lookup Community" %}
-{% swagger-description %}
-Looks up the authenticated community or another community by id or uuid.
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/lookup&quot;
-             },
-    &quot;data&quot;:  {
+> **Rate limit:** `13 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+Look up the community by ID or UUID.
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/lookup&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+## Query Parameters
 
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `id` | string | Yes | See example request for the shape. |
 
-Looks up the authenticated community or another community by id or uuid.
+## Example Request
 
-#### Request
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-- Query parameters: `id` or `uuid`.
+```lua
+local response = sonoran:request({
+  "method": "GET",
+  "path": "/v2/community/lookup",
+  "query": {
+    "id": "YOUR_COMMUNITY_ID"
+  }
+})
+```
 
-#### Response
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-- Returns the same summary shape as `GET /v2/community`.
+```javascript
+const response = await sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/lookup",
+  "query": {
+    "id": "YOUR_COMMUNITY_ID"
+  }
+});
+```
+
+{% endtab %}
+{% tab title="Sonoran.py" %}
+
+```python
+response = sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/lookup",
+  "query": {
+    "id": "YOUR_COMMUNITY_ID"
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "GET",
+      "path": "/v2/community/lookup",
+      "query": {
+        "id": "YOUR_COMMUNITY_ID"
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+get:
+  summary: Lookup Community
+  security:
+    - v2ApiKey: []
+  parameters:
+    - name: id
+      in: query
+      required: false
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request GET \
+  --url "https://api.sonorancms.com/v2/community/lookup?id=YOUR_COMMUNITY_ID" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json"
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/lookup?id=YOUR_COMMUNITY_ID"
-             },
-    "data":  {
-                 "id":  "community-id",
-                 "uuid":  "00000000-0000-0000-0000-000000000000",
-                 "servers":  5,
-                 "tier":  "PLUS",
-                 "name":  "Community Name",
-                 "subVersion":  3
-             },
-    "success":  true
+  "success": true,
+  "data": {
+    "communityId": "YOUR_COMMUNITY_ID",
+    "communityName": "Example Community",
+    "subVersion": "pro",
+    "departments": [],
+    "profileFields": [],
+    "clockinTypes": [],
+    "customLogTypes": [],
+    "promotionFlows": []
+  },
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/lookup"
+  }
 }
 ```
-
-

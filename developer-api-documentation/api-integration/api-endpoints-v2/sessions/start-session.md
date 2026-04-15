@@ -1,81 +1,134 @@
-﻿---
-description: Starts a new session.
+---
+description: Start a new session.
 ---
 
 # Start Session
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
-
-{% hint style="info" %}
-Recommended safe rate limit: `27 requests/min` per credential.
-
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
-
-## Start Session
-
 <mark style="color:green;">`POST`</mark> `https://api.sonorancms.com/v2/community/sessions`
-{% swagger method="post" path="/v2/community/sessions" baseUrl="https://api.sonorancms.com" summary="Start Session" %}
-{% swagger-description %}
-Starts a new session.
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/sessions&quot;
-             },
-    &quot;data&quot;:  {
+> **Rate limit:** `27 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+Start a new session.
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/sessions&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+## Request Body
 
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `serverId` | number | Yes | See example request for the shape. |
+| `accId` | string | Yes | See example request for the shape. |
 
-Starts a new session.
+## Example Request
 
-#### Request
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-- Body: `serverId` and `accId`.
+```lua
+local response = sonoran:request({
+  "method": "POST",
+  "path": "/v2/community/sessions",
+  "body": {
+    "serverId": 1,
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.js" %}
+
+```javascript
+const response = await sonoran.request({
+  "method": "POST",
+  "path": "/v2/community/sessions",
+  "body": {
+    "serverId": 1,
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+});
+```
+
+{% endtab %}
+{% tab title="Sonoran.py" %}
+
+```python
+response = sonoran.request({
+  "method": "POST",
+  "path": "/v2/community/sessions",
+  "body": {
+    "serverId": 1,
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "POST",
+      "path": "/v2/community/sessions",
+      "body": {
+        "serverId": 1,
+        "accId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+post:
+  summary: Start Session
+  security:
+    - v2ApiKey: []
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request POST \
+  --url "https://api.sonorancms.com/v2/community/sessions" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json" \
+  --data '{"serverId":1,"accId":"00000000-0000-0000-0000-000000000000"}'
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "accId":  "member-account-id",
-    "serverId":  1
+  "success": true,
+  "data": {
+    "serverId": 1,
+    "accId": "00000000-0000-0000-0000-000000000000",
+    "active": true,
+    "startedAt": "2026-04-14T00:00:00.000Z",
+    "stoppedAt": null
+  },
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/sessions"
+  }
 }
 ```
-
-#### Response
-
-- Returns the session start result inside the v2 envelope.
-
-```json
-{
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/sessions"
-             },
-    "data":  {
-
-             },
-    "success":  true
-}
-```
-
-

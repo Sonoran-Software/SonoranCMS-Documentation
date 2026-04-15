@@ -1,90 +1,143 @@
-﻿---
-description: Returns the member disciplinary record history.
+---
+description: Retrieve disciplinary records for a member.
 ---
 
 # Get Member Records
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
+<mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records`
 
-{% hint style="info" %}
-Recommended safe rate limit: `27 requests/min` per credential.
+> **Rate limit:** `27 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
+Retrieve disciplinary records for a member.
 
-## Get Member Records
+## Route Parameters
 
-<mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community/disciplinary/accounts/:accountId/records`
-{% swagger method="get" path="/v2/community/disciplinary/accounts/:accountId/records" baseUrl="https://api.sonorancms.com" summary="Get Member Records" %}
-{% swagger-description %}
-Returns the member disciplinary record history.
-{% endswagger-description %}
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `accountId` | string (uuid) | Yes | Target accountId. |
 
-{% swagger-parameter in="path" name="accountId" type="string" required="true" %}
-account ID
-{% endswagger-parameter %}
+## Query Parameters
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/disciplinary/accounts/:accountId/records&quot;
-             },
-    &quot;data&quot;:  {
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `accId` | string | Yes | See example request for the shape. |
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+## Example Request
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/disciplinary/accounts/:accountId/records&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-{% swagger-response status="404: Not Found" description="The following 404 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;NOT FOUND&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/disciplinary/accounts/:accountId/records&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/404&quot;,
-    &quot;title&quot;:  &quot;Not Found&quot;,
-    &quot;status&quot;:  404
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+```lua
+local response = sonoran:request({
+  "method": "GET",
+  "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records",
+  "query": {
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+})
+```
 
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-Returns the member disciplinary record history.
+```javascript
+const response = await sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records",
+  "query": {
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+});
+```
 
-#### Request
+{% endtab %}
+{% tab title="Sonoran.py" %}
 
-- Path parameter: `accountId` (UUID).
-- Optional identity lookup query fields are supported.
+```python
+response = sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records",
+  "query": {
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+})
+```
 
-#### Response
+{% endtab %}
+{% tab title="Sonoran.Net" %}
 
-- Returns the member records list inside the v2 envelope.
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "GET",
+      "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records",
+      "query": {
+        "accId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+get:
+  summary: Get Member Records
+  security:
+    - v2ApiKey: []
+  parameters:
+    - name: accountId
+      in: path
+      required: true
+      schema:
+        type: string
+        format: uuid
+  parameters:
+    - name: accId
+      in: query
+      required: false
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request GET \
+  --url "https://api.sonorancms.com/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records?accId=00000000-0000-0000-0000-000000000000" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json"
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records"
-             },
-    "data":  [
-
-             ],
-    "success":  true
+  "success": true,
+  "data": [
+    {
+      "recordId": "11111111-1111-1111-1111-111111111111",
+      "accId": "00000000-0000-0000-0000-000000000000",
+      "points": 5,
+      "reason": "Training violation",
+      "status": true
+    }
+  ],
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records"
+  }
 }
 ```
-
-

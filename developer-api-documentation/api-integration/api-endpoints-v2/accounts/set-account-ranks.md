@@ -1,101 +1,171 @@
-﻿---
-description: Adds, removes, or replaces account ranks.
+---
+description: Update the ranks assigned to an account.
 ---
 
 # Set Account Ranks
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
+<mark style="color:green;">`PATCH`</mark> `https://api.sonorancms.com/v2/community/accounts/00000000-0000-0000-0000-000000000000/ranks`
 
-{% hint style="info" %}
-Recommended safe rate limit: `22 requests/min` per credential.
+> **Rate limit:** `22 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
+Update the ranks assigned to an account.
 
-## Set Account Ranks
+## Route Parameters
 
-<mark style="color:green;">`PATCH`</mark> `https://api.sonorancms.com/v2/community/accounts/:accountId/ranks`
-{% swagger method="patch" path="/v2/community/accounts/:accountId/ranks" baseUrl="https://api.sonorancms.com" summary="Set Account Ranks" %}
-{% swagger-description %}
-Adds, removes, or replaces account ranks.
-{% endswagger-description %}
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `accountId` | string (uuid) | Yes | Target accountId. |
 
-{% swagger-parameter in="path" name="accountId" type="string" required="true" %}
-account ID
-{% endswagger-parameter %}
+## Request Body
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/accounts/:accountId/ranks&quot;
-             },
-    &quot;data&quot;:  {
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `accId` | string | Yes | See example request for the shape. |
+| `add` | array | Yes | See example request for the shape. |
+| `active` | boolean | Yes | See example request for the shape. |
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+## Example Request
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/accounts/:accountId/ranks&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-{% swagger-response status="404: Not Found" description="The following 404 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;NOT FOUND&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/accounts/:accountId/ranks&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/404&quot;,
-    &quot;title&quot;:  &quot;Not Found&quot;,
-    &quot;status&quot;:  404
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+```lua
+local response = sonoran:request({
+  "method": "PATCH",
+  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/ranks",
+  "body": {
+    "accId": "00000000-0000-0000-0000-000000000000",
+    "add": [
+      "rank-1"
+    ],
+    "active": true
+  }
+})
+```
 
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-Adds, removes, or replaces account ranks.
+```javascript
+const response = await sonoran.request({
+  "method": "PATCH",
+  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/ranks",
+  "body": {
+    "accId": "00000000-0000-0000-0000-000000000000",
+    "add": [
+      "rank-1"
+    ],
+    "active": true
+  }
+});
+```
 
-#### Request
+{% endtab %}
+{% tab title="Sonoran.py" %}
 
-- Body supports `add`, `remove`, `set`, `active`, and optional identity fields for account lookup.
+```python
+response = sonoran.request({
+  "method": "PATCH",
+  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/ranks",
+  "body": {
+    "accId": "00000000-0000-0000-0000-000000000000",
+    "add": [
+      "rank-1"
+    ],
+    "active": true
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "PATCH",
+      "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/ranks",
+      "body": {
+        "accId": "00000000-0000-0000-0000-000000000000",
+        "add": [
+          "rank-1"
+        ],
+        "active": true
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+patch:
+  summary: Set Account Ranks
+  security:
+    - v2ApiKey: []
+  parameters:
+    - name: accountId
+      in: path
+      required: true
+      schema:
+        type: string
+        format: uuid
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request PATCH \
+  --url "https://api.sonorancms.com/v2/community/accounts/00000000-0000-0000-0000-000000000000/ranks" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json" \
+  --data '{"accId":"00000000-0000-0000-0000-000000000000","add":["rank-1"],"active":true}'
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "remove":  [
-                   "Rank B"
-               ],
-    "add":  [
-                "Rank A"
-            ],
-    "active":  true
+  "success": true,
+  "data": {
+    "accId": "00000000-0000-0000-0000-000000000000",
+    "accName": "Updated Account",
+    "activeApiIds": [],
+    "discordId": "1234567890",
+    "uniqueId": 1,
+    "banned": false,
+    "archived": false,
+    "comName": "Updated Account",
+    "comStatus": true,
+    "joinDate": "",
+    "lastLogin": "",
+    "owner": true,
+    "identifiers": [],
+    "ranks": [],
+    "sysStatus": true,
+    "profileFields": []
+  },
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/ranks"
+  }
 }
 ```
-
-#### Response
-
-- Returns the rank update result inside the v2 envelope.
-
-```json
-{
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/accounts/00000000-0000-0000-0000-000000000000/ranks"
-             },
-    "data":  [
-
-             ],
-    "success":  true
-}
-```
-
-

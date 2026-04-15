@@ -1,75 +1,107 @@
-﻿---
-description: Returns a lightweight summary for the authenticated community.
+---
+description: Retrieve the current community summary.
 ---
 
 # Get Community
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
-
-{% hint style="info" %}
-Recommended safe rate limit: `13 requests/min` per credential.
-
-The Kong gateway is configured slightly higher than this value to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
-
-## Get Community
-
 <mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community`
-{% swagger method="get" path="/community" baseUrl="https://api.sonorancms.com" summary="Get Community" %}
-{% swagger-description %}
-Returns a lightweight summary for the authenticated community.
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/community&quot;
-             },
-    &quot;data&quot;:  {
+> **Rate limit:** `13 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+Retrieve the current community summary.
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/community&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+## Example Request
 
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-Returns a lightweight summary for the authenticated community.
+```lua
+local response = sonoran:request({
+  "method": "GET",
+  "path": "/v2/community"
+})
+```
 
-#### Response
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-- Returns community metadata such as id, uuid, name, tier, and server count.
+```javascript
+const response = await sonoran.request({
+  "method": "GET",
+  "path": "/v2/community"
+});
+```
+
+{% endtab %}
+{% tab title="Sonoran.py" %}
+
+```python
+response = sonoran.request({
+  "method": "GET",
+  "path": "/v2/community"
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "GET",
+      "path": "/v2/community"
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+get:
+  summary: Get Community
+  security:
+    - v2ApiKey: []
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request GET \
+  --url "https://api.sonorancms.com/v2/community" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json"
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community"
-             },
-    "data":  {
-                 "id":  "community-id",
-                 "uuid":  "00000000-0000-0000-0000-000000000000",
-                 "servers":  5,
-                 "tier":  "PLUS",
-                 "name":  "Community Name",
-                 "subVersion":  3
-             },
-    "success":  true
+  "success": true,
+  "data": {
+    "communityId": "YOUR_COMMUNITY_ID",
+    "communityName": "Example Community",
+    "subVersion": "pro",
+    "departments": [],
+    "profileFields": [],
+    "clockinTypes": [],
+    "customLogTypes": [],
+    "promotionFlows": []
+  },
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community"
+  }
 }
 ```
-
-

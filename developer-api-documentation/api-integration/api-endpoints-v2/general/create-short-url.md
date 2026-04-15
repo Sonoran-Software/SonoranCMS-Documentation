@@ -1,81 +1,132 @@
-﻿---
-description: Creates or resolves a short URL for the community.
+---
+description: Create a short URL for the community.
 ---
 
 # Create Short URL
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
-
-{% hint style="info" %}
-Recommended safe rate limit: `13 requests/min` per credential.
-
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
-
-## Create Short URL
-
 <mark style="color:green;">`POST`</mark> `https://api.sonorancms.com/v2/community/short-urls`
-{% swagger method="post" path="/v2/community/short-urls" baseUrl="https://api.sonorancms.com" summary="Create Short URL" %}
-{% swagger-description %}
-Creates or resolves a short URL for the community.
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/short-urls&quot;
-             },
-    &quot;data&quot;:  {
+> **Rate limit:** `13 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+Create a short URL for the community.
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/short-urls&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+## Request Body
 
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `path` | string | Yes | See example request for the shape. |
+| `isCustomDomain` | boolean | Yes | See example request for the shape. |
 
-Creates or resolves a short URL for the community.
+## Example Request
 
-#### Request
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-- Body: `path` and optional `isCustomDomain`.
+```lua
+local response = sonoran:request({
+  "method": "POST",
+  "path": "/v2/community/short-urls",
+  "body": {
+    "path": "/go/example",
+    "isCustomDomain": false
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.js" %}
+
+```javascript
+const response = await sonoran.request({
+  "method": "POST",
+  "path": "/v2/community/short-urls",
+  "body": {
+    "path": "/go/example",
+    "isCustomDomain": false
+  }
+});
+```
+
+{% endtab %}
+{% tab title="Sonoran.py" %}
+
+```python
+response = sonoran.request({
+  "method": "POST",
+  "path": "/v2/community/short-urls",
+  "body": {
+    "path": "/go/example",
+    "isCustomDomain": false
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "POST",
+      "path": "/v2/community/short-urls",
+      "body": {
+        "path": "/go/example",
+        "isCustomDomain": false
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+post:
+  summary: Create Short URL
+  security:
+    - v2ApiKey: []
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+  responses:
+    '201':
+      description: Created
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request POST \
+  --url "https://api.sonorancms.com/v2/community/short-urls" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json" \
+  --data '{"path":"/go/example","isCustomDomain":false}'
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "isCustomDomain":  false,
-    "path":  "docs"
+  "success": true,
+  "data": {
+    "path": "/go/example",
+    "shortUrl": "https://api.sonorancms.com/go/example",
+    "isCustomDomain": false
+  },
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/short-urls"
+  }
 }
 ```
-
-#### Response
-
-- Returns the resolved URL or a short URL lookup result.
-
-```json
-{
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/short-urls"
-             },
-    "data":  {
-                 "url":  "https://example.com/docs"
-             },
-    "success":  true
-}
-```
-
-

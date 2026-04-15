@@ -1,81 +1,134 @@
-﻿---
-description: Stops the active session for a server.
+---
+description: Stop an active session.
 ---
 
 # Stop Session
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
-
-{% hint style="info" %}
-Recommended safe rate limit: `27 requests/min` per credential.
-
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
-
-## Stop Session
-
 <mark style="color:green;">`PATCH`</mark> `https://api.sonorancms.com/v2/community/sessions`
-{% swagger method="patch" path="/v2/community/sessions" baseUrl="https://api.sonorancms.com" summary="Stop Session" %}
-{% swagger-description %}
-Stops the active session for a server.
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/sessions&quot;
-             },
-    &quot;data&quot;:  {
+> **Rate limit:** `27 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+Stop an active session.
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/sessions&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+## Request Body
 
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `serverId` | number | Yes | See example request for the shape. |
+| `accId` | string | Yes | See example request for the shape. |
 
-Stops the active session for a server.
+## Example Request
 
-#### Request
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-- Body uses the same shape as `POST /v2/community/sessions`.
+```lua
+local response = sonoran:request({
+  "method": "PATCH",
+  "path": "/v2/community/sessions",
+  "body": {
+    "serverId": 1,
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.js" %}
+
+```javascript
+const response = await sonoran.request({
+  "method": "PATCH",
+  "path": "/v2/community/sessions",
+  "body": {
+    "serverId": 1,
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+});
+```
+
+{% endtab %}
+{% tab title="Sonoran.py" %}
+
+```python
+response = sonoran.request({
+  "method": "PATCH",
+  "path": "/v2/community/sessions",
+  "body": {
+    "serverId": 1,
+    "accId": "00000000-0000-0000-0000-000000000000"
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "PATCH",
+      "path": "/v2/community/sessions",
+      "body": {
+        "serverId": 1,
+        "accId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+patch:
+  summary: Stop Session
+  security:
+    - v2ApiKey: []
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request PATCH \
+  --url "https://api.sonorancms.com/v2/community/sessions" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json" \
+  --data '{"serverId":1,"accId":"00000000-0000-0000-0000-000000000000"}'
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "accId":  "member-account-id",
-    "serverId":  1
+  "success": true,
+  "data": {
+    "serverId": 1,
+    "accId": "00000000-0000-0000-0000-000000000000",
+    "active": true,
+    "startedAt": "2026-04-14T00:00:00.000Z",
+    "stoppedAt": null
+  },
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/sessions"
+  }
 }
 ```
-
-#### Response
-
-- Returns the session stop result inside the v2 envelope.
-
-```json
-{
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/sessions"
-             },
-    "data":  {
-
-             },
-    "success":  true
-}
-```
-
-

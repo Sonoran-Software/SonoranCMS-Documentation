@@ -1,89 +1,116 @@
-﻿---
-description: Returns the full whitelist for the server.
+---
+description: Retrieve the full whitelist for a server.
 ---
 
 # Full Whitelist
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
+<mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community/servers/1/whitelist`
 
-{% hint style="info" %}
-Recommended safe rate limit: `13 requests/min` per credential.
+> **Rate limit:** `13 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
+Retrieve the full whitelist for a server.
 
-## Full Whitelist
+## Route Parameters
 
-<mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community/servers/:serverId/whitelist`
-{% swagger method="get" path="/v2/community/servers/:serverId/whitelist" baseUrl="https://api.sonorancms.com" summary="Full Whitelist" %}
-{% swagger-description %}
-Returns the full whitelist for the server.
-{% endswagger-description %}
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `serverId` | number | Yes | Target serverId. |
 
-{% swagger-parameter in="path" name="serverId" type="number" required="true" %}
-server ID
-{% endswagger-parameter %}
+## Example Request
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/servers/:serverId/whitelist&quot;
-             },
-    &quot;data&quot;:  {
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+```lua
+local response = sonoran:request({
+  "method": "GET",
+  "path": "/v2/community/servers/1/whitelist"
+})
+```
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/servers/:serverId/whitelist&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-{% swagger-response status="404: Not Found" description="The following 404 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;NOT FOUND&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/servers/:serverId/whitelist&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/404&quot;,
-    &quot;title&quot;:  &quot;Not Found&quot;,
-    &quot;status&quot;:  404
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+```javascript
+const response = await sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/servers/1/whitelist"
+});
+```
 
+{% endtab %}
+{% tab title="Sonoran.py" %}
 
-Returns the full whitelist for the server.
+```python
+response = sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/servers/1/whitelist"
+})
+```
 
-#### Request
+{% endtab %}
+{% tab title="Sonoran.Net" %}
 
-- Path parameter: `serverId` (integer).
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "GET",
+      "path": "/v2/community/servers/1/whitelist"
+    }
+});
+```
 
-#### Response
+{% endtab %}
+{% tab title="OpenAPI" %}
 
-- Returns the whitelist payload for the selected server.
+```yaml
+get:
+  summary: Full Whitelist
+  security:
+    - v2ApiKey: []
+  parameters:
+    - name: serverId
+      in: path
+      required: true
+      schema:
+        type: integer
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request GET \
+  --url "https://api.sonorancms.com/v2/community/servers/1/whitelist" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json"
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/servers/1/whitelist"
-             },
-    "data":  [
-
-             ],
-    "success":  true
+  "success": true,
+  "data": [
+    {
+      "accId": "00000000-0000-0000-0000-000000000000",
+      "username": "ExampleUser",
+      "allowed": true
+    }
+  ],
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/servers/1/whitelist"
+  }
 }
 ```
-
-

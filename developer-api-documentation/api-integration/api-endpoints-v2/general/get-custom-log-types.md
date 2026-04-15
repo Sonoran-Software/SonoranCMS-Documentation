@@ -1,70 +1,103 @@
-﻿---
-description: Returns the configured custom log types.
+---
+description: Retrieve the configured custom log types.
 ---
 
 # Get Custom Log Types
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
-
-{% hint style="info" %}
-Recommended safe rate limit: `13 requests/min` per credential.
-
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
-
-## Get Custom Log Types
-
 <mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community/custom-log-types`
-{% swagger method="get" path="/v2/community/custom-log-types" baseUrl="https://api.sonorancms.com" summary="Get Custom Log Types" %}
-{% swagger-description %}
-Returns the configured custom log types.
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/custom-log-types&quot;
-             },
-    &quot;data&quot;:  {
+> **Rate limit:** `13 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+Retrieve the configured custom log types.
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/custom-log-types&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+## Example Request
 
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-Returns the configured custom log types.
+```lua
+local response = sonoran:request({
+  "method": "GET",
+  "path": "/v2/community/custom-log-types"
+})
+```
 
-#### Response
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-- Returns the custom log type definitions that can be reused by integrations.
+```javascript
+const response = await sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/custom-log-types"
+});
+```
+
+{% endtab %}
+{% tab title="Sonoran.py" %}
+
+```python
+response = sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/custom-log-types"
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "GET",
+      "path": "/v2/community/custom-log-types"
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+get:
+  summary: Get Custom Log Types
+  security:
+    - v2ApiKey: []
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request GET \
+  --url "https://api.sonorancms.com/v2/community/custom-log-types" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json"
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/custom-log-types"
-             },
-    "data":  [
-
-             ],
-    "success":  true
+  "success": true,
+  "data": [
+    {
+      "id": "training",
+      "label": "Training"
+    }
+  ],
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/custom-log-types"
+  }
 }
 ```
-
-

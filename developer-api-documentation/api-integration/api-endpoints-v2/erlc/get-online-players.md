@@ -1,74 +1,128 @@
-﻿---
-description: Returns online players for a Roblox join code.
+---
+description: Retrieve the online ER:LC players.
 ---
 
 # Get Online Players
 
-{% hint style="warning" %}
-This endpoint requires `Authorization: Bearer <api key>`.
-{% endhint %}
-
-{% hint style="info" %}
-Recommended safe rate limit: `27 requests/min` per credential.
-
-The Kong gateway is configured slightly higher than these values to leave a small safety buffer for normal gameplay bursts.
-{% endhint %}
-
-## Get Online Players
-
 <mark style="color:green;">`GET`</mark> `https://api.sonorancms.com/v2/community/erlc/players/online`
-{% swagger method="get" path="/v2/community/erlc/players/online" baseUrl="https://api.sonorancms.com" summary="Get Online Players" %}
-{% swagger-description %}
-Returns online players for a Roblox join code.
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;meta&quot;:  {
-                 &quot;timestamp&quot;:  &quot;2026-04-14T00:00:00.000Z&quot;,
-                 &quot;path&quot;:  &quot;/v2/community/erlc/players/online&quot;
-             },
-    &quot;data&quot;:  {
+> **Rate limit:** `27 requests per minute`  
+> Authenticated v2 endpoints are rate limited per credential rather than per IP address.
 
-             },
-    &quot;success&quot;:  true
-}</code></pre>
-{% endswagger-response %}
+Retrieve the online ER:LC players.
 
-{% swagger-response status="400: Bad Request" description="The following 400 errors may be sent in response:" %}
-<pre class="language-json"><code class="lang-json">{
-    &quot;detail&quot;:  &quot;VALID BAD REQUEST REASON&quot;,
-    &quot;instance&quot;:  &quot;/v2/community/erlc/players/online&quot;,
-    &quot;traceId&quot;:  &quot;00000000-0000-0000-0000-000000000000&quot;,
-    &quot;type&quot;:  &quot;https://httpstatuses.com/400&quot;,
-    &quot;title&quot;:  &quot;Bad Request&quot;,
-    &quot;status&quot;:  400
-}</code></pre>
-{% endswagger-response %}
-{% endswagger %}
+## Query Parameters
 
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `robloxJoinCode` | string | Yes | See example request for the shape. |
 
-Returns online players for a Roblox join code.
+## Example Request
 
-#### Request
+{% tabs %}
+{% tab title="Sonoran.lua" %}
 
-- Query parameter: `robloxJoinCode`.
+```lua
+local response = sonoran:request({
+  "method": "GET",
+  "path": "/v2/community/erlc/players/online",
+  "query": {
+    "robloxJoinCode": "ABC123"
+  }
+})
+```
 
-#### Response
+{% endtab %}
+{% tab title="Sonoran.js" %}
 
-- Returns the player list inside the v2 envelope.
+```javascript
+const response = await sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/erlc/players/online",
+  "query": {
+    "robloxJoinCode": "ABC123"
+  }
+});
+```
+
+{% endtab %}
+{% tab title="Sonoran.py" %}
+
+```python
+response = sonoran.request({
+  "method": "GET",
+  "path": "/v2/community/erlc/players/online",
+  "query": {
+    "robloxJoinCode": "ABC123"
+  }
+})
+```
+
+{% endtab %}
+{% tab title="Sonoran.Net" %}
+
+```csharp
+var response = await sonoran.RequestAsync(new SonoranRequest
+{
+    {
+      "method": "GET",
+      "path": "/v2/community/erlc/players/online",
+      "query": {
+        "robloxJoinCode": "ABC123"
+      }
+    }
+});
+```
+
+{% endtab %}
+{% tab title="OpenAPI" %}
+
+```yaml
+get:
+  summary: Get Online Players
+  security:
+    - v2ApiKey: []
+  parameters:
+    - name: robloxJoinCode
+      in: query
+      required: false
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Successful response
+```
+
+{% endtab %}
+{% tab title="cURL" %}
+
+```bash
+curl --request GET \
+  --url "https://api.sonorancms.com/v2/community/erlc/players/online?robloxJoinCode=ABC123" \
+  --header "Authorization: Bearer YOUR_API_KEY" \
+  --header "Accept: application/json"
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Response
+
+Successful requests return `application/json` and use the standard v2 envelope.
 
 ```json
 {
-    "meta":  {
-                 "timestamp":  "2026-04-14T00:00:00.000Z",
-                 "path":  "/v2/community/erlc/players/online"
-             },
-    "data":  [
-
-             ],
-    "success":  true
+  "success": true,
+  "data": [
+    {
+      "playerName": "ExamplePlayer",
+      "userId": "1234567890",
+      "joinCode": "ABC123"
+    }
+  ],
+  "meta": {
+    "timestamp": "2026-04-14T00:00:00.000Z",
+    "path": "/v2/community/erlc/players/online"
+  }
 }
 ```
-
-
