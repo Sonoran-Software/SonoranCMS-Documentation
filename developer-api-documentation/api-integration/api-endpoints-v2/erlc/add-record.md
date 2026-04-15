@@ -24,93 +24,52 @@ Create an ER:LC record.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "POST",
-  "path": "/v2/community/erlc/records",
-  "body": {
-    "robloxJoinCode": "ABC123",
-    "executerDiscordId": "1234567890",
-    "type": "note",
-    "reason": "Example note",
-    "points": 0
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/erlc/records",
-  "body": {
-    "robloxJoinCode": "ABC123",
-    "executerDiscordId": "1234567890",
-    "type": "note",
-    "reason": "Example note",
-    "points": 0
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/erlc/records",
-  "body": {
-    "robloxJoinCode": "ABC123",
-    "executerDiscordId": "1234567890",
-    "type": "note",
-    "reason": "Example note",
-    "points": 0
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "POST",
-      "path": "/v2/community/erlc/records",
-      "body": {
-        "robloxJoinCode": "ABC123",
-        "executerDiscordId": "1234567890",
-        "type": "note",
-        "reason": "Example note",
-        "points": 0
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-post:
-  summary: Add ERLC Record
-  security:
-    - v2ApiKey: []
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Add Record"
+  version: "1.0.0"
+  description: "Create an ER:LC record."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/erlc/records:
+    post:
+      summary: "Add Record"
+      operationId: "addErlcRecord"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "201":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  success: true
+                  message: "Records added successfully"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/erlc/records"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

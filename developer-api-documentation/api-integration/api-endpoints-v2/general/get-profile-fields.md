@@ -14,59 +14,51 @@ Retrieve the configured profile fields.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/profile-fields"
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/profile-fields"
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/profile-fields"
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/profile-fields"
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Get Profile Fields
-  security:
-    - v2ApiKey: []
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Get Profile Fields"
+  version: "1.0.0"
+  description: "Retrieve the configured profile fields."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/profile-fields:
+    get:
+      summary: "Get Profile Fields"
+      operationId: "getProfileFields"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  -
+                    id: "discord"
+                    label: "Discord"
+                    type: "discord"
+                    options: null
+                    metadata:
+                      placeholder: "username#0000"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/profile-fields"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

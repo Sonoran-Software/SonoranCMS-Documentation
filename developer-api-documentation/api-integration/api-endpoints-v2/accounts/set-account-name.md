@@ -26,84 +26,59 @@ Update the display name for an account.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "PATCH",
-  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/name",
-  "body": {
-    "newName": "Example Account"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "PATCH",
-  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/name",
-  "body": {
-    "newName": "Example Account"
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "PATCH",
-  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/name",
-  "body": {
-    "newName": "Example Account"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "PATCH",
-      "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/name",
-      "body": {
-        "newName": "Example Account"
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-patch:
-  summary: Set Account Name
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: accountId
-      in: path
-      required: true
-      schema:
-        type: string
-        format: uuid
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Set Account Name"
+  version: "1.0.0"
+  description: "Update the display name for an account."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/accounts/{accountId}/name:
+    patch:
+      summary: "Set Account Name"
+      operationId: "setAccountName"
+      parameters:
+        -
+          description: "Target account UUID."
+          name: "accountId"
+          in: "path"
+          schema:
+            type: "string"
+            format: "uuid"
+          required: true
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data: "New Community Name (00000000-0000-0000-0000-000000000000): Example Account"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/accounts/00000000-0000-0000-0000-000000000000/name"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

@@ -21,81 +21,40 @@ Cancel an active session.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "DELETE",
-  "path": "/v2/community/sessions",
-  "body": {
-    "serverId": 1,
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "DELETE",
-  "path": "/v2/community/sessions",
-  "body": {
-    "serverId": 1,
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "DELETE",
-  "path": "/v2/community/sessions",
-  "body": {
-    "serverId": 1,
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "DELETE",
-      "path": "/v2/community/sessions",
-      "body": {
-        "serverId": 1,
-        "accId": "00000000-0000-0000-0000-000000000000"
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-delete:
-  summary: Cancel Session
-  security:
-    - v2ApiKey: []
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '204':
-      description: No Content
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Cancel Session"
+  version: "1.0.0"
+  description: "Cancel an active session."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/sessions:
+    delete:
+      summary: "Cancel Session"
+      operationId: "cancelSession"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "204":
+          description: "No Content"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

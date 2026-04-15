@@ -27,93 +27,81 @@ Retrieve the latest activity for an account.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/activity/latest",
-  "query": {
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "type": "activity"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/activity/latest",
-  "query": {
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "type": "activity"
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/activity/latest",
-  "query": {
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "type": "activity"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/activity/latest",
-      "query": {
-        "accId": "00000000-0000-0000-0000-000000000000",
-        "type": "activity"
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Get Latest Activity
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: accountId
-      in: path
-      required: true
-      schema:
-        type: string
-        format: uuid
-  parameters:
-    - name: accId
-      in: query
-      required: false
-      schema:
-        type: string
-    - name: type
-      in: query
-      required: false
-      schema:
-        type: string
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Get Latest Activity"
+  version: "1.0.0"
+  description: "Retrieve the latest activity for an account."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/accounts/{accountId}/activity/latest:
+    get:
+      summary: "Get Latest Activity"
+      operationId: "getLatestActivity"
+      parameters:
+        -
+          description: "Target account UUID."
+          name: "accountId"
+          in: "path"
+          schema:
+            type: "string"
+            format: "uuid"
+          required: true
+        -
+          description: "Return clock-in activity or general activity."
+          name: "type"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+        -
+          description: "Query parameter serverId."
+          name: "serverId"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+        -
+          description: "Filter clock-in history by clock-in type id."
+          name: "clockInType"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  -
+                    id: "55555555-5555-5555-5555-555555555555"
+                    startTime: "2026-04-15T00:00:00.000Z"
+                    endTime: null
+                    completed: false
+                    notes: []
+                    type: "patrol"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/accounts/00000000-0000-0000-0000-000000000000/activity/latest"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

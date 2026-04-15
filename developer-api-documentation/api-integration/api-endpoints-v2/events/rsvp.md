@@ -26,84 +26,59 @@ Create an RSVP for an event.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "POST",
-  "path": "/v2/community/events/11111111-1111-1111-1111-111111111111/rsvps",
-  "body": {
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/events/11111111-1111-1111-1111-111111111111/rsvps",
-  "body": {
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/events/11111111-1111-1111-1111-111111111111/rsvps",
-  "body": {
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "POST",
-      "path": "/v2/community/events/11111111-1111-1111-1111-111111111111/rsvps",
-      "body": {
-        "accId": "00000000-0000-0000-0000-000000000000"
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-post:
-  summary: RSVP
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: eventId
-      in: path
-      required: true
-      schema:
-        type: string
-        format: uuid
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Rsvp"
+  version: "1.0.0"
+  description: "Create an RSVP for an event."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/events/{eventId}/rsvps:
+    post:
+      summary: "Rsvp"
+      operationId: "createRsvp"
+      parameters:
+        -
+          description: "Target event id."
+          name: "eventId"
+          in: "path"
+          schema:
+            type: "string"
+            format: "uuid"
+          required: true
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data: "RSVP_SUCCESS"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/events/11111111-1111-1111-1111-111111111111/rsvps"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

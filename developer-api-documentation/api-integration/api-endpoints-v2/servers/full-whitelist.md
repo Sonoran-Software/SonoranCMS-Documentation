@@ -20,65 +20,57 @@ Retrieve the full whitelist for a server.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/servers/1/whitelist"
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/servers/1/whitelist"
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/servers/1/whitelist"
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/servers/1/whitelist"
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Full Whitelist
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: serverId
-      in: path
-      required: true
-      schema:
-        type: integer
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Full Whitelist"
+  version: "1.0.0"
+  description: "Retrieve the full whitelist for a server."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/servers/{serverId}/whitelist:
+    get:
+      summary: "Full Whitelist"
+      operationId: "getFullWhitelist"
+      parameters:
+        -
+          description: "Target server id."
+          name: "serverId"
+          in: "path"
+          schema:
+            type: "integer"
+          required: true
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  -
+                    name: "ExampleAccount"
+                    apiIds:
+                      - "discord:1234567890"
+                      - "roblox:987654321"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/servers/1/whitelist"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

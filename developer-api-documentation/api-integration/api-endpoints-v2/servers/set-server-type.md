@@ -26,83 +26,72 @@ Update the server type.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "PATCH",
-  "path": "/v2/community/servers/1/type",
-  "body": {
-    "type": "FiveM"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "PATCH",
-  "path": "/v2/community/servers/1/type",
-  "body": {
-    "type": "FiveM"
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "PATCH",
-  "path": "/v2/community/servers/1/type",
-  "body": {
-    "type": "FiveM"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "PATCH",
-      "path": "/v2/community/servers/1/type",
-      "body": {
-        "type": "FiveM"
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-patch:
-  summary: Set Server Type
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: serverId
-      in: path
-      required: true
-      schema:
-        type: integer
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Set Server Type"
+  version: "1.0.0"
+  description: "Update the server type."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/servers/{serverId}/type:
+    patch:
+      summary: "Set Server Type"
+      operationId: "setServerType"
+      parameters:
+        -
+          description: "Target server id."
+          name: "serverId"
+          in: "path"
+          schema:
+            type: "integer"
+          required: true
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  id: 1
+                  name: "Main Server"
+                  description: "Primary gameplay server"
+                  ip: "127.0.0.1"
+                  port: "30120"
+                  typeLastUpdated: "2026-04-15T00:00:00.000Z"
+                  type: "erlc"
+                  robloxJoinCode: "ABCD-1234"
+                  aceConfig:
+                    mappings:
+                      -
+                        ranks:
+                          - "22222222-2222-2222-2222-222222222222"
+                        principal: "group:123456"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/servers/1/type"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

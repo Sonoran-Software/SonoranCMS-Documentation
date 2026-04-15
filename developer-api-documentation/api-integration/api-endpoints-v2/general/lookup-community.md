@@ -20,77 +20,66 @@ Look up the community by ID or UUID.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/lookup",
-  "query": {
-    "id": "YOUR_COMMUNITY_ID"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/lookup",
-  "query": {
-    "id": "YOUR_COMMUNITY_ID"
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/lookup",
-  "query": {
-    "id": "YOUR_COMMUNITY_ID"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/lookup",
-      "query": {
-        "id": "YOUR_COMMUNITY_ID"
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Lookup Community
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: id
-      in: query
-      required: false
-      schema:
-        type: string
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Lookup Community"
+  version: "1.0.0"
+  description: "Look up the community by ID or UUID."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/lookup:
+    get:
+      summary: "Lookup Community"
+      operationId: "lookupCommunity"
+      parameters:
+        -
+          description: "Community id. Provide exactly one identifier."
+          name: "id"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+        -
+          description: "Community UUID. Provide exactly one identifier."
+          name: "uuid"
+          in: "query"
+          schema:
+            type: "string"
+            format: "uuid"
+          required: false
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  id: "CMS-1000"
+                  uuid: "00000000-0000-0000-0000-000000000000"
+                  name: "Example Community"
+                  subVersion: 5
+                  tier: "SonoranOne"
+                  servers: 3
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/lookup"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

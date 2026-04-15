@@ -20,77 +20,52 @@ Retrieve the ER:LC queue.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/erlc/players/queue",
-  "query": {
-    "robloxJoinCode": "ABC123"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/erlc/players/queue",
-  "query": {
-    "robloxJoinCode": "ABC123"
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/erlc/players/queue",
-  "query": {
-    "robloxJoinCode": "ABC123"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/erlc/players/queue",
-      "query": {
-        "robloxJoinCode": "ABC123"
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Get Player Queue
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: robloxJoinCode
-      in: query
-      required: false
-      schema:
-        type: string
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Get Player Queue"
+  version: "1.0.0"
+  description: "Retrieve the ER:LC queue."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/erlc/players/queue:
+    get:
+      summary: "Get Player Queue"
+      operationId: "getPlayerQueue"
+      parameters:
+        -
+          description: "Target Roblox join code."
+          name: "robloxJoinCode"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data: 3
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/erlc/players/queue"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

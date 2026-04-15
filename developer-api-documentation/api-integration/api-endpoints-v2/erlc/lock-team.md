@@ -22,85 +22,50 @@ Lock an ER:LC team.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "POST",
-  "path": "/v2/community/erlc/teams/lock",
-  "body": {
-    "robloxJoinCode": "ABC123",
-    "team": "Police",
-    "maxPlayers": 10
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/erlc/teams/lock",
-  "body": {
-    "robloxJoinCode": "ABC123",
-    "team": "Police",
-    "maxPlayers": 10
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/erlc/teams/lock",
-  "body": {
-    "robloxJoinCode": "ABC123",
-    "team": "Police",
-    "maxPlayers": 10
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "POST",
-      "path": "/v2/community/erlc/teams/lock",
-      "body": {
-        "robloxJoinCode": "ABC123",
-        "team": "Police",
-        "maxPlayers": 10
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-post:
-  summary: Lock Team
-  security:
-    - v2ApiKey: []
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Lock Team"
+  version: "1.0.0"
+  description: "Lock an ER:LC team."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/erlc/teams/lock:
+    post:
+      summary: "Lock Team"
+      operationId: "lockTeam"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data: "The police team has been locked down to a maximum of 12 players."
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/erlc/teams/lock"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

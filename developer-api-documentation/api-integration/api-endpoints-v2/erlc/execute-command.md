@@ -24,93 +24,50 @@ Execute an ER:LC command.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "POST",
-  "path": "/v2/community/erlc/commands",
-  "body": {
-    "robloxJoinCode": "ABC123",
-    "discordId": "1234567890",
-    "type": "announce",
-    "args": "Server restart in 10 minutes",
-    "includesPlayerNameOrId": false
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/erlc/commands",
-  "body": {
-    "robloxJoinCode": "ABC123",
-    "discordId": "1234567890",
-    "type": "announce",
-    "args": "Server restart in 10 minutes",
-    "includesPlayerNameOrId": false
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/erlc/commands",
-  "body": {
-    "robloxJoinCode": "ABC123",
-    "discordId": "1234567890",
-    "type": "announce",
-    "args": "Server restart in 10 minutes",
-    "includesPlayerNameOrId": false
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "POST",
-      "path": "/v2/community/erlc/commands",
-      "body": {
-        "robloxJoinCode": "ABC123",
-        "discordId": "1234567890",
-        "type": "announce",
-        "args": "Server restart in 10 minutes",
-        "includesPlayerNameOrId": false
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-post:
-  summary: Execute Command
-  security:
-    - v2ApiKey: []
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Execute Command"
+  version: "1.0.0"
+  description: "Execute an ER:LC command."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/erlc/commands:
+    post:
+      summary: "Execute Command"
+      operationId: "executeErlcCommand"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data: "Successfully added command to queue"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/erlc/commands"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

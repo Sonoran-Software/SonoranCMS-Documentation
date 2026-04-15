@@ -28,91 +28,94 @@ Move a form submission to a new stage.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "PATCH",
-  "path": "/v2/community/forms/1/stage",
-  "body": {
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "newStageId": "review",
-    "optionalReason": "Reviewed manually."
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "PATCH",
-  "path": "/v2/community/forms/1/stage",
-  "body": {
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "newStageId": "review",
-    "optionalReason": "Reviewed manually."
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "PATCH",
-  "path": "/v2/community/forms/1/stage",
-  "body": {
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "newStageId": "review",
-    "optionalReason": "Reviewed manually."
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "PATCH",
-      "path": "/v2/community/forms/1/stage",
-      "body": {
-        "accId": "00000000-0000-0000-0000-000000000000",
-        "newStageId": "review",
-        "optionalReason": "Reviewed manually."
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-patch:
-  summary: Change Form Stage
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: formId
-      in: path
-      required: true
-      schema:
-        type: integer
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Change Stage"
+  version: "1.0.0"
+  description: "Move a form submission to a new stage."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/forms/{formId}/stage:
+    patch:
+      summary: "Change Stage"
+      operationId: "changeFormStage"
+      parameters:
+        -
+          description: "Target form id."
+          name: "formId"
+          in: "path"
+          schema:
+            type: "integer"
+          required: true
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  authorized: true
+                  failed: false
+                  data:
+                    form:
+                      formId: 42
+                      sysStatus: true
+                      submissionTime: "2026-04-15T00:00:00.000Z"
+                      lastActionTime: "2026-04-15T00:00:00.000Z"
+                      formSubmitter: "00000000-0000-0000-0000-000000000000"
+                      formContextUser: null
+                      relatedUsers: []
+                      formStructure:
+                        _label: "Example Form Submission"
+                        fields: []
+                      formComments:
+                        comments: []
+                      stageId: "22222222-2222-2222-2222-222222222222"
+                      stageGroupId: "11111111-1111-1111-1111-111111111111"
+                      stageInfoBackup:
+                        stages: []
+                        groups: []
+                      formTemplateId: 100
+                      formType: 0
+                      formReplySettings:
+                        locked: false
+                        submitter: true
+                        rankIds: []
+                      showInProfile: false
+                      stages: []
+                    newStage:
+                      id: "33333333-3333-3333-3333-333333333333"
+                      label: "Interview"
+                    availableStages:
+                      -
+                        id: "44444444-4444-4444-4444-444444444444"
+                        label: "Training"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/forms/1/stage"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

@@ -21,81 +21,61 @@ Stop an active session.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "PATCH",
-  "path": "/v2/community/sessions",
-  "body": {
-    "serverId": 1,
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "PATCH",
-  "path": "/v2/community/sessions",
-  "body": {
-    "serverId": 1,
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "PATCH",
-  "path": "/v2/community/sessions",
-  "body": {
-    "serverId": 1,
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "PATCH",
-      "path": "/v2/community/sessions",
-      "body": {
-        "serverId": 1,
-        "accId": "00000000-0000-0000-0000-000000000000"
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-patch:
-  summary: Stop Session
-  security:
-    - v2ApiKey: []
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Stop Session"
+  version: "1.0.0"
+  description: "Stop an active session."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/sessions:
+    patch:
+      summary: "Stop Session"
+      operationId: "stopSession"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  id: "55555555-5555-5555-5555-555555555555"
+                  sysStatus: true
+                  community: "00000000-0000-0000-0000-000000000000"
+                  serverId: 1
+                  startedBy: "00000000-0000-0000-0000-000000000000"
+                  startedAt: "2026-04-15T00:00:00.000Z"
+                  endedBy: null
+                  endedAt: null
+                  cancelledBy: null
+                  stats: {}
+                  metadata: {}
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/sessions"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

@@ -20,129 +20,66 @@ Append one or more servers to the configuration.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "POST",
-  "path": "/v2/community/servers",
-  "body": {
-    "servers": [
-      {
-        "id": 1,
-        "name": "Main Server",
-        "description": "Primary community server",
-        "ip": "127.0.0.1",
-        "port": "30120",
-        "type": "FiveM",
-        "erlcApiKey": "",
-        "robloxJoinCode": "ABC123",
-        "aceConfig": {},
-        "robloxMetadata": {}
-      }
-    ]
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/servers",
-  "body": {
-    "servers": [
-      {
-        "id": 1,
-        "name": "Main Server",
-        "description": "Primary community server",
-        "ip": "127.0.0.1",
-        "port": "30120",
-        "type": "FiveM",
-        "erlcApiKey": "",
-        "robloxJoinCode": "ABC123",
-        "aceConfig": {},
-        "robloxMetadata": {}
-      }
-    ]
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/servers",
-  "body": {
-    "servers": [
-      {
-        "id": 1,
-        "name": "Main Server",
-        "description": "Primary community server",
-        "ip": "127.0.0.1",
-        "port": "30120",
-        "type": "FiveM",
-        "erlcApiKey": "",
-        "robloxJoinCode": "ABC123",
-        "aceConfig": {},
-        "robloxMetadata": {}
-      }
-    ]
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "POST",
-      "path": "/v2/community/servers",
-      "body": {
-        "servers": [
-          {
-            "id": 1,
-            "name": "Main Server",
-            "description": "Primary community server",
-            "ip": "127.0.0.1",
-            "port": "30120",
-            "type": "FiveM",
-            "erlcApiKey": "",
-            "robloxJoinCode": "ABC123",
-            "aceConfig": {},
-            "robloxMetadata": {}
-          }
-        ]
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-post:
-  summary: Add Servers
-  security:
-    - v2ApiKey: []
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Add Servers"
+  version: "1.0.0"
+  description: "Append one or more servers to the configuration."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/servers:
+    post:
+      summary: "Add Servers"
+      operationId: "addServers"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  servers:
+                    -
+                      id: 1
+                      name: "Main Server"
+                      description: "Primary gameplay server"
+                      ip: "127.0.0.1"
+                      port: "30120"
+                      typeLastUpdated: "2026-04-15T00:00:00.000Z"
+                      type: "erlc"
+                      robloxJoinCode: "ABCD-1234"
+                      aceConfig:
+                        mappings:
+                          -
+                            ranks:
+                              - "22222222-2222-2222-2222-222222222222"
+                            principal: "group:123456"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/servers"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

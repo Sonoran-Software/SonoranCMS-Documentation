@@ -20,65 +20,52 @@ Retrieve the lock status for a form template.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/forms/1/lock"
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/forms/1/lock"
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/forms/1/lock"
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/forms/1/lock"
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Get Form Lock Status
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: templateId
-      in: path
-      required: true
-      schema:
-        type: integer
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Get Lock Status"
+  version: "1.0.0"
+  description: "Retrieve the lock status for a form template."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/forms/{templateId}/lock:
+    get:
+      summary: "Get Lock Status"
+      operationId: "getFormLockStatus"
+      parameters:
+        -
+          description: "Target form template id."
+          name: "templateId"
+          in: "path"
+          schema:
+            type: "integer"
+          required: true
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data: true
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/forms/1/lock"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

@@ -20,66 +20,64 @@ Retrieve the identifiers stored for an account.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers"
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers"
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers"
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers"
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Get Account Identifiers
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: accountId
-      in: path
-      required: true
-      schema:
-        type: string
-        format: uuid
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Get Account Identifiers"
+  version: "1.0.0"
+  description: "Retrieve the identifiers stored for an account."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/accounts/{accountId}/identifiers:
+    get:
+      summary: "Get Account Identifiers"
+      operationId: "getAccountIdentifiers"
+      parameters:
+        -
+          description: "Target account UUID."
+          name: "accountId"
+          in: "path"
+          schema:
+            type: "string"
+            format: "uuid"
+          required: true
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  -
+                    id: "55555555-5555-5555-5555-555555555555"
+                    accId: "00000000-0000-0000-0000-000000000000"
+                    type: "discord"
+                    value: "1234567890"
+                    refCount: 1
+                    verified: true
+                    metadata: {}
+                    flagId: null
+                    createdAt: "2026-04-15T00:00:00.000Z"
+                    updatedAt: null
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

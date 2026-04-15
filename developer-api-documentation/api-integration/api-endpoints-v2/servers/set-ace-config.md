@@ -26,103 +26,63 @@ Update the ACE configuration for a server.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "PATCH",
-  "path": "/v2/community/servers/1/ace-config",
-  "body": {
-    "mappings": [
-      {
-        "discordRoleId": "1234567890",
-        "aceGroup": "admin"
-      }
-    ]
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "PATCH",
-  "path": "/v2/community/servers/1/ace-config",
-  "body": {
-    "mappings": [
-      {
-        "discordRoleId": "1234567890",
-        "aceGroup": "admin"
-      }
-    ]
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "PATCH",
-  "path": "/v2/community/servers/1/ace-config",
-  "body": {
-    "mappings": [
-      {
-        "discordRoleId": "1234567890",
-        "aceGroup": "admin"
-      }
-    ]
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "PATCH",
-      "path": "/v2/community/servers/1/ace-config",
-      "body": {
-        "mappings": [
-          {
-            "discordRoleId": "1234567890",
-            "aceGroup": "admin"
-          }
-        ]
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-patch:
-  summary: Set ACE Config
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: serverId
-      in: path
-      required: true
-      schema:
-        type: integer
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Set Ace Config"
+  version: "1.0.0"
+  description: "Update the ACE configuration for a server."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/servers/{serverId}/ace-config:
+    patch:
+      summary: "Set Ace Config"
+      operationId: "setAceConfig"
+      parameters:
+        -
+          description: "Target server id."
+          name: "serverId"
+          in: "path"
+          schema:
+            type: "integer"
+          required: true
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  mappings:
+                    -
+                      ranks:
+                        - "22222222-2222-2222-2222-222222222222"
+                      principal: "group:123456"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/servers/1/ace-config"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

@@ -20,65 +20,56 @@ Retrieve the ACE configuration for a server.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/servers/1/ace-config"
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/servers/1/ace-config"
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/servers/1/ace-config"
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/servers/1/ace-config"
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Get ACE Config
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: serverId
-      in: path
-      required: true
-      schema:
-        type: integer
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Get Ace Config"
+  version: "1.0.0"
+  description: "Retrieve the ACE configuration for a server."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/servers/{serverId}/ace-config:
+    get:
+      summary: "Get Ace Config"
+      operationId: "getAceConfig"
+      parameters:
+        -
+          description: "Target server id."
+          name: "serverId"
+          in: "path"
+          schema:
+            type: "integer"
+          required: true
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  -
+                    ranks:
+                      - "22222222-2222-2222-2222-222222222222"
+                    principal: "group:123456"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/servers/1/ace-config"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

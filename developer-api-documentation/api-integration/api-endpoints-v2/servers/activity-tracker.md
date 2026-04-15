@@ -27,87 +27,66 @@ Record a server activity event.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "POST",
-  "path": "/v2/community/servers/1/activity",
-  "body": {
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "forceStart": true
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/servers/1/activity",
-  "body": {
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "forceStart": true
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/servers/1/activity",
-  "body": {
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "forceStart": true
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "POST",
-      "path": "/v2/community/servers/1/activity",
-      "body": {
-        "accId": "00000000-0000-0000-0000-000000000000",
-        "forceStart": true
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-post:
-  summary: Activity Tracker
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: serverId
-      in: path
-      required: true
-      schema:
-        type: integer
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Activity Tracker"
+  version: "1.0.0"
+  description: "Record a server activity event."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/servers/{serverId}/activity:
+    post:
+      summary: "Activity Tracker"
+      operationId: "activityTracker"
+      parameters:
+        -
+          description: "Target server id."
+          name: "serverId"
+          in: "path"
+          schema:
+            type: "integer"
+          required: true
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  id: "55555555-5555-5555-5555-555555555555"
+                  status: true
+                  accId: "00000000-0000-0000-0000-000000000000"
+                  serverId: 1
+                  start: "2026-04-15T00:00:00.000Z"
+                  end: null
+                  clearReason: null
+                  metadata: {}
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/servers/1/activity"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

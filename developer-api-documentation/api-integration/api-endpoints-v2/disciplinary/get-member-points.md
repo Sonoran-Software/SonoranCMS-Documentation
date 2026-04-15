@@ -26,84 +26,81 @@ Retrieve disciplinary point totals for a member.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/points",
-  "query": {
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/points",
-  "query": {
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/points",
-  "query": {
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/points",
-      "query": {
-        "accId": "00000000-0000-0000-0000-000000000000"
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Get Member Points
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: accountId
-      in: path
-      required: true
-      schema:
-        type: string
-        format: uuid
-  parameters:
-    - name: accId
-      in: query
-      required: false
-      schema:
-        type: string
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Get Member Points"
+  version: "1.0.0"
+  description: "Retrieve disciplinary point totals for a member."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/disciplinary/accounts/{accountId}/points:
+    get:
+      summary: "Get Member Points"
+      operationId: "getMemberPoints"
+      parameters:
+        -
+          description: "Target account UUID."
+          name: "accountId"
+          in: "path"
+          schema:
+            type: "string"
+            format: "uuid"
+          required: true
+        -
+          description: "Target API identifier. Provide exactly one identifier."
+          name: "apiId"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+        -
+          description: "Target username. Provide exactly one identifier."
+          name: "username"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+        -
+          description: "Target Discord id. Provide exactly one identifier."
+          name: "discordId"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+        -
+          description: "Target community unique id. Provide exactly one identifier."
+          name: "uniqueId"
+          in: "query"
+          schema:
+            type: "integer"
+          required: false
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data: 12
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/points"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

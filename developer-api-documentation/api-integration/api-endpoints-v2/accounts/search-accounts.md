@@ -20,77 +20,104 @@ Search for community accounts.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/accounts/search",
-  "query": {
-    "username": "ExampleUser"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/accounts/search",
-  "query": {
-    "username": "ExampleUser"
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/accounts/search",
-  "query": {
-    "username": "ExampleUser"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/accounts/search",
-      "query": {
-        "username": "ExampleUser"
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Search Accounts
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: username
-      in: query
-      required: false
-      schema:
-        type: string
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Search Accounts"
+  version: "1.0.0"
+  description: "Search for community accounts."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/accounts/search:
+    get:
+      summary: "Search Accounts"
+      operationId: "searchAccounts"
+      parameters:
+        -
+          description: "Target account UUID. Provide exactly one identifier."
+          name: "accountId"
+          in: "query"
+          schema:
+            type: "string"
+            format: "uuid"
+          required: false
+        -
+          description: "Target API identifier. Provide exactly one identifier."
+          name: "apiId"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+        -
+          description: "Target username. Provide exactly one identifier."
+          name: "username"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+        -
+          description: "Target community account id. Provide exactly one identifier."
+          name: "accId"
+          in: "query"
+          schema:
+            type: "string"
+            format: "uuid"
+          required: false
+        -
+          description: "Target Discord id. Provide exactly one identifier."
+          name: "discord"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+        -
+          description: "Target community unique id. Provide exactly one identifier."
+          name: "uniqueId"
+          in: "query"
+          schema:
+            type: "integer"
+          required: false
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  items:
+                    -
+                      accId: "00000000-0000-0000-0000-000000000000"
+                      uniqueId: 1001
+                      accName: "ExampleAccount"
+                      comName: "Example Community"
+                      activeApiIds:
+                        - "discord:1234567890"
+                      discordId: "1234567890"
+                      sysStatus: true
+                      comStatus: true
+                      archived: false
+                      banned: false
+                      teamspeakId: null
+                  total: 1
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/accounts/search"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

@@ -13,97 +13,117 @@ Retrieve disciplinary records for a member.
 
 ## Route Parameters
 
-| Name | Type | Required | Description |
-| --- | --- | --- | --- |
-| `accountId` | string (uuid) | Yes | Target accountId. |
+| Name        | Type          | Required | Description       |
+| ----------- | ------------- | -------- | ----------------- |
+| `accountId` | string (uuid) | Yes      | Target accountId. |
 
 ## Query Parameters
 
-| Name | Type | Required | Description |
-| --- | --- | --- | --- |
-| `accId` | string | Yes | See example request for the shape. |
+| Name    | Type   | Required | Description                        |
+| ------- | ------ | -------- | ---------------------------------- |
+| `accId` | string | Yes      | See example request for the shape. |
 
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records",
-  "query": {
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records",
-  "query": {
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records",
-  "query": {
-    "accId": "00000000-0000-0000-0000-000000000000"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records",
-      "query": {
-        "accId": "00000000-0000-0000-0000-000000000000"
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Get Member Records
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: accountId
-      in: path
-      required: true
-      schema:
-        type: string
-        format: uuid
-  parameters:
-    - name: accId
-      in: query
-      required: false
-      schema:
-        type: string
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Get Member Records"
+  version: "1.0.0"
+  description: "Retrieve disciplinary records for a member."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/disciplinary/accounts/{accountId}/records:
+    get:
+      summary: "Get Member Records"
+      operationId: "getMemberRecords"
+      parameters:
+        -
+          description: "Target account UUID."
+          name: "accountId"
+          in: "path"
+          schema:
+            type: "string"
+            format: "uuid"
+          required: true
+        -
+          description: "Target API identifier. Provide exactly one identifier."
+          name: "apiId"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+        -
+          description: "Target username. Provide exactly one identifier."
+          name: "username"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+        -
+          description: "Target Discord id. Provide exactly one identifier."
+          name: "discordId"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+        -
+          description: "Target community unique id. Provide exactly one identifier."
+          name: "uniqueId"
+          in: "query"
+          schema:
+            type: "integer"
+          required: false
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  -
+                    id: "55555555-5555-5555-5555-555555555555"
+                    status: true
+                    accId: "00000000-0000-0000-0000-000000000000"
+                    source: "api"
+                    sourceId: "api-request"
+                    points: 5
+                    reason: "Example disciplinary action"
+                    metadata:
+                      executionSource: "discord"
+                    history:
+                      2026-04-15T00:00:00.000Z:
+                        action: "init"
+                        points: 5
+                        reason: "Example disciplinary action"
+                        metadata:
+                          executionSource: "discord"
+                        timestamp: "2026-04-15T00:00:00.000Z"
+                        source: "api"
+                        sourceId: "api-request"
+                    createdAt: "2026-04-15T00:00:00.000Z"
+                    updatedAt: null
+                    expired: false
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

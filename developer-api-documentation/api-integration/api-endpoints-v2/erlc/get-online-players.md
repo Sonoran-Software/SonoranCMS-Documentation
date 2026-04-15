@@ -20,77 +20,62 @@ Retrieve the online ER:LC players.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/erlc/players/online",
-  "query": {
-    "robloxJoinCode": "ABC123"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/erlc/players/online",
-  "query": {
-    "robloxJoinCode": "ABC123"
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/erlc/players/online",
-  "query": {
-    "robloxJoinCode": "ABC123"
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/erlc/players/online",
-      "query": {
-        "robloxJoinCode": "ABC123"
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Get Online Players
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: robloxJoinCode
-      in: query
-      required: false
-      schema:
-        type: string
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Get Online Players"
+  version: "1.0.0"
+  description: "Retrieve the online ER:LC players."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/erlc/players/online:
+    get:
+      summary: "Get Online Players"
+      operationId: "getOnlinePlayers"
+      parameters:
+        -
+          description: "Target Roblox join code."
+          name: "robloxJoinCode"
+          in: "query"
+          schema:
+            type: "string"
+          required: false
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  -
+                    Player: "ExamplePlayer:123456789"
+                    Permission: "Normal"
+                    Callsign: ""
+                    Team: "Civilian"
+                    Actioned: null
+                    Location:
+                      LocationX: 0
+                      LocationY: 0
+                      LocationZ: 0
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/erlc/players/online"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

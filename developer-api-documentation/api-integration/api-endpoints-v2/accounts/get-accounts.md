@@ -22,95 +22,104 @@ Retrieve a list of community accounts.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/accounts",
-  "query": {
-    "skip": 0,
-    "take": 25,
-    "sysStatus": true
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/accounts",
-  "query": {
-    "skip": 0,
-    "take": 25,
-    "sysStatus": true
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/accounts",
-  "query": {
-    "skip": 0,
-    "take": 25,
-    "sysStatus": true
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/accounts",
-      "query": {
-        "skip": 0,
-        "take": 25,
-        "sysStatus": true
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Get Accounts
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: skip
-      in: query
-      required: false
-      schema:
-        type: integer
-    - name: take
-      in: query
-      required: false
-      schema:
-        type: integer
-    - name: sysStatus
-      in: query
-      required: false
-      schema:
-        type: boolean
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Get Accounts"
+  version: "1.0.0"
+  description: "Retrieve a list of community accounts."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/accounts:
+    get:
+      summary: "Get Accounts"
+      operationId: "getAccounts"
+      parameters:
+        -
+          description: "Number of rows to skip."
+          name: "skip"
+          in: "query"
+          schema:
+            type: "integer"
+          required: false
+        -
+          description: "Number of rows to take."
+          name: "take"
+          in: "query"
+          schema:
+            type: "integer"
+          required: false
+        -
+          description: "Filter by system status."
+          name: "sysStatus"
+          in: "query"
+          schema:
+            type: "boolean"
+          required: false
+        -
+          description: "Filter by community status."
+          name: "comStatus"
+          in: "query"
+          schema:
+            type: "boolean"
+          required: false
+        -
+          description: "Filter by banned state."
+          name: "banned"
+          in: "query"
+          schema:
+            type: "boolean"
+          required: false
+        -
+          description: "Filter by archived state."
+          name: "archived"
+          in: "query"
+          schema:
+            type: "boolean"
+          required: false
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  items:
+                    -
+                      accId: "00000000-0000-0000-0000-000000000000"
+                      uniqueId: 1001
+                      accName: "ExampleAccount"
+                      comName: "Example Community"
+                      activeApiIds:
+                        - "discord:1234567890"
+                      discordId: "1234567890"
+                      sysStatus: true
+                      comStatus: true
+                      archived: false
+                      banned: false
+                      teamspeakId: null
+                  total: 1
+                  skip: 0
+                  take: 25
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/accounts"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

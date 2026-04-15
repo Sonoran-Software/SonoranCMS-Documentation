@@ -14,59 +14,55 @@ Retrieve the community departments.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/departments"
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/departments"
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/departments"
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/departments"
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Get Departments
-  security:
-    - v2ApiKey: []
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Get Departments"
+  version: "1.0.0"
+  description: "Retrieve the community departments."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/departments:
+    get:
+      summary: "Get Departments"
+      operationId: "getDepartments"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  -
+                    uuid: "11111111-1111-1111-1111-111111111111"
+                    label: "Police Department"
+                    labelTwo: "Police"
+                    ranks:
+                      -
+                        id: "22222222-2222-2222-2222-222222222222"
+                        label: "Cadet"
+                        primaryOnly: true
+                        secondaryOnly: false
+                        power: 10
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/departments"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

@@ -21,81 +21,52 @@ Create a short URL for the community.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "POST",
-  "path": "/v2/community/short-urls",
-  "body": {
-    "path": "/go/example",
-    "isCustomDomain": false
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/short-urls",
-  "body": {
-    "path": "/go/example",
-    "isCustomDomain": false
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "POST",
-  "path": "/v2/community/short-urls",
-  "body": {
-    "path": "/go/example",
-    "isCustomDomain": false
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "POST",
-      "path": "/v2/community/short-urls",
-      "body": {
-        "path": "/go/example",
-        "isCustomDomain": false
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-post:
-  summary: Create Short URL
-  security:
-    - v2ApiKey: []
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '201':
-      description: Created
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Create Short Url"
+  version: "1.0.0"
+  description: "Create a short URL for the community."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/short-urls:
+    post:
+      summary: "Create Short Url"
+      operationId: "createShortUrl"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "201":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  success: true
+                  redirect: "https://sonorancms.com/dashboard"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/short-urls"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

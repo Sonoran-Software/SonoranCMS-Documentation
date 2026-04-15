@@ -26,83 +26,58 @@ Update the lock status for a form template.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "PATCH",
-  "path": "/v2/community/forms/1/lock",
-  "body": {
-    "state": true
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "PATCH",
-  "path": "/v2/community/forms/1/lock",
-  "body": {
-    "state": true
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "PATCH",
-  "path": "/v2/community/forms/1/lock",
-  "body": {
-    "state": true
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "PATCH",
-      "path": "/v2/community/forms/1/lock",
-      "body": {
-        "state": true
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-patch:
-  summary: Set Form Lock Status
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: templateId
-      in: path
-      required: true
-      schema:
-        type: integer
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          type: object
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Set Lock Status"
+  version: "1.0.0"
+  description: "Update the lock status for a form template."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/forms/{templateId}/lock:
+    patch:
+      summary: "Set Lock Status"
+      operationId: "setFormLockStatus"
+      parameters:
+        -
+          description: "Target form template id."
+          name: "templateId"
+          in: "path"
+          schema:
+            type: "integer"
+          required: true
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data: "Successfully set the lock state for Example Form to: LOCKED"
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/forms/1/lock"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}

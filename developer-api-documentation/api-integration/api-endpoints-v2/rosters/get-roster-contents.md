@@ -27,92 +27,90 @@ Retrieve the contents of a roster.
 ## Example Request
 
 {% tabs %}
-{% tab title="Sonoran.lua" %}
-
-```lua
-local response = sonoran:request({
-  "method": "GET",
-  "path": "/v2/community/rosters/1",
-  "query": {
-    "skip": 0,
-    "limit": 25
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.js" %}
-
-```javascript
-const response = await sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/rosters/1",
-  "query": {
-    "skip": 0,
-    "limit": 25
-  }
-});
-```
-
-{% endtab %}
-{% tab title="Sonoran.py" %}
-
-```python
-response = sonoran.request({
-  "method": "GET",
-  "path": "/v2/community/rosters/1",
-  "query": {
-    "skip": 0,
-    "limit": 25
-  }
-})
-```
-
-{% endtab %}
-{% tab title="Sonoran.Net" %}
-
-```csharp
-var response = await sonoran.RequestAsync(new SonoranRequest
-{
-    {
-      "method": "GET",
-      "path": "/v2/community/rosters/1",
-      "query": {
-        "skip": 0,
-        "limit": 25
-      }
-    }
-});
-```
-
-{% endtab %}
 {% tab title="OpenAPI" %}
 
 ```yaml
-get:
-  summary: Get Roster Contents
-  security:
-    - v2ApiKey: []
-  parameters:
-    - name: rosterId
-      in: path
-      required: true
-      schema:
-        type: integer
-  parameters:
-    - name: skip
-      in: query
-      required: false
-      schema:
-        type: integer
-    - name: limit
-      in: query
-      required: false
-      schema:
-        type: integer
-  responses:
-    '200':
-      description: Successful response
+openapi: "3.0.3"
+info:
+  title: "Sonoran CMS v2 - Get Roster Contents"
+  version: "1.0.0"
+  description: "Retrieve the contents of a roster."
+servers:
+  -
+    url: "https://api.sonorancms.com"
+paths:
+  /v2/community/rosters/{rosterId}:
+    get:
+      summary: "Get Roster Contents"
+      operationId: "getRosterContents"
+      parameters:
+        -
+          description: "Target roster id."
+          name: "rosterId"
+          in: "path"
+          schema:
+            type: "integer"
+          required: true
+        -
+          description: "Number of rows to skip."
+          name: "skip"
+          in: "query"
+          schema:
+            type: "integer"
+          required: false
+        -
+          description: "Maximum number of rows to return."
+          name: "limit"
+          in: "query"
+          schema:
+            type: "integer"
+          required: false
+      security:
+        -
+          bearerAuth: []
+      responses:
+        "200":
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+              example:
+                success: true
+                data:
+                  rows:
+                    -
+                      uuid: "55555555-5555-5555-5555-555555555555"
+                      sortPower: 10
+                      name: "ExampleAccount"
+                      rank: "Cadet"
+                  total: 1
+                  skip: 0
+                  limit: 25
+                  columns:
+                    -
+                      field: "name"
+                      type: "text"
+                      mask: ""
+                      reverseMask: false
+                      label: "Name"
+                      options: []
+                      metadata: {}
+                      cosmetic:
+                        font: null
+                        textColor: null
+                        color: null
+                        align: null
+                      style: {}
+                meta:
+                  timestamp: "2026-04-15T00:00:00.000Z"
+                  path: "/v2/community/rosters/1"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
 ```
 
 {% endtab %}
