@@ -114,18 +114,17 @@ curl --request POST \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` object is the nested short-url lookup result. On success it contains `success: true` and the resolved `redirect` URL.
 
 ```json
 {
   "success": true,
   "data": {
-    "path": "/go/example",
-    "shortUrl": "https://api.sonorancms.com/go/example",
-    "isCustomDomain": false
+    "success": true,
+    "redirect": "https://sonorancms.com/dashboard"
   },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/short-urls"
   }
 }

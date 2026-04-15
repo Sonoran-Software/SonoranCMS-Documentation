@@ -97,19 +97,27 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` array contains the full security identifier entities for the account, including verification, metadata, and optional flag information.
 
 ```json
 {
   "success": true,
   "data": [
     {
+      "id": "55555555-5555-5555-5555-555555555555",
+      "accId": "00000000-0000-0000-0000-000000000000",
       "type": "discord",
-      "value": "1234567890"
+      "value": "1234567890",
+      "refCount": 1,
+      "verified": true,
+      "metadata": {},
+      "flagId": null,
+      "createdAt": "2026-04-15T00:00:00.000Z",
+      "updatedAt": null
     }
   ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers"
   }
 }

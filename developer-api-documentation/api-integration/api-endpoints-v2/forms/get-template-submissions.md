@@ -130,21 +130,49 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` object contains the total submission count and the audited form list for the requested template id.
 
 ```json
 {
   "success": true,
-  "data": [
-    {
-      "submissionId": 1,
-      "formId": 1,
-      "accId": "00000000-0000-0000-0000-000000000000",
-      "stageId": "review"
-    }
-  ],
+  "data": {
+    "count": 1,
+    "forms": [
+      {
+        "formId": 42,
+        "sysStatus": true,
+        "submissionTime": "2026-04-15T00:00:00.000Z",
+        "lastActionTime": "2026-04-15T00:00:00.000Z",
+        "formSubmitter": "00000000-0000-0000-0000-000000000000",
+        "formContextUser": null,
+        "relatedUsers": [],
+        "formStructure": {
+          "_label": "Example Form Submission",
+          "fields": []
+        },
+        "formComments": {
+          "comments": []
+        },
+        "stageId": "22222222-2222-2222-2222-222222222222",
+        "stageGroupId": "11111111-1111-1111-1111-111111111111",
+        "stageInfoBackup": {
+          "stages": [],
+          "groups": []
+        },
+        "formTemplateId": 100,
+        "formType": 0,
+        "formReplySettings": {
+          "locked": false,
+          "submitter": true,
+          "rankIds": []
+        },
+        "showInProfile": false,
+        "stages": []
+      }
+    ]
+  },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/forms/1/submissions"
   }
 }

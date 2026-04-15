@@ -132,20 +132,21 @@ curl --request POST \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` value is usually the saved clock row. In no-op cases, the service can also return `true` when the requested clock action does not need to write a new row.
 
 ```json
 {
   "success": true,
   "data": {
-    "clockId": "clock-1",
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "state": "in",
-    "type": "regular",
-    "time": "2026-04-14T00:00:00.000Z"
+    "id": "55555555-5555-5555-5555-555555555555",
+    "startTime": "2026-04-15T00:00:00.000Z",
+    "endTime": null,
+    "completed": false,
+    "notes": [],
+    "type": "patrol"
   },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/clock"
   }
 }

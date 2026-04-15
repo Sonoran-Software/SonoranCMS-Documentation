@@ -142,31 +142,19 @@ curl --request PATCH \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` array is the updated profile field payload saved back onto the account. Each entry is just an `{ id, value }` pair.
 
 ```json
 {
   "success": true,
-  "data": {
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "accName": "Updated Account",
-    "activeApiIds": [],
-    "discordId": "1234567890",
-    "uniqueId": 1,
-    "banned": false,
-    "archived": false,
-    "comName": "Updated Account",
-    "comStatus": true,
-    "joinDate": "",
-    "lastLogin": "",
-    "owner": true,
-    "identifiers": [],
-    "ranks": [],
-    "sysStatus": true,
-    "profileFields": []
-  },
+  "data": [
+    {
+      "id": "discord",
+      "value": "1234567890"
+    }
+  ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/profile-fields"
   }
 }

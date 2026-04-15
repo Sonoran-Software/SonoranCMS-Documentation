@@ -121,17 +121,21 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` value is either the active clock row or the string `"Not Clocked In"` when the account has no open clock.
 
 ```json
 {
   "success": true,
   "data": {
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "current": null
+    "id": "55555555-5555-5555-5555-555555555555",
+    "startTime": "2026-04-15T00:00:00.000Z",
+    "endTime": null,
+    "completed": false,
+    "notes": [],
+    "type": "patrol"
   },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/clock/current"
   }
 }

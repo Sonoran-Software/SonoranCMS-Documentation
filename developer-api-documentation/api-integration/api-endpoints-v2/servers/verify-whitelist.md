@@ -121,18 +121,14 @@ curl --request POST \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` value is the account display name when the whitelist check succeeds. If the account is not allowed, the endpoint throws a problem-details error instead of returning a negative boolean.
 
 ```json
 {
   "success": true,
-  "data": {
-    "allowed": true,
-    "serverId": 1,
-    "reason": "Whitelisted"
-  },
+  "data": "ExampleAccount",
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/servers/1/whitelist/check"
   }
 }

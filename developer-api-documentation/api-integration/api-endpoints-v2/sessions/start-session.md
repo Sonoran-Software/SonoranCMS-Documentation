@@ -114,20 +114,26 @@ curl --request POST \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` object is the session row. `GET`, `POST`, and `PATCH` all return the `CommunityServerSession` entity shape on success.
 
 ```json
 {
   "success": true,
   "data": {
+    "id": "55555555-5555-5555-5555-555555555555",
+    "sysStatus": true,
+    "community": "00000000-0000-0000-0000-000000000000",
     "serverId": 1,
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "active": true,
-    "startedAt": "2026-04-14T00:00:00.000Z",
-    "stoppedAt": null
+    "startedBy": "00000000-0000-0000-0000-000000000000",
+    "startedAt": "2026-04-15T00:00:00.000Z",
+    "endedBy": null,
+    "endedAt": null,
+    "cancelledBy": null,
+    "stats": {},
+    "metadata": {}
   },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/sessions"
   }
 }

@@ -84,25 +84,37 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` object is the community `servers` container. It exposes the server list the backend stores for the community.
 
 ```json
 {
   "success": true,
-  "data": [
-    {
-      "id": 1,
-      "name": "Main Server",
-      "description": "Primary community server",
-      "ip": "127.0.0.1",
-      "port": "30120",
-      "type": "FiveM",
-      "erlcApiKey": "",
-      "robloxJoinCode": "ABC123"
-    }
-  ],
+  "data": {
+    "servers": [
+      {
+        "id": 1,
+        "name": "Main Server",
+        "description": "Primary gameplay server",
+        "ip": "127.0.0.1",
+        "port": "30120",
+        "typeLastUpdated": "2026-04-15T00:00:00.000Z",
+        "type": "erlc",
+        "robloxJoinCode": "ABCD-1234",
+        "aceConfig": {
+          "mappings": [
+            {
+              "ranks": [
+                "22222222-2222-2222-2222-222222222222"
+              ],
+              "principal": "group:123456"
+            }
+          ]
+        }
+      }
+    ]
+  },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/servers"
   }
 }

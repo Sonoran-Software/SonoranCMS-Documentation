@@ -84,19 +84,19 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` array contains the community clock-in types exactly as configured in the community settings.
 
 ```json
 {
   "success": true,
   "data": [
     {
-      "id": "regular",
-      "label": "Regular"
+      "id": "patrol",
+      "label": "Patrol"
     }
   ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/clockin-types"
   }
 }

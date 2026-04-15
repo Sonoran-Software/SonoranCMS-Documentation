@@ -141,22 +141,23 @@ curl --request PATCH \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` object is the updated ACE config wrapper with the saved `mappings` array.
 
 ```json
 {
   "success": true,
   "data": {
-    "serverId": 1,
     "mappings": [
       {
-        "discordRoleId": "1234567890",
-        "aceGroup": "admin"
+        "ranks": [
+          "22222222-2222-2222-2222-222222222222"
+        ],
+        "principal": "group:123456"
       }
     ]
   },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/servers/1/ace-config"
   }
 }

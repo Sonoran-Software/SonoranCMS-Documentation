@@ -108,23 +108,23 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` object is the community summary returned by `V2Service.summary()`. It includes the community identifier, UUID, name, sub-version, resolved tier, and server count.
+
+This lookup returns the same community summary shape as `GET /v2/community`, but it can resolve the community by id or UUID.
 
 ```json
 {
   "success": true,
   "data": {
-    "communityId": "YOUR_COMMUNITY_ID",
-    "communityName": "Example Community",
-    "subVersion": "pro",
-    "departments": [],
-    "profileFields": [],
-    "clockinTypes": [],
-    "customLogTypes": [],
-    "promotionFlows": []
+    "id": "CMS-1000",
+    "uuid": "00000000-0000-0000-0000-000000000000",
+    "name": "Example Community",
+    "subVersion": 5,
+    "tier": "SonoranOne",
+    "servers": 3
   },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/lookup"
   }
 }

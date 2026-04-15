@@ -84,19 +84,21 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` array contains the configured custom log types used by ERLC and disciplinary integrations.
 
 ```json
 {
   "success": true,
   "data": [
     {
-      "id": "training",
-      "label": "Training"
+      "id": "33333333-3333-3333-3333-333333333333",
+      "label": "Internal Warning",
+      "shortCode": "warn",
+      "melonlyId": "101"
     }
   ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/custom-log-types"
   }
 }

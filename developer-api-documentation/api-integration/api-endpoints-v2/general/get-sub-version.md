@@ -84,16 +84,17 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` object is the current community sub-version and the resolved tier name from `SubNumLevelToName()`.
 
 ```json
 {
   "success": true,
   "data": {
-    "subVersion": "pro"
+    "subVersion": 5,
+    "tier": "SonoranOne"
   },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/sub-version"
   }
 }

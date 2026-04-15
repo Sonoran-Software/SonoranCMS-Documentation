@@ -108,33 +108,33 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` object contains the matched accounts and a `total` count. This search endpoint does not page the result set beyond the service-level filters.
 
 ```json
 {
   "success": true,
-  "data": [
-    {
-      "accId": "00000000-0000-0000-0000-000000000000",
-      "accName": "ExampleAccount",
-      "activeApiIds": [],
-      "discordId": "1234567890",
-      "uniqueId": 1,
-      "banned": false,
-      "archived": false,
-      "comName": "Example Account",
-      "comStatus": true,
-      "joinDate": "",
-      "lastLogin": "",
-      "owner": true,
-      "identifiers": [],
-      "ranks": [],
-      "sysStatus": true,
-      "profileFields": []
-    }
-  ],
+  "data": {
+    "items": [
+      {
+        "accId": "00000000-0000-0000-0000-000000000000",
+        "uniqueId": 1001,
+        "accName": "ExampleAccount",
+        "comName": "Example Community",
+        "activeApiIds": [
+          "discord:1234567890"
+        ],
+        "discordId": "1234567890",
+        "sysStatus": true,
+        "comStatus": true,
+        "archived": false,
+        "banned": false,
+        "teamspeakId": null
+      }
+    ],
+    "total": 1
+  },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/accounts/search"
   }
 }

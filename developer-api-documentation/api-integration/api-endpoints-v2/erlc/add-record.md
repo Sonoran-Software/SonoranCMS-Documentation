@@ -129,19 +129,21 @@ curl --request POST \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The response shape varies by record `type`:
+
+- `note`, `kick`, and custom log types return a confirmation object such as `{ success: true, message: "Records added successfully" }`.
+- `ban` returns `{ success: true }` after the ban queue is updated.
+- `disciplinary` returns the disciplinary service payload, which is usually `{ success: true, data: [DisciplinaryRecord] }`.
 
 ```json
 {
   "success": true,
   "data": {
-    "recordId": "11111111-1111-1111-1111-111111111111",
-    "type": "note",
-    "reason": "Example note",
-    "points": 0
+    "success": true,
+    "message": "Records added successfully"
   },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/erlc/records"
   }
 }

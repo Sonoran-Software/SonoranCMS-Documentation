@@ -130,22 +130,44 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` object includes the paginated roster rows, paging metadata, and the roster column definitions that were used to shape the rows. Row keys are dynamic and follow the roster template.
 
 ```json
 {
   "success": true,
   "data": {
-    "rosterId": 1,
-    "entries": [
+    "rows": [
       {
-        "accId": "00000000-0000-0000-0000-000000000000",
-        "rank": "Captain"
+        "uuid": "55555555-5555-5555-5555-555555555555",
+        "sortPower": 10,
+        "name": "ExampleAccount",
+        "rank": "Cadet"
+      }
+    ],
+    "total": 1,
+    "skip": 0,
+    "limit": 25,
+    "columns": [
+      {
+        "field": "name",
+        "type": "text",
+        "mask": "",
+        "reverseMask": false,
+        "label": "Name",
+        "options": [],
+        "metadata": {},
+        "cosmetic": {
+          "font": null,
+          "textColor": null,
+          "color": null,
+          "align": null
+        },
+        "style": {}
       }
     ]
   },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/rosters/1"
   }
 }

@@ -122,18 +122,14 @@ curl --request POST \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` value is a toggle code. The service returns `RSVP_SUCCESS` when the account is added and `UNRSVP_SUCCESS` when the existing RSVP is removed.
 
 ```json
 {
   "success": true,
-  "data": {
-    "eventId": "11111111-1111-1111-1111-111111111111",
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "status": "going"
-  },
+  "data": "RSVP_SUCCESS",
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/events/11111111-1111-1111-1111-111111111111/rsvps"
   }
 }

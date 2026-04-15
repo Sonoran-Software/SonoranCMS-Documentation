@@ -127,20 +127,43 @@ curl --request POST \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` array contains the newly created disciplinary record rows, one per affected account.
 
 ```json
 {
   "success": true,
-  "data": {
-    "recordId": "11111111-1111-1111-1111-111111111111",
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "points": 5,
-    "reason": "Training violation",
-    "status": true
-  },
+  "data": [
+    {
+      "id": "55555555-5555-5555-5555-555555555555",
+      "status": true,
+      "accId": "00000000-0000-0000-0000-000000000000",
+      "source": "api",
+      "sourceId": "api-request",
+      "points": 5,
+      "reason": "Example disciplinary action",
+      "metadata": {
+        "executionSource": "discord"
+      },
+      "history": {
+        "2026-04-15T00:00:00.000Z": {
+          "action": "init",
+          "points": 5,
+          "reason": "Example disciplinary action",
+          "metadata": {
+            "executionSource": "discord"
+          },
+          "timestamp": "2026-04-15T00:00:00.000Z",
+          "source": "api",
+          "sourceId": "api-request"
+        }
+      },
+      "createdAt": "2026-04-15T00:00:00.000Z",
+      "updatedAt": null,
+      "expired": false
+    }
+  ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/records"
   }
 }

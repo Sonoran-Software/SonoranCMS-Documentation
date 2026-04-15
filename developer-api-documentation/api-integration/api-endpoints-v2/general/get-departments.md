@@ -84,19 +84,29 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` array is the community department list. Each department includes its label pair and the ranks nested beneath it.
 
 ```json
 {
   "success": true,
   "data": [
     {
-      "departmentId": 1,
-      "name": "Patrol"
+      "uuid": "11111111-1111-1111-1111-111111111111",
+      "label": "Police Department",
+      "labelTwo": "Police",
+      "ranks": [
+        {
+          "id": "22222222-2222-2222-2222-222222222222",
+          "label": "Cadet",
+          "primaryOnly": true,
+          "secondaryOnly": false,
+          "power": 10
+        }
+      ]
     }
   ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/departments"
   }
 }

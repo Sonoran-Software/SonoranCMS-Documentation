@@ -121,17 +121,14 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` value is the computed disciplinary point total for the account.
 
 ```json
 {
   "success": true,
-  "data": {
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "points": 10
-  },
+  "data": 12,
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/disciplinary/accounts/00000000-0000-0000-0000-000000000000/points"
   }
 }

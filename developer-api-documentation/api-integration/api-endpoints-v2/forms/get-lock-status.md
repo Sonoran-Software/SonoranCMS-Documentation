@@ -96,17 +96,14 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` value is a boolean. `true` means the form template is locked; `false` means it is open.
 
 ```json
 {
   "success": true,
-  "data": {
-    "templateId": 1,
-    "state": true
-  },
+  "data": true,
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/forms/1/lock"
   }
 }

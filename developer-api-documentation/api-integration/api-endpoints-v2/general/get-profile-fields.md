@@ -84,7 +84,7 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` array contains the community profile field definitions with their ids, labels, types, options, and metadata.
 
 ```json
 {
@@ -93,11 +93,15 @@ Successful requests return `application/json` and use the standard v2 envelope.
     {
       "id": "discord",
       "label": "Discord",
-      "type": "text"
+      "type": "discord",
+      "options": null,
+      "metadata": {
+        "placeholder": "username#0000"
+      }
     }
   ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/profile-fields"
   }
 }

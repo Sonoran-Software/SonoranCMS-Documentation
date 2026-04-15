@@ -141,22 +141,39 @@ curl --request POST \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` array contains one result object per flow/user combination. Each entry includes the users involved, the flow id, whether it was a promotion or demotion, the execution result, and the resolved flow config.
 
 ```json
 {
   "success": true,
-  "data": {
-    "triggered": 1,
-    "results": [
-      {
-        "flowId": "flow-1",
-        "status": "queued"
+  "data": [
+    {
+      "users": [
+        "00000000-0000-0000-0000-000000000000"
+      ],
+      "flow": "44444444-4444-4444-4444-444444444444",
+      "promote": true,
+      "succeeded": true,
+      "message": "Promotion executed successfully",
+      "config": {
+        "id": "44444444-4444-4444-4444-444444444444",
+        "communityUuid": "00000000-0000-0000-0000-000000000000",
+        "labelFrom": "Cadet",
+        "labelTo": "Officer",
+        "ranksToAdd": [
+          "22222222-2222-2222-2222-222222222222"
+        ],
+        "ranksToRemove": [],
+        "actions": {
+          "data": [],
+          "promotionType": "both"
+        },
+        "promotionType": "both"
       }
-    ]
-  },
+    }
+  ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/promotion-flows/trigger"
   }
 }

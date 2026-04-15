@@ -140,31 +140,90 @@ curl --request PATCH \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` object is the updated account row returned by the rank update service. It reflects the new `ranks` and community status after the update.
 
 ```json
 {
   "success": true,
   "data": {
     "accId": "00000000-0000-0000-0000-000000000000",
-    "accName": "Updated Account",
-    "activeApiIds": [],
-    "discordId": "1234567890",
-    "uniqueId": 1,
-    "banned": false,
-    "archived": false,
-    "comName": "Updated Account",
-    "comStatus": true,
-    "joinDate": "",
-    "lastLogin": "",
-    "owner": true,
-    "identifiers": [],
-    "ranks": [],
     "sysStatus": true,
-    "profileFields": []
+    "comStatus": true,
+    "accName": "ExampleAccount",
+    "comName": "Example Community",
+    "joinDate": "2026-04-15T00:00:00.000Z",
+    "lastLogin": "2026-04-15T00:00:00.000Z",
+    "owner": false,
+    "banned": false,
+    "banInfo": null,
+    "banExpiration": null,
+    "apiIdPreference": 0,
+    "apiIds": {
+      "ids": []
+    },
+    "activeApiIds": [
+      "discord:1234567890"
+    ],
+    "identifiers": {
+      "idents": [
+        {
+          "id": "55555555-5555-5555-5555-555555555555",
+          "accId": "00000000-0000-0000-0000-000000000000",
+          "type": "discord",
+          "value": "1234567890",
+          "refCount": 1,
+          "verified": true,
+          "metadata": {},
+          "flagId": null,
+          "createdAt": "2026-04-15T00:00:00.000Z",
+          "updatedAt": null
+        }
+      ]
+    },
+    "ranks": [
+      "22222222-2222-2222-2222-222222222222"
+    ],
+    "clockData": {
+      "data": [
+        {
+          "id": "55555555-5555-5555-5555-555555555555",
+          "startTime": "2026-04-15T00:00:00.000Z",
+          "endTime": null,
+          "completed": false,
+          "notes": [],
+          "type": "patrol"
+        }
+      ]
+    },
+    "profileFields": {
+      "data": [
+        {
+          "id": "discord",
+          "value": "1234567890"
+        }
+      ]
+    },
+    "bio": null,
+    "archived": false,
+    "discordId": "1234567890",
+    "robloxId": "987654321",
+    "uniqueId": 1001,
+    "customUniqueId": false,
+    "notificationPreferences": {
+      "forms": {
+        "statusChange": {
+          "inbox": true,
+          "desktop": true,
+          "mobile": true,
+          "email": true,
+          "discord": true
+        }
+      }
+    },
+    "teamspeakId": null
   },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/ranks"
   }
 }

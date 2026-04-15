@@ -131,18 +131,23 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+When `type=clockin` the `data` array contains the three newest clock rows. When `type=activity` the same endpoint returns recent activity log rows instead of clock rows.
 
 ```json
 {
   "success": true,
-  "data": {
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "type": "activity",
-    "createdAt": "2026-04-14T00:00:00.000Z"
-  },
+  "data": [
+    {
+      "id": "55555555-5555-5555-5555-555555555555",
+      "startTime": "2026-04-15T00:00:00.000Z",
+      "endTime": null,
+      "completed": false,
+      "notes": [],
+      "type": "patrol"
+    }
+  ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/activity/latest"
   }
 }

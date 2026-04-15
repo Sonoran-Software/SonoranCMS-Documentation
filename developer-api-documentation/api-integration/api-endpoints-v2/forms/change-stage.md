@@ -131,19 +131,60 @@ curl --request PATCH \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` object includes the saved form, the chosen stage, and the remaining available stages. The outer service contract also carries `authorized` and `failed` flags.
 
 ```json
 {
   "success": true,
   "data": {
-    "formId": 1,
-    "accId": "00000000-0000-0000-0000-000000000000",
-    "stageId": "review",
-    "reason": "Reviewed manually."
+    "authorized": true,
+    "failed": false,
+    "data": {
+      "form": {
+        "formId": 42,
+        "sysStatus": true,
+        "submissionTime": "2026-04-15T00:00:00.000Z",
+        "lastActionTime": "2026-04-15T00:00:00.000Z",
+        "formSubmitter": "00000000-0000-0000-0000-000000000000",
+        "formContextUser": null,
+        "relatedUsers": [],
+        "formStructure": {
+          "_label": "Example Form Submission",
+          "fields": []
+        },
+        "formComments": {
+          "comments": []
+        },
+        "stageId": "22222222-2222-2222-2222-222222222222",
+        "stageGroupId": "11111111-1111-1111-1111-111111111111",
+        "stageInfoBackup": {
+          "stages": [],
+          "groups": []
+        },
+        "formTemplateId": 100,
+        "formType": 0,
+        "formReplySettings": {
+          "locked": false,
+          "submitter": true,
+          "rankIds": []
+        },
+        "showInProfile": false,
+        "stages": []
+      },
+      "newStage": {
+        "id": "33333333-3333-3333-3333-333333333333",
+        "label": "Interview"
+      },
+      "availableStages": [
+        {
+          "id": "44444444-4444-4444-4444-444444444444",
+          "label": "Training"
+        }
+      ]
+    }
   },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/forms/1/stage"
   }
 }

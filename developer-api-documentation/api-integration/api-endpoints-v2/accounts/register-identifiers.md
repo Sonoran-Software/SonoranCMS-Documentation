@@ -142,22 +142,23 @@ curl --request POST \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` array contains only the identifier type/value pairs that were registered successfully for the account.
 
 ```json
 {
   "success": true,
-  "data": {
-    "registered": true,
-    "identifiers": [
-      {
-        "type": "discord",
-        "value": "1234567890"
-      }
-    ]
-  },
+  "data": [
+    {
+      "type": "discord",
+      "value": "1234567890"
+    },
+    {
+      "type": "roblox",
+      "value": "987654321"
+    }
+  ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/identifiers"
   }
 }

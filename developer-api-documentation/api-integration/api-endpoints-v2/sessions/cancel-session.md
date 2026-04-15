@@ -114,4 +114,6 @@ curl --request DELETE \
 
 ## Response
 
-This endpoint returns `204 No Content` with no JSON body.
+The cancel endpoint intentionally returns no JSON body when it succeeds.
+
+This endpoint returns `204 No Content` on success, so there is no response body.

@@ -129,18 +129,14 @@ curl --request POST \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` value is a confirmation string once the command has been queued for ERLC execution.
 
 ```json
 {
   "success": true,
-  "data": {
-    "commandId": "cmd-1",
-    "queued": true,
-    "output": "Command queued."
-  },
+  "data": "Successfully added command to queue",
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/erlc/commands"
   }
 }

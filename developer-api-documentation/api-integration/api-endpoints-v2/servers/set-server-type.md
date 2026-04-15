@@ -121,17 +121,33 @@ curl --request PATCH \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` object is the updated server row. It includes the new `type` and `typeLastUpdated` values.
 
 ```json
 {
   "success": true,
   "data": {
-    "serverId": 1,
-    "type": "FiveM"
+    "id": 1,
+    "name": "Main Server",
+    "description": "Primary gameplay server",
+    "ip": "127.0.0.1",
+    "port": "30120",
+    "typeLastUpdated": "2026-04-15T00:00:00.000Z",
+    "type": "erlc",
+    "robloxJoinCode": "ABCD-1234",
+    "aceConfig": {
+      "mappings": [
+        {
+          "ranks": [
+            "22222222-2222-2222-2222-222222222222"
+          ],
+          "principal": "group:123456"
+        }
+      ]
+    }
   },
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/servers/1/type"
   }
 }

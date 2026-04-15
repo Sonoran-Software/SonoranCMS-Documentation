@@ -108,20 +108,14 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` value is the current queue length for the target server, not the queue entries themselves.
 
 ```json
 {
   "success": true,
-  "data": [
-    {
-      "playerName": "ExamplePlayer",
-      "userId": "1234567890",
-      "joinCode": "ABC123"
-    }
-  ],
+  "data": 3,
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/erlc/players/queue"
   }
 }

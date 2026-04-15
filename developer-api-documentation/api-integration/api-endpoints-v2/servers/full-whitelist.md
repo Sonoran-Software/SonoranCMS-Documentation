@@ -96,20 +96,22 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` array contains the full whitelist entries, each with the community account name and the API identifiers that should be allowed into the server.
 
 ```json
 {
   "success": true,
   "data": [
     {
-      "accId": "00000000-0000-0000-0000-000000000000",
-      "username": "ExampleUser",
-      "allowed": true
+      "name": "ExampleAccount",
+      "apiIds": [
+        "discord:1234567890",
+        "roblox:987654321"
+      ]
     }
   ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/servers/1/whitelist"
   }
 }

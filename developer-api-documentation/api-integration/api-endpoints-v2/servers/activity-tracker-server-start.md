@@ -96,19 +96,21 @@ curl --request POST \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` array contains the rows that were force-finished when a server start reset cleared in-progress activity.
 
 ```json
 {
   "success": true,
-  "data": {
-    "serverId": 1,
-    "tracked": true,
-    "forceStart": false,
-    "forceStop": false
-  },
+  "data": [
+    {
+      "id": "55555555-5555-5555-5555-555555555555",
+      "accId": "00000000-0000-0000-0000-000000000000",
+      "serverId": 1,
+      "end": "2026-04-15T00:00:00.000Z"
+    }
+  ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/servers/1/activity/start"
   }
 }

@@ -84,20 +84,30 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` array contains promotion flow entities with the derived `promotionType` field added by the v2 service.
 
 ```json
 {
   "success": true,
   "data": [
     {
-      "flowId": "flow-1",
-      "name": "Promotions",
-      "trigger": "manual"
+      "id": "44444444-4444-4444-4444-444444444444",
+      "communityUuid": "00000000-0000-0000-0000-000000000000",
+      "labelFrom": "Cadet",
+      "labelTo": "Officer",
+      "ranksToAdd": [
+        "22222222-2222-2222-2222-222222222222"
+      ],
+      "ranksToRemove": [],
+      "actions": {
+        "data": [],
+        "promotionType": "both"
+      },
+      "promotionType": "both"
     }
   ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/promotion-flows"
   }
 }

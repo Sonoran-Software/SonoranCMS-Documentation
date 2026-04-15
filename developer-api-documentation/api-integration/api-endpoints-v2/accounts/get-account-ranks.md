@@ -97,20 +97,17 @@ curl --request GET \
 
 ## Response
 
-Successful requests return `application/json` and use the standard v2 envelope.
+The `data` array contains only the account rank ids, in the same order stored on the account row.
 
 ```json
 {
   "success": true,
   "data": [
-    {
-      "rankId": "rank-1",
-      "name": "Captain",
-      "active": true
-    }
+    "22222222-2222-2222-2222-222222222222",
+    "33333333-3333-3333-3333-333333333333"
   ],
   "meta": {
-    "timestamp": "2026-04-14T00:00:00.000Z",
+    "timestamp": "2026-04-15T00:00:00.000Z",
     "path": "/v2/community/accounts/00000000-0000-0000-0000-000000000000/ranks"
   }
 }
