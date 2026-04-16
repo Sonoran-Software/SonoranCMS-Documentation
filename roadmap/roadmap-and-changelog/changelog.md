@@ -10,6 +10,52 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.3.10 04/16/2026
+
+{% tabs %}
+{% tab title="New" %}
+Rank Permission Filter
+
+* Improved the permission search filtering in the rank editor, disabling and highlighting matches accordingly
+
+Notification Center UI Refresh
+
+* Initial UI refresh of the notification center menu
+
+Purge Inactive Members
+
+* Added a system to purge inactive user accounts from the community
+
+Create Community UI Refresh
+
+* Initial UI refresh of the create community modal
+{% endtab %}
+
+{% tab title="Changed" %}
+Community Delete, ID, and Transfer Location
+
+* Moved the community options to customize the ID, delete, and transfer to the customization menu
+
+Admin Form Tab
+
+* Added a new selector in the admin forms menu to change between the editor and submission board
+
+Mobile Zoom
+
+* Removed the ability to zoom in and out of panels when using the mobile app
+{% endtab %}
+
+{% tab title="Fixed" %}
+CAD Sync Translations
+
+* Fixed missing CAD sync translation keys
+
+Database Audit
+
+* Pruned and optimized the database to remove old and unused data
+{% endtab %}
+
+{% endtabs %}
 ### 1.3.9 03/27/2026
 
 {% tabs %}
