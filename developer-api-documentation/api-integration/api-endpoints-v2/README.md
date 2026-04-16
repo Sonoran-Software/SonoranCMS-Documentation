@@ -33,6 +33,14 @@ Each section below expands into individual endpoint pages.
 
 ## Available Sections
 
+### Libraries
+
+Use the official Sonoran SDK libraries if you want package-managed helpers for the v2 API.
+
+{% content-ref url="libraries.md" %}
+[libraries](libraries.md)
+{% endcontent-ref %}
+
 ### General
 
 {% content-ref url="general/" %}

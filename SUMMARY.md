@@ -173,6 +173,7 @@
       * [Stop Session](developer-api-documentation/api-integration/api-endpoints/sessions/stop-session.md)
       * [Cancel Session](developer-api-documentation/api-integration/api-endpoints/sessions/cancel-session.md)
   * [API Endpoints V2](developer-api-documentation/api-integration/api-endpoints-v2/README.md)
+    * [Libraries](developer-api-documentation/api-integration/api-endpoints-v2/libraries.md)
     * [General](developer-api-documentation/api-integration/api-endpoints-v2/general/README.md)
       * [Get Community](developer-api-documentation/api-integration/api-endpoints-v2/general/get-community.md)
       * [Get Sub Version](developer-api-documentation/api-integration/api-endpoints-v2/general/get-sub-version.md)
