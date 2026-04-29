@@ -36,8 +36,6 @@ To move a file without drag n drop, you can right click the document then <kbd>M
 
 Folders have share settings with them to determine who can view/edit via the direct link. To edit a folder's share settings you can right click the folder and select "Share Settings".
 
-
-
 ### View Mode
 
 You can change the view mode between grid and list by using the orange toggle button at the top right of the drive.
@@ -72,7 +70,7 @@ To rename the page, simply type the new name and press the checkmark.
 
 ### Share Settings
 
-<figure><img src="../.gitbook/assets/Screenshot (343) (1).png" alt=""><figcaption><p>Sonoran CMS - Drive - Share Settings Dialog</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot (343).png" alt=""><figcaption><p>Sonoran CMS - Drive - Share Settings Dialog</p></figcaption></figure>
 
 To change share settings, simply right click the file and select "Share Settings". If you're editing the document already you can simply click the "Share Settings" icon on the top right.
 

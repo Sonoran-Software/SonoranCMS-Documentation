@@ -51,6 +51,7 @@
     * [Logging Center](tutorials/administrative/security-center/logging-center.md)
   * [Disciplinary Panel](tutorials/administrative/disciplinary-panel.md)
   * [URL Shortener](tutorials/administrative/url-shortener.md)
+  * [Backups](tutorials/administrative/backups.md)
 
 ## Integration Capabilities
 
