@@ -16,7 +16,7 @@ Straight out of the box there's no way to utilize the clock in/out times that yo
 
 While having a [custom form](creating-custom-forms.md) with the form type of "Patrol Log" you can utilize the "Patrol Start/End" column type which will allow you to import clock in/out times straight into the form.
 
-![Sonoran CMS - Clock In/Out Component](<../../.gitbook/assets/Screenshot (406).png>)
+![Sonoran CMS - Clock In/Out Component](../../.gitbook/assets/opera_58VDw8MOs4.png)
 
 ### Using the Clock In/Out Feature
 
@@ -26,11 +26,11 @@ The CMS Permission **Clock In & Out** must be granted in order for this to be us
 
 Using the Clock In/Out feature is easy as clicking the "Clock In" button, doing this will clock you in, giving you the option to clock out after the 60s or cancel the clock in entirely.
 
-![Sonoran CMS - Clocked In View](<../../.gitbook/assets/Screenshot (407).png>)
+![Sonoran CMS - Clocked In View](../../.gitbook/assets/opera_46cyqwUAHg.png)
 
-Once the "Clock Out" button is available to be used and when you're ready to clock out all you need to do is click the "Clock Out" button.&#x20;
+Once the "Clock Out" button is available to be used and when you're ready to clock out all you need to do is click the "Clock Out" button.
 
-![Sonoran CMS - Clocked Out View](<../../.gitbook/assets/Screenshot (408).png>)
+![Sonoran CMS - Clocked Out View](../../.gitbook/assets/opera_R63ZxGqQzf.png)
 
 ### Clock In Notes
 

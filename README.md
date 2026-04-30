@@ -61,13 +61,13 @@ Each form stage has [powerful automations](tutorials/forms/creating-custom-forms
 
 Sonoran CMS is your single point of management for in-game whitelisting! Automatically whitelist players based on CMS rank for [FiveM](integration-capabilities/in-game-integration-resources/core/core-submodules/whitelist.md), [Minecraft](integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/whitelist.md), [Roblox](integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/whitelist.md), and more!
 
-![Sonoran CMS - Whitelist Management](.gitbook/assets/CMS_Whitelist.png)
+![Sonoran CMS - Whitelist Management](.gitbook/assets/whitelist_integration_promo.png)
 
 ## 🔒 [Advanced Security and Alt Account Detection](tutorials/administrative/security-center/)
 
 Sonoran CMS is the best way to ensure your community stays protected. Prevent banned users from ever applying or joining your community again with [advanced alternate account detection](tutorials/administrative/security-center/#account-flags). Or, easily filter and find [user action logs](tutorials/administrative/security-center/#logging-center) throughout your CMS platform.
 
-<figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption><p>Sonoran CMS - Security Center</p></figcaption></figure>
+<figure><img src=".gitbook/assets/security-center-promo.png" alt=""><figcaption><p>Sonoran CMS - Security Center</p></figcaption></figure>
 
 ## 🎮 [FiveM Management Panel](integration-capabilities/fivem-game-panel/)
 

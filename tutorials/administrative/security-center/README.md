@@ -4,7 +4,7 @@ description: Sonoran CMS offers advanced tools to keep your community secure.
 
 # Security Center
 
-<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Sonoran CMS - Security Center</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/security-center-promo.png" alt=""><figcaption><p>Sonoran CMS - Security Center</p></figcaption></figure>
 
 ## Account Flags
 

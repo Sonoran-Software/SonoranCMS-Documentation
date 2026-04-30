@@ -22,15 +22,19 @@ Navigate to the `Administrative Panel`
 
 ### 2. Navigate to the Limits View
 
-Under the `Advanced` tab, select `Limits`.
+Under the `Community` tab, select `Customization`.
 
-![Sonoran CMS - Limits View](<../../.gitbook/assets/Screenshot (415).png>)
+![Sonoran CMS - Limits View](../../.gitbook/assets/opera_Sdi6ogWSbt.png)
+
+Scroll to the bottom to the `Advanced` section.
+
+<figure><img src="../../.gitbook/assets/opera_nwYynV6Y8w.png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Delete Community
 
 Select the **Delete Community** button located in the `Limits` tab and follow the steps it provides.
 
-![Sonoran CMS - First Community Deletion Confirmation](<../../.gitbook/assets/Screenshot (416) (1).png>)
+![Sonoran CMS - First Community Deletion Confirmation](../../.gitbook/assets/opera_7GNpaDbta4.png)
 
 ## How-To: Transferring a Community
 
@@ -38,15 +42,15 @@ Select the **Delete Community** button located in the `Limits` tab and follow th
 
 <figure><img src="../../.gitbook/assets/Screenshot (414).png" alt=""><figcaption><p>Sonoran CMS - Administrative Panel</p></figcaption></figure>
 
-### 2. Navigate to the Limits View
+### 2. Navigate to the Customizations Panel
 
-<figure><img src="../../.gitbook/assets/Screenshot (415).png" alt=""><figcaption><p>Sonoran CMS - Community Limits View</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/opera_Sdi6ogWSbt.png" alt=""><figcaption><p>Sonoran CMS - Community Limits View</p></figcaption></figure>
 
 ### 3. Transfer Community
 
-Select the "Transfer Community" button located in the `Limits` tab and follow the steps provided.
+Select the "Transfer Community" button located in the `Advanced` section and follow the steps provided.
 
-<figure><img src="../../.gitbook/assets/Screenshot (417).png" alt=""><figcaption><p>Sonoran CMS - Transfer Community Selection</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/opera_DCDuuGDxvW.png" alt=""><figcaption><p>Sonoran CMS - Transfer Community Selection</p></figcaption></figure>
 
 ### 4. Finalize Transfer
 

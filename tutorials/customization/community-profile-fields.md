@@ -4,7 +4,7 @@ description: >-
   and edit date directly on a profile with view & edit permissions.
 ---
 
-# Profile Fields
+# Customizing Profile Fields
 
 {% embed url="https://www.youtube.com/watch?v=f7kPZXi1Fdc" %}
 
@@ -12,7 +12,7 @@ description: >-
 
 Profile Fields allow communities to put direct information onto member's profiles that can be restricted to certain viewers, editors, etc. with rank permissions. Profile Fields are dynamically displayed on profiles depending on what ranks the profile you're viewing holds.
 
-<figure><img src="../../.gitbook/assets/Screenshot (310).png" alt=""><figcaption><p>Sonoran CMS - Profile Fields Editor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/opera_AU9m9hCdI3.png" alt=""><figcaption><p>Sonoran CMS - Profile Fields Editor</p></figcaption></figure>
 
 Easily create and edit profile fields to your liking to fit your community's needs. Each field can be customized to have a different type and label with more to come in the future. Additionally, you can drag and drop profile field blocks to change the order in which they display on user's profiles.
 
@@ -28,7 +28,7 @@ Once you're satisfied with the customizations you made to the field you can clic
 
 Now that you've created a field you'll want to move onto the next section detailing the permissions associated with fields.
 
-<figure><img src="../../.gitbook/assets/Screenshot (311).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/opera_mJdjLOovQw.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 All existing profile fields will display on the preview profile, this is how they'll appear in the member profile view.
@@ -42,7 +42,7 @@ Below we've outlined each permission and how they work with fields:
 
 <table><thead><tr><th width="240">Permission</th><th width="509">Explanation</th></tr></thead><tbody><tr><td>Restrict Visibility</td><td>Only users with specified ranks are allowed to view this field.</td></tr><tr><td>Allow Editing</td><td>Users are allowed to edit this field on their profile.</td></tr><tr><td>Allow Others to Edit</td><td>Users with specified ranks are allowed to modify this field on another's profile.</td></tr></tbody></table>
 
-In the Profile Fields editor, you can select the specific ranks that you want to apply this permission to. Click on the profile field you would like to edit, then click on `Edit Permissions` at the bottom of the box.&#x20;
+In the Profile Fields editor, you can select the specific ranks that you want to apply this permission to. Click on the profile field you would like to edit, then click on `Edit Permissions` at the bottom of the box.
 
 This will open a box where you can select which permission you would like to modify, and within it you can select which ranks you would like to grant this permission to. In the following example, the ranks "Manager", "Super Admin", and "Admin" are given permission to edit this field on their profiles.
 
@@ -54,7 +54,7 @@ Select the rank that you'd like to edit and review the permissions below while s
 
 <figure><img src="../../.gitbook/assets/Screenshot (315).png" alt=""><figcaption><p>Sonoran CMS - Department Editor - Profile Fields Permissions</p></figcaption></figure>
 
-These permissions integrate with the permission settings in the Profile Fields editor, toggling a permission in the rank editor will automatically check the rank's box inside the Profile Fields permission editor.&#x20;
+These permissions integrate with the permission settings in the Profile Fields editor, toggling a permission in the rank editor will automatically check the rank's box inside the Profile Fields permission editor.
 
 ### Editing Profile Fields
 

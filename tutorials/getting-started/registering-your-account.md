@@ -18,7 +18,7 @@ On the website or app, select your Login method.
 
 When viewing a specific community, they may have [restricted login options](../customization/community-branding-and-settings.md#allowed-login-methods).
 
-![The account registration panel allows users to input their information.](<../../.gitbook/assets/Screenshot (191).png>)
+![The account registration panel allows users to input their information.](../../.gitbook/assets/opera_h4nifIVsKH.png)
 
 ### 2. Enter Your Account Information
 

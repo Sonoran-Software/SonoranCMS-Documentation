@@ -16,7 +16,7 @@ Users can [create an account](registering-your-account.md), and click the blue a
 
 From there, users can select your community card in the **My Communities** section to log into your CMS.
 
-<figure><img src="../../.gitbook/assets/Screenshot (198).png" alt=""><figcaption><p>The join community model allows users to search for a community ID.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/opera_rvMhnSYGE9.png" alt=""><figcaption><p>The join community model allows users to search for a community ID.</p></figcaption></figure>
 
 ## Join Community with a URL
 

@@ -4,7 +4,7 @@ description: Generate custom short URLs with your CMS vanity or custom domain!
 
 # URL Shortener
 
-<figure><img src="../../.gitbook/assets/rectangle_linkshort.png" alt=""><figcaption><p>Sonoran CMS - URL Shortener</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/04099dc8-cbdb-4e4d-a20a-465a5f6892a9.png" alt=""><figcaption><p>Sonoran CMS - URL Shortener</p></figcaption></figure>
 
 {% hint style="danger" %}
 **The URL Shortener is only enabled with a Pro Subscription!**
@@ -29,11 +29,11 @@ To forward `https://discord.com/invite/123456` to our [custom domain](../customi
 2. Enter the new short URL path `discord`
 3. (Optional) add a description `Discord invite link`
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="547"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/opera_eUD6StJNa6.png" alt=""><figcaption></figcaption></figure>
 
 After adding the new short URL, it will be viewable, searchable, and copyable in the table below.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/opera_LHZIceb8lP.png" alt=""><figcaption></figcaption></figure>
 
 ### Domain Formats
 

@@ -12,7 +12,7 @@ description: >-
 
 To access the "Roster Editor", navigate to `Administrative Panel` > `Rosters`
 
-![Sonoran CMS - Roster Editor Overview](<../../.gitbook/assets/Screenshot (239).png>)
+![Sonoran CMS - Roster Editor Overview](../../.gitbook/assets/opera_azuiWkgdFy.png)
 
 Within this "Roster Editor" panel you'll be able to create custom and automatic rosters with whatever columns you please. You can specify some of the columns to utilize the custom column types that are in place such as the:
 

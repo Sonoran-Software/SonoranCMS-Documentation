@@ -40,4 +40,4 @@ This allows administrators to easily track their community's growth, decline, or
 * URL Shortener
   * Number of visits to each link from the[ URL shortener](../url-shortener.md)
 
-<figure><img src="../../../.gitbook/assets/Screenshot (432).png" alt=""><figcaption><p>Sonoran CMS - Discovery Settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/opera_t26sukMy7h.png" alt=""><figcaption><p>Sonoran CMS - Discovery Settings</p></figcaption></figure>

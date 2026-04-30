@@ -21,7 +21,7 @@ You will be prompted for five information fields:
 4. Community Banner
 5. Community Description
 
-![The community CMS registration model is shown as above.](<../../.gitbook/assets/Screenshot (197).png>)
+![The community CMS registration model is shown as above.](../../.gitbook/assets/opera_9fHkaT6pFy.png)
 
 ### 2. Register Your Community
 
