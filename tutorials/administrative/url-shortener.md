@@ -4,7 +4,7 @@ description: Generate custom short URLs with your CMS vanity or custom domain!
 
 # URL Shortener
 
-<figure><img src="../../.gitbook/assets/04099dc8-cbdb-4e4d-a20a-465a5f6892a9.png" alt=""><figcaption><p>Sonoran CMS - URL Shortener</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/e459da71-42e7-49f6-9eb7-7ec09cbd3bfa.png" alt=""><figcaption><p>Sonoran CMS - URL Shortener</p></figcaption></figure>
 
 {% hint style="danger" %}
 **The URL Shortener is only enabled with a Pro Subscription!**
