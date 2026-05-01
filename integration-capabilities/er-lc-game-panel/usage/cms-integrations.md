@@ -46,6 +46,10 @@ The [CMS Actions panel](../../../tutorials/administrative/actions.md) performs r
 
 <figure><img src="../../../.gitbook/assets/image (24).png" alt="" width="375"><figcaption></figcaption></figure>
 
+Additionally, actions can be triggered via a manual in-game ER:LC command.
+
+<figure><img src="../../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+
 </details>
 
 ## Disciplinary Points
