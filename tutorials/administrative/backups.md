@@ -4,10 +4,6 @@ description: Restore daily backups of your community that are retained for 7 day
 
 # Backups
 
-{% hint style="warning" %}
-This feature is currently **not available** at this time.
-{% endhint %}
-
 <figure><img src="../../.gitbook/assets/community_backups_promo.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
