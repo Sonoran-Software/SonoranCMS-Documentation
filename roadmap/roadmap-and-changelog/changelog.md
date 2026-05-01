@@ -10,6 +10,46 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.4.0 05/01/2026
+
+{% tabs %}
+{% tab title="New" %}
+Required From Field Tooltip
+
+* When the next/submit button is disabled due to an empty required field in the form submission, a tooltip will now mention the specific field required.
+
+ER:LC Action Command
+
+* Actions on the actions panel can now have customizable ER:LC commands in-game
+
+Form Templates DB Storage
+
+* Moved community form templates to a dedicated table, optimizing database performance.
+
+Community Backups
+
+* Added community backups, allowing restoration of data in the event of a rogue staff member.
+
+Admin Profile Editor Refresh
+
+* Refreshed UI of the admin profile editor panel
+
+Admin Discovery Config Refresh
+
+* Refreshed UI for the admin discovery configuration panel
+{% endtab %}
+
+{% tab title="Changed" %}
+Notification SFX
+
+* Updated the notification SFX because Brian's dog didn't like it. Also, fixed issues with no live SFX as notifications came in.
+
+Discord Role Search Improvements
+
+* Improved UI for Discord role search drop-downs
+{% endtab %}
+
+{% endtabs %}
 ### 1.3.10 04/16/2026
 
 {% tabs %}
