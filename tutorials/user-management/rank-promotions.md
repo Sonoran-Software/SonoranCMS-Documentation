@@ -106,9 +106,21 @@ Communities can [run promotional flows right from a Discord command](https://doc
 
 </details>
 
+<details>
+
+<summary>Via Form Stage Action</summary>
+
+Communities can also [create custom forms](../forms/creating-custom-forms.md) that will run promotional flows on selected users when the stage is changed.
+
+The form can have an optional **Promotional Flow** and **Member Selector** question for the [stage action](../forms/creating-custom-forms.md#form-stages) to use. These form inputs can be used in the custom stage action.
+
+<div><figure><img src="../../.gitbook/assets/image (93).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (94).png" alt="" width="281"><figcaption></figcaption></figure></div>
+
+</details>
+
 ### Permissions
 
-To allow others to manage Promotion Flows on your behalf, you can assign the following [permissions](creating-departments.md#assigning-rank-permissions).&#x20;
+To allow others to manage Promotion Flows on your behalf, you can assign the following [permissions](creating-departments.md#assigning-rank-permissions).
 
 * Create/Edit/Remove Promotion Flows
   * **Modify Departments**

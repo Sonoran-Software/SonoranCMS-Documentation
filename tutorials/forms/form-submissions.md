@@ -30,9 +30,13 @@ As a user, your submissions can be viewed below the Available Forms section, or 
 
 ## Viewing Form Submissions (Admin)
 
-Admins can view form submissions under `Available Forms` > `Go To Submissions` or in the admin panel under `Forms` > `Go To Submissions`
+Submissions can be viewed on the **Available Forms** menu > **Go To Submissions**.
 
-<div><figure><img src="../../.gitbook/assets/Screenshot (401).png" alt=""><figcaption><p>Admin Forms: Submission</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot (402).png" alt=""><figcaption><p>Available Forms: Submissions</p></figcaption></figure></div>
+Or, admins can view form submissions under **Forms** > **Submissions**
+
+&#x20;`Available Forms` > `Go To Submissions` or in the admin panel under `Forms` > `Go To Submissions`
+
+<div><figure><img src="../../.gitbook/assets/Screenshot (402).png" alt=""><figcaption><p>Available Forms: Submissions</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Change Form Stage
 

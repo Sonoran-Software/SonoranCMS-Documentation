@@ -16,7 +16,7 @@ In the `Forms` panel, select the green `+` button to create a new form.
 
 ## Form Customization
 
-<figure><img src="../../.gitbook/assets/Screenshot (358).png" alt=""><figcaption><p>Form Editor: Diagram</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -35,31 +35,47 @@ In the `Forms` panel, select the green `+` button to create a new form.
 
 (5) Section Header
 
-[(6) Section Conditional](creating-custom-forms.md#conditional-sections)
+(6) Delete Section
 
-(7) Question Title
+[(7) Section Conditional](creating-custom-forms.md#conditional-sections)
 
-(8) Question Type (Text, select, etc.)
+[(8) Section Duplicate](creating-custom-forms.md#duplicatable-sections)
 
-(9) Add Section
+(9) Question Title
 
-(10) Add Question
+(10) Question Type (Text, select, etc.)
 
-(11) Question Subtext
+(11) Add Section
 
-[(12) Text Mask](creating-custom-forms.md#text-mask)
+(12) Add Question
 
-(13) Clone Field, Remove, and Required
+(13) Question Subtext
+
+[(14) Text Mask](creating-custom-forms.md#text-mask)
+
+(15) Clone Field
+
+(16) Remove Field
+
+(17) Required Field
 
 </details>
 
 ### Form Settings
 
+<details>
+
+<summary>Form Settings</summary>
+
 Form settings allows you to lock and unlock submissions, set submission limits, restrict submission permissions, customize the submission board title format, and add a description.
 
 <figure><img src="../../.gitbook/assets/Screenshot (359).png" alt=""><figcaption></figcaption></figure>
 
-#### Locking a Form
+</details>
+
+<details>
+
+<summary>Locking a Form</summary>
 
 You can lock and unlock form submissions in the form settings, or from the main form editor panel. This prevents users from submitting new forms of this type.
 
@@ -67,11 +83,21 @@ You can lock and unlock form submissions in the form settings, or from the main 
 
 <figure><img src="../../.gitbook/assets/image (41).png" alt="" width="375"><figcaption><p>Available Forms: Locked Form Example</p></figcaption></figure>
 
-#### Icon or Image
+
+
+</details>
+
+<details>
+
+<summary>Icon or Image</summary>
 
 The form icon/image is displayed in the available forms page and on [social embeds](../../pricing/pricing-faq/branding-removal.md#social-page-embeds).
 
-#### Limits
+</details>
+
+<details>
+
+<summary>Limits</summary>
 
 Total: Restrict the maximum number of submissions per-user in the specified time window.
 
@@ -79,13 +105,21 @@ Cooldown: Specify the wait time between submissions within the specified time wi
 
 <div><figure><img src="../../.gitbook/assets/Screenshot (363).png" alt=""><figcaption><p>Limits: Total</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot (364).png" alt=""><figcaption><p>Limits: Cooldown</p></figcaption></figure></div>
 
-#### Permissions
+</details>
+
+<details>
+
+<summary>Permissions</summary>
 
 Easily customize what user ranks have access to submit applications, view submissions, change the form stage, and more.
 
 <figure><img src="../../.gitbook/assets/Screenshot (365).png" alt=""><figcaption><p>Form Permissions</p></figcaption></figure>
 
-#### Submission Title
+</details>
+
+<details>
+
+<summary>Submission Title</summary>
 
 Customize submission titles on the form submission board with variables.
 
@@ -93,11 +127,21 @@ Click the `</>` icon to view available variables. Additionally, copy any form qu
 
 <div><figure><img src="../../.gitbook/assets/Screenshot (366).png" alt=""><figcaption><p>Title Format</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot (367).png" alt=""><figcaption><p>Title Variables</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt="" width="375"><figcaption><p>Submission Board</p></figcaption></figure></div>
 
-#### Description
+</details>
+
+<details>
+
+<summary>Description</summary>
 
 The form description is displayed at the top of the form when submitting. Additionally, the description will be displayed in [social embeds](../../pricing/pricing-faq/branding-removal.md#social-page-embeds) when sharing a link.
 
+</details>
+
 ### Text Mask
+
+<details>
+
+<summary>Text Mask</summary>
 
 Text masks allow you to force a specific format on form questions.
 
@@ -113,7 +157,13 @@ Ex: Mask `(###) ### - ####` forces the input to be all numbers, formatted as `(1
 | `X`   | Alphanumeric, transformed to uppercase for letters |
 | `x`   | Alphanumeric, transformed to lowercase for letters |
 
-#### Conditional Sections
+</details>
+
+### Conditional Sections
+
+<details>
+
+<summary>Conditional Sections</summary>
 
 Sections can be displayed conditionally, based on the answer or selection of a previous section's question.
 
@@ -121,17 +171,39 @@ Toggle the conditional section on, select the question it will be conditional on
 
 <figure><img src="../../.gitbook/assets/Screenshot (368).png" alt=""><figcaption></figcaption></figure>
 
+</details>
+
+### Duplicatable Sections
+
+<details>
+
+<summary>Duplicatable Sections</summary>
+
+Sections can be marked as duplicatable, allowing the user to add multiple copies of a section to their submission.
+
+Toggle the section duplication at the top inside the form editor.
+
+When the user is submitting the form, they can select the duplicate button at the top of the section to make multiple copies.
+
+<div><figure><img src="../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure></div>
+
+</details>
+
 ## Form Stages
 
 Form stages allow for automated actions when the form status/stage is changed.
 
-Ex: When changing a user's membership application from `Pending` to `Accepted` you can send them an automated message, apply ranks, and more.
+Ex: When changing a user's membership application from **Pending** to **Accepted** you can send them an automated message, apply ranks, and more.
 
 ### Customizing Stages
 
+<details>
+
+<summary>Customizing Stages</summary>
+
 Stages can be customized in the submission board.
 
-<figure><img src="../../.gitbook/assets/Screenshot (369).png" alt=""><figcaption><p>Form Editor: Go To Submissions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption><p>Form Editor: Go To Submissions</p></figcaption></figure>
 
 Select the desired form to view the available stages.
 
@@ -147,13 +219,21 @@ The `Actions` tab allows you to customize automated actions that will occur when
 
 <figure><img src="../../.gitbook/assets/Screenshot (373).png" alt=""><figcaption><p>Stage Editor: Actions</p></figcaption></figure>
 
+</details>
+
 ### Conditional Stages
+
+<details>
+
+<summary>Conditional Stages</summary>
 
 Form stage actions can be conditional, meaning they will only trigger if a certain question response was selected.
 
 The example action below shows that the email will only be sent if the form submitter selects `Yes` to the question `Would you like us to email you more information?`
 
 <div><figure><img src="../../.gitbook/assets/Screenshot (374).png" alt=""><figcaption><p>Stage Action: Conditional Question</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="255"><figcaption><p>Form Submission: Conditional Question</p></figcaption></figure></div>
+
+</details>
 
 ### Form Submissions: Submit, View, and Change Stages
 
