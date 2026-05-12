@@ -10,6 +10,42 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.4.1 05/12/2026
+
+{% tabs %}
+{% tab title="New" %}
+Forms: Duplicate Section
+
+* Added the ability to add sections that can be duplicated for more entries by the user
+
+Drive Document Protected Permissions
+
+* Added a separated permission for users to mark drive documents as private, locking down copy functionality and adding watermarks
+
+Form Promotions
+
+* Added a custom form stage action to run a promotional flow on a specific user
+
+AI Search Help
+
+* Added a help modal for AI documentation search and feedback
+
+API Trace Logging
+
+* Added internal logging for API trace IDs allowing for better debugging for third-party developers
+{% endtab %}
+
+{% tab title="Changed" %}
+Radio Sync v2 API
+
+* Updated the CMS x Radio permission sync to use the new v2 API
+
+CAD Sync v2
+
+* Updated the CMS x CAD permission sync to use the new v2 API
+{% endtab %}
+
+{% endtabs %}
 ### 1.4.0 05/01/2026
 
 {% tabs %}
