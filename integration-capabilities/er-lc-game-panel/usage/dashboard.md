@@ -62,11 +62,11 @@ On each player card, a clock icon will show the current connection time. Player 
 
 Clicking on a player opens a modal with more information and player actions. Here, you can kick, ban, or add disciplinary points. Additionally, you can view their linked Discord account and Roblox profile.
 
-#### Player Recent Activity
+**Player Recent Activity**
 
 The `Activity` expansion area will show all recent player logs and records. Click the orange icon to change between viewing all activity and viewing [player records](player-records.md) only.
 
-#### Player Vehicle
+**Player Vehicle**
 
 The `Vehicle` expansion area will show the player's current vehicle in-game.
 
@@ -100,7 +100,7 @@ Use the search bar to find logs by username, or apply filters to locate specific
 
 [Request form types](moderation.md#request-form-types) will also be displayed at the top of the activity box.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

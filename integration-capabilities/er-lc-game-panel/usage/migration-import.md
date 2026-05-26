@@ -20,7 +20,7 @@ On the Melonly dashboard select **Settings** > **Panel** > **Server API Tokens**
 
 Create and copy the API token to be used with Sonoran CMS.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -34,9 +34,9 @@ Create and copy the API token to be used with Sonoran CMS.
 
 Select **Import** on the side panel > **Melonly** > paste your Melonly API Token > **Initiate Import**
 
-Once started, the CMS will begin importing your Melonly player logs, including any custom log types. After a few minutes, your Melonly logs will begin to display in the activity feed and&#x20;
+Once started, the CMS will begin importing your Melonly player logs, including any custom log types. After a few minutes, your Melonly logs will begin to display in the activity feed and
 
-<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>CMS: Import Melonly Logs</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>CMS: Import Melonly Logs</p></figcaption></figure></div>
 
 </details>
 
@@ -55,4 +55,3 @@ You can [rename these custom log types from Melonly properly in the Moderation p
 <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 </details>
-

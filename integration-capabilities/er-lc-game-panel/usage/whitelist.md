@@ -20,7 +20,7 @@ Toggle the `Roblox` and/or `Discord` requirement(s). Then, define custom actions
 
 Available actions include public or private in-game messages, Discord webhooks, push notifications, and more.
 
-<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="243"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="243"><figcaption></figcaption></figure></div>
 
 </details>
 
@@ -52,7 +52,7 @@ Each ER:LC team can be locked down to a maximum amount of players. Teams can be 
 
 <summary>Lock via CMS</summary>
 
-Next to the team, select the **Lock** icon to enable or disable the lock, then enter a number into the **Max**&#x20;
+Next to the team, select the **Lock** icon to enable or disable the lock, then enter a number into the **Max**
 
 Use the **Shield** icon to add CMS ranks that bypass and ignore this lock.
 

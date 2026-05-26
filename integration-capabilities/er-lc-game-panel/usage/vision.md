@@ -24,7 +24,7 @@ Vision keybinds and other settings are available under **Community Settings** > 
 
 By default, the vision keybind is **Command/Control + Shift + O**. This can be customized by clicking on the keybind to record, pressing a new keybind combination, and clicking to save it.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </details>
 
@@ -34,7 +34,7 @@ By default, the vision keybind is **Command/Control + Shift + O**. This can be c
 
 Vision captures a small area around your cursor to detect and search for usernames. The capture box can be adjusted in size and vertically offset from the cursor for precise alignment. Use the eye icon to preview the exact dimensions and position of the capture area in real time.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="186"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="186"><figcaption></figcaption></figure>
 
 </details>
 
@@ -70,7 +70,7 @@ In order to utilize CMS vision, users must have the following [rank permissions]
 
 On Mac OSX, Vision requires explicit permissions to access your screen. If not granted, a red notice will appear in the settings menu. Select **Open System Settings** > **Select the + Symbol** > Select **Sonoran CMS** from your **Applications** folder.
 
-<div><figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 </details>
 

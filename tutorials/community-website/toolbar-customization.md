@@ -1,36 +1,32 @@
 ---
-description: Customize your community's toolbar within the Sonoran CMS website builder!
+description: >-
+  Customize your community's navigation toolbar within the Sonoran CMS website
+  builder!
 ---
 
 # Toolbar Customization
 
-Sonoran CMS allows you to customize the top toolbar with buttons to link your users to whatever your community needs.
+<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
 
-![Sonoran CMS - Toolbar Customization](<../../.gitbook/assets/Screenshot (277).png>)
+Customize your community's navigation bar with links to custom webpages, rosters, Drive files, and more!
 
-To customize your community's toolbar head over to the `Administrative Panel` > `Website Builder`. From there you can add buttons, dropdowns and community image with various options.
-
-To add a new button or dropdown, click the green plus button to add it to the end of your toolbar, or drag-and-drop the button to whatever position within the toolbar you'd like.
-
-If you would like to reorder items in the toolbar, simply drag-and-drop them into their new position.
-
-Each button and drop down option has a label and link associated with it, with these set they will be displayed to all community users.
-
-If you make any changes, it will automatically save.
-
-{% hint style="info" %}
-Privatized pages will not show up in the toolbar or in a dropdown in the toolbar for any user that lacks the required permissions to view them.
-{% endhint %}
+Open the editor under **Administration Panel** > **Website Builder** > **Navigation Bar**
 
 ## Styling & Customization
 
-### Header Design
+Select the **Paint Palette** icon to open the navigation bar settings. Here, you can customize the color, custom CSS classes/styles, and the scroll behavior.
 
-The orange `Header Design` button opens a menu that will let you customize the group alignment, background color and admin cog setting. You can also drag and drop elements to change the display order.
+<div><figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/Screenshot (278).png" alt=""><figcaption><p>Sonoran CMS - Toolbar Customization - Header Design</p></figcaption></figure>
+## Button Customization
+
+Select the green **Plus** button to add a new button or dropdown button to the toolbar. Buttons can be reordered via drag-and-drop.
 
 ### Button Styling
+
+<details>
+
+<summary>Button Styling</summary>
 
 You can also customize the title, font, color and specific links for any button or dropdown menu. To open the design panel, simply click on any button or dropdown in the Toolbar Customization editor.
 
@@ -38,7 +34,13 @@ You can also customize the title, font, color and specific links for any button 
 
 <figure><img src="../../.gitbook/assets/Screenshot (281).png" alt=""><figcaption><p>Sonoran CMS - Toolbar Customization - Styles Selection</p></figcaption></figure>
 
+</details>
+
 ### Dropdown Styling
+
+<details>
+
+<summary>Dropdown Styling</summary>
 
 With dropdowns, you can also customize not only the styling of the dropdown button itself, but of every option within the dropdown. This is also where you go to add any destination links within the dropdown.
 
@@ -46,7 +48,13 @@ With dropdowns, you can also customize not only the styling of the dropdown butt
 
 <figure><img src="../../.gitbook/assets/Screenshot (283).png" alt=""><figcaption><p>Sonoran CMS - Toolbar - Customized Dropdown</p></figcaption></figure>
 
+</details>
+
 ### Destination Options
+
+<details>
+
+<summary>Button Destination Options</summary>
 
 Within any button or dropdown you are give the option to link a variety of different things, from another page in the community, to external pages, to documents in your community's drive to management panels and more!
 
@@ -62,9 +70,11 @@ From here, you can select the destination of the link using the chain icon:
 
 <figure><img src="../../.gitbook/assets/Screenshot (287).png" alt=""><figcaption><p>Sonoran CMS - Toolbar Customization - Link Button</p></figcaption></figure>
 
+</details>
+
 ## Toolbar Item Permissions
 
-Toolbar items that lead to permission-restricted areas (such as private pages or admin panels) automatically show or hide based on whether the user has access to the destination.
+Toolbar items that lead to permission-restricted areas (such as [private pages](website-builder.md#privatized-pages) or admin panels) automatically show or hide based on whether the user has access to the destination.
 
 Access to specific toolbar link destinations can be configured in the [rank manager](../user-management/creating-departments.md).
 
