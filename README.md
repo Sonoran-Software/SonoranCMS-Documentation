@@ -23,7 +23,7 @@ Manage your community's documents, spreadsheets, and presentations natively in t
 
 [Create and live edit documents](tutorials/your-drive-and-documents.md) to share with members based on rank. Sonoran CMS allows you to watermark documents as sensitive, organize files with folders, and more!
 
-<figure><img src=".gitbook/assets/CMSDriveUpdate.png" alt=""><figcaption><p>CMS - Document Drive</p></figcaption></figure>
+<figure><img src=".gitbook/assets/file-drive-promo-clean.png" alt=""><figcaption><p>CMS - Document Drive</p></figcaption></figure>
 
 ## 🌐 [Website Builder](tutorials/community-website/website-builder.md) and [Forums](tutorials/community-website/forum-system.md)
 
@@ -33,9 +33,7 @@ Create custom pages with community information, multi-media, announcements, and 
 
 Sonoran CMS even allows you to add [community forums](tutorials/community-website/forum-system.md) for posts, discussions, and more!
 
-![Sonoran CMS - Custom Pages](.gitbook/assets/web-updated.png)
-
-<figure><img src=".gitbook/assets/cms.forums.png" alt=""><figcaption></figcaption></figure>
+![Sonoran CMS - Custom Pages](<.gitbook/assets/image (1).png>)
 
 ## 💬 [Discord Role Management](integration-capabilities/discord-bot-integration.md)
 
