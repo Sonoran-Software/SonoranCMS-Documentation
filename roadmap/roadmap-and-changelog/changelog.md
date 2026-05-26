@@ -20,7 +20,11 @@ Website Builder v3
 
 Document Editor UI Refresh
 
-* Major UI refresh of the Drive document editor for a more simplistic layout
+* Major UI refresh of the Drive document editor for a more simplistic layout.
+
+Navigation Bar Customization
+
+* Added new customization options to the community navigation bar including CSS, sticky behavior, and more.
 {% endtab %}
 
 {% tab title="Changed" %}
@@ -35,9 +39,13 @@ Discord Advertise Format
 User Account Avatar Update
 
 * Admins can now update their avatar directly from the user account menu instead of only their profile page. Resolved additional issues with cache updates.
-{% endtab %}
 
+User Account Permission
+
+* Improved permission explaination tooltips when viewing a user account.
+{% endtab %}
 {% endtabs %}
+
 ### 1.4.1 05/12/2026
 
 {% tabs %}
@@ -72,8 +80,8 @@ CAD Sync v2
 
 * Updated the CMS x CAD permission sync to use the new v2 API
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.4.0 05/01/2026
 
 {% tabs %}
@@ -112,8 +120,8 @@ Discord Role Search Improvements
 
 * Improved UI for Discord role search drop-downs
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.3.10 04/16/2026
 
 {% tabs %}
@@ -158,8 +166,8 @@ Database Audit
 
 * Pruned and optimized the database to remove old and unused data
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.3.9 03/27/2026
 
 {% tabs %}
