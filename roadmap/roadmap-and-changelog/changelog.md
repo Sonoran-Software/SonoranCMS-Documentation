@@ -10,6 +10,34 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.5.0 05/26/2026
+
+{% tabs %}
+{% tab title="New" %}
+Website Builder v3
+
+* A major overhaul of the website builder with custom CSS handling, containers, and more.
+
+Document Editor UI Refresh
+
+* Major UI refresh of the Drive document editor for a more simplistic layout
+{% endtab %}
+
+{% tab title="Changed" %}
+Rank Manager UI Improvements
+
+* Updated the rank manager UI to a more simplistic click to edit rank system.
+
+Discord Advertise Format
+
+* Fixed issues with the advertise-here Discord channel formatting on discovery bump
+
+User Account Avatar Update
+
+* Admins can now update their avatar directly from the user account menu instead of only their profile page. Resolved additional issues with cache updates.
+{% endtab %}
+
+{% endtabs %}
 ### 1.4.1 05/12/2026
 
 {% tabs %}
