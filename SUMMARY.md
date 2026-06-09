@@ -89,6 +89,8 @@
     * [Logs](integration-capabilities/fivem-game-panel/vmenu-panel/logs.md)
     * [Resources](integration-capabilities/fivem-game-panel/vmenu-panel/resources.md)
     * [Aces & Principals](integration-capabilities/fivem-game-panel/vmenu-panel/aces-and-principals.md)
+  * [Troubleshooting](integration-capabilities/fivem-game-panel/troubleshooting/README.md)
+    * [Error Codes](integration-capabilities/fivem-game-panel/troubleshooting/error-codes.md)
 * [ER:LC Game Panel](integration-capabilities/er-lc-game-panel/README.md)
   * [Installation](integration-capabilities/er-lc-game-panel/installation.md)
   * [Usage](integration-capabilities/er-lc-game-panel/usage/README.md)
