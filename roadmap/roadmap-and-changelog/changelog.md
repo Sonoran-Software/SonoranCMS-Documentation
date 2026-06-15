@@ -10,6 +10,48 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.5.2 06/15/2026
+
+{% tabs %}
+{% tab title="New" %}
+Radio Sync Call Permission
+
+* Added radio permission sync support for the new emergency call permission.
+
+Roster Live Edit
+
+* Viewing a roster and clicking a row now allows you to open and edit the user account directly
+
+Account List View
+
+* Added a compact list view for user accounts in the admin panel
+
+Drive Document History
+
+* Added a revision history tab to the Drive document editor to view historical document edits
+{% endtab %}
+
+{% tab title="Changed" %}
+Websocket and Authentication Refactor
+
+* Refactored authentication and gateway logic to be heavily optimized
+
+Profile and Account Editor Overhaul
+
+* Overhauled the account editor and combined it with the user profile for a single component
+
+Drive Improvements
+
+* Added an import via Google Drive system, favorites, trash, and several other general improvements.
+{% endtab %}
+
+{% tab title="Fixed" %}
+Profile Field Display
+
+* Fixed an issue causing some user profiles to not display all custom fields
+{% endtab %}
+
+{% endtabs %}
 ### 1.5.1 06/02/2026
 
 {% tabs %}
