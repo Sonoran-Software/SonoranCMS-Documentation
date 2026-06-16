@@ -141,7 +141,7 @@ Files allowed for upload include:
 ### Migrate Files from Google Drive
 
 {% hint style="warning" %}
-Due to security restrictions from Google, imports from Google Drive must be completed on the main SonoranCMS.com URL or&#x20;
+Due to security restrictions from Google, imports from Google Drive must be completed on the main sonorancms.com URL or app. Communities on a [custom domain](customization/custom-domain.md#custom-domain) must use the main website or app to complete this process.
 {% endhint %}
 
 <details>
