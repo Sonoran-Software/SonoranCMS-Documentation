@@ -112,7 +112,21 @@ When viewing any document in the CMS Drive, select the **Revision History** butt
 
 You can also change the sensitivity of the document. With sensitive mode enabled, viewers will not be able to download, print, or copy the document. A watermark will also be added.
 
+Marking documents as sensitive requires the **Protect Documents** permission.
+
 <div align="center"><img src="../.gitbook/assets/Screenshot (354).png" alt="Sonoran CMS - Sensitive Document Toggle" width="375"></div>
+
+</details>
+
+### Trash
+
+<details>
+
+<summary>Recently Deleted Drive Files</summary>
+
+Recently deleted files are shown in the **Trash** tab. Users can restore deleted files from the trash or permanently delete them with the **Delete From Trash** permission.
+
+Files in the trash are automatically deleted after seven days.
 
 </details>
 
