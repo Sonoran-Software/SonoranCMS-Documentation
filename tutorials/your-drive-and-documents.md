@@ -114,7 +114,7 @@ You can also change the sensitivity of the document. With sensitive mode enabled
 
 Marking documents as sensitive requires the **Protect Documents** permission.
 
-<div align="center"><img src="../.gitbook/assets/Screenshot (354).png" alt="Sonoran CMS - Sensitive Document Toggle" width="375"></div>
+<div><figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption><p>Editing Document marked as Restricted</p></figcaption></figure> <figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption><p>Viewing Document with Watermark</p></figcaption></figure></div>
 
 </details>
 
