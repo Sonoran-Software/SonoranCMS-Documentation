@@ -10,6 +10,26 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.5.4 06/23/2026
+
+{% tabs %}
+{% tab title="Changed" %}
+ER:LC Join URL
+
+* Updated the ER:LC panel's game join button URL
+
+Drive Import Improvements
+
+* Improved Oauth scopes for Google Drive import
+{% endtab %}
+
+{% tab title="Fixed" %}
+Document Watermarks
+
+* Fixed an issue with document protection not showing watermarks
+{% endtab %}
+
+{% endtabs %}
 ### 1.5.2 06/15/2026
 
 {% tabs %}
