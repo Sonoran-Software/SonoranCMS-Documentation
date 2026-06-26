@@ -17,9 +17,13 @@ description: View the latest changes to Sonoran CMS!
 Account Scroll to Load
 
 * Updated the account page to load on scroll instead of paging through the table manually.
-{% endtab %}
 
+Account Editor - Mobile
+
+* Improved the save button layout when editing an account on mobile.
+{% endtab %}
 {% endtabs %}
+
 ### 1.5.4 06/23/2026
 
 {% tabs %}
@@ -38,8 +42,8 @@ Document Watermarks
 
 * Fixed an issue with document protection not showing watermarks
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.5.2 06/15/2026
 
 {% tabs %}
@@ -80,8 +84,8 @@ Profile Field Display
 
 * Fixed an issue causing some user profiles to not display all custom fields
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.5.1 06/02/2026
 
 {% tabs %}
@@ -96,8 +100,8 @@ Roster View from Admin
 
 * Added the ability to view rosters directly from the admin editor panel.
 {% endtab %}
-
 {% endtabs %}
+
 ### 1.5.0 05/26/2026
 
 {% tabs %}
