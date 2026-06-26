@@ -10,6 +10,16 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.5.6 06/26/2026
+
+{% tabs %}
+{% tab title="Changed" %}
+Account Scroll to Load
+
+* Updated the account page to load on scroll instead of paging through the table manually.
+{% endtab %}
+
+{% endtabs %}
 ### 1.5.4 06/23/2026
 
 {% tabs %}
