@@ -10,6 +10,32 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.5.7 07/10/2026
+
+{% tabs %}
+{% tab title="New" %}
+Discord Forms
+
+* Added the ability to enable CMS forms to be completed via Discord command.
+{% endtab %}
+
+{% tab title="Changed" %}
+Stage Name Sizing
+
+* Improved the label area on stage names in the submission board to show more characters.
+
+Permission UI Refresh
+
+* Improved the UI for the rank permissions modal
+{% endtab %}
+
+{% tab title="Fixed" %}
+Roster Play Time Sort
+
+* Fixed issues with roster columns not properly sorting activity time up/down.
+{% endtab %}
+
+{% endtabs %}
 ### 1.5.6 06/26/2026
 
 {% tabs %}
