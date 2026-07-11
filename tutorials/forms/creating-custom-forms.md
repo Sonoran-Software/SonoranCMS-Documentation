@@ -69,7 +69,7 @@ In the `Forms` panel, select the green `+` button to create a new form.
 
 Form settings allows you to lock and unlock submissions, set submission limits, restrict submission permissions, customize the submission board title format, and add a description.
 
-<figure><img src="../../.gitbook/assets/Screenshot (359).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

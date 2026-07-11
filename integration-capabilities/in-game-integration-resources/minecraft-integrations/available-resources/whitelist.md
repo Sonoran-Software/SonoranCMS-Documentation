@@ -9,7 +9,7 @@ All players of your server must have their [API ID](../../../../developer-api-do
 {% endhint %}
 
 {% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](broken-reference)!
+Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](https://github.com/Sonoran-Software/SonoranCMS-Documentation/blob/master/integration-capabilities/in-game-integration-resources/minecraft-integrations/available-resources/broken-reference/README.md)!
 {% endhint %}
 
 This resource is a whitelist system that utilizes Sonoran CMS's game whitelist system by checking against that whitelist upon each player connection.
@@ -39,8 +39,6 @@ You can download a copy [here](https://github.com/Sonoran-Software/Sonoran-CMS-M
 Ensure that you download the one that has `plugin` in the name.
 {% endtab %}
 {% endtabs %}
-
-
 
 ### 2. Install the Resource
 
@@ -86,7 +84,7 @@ The config file is called `cmswhitelist-common.toml` in the config folder of you
 	"Server ID" = 1
 ```
 
-<table><thead><tr><th width="232.66666666666666">Value Name</th><th>Description</th><th>Default</th></tr></thead><tbody><tr><td>Server ID</td><td>This is the game server ID set in the CMS management panel.</td><td><code>1</code></td></tr><tr><td>Community ID</td><td>This is the community ID that is found in the API Integration section of the management panel.</td><td><code>""</code></td></tr><tr><td>Community API Key</td><td>This is the API key listed in the API Integration section of the management panel.</td><td><code>""</code> </td></tr><tr><td>Identifier Type</td><td>This controls whether a player's UUID or username is used for identifying.</td><td><code>"UUID"</code> (Recommended)</td></tr></tbody></table>
+<table><thead><tr><th width="232.66666666666666">Value Name</th><th>Description</th><th>Default</th></tr></thead><tbody><tr><td>Server ID</td><td>This is the game server ID set in the CMS management panel.</td><td><code>1</code></td></tr><tr><td>Community ID</td><td>This is the community ID that is found in the API Integration section of the management panel.</td><td><code>""</code></td></tr><tr><td>Community API Key</td><td>This is the API key listed in the API Integration section of the management panel.</td><td><code>""</code></td></tr><tr><td>Identifier Type</td><td>This controls whether a player's UUID or username is used for identifying.</td><td><code>"UUID"</code> (Recommended)</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Fabric" %}
@@ -103,7 +101,7 @@ The config file is called `sonorancms.json` in the config folder of your Minecra
 }
 ```
 
-<table><thead><tr><th width="232.66666666666666">Value Name</th><th>Description</th><th>Default</th></tr></thead><tbody><tr><td>Server_ID</td><td>This is the game server ID set in the CMS management panel.</td><td><code>1</code></td></tr><tr><td>Community_ID</td><td>This is the community ID that is found in the API Integration section of the management panel.</td><td><code>""</code></td></tr><tr><td><code>Community_API_Key</code></td><td>This is the API key listed in the API Integration section of the management panel.</td><td><code>""</code> </td></tr><tr><td>Identifier</td><td>This controls whether a player's UUID or username is used for identifying.</td><td><code>"UUID"</code> (Recommended)</td></tr></tbody></table>
+<table><thead><tr><th width="232.66666666666666">Value Name</th><th>Description</th><th>Default</th></tr></thead><tbody><tr><td>Server_ID</td><td>This is the game server ID set in the CMS management panel.</td><td><code>1</code></td></tr><tr><td>Community_ID</td><td>This is the community ID that is found in the API Integration section of the management panel.</td><td><code>""</code></td></tr><tr><td><code>Community_API_Key</code></td><td>This is the API key listed in the API Integration section of the management panel.</td><td><code>""</code></td></tr><tr><td>Identifier</td><td>This controls whether a player's UUID or username is used for identifying.</td><td><code>"UUID"</code> (Recommended)</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Bukkit/Spigot/Paper" %}
@@ -116,6 +114,6 @@ Identifier: UUID
 ServerID: 1
 ```
 
-<table><thead><tr><th width="232.66666666666666">Value Name</th><th>Description</th><th>Default</th></tr></thead><tbody><tr><td>ServerID</td><td>This is the game server ID set in the CMS management panel.</td><td><code>1</code></td></tr><tr><td>CommunityID</td><td>This is the community ID that is found in the API Integration section of the management panel.</td><td><code>''</code></td></tr><tr><td>CommunityAPIKey</td><td>This is the API key listed in the API Integration section of the management panel.</td><td><code>''</code> </td></tr><tr><td>Identifier</td><td>This controls whether a player's UUID or username is used for identifying.</td><td><code>UUID</code> (Recommended)</td></tr></tbody></table>
+<table><thead><tr><th width="232.66666666666666">Value Name</th><th>Description</th><th>Default</th></tr></thead><tbody><tr><td>ServerID</td><td>This is the game server ID set in the CMS management panel.</td><td><code>1</code></td></tr><tr><td>CommunityID</td><td>This is the community ID that is found in the API Integration section of the management panel.</td><td><code>''</code></td></tr><tr><td>CommunityAPIKey</td><td>This is the API key listed in the API Integration section of the management panel.</td><td><code>''</code></td></tr><tr><td>Identifier</td><td>This controls whether a player's UUID or username is used for identifying.</td><td><code>UUID</code> (Recommended)</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}

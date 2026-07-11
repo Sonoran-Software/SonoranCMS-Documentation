@@ -9,7 +9,7 @@ All players of your server must have their [API ID](../../../../developer-api-do
 {% endhint %}
 
 {% hint style="success" %}
-Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](broken-reference)!
+Looking for VPS, web, or dedicated hosting? Check out our official [server hosting](https://github.com/Sonoran-Software/SonoranCMS-Documentation/blob/master/integration-capabilities/in-game-integration-resources/roblox-integrations/available-resources/broken-reference/README.md)!
 {% endhint %}
 
 This resource is a whitelist system that utilizes Sonoran CMS's game whitelist system by checking against that whitelist upon each player connection.

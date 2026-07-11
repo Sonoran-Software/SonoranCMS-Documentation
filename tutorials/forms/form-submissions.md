@@ -6,6 +6,25 @@ description: Learn how to send and view form submissions.
 
 ## Submitting a Form
 
+### Via Discord
+
+Users can submit forms directly through Discord with the `/form` command. When a user submits a form the CMS will:
+
+* Ensure the user is linked to a Sonoran Account
+  * If not, it will give them a link to login with Discord or link their existing Sonoran Account with Discord
+
+<figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
+
+*   Ensure the user has joined yout CMS community
+
+    * If not, it will automatically join their Sonoran account to your CMS community
+
+    After running `/form` members can select the form they wish to complete, enter the values, and submit the form. Fields that would be automatically filled in the CMS will also be automatically completed for them.
+
+<div><figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure></div>
+
+### Via CMS
+
 The available applications page lists all forms that the user has permissions to submit.
 
 Select `Submit Form` to create a new form submission.

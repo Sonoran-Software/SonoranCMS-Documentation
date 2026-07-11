@@ -9,7 +9,7 @@ description: Track performance with in-depth community metrics.
 {% hint style="info" %}
 Community metrics are limited to the last 24 hours on free and standard plans.
 
-Full metric history is available with the [pro version](broken-reference/) of Sonoran CMS.
+Full metric history is available with the [pro version](https://github.com/Sonoran-Software/SonoranCMS-Documentation/blob/master/tutorials/administrative/growth-and-discovery/broken-reference/README.md) of Sonoran CMS.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot (431).png" alt=""><figcaption><p>Sonoran CMS - Growth Panel</p></figcaption></figure>
