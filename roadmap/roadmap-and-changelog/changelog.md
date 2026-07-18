@@ -10,6 +10,34 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.5.9 07/18/2026
+
+{% tabs %}
+{% tab title="New" %}
+ER:LC Panel UI Refresh
+
+* Additional UI improvements and color changes to the ER:LC management panel
+
+Mobile Growth Widget
+
+* Added mobile widgets for community stats
+{% endtab %}
+
+{% tab title="Changed" %}
+Account Scroll Zone
+
+* Improve the account scroll to load to be contained inside a container
+
+Stage Change Font Color
+
+* Improved the form submission stage change log color to have better contrast
+
+Mobile App Reconnection
+
+* Improved mobile app reconnection logic
+{% endtab %}
+
+{% endtabs %}
 ### 1.5.7 07/10/2026
 
 {% tabs %}
