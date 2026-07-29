@@ -10,6 +10,40 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.5.10 07/29/2026
+
+{% tabs %}
+{% tab title="New" %}
+ERLC Custom Layout
+
+* Added dashboard panel layout customization for the ER:LC management panel
+
+Roster Conditions
+
+* Added advanced flow charts for roster conditions. Allowing communities to set a column value based on multiple other if/then conditions.
+{% endtab %}
+
+{% tab title="Changed" %}
+Accounts Mobile Pagination
+
+* Improved loading of user accounts on mobile view by keeping action buttons fixed at the top
+
+Mobile Notification Width
+
+* Fixed an issue with the notification center cards allowing some extra side scrolling on mobile.
+
+Billing Portal Overhaul
+
+* General UI overhauls to the billing portal
+{% endtab %}
+
+{% tab title="Fixed" %}
+Rank Permission Toggle All
+
+* Fixed an issue with the toggle all permissions grant/deny button from being cut off in certain browsers.
+{% endtab %}
+
+{% endtabs %}
 ### 1.5.9 07/18/2026
 
 {% tabs %}
