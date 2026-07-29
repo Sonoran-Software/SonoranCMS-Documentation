@@ -1,105 +1,115 @@
 ---
 description: >-
-  Is it time for you to start creating rosters for your community? Follow this
-  page for more information!
+  Track community members, in-game activity time, and more all in one place with
+  custom columns and automations.
 ---
 
 # Creating Rosters
 
-{% embed url="https://app.guidde.com/share/playbooks/vAFoos7FETJaLpf7S3G346?origin=G25dDmjNZ2b8ccFUz9X7G7W8T1k1" %}
-
 ## Accessing the Roster Editor
 
-To access the "Roster Editor", navigate to `Administrative Panel` > `Rosters`
+Rosters can be configured in the **Admin** panel > **Rosters**
 
-![Sonoran CMS - Roster Editor Overview](../../.gitbook/assets/opera_azuiWkgdFy.png)
+<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
-Within this "Roster Editor" panel you'll be able to create custom and automatic rosters with whatever columns you please. You can specify some of the columns to utilize the custom column types that are in place such as the:
+Hover over a roster to **View** or **Edit**, or use the **Add Roster** button to create a new one.
 
-* **Patrol Log Hours** column type requires a custom form to be created that is a Form Type of `Patrol Log`.
-  * This column type will automatically calculate hours based on form submissions from a specific time till the current time.
-* **Status Selector** column type allows the roster to display custom statuses set in the "Roster Statuses" section of the Roster Editor.
-* **Activity Tracker Hours** column type displays how many hours a user has played on the selected server in a specified time period.
-  * This requires that you've added a server in `Settings` > `SonoranCMS API` > `Servers` and have also set up an [in-game integration resource](https://info.sonorancms.com/integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core) on that server.
-* **Last Active** column type displays the date and time which a user was last active on the selected server.
-  * Just like with **Activity Tracker Hours**, this also requires that you've added a server in `Settings` > `SonoranCMS API` > `Servers` and have also set up an [in-game integration resource](https://info.sonorancms.com/integration-capabilities/in-game-integration-resources/gta-rp-integrations/available-resources/core) on that server.
+## Creating Rosters
 
-{% hint style="warning" %}
-If using a field of type **Patrol Log**, **Activity Tracker Hours**, or **Last Active**, ensure that you select a form or server from the "Source Form" / "Source Server" dropdown.
+### Roster Types
 
-For the former two, also ensure you specify the date range or time period that the data should be sourced from.
-{% endhint %}
+There are three types of rosters to choose from:
 
-<figure><img src="../../.gitbook/assets/Screenshot (240).png" alt=""><figcaption><p>Sonoran CMS - Create Custom Roster</p></figcaption></figure>
+* **Selected Ranks**: This allows you to select specific CMS ranks. Anyone with these ranks will automatically appear on the roster.
+* **Manual**: This allows you to manually add each member and row to the roster.
 
-Along the top bar of the editor itself, you can also select an icon which will show at the top of the roster.
+### Roster Columns
 
-## Roster Customization & Permissions
+Drag-and-drop columns to add them to your custom roster.
 
-You also have customization options for the display of any column you have added to the roster. To edit these, click on any column to open the editor popup.
+<details>
 
-If you have a column of type **Time Log Hours**, you can select what form the time logs are being pulled from. Similarly, you can also set the date type to choose whether it pulls time log hours from the last X days, after X date, or within the selected date range.
+<summary>General Columns</summary>
 
-For each column in the roster editor, you can customize the styling including text color, background color, font, and alignment, as well as the name of the column itself. You can style the content cells differently from the header cell if you wish.
+The **General** columns include text, textarea, select, checkbox, date, and time.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-10-22 145034.png" alt="" width="563"><figcaption><p>Sonoran CMS - Roster Editor - Edit Roster Column</p></figcaption></figure>
+</details>
 
-### Style Rule Builder
+<details>
 
-In the `Style` tab, you can use the rule builder to set conditionals that change the style of cells that meet the given criteria. For example, if you have a column for `Community Name`, you can create a style rule where if a user's `Community Name` is `equal to` a certain value, in this example, `SonoranAdam`, then the styling will be what has been set below `Then:`.
+<summary>Member Columns</summary>
 
-<figure><img src="../../.gitbook/assets/CMS_RosterRuleBuilder.png" alt="" width="389"><figcaption><p>Sonoran CMS - Roster Editor - Rule Builder</p></figcaption></figure>
+The **Member Data** columns include automatic fields for the user like their ID, name, rank, primary identifier, and current disciplinary points.
 
-As you can see, the user `SonoranAdam` now has a red background with green text in Impact font, as specified in the Rule Builder above:
+</details>
 
-<figure><img src="../../.gitbook/assets/CMS_RosterNameHighlight.png" alt=""><figcaption><p>Sonoran CMS - Example Roster</p></figcaption></figure>
+<details>
 
-You can also use rules for if a value is `greater than`, `less than`, or `not equal to` a set value.
+<summary>Time Columns</summary>
 
-### Roster Permissions
+The **Time** columns include automatic fields like time log hours, activity tracker hours, and last active date.
 
-You can also customize the roster's permissions, which determine who is allowed to view and edit it. These permissions apply to the roster as a whole. If you would like to restrict viewing a certain column to only specified ranks, please see [Column Permissions](creating-custom-rosters.md#column-permissions)
+**Activity Tracker Hours**
 
-These permissions are housed within [Department & Rank Permissions](../user-management/creating-departments.md) and can be customized for any rank on any individual roster as shown belo**w:**
+* This column shows the current amount of in-game time for the selected date range. These hours are automatically calculated whenever a user joins and leaves your game server.
+  * For [ER:LC](../../integration-capabilities/er-lc-game-panel/) communities, you can also select the specific team(s) to show.
+  * [FiveM](../../integration-capabilities/fivem-game-panel/) communities are also automated.
+  * Our [API](../../developer-api-documentation/api-integration/api-endpoints-v2/servers/activity-tracker-server-start.md) can be used for custom games that don't currently have a management panel.
+
+**Time Log Hours**
+
+* This column shows the current amount of player time from the clock in/out system. It must be pointed to a form type with the time clock section added.
+
+</details>
+
+<details>
+
+<summary>Social Columns</summary>
+
+The **Social** columns include automatic fields for Discord ID/username/nickname, TeamSpeak ID, and Roblox ID/Username.
+
+</details>
+
+## Roster Customization
+
+<details>
+
+<summary>Column Styles</summary>
+
+Select a column to open the editor. Here, you can customize the alignment, text color, cell color, and more.
+
+</details>
+
+<details>
+
+<summary>Actions</summary>
+
+Roster columns can have additional conditional options to set the values and styles. Select a column to open the editor and select the **Actions** tab. The flowchart can be expanded to add IF/THEN conditions to set the value(s) and style(s).
+
+Ex: This flowchart sets the **Status** column to **Active** if their in-game hours (via activity tracker column) is greater than 1.5 hours. If not, it will set the status column to **In-Active** or **Exempt** based on them having a specific rank or not.
+
+<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+## Roster Permissions
+
+<details>
+
+<summary>Column Permissions</summary>
+
+Columns can also be set to only be visible based on a user's ranks. Select a column to open the editor and use the **Permissions** tab. On the **Allowed Ranks to View** button, select the custom CMS ranks that are allowed to view the column.
+
+</details>
+
+<details>
+
+<summary>Roster Permissions</summary>
+
+The [rank manager](../user-management/creating-departments.md) allows communities to configure who can view, edit, download, and other roster options.
 
 <figure><img src="../../.gitbook/assets/Screenshot (241).png" alt="" width="563"><figcaption><p>Sonoran CMS - Rank Editor - Roster Permissions</p></figcaption></figure>
 
-{% hint style="info" %}
-Whenever you create new rosters you will need to explicitly give ranks permissions to the new roster to be used by other individuals. This can be done in the [Department Manager](../user-management/creating-departments.md).
 
-If a user has permission to a specific roster they'll be able to access it on the left side menu under the "Rosters" dropdown.
-{% endhint %}
 
-### Column Permissions
-
-In the roster column editor, you can select any rank that you wish to be able to view a column. If you do not select any ranks, then the column will be viewable by all.
-
-<figure><img src="../../.gitbook/assets/Screenshot (242).png" alt=""><figcaption><p>Sonoran CMS - Roster Editor - Column Permissions</p></figcaption></figure>
-
-## Roster Type Explained
-
-#### Custom - Manually Add Rows
-
-This is the original roster type, this allows you to add and remove roster rows as you please that are associated to members. This allows you to determine the exact order in which rows are sorted.
-
-#### Department - Automatic
-
-This is an automatic roster type, this will automatically grab all community members that hold a rank within the specified department and will automatically generate a roster row for each one in the order which the ranks are listed within the department. This still allows you to edit data that's tied to a specific row. For example, if Johnny B. has a row and you want to add a note to the Note column then you can add it and it will be automatically fetched and added to the generated row.
-
-{% hint style="info" %}
-You **CANNOT** change the order which rows appear, they're sorted in which the ranks appear in the department and alphabetically by the member's name.
-{% endhint %}
-
-### Creating a Department Roster
-
-Creating a Department type roster is as easy as creating a custom roster without the headache of adding each individual row for each member. In the Roster Editor, along the top bar click the **Roster Departments** dropdown menu and select what department you would like this roster to be associated with.
-
-<figure><img src="../../.gitbook/assets/Screenshot (243).png" alt=""><figcaption><p>Sonoran CMS - Roster Department Selector</p></figcaption></figure>
-
-Once you've figured out the department for this roster you can now design the roster columns as you please.\
-\
-Don't forget to click the orange **Save** button once you've finished. Once it's saved you can go to the automatic roster and see all the generated rows.
-
-{% hint style="info" %}
-Rows **CANNOT** be removed from a department roster, these rows are dynamically generated with any previous data saved associated with it.
-{% endhint %}
+</details>
