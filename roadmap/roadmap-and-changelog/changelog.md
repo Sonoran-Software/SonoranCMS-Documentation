@@ -10,6 +10,42 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.5.11 08/14/2026
+
+{% tabs %}
+{% tab title="New" %}
+Discovery UI
+
+* Initial UI revamp of discovery, including voting, Discord invites, and more.
+
+New Community Walkthrough
+
+* Added a walkthrough tutorial for new community registrations.
+
+Admin Dashboard
+
+* Added a new landing page for the administration panel.
+{% endtab %}
+
+{% tab title="Changed" %}
+Rosters: Optional Timeclock Forms
+
+* Roster timeclock fields no longer have to be linked to a CMS form.
+
+Loading Animation
+
+* Added a new, custom loading animation for pages.
+
+Roster Tyles
+
+* Simplified roster creation to two types: Rank based and manual
+
+Roster Column Editor UI
+
+* UI improvements to the roster column editor
+{% endtab %}
+
+{% endtabs %}
 ### 1.5.10 07/29/2026
 
 {% tabs %}
