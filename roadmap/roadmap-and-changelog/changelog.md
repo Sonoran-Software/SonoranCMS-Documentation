@@ -10,6 +10,16 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.5.12 08/16/2026
+
+{% tabs %}
+{% tab title="Fixed" %}
+Login: Mobile Redirects and Header Layout
+
+* Fixed mobile sign-in callbacks and kept the header login icon and label aligned inline.
+{% endtab %}
+
+{% endtabs %}
 ### 1.5.11 08/14/2026
 
 {% tabs %}
