@@ -10,6 +10,16 @@ description: View the latest changes to Sonoran CMS!
 
 ## Changelog
 
+### 1.5.13 08/18/2026
+
+{% tabs %}
+{% tab title="New" %}
+FiveM Panel UI
+
+* UI refresh and improvements for the FiveM management panel
+{% endtab %}
+
+{% endtabs %}
 ### 1.5.12 08/16/2026
 
 {% tabs %}
